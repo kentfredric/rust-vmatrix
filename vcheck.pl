@@ -100,6 +100,11 @@ EOF
     my $exit =
       system( "/home/kent/bin/cargo.sh", "+${rustc_toolchain}", "build" );
     if ( $exit != 0 ) {
+        my $low  = $exit & 0b11111111;
+        my $high = $exit >> 8;
+        if ( $low == 2 ) {
+            die "\e[31;1mSIGINT detected\e[0m, quitting";
+        }
         printf "rustc %s w/ %s version %s \e[31mfail\e[0m\n", $rustc_version,
           $crate, $version;
         return undef;
