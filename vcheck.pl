@@ -97,8 +97,10 @@ EOF
         $fh->print("");
         close $fh or warn "Error closing $lib_path, $!";
     }
-    my $exit =
-      system( "/home/kent/bin/cargo.sh", "+${rustc_toolchain}", "build" );
+    my $exit = system(
+        "/home/kent/bin/cargo.sh", "+${rustc_toolchain}",
+        "build",                   "--verbose"
+    );
     if ( $exit != 0 ) {
         my $low  = $exit & 0b11111111;
         my $high = $exit >> 8;
