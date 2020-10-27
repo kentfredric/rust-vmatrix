@@ -23,7 +23,9 @@ our (@RUSTC) = (
 );
 my $batch_start = time;
 my $test_count  = 0;
-for my $rustc (@RUSTC) {
+my %used_pool;
+
+for my $rustc ( reverse @RUSTC ) {
     if ( -e "${VERSION_DEST_PREFIX}${rustc}" ) {
         warn "Results found for $CRATE on rustc-$rustc, skipping";
         next;
@@ -49,6 +51,31 @@ my $avg        = ( $batch_stop - $batch_start ) / $test_count;
 printf
 "\e[34;1m* Suite run: %d seconds for %d version targets (%4.3f seconds per target)\e[0m\n",
   ( $batch_stop - $batch_start ), $test_count, $avg;
+for ( sort keys %used_pool ) {
+    printf "\e[34;1m*\e[0m Used Crate: \e[34;1m%s\e[0m\n", $_;
+}
+
+sub update_used {
+    my (%params) = @_;
+    my $work_dir = $params{work_dir};
+    my $crate    = $params{crate};
+
+    # Collect all dep names
+    if ( -d "${work_dir}/target/debug/build" ) {
+        opendir my $dfh, "${work_dir}/target/debug/build";
+        while ( my $ent = readdir $dfh ) {
+            next if $ent eq '.';
+            next if $ent eq '..';
+            if ( $ent =~ /\A(.*?)-[0-9a-f]{16}\z/ ) {
+                my ($dcrate) = $1;
+                next if $dcrate eq $crate;
+                next if exists $used_pool{$dcrate};
+                $used_pool{$dcrate} = 1;
+                printf "\e[33;1m*\e[0m used crate: \e[33;1m%s\e[0m\n", $dcrate;
+            }
+        }
+    }
+}
 
 sub get_versions {
     my ($path) = @_;
@@ -108,6 +135,10 @@ EOF
         "/home/kent/bin/cargo.sh", "+${rustc_toolchain}",
         "build",                   "--verbose"
     );
+    update_used(
+        work_dir => $work_dir,
+        crate    => $crate,
+    );
     if ( $exit != 0 ) {
         my $low  = $exit & 0b11111111;
         my $high = $exit >> 8;
@@ -164,24 +195,7 @@ sub do_testset {
         $fh->printf( "%s|%s\n", $result->{version}, $result->{message} );
     }
     close $fh or warn "Error closing $result_file, $!\n";
-    my $stop = time;
-
-    # Collect all dep names
-    if ( -d "${work_dir}/target/debug/build" ) {
-        my %unique;
-        $unique{$crate} = 1;
-        opendir my $dfh, "${work_dir}/target/debug/build";
-        while ( my $ent = readdir $dfh ) {
-            next if $ent eq '.';
-            next if $ent eq '..';
-            if ( $ent =~ /\A(.*?)-[0-9a-f]{16}\z/ ) {
-                my ($dcrate) = $1;
-                next if exists $unique{$dcrate};
-                $unique{$dcrate} = 1;
-                printf "\e[33;1m*\e[0m used crate: \e[33;1m%s\e[0m\n", $dcrate;
-            }
-        }
-    }
+    my $stop     = time;
     my $consumed = $stop - $start;
     my $ncrates  = scalar @$versions;
     my $atime    = $consumed / $ncrates;
