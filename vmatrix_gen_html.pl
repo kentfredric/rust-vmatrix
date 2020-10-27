@@ -69,11 +69,18 @@ $fh->print(<<"EOF");
       background-color: #00FF00;
       font-weight: 900;
     }
-    td.rustversion {
+    th.rustversion, th.crateversionheading {
       writing-mode: sideways-lr;
-      text-orientation: sideways;
+      /* Sorry Chrome and Opera, you're on your fucking own
+       */
+      -webkit-writing-mode: vertical-lr;
+      white-space: nowrap;
+      padding: 1px;
     }
-    td.rustversion, td.result {
+    th.crateversionheading {
+      width: 15px;
+    }
+    th.rustversion, td.result {
       width: 15px;
       height: 15px;
     }
@@ -86,15 +93,30 @@ $fh->print(<<"EOF");
 EOF
 $fh->print("<table>\n");
 $fh->print("<thead><tr>\n");
-$fh->print("<td class=\"corner\"></td>\n");
+$fh->print("<td class=\"corner\" colspan=\"2\"></td>\n");
+$fh->printf(
+    "<th class=\"rustversionheading\" colspan=\"%s\">Rust Version</td>\n",
+    scalar @rustc_order );
+$fh->print("</tr><tr>\n");
+$fh->print("<td class=\"corner\" colspan=\"2\"></td>\n");
+
 for (@rustc_order) {
-    $fh->printf( "<td class=\"rustversion\">%s</td>\n", $_ );
+    $fh->printf( "<th class=\"rustversion\">%s</th>\n", $_ );
 }
 $fh->print("</tr></thead>\n");
 $fh->print("<tbody>\n");
+my $is_first = 1;
 for my $version ( reverse @order ) {
     $fh->print("<tr>\n");
-    $fh->printf( "<td class=\"crateversion\">%s</td>\n", $version );
+    if ($is_first) {
+        undef $is_first;
+        $fh->printf(
+"<th class=\"crateversionheading\" rowspan=\"%s\">Crate:%s version</th>",
+            scalar @order,
+            $CRATE
+        );
+    }
+    $fh->printf( "<th class=\"crateversion\">%s</th>\n", $version );
     for my $rustc (@rustc_order) {
         if ( not exists $rustc_results{$rustc}{$version} ) {
             $fh->printf(
