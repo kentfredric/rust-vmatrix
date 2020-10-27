@@ -135,6 +135,8 @@ sub do_testset {
     my $work_dir        = $params{work_dir};
     my $result_file     = $params{result_file};
 
+    my $start = time();
+
     my (@results);
     for my $version ( reverse @$versions ) {
         if ( not defined $version->{version} ) {
@@ -162,5 +164,29 @@ sub do_testset {
         $fh->printf( "%s|%s\n", $result->{version}, $result->{message} );
     }
     close $fh or warn "Error closing $result_file, $!\n";
+    my $stop = time;
+
+    # Collect all dep names
+    if ( -d "${work_dir}/target/debug/build" ) {
+        my %unique;
+        $unique{$crate} = 1;
+        opendir my $dfh, "${work_dir}/target/debug/build";
+        while ( my $ent = readdir $dfh ) {
+            next if $ent eq '.';
+            next if $ent eq '..';
+            if ( $ent =~ /\A(.*?)-[0-9a-f]{16}\z/ ) {
+                my ($dcrate) = $1;
+                next if exists $unique{$dcrate};
+                $unique{$dcrate} = 1;
+                printf "\e[33;1m*\e[0m used crate: \e[33;1m%s\e[0m\n", $dcrate;
+            }
+        }
+    }
+    my $consumed = $stop - $start;
+    my $ncrates  = scalar @$versions;
+    my $atime    = $consumed / $ncrates;
+    printf
+"\e[33;1m* processed %d versions in %d seconds (%4.2f secs per version)\e[0m\n",
+      $ncrates, $consumed, $atime;
 }
 
