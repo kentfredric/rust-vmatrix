@@ -5,6 +5,13 @@
       .hint {
         color: #00DDFF;
       }
+      a {
+        color: cornflowerblue;
+        text-decoration: none;
+      }
+      a:hover,a:focus,a:active {
+          text-decoration: solid coral underline;
+      }
       h1 > a, h2 > a {
         font-size: 50%;
         color: grey;
