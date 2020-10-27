@@ -2,8 +2,9 @@
 use strict;
 use warnings;
 
-our $ROOT        = "/home/kent/rust/vmatrix";
-our $CRATE       = "gcc";
+our $ROOT  = "/home/kent/rust/vmatrix";
+our $CRATE = "libc";
+$CRATE = $ENV{CRATE} if exists $ENV{CRATE} and length $ENV{CRATE};
 our $VINDEX      = "versions.txt";
 our $OUTFILE     = "index.html";
 our $INFO_PREFIX = "rustc-";

@@ -5,7 +5,8 @@ use warnings;
 use Test::TempDir::Tiny qw( in_tempdir );
 use Capture::Tiny qw( capture );
 
-our $CRATE = "gcc";
+our $CRATE = "libc";
+$CRATE = $ENV{CRATE} if exists $ENV{CRATE} and length $ENV{CRATE};
 
 our $VERSION_BASE        = "/home/kent/rust/vmatrix";
 our $VERSION_SOURCE      = "${VERSION_BASE}/${CRATE}/versions.txt";
