@@ -11,7 +11,7 @@ our $INFO_PREFIX = "rustc-";
 my %versions;
 my %rustc_results;
 my (@order);
-
+my $crate_vspace = 0;
 for my $version ( get_versions("${ROOT}/${CRATE}/${VINDEX}") ) {
     next
       if exists $version->{message}
@@ -22,6 +22,9 @@ for my $version ( get_versions("${ROOT}/${CRATE}/${VINDEX}") ) {
       and $version->{message}
       and $version->{message} eq 'YANKED';
     my $v = $version->{version};
+    if ( length $v > $crate_vspace ) {
+        $crate_vspace = length $v;
+    }
     push @order, $v;
     $versions{$v} = {} unless exists $versions{$v};
 }
@@ -49,24 +52,38 @@ my $vspace = 0;
 for (@rustc_order) {
     $vspace = length $_ if $vspace < length $_;
 }
-my $padline = ( " " x 10 ) . ( " " x scalar @rustc_order );
-my (@vpad)  = map { $padline } 0 .. $vspace;
-my $index   = 0;
+
+# Each line needs to be as long as the # of rust versions
+my $padline = " " x scalar @rustc_order;
+
+# And we need as many of them as the longest rust version has chars
+my (@vpad) = map { $padline } 0 .. $vspace;
+
+# The output *column* we're currently writing to
+# relative to the rust-version block
+my $index = 0;
 for (@rustc_order) {
     my (@chars) = split //, $_;
-    my $row_index = $vspace;
+
+    # start writing in the *last* row
+    my $row_index = $#vpad;
     for my $char ( reverse @chars ) {
-        substr $vpad[$row_index], $index + 10, 1, $char;
+
+        # iteratively write upwards
+        # writing into the column that correlates with our current version
+        substr $vpad[$row_index], $index, 1, $char;
         $row_index--;
     }
     $index++;
 }
 for (@vpad) {
-    printf "%s\n", $_;
+
+    # write the block, but with aligning indent
+    printf " %s  %s\n", ( " " x $crate_vspace ), $_;
 }
 
 for my $version ( reverse @order ) {
-    printf "%8s: ", $version;
+    printf "%*s: ", $crate_vspace + 1, $version;
     for my $rustc (@rustc_order) {
         if ( not exists $rustc_results{$rustc}{$version} ) {
             print "?";
