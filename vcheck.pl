@@ -26,7 +26,7 @@ my $test_count  = 0;
 my %used_pool;
 
 for my $rustc ( reverse @RUSTC ) {
-    if ( -e "${VERSION_DEST_PREFIX}${rustc}" ) {
+    if ( not $ENV{UPDATE} and -e "${VERSION_DEST_PREFIX}${rustc}" ) {
         warn "Results found for $CRATE on rustc-$rustc, skipping";
         next;
     }
@@ -169,16 +169,36 @@ sub do_testset {
     my $start = time();
 
     my (@results);
+    my (%prev_results);
+    if ( -e $result_file ) {
+        warn "Loading past results from $result_file\n";
+        for my $prev ( get_versions($result_file) ) {
+            if ( not defined $prev->{version} ) {
+                require Data::Dump;
+                die "Bad line in $result_file: " . Data::Dump::pp($prev);
+            }
+            $prev_results{ $prev->{version} } = $prev;
+        }
+    }
     for my $version ( reverse @$versions ) {
         if ( not defined $version->{version} ) {
             require Data::Dump;
-            die Data::Dump::pp($version);
+            die "Bad line in version list: " . Data::Dump::pp($version);
         }
         if ( exists $version->{message} ) {
             warn
               "Skipping: $crate v$version->{version} : $version->{message}\n";
             push @results, $version;
             next;
+        }
+        if ( exists $prev_results{ $version->{version} } ) {
+            my $presult = $prev_results{ $version->{version} };
+            if ( exists $presult->{message} and length $presult->{message} ) {
+                warn
+"Skipping $crate v$version->{version}, previous result : $presult->{message}\n";
+                push @results, $presult;
+                next;
+            }
         }
         my $result = do_test(
             rustc_version   => $rustc_version,
