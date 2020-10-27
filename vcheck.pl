@@ -21,6 +21,8 @@ our (@RUSTC) = (
       1.40.0 1.41.1 1.42.0 1.43.1 1.44.1 1.45.2 1.46.0 1.47.0
       )
 );
+my $batch_start = time;
+my $test_count  = 0;
 for my $rustc (@RUSTC) {
     if ( -e "${VERSION_DEST_PREFIX}${rustc}" ) {
         warn "Results found for $CRATE on rustc-$rustc, skipping";
@@ -29,7 +31,7 @@ for my $rustc (@RUSTC) {
     in_tempdir "$CRATE-rustc$rustc" => sub {
         my $cwd = shift;
         my (@versions) = get_versions($VERSION_SOURCE);
-
+        $test_count += scalar @versions;
         printf "entering %s\n", $cwd;
 
         do_testset(
@@ -42,6 +44,11 @@ for my $rustc (@RUSTC) {
         );
     };
 }
+my $batch_stop = time;
+my $avg        = ( $batch_stop - $batch_start ) / $test_count;
+printf
+"\e[34;1m* Suite run: %d seconds for %d version targets (%4.3f seconds per target)\e[0m\n",
+  ( $batch_stop - $batch_start ), $test_count, $avg;
 
 sub get_versions {
     my ($path) = @_;
