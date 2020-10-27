@@ -57,6 +57,9 @@ $fh->print(<<"EOF");
       font-family: monospace;
       font-size: 10px;
     }
+    table {
+      table-layout: fixed;
+    }
     td.fail {
       background-color: #FF0000;
       color: #FFFFFF;
