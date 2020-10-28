@@ -60,9 +60,12 @@ sub update_used {
     my $work_dir = $params{work_dir};
     my $crate    = $params{crate};
 
+    my $build_dir = "${work_dir}/target/debug/build";
+    my $lock_file = "${work_dir}/Cargo.lock";
+
     # Collect all dep names
-    if ( -d "${work_dir}/target/debug/build" ) {
-        opendir my $dfh, "${work_dir}/target/debug/build";
+    if ( -d $build_dir ) {
+        opendir my $dfh, $build_dir or die "can't opendir $build_dir, $!";
         while ( my $ent = readdir $dfh ) {
             next if $ent eq '.';
             next if $ent eq '..';
@@ -73,6 +76,31 @@ sub update_used {
                 $used_pool{$dcrate} = 1;
                 printf "\e[33;1m*\e[0m used crate: \e[33;1m%s\e[0m\n", $dcrate;
             }
+        }
+    }
+
+    # scrape cargo.lock too
+    if ( -f $lock_file ) {
+        open my $fh, "<", $lock_file or die "Cant' read $lock_file, $!";
+        my $seen_pkg;
+        while ( my $line = <$fh> ) {
+            chomp $line;
+            if ( $line eq '[[package]]' ) {
+                $seen_pkg = 1;
+                next;
+            }
+          ignore: {
+                if ( $seen_pkg and $line =~ /\Aname = "([^"]+)"\s*\z/ ) {
+                    my $dcrate = $1;
+                    last ignore if $dcrate eq $crate;
+                    last ignore if exists $used_pool{$dcrate};
+                    last ignore if $dcrate eq 'test';
+                    $used_pool{$dcrate} = 1;
+                    printf "\e[33;1m*\e[0m used crate: \e[33;1m%s\e[0m\n",
+                      $dcrate;
+                }
+            }
+            $seen_pkg = undef;
         }
     }
 }
@@ -151,7 +179,8 @@ EOF
           $crate, $version;
         return undef;
     }
-    printf "\e[32;1m>>>>\e[0m rustc %s w/ %s version %s \e[32;1mpass\e[0m\n",
+    printf
+      "\e[32;1m>>>>\e[0m rustc %s w/ %s version %s \e[32;1mpass\e[0m\n",
       $rustc_version,
       $crate, $version;
     return 1;
