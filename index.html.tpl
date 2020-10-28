@@ -10,7 +10,10 @@
         text-decoration: none;
       }
       a:hover,a:focus,a:active {
-          text-decoration: solid coral underline;
+        text-decoration: solid coral underline;
+      }
+      a:visited {
+        color: chocolate;
       }
       h1 > a, h2 > a {
         font-size: 50%;
