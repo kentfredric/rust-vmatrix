@@ -20,6 +20,31 @@
         color: grey;
         text-decoration: none;
       }
+      span.grade {
+        margin-left: 3px;
+        font-size: 90%;
+        display: inline-block;
+      }
+      span.numeric_1, span.numeric_2, span.numeric_3, span.numeric_4, span.numeric_5, span.numeric_6,
+      span.numeric_7, span.numeric_8, span.numeric_9
+      {
+        height: 12px;
+        border-radius: 5px;
+      }
+/*
+   Width multiplies by 1.5 with int rounding,
+   hue goes up 20 per point, saturation goes up 3% per point, and lightness
+   goes down 2% per point, giving a shade spectrum from soft light blue to an intense
+   red with severity */
+      span.numeric_1 { width: 4px;   background-color: hsl(200,70%,76%); }
+      span.numeric_2 { width: 6px;   background-color: hsl(220,73%,74%); }
+      span.numeric_3 { width: 9px;   background-color: hsl(240,76%,72%); }
+      span.numeric_4 { width: 13px;  background-color: hsl(260,79%,70%); }
+      span.numeric_5 { width: 20px;  background-color: hsl(280,82%,68%); }
+      span.numeric_6 { width: 30px;  background-color: hsl(300,85%,66%); }
+      span.numeric_7 { width: 45px;  background-color: hsl(320,88%,64%); }
+      span.numeric_8 { width: 68px;  background-color: hsl(340,91%,62%); }
+      span.numeric_9 { width: 102px; background-color: hsl(360,94%,60%); }
     </style>
   </head>
   <body>
