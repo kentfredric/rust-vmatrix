@@ -2,34 +2,27 @@
 use strict;
 use warnings;
 
-my (@crates) = (
-    'advapi32-sys',               'aho-corasick',
-    'cfg-if',                     'const_fn',
-    'gcc',                        'kernel32-sys',
-    'libc',                       'log',
-    'memchr',                     'proc-macro-hack',
-    'proc-macro2',                'rustversion',
-    'time',                       'time-macros',
-    'time-macros-impl',           'version_check',
-    'winapi',                     'winapi-build',
-    'winapi-i686-pc-windows-gnu', 'winapi-x86_64-pc-windows-gnu',
-);
-
 our $VERSION_BASE = "/home/kent/rust/vmatrix";
 our $TEMPLATE     = "${VERSION_BASE}/index.html.tpl";
 our $TARGET       = "${VERSION_BASE}/index.html";
 
-sub crate_index_file {
-    sprintf "%s/%s/%s", $VERSION_BASE, $_[0], "index.html";
+sub find_crates {
+    opendir my $dfh, $VERSION_BASE or die "Can't opendir $VERSION_BASE";
+    my (@crates);
+    while ( my $ent = readdir $dfh ) {
+        next if $ent eq '.';
+        next if $ent eq '..';
+        next unless -d "${VERSION_BASE}/${ent}";
+        next unless -r "${VERSION_BASE}/${ent}/versions.txt";
+        next unless -r "${VERSION_BASE}/${ent}/index.html";
+        push @crates, $ent;
+    }
+    return @crates;
 }
 
 sub gen_toc {
     my %crate_buckets;
-    for my $crate (@crates) {
-        if ( not -e crate_index_file($crate) ) {
-            warn "No index.html for $crate, skipping\n";
-            next;
-        }
+    for my $crate (find_crates) {
         my $bucket = substr $crate, 0, 1;
         push @{ $crate_buckets{$bucket} }, $crate;
     }
