@@ -102,6 +102,76 @@ sub parse_version_info {
     return $info_hash;
 }
 
+sub pick_semver_vmax {
+    my (@versions) = @_;
+    my %vcache;
+    my (@out);
+    for my $version (@versions) {
+        my ($vparts) = [ split /[.]/, $version ];
+        my $vmajor   = $vparts->[0];
+        my $vminor   = $vparts->[1];
+        next if $vmajor eq '0' and $vminor eq '0';
+        my $cache_key = join '.', $vmajor, $vminor;
+        next if exists $vcache{$cache_key};
+        $vcache{$cache_key} = $version;
+        push @out, $version;
+    }
+    return @out;
+}
+
+sub gen_crate_report {
+    my ($crate) = @_;
+    my $pad     = " " x 6;
+    my $buffer  = "";
+    open my $fh, ">", \$buffer or die "Can't open buffer for write, $!";
+    $fh->printf( "$pad<li><a href=\"./%s\">%s</a>", $crate, $crate );
+    my $info = parse_version_info($crate);
+
+    if ( $info->{num_pass} > 1 and $info->{num_fail} == 0 ) {
+        $fh->print(
+"<span class=\"grade goldstar\" title=\"No reported failures for any version on any rust\">&#x1F31F;</span>"
+        );
+    }
+    else {
+        my $fail_pct = sprintf "%0.1f",
+          $info->{num_fail} / $info->{num_results};
+        $fh->printf(
+            "<span class=\"grade numeric_%d\" title=\"%d%% failures\"></span>",
+            $fail_pct * 10,
+            $fail_pct * 100
+        );
+    }
+    my (@vpick) = pick_semver_vmax( reverse @{ $info->{version_order} } );
+    if (@vpick) {
+        $fh->print("\n");
+        $fh->print("$pad  <ul>\n");
+        for (@vpick) {
+            my $v_result = $info->{version_info}->{$_};
+            $fh->printf( "$pad    <li>%s", $_ );
+            if ( $v_result->{num_pass} > 1 and $v_result->{num_fail} == 0 ) {
+                $fh->print(
+"<span class=\"grade goldstar\" title=\"No reported failures for this version on any rust\">&#x1F31F;</span>"
+                );
+            }
+            else {
+                my $fail_pct = sprintf "%0.1f",
+                  $v_result->{num_fail} / $v_result->{num_results};
+                $fh->printf(
+"<span class=\"grade numeric_%d\" title=\"%d%% failures\"></span>",
+                    $fail_pct * 10,
+                    $fail_pct * 100
+                );
+            }
+            $fh->print("</li>\n");
+        }
+        $fh->print("$pad  </ul>\n");
+        $fh->print("$pad");
+    }
+    $fh->print("</li>\n");
+    close $fh or warn "Can't close buffer, $!";
+    return $buffer;
+}
+
 sub gen_section {
     my ( $label, $members ) = @_;
     my $pad    = " " x 4;
@@ -112,29 +182,7 @@ sub gen_section {
         $label, $label, $label );
     $fh->printf("$pad<ul>\n");
     for my $crate ( sort @{$members} ) {
-        $fh->printf( "$pad  <li><a href=\"./%s\">%s</a>", $crate, $crate );
-        my $info = parse_version_info($crate);
-
-        if ( $info->{num_pass} > 1 and $info->{num_fail} == 0 ) {
-            $fh->print(
-"<span class=\"grade goldstar\" title=\"No reported failures for any version on any rust\">&#x1F31F;</span>"
-            );
-        }
-        else {
-            if ( $info->{num_results} != $info->{num_fail} + $info->{num_pass} )
-            {
-                warn
-"SpIcY: $info->{num_fail} + $info->{num_pass} != $info->{num_results} ( $crate )\n";
-            }
-            my $fail_pct = sprintf "%0.1f",
-              $info->{num_fail} / $info->{num_results};
-            $fh->printf(
-"<span class=\"grade numeric_%d\" title=\"%d%% failures\"></span>",
-                $fail_pct * 10,
-                $fail_pct * 100
-            );
-        }
-        $fh->print("</li>\n");
+        $fh->print( gen_crate_report($crate) );
     }
     $fh->printf("$pad</ul>\n");
     close $fh or warn "Error closing buffer, $!";
