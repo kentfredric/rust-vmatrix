@@ -56,9 +56,10 @@ for ( sort keys %used_pool ) {
 }
 
 sub update_used {
-    my (%params) = @_;
-    my $work_dir = $params{work_dir};
-    my $crate    = $params{crate};
+    my (%params)      = @_;
+    my $work_dir      = $params{work_dir};
+    my $crate         = $params{crate};
+    my $rustc_version = $params{rustc_version};
 
     my $build_dir = "${work_dir}/target/debug/build";
     my $lock_file = "${work_dir}/Cargo.lock";
@@ -73,7 +74,7 @@ sub update_used {
                 my ($dcrate) = $1;
                 next if $dcrate eq $crate;
                 next if exists $used_pool{$dcrate};
-                $used_pool{$dcrate} = 1;
+                $used_pool{$dcrate} = $rustc_version;
                 printf "\e[33;1m*\e[0m used crate: \e[33;1m%s\e[0m\n", $dcrate;
             }
         }
@@ -95,7 +96,7 @@ sub update_used {
                     last ignore if $dcrate eq $crate;
                     last ignore if exists $used_pool{$dcrate};
                     last ignore if $dcrate eq 'test';
-                    $used_pool{$dcrate} = 1;
+                    $used_pool{$dcrate} = $rustc_version;
                     printf "\e[33;1m*\e[0m used crate: \e[33;1m%s\e[0m\n",
                       $dcrate;
                 }
@@ -164,8 +165,9 @@ EOF
         "build",                   "--verbose"
     );
     update_used(
-        work_dir => $work_dir,
-        crate    => $crate,
+        work_dir      => $work_dir,
+        crate         => $crate,
+        rustc_version => $rustc_version,
     );
     if ( $exit != 0 ) {
         my $low  = $exit & 0b11111111;
@@ -251,6 +253,20 @@ sub do_testset {
     printf
 "\e[33;1m* processed %d versions in %d seconds (%4.2f secs per version)\e[0m\n",
       $ncrates, $consumed, $atime;
+
+    for ( sort keys %used_pool ) {
+        if ( $used_pool{$_} eq $rustc_version ) {
+            printf
+              "\e[33;1m*\e[0m Used Crate: \e[34;1m%s\e[0m (\e[32;1mNEW\e[0m)\n",
+              $_;
+        }
+        else {
+            printf
+              "\e[33;1m*\e[0m Used Crate: \e[34;1m%s\e[0m (\e[32;1mNEW\e[0m)\n",
+              $_;
+
+        }
+    }
 
     -e "${work_dir}/target/debug"
       and system( "rm", "-r", "${work_dir}/target/debug" );
