@@ -251,5 +251,11 @@ sub do_testset {
     printf
 "\e[33;1m* processed %d versions in %d seconds (%4.2f secs per version)\e[0m\n",
       $ncrates, $consumed, $atime;
+
+    -e "${work_dir}/target/debug"
+      and system( "rm", "-r", "${work_dir}/target/debug" );
+    -e "${work_dir}/target/release"
+      and system( "rm", "-r", "${work_dir}/target/release" );
+
 }
 
