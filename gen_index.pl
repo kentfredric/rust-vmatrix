@@ -102,6 +102,45 @@ sub parse_version_info {
     return $info_hash;
 }
 
+sub gen_section {
+    my ( $label, $members ) = @_;
+    my $pad    = " " x 4;
+    my $buffer = "";
+    open my $fh, ">", \$buffer or die "Can't open buffer for write, $!";
+    $fh->printf(
+        "$pad<h2 id=\"crate-%s\">%s*<a href=\"#crate-%s\">#</a></h2>\n",
+        $label, $label, $label );
+    $fh->printf("$pad<ul>\n");
+    for my $crate ( sort @{$members} ) {
+        $fh->printf( "$pad  <li><a href=\"./%s\">%s</a>", $crate, $crate );
+        my $info = parse_version_info($crate);
+
+        if ( $info->{num_pass} > 1 and $info->{num_fail} == 0 ) {
+            $fh->print(
+"<span class=\"grade goldstar\" title=\"No reported failures for any version on any rust\">&#x1F31F;</span>"
+            );
+        }
+        else {
+            if ( $info->{num_results} != $info->{num_fail} + $info->{num_pass} )
+            {
+                warn
+"SpIcY: $info->{num_fail} + $info->{num_pass} != $info->{num_results} ( $crate )\n";
+            }
+            my $fail_pct = sprintf "%0.1f",
+              $info->{num_fail} / $info->{num_results};
+            $fh->printf(
+"<span class=\"grade numeric_%d\" title=\"%d%% failures\"></span>",
+                $fail_pct * 10,
+                $fail_pct * 100
+            );
+        }
+        $fh->print("</li>\n");
+    }
+    $fh->printf("$pad</ul>\n");
+    close $fh or warn "Error closing buffer, $!";
+    return $buffer;
+}
+
 sub gen_toc {
     my %crate_buckets;
     for my $crate (find_crates) {
@@ -115,37 +154,7 @@ sub gen_toc {
 
     my $pad = " " x 4;
     for my $bucket ( sort keys %crate_buckets ) {
-        $fh->printf(
-            "$pad<h2 id=\"crate-%s\">%s*<a href=\"#crate-%s\">#</a></h2>\n",
-            $bucket, $bucket, $bucket );
-        $fh->printf("$pad<ul>\n");
-        for my $crate ( sort @{ $crate_buckets{$bucket} } ) {
-            $fh->printf( "$pad  <li><a href=\"./%s\">%s</a>", $crate, $crate );
-            my $info = parse_version_info($crate);
-
-            if ( $info->{num_pass} > 1 and $info->{num_fail} == 0 ) {
-                $fh->print(
-"<span class=\"grade goldstar\" title=\"No reported failures for any version on any rust\">&#x1F31F;</span>"
-                );
-            }
-            else {
-                if ( $info->{num_results} !=
-                    $info->{num_fail} + $info->{num_pass} )
-                {
-                    warn
-"SpIcY: $info->{num_fail} + $info->{num_pass} != $info->{num_results} ( $crate )\n";
-                }
-                my $fail_pct = sprintf "%0.1f",
-                  $info->{num_fail} / $info->{num_results};
-                $fh->printf(
-"<span class=\"grade numeric_%d\" title=\"%d%% failures\"></span>",
-                    $fail_pct * 10,
-                    $fail_pct * 100
-                );
-            }
-            $fh->print("</li>\n");
-        }
-        $fh->printf("$pad</ul>\n");
+        $fh->print( gen_section( $bucket, $crate_buckets{$bucket} ) );
     }
     close $fh or warn "Error closing buffer";
     return $inject;
