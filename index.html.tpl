@@ -64,6 +64,9 @@
     </style>
   </head>
   <body>
+    <p>[ <a href="#about">about</a> | <a href="#methodology">methodology</a> ]</p>
+    <h1 id="reports">Build reports<a href="#reports">#</a></h1>
+    <!-- build reports -->
     <h1 id="about">About<a href="#about">#</a></h1>
     <p>This is a tiny<span class="hint" title="lol, well, not in terms of resources needed">*</span>
        project to map what you get when you try to compile given
@@ -118,7 +121,5 @@ version = "=VERSION"
        getting coverage of <em>fundamental</em> crates, particularly,
        ones with either few, or no dependencies, or at least,
        recursively checking the dependencies themselves.</p>
-    <h1 id="reports">Build reports<a href="#reports">#</a></h1>
-    <!-- build reports -->
   </body>
 </html>
