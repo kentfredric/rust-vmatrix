@@ -20,10 +20,15 @@
         color: grey;
         text-decoration: none;
       }
+      span.version{
+        display: inline-block;
+        min-width: 5em;
+      }
       span.grade {
         margin-left: 3px;
         font-size: 90%;
         display: inline-block;
+        min-with: 5em;
       }
       span.numeric_1, span.numeric_2, span.numeric_3, span.numeric_4, span.numeric_5, span.numeric_6,
       span.numeric_7, span.numeric_8, span.numeric_9
@@ -31,6 +36,17 @@
         height: 12px;
         border-radius: 5px;
       }
+      span.msrv {
+        font-size: 80%;
+        font-family: monospace;
+        display: inline-block;
+        color: grey;
+        margin-left: 10px;
+        margin-right: 10px;
+        min-width: 5em;
+      }
+      span.unknown_msrv { color: hsl(0, 95%, 60% ); font-weight: 900; }
+      span.max_msrv { color: hsl(30, 90%, 60% ); font-weight: 900; }
 /*
    Width multiplies by 1.5 with int rounding,
    hue goes up 20 per point, saturation goes up 3% per point, and lightness
