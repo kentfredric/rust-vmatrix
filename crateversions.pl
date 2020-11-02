@@ -5,31 +5,18 @@ use warnings;
 our $VERSION = '0.0';
 
 use lib "/home/kent/rust/vcheck/lib/";
+use lib "/home/kent/perl/kentnl/JSON-PrettyCompact/lib";
 use cargo;
+use resultdb;
 
-my $crate = shift @ARGV;
+my $rdb = resultdb->new();
 
-my $ROOT = "/home/kent/rust/vmatrix/";
-
-die "No crate specified" if not defined $crate;
-
-my (@versions) = @{ cargo::get_version_info($crate) };
-
-my $CRATE_VERSIONS = "${ROOT}/$crate/versions.txt";
-
-my $out = "";
-open my $buf, ">", \$out or die "can't open writeable buffer";
-
-for my $version ( reverse @versions ) {
-    my (@parts);
-    push @parts, $version->{num};
-    if ( $version->{yanked} ) {
-        push @parts, 'YANKED';
-    }
-    $buf->printf( "%s\n", join '|', @parts );
+for
+  my $crate ( sort { ( rand() * 100 ) <=> ( rand() * 100 ) } $rdb->crate_names )
+{
+    next if -e $rdb->crate_vjson_path($crate);
+    my $old_versions = $rdb->crate_read_vjson($crate);
+    my (@versions) = @{ cargo::update_version_info( $crate, $old_versions ) };
+    $rdb->crate_write_vfile( $crate, [ reverse @versions ] );
+    $rdb->crate_write_vjson( $crate, [ reverse @versions ] );
 }
-close $buf;
-
-open my $fh, ">", $CRATE_VERSIONS or die "Can't write to $CRATE_VERSIONS, $!";
-$fh->print($out);
-close $fh or warn "error closing $CRATE_VERSIONS, $!";
