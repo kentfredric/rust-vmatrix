@@ -1,0 +1,91 @@
+[
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-07-14T03:37:46.498625+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/1016104?v=4",
+          "id": 2922, "login": "KyleMayes", "name": "Kyle Mayes",
+          "url": "https://github.com/KyleMayes"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["Kyle Mayes <kyle@mayeses.com>"]}, "users": []},
+    "crate": "clang-sys-linkage", "crate_size": 33997,
+    "created_at": "2020-07-14T03:37:46.498625+00:00",
+    "dependencies": [
+      {
+        "crate_id": "glob", "default_features": true, "downloads": 0,
+        "features": [], "id": 1521750, "kind": "build", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 262174
+      },
+      {
+        "crate_id": "glob", "default_features": true, "downloads": 0,
+        "features": [], "id": 1521747, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 262174
+      },
+      {
+        "crate_id": "libc", "default_features": false, "downloads": 0,
+        "features": [], "id": 1521748, "kind": "normal", "optional": false,
+        "req": "^0.2.39", "target": null, "version_id": 262174
+      },
+      {
+        "crate_id": "libloading", "default_features": true, "downloads": 0,
+        "features": [], "id": 1521749, "kind": "normal", "optional": true,
+        "req": "^0.5", "target": null, "version_id": 262174
+      }
+    ],
+    "dl_path": "/api/v1/crates/clang-sys-linkage/1.0.0/download",
+    "downloads": 2762,
+    "features": {
+      "clang_3_5": [], "clang_3_6": ["gte_clang_3_6"],
+      "clang_3_7": ["gte_clang_3_6", "gte_clang_3_7"],
+      "clang_3_8": ["gte_clang_3_6", "gte_clang_3_7", "gte_clang_3_8"],
+      "clang_3_9": ["gte_clang_3_6", "gte_clang_3_7", "gte_clang_3_8", "gte_clang_3_9"],
+      "clang_4_0": [
+        "gte_clang_3_6", "gte_clang_3_7", "gte_clang_3_8", "gte_clang_3_9",
+        "gte_clang_4_0"
+      ],
+      "clang_5_0": [
+        "gte_clang_3_6", "gte_clang_3_7", "gte_clang_3_8", "gte_clang_3_9",
+        "gte_clang_4_0", "gte_clang_5_0"
+      ],
+      "clang_6_0": [
+        "gte_clang_3_6", "gte_clang_3_7", "gte_clang_3_8", "gte_clang_3_9",
+        "gte_clang_4_0", "gte_clang_5_0", "gte_clang_6_0"
+      ],
+      "clang_7_0": [
+        "gte_clang_3_6", "gte_clang_3_7", "gte_clang_3_8", "gte_clang_3_9",
+        "gte_clang_4_0", "gte_clang_5_0", "gte_clang_6_0", "gte_clang_7_0"
+      ],
+      "clang_8_0": [
+        "gte_clang_3_6", "gte_clang_3_7", "gte_clang_3_8", "gte_clang_3_9",
+        "gte_clang_4_0", "gte_clang_5_0", "gte_clang_6_0", "gte_clang_7_0",
+        "gte_clang_8_0"
+      ],
+      "clang_9_0": [
+        "gte_clang_3_6", "gte_clang_3_7", "gte_clang_3_8", "gte_clang_3_9",
+        "gte_clang_4_0", "gte_clang_5_0", "gte_clang_6_0", "gte_clang_7_0",
+        "gte_clang_8_0", "gte_clang_9_0"
+      ],
+      "gte_clang_3_6": [], "gte_clang_3_7": [], "gte_clang_3_8": [],
+      "gte_clang_3_9": [], "gte_clang_4_0": [], "gte_clang_5_0": [],
+      "gte_clang_6_0": [], "gte_clang_7_0": [], "gte_clang_8_0": [],
+      "gte_clang_9_0": [], "runtime": ["libloading"], "static": []
+    },
+    "id": 262174, "license": "Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/clang-sys-linkage/1.0.0/authors",
+      "dependencies": "/api/v1/crates/clang-sys-linkage/1.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/clang-sys-linkage/1.0.0/downloads"
+    },
+    "num": "1.0.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/1016104?v=4",
+      "id": 2922, "login": "KyleMayes", "name": "Kyle Mayes",
+      "url": "https://github.com/KyleMayes"
+    },
+    "readme_path": "/api/v1/crates/clang-sys-linkage/1.0.0/readme",
+    "updated_at": "2020-07-14T03:37:46.498625+00:00", "yanked": false
+  }
+]
