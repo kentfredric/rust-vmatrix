@@ -2,10 +2,15 @@
 use strict;
 use warnings;
 
-our $ROOT  = "/home/kent/rust/vmatrix";
+use lib "/home/kent/rust/vcheck/lib/";
+use lib "/home/kent/perl/kentnl/JSON-PrettyCompact/lib";
+use resultdb;
+
+my $rdb = resultdb->new();
+
+our $ROOT  = $rdb->root();
 our $CRATE = "libc";
 $CRATE = $ENV{CRATE} if exists $ENV{CRATE} and length $ENV{CRATE};
-our $VINDEX      = "versions.txt";
 our $OUTFILE     = "index.html";
 our $INFO_PREFIX = "rustc-";
 
@@ -13,16 +18,9 @@ my %versions;
 my %rustc_results;
 my (@order);
 
-for my $version ( get_versions("${ROOT}/${CRATE}/${VINDEX}") ) {
-    next
-      if exists $version->{message}
-      and $version->{message}
-      and $version->{message} eq 'NOEXIST';
-    next
-      if exists $version->{message}
-      and $version->{message}
-      and $version->{message} eq 'YANKED';
-    my $v = $version->{version};
+for my $version ( @{ $rdb->crate_read_vjson($CRATE) } ) {
+    next if exists $version->{yanked} and $version->{yanked};
+    my $v = $version->{num};
     push @order, $v;
     $versions{$v} = {} unless exists $versions{$v};
 }
