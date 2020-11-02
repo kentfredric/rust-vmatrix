@@ -49,6 +49,7 @@ sub parse_version_info {
     # Get baseline data
     for my $rec ( @{ $rdb->crate_read_vjson($crate) } ) {
         my ($version) = $rec->{num};
+        next if exists $rec->{yanked} and $rec->{yanked};
         push @{ $info_hash->{version_order} }, $version;
         if ( not exists $info_hash->{version_info}->{$version} ) {
             $info_hash->{version_info}->{$version} = {
