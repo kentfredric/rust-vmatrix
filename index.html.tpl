@@ -31,7 +31,7 @@
         min-with: 5em;
       }
       span.numeric_1, span.numeric_2, span.numeric_3, span.numeric_4, span.numeric_5, span.numeric_6,
-      span.numeric_7, span.numeric_8, span.numeric_9
+      span.numeric_7, span.numeric_8, span.numeric_9, span.numeric_10
       {
         height: 12px;
         border-radius: 5px;
@@ -61,6 +61,21 @@
       span.numeric_7 { width: 45px;  background-color: hsl(320,88%,64%); }
       span.numeric_8 { width: 68px;  background-color: hsl(340,91%,62%); }
       span.numeric_9 { width: 102px; background-color: hsl(360,94%,60%); }
+    /* 100% is extra spicy */
+      span.numeric_10 {
+          width: 153px;
+          background-color: hsl(0,97%,56%);
+          background: linear-gradient(
+                          45deg,
+                          hsl(0,0%,0%) 0%,
+                          hsl(0,0%,00%) 30%,
+                          hsl(0,97%,58%) 35%,
+                          hsl(0,97%,58%) 60%,
+                          hsl(0,0%,0%) 66%,
+                          hsl(0,0%,0%) 100%);
+          background-size: 20px 100%;
+          background-repeat: repeat;
+      }
     </style>
   </head>
   <body>
