@@ -3,8 +3,13 @@ use strict;
 use warnings;
 
 require Data::Dump;
+use lib "/home/kent/rust/vcheck/lib/";
+use lib "/home/kent/perl/kentnl/JSON-PrettyCompact/lib";
+use resultdb;
 
-our $VERSION_BASE = "/home/kent/rust/vmatrix";
+my $rdb = resultdb->new();
+
+our $VERSION_BASE = $rdb->root();
 our $TEMPLATE     = "${VERSION_BASE}/index.html.tpl";
 our $TARGET       = "${VERSION_BASE}/index.html";
 
@@ -15,7 +20,7 @@ sub find_crates {
         next if $ent eq '.';
         next if $ent eq '..';
         next unless -d "${VERSION_BASE}/${ent}";
-        next unless -r "${VERSION_BASE}/${ent}/versions.txt";
+        next unless -r "${VERSION_BASE}/${ent}/versions.json";
         next unless -r "${VERSION_BASE}/${ent}/index.html";
         push @crates, $ent;
     }
@@ -39,17 +44,11 @@ sub parse_version_info {
         version_info  => {},
         version_order => [],
     };
-    my $crate_dir    = "${VERSION_BASE}/${crate}";
-    my $version_file = "${crate_dir}/versions.txt";
-    if ( !-e $version_file ) {
-        die "No version file for crate $crate";
-    }
+    my $crate_dir = "${VERSION_BASE}/${crate}";
 
     # Get baseline data
-    for my $rec ( parse_vfile($version_file) ) {
-        my ($version) = $rec->[0];
-        defined $version and length $version
-          or die "Bad entry in $version_file: " . Data::Dump::pp($rec);
+    for my $rec ( @{ $rdb->crate_read_vjson($crate) } ) {
+        my ($version) = $rec->{num};
         push @{ $info_hash->{version_order} }, $version;
         if ( not exists $info_hash->{version_info}->{$version} ) {
             $info_hash->{version_info}->{$version} = {
@@ -60,8 +59,8 @@ sub parse_version_info {
             };
             $info_hash->{num_versions}++;
         }
-        if ( defined $rec->[1] and length $rec->[1] ) {
-            $info_hash->{version_info}->{$version}->{message} = $rec->[1];
+        if ( exists $rec->{yanked} and $rec->{yanked} ) {
+            $info_hash->{version_info}->{$version}->{message} = 'YANKED';
         }
     }
 
