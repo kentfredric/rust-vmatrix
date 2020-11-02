@@ -109,5 +109,32 @@ sub all_crate_dependencies {
     return \%dephash;
 }
 
+sub crate_flat_rustcs {
+    my ( $self, $crate ) = @_;
+    my ($crate_dir) = $self->crate_dir($crate);
+    my (@rustcs);
+    opendir my $dfh, $crate_dir or die "Can't opendir $crate_dir, $!";
+    while ( my $ent = readdir $dfh ) {
+        next if $ent     =~ /\A[.]/;
+        next unless $ent =~ /\Arustc-(.*)\z/;
+        push @rustcs, $ent;
+    }
+    return \@rustcs;
+}
+
+sub crate_flat_rustc_results {
+    my ( $self, $crate, $rustc ) = @_;
+    my $rustc_file = $self->crate_dir($crate) . '/rustc-' . $rustc;
+    if ( not -e $rustc_file ) {
+        return [];
+    }
+    open my $fh, "<", $rustc_file or die "Can't read $rustc_file, $!";
+    my (@recs);
+    while ( my $line = <$fh> ) {
+        chomp $line;
+        push @recs, [ split /[|]/, $line ];
+    }
+    return \@recs;
+}
 1;
 
