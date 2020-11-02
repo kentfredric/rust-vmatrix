@@ -17,6 +17,5 @@ for
     next if -e $rdb->crate_vjson_path($crate);
     my $old_versions = $rdb->crate_read_vjson($crate);
     my (@versions) = @{ cargo::update_version_info( $crate, $old_versions ) };
-    $rdb->crate_write_vfile( $crate, [ reverse @versions ] );
     $rdb->crate_write_vjson( $crate, [ reverse @versions ] );
 }
