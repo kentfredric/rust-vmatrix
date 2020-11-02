@@ -1,0 +1,1439 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "jobserver", "crate_size": null,
+    "created_at": "2017-05-28T20:12:06.126106+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 214944, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 54955
+      },
+      {
+        "crate_id": "kernel32-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 214946, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": "cfg(windows)",
+        "version_id": 54955
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 214949, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(unix)", "version_id": 54955
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 214941, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 54955
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 214948, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": "cfg(windows)", "version_id": 54955
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 214945, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 54955
+      },
+      {
+        "crate_id": "tokio-core", "default_features": true, "downloads": 0,
+        "features": [], "id": 214943, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 54955
+      },
+      {
+        "crate_id": "tokio-process", "default_features": true,
+        "downloads": 0, "features": [], "id": 214942, "kind": "dev",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 54955
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [], "id": 214947, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 54955
+      }
+    ],
+    "dl_path": "/api/v1/crates/jobserver/0.1.0/download",
+    "downloads": 317, "features": {}, "id": 54955,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/jobserver/0.1.0/authors",
+      "dependencies": "/api/v1/crates/jobserver/0.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/jobserver/0.1.0/downloads"
+    },
+    "num": "0.1.0", "published_by": null,
+    "readme_path": "/api/v1/crates/jobserver/0.1.0/readme",
+    "updated_at": "2017-11-30T02:28:43.987259+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "jobserver", "crate_size": null,
+    "created_at": "2017-05-30T04:23:10.690680+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 215913, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 55148
+      },
+      {
+        "crate_id": "kernel32-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 215915, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": "cfg(windows)",
+        "version_id": 55148
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 215914, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(unix)", "version_id": 55148
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 215910, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 55148
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 215916, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": "cfg(windows)", "version_id": 55148
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 215912, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 55148
+      },
+      {
+        "crate_id": "tokio-core", "default_features": true, "downloads": 0,
+        "features": [], "id": 215911, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 55148
+      },
+      {
+        "crate_id": "tokio-process", "default_features": true,
+        "downloads": 0, "features": [], "id": 215909, "kind": "dev",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 55148
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [], "id": 215917, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 55148
+      }
+    ],
+    "dl_path": "/api/v1/crates/jobserver/0.1.1/download",
+    "downloads": 330, "features": {}, "id": 55148,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/jobserver/0.1.1/authors",
+      "dependencies": "/api/v1/crates/jobserver/0.1.1/dependencies",
+      "version_downloads": "/api/v1/crates/jobserver/0.1.1/downloads"
+    },
+    "num": "0.1.1", "published_by": null,
+    "readme_path": "/api/v1/crates/jobserver/0.1.1/readme",
+    "updated_at": "2017-11-30T02:58:01.295972+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "jobserver", "crate_size": null,
+    "created_at": "2017-05-31T00:42:21.492184+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 216400, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 55246
+      },
+      {
+        "crate_id": "kernel32-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 216405, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": "cfg(windows)",
+        "version_id": 55246
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 216403, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(unix)", "version_id": 55246
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 216399, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 55246
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 216404, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": "cfg(windows)", "version_id": 55246
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 216398, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 55246
+      },
+      {
+        "crate_id": "tokio-core", "default_features": true, "downloads": 0,
+        "features": [], "id": 216402, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 55246
+      },
+      {
+        "crate_id": "tokio-process", "default_features": true,
+        "downloads": 0, "features": [], "id": 216401, "kind": "dev",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 55246
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [], "id": 216406, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 55246
+      }
+    ],
+    "dl_path": "/api/v1/crates/jobserver/0.1.2/download",
+    "downloads": 366, "features": {}, "id": 55246,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/jobserver/0.1.2/authors",
+      "dependencies": "/api/v1/crates/jobserver/0.1.2/dependencies",
+      "version_downloads": "/api/v1/crates/jobserver/0.1.2/downloads"
+    },
+    "num": "0.1.2", "published_by": null,
+    "readme_path": "/api/v1/crates/jobserver/0.1.2/readme",
+    "updated_at": "2017-11-30T03:01:16.360929+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "jobserver", "crate_size": null,
+    "created_at": "2017-06-02T15:06:10.213290+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 217971, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 55553
+      },
+      {
+        "crate_id": "kernel32-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 217976, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": "cfg(windows)",
+        "version_id": 55553
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 217977, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(unix)", "version_id": 55553
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 217972, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 55553
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 217975, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": "cfg(windows)", "version_id": 55553
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 217969, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 55553
+      },
+      {
+        "crate_id": "tokio-core", "default_features": true, "downloads": 0,
+        "features": [], "id": 217973, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 55553
+      },
+      {
+        "crate_id": "tokio-process", "default_features": true,
+        "downloads": 0, "features": [], "id": 217970, "kind": "dev",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 55553
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [], "id": 217974, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 55553
+      }
+    ],
+    "dl_path": "/api/v1/crates/jobserver/0.1.3/download",
+    "downloads": 495, "features": {}, "id": 55553,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/jobserver/0.1.3/authors",
+      "dependencies": "/api/v1/crates/jobserver/0.1.3/dependencies",
+      "version_downloads": "/api/v1/crates/jobserver/0.1.3/downloads"
+    },
+    "num": "0.1.3", "published_by": null,
+    "readme_path": "/api/v1/crates/jobserver/0.1.3/readme",
+    "updated_at": "2017-11-30T02:57:59.651470+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "jobserver", "crate_size": null,
+    "created_at": "2017-06-05T17:04:22.155998+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 219231, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 55902
+      },
+      {
+        "crate_id": "kernel32-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 219235, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": "cfg(windows)",
+        "version_id": 55902
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 219238, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(unix)", "version_id": 55902
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 219232, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 55902
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 219237, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": "cfg(windows)", "version_id": 55902
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 219234, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 55902
+      },
+      {
+        "crate_id": "tokio-core", "default_features": true, "downloads": 0,
+        "features": [], "id": 219230, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 55902
+      },
+      {
+        "crate_id": "tokio-process", "default_features": true,
+        "downloads": 0, "features": [], "id": 219233, "kind": "dev",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 55902
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [], "id": 219236, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 55902
+      }
+    ],
+    "dl_path": "/api/v1/crates/jobserver/0.1.4/download",
+    "downloads": 8751, "features": {}, "id": 55902,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/jobserver/0.1.4/authors",
+      "dependencies": "/api/v1/crates/jobserver/0.1.4/dependencies",
+      "version_downloads": "/api/v1/crates/jobserver/0.1.4/downloads"
+    },
+    "num": "0.1.4", "published_by": null,
+    "readme_path": "/api/v1/crates/jobserver/0.1.4/readme",
+    "updated_at": "2017-11-30T02:50:45.502521+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "jobserver", "crate_size": null,
+    "created_at": "2017-06-14T01:15:24.087472+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 222977, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 56678
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 222981, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(unix)", "version_id": 56678
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 222980, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 56678
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 222982, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": "cfg(windows)", "version_id": 56678
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 222978, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 56678
+      },
+      {
+        "crate_id": "tokio-core", "default_features": true, "downloads": 0,
+        "features": [], "id": 222976, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 56678
+      },
+      {
+        "crate_id": "tokio-process", "default_features": true,
+        "downloads": 0, "features": [], "id": 222979, "kind": "dev",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 56678
+      }
+    ],
+    "dl_path": "/api/v1/crates/jobserver/0.1.5/download",
+    "downloads": 15746, "features": {}, "id": 56678,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/jobserver/0.1.5/authors",
+      "dependencies": "/api/v1/crates/jobserver/0.1.5/dependencies",
+      "version_downloads": "/api/v1/crates/jobserver/0.1.5/downloads"
+    },
+    "num": "0.1.5", "published_by": null,
+    "readme_path": "/api/v1/crates/jobserver/0.1.5/readme",
+    "updated_at": "2017-11-30T02:53:41.916515+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "jobserver", "crate_size": null,
+    "created_at": "2017-07-12T21:15:09.878098+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 236964, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 59470
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 236970, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(unix)", "version_id": 59470
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 236966, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 59470
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 236969, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": "cfg(windows)", "version_id": 59470
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 236965, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 59470
+      },
+      {
+        "crate_id": "tokio-core", "default_features": true, "downloads": 0,
+        "features": [], "id": 236968, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 59470
+      },
+      {
+        "crate_id": "tokio-process", "default_features": true,
+        "downloads": 0, "features": [], "id": 236967, "kind": "dev",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 59470
+      }
+    ],
+    "dl_path": "/api/v1/crates/jobserver/0.1.6/download",
+    "downloads": 95001, "features": {}, "id": 59470,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/jobserver/0.1.6/authors",
+      "dependencies": "/api/v1/crates/jobserver/0.1.6/dependencies",
+      "version_downloads": "/api/v1/crates/jobserver/0.1.6/downloads"
+    },
+    "num": "0.1.6", "published_by": null,
+    "readme_path": "/api/v1/crates/jobserver/0.1.6/readme",
+    "updated_at": "2017-11-30T02:59:17.882789+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "jobserver", "crate_size": null,
+    "created_at": "2017-10-05T19:30:55.123739+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 280515, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 67530
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 280521, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(unix)", "version_id": 67530
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 280519, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 67530
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 280520, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": "cfg(windows)", "version_id": 67530
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 280518, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 67530
+      },
+      {
+        "crate_id": "tokio-core", "default_features": true, "downloads": 0,
+        "features": [], "id": 280517, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 67530
+      },
+      {
+        "crate_id": "tokio-process", "default_features": true,
+        "downloads": 0, "features": [], "id": 280516, "kind": "dev",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 67530
+      }
+    ],
+    "dl_path": "/api/v1/crates/jobserver/0.1.7/download",
+    "downloads": 7099, "features": {}, "id": 67530,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/jobserver/0.1.7/authors",
+      "dependencies": "/api/v1/crates/jobserver/0.1.7/dependencies",
+      "version_downloads": "/api/v1/crates/jobserver/0.1.7/downloads"
+    },
+    "num": "0.1.7", "published_by": null,
+    "readme_path": "/api/v1/crates/jobserver/0.1.7/readme",
+    "updated_at": "2017-11-30T03:14:43.391019+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "jobserver", "crate_size": null,
+    "created_at": "2017-10-20T21:49:25.682357+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 287504, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 68950
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 287509, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(unix)", "version_id": 68950
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 287506, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 68950
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 287508, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": "cfg(windows)", "version_id": 68950
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 287507, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 68950
+      },
+      {
+        "crate_id": "tokio-core", "default_features": true, "downloads": 0,
+        "features": [], "id": 287503, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 68950
+      },
+      {
+        "crate_id": "tokio-process", "default_features": true,
+        "downloads": 0, "features": [], "id": 287505, "kind": "dev",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 68950
+      }
+    ],
+    "dl_path": "/api/v1/crates/jobserver/0.1.8/download",
+    "downloads": 76470, "features": {}, "id": 68950,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/jobserver/0.1.8/authors",
+      "dependencies": "/api/v1/crates/jobserver/0.1.8/dependencies",
+      "version_downloads": "/api/v1/crates/jobserver/0.1.8/downloads"
+    },
+    "num": "0.1.8", "published_by": null,
+    "readme_path": "/api/v1/crates/jobserver/0.1.8/readme",
+    "updated_at": "2017-11-30T03:07:40.668747+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "jobserver", "crate_size": null,
+    "created_at": "2018-01-09T05:51:11.668485+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 329815, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 76852
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 329820, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(unix)", "version_id": 76852
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 329816, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 76852
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 329821, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": "cfg(windows)", "version_id": 76852
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 329817, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 76852
+      },
+      {
+        "crate_id": "tokio-core", "default_features": true, "downloads": 0,
+        "features": [], "id": 329818, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 76852
+      },
+      {
+        "crate_id": "tokio-process", "default_features": true,
+        "downloads": 0, "features": [], "id": 329819, "kind": "dev",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 76852
+      }
+    ],
+    "dl_path": "/api/v1/crates/jobserver/0.1.9/download",
+    "downloads": 69990, "features": {}, "id": 76852,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/jobserver/0.1.9/authors",
+      "dependencies": "/api/v1/crates/jobserver/0.1.9/dependencies",
+      "version_downloads": "/api/v1/crates/jobserver/0.1.9/downloads"
+    },
+    "num": "0.1.9", "published_by": null,
+    "readme_path": "/api/v1/crates/jobserver/0.1.9/readme",
+    "updated_at": "2018-01-09T05:51:11.668485+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "jobserver", "crate_size": null,
+    "created_at": "2018-03-12T19:20:26.333793+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 371200, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 84472
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 371205, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(unix)", "version_id": 84472
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 371199, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 84472
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 371201, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 84472
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 371206, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": "cfg(windows)", "version_id": 84472
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 371202, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 84472
+      },
+      {
+        "crate_id": "tokio-core", "default_features": true, "downloads": 0,
+        "features": [], "id": 371203, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 84472
+      },
+      {
+        "crate_id": "tokio-process", "default_features": true,
+        "downloads": 0, "features": [], "id": 371204, "kind": "dev",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 84472
+      }
+    ],
+    "dl_path": "/api/v1/crates/jobserver/0.1.10/download",
+    "downloads": 8201, "features": {}, "id": 84472,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/jobserver/0.1.10/authors",
+      "dependencies": "/api/v1/crates/jobserver/0.1.10/dependencies",
+      "version_downloads": "/api/v1/crates/jobserver/0.1.10/downloads"
+    },
+    "num": "0.1.10", "published_by": null,
+    "readme_path": "/api/v1/crates/jobserver/0.1.10/readme",
+    "updated_at": "2018-03-12T19:20:26.333793+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "jobserver", "crate_size": null,
+    "created_at": "2018-03-13T21:28:37.555428+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 372061, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 84645
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 372066, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(unix)", "version_id": 84645
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 372060, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 84645
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 372062, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 84645
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 372067, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": "cfg(windows)", "version_id": 84645
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 372063, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 84645
+      },
+      {
+        "crate_id": "tokio-core", "default_features": true, "downloads": 0,
+        "features": [], "id": 372064, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 84645
+      },
+      {
+        "crate_id": "tokio-process", "default_features": true,
+        "downloads": 0, "features": [], "id": 372065, "kind": "dev",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 84645
+      }
+    ],
+    "dl_path": "/api/v1/crates/jobserver/0.1.11/download",
+    "downloads": 375462, "features": {}, "id": 84645,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/jobserver/0.1.11/authors",
+      "dependencies": "/api/v1/crates/jobserver/0.1.11/dependencies",
+      "version_downloads": "/api/v1/crates/jobserver/0.1.11/downloads"
+    },
+    "num": "0.1.11", "published_by": null,
+    "readme_path": "/api/v1/crates/jobserver/0.1.11/readme",
+    "updated_at": "2018-03-13T21:28:37.555428+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "jobserver", "crate_size": 19791,
+    "created_at": "2018-11-26T19:44:56.122226+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 566679, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 119699
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 566684, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(unix)", "version_id": 119699
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 566678, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 119699
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 566680, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 119699
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 566685, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": "cfg(windows)", "version_id": 119699
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 566681, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 119699
+      },
+      {
+        "crate_id": "tokio-core", "default_features": true, "downloads": 0,
+        "features": [], "id": 566682, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 119699
+      },
+      {
+        "crate_id": "tokio-process", "default_features": true,
+        "downloads": 0, "features": [], "id": 566683, "kind": "dev",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 119699
+      }
+    ],
+    "dl_path": "/api/v1/crates/jobserver/0.1.12/download",
+    "downloads": 149042, "features": {}, "id": 119699,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/jobserver/0.1.12/authors",
+      "dependencies": "/api/v1/crates/jobserver/0.1.12/dependencies",
+      "version_downloads": "/api/v1/crates/jobserver/0.1.12/downloads"
+    },
+    "num": "0.1.12", "published_by": null,
+    "readme_path": "/api/v1/crates/jobserver/0.1.12/readme",
+    "updated_at": "2018-11-26T19:44:56.122226+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "jobserver", "crate_size": 19329,
+    "created_at": "2019-03-15T14:04:41.500374+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 676057, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 139188
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 676062, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(unix)", "version_id": 139188
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 676056, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 139188
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 676058, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 139188
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 676063, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": "cfg(windows)", "version_id": 139188
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 676059, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 139188
+      },
+      {
+        "crate_id": "tokio-core", "default_features": true, "downloads": 0,
+        "features": [], "id": 676060, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 139188
+      },
+      {
+        "crate_id": "tokio-process", "default_features": true,
+        "downloads": 0, "features": [], "id": 676061, "kind": "dev",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 139188
+      }
+    ],
+    "dl_path": "/api/v1/crates/jobserver/0.1.13/download",
+    "downloads": 186679, "features": {}, "id": 139188,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/jobserver/0.1.13/authors",
+      "dependencies": "/api/v1/crates/jobserver/0.1.13/dependencies",
+      "version_downloads": "/api/v1/crates/jobserver/0.1.13/downloads"
+    },
+    "num": "0.1.13",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+      "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+      "url": "https://github.com/alexcrichton"
+    },
+    "readme_path": "/api/v1/crates/jobserver/0.1.13/readme",
+    "updated_at": "2019-03-15T14:04:41.500374+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "jobserver", "crate_size": 19662,
+    "created_at": "2019-06-12T14:13:24.647454+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 772999, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 155991
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 773004, "kind": "normal", "optional": false,
+        "req": "^0.2.50", "target": "cfg(unix)", "version_id": 155991
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 772998, "kind": "normal", "optional": false,
+        "req": "^0.4.6", "target": null, "version_id": 155991
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 773000, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 155991
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 773005, "kind": "normal", "optional": false,
+        "req": "^0.6.5", "target": "cfg(windows)", "version_id": 155991
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 773001, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 155991
+      },
+      {
+        "crate_id": "tokio-core", "default_features": true, "downloads": 0,
+        "features": [], "id": 773002, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 155991
+      },
+      {
+        "crate_id": "tokio-process", "default_features": true,
+        "downloads": 0, "features": [], "id": 773003, "kind": "dev",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 155991
+      }
+    ],
+    "dl_path": "/api/v1/crates/jobserver/0.1.14/download",
+    "downloads": 28522, "features": {}, "id": 155991,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/jobserver/0.1.14/authors",
+      "dependencies": "/api/v1/crates/jobserver/0.1.14/dependencies",
+      "version_downloads": "/api/v1/crates/jobserver/0.1.14/downloads"
+    },
+    "num": "0.1.14",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+      "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+      "url": "https://github.com/alexcrichton"
+    },
+    "readme_path": "/api/v1/crates/jobserver/0.1.14/readme",
+    "updated_at": "2019-06-12T14:13:24.647454+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "jobserver", "crate_size": 19668,
+    "created_at": "2019-07-24T14:56:14.629523+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 834432, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 164965
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 834437, "kind": "normal", "optional": false,
+        "req": "^0.2.50", "target": "cfg(unix)", "version_id": 164965
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 834431, "kind": "normal", "optional": false,
+        "req": "^0.4.6", "target": null, "version_id": 164965
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 834433, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 164965
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 834438, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": "cfg(windows)", "version_id": 164965
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 834434, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 164965
+      },
+      {
+        "crate_id": "tokio-core", "default_features": true, "downloads": 0,
+        "features": [], "id": 834435, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 164965
+      },
+      {
+        "crate_id": "tokio-process", "default_features": true,
+        "downloads": 0, "features": [], "id": 834436, "kind": "dev",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 164965
+      }
+    ],
+    "dl_path": "/api/v1/crates/jobserver/0.1.15/download",
+    "downloads": 178, "features": {}, "id": 164965,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/jobserver/0.1.15/authors",
+      "dependencies": "/api/v1/crates/jobserver/0.1.15/dependencies",
+      "version_downloads": "/api/v1/crates/jobserver/0.1.15/downloads"
+    },
+    "num": "0.1.15",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+      "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+      "url": "https://github.com/alexcrichton"
+    },
+    "readme_path": "/api/v1/crates/jobserver/0.1.15/readme",
+    "updated_at": "2019-07-24T14:56:14.629523+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "jobserver", "crate_size": 19498,
+    "created_at": "2019-07-24T15:05:56.887181+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 834440, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 164966
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 834445, "kind": "normal", "optional": false,
+        "req": "^0.2.50", "target": "cfg(unix)", "version_id": 164966
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 834439, "kind": "normal", "optional": false,
+        "req": "^0.4.6", "target": null, "version_id": 164966
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 834441, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 164966
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 834446, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": "cfg(windows)", "version_id": 164966
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 834442, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 164966
+      },
+      {
+        "crate_id": "tokio-core", "default_features": true, "downloads": 0,
+        "features": [], "id": 834443, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 164966
+      },
+      {
+        "crate_id": "tokio-process", "default_features": true,
+        "downloads": 0, "features": [], "id": 834444, "kind": "dev",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 164966
+      }
+    ],
+    "dl_path": "/api/v1/crates/jobserver/0.1.16/download",
+    "downloads": 208793, "features": {}, "id": 164966,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/jobserver/0.1.16/authors",
+      "dependencies": "/api/v1/crates/jobserver/0.1.16/dependencies",
+      "version_downloads": "/api/v1/crates/jobserver/0.1.16/downloads"
+    },
+    "num": "0.1.16",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+      "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+      "url": "https://github.com/alexcrichton"
+    },
+    "readme_path": "/api/v1/crates/jobserver/0.1.16/readme",
+    "updated_at": "2019-07-24T15:05:56.887181+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "jobserver", "crate_size": 19563,
+    "created_at": "2019-09-06T15:29:53.200789+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 894071, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 174492
+      },
+      {
+        "crate_id": "getrandom", "default_features": true, "downloads": 0,
+        "features": [], "id": 894077, "kind": "normal", "optional": false,
+        "req": "^0.1.12", "target": "cfg(windows)", "version_id": 174492
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 894076, "kind": "normal", "optional": false,
+        "req": "^0.2.50", "target": "cfg(unix)", "version_id": 174492
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 894070, "kind": "normal", "optional": false,
+        "req": "^0.4.6", "target": null, "version_id": 174492
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 894072, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 174492
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 894073, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 174492
+      },
+      {
+        "crate_id": "tokio-core", "default_features": true, "downloads": 0,
+        "features": [], "id": 894074, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 174492
+      },
+      {
+        "crate_id": "tokio-process", "default_features": true,
+        "downloads": 0, "features": [], "id": 894075, "kind": "dev",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 174492
+      }
+    ],
+    "dl_path": "/api/v1/crates/jobserver/0.1.17/download",
+    "downloads": 562898, "features": {}, "id": 174492,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/jobserver/0.1.17/authors",
+      "dependencies": "/api/v1/crates/jobserver/0.1.17/dependencies",
+      "version_downloads": "/api/v1/crates/jobserver/0.1.17/downloads"
+    },
+    "num": "0.1.17",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+      "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+      "url": "https://github.com/alexcrichton"
+    },
+    "readme_path": "/api/v1/crates/jobserver/0.1.17/readme",
+    "updated_at": "2019-09-06T15:29:53.200789+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-01-08T15:50:39.085805+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+          "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+          "url": "https://github.com/alexcrichton"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "jobserver", "crate_size": 20628,
+    "created_at": "2020-01-08T15:50:39.085805+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1078680, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 202286
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1078685, "kind": "normal", "optional": false,
+        "req": "^0.2.50", "target": "cfg(unix)", "version_id": 202286
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 1078681, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 202286
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 1078682, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 202286
+      },
+      {
+        "crate_id": "tokio-core", "default_features": true, "downloads": 0,
+        "features": [], "id": 1078683, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 202286
+      },
+      {
+        "crate_id": "tokio-process", "default_features": true,
+        "downloads": 0, "features": [], "id": 1078684, "kind": "dev",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 202286
+      }
+    ],
+    "dl_path": "/api/v1/crates/jobserver/0.1.18/download",
+    "downloads": 36737, "features": {}, "id": 202286,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/jobserver/0.1.18/authors",
+      "dependencies": "/api/v1/crates/jobserver/0.1.18/dependencies",
+      "version_downloads": "/api/v1/crates/jobserver/0.1.18/downloads"
+    },
+    "num": "0.1.18",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+      "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+      "url": "https://github.com/alexcrichton"
+    },
+    "readme_path": "/api/v1/crates/jobserver/0.1.18/readme",
+    "updated_at": "2020-01-08T15:50:39.085805+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-01-13T23:57:02.935678+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+          "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+          "url": "https://github.com/alexcrichton"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "jobserver", "crate_size": 20656,
+    "created_at": "2020-01-13T23:57:02.935678+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1086944, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 203601
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1086949, "kind": "normal", "optional": false,
+        "req": "^0.2.50", "target": "cfg(unix)", "version_id": 203601
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 1086945, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 203601
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 1086946, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 203601
+      },
+      {
+        "crate_id": "tokio-core", "default_features": true, "downloads": 0,
+        "features": [], "id": 1086947, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 203601
+      },
+      {
+        "crate_id": "tokio-process", "default_features": true,
+        "downloads": 0, "features": [], "id": 1086948, "kind": "dev",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 203601
+      }
+    ],
+    "dl_path": "/api/v1/crates/jobserver/0.1.19/download",
+    "downloads": 86443, "features": {}, "id": 203601,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/jobserver/0.1.19/authors",
+      "dependencies": "/api/v1/crates/jobserver/0.1.19/dependencies",
+      "version_downloads": "/api/v1/crates/jobserver/0.1.19/downloads"
+    },
+    "num": "0.1.19",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+      "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+      "url": "https://github.com/alexcrichton"
+    },
+    "readme_path": "/api/v1/crates/jobserver/0.1.19/readme",
+    "updated_at": "2020-01-13T23:57:02.935678+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-01-30T07:35:55.890734+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+          "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+          "url": "https://github.com/alexcrichton"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "jobserver", "crate_size": 21259,
+    "created_at": "2020-01-30T07:35:55.890734+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 1118708, "kind": "normal", "optional": false,
+        "req": "^0.1.10", "target": null, "version_id": 207952
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1118709, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 207952
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1118714, "kind": "normal", "optional": false,
+        "req": "^0.2.50", "target": "cfg(unix)", "version_id": 207952
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 1118710, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 207952
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 1118711, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 207952
+      },
+      {
+        "crate_id": "tokio-core", "default_features": true, "downloads": 0,
+        "features": [], "id": 1118712, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 207952
+      },
+      {
+        "crate_id": "tokio-process", "default_features": true,
+        "downloads": 0, "features": [], "id": 1118713, "kind": "dev",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 207952
+      }
+    ],
+    "dl_path": "/api/v1/crates/jobserver/0.1.20/download",
+    "downloads": 95, "features": {}, "id": 207952,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/jobserver/0.1.20/authors",
+      "dependencies": "/api/v1/crates/jobserver/0.1.20/dependencies",
+      "version_downloads": "/api/v1/crates/jobserver/0.1.20/downloads"
+    },
+    "num": "0.1.20",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+      "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+      "url": "https://github.com/alexcrichton"
+    },
+    "readme_path": "/api/v1/crates/jobserver/0.1.20/readme",
+    "updated_at": "2020-01-30T07:35:55.890734+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-01-30T07:46:11.393875+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+          "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+          "url": "https://github.com/alexcrichton"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "jobserver", "crate_size": 21228,
+    "created_at": "2020-01-30T07:46:11.393875+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1118717, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 207954
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1118722, "kind": "normal", "optional": false,
+        "req": "^0.2.50", "target": "cfg(unix)", "version_id": 207954
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 1118718, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 207954
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 1118719, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 207954
+      },
+      {
+        "crate_id": "tokio-core", "default_features": true, "downloads": 0,
+        "features": [], "id": 1118720, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 207954
+      },
+      {
+        "crate_id": "tokio-process", "default_features": true,
+        "downloads": 0, "features": [], "id": 1118721, "kind": "dev",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 207954
+      }
+    ],
+    "dl_path": "/api/v1/crates/jobserver/0.1.21/download",
+    "downloads": 2260201, "features": {}, "id": 207954,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/jobserver/0.1.21/authors",
+      "dependencies": "/api/v1/crates/jobserver/0.1.21/dependencies",
+      "version_downloads": "/api/v1/crates/jobserver/0.1.21/downloads"
+    },
+    "num": "0.1.21",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+      "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+      "url": "https://github.com/alexcrichton"
+    },
+    "readme_path": "/api/v1/crates/jobserver/0.1.21/readme",
+    "updated_at": "2020-01-30T07:46:11.393875+00:00", "yanked": false
+  }
+]

@@ -1,0 +1,2477 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-client-transports", "crate_size": 8345,
+    "created_at": "2019-06-04T10:07:01.920357+00:00",
+    "dependencies": [
+      {
+        "crate_id": "assert_matches", "default_features": true,
+        "downloads": 0, "features": [], "id": 763036, "kind": "dev",
+        "optional": false, "req": "^1.1", "target": null,
+        "version_id": 154413
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 763037, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 154413
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 763026, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 154413
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 763027, "kind": "normal", "optional": false,
+        "req": "^0.1.26", "target": null, "version_id": 154413
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 763030, "kind": "normal",
+        "optional": false, "req": "^12.0", "target": null,
+        "version_id": 154413
+      },
+      {
+        "crate_id": "jsonrpc-http-server", "default_features": true,
+        "downloads": 0, "features": [], "id": 763038, "kind": "dev",
+        "optional": false, "req": "^12.0", "target": null,
+        "version_id": 154413
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 763039, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 154413
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 763031, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 154413
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 763032, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 154413
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 763033, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 154413
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 763040, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 154413
+      },
+      {
+        "crate_id": "hyper", "default_features": true, "downloads": 0,
+        "features": [], "id": 763028, "kind": "normal", "optional": true,
+        "req": "^0.12", "target": null, "version_id": 154413
+      },
+      {
+        "crate_id": "hyper-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 763029, "kind": "normal", "optional": true,
+        "req": "^0.3.2", "target": null, "version_id": 154413
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 763034, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 154413
+      },
+      {
+        "crate_id": "websocket", "default_features": true, "downloads": 0,
+        "features": [], "id": 763035, "kind": "normal", "optional": true,
+        "req": "^0.22", "target": null, "version_id": 154413
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-client-transports/12.0.0/download",
+    "downloads": 1603,
+    "features": {
+      "default": ["http", "tls", "ws"], "http": ["hyper"],
+      "tls": ["hyper-tls", "http"], "ws": ["websocket", "tokio"]
+    },
+    "id": 154413, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-client-transports/12.0.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-client-transports/12.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-client-transports/12.0.0/downloads"
+    },
+    "num": "12.0.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/581548?v=4",
+      "id": 4242, "login": "tomusdrw", "name": "Tomasz DrwiÄga",
+      "url": "https://github.com/tomusdrw"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-client-transports/12.0.0/readme",
+    "updated_at": "2019-06-04T10:07:01.920357+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-client-transports", "crate_size": 11405,
+    "created_at": "2019-07-08T15:17:04.757373+00:00",
+    "dependencies": [
+      {
+        "crate_id": "assert_matches", "default_features": true,
+        "downloads": 0, "features": [], "id": 813371, "kind": "dev",
+        "optional": false, "req": "^1.1", "target": null,
+        "version_id": 161791
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 813372, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 161791
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 813360, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 161791
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 813361, "kind": "normal", "optional": false,
+        "req": "^0.1.26", "target": null, "version_id": 161791
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 813364, "kind": "normal",
+        "optional": false, "req": "^12.1", "target": null,
+        "version_id": 161791
+      },
+      {
+        "crate_id": "jsonrpc-http-server", "default_features": true,
+        "downloads": 0, "features": [], "id": 813373, "kind": "dev",
+        "optional": false, "req": "^12.1", "target": null,
+        "version_id": 161791
+      },
+      {
+        "crate_id": "jsonrpc-pubsub", "default_features": true,
+        "downloads": 0, "features": [], "id": 813365, "kind": "normal",
+        "optional": false, "req": "^12.1", "target": null,
+        "version_id": 161791
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 813374, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 161791
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 813366, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 161791
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 813367, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 161791
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 813368, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 161791
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 813375, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 161791
+      },
+      {
+        "crate_id": "hyper", "default_features": true, "downloads": 0,
+        "features": [], "id": 813362, "kind": "normal", "optional": true,
+        "req": "^0.12", "target": null, "version_id": 161791
+      },
+      {
+        "crate_id": "hyper-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 813363, "kind": "normal", "optional": true,
+        "req": "^0.3.2", "target": null, "version_id": 161791
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 813369, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 161791
+      },
+      {
+        "crate_id": "websocket", "default_features": true, "downloads": 0,
+        "features": [], "id": 813370, "kind": "normal", "optional": true,
+        "req": "^0.22", "target": null, "version_id": 161791
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-client-transports/12.1.0/download",
+    "downloads": 1987,
+    "features": {
+      "default": ["http", "tls", "ws"], "http": ["hyper"],
+      "tls": ["hyper-tls", "http"], "ws": ["websocket", "tokio"]
+    },
+    "id": 161791, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-client-transports/12.1.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-client-transports/12.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-client-transports/12.1.0/downloads"
+    },
+    "num": "12.1.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/75586?v=4",
+      "id": 22071, "login": "ascjones", "name": "Andrew Jones",
+      "url": "https://github.com/ascjones"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-client-transports/12.1.0/readme",
+    "updated_at": "2019-07-08T15:17:04.757373+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-client-transports", "crate_size": 12286,
+    "created_at": "2019-07-30T08:16:48.130693+00:00",
+    "dependencies": [
+      {
+        "crate_id": "assert_matches", "default_features": true,
+        "downloads": 0, "features": [], "id": 842148, "kind": "dev",
+        "optional": false, "req": "^1.1", "target": null,
+        "version_id": 166243
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 842149, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 166243
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 842137, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 166243
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 842138, "kind": "normal", "optional": false,
+        "req": "^0.1.26", "target": null, "version_id": 166243
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 842141, "kind": "normal",
+        "optional": false, "req": "^12.2", "target": null,
+        "version_id": 166243
+      },
+      {
+        "crate_id": "jsonrpc-http-server", "default_features": true,
+        "downloads": 0, "features": [], "id": 842150, "kind": "dev",
+        "optional": false, "req": "^12.2", "target": null,
+        "version_id": 166243
+      },
+      {
+        "crate_id": "jsonrpc-pubsub", "default_features": true,
+        "downloads": 0, "features": [], "id": 842142, "kind": "normal",
+        "optional": false, "req": "^12.2", "target": null,
+        "version_id": 166243
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 842151, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 166243
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 842143, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 166243
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 842144, "kind": "normal",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 166243
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 842145, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 166243
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 842152, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 166243
+      },
+      {
+        "crate_id": "hyper", "default_features": true, "downloads": 0,
+        "features": [], "id": 842139, "kind": "normal", "optional": true,
+        "req": "^0.12", "target": null, "version_id": 166243
+      },
+      {
+        "crate_id": "hyper-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 842140, "kind": "normal", "optional": true,
+        "req": "^0.3.2", "target": null, "version_id": 166243
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 842146, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 166243
+      },
+      {
+        "crate_id": "websocket", "default_features": true, "downloads": 0,
+        "features": [], "id": 842147, "kind": "normal", "optional": true,
+        "req": "^0.22", "target": null, "version_id": 166243
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-client-transports/12.2.0/download",
+    "downloads": 689,
+    "features": {
+      "default": ["http", "tls", "ws"], "http": ["hyper"],
+      "tls": ["hyper-tls", "http"], "ws": ["websocket", "tokio"]
+    },
+    "id": 166243, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-client-transports/12.2.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-client-transports/12.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-client-transports/12.2.0/downloads"
+    },
+    "num": "12.2.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/581548?v=4",
+      "id": 4242, "login": "tomusdrw", "name": "Tomasz DrwiÄga",
+      "url": "https://github.com/tomusdrw"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-client-transports/12.2.0/readme",
+    "updated_at": "2019-07-30T08:16:48.130693+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-client-transports", "crate_size": 12305,
+    "created_at": "2019-08-20T09:32:10.964344+00:00",
+    "dependencies": [
+      {
+        "crate_id": "assert_matches", "default_features": true,
+        "downloads": 0, "features": [], "id": 869953, "kind": "dev",
+        "optional": false, "req": "^1.1", "target": null,
+        "version_id": 170712
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 869954, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 170712
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 869942, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 170712
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 869943, "kind": "normal", "optional": false,
+        "req": "^0.1.26", "target": null, "version_id": 170712
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 869946, "kind": "normal",
+        "optional": false, "req": "^12.2", "target": null,
+        "version_id": 170712
+      },
+      {
+        "crate_id": "jsonrpc-http-server", "default_features": true,
+        "downloads": 0, "features": [], "id": 869955, "kind": "dev",
+        "optional": false, "req": "^12.2", "target": null,
+        "version_id": 170712
+      },
+      {
+        "crate_id": "jsonrpc-pubsub", "default_features": true,
+        "downloads": 0, "features": [], "id": 869947, "kind": "normal",
+        "optional": false, "req": "^12.2", "target": null,
+        "version_id": 170712
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 869956, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 170712
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 869948, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 170712
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 869949, "kind": "normal",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 170712
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 869950, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 170712
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 869957, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 170712
+      },
+      {
+        "crate_id": "hyper", "default_features": true, "downloads": 0,
+        "features": [], "id": 869944, "kind": "normal", "optional": true,
+        "req": "^0.12", "target": null, "version_id": 170712
+      },
+      {
+        "crate_id": "hyper-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 869945, "kind": "normal", "optional": true,
+        "req": "^0.3.2", "target": null, "version_id": 170712
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 869951, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 170712
+      },
+      {
+        "crate_id": "websocket", "default_features": true, "downloads": 0,
+        "features": [], "id": 869952, "kind": "normal", "optional": true,
+        "req": "^0.22", "target": null, "version_id": 170712
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-client-transports/12.2.1/download",
+    "downloads": 618,
+    "features": {
+      "default": ["http", "tls", "ws"], "http": ["hyper"],
+      "tls": ["hyper-tls", "http"], "ws": ["websocket", "tokio"]
+    },
+    "id": 170712, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-client-transports/12.2.1/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-client-transports/12.2.1/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-client-transports/12.2.1/downloads"
+    },
+    "num": "12.2.1",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/75586?v=4",
+      "id": 22071, "login": "ascjones", "name": "Andrew Jones",
+      "url": "https://github.com/ascjones"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-client-transports/12.2.1/readme",
+    "updated_at": "2019-08-20T09:32:10.964344+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-client-transports", "crate_size": 13491,
+    "created_at": "2019-07-29T09:57:45.275314+00:00",
+    "dependencies": [
+      {
+        "crate_id": "assert_matches", "default_features": true,
+        "downloads": 0, "features": [], "id": 840616, "kind": "dev",
+        "optional": false, "req": "^1.1", "target": null,
+        "version_id": 166014
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 840617, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 166014
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 840603, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 166014
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 840604, "kind": "normal", "optional": false,
+        "req": "^0.1.26", "target": null, "version_id": 166014
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 840607, "kind": "normal",
+        "optional": false, "req": "^13.0", "target": null,
+        "version_id": 166014
+      },
+      {
+        "crate_id": "jsonrpc-http-server", "default_features": true,
+        "downloads": 0, "features": [], "id": 840618, "kind": "dev",
+        "optional": false, "req": "^13.0", "target": null,
+        "version_id": 166014
+      },
+      {
+        "crate_id": "jsonrpc-ipc-server", "default_features": true,
+        "downloads": 0, "features": [], "id": 840619, "kind": "dev",
+        "optional": false, "req": "^13.0", "target": null,
+        "version_id": 166014
+      },
+      {
+        "crate_id": "jsonrpc-pubsub", "default_features": true,
+        "downloads": 0, "features": [], "id": 840608, "kind": "normal",
+        "optional": false, "req": "^13.0", "target": null,
+        "version_id": 166014
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 840620, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 166014
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 840610, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 166014
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 840612, "kind": "normal",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 166014
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 840613, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 166014
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 840621, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 166014
+      },
+      {
+        "crate_id": "hyper", "default_features": true, "downloads": 0,
+        "features": [], "id": 840605, "kind": "normal", "optional": true,
+        "req": "^0.12", "target": null, "version_id": 166014
+      },
+      {
+        "crate_id": "hyper-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 840606, "kind": "normal", "optional": true,
+        "req": "^0.3.2", "target": null, "version_id": 166014
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 840609, "kind": "normal",
+        "optional": true, "req": "^13.0", "target": null,
+        "version_id": 166014
+      },
+      {
+        "crate_id": "parity-tokio-ipc", "default_features": true,
+        "downloads": 0, "features": [], "id": 840611, "kind": "normal",
+        "optional": true, "req": "^0.2", "target": null,
+        "version_id": 166014
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 840614, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 166014
+      },
+      {
+        "crate_id": "websocket", "default_features": true, "downloads": 0,
+        "features": [], "id": 840615, "kind": "normal", "optional": true,
+        "req": "^0.23", "target": null, "version_id": 166014
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-client-transports/13.0.0/download",
+    "downloads": 1371,
+    "features": {
+      "default": ["http", "tls", "ws"], "http": ["hyper"],
+      "ipc": ["parity-tokio-ipc", "jsonrpc-server-utils", "tokio"],
+      "tls": ["hyper-tls", "http"], "ws": ["websocket", "tokio"]
+    },
+    "id": 166014, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-client-transports/13.0.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-client-transports/13.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-client-transports/13.0.0/downloads"
+    },
+    "num": "13.0.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/581548?v=4",
+      "id": 4242, "login": "tomusdrw", "name": "Tomasz DrwiÄga",
+      "url": "https://github.com/tomusdrw"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-client-transports/13.0.0/readme",
+    "updated_at": "2019-07-29T09:57:45.275314+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-client-transports", "crate_size": 13503,
+    "created_at": "2019-08-20T11:21:30.039541+00:00",
+    "dependencies": [
+      {
+        "crate_id": "assert_matches", "default_features": true,
+        "downloads": 0, "features": [], "id": 870021, "kind": "dev",
+        "optional": false, "req": "^1.1", "target": null,
+        "version_id": 170726
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 870022, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 170726
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 870008, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 170726
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 870009, "kind": "normal", "optional": false,
+        "req": "^0.1.26", "target": null, "version_id": 170726
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 870012, "kind": "normal",
+        "optional": false, "req": "^13.0", "target": null,
+        "version_id": 170726
+      },
+      {
+        "crate_id": "jsonrpc-http-server", "default_features": true,
+        "downloads": 0, "features": [], "id": 870023, "kind": "dev",
+        "optional": false, "req": "^13.0", "target": null,
+        "version_id": 170726
+      },
+      {
+        "crate_id": "jsonrpc-ipc-server", "default_features": true,
+        "downloads": 0, "features": [], "id": 870024, "kind": "dev",
+        "optional": false, "req": "^13.0", "target": null,
+        "version_id": 170726
+      },
+      {
+        "crate_id": "jsonrpc-pubsub", "default_features": true,
+        "downloads": 0, "features": [], "id": 870013, "kind": "normal",
+        "optional": false, "req": "^13.0", "target": null,
+        "version_id": 170726
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 870025, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 170726
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 870015, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 170726
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 870017, "kind": "normal",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 170726
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 870018, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 170726
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 870026, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 170726
+      },
+      {
+        "crate_id": "hyper", "default_features": true, "downloads": 0,
+        "features": [], "id": 870010, "kind": "normal", "optional": true,
+        "req": "^0.12", "target": null, "version_id": 170726
+      },
+      {
+        "crate_id": "hyper-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 870011, "kind": "normal", "optional": true,
+        "req": "^0.3.2", "target": null, "version_id": 170726
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 870014, "kind": "normal",
+        "optional": true, "req": "^13.0", "target": null,
+        "version_id": 170726
+      },
+      {
+        "crate_id": "parity-tokio-ipc", "default_features": true,
+        "downloads": 0, "features": [], "id": 870016, "kind": "normal",
+        "optional": true, "req": "^0.2", "target": null,
+        "version_id": 170726
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 870019, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 170726
+      },
+      {
+        "crate_id": "websocket", "default_features": true, "downloads": 0,
+        "features": [], "id": 870020, "kind": "normal", "optional": true,
+        "req": "^0.23", "target": null, "version_id": 170726
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-client-transports/13.0.1/download",
+    "downloads": 919,
+    "features": {
+      "default": ["http", "tls", "ws"], "http": ["hyper"],
+      "ipc": ["parity-tokio-ipc", "jsonrpc-server-utils", "tokio"],
+      "tls": ["hyper-tls", "http"], "ws": ["websocket", "tokio"]
+    },
+    "id": 170726, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-client-transports/13.0.1/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-client-transports/13.0.1/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-client-transports/13.0.1/downloads"
+    },
+    "num": "13.0.1",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/75586?v=4",
+      "id": 22071, "login": "ascjones", "name": "Andrew Jones",
+      "url": "https://github.com/ascjones"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-client-transports/13.0.1/readme",
+    "updated_at": "2019-08-20T11:21:30.039541+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-client-transports", "crate_size": 13612,
+    "created_at": "2019-08-26T12:37:10.575114+00:00",
+    "dependencies": [
+      {
+        "crate_id": "assert_matches", "default_features": true,
+        "downloads": 0, "features": [], "id": 878084, "kind": "dev",
+        "optional": false, "req": "^1.1", "target": null,
+        "version_id": 171951
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 878085, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 171951
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 878070, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 171951
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 878071, "kind": "normal", "optional": false,
+        "req": "^0.1.26", "target": null, "version_id": 171951
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 878074, "kind": "normal",
+        "optional": false, "req": "^13.1", "target": null,
+        "version_id": 171951
+      },
+      {
+        "crate_id": "jsonrpc-http-server", "default_features": true,
+        "downloads": 0, "features": [], "id": 878086, "kind": "dev",
+        "optional": false, "req": "^13.1", "target": null,
+        "version_id": 171951
+      },
+      {
+        "crate_id": "jsonrpc-ipc-server", "default_features": true,
+        "downloads": 0, "features": [], "id": 878087, "kind": "dev",
+        "optional": false, "req": "^13.1", "target": null,
+        "version_id": 171951
+      },
+      {
+        "crate_id": "jsonrpc-pubsub", "default_features": true,
+        "downloads": 0, "features": [], "id": 878075, "kind": "normal",
+        "optional": false, "req": "^13.1", "target": null,
+        "version_id": 171951
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 878088, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 171951
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 878077, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 171951
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 878079, "kind": "normal",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 171951
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 878080, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 171951
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 878089, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 171951
+      },
+      {
+        "crate_id": "url", "default_features": true, "downloads": 0,
+        "features": [], "id": 878082, "kind": "normal", "optional": false,
+        "req": "^1.7", "target": null, "version_id": 171951
+      },
+      {
+        "crate_id": "hyper", "default_features": true, "downloads": 0,
+        "features": [], "id": 878072, "kind": "normal", "optional": true,
+        "req": "^0.12", "target": null, "version_id": 171951
+      },
+      {
+        "crate_id": "hyper-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 878073, "kind": "normal", "optional": true,
+        "req": "^0.3.2", "target": null, "version_id": 171951
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 878076, "kind": "normal",
+        "optional": true, "req": "^13.1", "target": null,
+        "version_id": 171951
+      },
+      {
+        "crate_id": "parity-tokio-ipc", "default_features": true,
+        "downloads": 0, "features": [], "id": 878078, "kind": "normal",
+        "optional": true, "req": "^0.2", "target": null,
+        "version_id": 171951
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 878081, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 171951
+      },
+      {
+        "crate_id": "websocket", "default_features": true, "downloads": 0,
+        "features": [], "id": 878083, "kind": "normal", "optional": true,
+        "req": "^0.23", "target": null, "version_id": 171951
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-client-transports/13.1.0/download",
+    "downloads": 116516,
+    "features": {
+      "default": ["http", "tls", "ws"], "http": ["hyper"],
+      "ipc": ["parity-tokio-ipc", "jsonrpc-server-utils", "tokio"],
+      "tls": ["hyper-tls", "http"], "ws": ["websocket", "tokio"]
+    },
+    "id": 171951, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-client-transports/13.1.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-client-transports/13.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-client-transports/13.1.0/downloads"
+    },
+    "num": "13.1.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/581548?v=4",
+      "id": 4242, "login": "tomusdrw", "name": "Tomasz DrwiÄga",
+      "url": "https://github.com/tomusdrw"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-client-transports/13.1.0/readme",
+    "updated_at": "2019-08-26T12:37:10.575114+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-client-transports", "crate_size": 13991,
+    "created_at": "2019-09-13T12:00:47.768743+00:00",
+    "dependencies": [
+      {
+        "crate_id": "assert_matches", "default_features": true,
+        "downloads": 0, "features": [], "id": 903291, "kind": "dev",
+        "optional": false, "req": "^1.1", "target": null,
+        "version_id": 175998
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 903292, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 175998
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 903277, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 175998
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 903278, "kind": "normal", "optional": false,
+        "req": "^0.1.26", "target": null, "version_id": 175998
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 903281, "kind": "normal",
+        "optional": false, "req": "^13.2", "target": null,
+        "version_id": 175998
+      },
+      {
+        "crate_id": "jsonrpc-http-server", "default_features": true,
+        "downloads": 0, "features": [], "id": 903293, "kind": "dev",
+        "optional": false, "req": "^13.2", "target": null,
+        "version_id": 175998
+      },
+      {
+        "crate_id": "jsonrpc-ipc-server", "default_features": true,
+        "downloads": 0, "features": [], "id": 903294, "kind": "dev",
+        "optional": false, "req": "^13.2", "target": null,
+        "version_id": 175998
+      },
+      {
+        "crate_id": "jsonrpc-pubsub", "default_features": true,
+        "downloads": 0, "features": [], "id": 903282, "kind": "normal",
+        "optional": false, "req": "^13.2", "target": null,
+        "version_id": 175998
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 903295, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 175998
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 903284, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 175998
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 903286, "kind": "normal",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 175998
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 903287, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 175998
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 903296, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 175998
+      },
+      {
+        "crate_id": "url", "default_features": true, "downloads": 0,
+        "features": [], "id": 903289, "kind": "normal", "optional": false,
+        "req": "^1.7", "target": null, "version_id": 175998
+      },
+      {
+        "crate_id": "hyper", "default_features": true, "downloads": 0,
+        "features": [], "id": 903279, "kind": "normal", "optional": true,
+        "req": "^0.12", "target": null, "version_id": 175998
+      },
+      {
+        "crate_id": "hyper-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 903280, "kind": "normal", "optional": true,
+        "req": "^0.3.2", "target": null, "version_id": 175998
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 903283, "kind": "normal",
+        "optional": true, "req": "^13.2", "target": null,
+        "version_id": 175998
+      },
+      {
+        "crate_id": "parity-tokio-ipc", "default_features": true,
+        "downloads": 0, "features": [], "id": 903285, "kind": "normal",
+        "optional": true, "req": "^0.2", "target": null,
+        "version_id": 175998
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 903288, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 175998
+      },
+      {
+        "crate_id": "websocket", "default_features": true, "downloads": 0,
+        "features": [], "id": 903290, "kind": "normal", "optional": true,
+        "req": "^0.23", "target": null, "version_id": 175998
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-client-transports/13.2.0/download",
+    "downloads": 16747,
+    "features": {
+      "default": ["http", "tls", "ws"], "http": ["hyper"],
+      "ipc": ["parity-tokio-ipc", "jsonrpc-server-utils", "tokio"],
+      "tls": ["hyper-tls", "http"], "ws": ["websocket", "tokio"]
+    },
+    "id": 175998, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-client-transports/13.2.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-client-transports/13.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-client-transports/13.2.0/downloads"
+    },
+    "num": "13.2.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/581548?v=4",
+      "id": 4242, "login": "tomusdrw", "name": "Tomasz DrwiÄga",
+      "url": "https://github.com/tomusdrw"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-client-transports/13.2.0/readme",
+    "updated_at": "2019-09-13T12:00:47.768743+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-client-transports", "crate_size": 13954,
+    "created_at": "2019-10-09T12:34:31.373909+00:00",
+    "dependencies": [
+      {
+        "crate_id": "assert_matches", "default_features": true,
+        "downloads": 0, "features": [], "id": 937455, "kind": "dev",
+        "optional": false, "req": "^1.1", "target": null,
+        "version_id": 181450
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 937456, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 181450
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 937441, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 181450
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 937442, "kind": "normal", "optional": false,
+        "req": "^0.1.26", "target": null, "version_id": 181450
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 937445, "kind": "normal",
+        "optional": false, "req": "^14.0", "target": null,
+        "version_id": 181450
+      },
+      {
+        "crate_id": "jsonrpc-http-server", "default_features": true,
+        "downloads": 0, "features": [], "id": 937457, "kind": "dev",
+        "optional": false, "req": "^14.0", "target": null,
+        "version_id": 181450
+      },
+      {
+        "crate_id": "jsonrpc-ipc-server", "default_features": true,
+        "downloads": 0, "features": [], "id": 937458, "kind": "dev",
+        "optional": false, "req": "^14.0", "target": null,
+        "version_id": 181450
+      },
+      {
+        "crate_id": "jsonrpc-pubsub", "default_features": true,
+        "downloads": 0, "features": [], "id": 937446, "kind": "normal",
+        "optional": false, "req": "^14.0", "target": null,
+        "version_id": 181450
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 937459, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 181450
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 937448, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 181450
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 937450, "kind": "normal",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 181450
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 937451, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 181450
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 937460, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 181450
+      },
+      {
+        "crate_id": "url", "default_features": true, "downloads": 0,
+        "features": [], "id": 937453, "kind": "normal", "optional": false,
+        "req": "^1.7", "target": null, "version_id": 181450
+      },
+      {
+        "crate_id": "hyper", "default_features": true, "downloads": 0,
+        "features": [], "id": 937443, "kind": "normal", "optional": true,
+        "req": "^0.12", "target": null, "version_id": 181450
+      },
+      {
+        "crate_id": "hyper-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 937444, "kind": "normal", "optional": true,
+        "req": "^0.3.2", "target": null, "version_id": 181450
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 937447, "kind": "normal",
+        "optional": true, "req": "^14.0", "target": null,
+        "version_id": 181450
+      },
+      {
+        "crate_id": "parity-tokio-ipc", "default_features": true,
+        "downloads": 0, "features": [], "id": 937449, "kind": "normal",
+        "optional": true, "req": "^0.2", "target": null,
+        "version_id": 181450
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 937452, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 181450
+      },
+      {
+        "crate_id": "websocket", "default_features": true, "downloads": 0,
+        "features": [], "id": 937454, "kind": "normal", "optional": true,
+        "req": "^0.23", "target": null, "version_id": 181450
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-client-transports/14.0.0/download",
+    "downloads": 1912,
+    "features": {
+      "default": ["http", "tls", "ws"], "http": ["hyper"],
+      "ipc": ["parity-tokio-ipc", "jsonrpc-server-utils", "tokio"],
+      "tls": ["hyper-tls", "http"], "ws": ["websocket", "tokio"]
+    },
+    "id": 181450, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-client-transports/14.0.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-client-transports/14.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-client-transports/14.0.0/downloads"
+    },
+    "num": "14.0.0",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/18515?v=4",
+      "id": 11797, "login": "dvdplm", "name": "David",
+      "url": "https://github.com/dvdplm"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-client-transports/14.0.0/readme",
+    "updated_at": "2019-10-09T12:34:31.373909+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-client-transports", "crate_size": 13955,
+    "created_at": "2019-10-18T17:24:08.316895+00:00",
+    "dependencies": [
+      {
+        "crate_id": "assert_matches", "default_features": true,
+        "downloads": 0, "features": [], "id": 951549, "kind": "dev",
+        "optional": false, "req": "^1.1", "target": null,
+        "version_id": 183563
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 951550, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 183563
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 951535, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 183563
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 951536, "kind": "normal", "optional": false,
+        "req": "^0.1.26", "target": null, "version_id": 183563
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 951539, "kind": "normal",
+        "optional": false, "req": "^14.0", "target": null,
+        "version_id": 183563
+      },
+      {
+        "crate_id": "jsonrpc-http-server", "default_features": true,
+        "downloads": 0, "features": [], "id": 951551, "kind": "dev",
+        "optional": false, "req": "^14.0", "target": null,
+        "version_id": 183563
+      },
+      {
+        "crate_id": "jsonrpc-ipc-server", "default_features": true,
+        "downloads": 0, "features": [], "id": 951552, "kind": "dev",
+        "optional": false, "req": "^14.0", "target": null,
+        "version_id": 183563
+      },
+      {
+        "crate_id": "jsonrpc-pubsub", "default_features": true,
+        "downloads": 0, "features": [], "id": 951540, "kind": "normal",
+        "optional": false, "req": "^14.0", "target": null,
+        "version_id": 183563
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 951553, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 183563
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 951542, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 183563
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 951544, "kind": "normal",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 183563
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 951545, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 183563
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 951554, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 183563
+      },
+      {
+        "crate_id": "url", "default_features": true, "downloads": 0,
+        "features": [], "id": 951547, "kind": "normal", "optional": false,
+        "req": "^1.7", "target": null, "version_id": 183563
+      },
+      {
+        "crate_id": "hyper", "default_features": true, "downloads": 0,
+        "features": [], "id": 951537, "kind": "normal", "optional": true,
+        "req": "^0.12", "target": null, "version_id": 183563
+      },
+      {
+        "crate_id": "hyper-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 951538, "kind": "normal", "optional": true,
+        "req": "^0.3.2", "target": null, "version_id": 183563
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 951541, "kind": "normal",
+        "optional": true, "req": "^14.0", "target": null,
+        "version_id": 183563
+      },
+      {
+        "crate_id": "parity-tokio-ipc", "default_features": true,
+        "downloads": 0, "features": [], "id": 951543, "kind": "normal",
+        "optional": true, "req": "^0.2", "target": null,
+        "version_id": 183563
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 951546, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 183563
+      },
+      {
+        "crate_id": "websocket", "default_features": true, "downloads": 0,
+        "features": [], "id": 951548, "kind": "normal", "optional": true,
+        "req": "^0.23", "target": null, "version_id": 183563
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-client-transports/14.0.1/download",
+    "downloads": 307,
+    "features": {
+      "default": ["http", "tls", "ws"], "http": ["hyper"],
+      "ipc": ["parity-tokio-ipc", "jsonrpc-server-utils", "tokio"],
+      "tls": ["hyper-tls", "http"], "ws": ["websocket", "tokio"]
+    },
+    "id": 183563, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-client-transports/14.0.1/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-client-transports/14.0.1/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-client-transports/14.0.1/downloads"
+    },
+    "num": "14.0.1",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/18515?v=4",
+      "id": 11797, "login": "dvdplm", "name": "David",
+      "url": "https://github.com/dvdplm"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-client-transports/14.0.1/readme",
+    "updated_at": "2019-10-18T17:24:08.316895+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-client-transports", "crate_size": 13998,
+    "created_at": "2019-10-25T07:46:16.453131+00:00",
+    "dependencies": [
+      {
+        "crate_id": "assert_matches", "default_features": true,
+        "downloads": 0, "features": [], "id": 961031, "kind": "dev",
+        "optional": false, "req": "^1.1", "target": null,
+        "version_id": 184941
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 961032, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 184941
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 961017, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 184941
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 961018, "kind": "normal", "optional": false,
+        "req": "^0.1.26", "target": null, "version_id": 184941
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 961021, "kind": "normal",
+        "optional": false, "req": "^14.0", "target": null,
+        "version_id": 184941
+      },
+      {
+        "crate_id": "jsonrpc-http-server", "default_features": true,
+        "downloads": 0, "features": [], "id": 961033, "kind": "dev",
+        "optional": false, "req": "^14.0", "target": null,
+        "version_id": 184941
+      },
+      {
+        "crate_id": "jsonrpc-ipc-server", "default_features": true,
+        "downloads": 0, "features": [], "id": 961034, "kind": "dev",
+        "optional": false, "req": "^14.0", "target": null,
+        "version_id": 184941
+      },
+      {
+        "crate_id": "jsonrpc-pubsub", "default_features": true,
+        "downloads": 0, "features": [], "id": 961022, "kind": "normal",
+        "optional": false, "req": "^14.0", "target": null,
+        "version_id": 184941
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 961035, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 184941
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 961024, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 184941
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 961026, "kind": "normal",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 184941
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 961027, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 184941
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 961036, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 184941
+      },
+      {
+        "crate_id": "url", "default_features": true, "downloads": 0,
+        "features": [], "id": 961029, "kind": "normal", "optional": false,
+        "req": "^1.7", "target": null, "version_id": 184941
+      },
+      {
+        "crate_id": "hyper", "default_features": true, "downloads": 0,
+        "features": [], "id": 961019, "kind": "normal", "optional": true,
+        "req": "^0.12", "target": null, "version_id": 184941
+      },
+      {
+        "crate_id": "hyper-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 961020, "kind": "normal", "optional": true,
+        "req": "^0.3.2", "target": null, "version_id": 184941
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 961023, "kind": "normal",
+        "optional": true, "req": "^14.0", "target": null,
+        "version_id": 184941
+      },
+      {
+        "crate_id": "parity-tokio-ipc", "default_features": true,
+        "downloads": 0, "features": [], "id": 961025, "kind": "normal",
+        "optional": true, "req": "^0.2", "target": null,
+        "version_id": 184941
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 961028, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 184941
+      },
+      {
+        "crate_id": "websocket", "default_features": true, "downloads": 0,
+        "features": [], "id": 961030, "kind": "normal", "optional": true,
+        "req": "^0.23", "target": null, "version_id": 184941
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-client-transports/14.0.2/download",
+    "downloads": 121,
+    "features": {
+      "default": ["http", "tls", "ws"], "http": ["hyper"],
+      "ipc": ["parity-tokio-ipc", "jsonrpc-server-utils", "tokio"],
+      "tls": ["hyper-tls", "http"], "ws": ["websocket", "tokio"]
+    },
+    "id": 184941, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-client-transports/14.0.2/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-client-transports/14.0.2/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-client-transports/14.0.2/downloads"
+    },
+    "num": "14.0.2",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/581548?v=4",
+      "id": 4242, "login": "tomusdrw", "name": "Tomasz DrwiÄga",
+      "url": "https://github.com/tomusdrw"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-client-transports/14.0.2/readme",
+    "updated_at": "2019-10-25T07:46:16.453131+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-client-transports", "crate_size": 13999,
+    "created_at": "2019-10-25T12:53:54.443450+00:00",
+    "dependencies": [
+      {
+        "crate_id": "assert_matches", "default_features": true,
+        "downloads": 0, "features": [], "id": 961409, "kind": "dev",
+        "optional": false, "req": "^1.1", "target": null,
+        "version_id": 184995
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 961410, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 184995
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 961395, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 184995
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 961396, "kind": "normal", "optional": false,
+        "req": "^0.1.26", "target": null, "version_id": 184995
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 961399, "kind": "normal",
+        "optional": false, "req": "^14.0", "target": null,
+        "version_id": 184995
+      },
+      {
+        "crate_id": "jsonrpc-http-server", "default_features": true,
+        "downloads": 0, "features": [], "id": 961411, "kind": "dev",
+        "optional": false, "req": "^14.0", "target": null,
+        "version_id": 184995
+      },
+      {
+        "crate_id": "jsonrpc-ipc-server", "default_features": true,
+        "downloads": 0, "features": [], "id": 961412, "kind": "dev",
+        "optional": false, "req": "^14.0", "target": null,
+        "version_id": 184995
+      },
+      {
+        "crate_id": "jsonrpc-pubsub", "default_features": true,
+        "downloads": 0, "features": [], "id": 961400, "kind": "normal",
+        "optional": false, "req": "^14.0", "target": null,
+        "version_id": 184995
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 961413, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 184995
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 961402, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 184995
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 961404, "kind": "normal",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 184995
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 961405, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 184995
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 961414, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 184995
+      },
+      {
+        "crate_id": "url", "default_features": true, "downloads": 0,
+        "features": [], "id": 961407, "kind": "normal", "optional": false,
+        "req": "^1.7", "target": null, "version_id": 184995
+      },
+      {
+        "crate_id": "hyper", "default_features": true, "downloads": 0,
+        "features": [], "id": 961397, "kind": "normal", "optional": true,
+        "req": "^0.12", "target": null, "version_id": 184995
+      },
+      {
+        "crate_id": "hyper-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 961398, "kind": "normal", "optional": true,
+        "req": "^0.3.2", "target": null, "version_id": 184995
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 961401, "kind": "normal",
+        "optional": true, "req": "^14.0", "target": null,
+        "version_id": 184995
+      },
+      {
+        "crate_id": "parity-tokio-ipc", "default_features": true,
+        "downloads": 0, "features": [], "id": 961403, "kind": "normal",
+        "optional": true, "req": "^0.2", "target": null,
+        "version_id": 184995
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 961406, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 184995
+      },
+      {
+        "crate_id": "websocket", "default_features": true, "downloads": 0,
+        "features": [], "id": 961408, "kind": "normal", "optional": true,
+        "req": "^0.23", "target": null, "version_id": 184995
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-client-transports/14.0.3/download",
+    "downloads": 8364,
+    "features": {
+      "default": ["http", "tls", "ws"], "http": ["hyper"],
+      "ipc": ["parity-tokio-ipc", "jsonrpc-server-utils", "tokio"],
+      "tls": ["hyper-tls", "http"], "ws": ["websocket", "tokio"]
+    },
+    "id": 184995, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-client-transports/14.0.3/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-client-transports/14.0.3/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-client-transports/14.0.3/downloads"
+    },
+    "num": "14.0.3",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/581548?v=4",
+      "id": 4242, "login": "tomusdrw", "name": "Tomasz DrwiÄga",
+      "url": "https://github.com/tomusdrw"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-client-transports/14.0.3/readme",
+    "updated_at": "2019-10-25T12:53:54.443450+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-client-transports", "crate_size": 14004,
+    "created_at": "2019-11-28T13:39:00.528242+00:00",
+    "dependencies": [
+      {
+        "crate_id": "assert_matches", "default_features": true,
+        "downloads": 0, "features": [], "id": 1015312, "kind": "dev",
+        "optional": false, "req": "^1.1", "target": null,
+        "version_id": 192836
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1015313, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 192836
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 1015298, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 192836
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1015299, "kind": "normal", "optional": false,
+        "req": "^0.1.26", "target": null, "version_id": 192836
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 1015302, "kind": "normal",
+        "optional": false, "req": "^14.0", "target": null,
+        "version_id": 192836
+      },
+      {
+        "crate_id": "jsonrpc-http-server", "default_features": true,
+        "downloads": 0, "features": [], "id": 1015314, "kind": "dev",
+        "optional": false, "req": "^14.0", "target": null,
+        "version_id": 192836
+      },
+      {
+        "crate_id": "jsonrpc-ipc-server", "default_features": true,
+        "downloads": 0, "features": [], "id": 1015315, "kind": "dev",
+        "optional": false, "req": "^14.0", "target": null,
+        "version_id": 192836
+      },
+      {
+        "crate_id": "jsonrpc-pubsub", "default_features": true,
+        "downloads": 0, "features": [], "id": 1015303, "kind": "normal",
+        "optional": false, "req": "^14.0", "target": null,
+        "version_id": 192836
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1015316, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 192836
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1015305, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 192836
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1015307, "kind": "normal",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 192836
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1015308, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 192836
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 1015317, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 192836
+      },
+      {
+        "crate_id": "url", "default_features": true, "downloads": 0,
+        "features": [], "id": 1015310, "kind": "normal", "optional": false,
+        "req": "^1.7", "target": null, "version_id": 192836
+      },
+      {
+        "crate_id": "hyper", "default_features": true, "downloads": 0,
+        "features": [], "id": 1015300, "kind": "normal", "optional": true,
+        "req": "^0.12", "target": null, "version_id": 192836
+      },
+      {
+        "crate_id": "hyper-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1015301, "kind": "normal", "optional": true,
+        "req": "^0.3.2", "target": null, "version_id": 192836
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 1015304, "kind": "normal",
+        "optional": true, "req": "^14.0", "target": null,
+        "version_id": 192836
+      },
+      {
+        "crate_id": "parity-tokio-ipc", "default_features": true,
+        "downloads": 0, "features": [], "id": 1015306, "kind": "normal",
+        "optional": true, "req": "^0.2", "target": null,
+        "version_id": 192836
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 1015309, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 192836
+      },
+      {
+        "crate_id": "websocket", "default_features": true, "downloads": 0,
+        "features": [], "id": 1015311, "kind": "normal", "optional": true,
+        "req": "^0.24", "target": null, "version_id": 192836
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-client-transports/14.0.5/download",
+    "downloads": 244199,
+    "features": {
+      "arbitrary_precision": [
+        "serde_json/arbitrary_precision",
+        "jsonrpc-core/arbitrary_precision"
+      ],
+      "default": ["http", "tls", "ws"], "http": ["hyper"],
+      "ipc": ["parity-tokio-ipc", "jsonrpc-server-utils", "tokio"],
+      "tls": ["hyper-tls", "http"], "ws": ["websocket", "tokio"]
+    },
+    "id": 192836, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-client-transports/14.0.5/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-client-transports/14.0.5/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-client-transports/14.0.5/downloads"
+    },
+    "num": "14.0.5",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/581548?v=4",
+      "id": 4242, "login": "tomusdrw", "name": "Tomasz DrwiÄga",
+      "url": "https://github.com/tomusdrw"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-client-transports/14.0.5/readme",
+    "updated_at": "2019-11-28T13:39:00.528242+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-04-14T10:15:01.640852+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/75586?v=4",
+          "id": 22071, "login": "ascjones", "name": "Andrew Jones",
+          "url": "https://github.com/ascjones"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-client-transports", "crate_size": 14097,
+    "created_at": "2020-04-14T10:15:01.640852+00:00",
+    "dependencies": [
+      {
+        "crate_id": "assert_matches", "default_features": true,
+        "downloads": 0, "features": [], "id": 1292511, "kind": "dev",
+        "optional": false, "req": "^1.1", "target": null,
+        "version_id": 231118
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1292512, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 231118
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 1292497, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 231118
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1292498, "kind": "normal", "optional": false,
+        "req": "^0.1.26", "target": null, "version_id": 231118
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 1292501, "kind": "normal",
+        "optional": false, "req": "^14.1", "target": null,
+        "version_id": 231118
+      },
+      {
+        "crate_id": "jsonrpc-http-server", "default_features": true,
+        "downloads": 0, "features": [], "id": 1292513, "kind": "dev",
+        "optional": false, "req": "^14.1", "target": null,
+        "version_id": 231118
+      },
+      {
+        "crate_id": "jsonrpc-ipc-server", "default_features": true,
+        "downloads": 0, "features": [], "id": 1292514, "kind": "dev",
+        "optional": false, "req": "^14.1", "target": null,
+        "version_id": 231118
+      },
+      {
+        "crate_id": "jsonrpc-pubsub", "default_features": true,
+        "downloads": 0, "features": [], "id": 1292502, "kind": "normal",
+        "optional": false, "req": "^14.1", "target": null,
+        "version_id": 231118
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1292515, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 231118
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1292504, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 231118
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1292506, "kind": "normal",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 231118
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1292507, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 231118
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 1292516, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 231118
+      },
+      {
+        "crate_id": "url", "default_features": true, "downloads": 0,
+        "features": [], "id": 1292509, "kind": "normal", "optional": false,
+        "req": "^1.7", "target": null, "version_id": 231118
+      },
+      {
+        "crate_id": "hyper", "default_features": true, "downloads": 0,
+        "features": [], "id": 1292499, "kind": "normal", "optional": true,
+        "req": "^0.12", "target": null, "version_id": 231118
+      },
+      {
+        "crate_id": "hyper-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1292500, "kind": "normal", "optional": true,
+        "req": "^0.3.2", "target": null, "version_id": 231118
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 1292503, "kind": "normal",
+        "optional": true, "req": "^14.1", "target": null,
+        "version_id": 231118
+      },
+      {
+        "crate_id": "parity-tokio-ipc", "default_features": true,
+        "downloads": 0, "features": [], "id": 1292505, "kind": "normal",
+        "optional": true, "req": "^0.2", "target": null,
+        "version_id": 231118
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 1292508, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 231118
+      },
+      {
+        "crate_id": "websocket", "default_features": true, "downloads": 0,
+        "features": [], "id": 1292510, "kind": "normal", "optional": true,
+        "req": "^0.24", "target": null, "version_id": 231118
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-client-transports/14.1.0/download",
+    "downloads": 37839,
+    "features": {
+      "arbitrary_precision": [
+        "serde_json/arbitrary_precision",
+        "jsonrpc-core/arbitrary_precision"
+      ],
+      "default": ["http", "tls", "ws"], "http": ["hyper"],
+      "ipc": ["parity-tokio-ipc", "jsonrpc-server-utils", "tokio"],
+      "tls": ["hyper-tls", "http"], "ws": ["websocket", "tokio"]
+    },
+    "id": 231118, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-client-transports/14.1.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-client-transports/14.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-client-transports/14.1.0/downloads"
+    },
+    "num": "14.1.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/75586?v=4",
+      "id": 22071, "login": "ascjones", "name": "Andrew Jones",
+      "url": "https://github.com/ascjones"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-client-transports/14.1.0/readme",
+    "updated_at": "2020-04-14T10:15:01.640852+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-06-03T11:10:12.172146+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/581548?v=4",
+          "id": 4242, "login": "tomusdrw", "name": "Tomasz DrwiÄga",
+          "url": "https://github.com/tomusdrw"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-client-transports", "crate_size": 14095,
+    "created_at": "2020-06-03T11:10:12.172146+00:00",
+    "dependencies": [
+      {
+        "crate_id": "assert_matches", "default_features": true,
+        "downloads": 0, "features": [], "id": 1419659, "kind": "dev",
+        "optional": false, "req": "^1.1", "target": null,
+        "version_id": 248476
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1419660, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 248476
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 1419645, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 248476
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1419646, "kind": "normal", "optional": false,
+        "req": "^0.1.26", "target": null, "version_id": 248476
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 1419649, "kind": "normal",
+        "optional": false, "req": "^14.2", "target": null,
+        "version_id": 248476
+      },
+      {
+        "crate_id": "jsonrpc-http-server", "default_features": true,
+        "downloads": 0, "features": [], "id": 1419661, "kind": "dev",
+        "optional": false, "req": "^14.2", "target": null,
+        "version_id": 248476
+      },
+      {
+        "crate_id": "jsonrpc-ipc-server", "default_features": true,
+        "downloads": 0, "features": [], "id": 1419662, "kind": "dev",
+        "optional": false, "req": "^14.2", "target": null,
+        "version_id": 248476
+      },
+      {
+        "crate_id": "jsonrpc-pubsub", "default_features": true,
+        "downloads": 0, "features": [], "id": 1419650, "kind": "normal",
+        "optional": false, "req": "^14.2", "target": null,
+        "version_id": 248476
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1419663, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 248476
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1419652, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 248476
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1419654, "kind": "normal",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 248476
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1419655, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 248476
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 1419664, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 248476
+      },
+      {
+        "crate_id": "url", "default_features": true, "downloads": 0,
+        "features": [], "id": 1419657, "kind": "normal", "optional": false,
+        "req": "^1.7", "target": null, "version_id": 248476
+      },
+      {
+        "crate_id": "hyper", "default_features": true, "downloads": 0,
+        "features": [], "id": 1419647, "kind": "normal", "optional": true,
+        "req": "^0.12", "target": null, "version_id": 248476
+      },
+      {
+        "crate_id": "hyper-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1419648, "kind": "normal", "optional": true,
+        "req": "^0.3.2", "target": null, "version_id": 248476
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 1419651, "kind": "normal",
+        "optional": true, "req": "^14.2", "target": null,
+        "version_id": 248476
+      },
+      {
+        "crate_id": "parity-tokio-ipc", "default_features": true,
+        "downloads": 0, "features": [], "id": 1419653, "kind": "normal",
+        "optional": true, "req": "^0.2", "target": null,
+        "version_id": 248476
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 1419656, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 248476
+      },
+      {
+        "crate_id": "websocket", "default_features": true, "downloads": 0,
+        "features": [], "id": 1419658, "kind": "normal", "optional": true,
+        "req": "^0.24", "target": null, "version_id": 248476
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-client-transports/14.2.0/download",
+    "downloads": 71885,
+    "features": {
+      "arbitrary_precision": [
+        "serde_json/arbitrary_precision",
+        "jsonrpc-core/arbitrary_precision"
+      ],
+      "default": ["http", "tls", "ws"], "http": ["hyper"],
+      "ipc": ["parity-tokio-ipc", "jsonrpc-server-utils", "tokio"],
+      "tls": ["hyper-tls", "http"], "ws": ["websocket", "tokio"]
+    },
+    "id": 248476, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-client-transports/14.2.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-client-transports/14.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-client-transports/14.2.0/downloads"
+    },
+    "num": "14.2.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/581548?v=4",
+      "id": 4242, "login": "tomusdrw", "name": "Tomasz DrwiÄga",
+      "url": "https://github.com/tomusdrw"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-client-transports/14.2.0/readme",
+    "updated_at": "2020-06-03T11:10:12.172146+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-07-30T15:29:39.348524+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/581548?v=4",
+          "id": 4242, "login": "tomusdrw", "name": "Tomasz DrwiÄga",
+          "url": "https://github.com/tomusdrw"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-client-transports", "crate_size": 14177,
+    "created_at": "2020-07-30T15:29:39.348524+00:00",
+    "dependencies": [
+      {
+        "crate_id": "assert_matches", "default_features": true,
+        "downloads": 0, "features": [], "id": 1564743, "kind": "dev",
+        "optional": false, "req": "^1.1", "target": null,
+        "version_id": 267910
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1564744, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 267910
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 1564729, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 267910
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1564730, "kind": "normal", "optional": false,
+        "req": "^0.1.26", "target": null, "version_id": 267910
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 1564733, "kind": "normal",
+        "optional": false, "req": "^14.2", "target": null,
+        "version_id": 267910
+      },
+      {
+        "crate_id": "jsonrpc-http-server", "default_features": true,
+        "downloads": 0, "features": [], "id": 1564745, "kind": "dev",
+        "optional": false, "req": "^14.2", "target": null,
+        "version_id": 267910
+      },
+      {
+        "crate_id": "jsonrpc-ipc-server", "default_features": true,
+        "downloads": 0, "features": [], "id": 1564746, "kind": "dev",
+        "optional": false, "req": "^14.2", "target": null,
+        "version_id": 267910
+      },
+      {
+        "crate_id": "jsonrpc-pubsub", "default_features": true,
+        "downloads": 0, "features": [], "id": 1564734, "kind": "normal",
+        "optional": false, "req": "^14.2", "target": null,
+        "version_id": 267910
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1564747, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 267910
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1564736, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 267910
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1564738, "kind": "normal",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 267910
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1564739, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 267910
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 1564748, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 267910
+      },
+      {
+        "crate_id": "url", "default_features": true, "downloads": 0,
+        "features": [], "id": 1564741, "kind": "normal", "optional": false,
+        "req": "^1.7", "target": null, "version_id": 267910
+      },
+      {
+        "crate_id": "hyper", "default_features": true, "downloads": 0,
+        "features": [], "id": 1564731, "kind": "normal", "optional": true,
+        "req": "^0.12", "target": null, "version_id": 267910
+      },
+      {
+        "crate_id": "hyper-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1564732, "kind": "normal", "optional": true,
+        "req": "^0.3.2", "target": null, "version_id": 267910
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 1564735, "kind": "normal",
+        "optional": true, "req": "^14.2", "target": null,
+        "version_id": 267910
+      },
+      {
+        "crate_id": "parity-tokio-ipc", "default_features": true,
+        "downloads": 0, "features": [], "id": 1564737, "kind": "normal",
+        "optional": true, "req": "^0.2", "target": null,
+        "version_id": 267910
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 1564740, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 267910
+      },
+      {
+        "crate_id": "websocket", "default_features": true, "downloads": 0,
+        "features": [], "id": 1564742, "kind": "normal", "optional": true,
+        "req": "^0.24", "target": null, "version_id": 267910
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-client-transports/14.2.1/download",
+    "downloads": 73971,
+    "features": {
+      "arbitrary_precision": [
+        "serde_json/arbitrary_precision",
+        "jsonrpc-core/arbitrary_precision"
+      ],
+      "default": ["http", "tls", "ws"], "http": ["hyper"],
+      "ipc": ["parity-tokio-ipc", "jsonrpc-server-utils", "tokio"],
+      "tls": ["hyper-tls", "http"], "ws": ["websocket", "tokio"]
+    },
+    "id": 267910, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-client-transports/14.2.1/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-client-transports/14.2.1/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-client-transports/14.2.1/downloads"
+    },
+    "num": "14.2.1",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/581548?v=4",
+      "id": 4242, "login": "tomusdrw", "name": "Tomasz DrwiÄga",
+      "url": "https://github.com/tomusdrw"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-client-transports/14.2.1/readme",
+    "updated_at": "2020-07-30T15:29:39.348524+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-09-18T19:16:00.102394+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/1096222?v=4",
+          "id": 3670, "login": "maciejhirsz", "name": "Maciej Hirsz",
+          "url": "https://github.com/maciejhirsz"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-client-transports", "crate_size": 14151,
+    "created_at": "2020-09-18T19:16:00.102394+00:00",
+    "dependencies": [
+      {
+        "crate_id": "assert_matches", "default_features": true,
+        "downloads": 0, "features": [], "id": 1696093, "kind": "dev",
+        "optional": false, "req": "^1.1", "target": null,
+        "version_id": 285026
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1696094, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 285026
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 1696079, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 285026
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1696080, "kind": "normal", "optional": false,
+        "req": "^0.1.26", "target": null, "version_id": 285026
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 1696083, "kind": "normal",
+        "optional": false, "req": "^15.0", "target": null,
+        "version_id": 285026
+      },
+      {
+        "crate_id": "jsonrpc-http-server", "default_features": true,
+        "downloads": 0, "features": [], "id": 1696095, "kind": "dev",
+        "optional": false, "req": "^15.0", "target": null,
+        "version_id": 285026
+      },
+      {
+        "crate_id": "jsonrpc-ipc-server", "default_features": true,
+        "downloads": 0, "features": [], "id": 1696096, "kind": "dev",
+        "optional": false, "req": "^15.0", "target": null,
+        "version_id": 285026
+      },
+      {
+        "crate_id": "jsonrpc-pubsub", "default_features": true,
+        "downloads": 0, "features": [], "id": 1696084, "kind": "normal",
+        "optional": false, "req": "^15.0", "target": null,
+        "version_id": 285026
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1696097, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 285026
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1696086, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 285026
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1696088, "kind": "normal",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 285026
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1696089, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 285026
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 1696098, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 285026
+      },
+      {
+        "crate_id": "url", "default_features": true, "downloads": 0,
+        "features": [], "id": 1696091, "kind": "normal", "optional": false,
+        "req": "^1.7", "target": null, "version_id": 285026
+      },
+      {
+        "crate_id": "hyper", "default_features": true, "downloads": 0,
+        "features": [], "id": 1696081, "kind": "normal", "optional": true,
+        "req": "^0.12", "target": null, "version_id": 285026
+      },
+      {
+        "crate_id": "hyper-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1696082, "kind": "normal", "optional": true,
+        "req": "^0.3.2", "target": null, "version_id": 285026
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 1696085, "kind": "normal",
+        "optional": true, "req": "^15.0", "target": null,
+        "version_id": 285026
+      },
+      {
+        "crate_id": "parity-tokio-ipc", "default_features": true,
+        "downloads": 0, "features": [], "id": 1696087, "kind": "normal",
+        "optional": true, "req": "^0.2", "target": null,
+        "version_id": 285026
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 1696090, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 285026
+      },
+      {
+        "crate_id": "websocket", "default_features": true, "downloads": 0,
+        "features": [], "id": 1696092, "kind": "normal", "optional": true,
+        "req": "^0.24", "target": null, "version_id": 285026
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-client-transports/15.0.0/download",
+    "downloads": 20285,
+    "features": {
+      "arbitrary_precision": [
+        "serde_json/arbitrary_precision",
+        "jsonrpc-core/arbitrary_precision"
+      ],
+      "default": ["http", "tls", "ws"], "http": ["hyper"],
+      "ipc": ["parity-tokio-ipc", "jsonrpc-server-utils", "tokio"],
+      "tls": ["hyper-tls", "http"], "ws": ["websocket", "tokio"]
+    },
+    "id": 285026, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-client-transports/15.0.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-client-transports/15.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-client-transports/15.0.0/downloads"
+    },
+    "num": "15.0.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/1096222?v=4",
+      "id": 3670, "login": "maciejhirsz", "name": "Maciej Hirsz",
+      "url": "https://github.com/maciejhirsz"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-client-transports/15.0.0/readme",
+    "updated_at": "2020-09-18T19:16:00.102394+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-09-30T12:20:18.837463+00:00",
+        "user": {
+          "avatar": "https://avatars2.githubusercontent.com/u/18515?v=4",
+          "id": 11797, "login": "dvdplm", "name": "David",
+          "url": "https://github.com/dvdplm"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-client-transports", "crate_size": 14346,
+    "created_at": "2020-09-30T12:20:18.837463+00:00",
+    "dependencies": [
+      {
+        "crate_id": "assert_matches", "default_features": true,
+        "downloads": 0, "features": [], "id": 1725488, "kind": "dev",
+        "optional": false, "req": "^1.1", "target": null,
+        "version_id": 288957
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1725489, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 288957
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 1725474, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 288957
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1725475, "kind": "normal", "optional": false,
+        "req": "^0.1.26", "target": null, "version_id": 288957
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 1725478, "kind": "normal",
+        "optional": false, "req": "^15.1.0", "target": null,
+        "version_id": 288957
+      },
+      {
+        "crate_id": "jsonrpc-http-server", "default_features": true,
+        "downloads": 0, "features": [], "id": 1725490, "kind": "dev",
+        "optional": false, "req": "^15.1.0", "target": null,
+        "version_id": 288957
+      },
+      {
+        "crate_id": "jsonrpc-ipc-server", "default_features": true,
+        "downloads": 0, "features": [], "id": 1725491, "kind": "dev",
+        "optional": false, "req": "^15.1.0", "target": null,
+        "version_id": 288957
+      },
+      {
+        "crate_id": "jsonrpc-pubsub", "default_features": true,
+        "downloads": 0, "features": [], "id": 1725479, "kind": "normal",
+        "optional": false, "req": "^15.1.0", "target": null,
+        "version_id": 288957
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1725492, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 288957
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1725481, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 288957
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1725483, "kind": "normal",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 288957
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1725484, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 288957
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 1725493, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 288957
+      },
+      {
+        "crate_id": "url", "default_features": true, "downloads": 0,
+        "features": [], "id": 1725486, "kind": "normal", "optional": false,
+        "req": "^1.7", "target": null, "version_id": 288957
+      },
+      {
+        "crate_id": "hyper", "default_features": true, "downloads": 0,
+        "features": [], "id": 1725476, "kind": "normal", "optional": true,
+        "req": "^0.12", "target": null, "version_id": 288957
+      },
+      {
+        "crate_id": "hyper-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1725477, "kind": "normal", "optional": true,
+        "req": "^0.3.2", "target": null, "version_id": 288957
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 1725480, "kind": "normal",
+        "optional": true, "req": "^15.1.0", "target": null,
+        "version_id": 288957
+      },
+      {
+        "crate_id": "parity-tokio-ipc", "default_features": true,
+        "downloads": 0, "features": [], "id": 1725482, "kind": "normal",
+        "optional": true, "req": "^0.2", "target": null,
+        "version_id": 288957
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 1725485, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 288957
+      },
+      {
+        "crate_id": "websocket", "default_features": true, "downloads": 0,
+        "features": [], "id": 1725487, "kind": "normal", "optional": true,
+        "req": "^0.24", "target": null, "version_id": 288957
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-client-transports/15.1.0/download",
+    "downloads": 6401,
+    "features": {
+      "arbitrary_precision": [
+        "serde_json/arbitrary_precision",
+        "jsonrpc-core/arbitrary_precision"
+      ],
+      "default": ["http", "tls", "ws"], "http": ["hyper"],
+      "ipc": ["parity-tokio-ipc", "jsonrpc-server-utils", "tokio"],
+      "tls": ["hyper-tls", "http"], "ws": ["websocket", "tokio"]
+    },
+    "id": 288957, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-client-transports/15.1.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-client-transports/15.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-client-transports/15.1.0/downloads"
+    },
+    "num": "15.1.0",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/18515?v=4",
+      "id": 11797, "login": "dvdplm", "name": "David",
+      "url": "https://github.com/dvdplm"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-client-transports/15.1.0/readme",
+    "updated_at": "2020-09-30T12:20:18.837463+00:00", "yanked": false
+  }
+]

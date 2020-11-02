@@ -1,0 +1,1468 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Andrew Gallant <jamslam@gmail.com>"]},
+      "users": []
+    },
+    "crate": "bstr", "crate_size": 6018,
+    "created_at": "2018-10-09T22:14:04.467612+00:00",
+    "dependencies": [], "dl_path": "/api/v1/crates/bstr/0.0.1/download",
+    "downloads": 253, "features": {}, "id": 111651,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/bstr/0.0.1/authors",
+      "dependencies": "/api/v1/crates/bstr/0.0.1/dependencies",
+      "version_downloads": "/api/v1/crates/bstr/0.0.1/downloads"
+    },
+    "num": "0.0.1", "published_by": null,
+    "readme_path": "/api/v1/crates/bstr/0.0.1/readme",
+    "updated_at": "2018-10-09T22:14:04.467612+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Andrew Gallant <jamslam@gmail.com>"]},
+      "users": []
+    },
+    "crate": "bstr", "crate_size": 326075,
+    "created_at": "2019-04-02T01:21:53.843690+00:00",
+    "dependencies": [
+      {
+        "crate_id": "memchr", "default_features": false, "downloads": 0,
+        "features": [], "id": 693481, "kind": "normal", "optional": false,
+        "req": "^2.1.2", "target": null, "version_id": 142705
+      },
+      {
+        "crate_id": "quickcheck", "default_features": false, "downloads": 0,
+        "features": [], "id": 693484, "kind": "dev", "optional": false,
+        "req": "^0.8.1", "target": null, "version_id": 142705
+      },
+      {
+        "crate_id": "ucd-parse", "default_features": true, "downloads": 0,
+        "features": [], "id": 693485, "kind": "dev", "optional": false,
+        "req": "^0.1.3", "target": null, "version_id": 142705
+      },
+      {
+        "crate_id": "unicode-segmentation", "default_features": true,
+        "downloads": 0, "features": [], "id": 693486, "kind": "dev",
+        "optional": false, "req": "^1.2.1", "target": null,
+        "version_id": 142705
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 693480, "kind": "normal", "optional": true,
+        "req": "^1.2", "target": null, "version_id": 142705
+      },
+      {
+        "crate_id": "regex-automata", "default_features": false,
+        "downloads": 0, "features": [], "id": 693482, "kind": "normal",
+        "optional": true, "req": "^0.1.5", "target": null,
+        "version_id": 142705
+      },
+      {
+        "crate_id": "serde", "default_features": false, "downloads": 0,
+        "features": [], "id": 693483, "kind": "normal", "optional": true,
+        "req": "^1.0.85", "target": null, "version_id": 142705
+      }
+    ],
+    "dl_path": "/api/v1/crates/bstr/0.1.0/download", "downloads": 199,
+    "features": {
+      "default": ["std", "unicode"],
+      "serde1": ["std", "serde1-nostd", "serde/std"],
+      "serde1-nostd": ["serde"], "std": ["memchr/use_std"],
+      "unicode": ["lazy_static", "regex-automata"]
+    },
+    "id": 142705, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/bstr/0.1.0/authors",
+      "dependencies": "/api/v1/crates/bstr/0.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/bstr/0.1.0/downloads"
+    },
+    "num": "0.1.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/456674?v=4",
+      "id": 189, "login": "BurntSushi", "name": "Andrew Gallant",
+      "url": "https://github.com/BurntSushi"
+    },
+    "readme_path": "/api/v1/crates/bstr/0.1.0/readme",
+    "updated_at": "2019-04-02T01:21:53.843690+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Andrew Gallant <jamslam@gmail.com>"]},
+      "users": []
+    },
+    "crate": "bstr", "crate_size": 330479,
+    "created_at": "2019-04-05T21:46:55.680399+00:00",
+    "dependencies": [
+      {
+        "crate_id": "memchr", "default_features": false, "downloads": 0,
+        "features": [], "id": 698063, "kind": "normal", "optional": false,
+        "req": "^2.1.2", "target": null, "version_id": 143372
+      },
+      {
+        "crate_id": "quickcheck", "default_features": false, "downloads": 0,
+        "features": [], "id": 698066, "kind": "dev", "optional": false,
+        "req": "^0.8.1", "target": null, "version_id": 143372
+      },
+      {
+        "crate_id": "ucd-parse", "default_features": true, "downloads": 0,
+        "features": [], "id": 698067, "kind": "dev", "optional": false,
+        "req": "^0.1.3", "target": null, "version_id": 143372
+      },
+      {
+        "crate_id": "unicode-segmentation", "default_features": true,
+        "downloads": 0, "features": [], "id": 698068, "kind": "dev",
+        "optional": false, "req": "^1.2.1", "target": null,
+        "version_id": 143372
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 698062, "kind": "normal", "optional": true,
+        "req": "^1.2", "target": null, "version_id": 143372
+      },
+      {
+        "crate_id": "regex-automata", "default_features": false,
+        "downloads": 0, "features": [], "id": 698064, "kind": "normal",
+        "optional": true, "req": "^0.1.5", "target": null,
+        "version_id": 143372
+      },
+      {
+        "crate_id": "serde", "default_features": false, "downloads": 0,
+        "features": [], "id": 698065, "kind": "normal", "optional": true,
+        "req": "^1.0.85", "target": null, "version_id": 143372
+      }
+    ],
+    "dl_path": "/api/v1/crates/bstr/0.1.1/download", "downloads": 195,
+    "features": {
+      "default": ["std", "unicode"],
+      "serde1": ["std", "serde1-nostd", "serde/std"],
+      "serde1-nostd": ["serde"], "std": ["memchr/use_std"],
+      "unicode": ["lazy_static", "regex-automata"]
+    },
+    "id": 143372, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/bstr/0.1.1/authors",
+      "dependencies": "/api/v1/crates/bstr/0.1.1/dependencies",
+      "version_downloads": "/api/v1/crates/bstr/0.1.1/downloads"
+    },
+    "num": "0.1.1",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/456674?v=4",
+      "id": 189, "login": "BurntSushi", "name": "Andrew Gallant",
+      "url": "https://github.com/BurntSushi"
+    },
+    "readme_path": "/api/v1/crates/bstr/0.1.1/readme",
+    "updated_at": "2019-04-05T21:46:55.680399+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Andrew Gallant <jamslam@gmail.com>"]},
+      "users": []
+    },
+    "crate": "bstr", "crate_size": 330601,
+    "created_at": "2019-04-06T00:27:14.518442+00:00",
+    "dependencies": [
+      {
+        "crate_id": "memchr", "default_features": false, "downloads": 0,
+        "features": [], "id": 698133, "kind": "normal", "optional": false,
+        "req": "^2.1.2", "target": null, "version_id": 143383
+      },
+      {
+        "crate_id": "quickcheck", "default_features": false, "downloads": 0,
+        "features": [], "id": 698136, "kind": "dev", "optional": false,
+        "req": "^0.8.1", "target": null, "version_id": 143383
+      },
+      {
+        "crate_id": "ucd-parse", "default_features": true, "downloads": 0,
+        "features": [], "id": 698137, "kind": "dev", "optional": false,
+        "req": "^0.1.3", "target": null, "version_id": 143383
+      },
+      {
+        "crate_id": "unicode-segmentation", "default_features": true,
+        "downloads": 0, "features": [], "id": 698138, "kind": "dev",
+        "optional": false, "req": "^1.2.1", "target": null,
+        "version_id": 143383
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 698132, "kind": "normal", "optional": true,
+        "req": "^1.2", "target": null, "version_id": 143383
+      },
+      {
+        "crate_id": "regex-automata", "default_features": false,
+        "downloads": 0, "features": [], "id": 698134, "kind": "normal",
+        "optional": true, "req": "^0.1.5", "target": null,
+        "version_id": 143383
+      },
+      {
+        "crate_id": "serde", "default_features": false, "downloads": 0,
+        "features": [], "id": 698135, "kind": "normal", "optional": true,
+        "req": "^1.0.85", "target": null, "version_id": 143383
+      }
+    ],
+    "dl_path": "/api/v1/crates/bstr/0.1.2/download", "downloads": 41874,
+    "features": {
+      "default": ["std", "unicode"],
+      "serde1": ["std", "serde1-nostd", "serde/std"],
+      "serde1-nostd": ["serde"], "std": ["memchr/use_std"],
+      "unicode": ["lazy_static", "regex-automata"]
+    },
+    "id": 143383, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/bstr/0.1.2/authors",
+      "dependencies": "/api/v1/crates/bstr/0.1.2/dependencies",
+      "version_downloads": "/api/v1/crates/bstr/0.1.2/downloads"
+    },
+    "num": "0.1.2",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/456674?v=4",
+      "id": 189, "login": "BurntSushi", "name": "Andrew Gallant",
+      "url": "https://github.com/BurntSushi"
+    },
+    "readme_path": "/api/v1/crates/bstr/0.1.2/readme",
+    "updated_at": "2019-04-06T00:27:14.518442+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Andrew Gallant <jamslam@gmail.com>"]},
+      "users": []
+    },
+    "crate": "bstr", "crate_size": 330651,
+    "created_at": "2019-05-12T15:11:08.023250+00:00",
+    "dependencies": [
+      {
+        "crate_id": "memchr", "default_features": false, "downloads": 0,
+        "features": [], "id": 735638, "kind": "normal", "optional": false,
+        "req": "^2.1.2", "target": null, "version_id": 149940
+      },
+      {
+        "crate_id": "quickcheck", "default_features": false, "downloads": 0,
+        "features": [], "id": 735641, "kind": "dev", "optional": false,
+        "req": "^0.8.1", "target": null, "version_id": 149940
+      },
+      {
+        "crate_id": "ucd-parse", "default_features": true, "downloads": 0,
+        "features": [], "id": 735642, "kind": "dev", "optional": false,
+        "req": "^0.1.3", "target": null, "version_id": 149940
+      },
+      {
+        "crate_id": "unicode-segmentation", "default_features": true,
+        "downloads": 0, "features": [], "id": 735643, "kind": "dev",
+        "optional": false, "req": "^1.2.1", "target": null,
+        "version_id": 149940
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 735637, "kind": "normal", "optional": true,
+        "req": "^1.2", "target": null, "version_id": 149940
+      },
+      {
+        "crate_id": "regex-automata", "default_features": false,
+        "downloads": 0, "features": [], "id": 735639, "kind": "normal",
+        "optional": true, "req": "^0.1.5", "target": null,
+        "version_id": 149940
+      },
+      {
+        "crate_id": "serde", "default_features": false, "downloads": 0,
+        "features": [], "id": 735640, "kind": "normal", "optional": true,
+        "req": "^1.0.85", "target": null, "version_id": 149940
+      }
+    ],
+    "dl_path": "/api/v1/crates/bstr/0.1.3/download",
+    "downloads": 470196,
+    "features": {
+      "default": ["std", "unicode"],
+      "serde1": ["std", "serde1-nostd", "serde/std"],
+      "serde1-nostd": ["serde"], "std": ["memchr/use_std"],
+      "unicode": ["lazy_static", "regex-automata"]
+    },
+    "id": 149940, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/bstr/0.1.3/authors",
+      "dependencies": "/api/v1/crates/bstr/0.1.3/dependencies",
+      "version_downloads": "/api/v1/crates/bstr/0.1.3/downloads"
+    },
+    "num": "0.1.3",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/456674?v=4",
+      "id": 189, "login": "BurntSushi", "name": "Andrew Gallant",
+      "url": "https://github.com/BurntSushi"
+    },
+    "readme_path": "/api/v1/crates/bstr/0.1.3/readme",
+    "updated_at": "2019-05-12T15:11:08.023250+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Andrew Gallant <jamslam@gmail.com>"]},
+      "users": []
+    },
+    "crate": "bstr", "crate_size": 330729,
+    "created_at": "2019-05-24T16:59:01.591630+00:00",
+    "dependencies": [
+      {
+        "crate_id": "memchr", "default_features": false, "downloads": 0,
+        "features": [], "id": 751899, "kind": "normal", "optional": false,
+        "req": "^2.1.2", "target": null, "version_id": 152603
+      },
+      {
+        "crate_id": "quickcheck", "default_features": false, "downloads": 0,
+        "features": [], "id": 751902, "kind": "dev", "optional": false,
+        "req": "^0.8.1", "target": null, "version_id": 152603
+      },
+      {
+        "crate_id": "ucd-parse", "default_features": true, "downloads": 0,
+        "features": [], "id": 751903, "kind": "dev", "optional": false,
+        "req": "^0.1.3", "target": null, "version_id": 152603
+      },
+      {
+        "crate_id": "unicode-segmentation", "default_features": true,
+        "downloads": 0, "features": [], "id": 751904, "kind": "dev",
+        "optional": false, "req": "^1.2.1", "target": null,
+        "version_id": 152603
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 751898, "kind": "normal", "optional": true,
+        "req": "^1.2", "target": null, "version_id": 152603
+      },
+      {
+        "crate_id": "regex-automata", "default_features": false,
+        "downloads": 0, "features": [], "id": 751900, "kind": "normal",
+        "optional": true, "req": "^0.1.5", "target": null,
+        "version_id": 152603
+      },
+      {
+        "crate_id": "serde", "default_features": false, "downloads": 0,
+        "features": [], "id": 751901, "kind": "normal", "optional": true,
+        "req": "^1.0.85", "target": null, "version_id": 152603
+      }
+    ],
+    "dl_path": "/api/v1/crates/bstr/0.1.4/download",
+    "downloads": 125889,
+    "features": {
+      "default": ["std", "unicode"],
+      "serde1": ["std", "serde1-nostd", "serde/std"],
+      "serde1-nostd": ["serde"], "std": ["memchr/use_std"],
+      "unicode": ["lazy_static", "regex-automata"]
+    },
+    "id": 152603, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/bstr/0.1.4/authors",
+      "dependencies": "/api/v1/crates/bstr/0.1.4/dependencies",
+      "version_downloads": "/api/v1/crates/bstr/0.1.4/downloads"
+    },
+    "num": "0.1.4",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/456674?v=4",
+      "id": 189, "login": "BurntSushi", "name": "Andrew Gallant",
+      "url": "https://github.com/BurntSushi"
+    },
+    "readme_path": "/api/v1/crates/bstr/0.1.4/readme",
+    "updated_at": "2019-05-24T16:59:01.591630+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Andrew Gallant <jamslam@gmail.com>"]},
+      "users": []
+    },
+    "crate": "bstr", "crate_size": 327567,
+    "created_at": "2019-06-25T23:33:10.549081+00:00",
+    "dependencies": [
+      {
+        "crate_id": "memchr", "default_features": false, "downloads": 0,
+        "features": [], "id": 789182, "kind": "normal", "optional": false,
+        "req": "^2.1.2", "target": null, "version_id": 158432
+      },
+      {
+        "crate_id": "quickcheck", "default_features": false, "downloads": 0,
+        "features": [], "id": 789185, "kind": "dev", "optional": false,
+        "req": "^0.8.1", "target": null, "version_id": 158432
+      },
+      {
+        "crate_id": "ucd-parse", "default_features": true, "downloads": 0,
+        "features": [], "id": 789186, "kind": "dev", "optional": false,
+        "req": "^0.1.3", "target": null, "version_id": 158432
+      },
+      {
+        "crate_id": "unicode-segmentation", "default_features": true,
+        "downloads": 0, "features": [], "id": 789187, "kind": "dev",
+        "optional": false, "req": "^1.2.1", "target": null,
+        "version_id": 158432
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 789181, "kind": "normal", "optional": true,
+        "req": "^1.2", "target": null, "version_id": 158432
+      },
+      {
+        "crate_id": "regex-automata", "default_features": false,
+        "downloads": 0, "features": [], "id": 789183, "kind": "normal",
+        "optional": true, "req": "^0.1.5", "target": null,
+        "version_id": 158432
+      },
+      {
+        "crate_id": "serde", "default_features": false, "downloads": 0,
+        "features": [], "id": 789184, "kind": "normal", "optional": true,
+        "req": "^1.0.85", "target": null, "version_id": 158432
+      }
+    ],
+    "dl_path": "/api/v1/crates/bstr/0.2.0/download", "downloads": 4087,
+    "features": {
+      "default": ["std", "unicode"],
+      "serde1": ["std", "serde1-nostd", "serde/std"],
+      "serde1-nostd": ["serde"], "std": ["memchr/use_std"],
+      "unicode": ["lazy_static", "regex-automata"]
+    },
+    "id": 158432, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/bstr/0.2.0/authors",
+      "dependencies": "/api/v1/crates/bstr/0.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/bstr/0.2.0/downloads"
+    },
+    "num": "0.2.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/456674?v=4",
+      "id": 189, "login": "BurntSushi", "name": "Andrew Gallant",
+      "url": "https://github.com/BurntSushi"
+    },
+    "readme_path": "/api/v1/crates/bstr/0.2.0/readme",
+    "updated_at": "2019-06-25T23:33:10.549081+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Andrew Gallant <jamslam@gmail.com>"]},
+      "users": []
+    },
+    "crate": "bstr", "crate_size": 327588,
+    "created_at": "2019-06-26T22:37:38.286256+00:00",
+    "dependencies": [
+      {
+        "crate_id": "memchr", "default_features": false, "downloads": 0,
+        "features": [], "id": 790671, "kind": "normal", "optional": false,
+        "req": "^2.1.2", "target": null, "version_id": 158642
+      },
+      {
+        "crate_id": "quickcheck", "default_features": false, "downloads": 0,
+        "features": [], "id": 790674, "kind": "dev", "optional": false,
+        "req": "^0.8.1", "target": null, "version_id": 158642
+      },
+      {
+        "crate_id": "ucd-parse", "default_features": true, "downloads": 0,
+        "features": [], "id": 790675, "kind": "dev", "optional": false,
+        "req": "^0.1.3", "target": null, "version_id": 158642
+      },
+      {
+        "crate_id": "unicode-segmentation", "default_features": true,
+        "downloads": 0, "features": [], "id": 790676, "kind": "dev",
+        "optional": false, "req": "^1.2.1", "target": null,
+        "version_id": 158642
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 790670, "kind": "normal", "optional": true,
+        "req": "^1.2", "target": null, "version_id": 158642
+      },
+      {
+        "crate_id": "regex-automata", "default_features": false,
+        "downloads": 0, "features": [], "id": 790672, "kind": "normal",
+        "optional": true, "req": "^0.1.5", "target": null,
+        "version_id": 158642
+      },
+      {
+        "crate_id": "serde", "default_features": false, "downloads": 0,
+        "features": [], "id": 790673, "kind": "normal", "optional": true,
+        "req": "^1.0.85", "target": null, "version_id": 158642
+      }
+    ],
+    "dl_path": "/api/v1/crates/bstr/0.2.1/download",
+    "downloads": 243614,
+    "features": {
+      "default": ["std", "unicode"],
+      "serde1": ["std", "serde1-nostd", "serde/std"],
+      "serde1-nostd": ["serde"], "std": ["memchr/use_std"],
+      "unicode": ["lazy_static", "regex-automata"]
+    },
+    "id": 158642, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/bstr/0.2.1/authors",
+      "dependencies": "/api/v1/crates/bstr/0.2.1/dependencies",
+      "version_downloads": "/api/v1/crates/bstr/0.2.1/downloads"
+    },
+    "num": "0.2.1",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/456674?v=4",
+      "id": 189, "login": "BurntSushi", "name": "Andrew Gallant",
+      "url": "https://github.com/BurntSushi"
+    },
+    "readme_path": "/api/v1/crates/bstr/0.2.1/readme",
+    "updated_at": "2019-06-26T22:37:38.286256+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Andrew Gallant <jamslam@gmail.com>"]},
+      "users": []
+    },
+    "crate": "bstr", "crate_size": 327652,
+    "created_at": "2019-07-14T12:11:07.541085+00:00",
+    "dependencies": [
+      {
+        "crate_id": "memchr", "default_features": false, "downloads": 0,
+        "features": [], "id": 820328, "kind": "normal", "optional": false,
+        "req": "^2.1.2", "target": null, "version_id": 162892
+      },
+      {
+        "crate_id": "quickcheck", "default_features": false, "downloads": 0,
+        "features": [], "id": 820331, "kind": "dev", "optional": false,
+        "req": "^0.8.1", "target": null, "version_id": 162892
+      },
+      {
+        "crate_id": "ucd-parse", "default_features": true, "downloads": 0,
+        "features": [], "id": 820332, "kind": "dev", "optional": false,
+        "req": "^0.1.3", "target": null, "version_id": 162892
+      },
+      {
+        "crate_id": "unicode-segmentation", "default_features": true,
+        "downloads": 0, "features": [], "id": 820333, "kind": "dev",
+        "optional": false, "req": "^1.2.1", "target": null,
+        "version_id": 162892
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 820327, "kind": "normal", "optional": true,
+        "req": "^1.2", "target": null, "version_id": 162892
+      },
+      {
+        "crate_id": "regex-automata", "default_features": false,
+        "downloads": 0, "features": [], "id": 820329, "kind": "normal",
+        "optional": true, "req": "^0.1.5", "target": null,
+        "version_id": 162892
+      },
+      {
+        "crate_id": "serde", "default_features": false, "downloads": 0,
+        "features": [], "id": 820330, "kind": "normal", "optional": true,
+        "req": "^1.0.85", "target": null, "version_id": 162892
+      }
+    ],
+    "dl_path": "/api/v1/crates/bstr/0.2.2/download", "downloads": 29938,
+    "features": {
+      "default": ["std", "unicode"],
+      "serde1": ["std", "serde1-nostd", "serde/std"],
+      "serde1-nostd": ["serde"], "std": ["memchr/use_std"],
+      "unicode": ["lazy_static", "regex-automata"]
+    },
+    "id": 162892, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/bstr/0.2.2/authors",
+      "dependencies": "/api/v1/crates/bstr/0.2.2/dependencies",
+      "version_downloads": "/api/v1/crates/bstr/0.2.2/downloads"
+    },
+    "num": "0.2.2",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/456674?v=4",
+      "id": 189, "login": "BurntSushi", "name": "Andrew Gallant",
+      "url": "https://github.com/BurntSushi"
+    },
+    "readme_path": "/api/v1/crates/bstr/0.2.2/readme",
+    "updated_at": "2019-07-14T12:11:07.541085+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Andrew Gallant <jamslam@gmail.com>"]},
+      "users": []
+    },
+    "crate": "bstr", "crate_size": 335834,
+    "created_at": "2019-07-21T02:58:50.965233+00:00",
+    "dependencies": [
+      {
+        "crate_id": "memchr", "default_features": false, "downloads": 0,
+        "features": [], "id": 829596, "kind": "normal", "optional": false,
+        "req": "^2.1.2", "target": null, "version_id": 164203
+      },
+      {
+        "crate_id": "quickcheck", "default_features": false, "downloads": 0,
+        "features": [], "id": 829599, "kind": "dev", "optional": false,
+        "req": "^0.8.1", "target": null, "version_id": 164203
+      },
+      {
+        "crate_id": "ucd-parse", "default_features": true, "downloads": 0,
+        "features": [], "id": 829600, "kind": "dev", "optional": false,
+        "req": "^0.1.3", "target": null, "version_id": 164203
+      },
+      {
+        "crate_id": "unicode-segmentation", "default_features": true,
+        "downloads": 0, "features": [], "id": 829601, "kind": "dev",
+        "optional": false, "req": "^1.2.1", "target": null,
+        "version_id": 164203
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 829595, "kind": "normal", "optional": true,
+        "req": "^1.2", "target": null, "version_id": 164203
+      },
+      {
+        "crate_id": "regex-automata", "default_features": false,
+        "downloads": 0, "features": [], "id": 829597, "kind": "normal",
+        "optional": true, "req": "^0.1.5", "target": null,
+        "version_id": 164203
+      },
+      {
+        "crate_id": "serde", "default_features": false, "downloads": 0,
+        "features": [], "id": 829598, "kind": "normal", "optional": true,
+        "req": "^1.0.85", "target": null, "version_id": 164203
+      }
+    ],
+    "dl_path": "/api/v1/crates/bstr/0.2.3/download", "downloads": 2419,
+    "features": {
+      "default": ["std", "unicode"],
+      "serde1": ["std", "serde1-nostd", "serde/std"],
+      "serde1-nostd": ["serde"], "std": ["memchr/use_std"],
+      "unicode": ["lazy_static", "regex-automata"]
+    },
+    "id": 164203, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/bstr/0.2.3/authors",
+      "dependencies": "/api/v1/crates/bstr/0.2.3/dependencies",
+      "version_downloads": "/api/v1/crates/bstr/0.2.3/downloads"
+    },
+    "num": "0.2.3",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/456674?v=4",
+      "id": 189, "login": "BurntSushi", "name": "Andrew Gallant",
+      "url": "https://github.com/BurntSushi"
+    },
+    "readme_path": "/api/v1/crates/bstr/0.2.3/readme",
+    "updated_at": "2019-07-21T02:58:50.965233+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Andrew Gallant <jamslam@gmail.com>"]},
+      "users": []
+    },
+    "crate": "bstr", "crate_size": 335823,
+    "created_at": "2019-07-21T23:02:51.765216+00:00",
+    "dependencies": [
+      {
+        "crate_id": "memchr", "default_features": false, "downloads": 0,
+        "features": [], "id": 830611, "kind": "normal", "optional": false,
+        "req": "^2.1.2", "target": null, "version_id": 164372
+      },
+      {
+        "crate_id": "quickcheck", "default_features": false, "downloads": 0,
+        "features": [], "id": 830614, "kind": "dev", "optional": false,
+        "req": "^0.8.1", "target": null, "version_id": 164372
+      },
+      {
+        "crate_id": "ucd-parse", "default_features": true, "downloads": 0,
+        "features": [], "id": 830615, "kind": "dev", "optional": false,
+        "req": "^0.1.3", "target": null, "version_id": 164372
+      },
+      {
+        "crate_id": "unicode-segmentation", "default_features": true,
+        "downloads": 0, "features": [], "id": 830616, "kind": "dev",
+        "optional": false, "req": "^1.2.1", "target": null,
+        "version_id": 164372
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 830610, "kind": "normal", "optional": true,
+        "req": "^1.2", "target": null, "version_id": 164372
+      },
+      {
+        "crate_id": "regex-automata", "default_features": false,
+        "downloads": 0, "features": [], "id": 830612, "kind": "normal",
+        "optional": true, "req": "^0.1.5", "target": null,
+        "version_id": 164372
+      },
+      {
+        "crate_id": "serde", "default_features": false, "downloads": 0,
+        "features": [], "id": 830613, "kind": "normal", "optional": true,
+        "req": "^1.0.85", "target": null, "version_id": 164372
+      }
+    ],
+    "dl_path": "/api/v1/crates/bstr/0.2.4/download", "downloads": 19265,
+    "features": {
+      "default": ["std", "unicode"],
+      "serde1": ["std", "serde1-nostd", "serde/std"],
+      "serde1-nostd": ["serde"], "std": ["memchr/use_std"],
+      "unicode": ["lazy_static", "regex-automata"]
+    },
+    "id": 164372, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/bstr/0.2.4/authors",
+      "dependencies": "/api/v1/crates/bstr/0.2.4/dependencies",
+      "version_downloads": "/api/v1/crates/bstr/0.2.4/downloads"
+    },
+    "num": "0.2.4",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/456674?v=4",
+      "id": 189, "login": "BurntSushi", "name": "Andrew Gallant",
+      "url": "https://github.com/BurntSushi"
+    },
+    "readme_path": "/api/v1/crates/bstr/0.2.4/readme",
+    "updated_at": "2019-07-21T23:02:51.765216+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Andrew Gallant <jamslam@gmail.com>"]},
+      "users": []
+    },
+    "crate": "bstr", "crate_size": 335767,
+    "created_at": "2019-07-24T17:21:49.940343+00:00",
+    "dependencies": [
+      {
+        "crate_id": "memchr", "default_features": false, "downloads": 0,
+        "features": [], "id": 834722, "kind": "normal", "optional": false,
+        "req": "^2.1.2", "target": null, "version_id": 165001
+      },
+      {
+        "crate_id": "quickcheck", "default_features": false, "downloads": 0,
+        "features": [], "id": 834725, "kind": "dev", "optional": false,
+        "req": "^0.8.1", "target": null, "version_id": 165001
+      },
+      {
+        "crate_id": "ucd-parse", "default_features": true, "downloads": 0,
+        "features": [], "id": 834726, "kind": "dev", "optional": false,
+        "req": "^0.1.3", "target": null, "version_id": 165001
+      },
+      {
+        "crate_id": "unicode-segmentation", "default_features": true,
+        "downloads": 0, "features": [], "id": 834727, "kind": "dev",
+        "optional": false, "req": "^1.2.1", "target": null,
+        "version_id": 165001
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 834721, "kind": "normal", "optional": true,
+        "req": "^1.2", "target": null, "version_id": 165001
+      },
+      {
+        "crate_id": "regex-automata", "default_features": false,
+        "downloads": 0, "features": [], "id": 834723, "kind": "normal",
+        "optional": true, "req": "^0.1.5", "target": null,
+        "version_id": 165001
+      },
+      {
+        "crate_id": "serde", "default_features": false, "downloads": 0,
+        "features": [], "id": 834724, "kind": "normal", "optional": true,
+        "req": "^1.0.85", "target": null, "version_id": 165001
+      }
+    ],
+    "dl_path": "/api/v1/crates/bstr/0.2.5/download", "downloads": 3517,
+    "features": {
+      "default": ["std", "unicode"],
+      "serde1": ["std", "serde1-nostd", "serde/std"],
+      "serde1-nostd": ["serde"], "std": ["memchr/use_std"],
+      "unicode": ["lazy_static", "regex-automata"]
+    },
+    "id": 165001, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/bstr/0.2.5/authors",
+      "dependencies": "/api/v1/crates/bstr/0.2.5/dependencies",
+      "version_downloads": "/api/v1/crates/bstr/0.2.5/downloads"
+    },
+    "num": "0.2.5",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/456674?v=4",
+      "id": 189, "login": "BurntSushi", "name": "Andrew Gallant",
+      "url": "https://github.com/BurntSushi"
+    },
+    "readme_path": "/api/v1/crates/bstr/0.2.5/readme",
+    "updated_at": "2019-07-24T17:21:49.940343+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Andrew Gallant <jamslam@gmail.com>"]},
+      "users": []
+    },
+    "crate": "bstr", "crate_size": 336014,
+    "created_at": "2019-07-24T23:56:57.220042+00:00",
+    "dependencies": [
+      {
+        "crate_id": "memchr", "default_features": false, "downloads": 0,
+        "features": [], "id": 834956, "kind": "normal", "optional": false,
+        "req": "^2.1.2", "target": null, "version_id": 165047
+      },
+      {
+        "crate_id": "quickcheck", "default_features": false, "downloads": 0,
+        "features": [], "id": 834959, "kind": "dev", "optional": false,
+        "req": "^0.8.1", "target": null, "version_id": 165047
+      },
+      {
+        "crate_id": "ucd-parse", "default_features": true, "downloads": 0,
+        "features": [], "id": 834960, "kind": "dev", "optional": false,
+        "req": "^0.1.3", "target": null, "version_id": 165047
+      },
+      {
+        "crate_id": "unicode-segmentation", "default_features": true,
+        "downloads": 0, "features": [], "id": 834961, "kind": "dev",
+        "optional": false, "req": "^1.2.1", "target": null,
+        "version_id": 165047
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 834955, "kind": "normal", "optional": true,
+        "req": "^1.2", "target": null, "version_id": 165047
+      },
+      {
+        "crate_id": "regex-automata", "default_features": false,
+        "downloads": 0, "features": [], "id": 834957, "kind": "normal",
+        "optional": true, "req": "^0.1.5", "target": null,
+        "version_id": 165047
+      },
+      {
+        "crate_id": "serde", "default_features": false, "downloads": 0,
+        "features": [], "id": 834958, "kind": "normal", "optional": true,
+        "req": "^1.0.85", "target": null, "version_id": 165047
+      }
+    ],
+    "dl_path": "/api/v1/crates/bstr/0.2.6/download",
+    "downloads": 275147,
+    "features": {
+      "default": ["std", "unicode"],
+      "serde1": ["std", "serde1-nostd", "serde/std"],
+      "serde1-nostd": ["serde"], "std": ["memchr/use_std"],
+      "unicode": ["lazy_static", "regex-automata"]
+    },
+    "id": 165047, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/bstr/0.2.6/authors",
+      "dependencies": "/api/v1/crates/bstr/0.2.6/dependencies",
+      "version_downloads": "/api/v1/crates/bstr/0.2.6/downloads"
+    },
+    "num": "0.2.6",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/456674?v=4",
+      "id": 189, "login": "BurntSushi", "name": "Andrew Gallant",
+      "url": "https://github.com/BurntSushi"
+    },
+    "readme_path": "/api/v1/crates/bstr/0.2.6/readme",
+    "updated_at": "2019-07-24T23:56:57.220042+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Andrew Gallant <jamslam@gmail.com>"]},
+      "users": []
+    },
+    "crate": "bstr", "crate_size": 336010,
+    "created_at": "2019-08-11T14:08:41.574517+00:00",
+    "dependencies": [
+      {
+        "crate_id": "memchr", "default_features": false, "downloads": 0,
+        "features": [], "id": 857046, "kind": "normal", "optional": false,
+        "req": "^2.1.2", "target": null, "version_id": 168719
+      },
+      {
+        "crate_id": "quickcheck", "default_features": false, "downloads": 0,
+        "features": [], "id": 857049, "kind": "dev", "optional": false,
+        "req": "^0.8.1", "target": null, "version_id": 168719
+      },
+      {
+        "crate_id": "ucd-parse", "default_features": true, "downloads": 0,
+        "features": [], "id": 857050, "kind": "dev", "optional": false,
+        "req": "^0.1.3", "target": null, "version_id": 168719
+      },
+      {
+        "crate_id": "unicode-segmentation", "default_features": true,
+        "downloads": 0, "features": [], "id": 857051, "kind": "dev",
+        "optional": false, "req": "^1.2.1", "target": null,
+        "version_id": 168719
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 857045, "kind": "normal", "optional": true,
+        "req": "^1.2", "target": null, "version_id": 168719
+      },
+      {
+        "crate_id": "regex-automata", "default_features": false,
+        "downloads": 0, "features": [], "id": 857047, "kind": "normal",
+        "optional": true, "req": "^0.1.5", "target": null,
+        "version_id": 168719
+      },
+      {
+        "crate_id": "serde", "default_features": false, "downloads": 0,
+        "features": [], "id": 857048, "kind": "normal", "optional": true,
+        "req": "^1.0.85", "target": null, "version_id": 168719
+      }
+    ],
+    "dl_path": "/api/v1/crates/bstr/0.2.7/download",
+    "downloads": 187928,
+    "features": {
+      "default": ["std", "unicode"],
+      "serde1": ["std", "serde1-nostd", "serde/std"],
+      "serde1-nostd": ["serde"], "std": ["memchr/use_std"],
+      "unicode": ["lazy_static", "regex-automata"]
+    },
+    "id": 168719, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/bstr/0.2.7/authors",
+      "dependencies": "/api/v1/crates/bstr/0.2.7/dependencies",
+      "version_downloads": "/api/v1/crates/bstr/0.2.7/downloads"
+    },
+    "num": "0.2.7",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/456674?v=4",
+      "id": 189, "login": "BurntSushi", "name": "Andrew Gallant",
+      "url": "https://github.com/BurntSushi"
+    },
+    "readme_path": "/api/v1/crates/bstr/0.2.7/readme",
+    "updated_at": "2019-08-11T14:08:41.574517+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Andrew Gallant <jamslam@gmail.com>"]},
+      "users": []
+    },
+    "crate": "bstr", "crate_size": 337654,
+    "created_at": "2019-08-31T12:02:20.111221+00:00",
+    "dependencies": [
+      {
+        "crate_id": "memchr", "default_features": false, "downloads": 0,
+        "features": [], "id": 884997, "kind": "normal", "optional": false,
+        "req": "^2.1.2", "target": null, "version_id": 173039
+      },
+      {
+        "crate_id": "quickcheck", "default_features": false, "downloads": 0,
+        "features": [], "id": 885000, "kind": "dev", "optional": false,
+        "req": "^0.8.1", "target": null, "version_id": 173039
+      },
+      {
+        "crate_id": "ucd-parse", "default_features": true, "downloads": 0,
+        "features": [], "id": 885001, "kind": "dev", "optional": false,
+        "req": "^0.1.3", "target": null, "version_id": 173039
+      },
+      {
+        "crate_id": "unicode-segmentation", "default_features": true,
+        "downloads": 0, "features": [], "id": 885002, "kind": "dev",
+        "optional": false, "req": "^1.2.1", "target": null,
+        "version_id": 173039
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 884996, "kind": "normal", "optional": true,
+        "req": "^1.2", "target": null, "version_id": 173039
+      },
+      {
+        "crate_id": "regex-automata", "default_features": false,
+        "downloads": 0, "features": [], "id": 884998, "kind": "normal",
+        "optional": true, "req": "^0.1.5", "target": null,
+        "version_id": 173039
+      },
+      {
+        "crate_id": "serde", "default_features": false, "downloads": 0,
+        "features": [], "id": 884999, "kind": "normal", "optional": true,
+        "req": "^1.0.85", "target": null, "version_id": 173039
+      }
+    ],
+    "dl_path": "/api/v1/crates/bstr/0.2.8/download",
+    "downloads": 1045589,
+    "features": {
+      "default": ["std", "unicode"],
+      "serde1": ["std", "serde1-nostd", "serde/std"],
+      "serde1-nostd": ["serde"], "std": ["memchr/use_std"],
+      "unicode": ["lazy_static", "regex-automata"]
+    },
+    "id": 173039, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/bstr/0.2.8/authors",
+      "dependencies": "/api/v1/crates/bstr/0.2.8/dependencies",
+      "version_downloads": "/api/v1/crates/bstr/0.2.8/downloads"
+    },
+    "num": "0.2.8",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/456674?v=4",
+      "id": 189, "login": "BurntSushi", "name": "Andrew Gallant",
+      "url": "https://github.com/BurntSushi"
+    },
+    "readme_path": "/api/v1/crates/bstr/0.2.8/readme",
+    "updated_at": "2019-08-31T12:02:20.111221+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-01-10T18:46:13.233794+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/456674?v=4",
+          "id": 189, "login": "BurntSushi", "name": "Andrew Gallant",
+          "url": "https://github.com/BurntSushi"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Andrew Gallant <jamslam@gmail.com>"]},
+      "users": []
+    },
+    "crate": "bstr", "crate_size": 338928,
+    "created_at": "2020-01-10T18:46:13.233794+00:00",
+    "dependencies": [
+      {
+        "crate_id": "memchr", "default_features": false, "downloads": 0,
+        "features": [], "id": 1082063, "kind": "normal", "optional": false,
+        "req": "^2.1.2", "target": null, "version_id": 202850
+      },
+      {
+        "crate_id": "quickcheck", "default_features": false, "downloads": 0,
+        "features": [], "id": 1082066, "kind": "dev", "optional": false,
+        "req": "^0.8.1", "target": null, "version_id": 202850
+      },
+      {
+        "crate_id": "ucd-parse", "default_features": true, "downloads": 0,
+        "features": [], "id": 1082067, "kind": "dev", "optional": false,
+        "req": "^0.1.3", "target": null, "version_id": 202850
+      },
+      {
+        "crate_id": "unicode-segmentation", "default_features": true,
+        "downloads": 0, "features": [], "id": 1082068, "kind": "dev",
+        "optional": false, "req": "^1.2.1", "target": null,
+        "version_id": 202850
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1082062, "kind": "normal", "optional": true,
+        "req": "^1.2", "target": null, "version_id": 202850
+      },
+      {
+        "crate_id": "regex-automata", "default_features": false,
+        "downloads": 0, "features": [], "id": 1082064, "kind": "normal",
+        "optional": true, "req": "^0.1.5", "target": null,
+        "version_id": 202850
+      },
+      {
+        "crate_id": "serde", "default_features": false, "downloads": 0,
+        "features": [], "id": 1082065, "kind": "normal", "optional": true,
+        "req": "^1.0.85", "target": null, "version_id": 202850
+      }
+    ],
+    "dl_path": "/api/v1/crates/bstr/0.2.9/download",
+    "downloads": 132329,
+    "features": {
+      "default": ["std", "unicode"],
+      "serde1": ["std", "serde1-nostd", "serde/std"],
+      "serde1-nostd": ["serde"], "std": ["memchr/use_std"],
+      "unicode": ["lazy_static", "regex-automata"]
+    },
+    "id": 202850, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/bstr/0.2.9/authors",
+      "dependencies": "/api/v1/crates/bstr/0.2.9/dependencies",
+      "version_downloads": "/api/v1/crates/bstr/0.2.9/downloads"
+    },
+    "num": "0.2.9",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/456674?v=4",
+      "id": 189, "login": "BurntSushi", "name": "Andrew Gallant",
+      "url": "https://github.com/BurntSushi"
+    },
+    "readme_path": "/api/v1/crates/bstr/0.2.9/readme",
+    "updated_at": "2020-01-10T18:46:13.233794+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-01-22T18:05:12.428457+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/456674?v=4",
+          "id": 189, "login": "BurntSushi", "name": "Andrew Gallant",
+          "url": "https://github.com/BurntSushi"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Andrew Gallant <jamslam@gmail.com>"]},
+      "users": []
+    },
+    "crate": "bstr", "crate_size": 339513,
+    "created_at": "2020-01-22T18:05:12.428457+00:00",
+    "dependencies": [
+      {
+        "crate_id": "memchr", "default_features": false, "downloads": 0,
+        "features": [], "id": 1104400, "kind": "normal", "optional": false,
+        "req": "^2.1.2", "target": null, "version_id": 206042
+      },
+      {
+        "crate_id": "quickcheck", "default_features": false, "downloads": 0,
+        "features": [], "id": 1104403, "kind": "dev", "optional": false,
+        "req": "^0.8.1", "target": null, "version_id": 206042
+      },
+      {
+        "crate_id": "ucd-parse", "default_features": true, "downloads": 0,
+        "features": [], "id": 1104404, "kind": "dev", "optional": false,
+        "req": "^0.1.3", "target": null, "version_id": 206042
+      },
+      {
+        "crate_id": "unicode-segmentation", "default_features": true,
+        "downloads": 0, "features": [], "id": 1104405, "kind": "dev",
+        "optional": false, "req": "^1.2.1", "target": null,
+        "version_id": 206042
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1104399, "kind": "normal", "optional": true,
+        "req": "^1.2", "target": null, "version_id": 206042
+      },
+      {
+        "crate_id": "regex-automata", "default_features": false,
+        "downloads": 0, "features": [], "id": 1104401, "kind": "normal",
+        "optional": true, "req": "^0.1.5", "target": null,
+        "version_id": 206042
+      },
+      {
+        "crate_id": "serde", "default_features": false, "downloads": 0,
+        "features": [], "id": 1104402, "kind": "normal", "optional": true,
+        "req": "^1.0.85", "target": null, "version_id": 206042
+      }
+    ],
+    "dl_path": "/api/v1/crates/bstr/0.2.10/download",
+    "downloads": 251980,
+    "features": {
+      "default": ["std", "unicode"],
+      "serde1": ["std", "serde1-nostd", "serde/std"],
+      "serde1-nostd": ["serde"], "std": ["memchr/use_std"],
+      "unicode": ["lazy_static", "regex-automata"]
+    },
+    "id": 206042, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/bstr/0.2.10/authors",
+      "dependencies": "/api/v1/crates/bstr/0.2.10/dependencies",
+      "version_downloads": "/api/v1/crates/bstr/0.2.10/downloads"
+    },
+    "num": "0.2.10",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/456674?v=4",
+      "id": 189, "login": "BurntSushi", "name": "Andrew Gallant",
+      "url": "https://github.com/BurntSushi"
+    },
+    "readme_path": "/api/v1/crates/bstr/0.2.10/readme",
+    "updated_at": "2020-01-22T18:05:12.428457+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-02-04T22:41:18.692722+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/456674?v=4",
+          "id": 189, "login": "BurntSushi", "name": "Andrew Gallant",
+          "url": "https://github.com/BurntSushi"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Andrew Gallant <jamslam@gmail.com>"]},
+      "users": []
+    },
+    "crate": "bstr", "crate_size": 338763,
+    "created_at": "2020-02-04T22:41:18.692722+00:00",
+    "dependencies": [
+      {
+        "crate_id": "memchr", "default_features": false, "downloads": 0,
+        "features": [], "id": 1130117, "kind": "normal", "optional": false,
+        "req": "^2.1.2", "target": null, "version_id": 209508
+      },
+      {
+        "crate_id": "quickcheck", "default_features": false, "downloads": 0,
+        "features": [], "id": 1130120, "kind": "dev", "optional": false,
+        "req": "^0.8.1", "target": null, "version_id": 209508
+      },
+      {
+        "crate_id": "ucd-parse", "default_features": true, "downloads": 0,
+        "features": [], "id": 1130121, "kind": "dev", "optional": false,
+        "req": "^0.1.3", "target": null, "version_id": 209508
+      },
+      {
+        "crate_id": "unicode-segmentation", "default_features": true,
+        "downloads": 0, "features": [], "id": 1130122, "kind": "dev",
+        "optional": false, "req": "^1.2.1", "target": null,
+        "version_id": 209508
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1130116, "kind": "normal", "optional": true,
+        "req": "^1.2", "target": null, "version_id": 209508
+      },
+      {
+        "crate_id": "regex-automata", "default_features": false,
+        "downloads": 0, "features": [], "id": 1130118, "kind": "normal",
+        "optional": true, "req": "^0.1.5", "target": null,
+        "version_id": 209508
+      },
+      {
+        "crate_id": "serde", "default_features": false, "downloads": 0,
+        "features": [], "id": 1130119, "kind": "normal", "optional": true,
+        "req": "^1.0.85", "target": null, "version_id": 209508
+      }
+    ],
+    "dl_path": "/api/v1/crates/bstr/0.2.11/download",
+    "downloads": 459930,
+    "features": {
+      "default": ["std", "unicode"],
+      "serde1": ["std", "serde1-nostd", "serde/std"],
+      "serde1-nostd": ["serde"], "std": ["memchr/use_std"],
+      "unicode": ["lazy_static", "regex-automata"]
+    },
+    "id": 209508, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/bstr/0.2.11/authors",
+      "dependencies": "/api/v1/crates/bstr/0.2.11/dependencies",
+      "version_downloads": "/api/v1/crates/bstr/0.2.11/downloads"
+    },
+    "num": "0.2.11",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/456674?v=4",
+      "id": 189, "login": "BurntSushi", "name": "Andrew Gallant",
+      "url": "https://github.com/BurntSushi"
+    },
+    "readme_path": "/api/v1/crates/bstr/0.2.11/readme",
+    "updated_at": "2020-02-04T22:41:18.692722+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-03-13T02:37:37.717781+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/456674?v=4",
+          "id": 189, "login": "BurntSushi", "name": "Andrew Gallant",
+          "url": "https://github.com/BurntSushi"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Andrew Gallant <jamslam@gmail.com>"]},
+      "users": []
+    },
+    "crate": "bstr", "crate_size": 344435,
+    "created_at": "2020-03-13T02:37:37.717781+00:00",
+    "dependencies": [
+      {
+        "crate_id": "memchr", "default_features": false, "downloads": 0,
+        "features": [], "id": 1214154, "kind": "normal", "optional": false,
+        "req": "^2.1.2", "target": null, "version_id": 220457
+      },
+      {
+        "crate_id": "quickcheck", "default_features": false, "downloads": 0,
+        "features": [], "id": 1214157, "kind": "dev", "optional": false,
+        "req": "^0.8.1", "target": null, "version_id": 220457
+      },
+      {
+        "crate_id": "ucd-parse", "default_features": true, "downloads": 0,
+        "features": [], "id": 1214158, "kind": "dev", "optional": false,
+        "req": "^0.1.3", "target": null, "version_id": 220457
+      },
+      {
+        "crate_id": "unicode-segmentation", "default_features": true,
+        "downloads": 0, "features": [], "id": 1214159, "kind": "dev",
+        "optional": false, "req": "^1.2.1", "target": null,
+        "version_id": 220457
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1214153, "kind": "normal", "optional": true,
+        "req": "^1.2", "target": null, "version_id": 220457
+      },
+      {
+        "crate_id": "regex-automata", "default_features": false,
+        "downloads": 0, "features": [], "id": 1214155, "kind": "normal",
+        "optional": true, "req": "^0.1.5", "target": null,
+        "version_id": 220457
+      },
+      {
+        "crate_id": "serde", "default_features": false, "downloads": 0,
+        "features": [], "id": 1214156, "kind": "normal", "optional": true,
+        "req": "^1.0.85", "target": null, "version_id": 220457
+      }
+    ],
+    "dl_path": "/api/v1/crates/bstr/0.2.12/download",
+    "downloads": 775469,
+    "features": {
+      "default": ["std", "unicode"],
+      "serde1": ["std", "serde1-nostd", "serde/std"],
+      "serde1-nostd": ["serde"], "std": ["memchr/use_std"],
+      "unicode": ["lazy_static", "regex-automata"]
+    },
+    "id": 220457, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/bstr/0.2.12/authors",
+      "dependencies": "/api/v1/crates/bstr/0.2.12/dependencies",
+      "version_downloads": "/api/v1/crates/bstr/0.2.12/downloads"
+    },
+    "num": "0.2.12",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/456674?v=4",
+      "id": 189, "login": "BurntSushi", "name": "Andrew Gallant",
+      "url": "https://github.com/BurntSushi"
+    },
+    "readme_path": "/api/v1/crates/bstr/0.2.12/readme",
+    "updated_at": "2020-03-13T02:37:37.717781+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-05-10T20:21:15.279978+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/456674?v=4",
+          "id": 189, "login": "BurntSushi", "name": "Andrew Gallant",
+          "url": "https://github.com/BurntSushi"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Andrew Gallant <jamslam@gmail.com>"]},
+      "users": []
+    },
+    "crate": "bstr", "crate_size": 345445,
+    "created_at": "2020-05-10T20:21:15.279978+00:00",
+    "dependencies": [
+      {
+        "crate_id": "memchr", "default_features": false, "downloads": 0,
+        "features": [], "id": 1354847, "kind": "normal", "optional": false,
+        "req": "^2.1.2", "target": null, "version_id": 239831
+      },
+      {
+        "crate_id": "quickcheck", "default_features": false, "downloads": 0,
+        "features": [], "id": 1354850, "kind": "dev", "optional": false,
+        "req": "^0.8.1", "target": null, "version_id": 239831
+      },
+      {
+        "crate_id": "ucd-parse", "default_features": true, "downloads": 0,
+        "features": [], "id": 1354851, "kind": "dev", "optional": false,
+        "req": "^0.1.3", "target": null, "version_id": 239831
+      },
+      {
+        "crate_id": "unicode-segmentation", "default_features": true,
+        "downloads": 0, "features": [], "id": 1354852, "kind": "dev",
+        "optional": false, "req": "^1.2.1", "target": null,
+        "version_id": 239831
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1354846, "kind": "normal", "optional": true,
+        "req": "^1.2", "target": null, "version_id": 239831
+      },
+      {
+        "crate_id": "regex-automata", "default_features": false,
+        "downloads": 0, "features": [], "id": 1354848, "kind": "normal",
+        "optional": true, "req": "^0.1.5", "target": null,
+        "version_id": 239831
+      },
+      {
+        "crate_id": "serde", "default_features": false, "downloads": 0,
+        "features": [], "id": 1354849, "kind": "normal", "optional": true,
+        "req": "^1.0.85", "target": null, "version_id": 239831
+      }
+    ],
+    "dl_path": "/api/v1/crates/bstr/0.2.13/download",
+    "downloads": 1849270,
+    "features": {
+      "default": ["std", "unicode"],
+      "serde1": ["std", "serde1-nostd", "serde/std"],
+      "serde1-nostd": ["serde"], "std": ["memchr/use_std"],
+      "unicode": ["lazy_static", "regex-automata"]
+    },
+    "id": 239831, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/bstr/0.2.13/authors",
+      "dependencies": "/api/v1/crates/bstr/0.2.13/dependencies",
+      "version_downloads": "/api/v1/crates/bstr/0.2.13/downloads"
+    },
+    "num": "0.2.13",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/456674?v=4",
+      "id": 189, "login": "BurntSushi", "name": "Andrew Gallant",
+      "url": "https://github.com/BurntSushi"
+    },
+    "readme_path": "/api/v1/crates/bstr/0.2.13/readme",
+    "updated_at": "2020-05-10T20:21:15.279978+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-10-18T16:17:03.716909+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/456674?v=4",
+          "id": 189, "login": "BurntSushi", "name": "Andrew Gallant",
+          "url": "https://github.com/BurntSushi"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Andrew Gallant <jamslam@gmail.com>"]},
+      "users": []
+    },
+    "crate": "bstr", "crate_size": 345490,
+    "created_at": "2020-10-18T16:17:03.716909+00:00",
+    "dependencies": [
+      {
+        "crate_id": "memchr", "default_features": false, "downloads": 0,
+        "features": [], "id": 1773497, "kind": "normal", "optional": false,
+        "req": "^2.1.2", "target": null, "version_id": 296029
+      },
+      {
+        "crate_id": "quickcheck", "default_features": false, "downloads": 0,
+        "features": [], "id": 1773500, "kind": "dev", "optional": false,
+        "req": "^0.8.1", "target": null, "version_id": 296029
+      },
+      {
+        "crate_id": "ucd-parse", "default_features": true, "downloads": 0,
+        "features": [], "id": 1773501, "kind": "dev", "optional": false,
+        "req": "^0.1.3", "target": null, "version_id": 296029
+      },
+      {
+        "crate_id": "unicode-segmentation", "default_features": true,
+        "downloads": 0, "features": [], "id": 1773502, "kind": "dev",
+        "optional": false, "req": "^1.2.1", "target": null,
+        "version_id": 296029
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1773496, "kind": "normal", "optional": true,
+        "req": "^1.2", "target": null, "version_id": 296029
+      },
+      {
+        "crate_id": "regex-automata", "default_features": false,
+        "downloads": 0, "features": [], "id": 1773498, "kind": "normal",
+        "optional": true, "req": "^0.1.5", "target": null,
+        "version_id": 296029
+      },
+      {
+        "crate_id": "serde", "default_features": false, "downloads": 0,
+        "features": [], "id": 1773499, "kind": "normal", "optional": true,
+        "req": "^1.0.85", "target": null, "version_id": 296029
+      }
+    ],
+    "dl_path": "/api/v1/crates/bstr/0.2.14/download",
+    "downloads": 120481,
+    "features": {
+      "default": ["std", "unicode"],
+      "serde1": ["std", "serde1-nostd", "serde/std"],
+      "serde1-nostd": ["serde"], "std": ["memchr/use_std"],
+      "unicode": ["lazy_static", "regex-automata"]
+    },
+    "id": 296029, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/bstr/0.2.14/authors",
+      "dependencies": "/api/v1/crates/bstr/0.2.14/dependencies",
+      "version_downloads": "/api/v1/crates/bstr/0.2.14/downloads"
+    },
+    "num": "0.2.14",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/456674?v=4",
+      "id": 189, "login": "BurntSushi", "name": "Andrew Gallant",
+      "url": "https://github.com/BurntSushi"
+    },
+    "readme_path": "/api/v1/crates/bstr/0.2.14/readme",
+    "updated_at": "2020-10-18T16:17:03.716909+00:00", "yanked": false
+  }
+]

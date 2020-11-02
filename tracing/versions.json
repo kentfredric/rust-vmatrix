@@ -1,0 +1,1895 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["Carl Lerche <me@carllerche.com>"]}, "users": []},
+    "crate": "tracing", "crate_size": null,
+    "created_at": "2017-11-27T18:43:02.901436+00:00",
+    "dependencies": [],
+    "dl_path": "/api/v1/crates/tracing/0.0.0/download",
+    "downloads": 321, "features": {}, "id": 72492, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tracing/0.0.0/authors",
+      "dependencies": "/api/v1/crates/tracing/0.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/tracing/0.0.0/downloads"
+    },
+    "num": "0.0.0", "published_by": null,
+    "readme_path": "/api/v1/crates/tracing/0.0.0/readme",
+    "updated_at": "2017-11-30T02:24:37.938098+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Tokio Contributors <team@tokio.rs>"]},
+      "users": []
+    },
+    "crate": "tracing", "crate_size": 43443,
+    "created_at": "2019-06-28T21:03:37.255477+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ansi_term", "default_features": true, "downloads": 0,
+        "features": [], "id": 793325, "kind": "dev", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 159080
+      },
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 793322, "kind": "normal", "optional": false,
+        "req": "^0.1.7", "target": null, "version_id": 159080
+      },
+      {
+        "crate_id": "criterion", "default_features": false, "downloads": 0,
+        "features": [], "id": 793326, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 159080
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 793327, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 159080
+      },
+      {
+        "crate_id": "humantime", "default_features": true, "downloads": 0,
+        "features": [], "id": 793328, "kind": "dev", "optional": false,
+        "req": "^1.1.1", "target": null, "version_id": 159080
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 793329, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 159080
+      },
+      {
+        "crate_id": "tracing-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 793324, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 159080
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 793323, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 159080
+      }
+    ],
+    "dl_path": "/api/v1/crates/tracing/0.1.0/download",
+    "downloads": 487,
+    "features": {
+      "max_level_debug": [], "max_level_error": [], "max_level_info": [],
+      "max_level_off": [], "max_level_trace": [], "max_level_warn": [],
+      "release_max_level_debug": [], "release_max_level_error": [],
+      "release_max_level_info": [], "release_max_level_off": [],
+      "release_max_level_trace": [], "release_max_level_warn": []
+    },
+    "id": 159080, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tracing/0.1.0/authors",
+      "dependencies": "/api/v1/crates/tracing/0.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/tracing/0.1.0/downloads"
+    },
+    "num": "0.1.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/2796466?v=4",
+      "id": 1249, "login": "hawkw", "name": "Eliza Weisman",
+      "url": "https://github.com/hawkw"
+    },
+    "readme_path": "/api/v1/crates/tracing/0.1.0/readme",
+    "updated_at": "2019-06-28T21:03:37.255477+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Tokio Contributors <team@tokio.rs>"]},
+      "users": []
+    },
+    "crate": "tracing", "crate_size": 43883,
+    "created_at": "2019-07-03T21:15:45.794380+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ansi_term", "default_features": true, "downloads": 0,
+        "features": [], "id": 800209, "kind": "dev", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 160143
+      },
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 800206, "kind": "normal", "optional": false,
+        "req": "^0.1.9", "target": null, "version_id": 160143
+      },
+      {
+        "crate_id": "criterion", "default_features": false, "downloads": 0,
+        "features": [], "id": 800210, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 160143
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 800211, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 160143
+      },
+      {
+        "crate_id": "humantime", "default_features": true, "downloads": 0,
+        "features": [], "id": 800212, "kind": "dev", "optional": false,
+        "req": "^1.2", "target": null, "version_id": 160143
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 800213, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 160143
+      },
+      {
+        "crate_id": "tracing-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 800208, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 160143
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 800207, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 160143
+      }
+    ],
+    "dl_path": "/api/v1/crates/tracing/0.1.1/download",
+    "downloads": 1692,
+    "features": {
+      "doctest-readme": [], "max_level_debug": [], "max_level_error": [],
+      "max_level_info": [], "max_level_off": [], "max_level_trace": [],
+      "max_level_warn": [], "release_max_level_debug": [],
+      "release_max_level_error": [], "release_max_level_info": [],
+      "release_max_level_off": [], "release_max_level_trace": [],
+      "release_max_level_warn": []
+    },
+    "id": 160143, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tracing/0.1.1/authors",
+      "dependencies": "/api/v1/crates/tracing/0.1.1/dependencies",
+      "version_downloads": "/api/v1/crates/tracing/0.1.1/downloads"
+    },
+    "num": "0.1.1",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/2796466?v=4",
+      "id": 1249, "login": "hawkw", "name": "Eliza Weisman",
+      "url": "https://github.com/hawkw"
+    },
+    "readme_path": "/api/v1/crates/tracing/0.1.1/readme",
+    "updated_at": "2019-07-03T21:15:45.794380+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Tokio Contributors <team@tokio.rs>"]},
+      "users": []
+    },
+    "crate": "tracing", "crate_size": 44685,
+    "created_at": "2019-07-06T19:13:54.875968+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ansi_term", "default_features": true, "downloads": 0,
+        "features": [], "id": 810934, "kind": "dev", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 161420
+      },
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 810931, "kind": "normal", "optional": false,
+        "req": "^0.1.9", "target": null, "version_id": 161420
+      },
+      {
+        "crate_id": "criterion", "default_features": false, "downloads": 0,
+        "features": [], "id": 810935, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 161420
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 810936, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 161420
+      },
+      {
+        "crate_id": "humantime", "default_features": true, "downloads": 0,
+        "features": [], "id": 810937, "kind": "dev", "optional": false,
+        "req": "^1.2", "target": null, "version_id": 161420
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 810938, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 161420
+      },
+      {
+        "crate_id": "tracing-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 810933, "kind": "normal",
+        "optional": false, "req": "^0.1.1", "target": null,
+        "version_id": 161420
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 810932, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 161420
+      }
+    ],
+    "dl_path": "/api/v1/crates/tracing/0.1.2/download",
+    "downloads": 2508,
+    "features": {
+      "doctest-readme": [], "max_level_debug": [], "max_level_error": [],
+      "max_level_info": [], "max_level_off": [], "max_level_trace": [],
+      "max_level_warn": [], "release_max_level_debug": [],
+      "release_max_level_error": [], "release_max_level_info": [],
+      "release_max_level_off": [], "release_max_level_trace": [],
+      "release_max_level_warn": []
+    },
+    "id": 161420, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tracing/0.1.2/authors",
+      "dependencies": "/api/v1/crates/tracing/0.1.2/dependencies",
+      "version_downloads": "/api/v1/crates/tracing/0.1.2/downloads"
+    },
+    "num": "0.1.2",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/2796466?v=4",
+      "id": 1249, "login": "hawkw", "name": "Eliza Weisman",
+      "url": "https://github.com/hawkw"
+    },
+    "readme_path": "/api/v1/crates/tracing/0.1.2/readme",
+    "updated_at": "2019-07-06T19:13:54.875968+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Tokio Contributors <team@tokio.rs>"]},
+      "users": []
+    },
+    "crate": "tracing", "crate_size": 45115,
+    "created_at": "2019-07-11T21:36:58.811251+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ansi_term", "default_features": true, "downloads": 0,
+        "features": [], "id": 817330, "kind": "dev", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 162417
+      },
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 817327, "kind": "normal", "optional": false,
+        "req": "^0.1.9", "target": null, "version_id": 162417
+      },
+      {
+        "crate_id": "criterion", "default_features": false, "downloads": 0,
+        "features": [], "id": 817331, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 162417
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 817332, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 162417
+      },
+      {
+        "crate_id": "humantime", "default_features": true, "downloads": 0,
+        "features": [], "id": 817333, "kind": "dev", "optional": false,
+        "req": "^1.2", "target": null, "version_id": 162417
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 817334, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 162417
+      },
+      {
+        "crate_id": "tracing-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 817329, "kind": "normal",
+        "optional": false, "req": "^0.1.2", "target": null,
+        "version_id": 162417
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 817328, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 162417
+      }
+    ],
+    "dl_path": "/api/v1/crates/tracing/0.1.3/download",
+    "downloads": 34102,
+    "features": {
+      "doctest-readme": [], "max_level_debug": [], "max_level_error": [],
+      "max_level_info": [], "max_level_off": [], "max_level_trace": [],
+      "max_level_warn": [], "release_max_level_debug": [],
+      "release_max_level_error": [], "release_max_level_info": [],
+      "release_max_level_off": [], "release_max_level_trace": [],
+      "release_max_level_warn": []
+    },
+    "id": 162417, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tracing/0.1.3/authors",
+      "dependencies": "/api/v1/crates/tracing/0.1.3/dependencies",
+      "version_downloads": "/api/v1/crates/tracing/0.1.3/downloads"
+    },
+    "num": "0.1.3",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/2796466?v=4",
+      "id": 1249, "login": "hawkw", "name": "Eliza Weisman",
+      "url": "https://github.com/hawkw"
+    },
+    "readme_path": "/api/v1/crates/tracing/0.1.3/readme",
+    "updated_at": "2019-07-11T21:36:58.811251+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Tokio Contributors <team@tokio.rs>"]},
+      "users": []
+    },
+    "crate": "tracing", "crate_size": 45438,
+    "created_at": "2019-08-09T00:17:34.004554+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ansi_term", "default_features": true, "downloads": 0,
+        "features": [], "id": 854317, "kind": "dev", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 168264
+      },
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 854313, "kind": "normal", "optional": false,
+        "req": "^0.1.9", "target": null, "version_id": 168264
+      },
+      {
+        "crate_id": "criterion", "default_features": false, "downloads": 0,
+        "features": [], "id": 854318, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 168264
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 854319, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 168264
+      },
+      {
+        "crate_id": "humantime", "default_features": true, "downloads": 0,
+        "features": [], "id": 854320, "kind": "dev", "optional": false,
+        "req": "^1.2", "target": null, "version_id": 168264
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 854321, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 168264
+      },
+      {
+        "crate_id": "tracing-attributes", "default_features": true,
+        "downloads": 0, "features": [], "id": 854315, "kind": "normal",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 168264
+      },
+      {
+        "crate_id": "tracing-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 854316, "kind": "normal",
+        "optional": false, "req": "^0.1.2", "target": null,
+        "version_id": 168264
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 854314, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 168264
+      }
+    ],
+    "dl_path": "/api/v1/crates/tracing/0.1.4/download",
+    "downloads": 892,
+    "features": {
+      "async-await": ["tracing-attributes/async-await"],
+      "max_level_debug": [], "max_level_error": [], "max_level_info": [],
+      "max_level_off": [], "max_level_trace": [], "max_level_warn": [],
+      "release_max_level_debug": [], "release_max_level_error": [],
+      "release_max_level_info": [], "release_max_level_off": [],
+      "release_max_level_trace": [], "release_max_level_warn": []
+    },
+    "id": 168264, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tracing/0.1.4/authors",
+      "dependencies": "/api/v1/crates/tracing/0.1.4/dependencies",
+      "version_downloads": "/api/v1/crates/tracing/0.1.4/downloads"
+    },
+    "num": "0.1.4",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/2796466?v=4",
+      "id": 1249, "login": "hawkw", "name": "Eliza Weisman",
+      "url": "https://github.com/hawkw"
+    },
+    "readme_path": "/api/v1/crates/tracing/0.1.4/readme",
+    "updated_at": "2019-08-09T00:17:34.004554+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Tokio Contributors <team@tokio.rs>"]},
+      "users": []
+    },
+    "crate": "tracing", "crate_size": 46690,
+    "created_at": "2019-08-10T01:58:56.413914+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ansi_term", "default_features": true, "downloads": 0,
+        "features": [], "id": 855664, "kind": "dev", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 168509
+      },
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 855660, "kind": "normal", "optional": false,
+        "req": "^0.1.9", "target": null, "version_id": 168509
+      },
+      {
+        "crate_id": "criterion", "default_features": false, "downloads": 0,
+        "features": [], "id": 855665, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 168509
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 855666, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 168509
+      },
+      {
+        "crate_id": "humantime", "default_features": true, "downloads": 0,
+        "features": [], "id": 855667, "kind": "dev", "optional": false,
+        "req": "^1.2", "target": null, "version_id": 168509
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 855668, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 168509
+      },
+      {
+        "crate_id": "spin", "default_features": true, "downloads": 0,
+        "features": [], "id": 855669, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": "cfg(not(feature = \"std\"))",
+        "version_id": 168509
+      },
+      {
+        "crate_id": "tracing-attributes", "default_features": true,
+        "downloads": 0, "features": [], "id": 855662, "kind": "normal",
+        "optional": false, "req": "^0.1.1", "target": null,
+        "version_id": 168509
+      },
+      {
+        "crate_id": "tracing-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 855663, "kind": "normal",
+        "optional": false, "req": "^0.1.4", "target": null,
+        "version_id": 168509
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 855661, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 168509
+      }
+    ],
+    "dl_path": "/api/v1/crates/tracing/0.1.5/download",
+    "downloads": 4072,
+    "features": {
+      "async-await": [], "default": ["std"], "max_level_debug": [],
+      "max_level_error": [], "max_level_info": [], "max_level_off": [],
+      "max_level_trace": [], "max_level_warn": [],
+      "release_max_level_debug": [], "release_max_level_error": [],
+      "release_max_level_info": [], "release_max_level_off": [],
+      "release_max_level_trace": [], "release_max_level_warn": [],
+      "std": ["tracing-core/std"]
+    },
+    "id": 168509, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tracing/0.1.5/authors",
+      "dependencies": "/api/v1/crates/tracing/0.1.5/dependencies",
+      "version_downloads": "/api/v1/crates/tracing/0.1.5/downloads"
+    },
+    "num": "0.1.5",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/2796466?v=4",
+      "id": 1249, "login": "hawkw", "name": "Eliza Weisman",
+      "url": "https://github.com/hawkw"
+    },
+    "readme_path": "/api/v1/crates/tracing/0.1.5/readme",
+    "updated_at": "2019-08-10T01:58:56.413914+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Tokio Contributors <team@tokio.rs>"]},
+      "users": []
+    },
+    "crate": "tracing", "crate_size": 52637,
+    "created_at": "2019-08-20T18:07:44.070644+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ansi_term", "default_features": true, "downloads": 0,
+        "features": [], "id": 870342, "kind": "dev", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 170779
+      },
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 870338, "kind": "normal", "optional": false,
+        "req": "^0.1.9", "target": null, "version_id": 170779
+      },
+      {
+        "crate_id": "criterion", "default_features": false, "downloads": 0,
+        "features": [], "id": 870343, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 170779
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 870344, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 170779
+      },
+      {
+        "crate_id": "humantime", "default_features": true, "downloads": 0,
+        "features": [], "id": 870345, "kind": "dev", "optional": false,
+        "req": "^1.2", "target": null, "version_id": 170779
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 870346, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 170779
+      },
+      {
+        "crate_id": "spin", "default_features": true, "downloads": 0,
+        "features": [], "id": 870347, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": "cfg(not(feature = \"std\"))",
+        "version_id": 170779
+      },
+      {
+        "crate_id": "tracing-attributes", "default_features": true,
+        "downloads": 0, "features": [], "id": 870340, "kind": "normal",
+        "optional": false, "req": "^0.1.2", "target": null,
+        "version_id": 170779
+      },
+      {
+        "crate_id": "tracing-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 870341, "kind": "normal",
+        "optional": false, "req": "^0.1.5", "target": null,
+        "version_id": 170779
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 870339, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 170779
+      }
+    ],
+    "dl_path": "/api/v1/crates/tracing/0.1.6/download",
+    "downloads": 19143,
+    "features": {
+      "async-await": [], "default": ["std"], "max_level_debug": [],
+      "max_level_error": [], "max_level_info": [], "max_level_off": [],
+      "max_level_trace": [], "max_level_warn": [],
+      "release_max_level_debug": [], "release_max_level_error": [],
+      "release_max_level_info": [], "release_max_level_off": [],
+      "release_max_level_trace": [], "release_max_level_warn": [],
+      "std": ["tracing-core/std"]
+    },
+    "id": 170779, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tracing/0.1.6/authors",
+      "dependencies": "/api/v1/crates/tracing/0.1.6/dependencies",
+      "version_downloads": "/api/v1/crates/tracing/0.1.6/downloads"
+    },
+    "num": "0.1.6",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/2796466?v=4",
+      "id": 1249, "login": "hawkw", "name": "Eliza Weisman",
+      "url": "https://github.com/hawkw"
+    },
+    "readme_path": "/api/v1/crates/tracing/0.1.6/readme",
+    "updated_at": "2019-08-20T18:07:44.070644+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Tokio Contributors <team@tokio.rs>"]},
+      "users": []
+    },
+    "crate": "tracing", "crate_size": 52514,
+    "created_at": "2019-08-30T22:17:07.067425+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ansi_term", "default_features": true, "downloads": 0,
+        "features": [], "id": 884467, "kind": "dev", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 172953
+      },
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 884463, "kind": "normal", "optional": false,
+        "req": "^0.1.9", "target": null, "version_id": 172953
+      },
+      {
+        "crate_id": "criterion", "default_features": false, "downloads": 0,
+        "features": [], "id": 884468, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 172953
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 884469, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 172953
+      },
+      {
+        "crate_id": "humantime", "default_features": true, "downloads": 0,
+        "features": [], "id": 884470, "kind": "dev", "optional": false,
+        "req": "^1.2", "target": null, "version_id": 172953
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 884471, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 172953
+      },
+      {
+        "crate_id": "spin", "default_features": true, "downloads": 0,
+        "features": [], "id": 884472, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": "cfg(not(feature = \"std\"))",
+        "version_id": 172953
+      },
+      {
+        "crate_id": "tracing-attributes", "default_features": true,
+        "downloads": 0, "features": [], "id": 884465, "kind": "normal",
+        "optional": false, "req": "^0.1.2", "target": null,
+        "version_id": 172953
+      },
+      {
+        "crate_id": "tracing-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 884466, "kind": "normal",
+        "optional": false, "req": "^0.1.5", "target": null,
+        "version_id": 172953
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 884464, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 172953
+      }
+    ],
+    "dl_path": "/api/v1/crates/tracing/0.1.7/download",
+    "downloads": 4619,
+    "features": {
+      "async-await": [], "default": ["std"], "max_level_debug": [],
+      "max_level_error": [], "max_level_info": [], "max_level_off": [],
+      "max_level_trace": [], "max_level_warn": [],
+      "release_max_level_debug": [], "release_max_level_error": [],
+      "release_max_level_info": [], "release_max_level_off": [],
+      "release_max_level_trace": [], "release_max_level_warn": [],
+      "std": ["tracing-core/std"]
+    },
+    "id": 172953, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tracing/0.1.7/authors",
+      "dependencies": "/api/v1/crates/tracing/0.1.7/dependencies",
+      "version_downloads": "/api/v1/crates/tracing/0.1.7/downloads"
+    },
+    "num": "0.1.7",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/2796466?v=4",
+      "id": 1249, "login": "hawkw", "name": "Eliza Weisman",
+      "url": "https://github.com/hawkw"
+    },
+    "readme_path": "/api/v1/crates/tracing/0.1.7/readme",
+    "updated_at": "2019-08-30T22:17:07.067425+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Tokio Contributors <team@tokio.rs>"]},
+      "users": []
+    },
+    "crate": "tracing", "crate_size": 44344,
+    "created_at": "2019-09-04T00:14:07.089425+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 889110, "kind": "normal", "optional": false,
+        "req": "^0.1.9", "target": null, "version_id": 173779
+      },
+      {
+        "crate_id": "criterion", "default_features": false, "downloads": 0,
+        "features": [], "id": 889114, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 173779
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 889115, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 173779
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 889116, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 173779
+      },
+      {
+        "crate_id": "spin", "default_features": true, "downloads": 0,
+        "features": [], "id": 889117, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": "cfg(not(feature = \"std\"))",
+        "version_id": 173779
+      },
+      {
+        "crate_id": "tracing-attributes", "default_features": true,
+        "downloads": 0, "features": [], "id": 889112, "kind": "normal",
+        "optional": false, "req": "^0.1.2", "target": null,
+        "version_id": 173779
+      },
+      {
+        "crate_id": "tracing-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 889113, "kind": "normal",
+        "optional": false, "req": "^0.1.5", "target": null,
+        "version_id": 173779
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 889111, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 173779
+      }
+    ],
+    "dl_path": "/api/v1/crates/tracing/0.1.8/download",
+    "downloads": 18113,
+    "features": {
+      "async-await": [], "default": ["std"], "max_level_debug": [],
+      "max_level_error": [], "max_level_info": [], "max_level_off": [],
+      "max_level_trace": [], "max_level_warn": [],
+      "release_max_level_debug": [], "release_max_level_error": [],
+      "release_max_level_info": [], "release_max_level_off": [],
+      "release_max_level_trace": [], "release_max_level_warn": [],
+      "std": ["tracing-core/std"]
+    },
+    "id": 173779, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tracing/0.1.8/authors",
+      "dependencies": "/api/v1/crates/tracing/0.1.8/dependencies",
+      "version_downloads": "/api/v1/crates/tracing/0.1.8/downloads"
+    },
+    "num": "0.1.8",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/2796466?v=4",
+      "id": 1249, "login": "hawkw", "name": "Eliza Weisman",
+      "url": "https://github.com/hawkw"
+    },
+    "readme_path": "/api/v1/crates/tracing/0.1.8/readme",
+    "updated_at": "2019-09-04T00:14:07.089425+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Tokio Contributors <team@tokio.rs>"]},
+      "users": []
+    },
+    "crate": "tracing", "crate_size": 45258,
+    "created_at": "2019-09-13T21:48:10.929792+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 903805, "kind": "normal", "optional": false,
+        "req": "^0.1.9", "target": null, "version_id": 176094
+      },
+      {
+        "crate_id": "criterion", "default_features": false, "downloads": 0,
+        "features": [], "id": 903809, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 176094
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 903810, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 176094
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 903811, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 176094
+      },
+      {
+        "crate_id": "spin", "default_features": true, "downloads": 0,
+        "features": [], "id": 903812, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": "cfg(not(feature = \"std\"))",
+        "version_id": 176094
+      },
+      {
+        "crate_id": "tracing-attributes", "default_features": true,
+        "downloads": 0, "features": [], "id": 903807, "kind": "normal",
+        "optional": false, "req": "^0.1.3", "target": null,
+        "version_id": 176094
+      },
+      {
+        "crate_id": "tracing-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 903808, "kind": "normal",
+        "optional": false, "req": "^0.1.6", "target": null,
+        "version_id": 176094
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 903806, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 176094
+      }
+    ],
+    "dl_path": "/api/v1/crates/tracing/0.1.9/download",
+    "downloads": 139602,
+    "features": {
+      "async-await": [], "default": ["std"], "log-always": ["log"],
+      "max_level_debug": [], "max_level_error": [], "max_level_info": [],
+      "max_level_off": [], "max_level_trace": [], "max_level_warn": [],
+      "release_max_level_debug": [], "release_max_level_error": [],
+      "release_max_level_info": [], "release_max_level_off": [],
+      "release_max_level_trace": [], "release_max_level_warn": [],
+      "std": ["tracing-core/std"]
+    },
+    "id": 176094, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tracing/0.1.9/authors",
+      "dependencies": "/api/v1/crates/tracing/0.1.9/dependencies",
+      "version_downloads": "/api/v1/crates/tracing/0.1.9/downloads"
+    },
+    "num": "0.1.9",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/2796466?v=4",
+      "id": 1249, "login": "hawkw", "name": "Eliza Weisman",
+      "url": "https://github.com/hawkw"
+    },
+    "readme_path": "/api/v1/crates/tracing/0.1.9/readme",
+    "updated_at": "2019-09-13T21:48:10.929792+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Tokio Contributors <team@tokio.rs>"]},
+      "users": []
+    },
+    "crate": "tracing", "crate_size": 45624,
+    "created_at": "2019-10-23T23:49:21.734816+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 958536, "kind": "normal", "optional": false,
+        "req": "^0.1.10", "target": null, "version_id": 184623
+      },
+      {
+        "crate_id": "criterion", "default_features": false, "downloads": 0,
+        "features": [], "id": 958540, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 184623
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 958541, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 184623
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 958542, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 184623
+      },
+      {
+        "crate_id": "spin", "default_features": true, "downloads": 0,
+        "features": [], "id": 958543, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": "cfg(not(feature = \"std\"))",
+        "version_id": 184623
+      },
+      {
+        "crate_id": "tracing-attributes", "default_features": true,
+        "downloads": 0, "features": [], "id": 958538, "kind": "normal",
+        "optional": false, "req": "^0.1.5", "target": null,
+        "version_id": 184623
+      },
+      {
+        "crate_id": "tracing-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 958539, "kind": "normal",
+        "optional": false, "req": "^0.1.7", "target": null,
+        "version_id": 184623
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 958537, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 184623
+      }
+    ],
+    "dl_path": "/api/v1/crates/tracing/0.1.10/download",
+    "downloads": 289811,
+    "features": {
+      "async-await": [], "default": ["std"], "log-always": ["log"],
+      "max_level_debug": [], "max_level_error": [], "max_level_info": [],
+      "max_level_off": [], "max_level_trace": [], "max_level_warn": [],
+      "release_max_level_debug": [], "release_max_level_error": [],
+      "release_max_level_info": [], "release_max_level_off": [],
+      "release_max_level_trace": [], "release_max_level_warn": [],
+      "std": ["tracing-core/std"]
+    },
+    "id": 184623, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tracing/0.1.10/authors",
+      "dependencies": "/api/v1/crates/tracing/0.1.10/dependencies",
+      "version_downloads": "/api/v1/crates/tracing/0.1.10/downloads"
+    },
+    "num": "0.1.10",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/2796466?v=4",
+      "id": 1249, "login": "hawkw", "name": "Eliza Weisman",
+      "url": "https://github.com/hawkw"
+    },
+    "readme_path": "/api/v1/crates/tracing/0.1.10/readme",
+    "updated_at": "2019-10-23T23:49:21.734816+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2019-12-20T23:43:20.785012+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/2796466?v=4",
+          "id": 1249, "login": "hawkw", "name": "Eliza Weisman",
+          "url": "https://github.com/hawkw"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Tokio Contributors <team@tokio.rs>"]},
+      "users": []
+    },
+    "crate": "tracing", "crate_size": 47306,
+    "created_at": "2019-12-20T23:43:20.785012+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 1050185, "kind": "normal", "optional": false,
+        "req": "^0.1.10", "target": null, "version_id": 197886
+      },
+      {
+        "crate_id": "criterion", "default_features": false, "downloads": 0,
+        "features": [], "id": 1050189, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 197886
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1050190, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 197886
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1050191, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 197886
+      },
+      {
+        "crate_id": "tracing-attributes", "default_features": true,
+        "downloads": 0, "features": [], "id": 1050187, "kind": "normal",
+        "optional": false, "req": "^0.1.6", "target": null,
+        "version_id": 197886
+      },
+      {
+        "crate_id": "tracing-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 1050188, "kind": "normal",
+        "optional": false, "req": "^0.1.8", "target": null,
+        "version_id": 197886
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1050186, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 197886
+      }
+    ],
+    "dl_path": "/api/v1/crates/tracing/0.1.11/download",
+    "downloads": 55232,
+    "features": {
+      "async-await": [], "default": ["std"], "log-always": ["log"],
+      "max_level_debug": [], "max_level_error": [], "max_level_info": [],
+      "max_level_off": [], "max_level_trace": [], "max_level_warn": [],
+      "release_max_level_debug": [], "release_max_level_error": [],
+      "release_max_level_info": [], "release_max_level_off": [],
+      "release_max_level_trace": [], "release_max_level_warn": [],
+      "std": ["tracing-core/std"]
+    },
+    "id": 197886, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tracing/0.1.11/authors",
+      "dependencies": "/api/v1/crates/tracing/0.1.11/dependencies",
+      "version_downloads": "/api/v1/crates/tracing/0.1.11/downloads"
+    },
+    "num": "0.1.11",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/2796466?v=4",
+      "id": 1249, "login": "hawkw", "name": "Eliza Weisman",
+      "url": "https://github.com/hawkw"
+    },
+    "readme_path": "/api/v1/crates/tracing/0.1.11/readme",
+    "updated_at": "2019-12-20T23:43:20.785012+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-01-15T22:54:27.474593+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/2796466?v=4",
+          "id": 1249, "login": "hawkw", "name": "Eliza Weisman",
+          "url": "https://github.com/hawkw"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Eliza Weisman <eliza@buoyant.io>",
+          "Tokio Contributors <team@tokio.rs>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "tracing", "crate_size": 52177,
+    "created_at": "2020-01-15T22:54:27.474593+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 1091300, "kind": "normal", "optional": false,
+        "req": "^0.1.10", "target": null, "version_id": 204165
+      },
+      {
+        "crate_id": "criterion", "default_features": false, "downloads": 0,
+        "features": [], "id": 1091304, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 204165
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1091305, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 204165
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1091306, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 204165
+      },
+      {
+        "crate_id": "tracing-attributes", "default_features": true,
+        "downloads": 0, "features": [], "id": 1091302, "kind": "normal",
+        "optional": false, "req": "^0.1.6", "target": null,
+        "version_id": 204165
+      },
+      {
+        "crate_id": "tracing-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 1091303, "kind": "normal",
+        "optional": false, "req": "^0.1.9", "target": null,
+        "version_id": 204165
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1091301, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 204165
+      }
+    ],
+    "dl_path": "/api/v1/crates/tracing/0.1.12/download",
+    "downloads": 216659,
+    "features": {
+      "async-await": [], "default": ["std"], "log-always": ["log"],
+      "max_level_debug": [], "max_level_error": [], "max_level_info": [],
+      "max_level_off": [], "max_level_trace": [], "max_level_warn": [],
+      "release_max_level_debug": [], "release_max_level_error": [],
+      "release_max_level_info": [], "release_max_level_off": [],
+      "release_max_level_trace": [], "release_max_level_warn": [],
+      "std": ["tracing-core/std"]
+    },
+    "id": 204165, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tracing/0.1.12/authors",
+      "dependencies": "/api/v1/crates/tracing/0.1.12/dependencies",
+      "version_downloads": "/api/v1/crates/tracing/0.1.12/downloads"
+    },
+    "num": "0.1.12",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/2796466?v=4",
+      "id": 1249, "login": "hawkw", "name": "Eliza Weisman",
+      "url": "https://github.com/hawkw"
+    },
+    "readme_path": "/api/v1/crates/tracing/0.1.12/readme",
+    "updated_at": "2020-01-15T22:54:27.474593+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-02-27T00:24:32.898477+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/2796466?v=4",
+          "id": 1249, "login": "hawkw", "name": "Eliza Weisman",
+          "url": "https://github.com/hawkw"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Eliza Weisman <eliza@buoyant.io>",
+          "Tokio Contributors <team@tokio.rs>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "tracing", "crate_size": 53589,
+    "created_at": "2020-02-27T00:24:32.898477+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 1178105, "kind": "normal", "optional": false,
+        "req": "^0.1.10", "target": null, "version_id": 215920
+      },
+      {
+        "crate_id": "criterion", "default_features": false, "downloads": 0,
+        "features": [], "id": 1178109, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 215920
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1178110, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 215920
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1178111, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 215920
+      },
+      {
+        "crate_id": "tracing-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 1178108, "kind": "normal",
+        "optional": false, "req": "^0.1.10", "target": null,
+        "version_id": 215920
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1178106, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 215920
+      },
+      {
+        "crate_id": "tracing-attributes", "default_features": true,
+        "downloads": 0, "features": [], "id": 1178107, "kind": "normal",
+        "optional": true, "req": "^0.1.7", "target": null,
+        "version_id": 215920
+      }
+    ],
+    "dl_path": "/api/v1/crates/tracing/0.1.13/download",
+    "downloads": 430653,
+    "features": {
+      "async-await": [], "attributes": ["tracing-attributes"],
+      "default": ["std", "attributes"], "log-always": ["log"],
+      "max_level_debug": [], "max_level_error": [], "max_level_info": [],
+      "max_level_off": [], "max_level_trace": [], "max_level_warn": [],
+      "release_max_level_debug": [], "release_max_level_error": [],
+      "release_max_level_info": [], "release_max_level_off": [],
+      "release_max_level_trace": [], "release_max_level_warn": [],
+      "std": ["tracing-core/std"]
+    },
+    "id": 215920, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tracing/0.1.13/authors",
+      "dependencies": "/api/v1/crates/tracing/0.1.13/dependencies",
+      "version_downloads": "/api/v1/crates/tracing/0.1.13/downloads"
+    },
+    "num": "0.1.13",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/2796466?v=4",
+      "id": 1249, "login": "hawkw", "name": "Eliza Weisman",
+      "url": "https://github.com/hawkw"
+    },
+    "readme_path": "/api/v1/crates/tracing/0.1.13/readme",
+    "updated_at": "2020-02-27T00:24:32.898477+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-05-14T23:53:24.320202+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/2796466?v=4",
+          "id": 1249, "login": "hawkw", "name": "Eliza Weisman",
+          "url": "https://github.com/hawkw"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Eliza Weisman <eliza@buoyant.io>",
+          "Tokio Contributors <team@tokio.rs>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "tracing", "crate_size": 55536,
+    "created_at": "2020-05-14T23:53:24.320202+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 1367582, "kind": "normal", "optional": false,
+        "req": "^0.1.10", "target": null, "version_id": 241517
+      },
+      {
+        "crate_id": "criterion", "default_features": false, "downloads": 0,
+        "features": [], "id": 1367586, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 241517
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1367587, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 241517
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1367588, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 241517
+      },
+      {
+        "crate_id": "tracing-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 1367585, "kind": "normal",
+        "optional": false, "req": "^0.1.10", "target": null,
+        "version_id": 241517
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1367583, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 241517
+      },
+      {
+        "crate_id": "tracing-attributes", "default_features": true,
+        "downloads": 0, "features": [], "id": 1367584, "kind": "normal",
+        "optional": true, "req": "^0.1.8", "target": null,
+        "version_id": 241517
+      }
+    ],
+    "dl_path": "/api/v1/crates/tracing/0.1.14/download",
+    "downloads": 144491,
+    "features": {
+      "async-await": [], "attributes": ["tracing-attributes"],
+      "default": ["std", "attributes"], "log-always": ["log"],
+      "max_level_debug": [], "max_level_error": [], "max_level_info": [],
+      "max_level_off": [], "max_level_trace": [], "max_level_warn": [],
+      "release_max_level_debug": [], "release_max_level_error": [],
+      "release_max_level_info": [], "release_max_level_off": [],
+      "release_max_level_trace": [], "release_max_level_warn": [],
+      "std": ["tracing-core/std"]
+    },
+    "id": 241517, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tracing/0.1.14/authors",
+      "dependencies": "/api/v1/crates/tracing/0.1.14/dependencies",
+      "version_downloads": "/api/v1/crates/tracing/0.1.14/downloads"
+    },
+    "num": "0.1.14",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/2796466?v=4",
+      "id": 1249, "login": "hawkw", "name": "Eliza Weisman",
+      "url": "https://github.com/hawkw"
+    },
+    "readme_path": "/api/v1/crates/tracing/0.1.14/readme",
+    "updated_at": "2020-05-14T23:53:24.320202+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-06-03T01:43:38.516286+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/2796466?v=4",
+          "id": 1249, "login": "hawkw", "name": "Eliza Weisman",
+          "url": "https://github.com/hawkw"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Eliza Weisman <eliza@buoyant.io>",
+          "Tokio Contributors <team@tokio.rs>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "tracing", "crate_size": 56059,
+    "created_at": "2020-06-03T01:43:38.516286+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 1419009, "kind": "normal", "optional": false,
+        "req": "^0.1.10", "target": null, "version_id": 248384
+      },
+      {
+        "crate_id": "criterion", "default_features": false, "downloads": 0,
+        "features": [], "id": 1419013, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 248384
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1419014, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 248384
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1419015, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 248384
+      },
+      {
+        "crate_id": "tracing-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 1419012, "kind": "normal",
+        "optional": false, "req": "^0.1.10", "target": null,
+        "version_id": 248384
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1419010, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 248384
+      },
+      {
+        "crate_id": "tracing-attributes", "default_features": true,
+        "downloads": 0, "features": [], "id": 1419011, "kind": "normal",
+        "optional": true, "req": "^0.1.8", "target": null,
+        "version_id": 248384
+      }
+    ],
+    "dl_path": "/api/v1/crates/tracing/0.1.15/download",
+    "downloads": 380540,
+    "features": {
+      "async-await": [], "attributes": ["tracing-attributes"],
+      "default": ["std", "attributes"], "log-always": ["log"],
+      "max_level_debug": [], "max_level_error": [], "max_level_info": [],
+      "max_level_off": [], "max_level_trace": [], "max_level_warn": [],
+      "release_max_level_debug": [], "release_max_level_error": [],
+      "release_max_level_info": [], "release_max_level_off": [],
+      "release_max_level_trace": [], "release_max_level_warn": [],
+      "std": ["tracing-core/std"]
+    },
+    "id": 248384, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tracing/0.1.15/authors",
+      "dependencies": "/api/v1/crates/tracing/0.1.15/dependencies",
+      "version_downloads": "/api/v1/crates/tracing/0.1.15/downloads"
+    },
+    "num": "0.1.15",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/2796466?v=4",
+      "id": 1249, "login": "hawkw", "name": "Eliza Weisman",
+      "url": "https://github.com/hawkw"
+    },
+    "readme_path": "/api/v1/crates/tracing/0.1.15/readme",
+    "updated_at": "2020-06-03T01:43:38.516286+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-07-08T23:59:56.920356+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/2796466?v=4",
+          "id": 1249, "login": "hawkw", "name": "Eliza Weisman",
+          "url": "https://github.com/hawkw"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Eliza Weisman <eliza@buoyant.io>",
+          "Tokio Contributors <team@tokio.rs>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "tracing", "crate_size": 58336,
+    "created_at": "2020-07-08T23:59:56.920356+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 1507149, "kind": "normal", "optional": false,
+        "req": "^0.1.10", "target": null, "version_id": 260239
+      },
+      {
+        "crate_id": "criterion", "default_features": false, "downloads": 0,
+        "features": [], "id": 1507153, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 260239
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1507154, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 260239
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1507155, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 260239
+      },
+      {
+        "crate_id": "tracing-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 1507152, "kind": "normal",
+        "optional": false, "req": "^0.1.11", "target": null,
+        "version_id": 260239
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1507150, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 260239
+      },
+      {
+        "crate_id": "tracing-attributes", "default_features": true,
+        "downloads": 0, "features": [], "id": 1507151, "kind": "normal",
+        "optional": true, "req": "^0.1.9", "target": null,
+        "version_id": 260239
+      }
+    ],
+    "dl_path": "/api/v1/crates/tracing/0.1.16/download",
+    "downloads": 220173,
+    "features": {
+      "async-await": [], "attributes": ["tracing-attributes"],
+      "default": ["std", "attributes"], "log-always": ["log"],
+      "max_level_debug": [], "max_level_error": [], "max_level_info": [],
+      "max_level_off": [], "max_level_trace": [], "max_level_warn": [],
+      "release_max_level_debug": [], "release_max_level_error": [],
+      "release_max_level_info": [], "release_max_level_off": [],
+      "release_max_level_trace": [], "release_max_level_warn": [],
+      "std": ["tracing-core/std"]
+    },
+    "id": 260239, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tracing/0.1.16/authors",
+      "dependencies": "/api/v1/crates/tracing/0.1.16/dependencies",
+      "version_downloads": "/api/v1/crates/tracing/0.1.16/downloads"
+    },
+    "num": "0.1.16",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/2796466?v=4",
+      "id": 1249, "login": "hawkw", "name": "Eliza Weisman",
+      "url": "https://github.com/hawkw"
+    },
+    "readme_path": "/api/v1/crates/tracing/0.1.16/readme",
+    "updated_at": "2020-07-08T23:59:56.920356+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-07-22T18:15:16.724722+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/2796466?v=4",
+          "id": 1249, "login": "hawkw", "name": "Eliza Weisman",
+          "url": "https://github.com/hawkw"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Eliza Weisman <eliza@buoyant.io>",
+          "Tokio Contributors <team@tokio.rs>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "tracing", "crate_size": 58754,
+    "created_at": "2020-07-22T18:15:16.724722+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 1542455, "kind": "normal", "optional": false,
+        "req": "^0.1.10", "target": null, "version_id": 264984
+      },
+      {
+        "crate_id": "criterion", "default_features": false, "downloads": 0,
+        "features": [], "id": 1542459, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 264984
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1542460, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 264984
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1542461, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 264984
+      },
+      {
+        "crate_id": "tracing-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 1542458, "kind": "normal",
+        "optional": false, "req": "^0.1.11", "target": null,
+        "version_id": 264984
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1542456, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 264984
+      },
+      {
+        "crate_id": "tracing-attributes", "default_features": true,
+        "downloads": 0, "features": [], "id": 1542457, "kind": "normal",
+        "optional": true, "req": "^0.1.9", "target": null,
+        "version_id": 264984
+      }
+    ],
+    "dl_path": "/api/v1/crates/tracing/0.1.17/download",
+    "downloads": 151397,
+    "features": {
+      "async-await": [], "attributes": ["tracing-attributes"],
+      "default": ["std", "attributes"], "log-always": ["log"],
+      "max_level_debug": [], "max_level_error": [], "max_level_info": [],
+      "max_level_off": [], "max_level_trace": [], "max_level_warn": [],
+      "release_max_level_debug": [], "release_max_level_error": [],
+      "release_max_level_info": [], "release_max_level_off": [],
+      "release_max_level_trace": [], "release_max_level_warn": [],
+      "std": ["tracing-core/std"]
+    },
+    "id": 264984, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tracing/0.1.17/authors",
+      "dependencies": "/api/v1/crates/tracing/0.1.17/dependencies",
+      "version_downloads": "/api/v1/crates/tracing/0.1.17/downloads"
+    },
+    "num": "0.1.17",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/2796466?v=4",
+      "id": 1249, "login": "hawkw", "name": "Eliza Weisman",
+      "url": "https://github.com/hawkw"
+    },
+    "readme_path": "/api/v1/crates/tracing/0.1.17/readme",
+    "updated_at": "2020-07-22T18:15:16.724722+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-07-31T19:06:11.626576+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/2796466?v=4",
+          "id": 1249, "login": "hawkw", "name": "Eliza Weisman",
+          "url": "https://github.com/hawkw"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Eliza Weisman <eliza@buoyant.io>",
+          "Tokio Contributors <team@tokio.rs>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "tracing", "crate_size": 59673,
+    "created_at": "2020-07-31T19:06:11.626576+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 1567758, "kind": "normal", "optional": false,
+        "req": "^0.1.10", "target": null, "version_id": 268284
+      },
+      {
+        "crate_id": "criterion", "default_features": false, "downloads": 0,
+        "features": [], "id": 1567762, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 268284
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1567763, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 268284
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1567764, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 268284
+      },
+      {
+        "crate_id": "tracing-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 1567761, "kind": "normal",
+        "optional": false, "req": "^0.1.12", "target": null,
+        "version_id": 268284
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1567759, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 268284
+      },
+      {
+        "crate_id": "tracing-attributes", "default_features": true,
+        "downloads": 0, "features": [], "id": 1567760, "kind": "normal",
+        "optional": true, "req": "^0.1.9", "target": null,
+        "version_id": 268284
+      }
+    ],
+    "dl_path": "/api/v1/crates/tracing/0.1.18/download",
+    "downloads": 198159,
+    "features": {
+      "async-await": [], "attributes": ["tracing-attributes"],
+      "default": ["std", "attributes"], "log-always": ["log"],
+      "max_level_debug": [], "max_level_error": [], "max_level_info": [],
+      "max_level_off": [], "max_level_trace": [], "max_level_warn": [],
+      "release_max_level_debug": [], "release_max_level_error": [],
+      "release_max_level_info": [], "release_max_level_off": [],
+      "release_max_level_trace": [], "release_max_level_warn": [],
+      "std": ["tracing-core/std"]
+    },
+    "id": 268284, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tracing/0.1.18/authors",
+      "dependencies": "/api/v1/crates/tracing/0.1.18/dependencies",
+      "version_downloads": "/api/v1/crates/tracing/0.1.18/downloads"
+    },
+    "num": "0.1.18",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/2796466?v=4",
+      "id": 1249, "login": "hawkw", "name": "Eliza Weisman",
+      "url": "https://github.com/hawkw"
+    },
+    "readme_path": "/api/v1/crates/tracing/0.1.18/readme",
+    "updated_at": "2020-07-31T19:06:11.626576+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-08-11T00:35:26.351801+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/2796466?v=4",
+          "id": 1249, "login": "hawkw", "name": "Eliza Weisman",
+          "url": "https://github.com/hawkw"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Eliza Weisman <eliza@buoyant.io>",
+          "Tokio Contributors <team@tokio.rs>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "tracing", "crate_size": 60835,
+    "created_at": "2020-08-11T00:35:26.351801+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 1591277, "kind": "normal", "optional": false,
+        "req": "^0.1.10", "target": null, "version_id": 271470
+      },
+      {
+        "crate_id": "criterion", "default_features": false, "downloads": 0,
+        "features": [], "id": 1591281, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 271470
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1591282, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 271470
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1591283, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 271470
+      },
+      {
+        "crate_id": "tracing-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 1591280, "kind": "normal",
+        "optional": false, "req": "^0.1.14", "target": null,
+        "version_id": 271470
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1591278, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 271470
+      },
+      {
+        "crate_id": "tracing-attributes", "default_features": true,
+        "downloads": 0, "features": [], "id": 1591279, "kind": "normal",
+        "optional": true, "req": "^0.1.10", "target": null,
+        "version_id": 271470
+      }
+    ],
+    "dl_path": "/api/v1/crates/tracing/0.1.19/download",
+    "downloads": 966788,
+    "features": {
+      "async-await": [], "attributes": ["tracing-attributes"],
+      "default": ["std", "attributes"], "log-always": ["log"],
+      "max_level_debug": [], "max_level_error": [], "max_level_info": [],
+      "max_level_off": [], "max_level_trace": [], "max_level_warn": [],
+      "release_max_level_debug": [], "release_max_level_error": [],
+      "release_max_level_info": [], "release_max_level_off": [],
+      "release_max_level_trace": [], "release_max_level_warn": [],
+      "std": ["tracing-core/std"]
+    },
+    "id": 271470, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tracing/0.1.19/authors",
+      "dependencies": "/api/v1/crates/tracing/0.1.19/dependencies",
+      "version_downloads": "/api/v1/crates/tracing/0.1.19/downloads"
+    },
+    "num": "0.1.19",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/2796466?v=4",
+      "id": 1249, "login": "hawkw", "name": "Eliza Weisman",
+      "url": "https://github.com/hawkw"
+    },
+    "readme_path": "/api/v1/crates/tracing/0.1.19/readme",
+    "updated_at": "2020-08-11T00:35:26.351801+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-08-24T23:20:27.478607+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/2796466?v=4",
+          "id": 1249, "login": "hawkw", "name": "Eliza Weisman",
+          "url": "https://github.com/hawkw"
+        }
+      },
+      {
+        "action": "yank", "time": "2020-08-24T23:46:09.272180+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/2796466?v=4",
+          "id": 1249, "login": "hawkw", "name": "Eliza Weisman",
+          "url": "https://github.com/hawkw"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Eliza Weisman <eliza@buoyant.io>",
+          "Tokio Contributors <team@tokio.rs>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "tracing", "crate_size": 63052,
+    "created_at": "2020-08-24T23:20:27.478607+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 1626527, "kind": "normal", "optional": false,
+        "req": "^0.1.10", "target": null, "version_id": 276045
+      },
+      {
+        "crate_id": "criterion", "default_features": false, "downloads": 0,
+        "features": [], "id": 1626531, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 276045
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1626532, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 276045
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1626533, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 276045
+      },
+      {
+        "crate_id": "tracing-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 1626530, "kind": "normal",
+        "optional": false, "req": "^0.1.15", "target": null,
+        "version_id": 276045
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1626528, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 276045
+      },
+      {
+        "crate_id": "tracing-attributes", "default_features": true,
+        "downloads": 0, "features": [], "id": 1626529, "kind": "normal",
+        "optional": true, "req": "^0.1.10", "target": null,
+        "version_id": 276045
+      }
+    ],
+    "dl_path": "/api/v1/crates/tracing/0.1.20/download",
+    "downloads": 1371,
+    "features": {
+      "async-await": [], "attributes": ["tracing-attributes"],
+      "default": ["std", "attributes"], "log-always": ["log"],
+      "max_level_debug": [], "max_level_error": [], "max_level_info": [],
+      "max_level_off": [], "max_level_trace": [], "max_level_warn": [],
+      "release_max_level_debug": [], "release_max_level_error": [],
+      "release_max_level_info": [], "release_max_level_off": [],
+      "release_max_level_trace": [], "release_max_level_warn": [],
+      "std": ["tracing-core/std"]
+    },
+    "id": 276045, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tracing/0.1.20/authors",
+      "dependencies": "/api/v1/crates/tracing/0.1.20/dependencies",
+      "version_downloads": "/api/v1/crates/tracing/0.1.20/downloads"
+    },
+    "num": "0.1.20",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/2796466?v=4",
+      "id": 1249, "login": "hawkw", "name": "Eliza Weisman",
+      "url": "https://github.com/hawkw"
+    },
+    "readme_path": "/api/v1/crates/tracing/0.1.20/readme",
+    "updated_at": "2020-08-24T23:46:10.903685+00:00", "yanked": true
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-09-28T19:01:26.619254+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/2796466?v=4",
+          "id": 1249, "login": "hawkw", "name": "Eliza Weisman",
+          "url": "https://github.com/hawkw"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Eliza Weisman <eliza@buoyant.io>",
+          "Tokio Contributors <team@tokio.rs>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "tracing", "crate_size": 65404,
+    "created_at": "2020-09-28T19:01:26.619254+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 1720181, "kind": "normal", "optional": false,
+        "req": "^0.1.10", "target": null, "version_id": 288293
+      },
+      {
+        "crate_id": "criterion", "default_features": false, "downloads": 0,
+        "features": [], "id": 1720186, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 288293
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1720187, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 288293
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1720188, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 288293
+      },
+      {
+        "crate_id": "pin-project-lite", "default_features": true,
+        "downloads": 0, "features": [], "id": 1720183, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 288293
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["rt-core"], "id": 1720189, "kind": "dev",
+        "optional": false, "req": "^0.2.21", "target": null,
+        "version_id": 288293
+      },
+      {
+        "crate_id": "tracing-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 1720185, "kind": "normal",
+        "optional": false, "req": "^0.1.17", "target": null,
+        "version_id": 288293
+      },
+      {
+        "crate_id": "wasm-bindgen-test", "default_features": true,
+        "downloads": 0, "features": [], "id": 1720190, "kind": "dev",
+        "optional": false, "req": "^0.3",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 288293
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1720182, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 288293
+      },
+      {
+        "crate_id": "tracing-attributes", "default_features": true,
+        "downloads": 0, "features": [], "id": 1720184, "kind": "normal",
+        "optional": true, "req": "^0.1.10", "target": null,
+        "version_id": 288293
+      }
+    ],
+    "dl_path": "/api/v1/crates/tracing/0.1.21/download",
+    "downloads": 488567,
+    "features": {
+      "async-await": [], "attributes": ["tracing-attributes"],
+      "default": ["std", "attributes"], "log-always": ["log"],
+      "max_level_debug": [], "max_level_error": [], "max_level_info": [],
+      "max_level_off": [], "max_level_trace": [], "max_level_warn": [],
+      "release_max_level_debug": [], "release_max_level_error": [],
+      "release_max_level_info": [], "release_max_level_off": [],
+      "release_max_level_trace": [], "release_max_level_warn": [],
+      "std": ["tracing-core/std"]
+    },
+    "id": 288293, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tracing/0.1.21/authors",
+      "dependencies": "/api/v1/crates/tracing/0.1.21/dependencies",
+      "version_downloads": "/api/v1/crates/tracing/0.1.21/downloads"
+    },
+    "num": "0.1.21",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/2796466?v=4",
+      "id": 1249, "login": "hawkw", "name": "Eliza Weisman",
+      "url": "https://github.com/hawkw"
+    },
+    "readme_path": "/api/v1/crates/tracing/0.1.21/readme",
+    "updated_at": "2020-09-28T19:01:26.619254+00:00", "yanked": false
+  }
+]
