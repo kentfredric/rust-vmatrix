@@ -39,27 +39,6 @@ sub crate_names {
     return @out;
 }
 
-sub crate_write_vfile {
-    my ( $self, $crate, $versions ) = @_;
-    my $out = "";
-    {
-        open my $buf, ">", \$out or die "Can't open writeable buffer";
-        for my $version ( @{$versions} ) {
-            my (@parts);
-            push @parts, $version->{num};
-            if ( $version->{yanked} ) {
-                push @parts, "YANKED";
-            }
-            $buf->printf( "%s\n", join '|', @parts );
-        }
-        close $buf;
-    }
-    my $crate_vfile = $self->crate_vfile_path($crate);
-    open my $fh, ">", $crate_vfile or die "Can't write to $crate_vfile, $!";
-    $fh->print($out);
-    close $fh or warn "error closing $crate_vfile, $!";
-}
-
 sub crate_write_vjson {
     my ( $self, $crate, $versions ) = @_;
     my $crate_vjson = $self->crate_vjson_path($crate);
