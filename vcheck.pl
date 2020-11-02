@@ -5,11 +5,16 @@ use warnings;
 use Test::TempDir::Tiny qw( in_tempdir );
 use Capture::Tiny qw( capture );
 
+use lib "/home/kent/rust/vcheck/lib/";
+use lib "/home/kent/perl/kentnl/JSON-PrettyCompact/lib";
+use resultdb;
+
 our $CRATE = "libc";
 $CRATE = $ENV{CRATE} if exists $ENV{CRATE} and length $ENV{CRATE};
 
-our $VERSION_BASE        = "/home/kent/rust/vmatrix";
-our $VERSION_SOURCE      = "${VERSION_BASE}/${CRATE}/versions.txt";
+my $rdb = resultdb->new();
+
+our $VERSION_BASE        = $rdb->root();
 our $VERSION_DEST_PREFIX = "${VERSION_BASE}/${CRATE}/rustc-";
 
 our (@RUSTC) = (
@@ -32,7 +37,10 @@ for my $rustc ( reverse @RUSTC ) {
     }
     in_tempdir "$CRATE-rustc$rustc" => sub {
         my $cwd = shift;
-        my (@versions) = get_versions($VERSION_SOURCE);
+        my (@versions) =
+          map  { { version => $_->{num} } }
+          grep { not exists $_->{yanked} or not $_->{yanked} }
+          @{ $rdb->crate_read_vjson($CRATE) };
         $test_count += scalar @versions;
         printf "entering %s\n", $cwd;
 
