@@ -24,7 +24,6 @@ sub new {
 
 sub root             { $_[0]->{root} }
 sub crate_dir        { $_[0]->{root} . '/' . $_[1] }
-sub crate_vfile_path { $_[0]->crate_dir( $_[1] ) . '/versions.txt' }
 sub crate_vjson_path { $_[0]->crate_dir( $_[1] ) . '/versions.json' }
 
 sub crate_names {
