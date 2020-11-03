@@ -11,10 +11,12 @@ use resultdb;
 use Time::HiRes qw(sleep);
 my $rdb = resultdb->new();
 
-my $refresh_after = 12 * 60 * 60;
+my $refresh_after = 7.55 * 60 * 60;
 my $poll_pause    = 0.1;
 my $pause         = 1.5;
 my $loop_pause    = 30;
+my $min_fresh;
+my $now;
 
 if ( $ENV{WATCH} ) {
     $ENV{UPDATE} = 1;
@@ -22,9 +24,17 @@ if ( $ENV{WATCH} ) {
     *STDERR->autoflush(1);
     while (1) {
         printf "== Loop Run at %s ==\n", scalar localtime;
+        $min_fresh = undef;
+        $now       = time;
         do_update();
         print "\n";
-        sleep($loop_pause);
+        my $wait = $loop_pause;
+        $wait = $min_fresh if defined $min_fresh and $min_fresh > $loop_pause;
+        if ( defined $min_fresh ) {
+            printf "Next update in $min_fresh seconds\n";
+        }
+        printf "Waiting for $wait seconds\n";
+        sleep($wait);
     }
 }
 else {
@@ -98,11 +108,17 @@ sub should_update {
     my $vjs = $rdb->crate_vjson_path($crate);
     return 1 if not -e $vjs;
     return   if not $ENV{UPDATE};
-    my $age_secs  = 24 * 60 * 60 * -M $vjs;
+    my $mtime     = [ stat $vjs ]->[9];
+    my $age_secs  = $now - $mtime;
     my $freshness = sprintf "%d",
       100 - ( ( $age_secs + 0.1 ) / $refresh_after * 100 );
 
-    if ( $freshness > 50 ) {
+    my $time_till_refresh = $refresh_after - $age_secs;
+    if ( $freshness > 1 and $time_till_refresh > $loop_pause ) {
+        $min_fresh = $time_till_refresh if not defined $min_fresh;
+        $min_fresh = $time_till_refresh if $min_fresh > $time_till_refresh;
+    }
+    if ( $freshness > 5 ) {
         if ( $ENV{QUIET} ) {
             *STDERR->print("\e[32m.\e[0m");
         }
@@ -112,15 +128,14 @@ sub should_update {
         }
         return;
     }
-    if ( $freshness > 5 ) {
+    if ( $freshness > 1 ) {
         if ( $ENV{QUIET} ) {
             *STDERR->print("\e[33m|\e[0m");
         }
         else {
             warn
-" $crate is \e[33msemifresh\e[0m($freshness%), pausing ($poll_pause), then skipping\n";
+              " $crate is \e[33msemifresh\e[0m($freshness%), skipping update\n";
         }
-        sleep($poll_pause);
         return;
     }
     if ( $ENV{QUIET} ) {
