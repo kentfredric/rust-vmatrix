@@ -114,7 +114,7 @@ sub should_update {
       100 - ( ( $age_secs + 0.1 ) / $refresh_after * 100 );
 
     my $time_till_refresh = $refresh_after - $age_secs;
-    if ( $freshness > 1 and $time_till_refresh > $loop_pause ) {
+    if ( $freshness > 1 ) {
         $min_fresh = $time_till_refresh if not defined $min_fresh;
         $min_fresh = $time_till_refresh if $min_fresh > $time_till_refresh;
     }
