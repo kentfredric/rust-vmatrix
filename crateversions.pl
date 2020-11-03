@@ -8,14 +8,95 @@ use lib "/home/kent/rust/vcheck/lib/";
 use lib "/home/kent/perl/kentnl/JSON-PrettyCompact/lib";
 use cargo;
 use resultdb;
-
+use Time::HiRes qw(sleep);
 my $rdb = resultdb->new();
 
-for
-  my $crate ( sort { ( rand() * 100 ) <=> ( rand() * 100 ) } $rdb->crate_names )
-{
-    next if -e $rdb->crate_vjson_path($crate);
+my $refresh_after = 12 * 60 * 60;
+my $poll_pause    = 0.1;
+my $pause         = 1.5;
+
+my (@queue) =
+  ( sort { ( rand() * 100 ) <=> ( rand() * 100 ) } $rdb->crate_names );
+while (@queue) {
+    my $crate = shift @queue;
+    next unless should_update($crate);
+    my $vjs          = $rdb->crate_vjson_path($crate);
     my $old_versions = $rdb->crate_read_vjson($crate);
-    my (@versions) = @{ cargo::update_version_info( $crate, $old_versions ) };
-    $rdb->crate_write_vjson( $crate, [ reverse @versions ] );
+    my (@versions)   = @{ cargo::update_version_info( $crate, $old_versions ) };
+    my $do_write     = should_write( $old_versions, \@versions );
+    if ($do_write) {
+        $rdb->crate_write_vjson( $crate, [ reverse @versions ] );
+        warn "\e[33m*** Updated $crate ***\e[0m\n";
+    }
+    my (%deps) = %{ $rdb->crate_dependencies_from_json( \@versions ) };
+    for my $key ( keys %deps ) {
+        my $path = $rdb->root . '/' . $key;
+        if ( !-d $path ) {
+            warn "\e[33m New dependency: \e[32m$key\e[0m\n";
+            system( 'mkdir', '-p', $path );
+            unshift @queue, $key;
+        }
+    }
+
+    if ( -e $vjs ) {
+
+        # mark updated even if no updates occurred
+        # because we're tracking update *attempts*
+        system( 'touch', '-c', '-m', $vjs );
+    }
+}
+
+sub should_write {
+    my ( $old, $new ) = @_;
+    my (%old_vhash);
+    my $yanked = sub {
+        return 0 if not exists $_[0]->{yanked};
+        return 0 if not $_[0]->{yanked};
+        return 1;
+    };
+    for my $old_version ( @{$old} ) {
+        $old_vhash{ $old_version->{num} } = $yanked->($old_version);
+    }
+    my %new_vhash;
+
+    # detect new deps, and yank changes
+    for my $new_version ( @{$new} ) {
+        return 1 if not exists $old_vhash{ $new_version->{num} };
+        return 1
+          if $old_vhash{ $new_version->{num} } != $yanked->($new_version);
+        $new_vhash{ $new_version->{num} } = 0;
+    }
+
+    # detect dep removals
+    for my $old_version ( @{$old} ) {
+        return 1 if not exists $new_vhash{ $old_version->{num} };
+    }
+    return 0;
+}
+
+sub should_update {
+    my ($crate) = @_;
+    my $vjs = $rdb->crate_vjson_path($crate);
+    return 1 if not -e $vjs;
+    return   if not $ENV{UPDATE};
+    my $age_secs  = 24 * 60 * 60 * -M $vjs;
+    my $freshness = sprintf "%d",
+      100 - ( ( $age_secs + 0.1 ) / $refresh_after * 100 );
+
+    if ( $freshness > 50 ) {
+
+        # skip entirely if its fresher than the pause limit
+        warn " $crate is \e[32mfresh\e[0m ($freshness%), skipping update\n";
+        return;
+    }
+    if ( $freshness > 5 ) {
+        warn
+" $crate is \e[33msemifresh\e[0m($freshness%), pausing ($poll_pause), then skipping\n";
+        sleep($poll_pause);
+        return;
+    }
+    warn
+" $crate is \e[34mstale\e[0m($freshness%), pausing ($pause), then checking\n";
+    sleep($pause);
+    return 1;
 }
