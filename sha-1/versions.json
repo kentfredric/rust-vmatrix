@@ -264,7 +264,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/sha-1/0.3.4/download",
-    "downloads": 28999, "features": {"asm": ["sha1-asm"]}, "id": 55740,
+    "downloads": 29057, "features": {"asm": ["sha1-asm"]}, "id": 55740,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/sha-1/0.3.4/authors",
@@ -377,7 +377,7 @@
         "req": "^0.4", "target": null, "version_id": 56619
       }
     ],
-    "dl_path": "/api/v1/crates/sha-1/0.4.1/download", "downloads": 6002,
+    "dl_path": "/api/v1/crates/sha-1/0.4.1/download", "downloads": 6005,
     "features": {
       "asm": ["sha1-asm"], "default": ["generic"],
       "generic": ["generic-array", "digest"]
@@ -431,7 +431,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/sha-1/0.7.0/download",
-    "downloads": 742830, "features": {"asm": ["sha1-asm"]}, "id": 71398,
+    "downloads": 742991, "features": {"asm": ["sha1-asm"]}, "id": 71398,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/sha-1/0.7.0/authors",
@@ -486,7 +486,7 @@
         "req": "^0.4", "target": null, "version_id": 110476
       }
     ],
-    "dl_path": "/api/v1/crates/sha-1/0.8.0/download", "downloads": 7271,
+    "dl_path": "/api/v1/crates/sha-1/0.8.0/download", "downloads": 7307,
     "features": {"asm": ["sha1-asm"], "default": ["std"], "std": ["digest/std"]},
     "id": 110476, "license": "MIT OR Apache-2.0",
     "links": {
@@ -543,7 +543,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/sha-1/0.8.1/download",
-    "downloads": 1084913,
+    "downloads": 1085617,
     "features": {"asm": ["sha1-asm"], "default": ["std"], "std": ["digest/std"]},
     "id": 117833, "license": "MIT OR Apache-2.0",
     "links": {
@@ -615,7 +615,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/sha-1/0.8.2/download",
-    "downloads": 2735142,
+    "downloads": 2756177,
     "features": {
       "asm": ["sha1-asm"], "asm-aarch64": ["asm", "libc"],
       "default": ["std"], "std": ["digest/std"]
@@ -695,7 +695,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/sha-1/0.9.0/download",
-    "downloads": 17449,
+    "downloads": 17459,
     "features": {
       "asm": ["sha1-asm"], "asm-aarch64": ["asm", "libc"],
       "default": ["std"], "std": ["digest/std"]
@@ -784,7 +784,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/sha-1/0.9.1/download",
-    "downloads": 509099,
+    "downloads": 523291,
     "features": {
       "asm": ["sha1-asm", "libc"], "asm-aarch64": ["asm"],
       "default": ["std"], "std": ["digest/std"]
@@ -803,5 +803,93 @@
     },
     "readme_path": "/api/v1/crates/sha-1/0.9.1/readme",
     "updated_at": "2020-06-24T14:53:43.850015+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-11-03T15:01:42.765397+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/329626?v=4",
+          "id": 5059, "login": "newpavlov", "name": "Artyom Pavlov",
+          "url": "https://github.com/newpavlov"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["RustCrypto Developers"]}, "users": []},
+    "crate": "sha-1", "crate_size": 13581,
+    "created_at": "2020-11-03T15:01:42.765397+00:00",
+    "dependencies": [
+      {
+        "crate_id": "block-buffer", "default_features": true,
+        "downloads": 0, "features": [], "id": 1815588, "kind": "normal",
+        "optional": false, "req": "^0.9", "target": null,
+        "version_id": 301552
+      },
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 1815589, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 301552
+      },
+      {
+        "crate_id": "cpuid-bool", "default_features": true, "downloads": 0,
+        "features": [], "id": 1815596, "kind": "normal", "optional": false,
+        "req": "^0.1",
+        "target": "cfg(any(target_arch = \"x86\", target_arch = \"x86_64\"))",
+        "version_id": 301552
+      },
+      {
+        "crate_id": "digest", "default_features": true, "downloads": 0,
+        "features": ["dev"], "id": 1815593, "kind": "dev",
+        "optional": false, "req": "^0.9", "target": null,
+        "version_id": 301552
+      },
+      {
+        "crate_id": "digest", "default_features": true, "downloads": 0,
+        "features": [], "id": 1815590, "kind": "normal", "optional": false,
+        "req": "^0.9", "target": null, "version_id": 301552
+      },
+      {
+        "crate_id": "hex-literal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1815594, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 301552
+      },
+      {
+        "crate_id": "opaque-debug", "default_features": true,
+        "downloads": 0, "features": [], "id": 1815591, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 301552
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1815595, "kind": "normal", "optional": true,
+        "req": "^0.2.80",
+        "target": "cfg(all(target_arch = \"aarch64\", target_os = \"linux\"))",
+        "version_id": 301552
+      },
+      {
+        "crate_id": "sha1-asm", "default_features": true, "downloads": 0,
+        "features": [], "id": 1815592, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 301552
+      }
+    ],
+    "dl_path": "/api/v1/crates/sha-1/0.9.2/download", "downloads": 862,
+    "features": {
+      "asm": ["sha1-asm", "libc"], "asm-aarch64": ["asm"],
+      "default": ["std"], "force-soft": [], "std": ["digest/std"]
+    },
+    "id": 301552, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/sha-1/0.9.2/authors",
+      "dependencies": "/api/v1/crates/sha-1/0.9.2/dependencies",
+      "version_downloads": "/api/v1/crates/sha-1/0.9.2/downloads"
+    },
+    "num": "0.9.2",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/329626?v=4",
+      "id": 5059, "login": "newpavlov", "name": "Artyom Pavlov",
+      "url": "https://github.com/newpavlov"
+    },
+    "readme_path": "/api/v1/crates/sha-1/0.9.2/readme",
+    "updated_at": "2020-11-03T15:01:42.765397+00:00", "yanked": false
   }
 ]
