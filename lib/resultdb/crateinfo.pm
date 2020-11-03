@@ -69,7 +69,7 @@ sub rustc_results {
     die "rustc not passed" unless defined $rustc;
     if ( not exists $_[0]->{rustc_results}->{$rustc} ) {
         $_[0]->{rustc_results}->{$rustc} =
-          $self->{rdb}->crate_flat_rustc_results( $self->{crate} );
+          $self->{rdb}->crate_flat_rustc_results( $self->{crate}, $rustc );
     }
     return $_[0]->{rustc_results}->{$rustc};
 }
