@@ -8,9 +8,10 @@ use resultdb;
 
 my $rdb = resultdb->new();
 for my $crate ( $rdb->crate_names ) {
-    next if ( @{ $rdb->crate_flat_rustcs($crate) } );
-    my (@versions) = ( @{ $rdb->crate_read_vjson($crate) } );
+    my $info = $rdb->crate_info($crate);
+    next if @{ $info->rustcs };
+    my (@versions) = ( @{ $info->versions } );
     next unless @versions;
-    my (@deps) = ( keys %{ $rdb->crate_dependencies($crate) } );
+    my (@deps) = ( keys %{ $info->dependencies } );
     printf "%d %d %s\n", scalar @versions, scalar @deps, $crate;
 }
