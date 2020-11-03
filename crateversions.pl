@@ -26,7 +26,7 @@ if ( $ENV{WATCH} ) {
         printf "== Loop Run at %s ==\n", scalar localtime;
         $min_fresh = undef;
         $now       = time;
-        do_update();
+        do_update( sort $rdb->crate_names );
         print "\n";
         my $wait = $loop_pause;
         $wait = $min_fresh if defined $min_fresh and $min_fresh > $loop_pause;
@@ -38,12 +38,12 @@ if ( $ENV{WATCH} ) {
     }
 }
 else {
-    do_update();
+    do_update( sort { ( rand() * 100 ) <=> ( rand() * 100 ) }
+          $rdb->crate_names );
 }
 
 sub do_update {
-    my (@queue) =
-      ( sort { ( rand() * 100 ) <=> ( rand() * 100 ) } $rdb->crate_names );
+    my (@queue) = @_;
     while (@queue) {
         my $crate = shift @queue;
         next unless should_update($crate);
