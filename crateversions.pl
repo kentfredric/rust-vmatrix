@@ -11,10 +11,11 @@ use resultdb;
 use Time::HiRes qw(sleep);
 my $rdb = resultdb->new();
 
-my $refresh_after = 6 * 60 * 60;
-my $poll_pause    = 0.1;
-my $pause         = 5;
-my $loop_pause    = 30;
+my $refresh_after  = 8 * 60 * 60;
+my $poll_pause     = 0.1;
+my $pause          = 5;
+my $loop_pause     = 30;
+my $max_loop_pause = 180;
 my $min_fresh;
 my $now;
 
@@ -30,6 +31,8 @@ if ( $ENV{WATCH} ) {
         print "\n";
         my $wait = $loop_pause;
         $wait = $min_fresh if defined $min_fresh and $min_fresh > $loop_pause;
+        $wait = $max_loop_pause if $wait > $max_loop_pause;
+
         if ( defined $min_fresh ) {
             printf "Next update in $min_fresh seconds\n";
         }
