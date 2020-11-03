@@ -100,7 +100,7 @@ sub crate_flat_rustcs {
     while ( my $ent = readdir $dfh ) {
         next if $ent     =~ /\A[.]/;
         next unless $ent =~ /\Arustc-(.*)\z/;
-        push @rustcs, $ent;
+        push @rustcs, $1;
     }
     return \@rustcs;
 }
