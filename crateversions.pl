@@ -128,7 +128,7 @@ sub should_update {
         }
         return;
     }
-    if ( $freshness > 1 ) {
+    if ( $time_till_refresh > 0 ) {
         if ( $ENV{QUIET} ) {
             *STDERR->print("\e[33m|\e[0m");
         }
