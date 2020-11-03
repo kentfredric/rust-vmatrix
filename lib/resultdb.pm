@@ -62,9 +62,8 @@ sub crate_read_vjson {
 
 }
 
-sub crate_dependencies {
-    my ( $self, $crate ) = @_;
-    my $json = $self->crate_read_vjson($crate);
+sub crate_dependencies_from_json {
+    my ( $self, $json ) = @_;
     return {} unless @{$json};
     my %dephash;
     for my $version ( @{$json} ) {
@@ -76,6 +75,12 @@ sub crate_dependencies {
         }
     }
     return \%dephash;
+}
+
+sub crate_dependencies {
+    my ( $self, $crate ) = @_;
+    return $self->crate_dependencies_from_json(
+        $self->crate_read_vjson($crate) );
 }
 
 sub all_crate_dependencies {
