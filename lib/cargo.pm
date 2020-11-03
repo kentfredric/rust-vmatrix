@@ -66,7 +66,7 @@ sub update_version_info {
               $old_rec->{dependencies};
         }
     }
-    warn "Getting crate info for $crate...\n";
+    warn "Getting crate info for $crate...\n" unless $ENV{QUIET};
     my $blob = api_fetch( '/api/v1/crates/' . $crate . '/versions', 1 );
     for my $version ( @{ $blob->{versions} } ) {
         if ( exists $version->{links} and exists $version->{links}->{authors} )
@@ -76,7 +76,8 @@ sub update_version_info {
                   $url_cache{ $version->{links}->{authors} };
             }
             else {
-                warn "Getting authors for $crate $version->{num}...\n";
+                warn "Getting authors for $crate $version->{num}...\n"
+                  unless $ENV{QUIET};
                 if ( my $ret = api_fetch( $version->{links}->{authors}, 0 ) ) {
                     $version->{authors} = $ret;
                 }
@@ -90,7 +91,8 @@ sub update_version_info {
                   $url_cache{ $version->{links}->{dependencies} };
             }
             else {
-                warn "Getting dependencies for $crate $version->{num}...\n";
+                warn "Getting dependencies for $crate $version->{num}...\n"
+                  unless $ENV{QUIET};
                 if ( my $ret =
                     api_fetch( $version->{links}->{dependencies}, 0 ) )
                 {
