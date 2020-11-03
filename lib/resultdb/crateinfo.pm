@@ -20,6 +20,8 @@ sub new {
 
 sub versions {
     if ( not exists $_[0]->{versions} ) {
+        $_[0]->{versions}     = [];
+        $_[0]->{version_data} = {};
         for my $version ( @{ $_[0]->json } ) {
             push @{ $_[0]->{versions} }, $version->{num};
             $_[0]->{version_data}->{ $version->{num} } = $version;
