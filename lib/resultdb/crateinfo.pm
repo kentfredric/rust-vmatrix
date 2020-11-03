@@ -74,4 +74,19 @@ sub rustc_results {
     return $_[0]->{rustc_results}->{$rustc};
 }
 
+sub rustc_version_result {
+    my ( $self, $rustc, $version ) = @_;
+    if ( not exists $self->{rustc_version_results}->{$rustc} ) {
+        for my $info ( @{ $self->rustc_results($rustc) } ) {
+            if ( 1 < scalar @{$info} ) {
+                $self->{rustc_version_results}->{$rustc}->{ $info->[0] } =
+                  $info->[1];
+            }
+        }
+    }
+    return ""
+      if not exists $self->{rustc_version_results}->{$rustc}->{$version};
+    return $self->{rustc_version_results}->{$rustc}->{$version};
+}
+
 1;
