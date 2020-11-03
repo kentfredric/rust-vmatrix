@@ -11,5 +11,6 @@ for my $crate ( $rdb->crate_names ) {
     next if ( @{ $rdb->crate_flat_rustcs($crate) } );
     my (@versions) = ( @{ $rdb->crate_read_vjson($crate) } );
     next unless @versions;
-    printf "%d %s\n", scalar @versions, $crate;
+    my (@deps) = ( keys %{ $rdb->crate_dependencies($crate) } );
+    printf "%d %d %s\n", scalar @versions, scalar @deps, $crate;
 }
