@@ -119,5 +119,10 @@ sub crate_flat_rustc_results {
     }
     return \@recs;
 }
+
+sub crate_info {
+    require resultdb::crateinfo;
+    resultdb::crateinfo->new( rdb => $_[0], crate => $_[1] );
+}
 1;
 
