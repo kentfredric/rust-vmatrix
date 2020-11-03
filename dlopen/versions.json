@@ -1,0 +1,631 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Szymon Wieloch <szymon.wieloch@gmail.com>"]},
+      "users": []
+    },
+    "crate": "dlopen", "crate_size": null,
+    "created_at": "2017-09-04T21:03:43.883126+00:00",
+    "dependencies": [
+      {
+        "crate_id": "const-cstr", "default_features": true, "downloads": 0,
+        "features": [], "id": 263478, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 64487
+      },
+      {
+        "crate_id": "dlopen_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 263475, "kind": "normal",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 64487
+      },
+      {
+        "crate_id": "example_dylib", "default_features": true,
+        "downloads": 0, "features": [], "id": 263477, "kind": "dev",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 64487
+      },
+      {
+        "crate_id": "kernel32-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 263482, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": "cfg(windows)",
+        "version_id": 64487
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 263481, "kind": "normal", "optional": false,
+        "req": "^0.2.8", "target": "cfg(unix)", "version_id": 64487
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 263479, "kind": "dev", "optional": false,
+        "req": "^0.2.29", "target": null, "version_id": 64487
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 263480, "kind": "normal", "optional": false,
+        "req": "^0.2.29", "target": "cfg(unix)", "version_id": 64487
+      },
+      {
+        "crate_id": "regex", "default_features": true, "downloads": 0,
+        "features": [], "id": 263476, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 64487
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [], "id": 263483, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 64487
+      }
+    ],
+    "dl_path": "/api/v1/crates/dlopen/0.1.0/download", "downloads": 295,
+    "features": {}, "id": 64487, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/dlopen/0.1.0/authors",
+      "dependencies": "/api/v1/crates/dlopen/0.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/dlopen/0.1.0/downloads"
+    },
+    "num": "0.1.0", "published_by": null,
+    "readme_path": "/api/v1/crates/dlopen/0.1.0/readme",
+    "updated_at": "2017-11-30T03:46:43.189963+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Szymon Wieloch <szymon.wieloch@gmail.com>"]},
+      "users": []
+    },
+    "crate": "dlopen", "crate_size": null,
+    "created_at": "2017-09-05T20:03:44.275418+00:00",
+    "dependencies": [
+      {
+        "crate_id": "const-cstr", "default_features": true, "downloads": 0,
+        "features": [], "id": 263918, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 64589
+      },
+      {
+        "crate_id": "dlopen_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 263915, "kind": "normal",
+        "optional": false, "req": "^0.1.1", "target": null,
+        "version_id": 64589
+      },
+      {
+        "crate_id": "example_dylib", "default_features": true,
+        "downloads": 0, "features": [], "id": 263917, "kind": "dev",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 64589
+      },
+      {
+        "crate_id": "kernel32-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 263921, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": "cfg(windows)",
+        "version_id": 64589
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 263923, "kind": "normal", "optional": false,
+        "req": "^0.2.8", "target": "cfg(unix)", "version_id": 64589
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 263919, "kind": "dev", "optional": false,
+        "req": "^0.2.29", "target": null, "version_id": 64589
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 263922, "kind": "normal", "optional": false,
+        "req": "^0.2.29", "target": "cfg(unix)", "version_id": 64589
+      },
+      {
+        "crate_id": "regex", "default_features": true, "downloads": 0,
+        "features": [], "id": 263916, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 64589
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [], "id": 263920, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 64589
+      }
+    ],
+    "dl_path": "/api/v1/crates/dlopen/0.1.1/download", "downloads": 316,
+    "features": {}, "id": 64589, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/dlopen/0.1.1/authors",
+      "dependencies": "/api/v1/crates/dlopen/0.1.1/dependencies",
+      "version_downloads": "/api/v1/crates/dlopen/0.1.1/downloads"
+    },
+    "num": "0.1.1", "published_by": null,
+    "readme_path": "/api/v1/crates/dlopen/0.1.1/readme",
+    "updated_at": "2017-11-30T03:37:17.485769+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Szymon Wieloch <szymon.wieloch@gmail.com>"]},
+      "users": []
+    },
+    "crate": "dlopen", "crate_size": null,
+    "created_at": "2017-09-06T22:26:10.064613+00:00",
+    "dependencies": [
+      {
+        "crate_id": "const-cstr", "default_features": true, "downloads": 0,
+        "features": [], "id": 264283, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 64668
+      },
+      {
+        "crate_id": "dlopen_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 264279, "kind": "normal",
+        "optional": false, "req": "^0.1.1", "target": null,
+        "version_id": 64668
+      },
+      {
+        "crate_id": "example_dylib", "default_features": true,
+        "downloads": 0, "features": [], "id": 264282, "kind": "dev",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 64668
+      },
+      {
+        "crate_id": "kernel32-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 264287, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": "cfg(windows)",
+        "version_id": 64668
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 264280, "kind": "normal", "optional": false,
+        "req": "^0.2.8", "target": null, "version_id": 64668
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 264285, "kind": "normal", "optional": false,
+        "req": "^0.2.29", "target": "cfg(unix)", "version_id": 64668
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 264281, "kind": "dev", "optional": false,
+        "req": "^0.2.29", "target": null, "version_id": 64668
+      },
+      {
+        "crate_id": "regex", "default_features": true, "downloads": 0,
+        "features": [], "id": 264284, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 64668
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [], "id": 264286, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 64668
+      }
+    ],
+    "dl_path": "/api/v1/crates/dlopen/0.1.2/download", "downloads": 338,
+    "features": {}, "id": 64668, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/dlopen/0.1.2/authors",
+      "dependencies": "/api/v1/crates/dlopen/0.1.2/dependencies",
+      "version_downloads": "/api/v1/crates/dlopen/0.1.2/downloads"
+    },
+    "num": "0.1.2", "published_by": null,
+    "readme_path": "/api/v1/crates/dlopen/0.1.2/readme",
+    "updated_at": "2017-11-30T03:47:22.189982+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Szymon Wieloch <szymon.wieloch@gmail.com>"]},
+      "users": []
+    },
+    "crate": "dlopen", "crate_size": null,
+    "created_at": "2017-12-23T19:39:40.579700+00:00",
+    "dependencies": [
+      {
+        "crate_id": "const-cstr", "default_features": true, "downloads": 0,
+        "features": [], "id": 321788, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 75300
+      },
+      {
+        "crate_id": "dlopen_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 321785, "kind": "normal",
+        "optional": false, "req": "^0.1.1", "target": null,
+        "version_id": 75300
+      },
+      {
+        "crate_id": "example_dylib", "default_features": true,
+        "downloads": 0, "features": [], "id": 321789, "kind": "dev",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 75300
+      },
+      {
+        "crate_id": "kernel32-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 321792, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": "cfg(windows)",
+        "version_id": 75300
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 321784, "kind": "normal", "optional": false,
+        "req": "^0.2.8", "target": null, "version_id": 75300
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 321790, "kind": "normal", "optional": false,
+        "req": "^0.2.29", "target": "cfg(unix)", "version_id": 75300
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 321787, "kind": "dev", "optional": false,
+        "req": "^0.2.29", "target": null, "version_id": 75300
+      },
+      {
+        "crate_id": "regex", "default_features": true, "downloads": 0,
+        "features": [], "id": 321786, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 75300
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [], "id": 321791, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 75300
+      }
+    ],
+    "dl_path": "/api/v1/crates/dlopen/0.1.3/download", "downloads": 427,
+    "features": {}, "id": 75300, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/dlopen/0.1.3/authors",
+      "dependencies": "/api/v1/crates/dlopen/0.1.3/dependencies",
+      "version_downloads": "/api/v1/crates/dlopen/0.1.3/downloads"
+    },
+    "num": "0.1.3", "published_by": null,
+    "readme_path": "/api/v1/crates/dlopen/0.1.3/readme",
+    "updated_at": "2017-12-23T19:39:40.579700+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Szymon Wieloch <szymon.wieloch@gmail.com>"]},
+      "users": []
+    },
+    "crate": "dlopen", "crate_size": null,
+    "created_at": "2018-05-09T22:42:34.506589+00:00",
+    "dependencies": [
+      {
+        "crate_id": "const-cstr", "default_features": true, "downloads": 0,
+        "features": [], "id": 413794, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 92130
+      },
+      {
+        "crate_id": "dlopen_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 413792, "kind": "normal",
+        "optional": false, "req": "^0.1.2", "target": null,
+        "version_id": 92130
+      },
+      {
+        "crate_id": "example_dylib", "default_features": true,
+        "downloads": 0, "features": [], "id": 413795, "kind": "dev",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 92130
+      },
+      {
+        "crate_id": "kernel32-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 413799, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": "cfg(windows)",
+        "version_id": 92130
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 413793, "kind": "normal", "optional": false,
+        "req": "^0.2.8", "target": null, "version_id": 92130
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 413796, "kind": "dev", "optional": false,
+        "req": "^0.2.29", "target": null, "version_id": 92130
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 413798, "kind": "normal", "optional": false,
+        "req": "^0.2.29", "target": "cfg(unix)", "version_id": 92130
+      },
+      {
+        "crate_id": "regex", "default_features": true, "downloads": 0,
+        "features": [], "id": 413797, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 92130
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [], "id": 413800, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 92130
+      }
+    ],
+    "dl_path": "/api/v1/crates/dlopen/0.1.4/download", "downloads": 330,
+    "features": {}, "id": 92130, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/dlopen/0.1.4/authors",
+      "dependencies": "/api/v1/crates/dlopen/0.1.4/dependencies",
+      "version_downloads": "/api/v1/crates/dlopen/0.1.4/downloads"
+    },
+    "num": "0.1.4", "published_by": null,
+    "readme_path": "/api/v1/crates/dlopen/0.1.4/readme",
+    "updated_at": "2018-05-09T22:42:34.506589+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Szymon Wieloch <szymon.wieloch@gmail.com>"]},
+      "users": []
+    },
+    "crate": "dlopen", "crate_size": null,
+    "created_at": "2018-07-17T09:39:06.892198+00:00",
+    "dependencies": [
+      {
+        "crate_id": "const-cstr", "default_features": true, "downloads": 0,
+        "features": [], "id": 458159, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 100113
+      },
+      {
+        "crate_id": "dlopen_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 458157, "kind": "normal",
+        "optional": false, "req": "^0.1.3", "target": null,
+        "version_id": 100113
+      },
+      {
+        "crate_id": "example_dylib", "default_features": true,
+        "downloads": 0, "features": [], "id": 458160, "kind": "dev",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 100113
+      },
+      {
+        "crate_id": "kernel32-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 458164, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": "cfg(windows)",
+        "version_id": 100113
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 458158, "kind": "normal", "optional": false,
+        "req": "^0.2.8", "target": null, "version_id": 100113
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 458161, "kind": "dev", "optional": false,
+        "req": "^0.2.29", "target": null, "version_id": 100113
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 458163, "kind": "normal", "optional": false,
+        "req": "^0.2.29", "target": "cfg(unix)", "version_id": 100113
+      },
+      {
+        "crate_id": "regex", "default_features": true, "downloads": 0,
+        "features": [], "id": 458162, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 100113
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [], "id": 458165, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 100113
+      }
+    ],
+    "dl_path": "/api/v1/crates/dlopen/0.1.5/download", "downloads": 757,
+    "features": {}, "id": 100113, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/dlopen/0.1.5/authors",
+      "dependencies": "/api/v1/crates/dlopen/0.1.5/dependencies",
+      "version_downloads": "/api/v1/crates/dlopen/0.1.5/downloads"
+    },
+    "num": "0.1.5", "published_by": null,
+    "readme_path": "/api/v1/crates/dlopen/0.1.5/readme",
+    "updated_at": "2018-07-17T09:39:06.892198+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Szymon Wieloch <szymon.wieloch@gmail.com>"]},
+      "users": []
+    },
+    "crate": "dlopen", "crate_size": 26179,
+    "created_at": "2018-12-28T14:44:57.767171+00:00",
+    "dependencies": [
+      {
+        "crate_id": "const-cstr", "default_features": true, "downloads": 0,
+        "features": [], "id": 594763, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 124433
+      },
+      {
+        "crate_id": "dlopen_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 594761, "kind": "normal",
+        "optional": false, "req": "^0.1.3", "target": null,
+        "version_id": 124433
+      },
+      {
+        "crate_id": "example_dylib", "default_features": true,
+        "downloads": 0, "features": [], "id": 594764, "kind": "dev",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 124433
+      },
+      {
+        "crate_id": "kernel32-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 594768, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": "cfg(windows)",
+        "version_id": 124433
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 594762, "kind": "normal", "optional": false,
+        "req": "^1.2.0", "target": null, "version_id": 124433
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 594765, "kind": "dev", "optional": false,
+        "req": "^0.2.29", "target": null, "version_id": 124433
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 594767, "kind": "normal", "optional": false,
+        "req": "^0.2.29", "target": "cfg(unix)", "version_id": 124433
+      },
+      {
+        "crate_id": "regex", "default_features": true, "downloads": 0,
+        "features": [], "id": 594766, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 124433
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [], "id": 594769, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 124433
+      }
+    ],
+    "dl_path": "/api/v1/crates/dlopen/0.1.6/download",
+    "downloads": 4312, "features": {}, "id": 124433, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/dlopen/0.1.6/authors",
+      "dependencies": "/api/v1/crates/dlopen/0.1.6/dependencies",
+      "version_downloads": "/api/v1/crates/dlopen/0.1.6/downloads"
+    },
+    "num": "0.1.6", "published_by": null,
+    "readme_path": "/api/v1/crates/dlopen/0.1.6/readme",
+    "updated_at": "2018-12-28T14:44:57.767171+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Szymon Wieloch <szymon.wieloch@gmail.com>"]},
+      "users": []
+    },
+    "crate": "dlopen", "crate_size": 26432,
+    "created_at": "2019-06-09T16:33:25.513760+00:00",
+    "dependencies": [
+      {
+        "crate_id": "const-cstr", "default_features": true, "downloads": 0,
+        "features": [], "id": 769799, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 155467
+      },
+      {
+        "crate_id": "dlopen_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 769797, "kind": "normal",
+        "optional": false, "req": "^0.1.4", "target": null,
+        "version_id": 155467
+      },
+      {
+        "crate_id": "example_dylib", "default_features": true,
+        "downloads": 0, "features": [], "id": 769800, "kind": "dev",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 155467
+      },
+      {
+        "crate_id": "kernel32-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 769804, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": "cfg(windows)",
+        "version_id": 155467
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 769798, "kind": "normal", "optional": false,
+        "req": "^1.2.0", "target": null, "version_id": 155467
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 769801, "kind": "dev", "optional": false,
+        "req": "^0.2.29", "target": null, "version_id": 155467
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 769803, "kind": "normal", "optional": false,
+        "req": "^0.2.29", "target": "cfg(unix)", "version_id": 155467
+      },
+      {
+        "crate_id": "regex", "default_features": true, "downloads": 0,
+        "features": [], "id": 769802, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 155467
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [], "id": 769805, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 155467
+      }
+    ],
+    "dl_path": "/api/v1/crates/dlopen/0.1.7/download",
+    "downloads": 7442, "features": {}, "id": 155467, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/dlopen/0.1.7/authors",
+      "dependencies": "/api/v1/crates/dlopen/0.1.7/dependencies",
+      "version_downloads": "/api/v1/crates/dlopen/0.1.7/downloads"
+    },
+    "num": "0.1.7",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/16538173?v=4",
+      "id": 9246, "login": "szymonwieloch", "name": "Szymon Wieloch",
+      "url": "https://github.com/szymonwieloch"
+    },
+    "readme_path": "/api/v1/crates/dlopen/0.1.7/readme",
+    "updated_at": "2019-06-09T16:33:25.513760+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Szymon Wieloch <szymon.wieloch@gmail.com>"]},
+      "users": []
+    },
+    "crate": "dlopen", "crate_size": 29753,
+    "created_at": "2019-08-16T21:58:55.007051+00:00",
+    "dependencies": [
+      {
+        "crate_id": "const-cstr", "default_features": true, "downloads": 0,
+        "features": [], "id": 865442, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 169997
+      },
+      {
+        "crate_id": "dlopen_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 865440, "kind": "normal",
+        "optional": false, "req": "^0.1.4", "target": null,
+        "version_id": 169997
+      },
+      {
+        "crate_id": "example_dylib", "default_features": true,
+        "downloads": 0, "features": [], "id": 865443, "kind": "dev",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 169997
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 865441, "kind": "normal", "optional": false,
+        "req": "^1.2.0", "target": null, "version_id": 169997
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 865444, "kind": "dev", "optional": false,
+        "req": "^0.2.29", "target": null, "version_id": 169997
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 865446, "kind": "normal", "optional": false,
+        "req": "^0.2.29", "target": "cfg(unix)", "version_id": 169997
+      },
+      {
+        "crate_id": "regex", "default_features": true, "downloads": 0,
+        "features": [], "id": 865445, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 169997
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "winnt", "minwindef", "winerror", "libloaderapi", "errhandlingapi",
+          "dbghelp", "processthreadsapi", "basetsd"
+        ],
+        "id": 865447, "kind": "normal", "optional": false, "req": "^0.3.7",
+        "target": "cfg(windows)", "version_id": 169997
+      }
+    ],
+    "dl_path": "/api/v1/crates/dlopen/0.1.8/download",
+    "downloads": 108221, "features": {}, "id": 169997, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/dlopen/0.1.8/authors",
+      "dependencies": "/api/v1/crates/dlopen/0.1.8/dependencies",
+      "version_downloads": "/api/v1/crates/dlopen/0.1.8/downloads"
+    },
+    "num": "0.1.8",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/16538173?v=4",
+      "id": 9246, "login": "szymonwieloch", "name": "Szymon Wieloch",
+      "url": "https://github.com/szymonwieloch"
+    },
+    "readme_path": "/api/v1/crates/dlopen/0.1.8/readme",
+    "updated_at": "2019-08-16T21:58:55.007051+00:00", "yanked": false
+  }
+]

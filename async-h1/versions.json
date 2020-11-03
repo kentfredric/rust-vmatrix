@@ -312,7 +312,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/async-h1/1.0.2/download",
-    "downloads": 6235, "features": {}, "id": 224187,
+    "downloads": 6274, "features": {}, "id": 224187,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/async-h1/1.0.2/authors",
@@ -615,7 +615,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/async-h1/1.1.2/download",
-    "downloads": 44567, "features": {}, "id": 232534,
+    "downloads": 44612, "features": {}, "id": 232534,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/async-h1/1.1.2/authors",
@@ -721,7 +721,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/async-h1/2.0.0/download",
-    "downloads": 1921, "features": {}, "id": 244286,
+    "downloads": 1922, "features": {}, "id": 244286,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/async-h1/2.0.0/authors",
@@ -923,7 +923,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/async-h1/2.0.2/download",
-    "downloads": 14517, "features": {}, "id": 249213,
+    "downloads": 14527, "features": {}, "id": 249213,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/async-h1/2.0.2/authors",
@@ -1024,7 +1024,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/async-h1/2.1.0/download",
-    "downloads": 13812, "features": {}, "id": 259262,
+    "downloads": 13813, "features": {}, "id": 259262,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/async-h1/2.1.0/authors",
@@ -1125,7 +1125,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/async-h1/2.1.1/download",
-    "downloads": 4765, "features": {}, "id": 267124,
+    "downloads": 4766, "features": {}, "id": 267124,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/async-h1/2.1.1/authors",
@@ -1226,7 +1226,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/async-h1/2.1.2/download",
-    "downloads": 52749, "features": {}, "id": 269010,
+    "downloads": 52788, "features": {}, "id": 269010,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/async-h1/2.1.2/authors",
@@ -1337,7 +1337,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/async-h1/2.1.3/download",
-    "downloads": 4816, "features": {}, "id": 295450,
+    "downloads": 4885, "features": {}, "id": 295450,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/async-h1/2.1.3/authors",
@@ -1352,5 +1352,122 @@
     },
     "readme_path": "/api/v1/crates/async-h1/2.1.3/readme",
     "updated_at": "2020-10-17T20:58:51.491404+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-11-02T22:43:58.879500+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/13301?v=4",
+          "id": 93306, "login": "jbr", "name": "Jacob Rothstein",
+          "url": "https://github.com/jbr"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]},
+      "users": []
+    },
+    "crate": "async-h1", "crate_size": 45763,
+    "created_at": "2020-11-02T22:43:58.879500+00:00",
+    "dependencies": [
+      {
+        "crate_id": "async-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1814152, "kind": "dev",
+        "optional": false, "req": "^1.5.1", "target": null,
+        "version_id": 301377
+      },
+      {
+        "crate_id": "async-dup", "default_features": true, "downloads": 0,
+        "features": [], "id": 1814153, "kind": "dev", "optional": false,
+        "req": "^1.2.1", "target": null, "version_id": 301377
+      },
+      {
+        "crate_id": "async-std", "default_features": true, "downloads": 0,
+        "features": ["unstable", "attributes"], "id": 1814154,
+        "kind": "dev", "optional": false, "req": "^1.6.2", "target": null,
+        "version_id": 301377
+      },
+      {
+        "crate_id": "async-std", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 1814144, "kind": "normal",
+        "optional": false, "req": "^1.6.0", "target": null,
+        "version_id": 301377
+      },
+      {
+        "crate_id": "async-test", "default_features": true, "downloads": 0,
+        "features": [], "id": 1814155, "kind": "dev", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 301377
+      },
+      {
+        "crate_id": "byte-pool", "default_features": true, "downloads": 0,
+        "features": [], "id": 1814145, "kind": "normal", "optional": false,
+        "req": "^0.2.1", "target": null, "version_id": 301377
+      },
+      {
+        "crate_id": "duplexify", "default_features": true, "downloads": 0,
+        "features": [], "id": 1814156, "kind": "dev", "optional": false,
+        "req": "^1.2.1", "target": null, "version_id": 301377
+      },
+      {
+        "crate_id": "futures-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 1814146, "kind": "normal",
+        "optional": false, "req": "^0.3.1", "target": null,
+        "version_id": 301377
+      },
+      {
+        "crate_id": "httparse", "default_features": true, "downloads": 0,
+        "features": [], "id": 1814148, "kind": "normal", "optional": false,
+        "req": "^1.3.3", "target": null, "version_id": 301377
+      },
+      {
+        "crate_id": "http-types", "default_features": true, "downloads": 0,
+        "features": [], "id": 1814147, "kind": "normal", "optional": false,
+        "req": "^2.0.0", "target": null, "version_id": 301377
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1814149, "kind": "normal", "optional": false,
+        "req": "^1.4.0", "target": null, "version_id": 301377
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1814150, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 301377
+      },
+      {
+        "crate_id": "pin-project-lite", "default_features": true,
+        "downloads": 0, "features": [], "id": 1814151, "kind": "normal",
+        "optional": false, "req": "^0.1.1", "target": null,
+        "version_id": 301377
+      },
+      {
+        "crate_id": "pretty_assertions", "default_features": true,
+        "downloads": 0, "features": [], "id": 1814157, "kind": "dev",
+        "optional": false, "req": "^0.6.1", "target": null,
+        "version_id": 301377
+      },
+      {
+        "crate_id": "tempfile", "default_features": true, "downloads": 0,
+        "features": [], "id": 1814158, "kind": "dev", "optional": false,
+        "req": "^3.1.0", "target": null, "version_id": 301377
+      }
+    ],
+    "dl_path": "/api/v1/crates/async-h1/2.1.4/download",
+    "downloads": 23, "features": {}, "id": 301377,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/async-h1/2.1.4/authors",
+      "dependencies": "/api/v1/crates/async-h1/2.1.4/dependencies",
+      "version_downloads": "/api/v1/crates/async-h1/2.1.4/downloads"
+    },
+    "num": "2.1.4",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/13301?v=4",
+      "id": 93306, "login": "jbr", "name": "Jacob Rothstein",
+      "url": "https://github.com/jbr"
+    },
+    "readme_path": "/api/v1/crates/async-h1/2.1.4/readme",
+    "updated_at": "2020-11-02T22:43:58.879500+00:00", "yanked": false
   }
 ]

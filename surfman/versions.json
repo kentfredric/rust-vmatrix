@@ -1,0 +1,1372 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Emilio Cobos Ãlvarez <emilio@crisal.io>",
+          "Patrick Walton <pcwalton@mimiga.net>",
+          "The Servo Project Developers"
+        ]
+      },
+      "users": []
+    },
+    "crate": "surfman", "crate_size": 76876,
+    "created_at": "2019-11-06T18:01:33.404057+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 981319, "kind": "normal", "optional": false,
+        "req": "^1.1", "target": null, "version_id": 187725
+      },
+      {
+        "crate_id": "cgl", "default_features": true, "downloads": 0,
+        "features": [], "id": 981337, "kind": "normal", "optional": false,
+        "req": "^0.3.2", "target": "x86_64-apple-darwin",
+        "version_id": 187725
+      },
+      {
+        "crate_id": "clap", "default_features": true, "downloads": 0,
+        "features": [], "id": 981326, "kind": "dev", "optional": false,
+        "req": "^2", "target": null, "version_id": 187725
+      },
+      {
+        "crate_id": "cocoa", "default_features": true, "downloads": 0,
+        "features": [], "id": 981338, "kind": "normal", "optional": false,
+        "req": "^0.19", "target": "x86_64-apple-darwin",
+        "version_id": 187725
+      },
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 981339, "kind": "normal",
+        "optional": false, "req": "^0.6", "target": "x86_64-apple-darwin",
+        "version_id": 187725
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 981340, "kind": "normal",
+        "optional": false, "req": "^0.17", "target": "x86_64-apple-darwin",
+        "version_id": 187725
+      },
+      {
+        "crate_id": "display-link", "default_features": true,
+        "downloads": 0, "features": [], "id": 981341, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": "x86_64-apple-darwin",
+        "version_id": 187725
+      },
+      {
+        "crate_id": "euclid", "default_features": true, "downloads": 0,
+        "features": [], "id": 981320, "kind": "normal", "optional": false,
+        "req": "^0.20", "target": null, "version_id": 187725
+      },
+      {
+        "crate_id": "gl", "default_features": true, "downloads": 0,
+        "features": [], "id": 981327, "kind": "dev", "optional": false,
+        "req": "^0.13", "target": null, "version_id": 187725
+      },
+      {
+        "crate_id": "gl_generator", "default_features": true,
+        "downloads": 0, "features": [], "id": 981330, "kind": "build",
+        "optional": false, "req": "^0.11", "target": null,
+        "version_id": 187725
+      },
+      {
+        "crate_id": "io-surface", "default_features": true, "downloads": 0,
+        "features": [], "id": 981342, "kind": "normal", "optional": false,
+        "req": "^0.12", "target": "x86_64-apple-darwin",
+        "version_id": 187725
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 981321, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 187725
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 981322, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 187725
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 981323, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 187725
+      },
+      {
+        "crate_id": "mach", "default_features": true, "downloads": 0,
+        "features": [], "id": 981343, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": "x86_64-apple-darwin",
+        "version_id": 187725
+      },
+      {
+        "crate_id": "objc", "default_features": true, "downloads": 0,
+        "features": [], "id": 981344, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "x86_64-apple-darwin",
+        "version_id": 187725
+      },
+      {
+        "crate_id": "png", "default_features": true, "downloads": 0,
+        "features": [], "id": 981328, "kind": "dev", "optional": false,
+        "req": "^0.15", "target": null, "version_id": 187725
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 981329, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 187725
+      },
+      {
+        "crate_id": "wayland-sys", "default_features": true, "downloads": 0,
+        "features": ["client", "dlopen", "egl"], "id": 981331,
+        "kind": "normal", "optional": false, "req": "^0.24",
+        "target": "cfg(all(unix, not(any(target_os = \"macos\", target_os = \"android\"))))",
+        "version_id": 187725
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["d3d11", "wingdi", "winuser", "libloaderapi"],
+        "id": 981335, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(target_os = \"windows\")", "version_id": 187725
+      },
+      {
+        "crate_id": "wio", "default_features": true, "downloads": 0,
+        "features": [], "id": 981336, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(target_os = \"windows\")",
+        "version_id": 187725
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 981332, "kind": "normal",
+        "optional": false, "req": "^2.3.0",
+        "target": "cfg(all(unix, not(any(target_os = \"macos\", target_os = \"android\"))))",
+        "version_id": 187725
+      },
+      {
+        "crate_id": "mozangle", "default_features": true, "downloads": 0,
+        "features": ["egl"], "id": 981334, "kind": "normal",
+        "optional": true, "req": "^0.2",
+        "target": "cfg(target_os = \"windows\")", "version_id": 187725
+      },
+      {
+        "crate_id": "osmesa-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 981324, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 187725
+      },
+      {
+        "crate_id": "winit", "default_features": true, "downloads": 0,
+        "features": [], "id": 981325, "kind": "normal", "optional": true,
+        "req": "<0.19.4", "target": null, "version_id": 187725
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 981333, "kind": "normal",
+        "optional": true, "req": "^2.3.0",
+        "target": "cfg(any(not(unix), target_os = \"macos\", target_os = \"android\"))",
+        "version_id": 187725
+      }
+    ],
+    "dl_path": "/api/v1/crates/surfman/0.1.0/download",
+    "downloads": 3304,
+    "features": {
+      "default": ["sm-winit"], "sm-angle": [],
+      "sm-angle-builtin": ["mozangle"], "sm-angle-default": ["sm-angle"],
+      "sm-no-wgl": ["sm-angle-default"], "sm-osmesa": ["osmesa-sys"],
+      "sm-osmesa-default": ["sm-osmesa"], "sm-wayland-default": [],
+      "sm-winit": ["winit"], "sm-x11": ["x11"]
+    },
+    "id": 187725, "license": "MIT / Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/surfman/0.1.0/authors",
+      "dependencies": "/api/v1/crates/surfman/0.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/surfman/0.1.0/downloads"
+    },
+    "num": "0.1.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/157897?v=4",
+      "id": 2258, "login": "pcwalton", "name": "Patrick Walton",
+      "url": "https://github.com/pcwalton"
+    },
+    "readme_path": "/api/v1/crates/surfman/0.1.0/readme",
+    "updated_at": "2019-11-06T18:01:33.404057+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Emilio Cobos Ãlvarez <emilio@crisal.io>",
+          "Patrick Walton <pcwalton@mimiga.net>",
+          "The Servo Project Developers"
+        ]
+      },
+      "users": []
+    },
+    "crate": "surfman", "crate_size": 86658,
+    "created_at": "2019-11-19T22:52:25.948618+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1001648, "kind": "normal", "optional": false,
+        "req": "^1.1", "target": null, "version_id": 190767
+      },
+      {
+        "crate_id": "cgl", "default_features": true, "downloads": 0,
+        "features": [], "id": 1001666, "kind": "normal", "optional": false,
+        "req": "^0.3.2", "target": "x86_64-apple-darwin",
+        "version_id": 190767
+      },
+      {
+        "crate_id": "clap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1001655, "kind": "dev", "optional": false,
+        "req": "^2", "target": null, "version_id": 190767
+      },
+      {
+        "crate_id": "cocoa", "default_features": true, "downloads": 0,
+        "features": [], "id": 1001667, "kind": "normal", "optional": false,
+        "req": "^0.19", "target": "x86_64-apple-darwin",
+        "version_id": 190767
+      },
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 1001668, "kind": "normal",
+        "optional": false, "req": "^0.6", "target": "x86_64-apple-darwin",
+        "version_id": 190767
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 1001669, "kind": "normal",
+        "optional": false, "req": "^0.17", "target": "x86_64-apple-darwin",
+        "version_id": 190767
+      },
+      {
+        "crate_id": "display-link", "default_features": true,
+        "downloads": 0, "features": [], "id": 1001670, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": "x86_64-apple-darwin",
+        "version_id": 190767
+      },
+      {
+        "crate_id": "euclid", "default_features": true, "downloads": 0,
+        "features": [], "id": 1001649, "kind": "normal", "optional": false,
+        "req": "^0.20", "target": null, "version_id": 190767
+      },
+      {
+        "crate_id": "gl", "default_features": true, "downloads": 0,
+        "features": [], "id": 1001656, "kind": "dev", "optional": false,
+        "req": "^0.13", "target": null, "version_id": 190767
+      },
+      {
+        "crate_id": "gl_generator", "default_features": true,
+        "downloads": 0, "features": [], "id": 1001659, "kind": "build",
+        "optional": false, "req": "^0.11", "target": null,
+        "version_id": 190767
+      },
+      {
+        "crate_id": "io-surface", "default_features": true, "downloads": 0,
+        "features": [], "id": 1001671, "kind": "normal", "optional": false,
+        "req": "^0.12", "target": "x86_64-apple-darwin",
+        "version_id": 190767
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1001650, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 190767
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1001651, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 190767
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1001652, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 190767
+      },
+      {
+        "crate_id": "mach", "default_features": true, "downloads": 0,
+        "features": [], "id": 1001672, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": "x86_64-apple-darwin",
+        "version_id": 190767
+      },
+      {
+        "crate_id": "objc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1001673, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "x86_64-apple-darwin",
+        "version_id": 190767
+      },
+      {
+        "crate_id": "png", "default_features": true, "downloads": 0,
+        "features": [], "id": 1001657, "kind": "dev", "optional": false,
+        "req": "^0.15", "target": null, "version_id": 190767
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1001658, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 190767
+      },
+      {
+        "crate_id": "wayland-sys", "default_features": true, "downloads": 0,
+        "features": ["client", "dlopen", "egl"], "id": 1001660,
+        "kind": "normal", "optional": false, "req": "^0.24",
+        "target": "cfg(all(unix, not(any(target_os = \"macos\", target_os = \"android\"))))",
+        "version_id": 190767
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["d3d11", "wingdi", "winuser", "libloaderapi"],
+        "id": 1001664, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(target_os = \"windows\")", "version_id": 190767
+      },
+      {
+        "crate_id": "wio", "default_features": true, "downloads": 0,
+        "features": [], "id": 1001665, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(target_os = \"windows\")",
+        "version_id": 190767
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 1001661, "kind": "normal",
+        "optional": false, "req": "^2.3.0",
+        "target": "cfg(all(unix, not(any(target_os = \"macos\", target_os = \"android\"))))",
+        "version_id": 190767
+      },
+      {
+        "crate_id": "mozangle", "default_features": true, "downloads": 0,
+        "features": ["egl"], "id": 1001663, "kind": "normal",
+        "optional": true, "req": "^0.2",
+        "target": "cfg(target_os = \"windows\")", "version_id": 190767
+      },
+      {
+        "crate_id": "osmesa-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1001653, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 190767
+      },
+      {
+        "crate_id": "winit", "default_features": true, "downloads": 0,
+        "features": [], "id": 1001654, "kind": "normal", "optional": true,
+        "req": "<0.19.4", "target": null, "version_id": 190767
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 1001662, "kind": "normal",
+        "optional": true, "req": "^2.3.0",
+        "target": "cfg(any(not(unix), target_os = \"macos\", target_os = \"android\"))",
+        "version_id": 190767
+      }
+    ],
+    "dl_path": "/api/v1/crates/surfman/0.1.1/download", "downloads": 94,
+    "features": {
+      "default": ["sm-winit"], "sm-angle": [],
+      "sm-angle-builtin": ["mozangle"], "sm-angle-default": ["sm-angle"],
+      "sm-no-wgl": ["sm-angle-default"], "sm-osmesa": ["osmesa-sys"],
+      "sm-osmesa-default": ["sm-osmesa"], "sm-wayland-default": [],
+      "sm-winit": ["winit"], "sm-x11": ["x11"]
+    },
+    "id": 190767, "license": "MIT / Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/surfman/0.1.1/authors",
+      "dependencies": "/api/v1/crates/surfman/0.1.1/dependencies",
+      "version_downloads": "/api/v1/crates/surfman/0.1.1/downloads"
+    },
+    "num": "0.1.1",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/157897?v=4",
+      "id": 2258, "login": "pcwalton", "name": "Patrick Walton",
+      "url": "https://github.com/pcwalton"
+    },
+    "readme_path": "/api/v1/crates/surfman/0.1.1/readme",
+    "updated_at": "2019-11-19T22:52:25.948618+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Emilio Cobos Ãlvarez <emilio@crisal.io>",
+          "Patrick Walton <pcwalton@mimiga.net>",
+          "The Servo Project Developers"
+        ]
+      },
+      "users": []
+    },
+    "crate": "surfman", "crate_size": 86877,
+    "created_at": "2019-11-19T22:54:19.893592+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1001676, "kind": "normal", "optional": false,
+        "req": "^1.1", "target": null, "version_id": 190769
+      },
+      {
+        "crate_id": "cgl", "default_features": true, "downloads": 0,
+        "features": [], "id": 1001694, "kind": "normal", "optional": false,
+        "req": "^0.3.2", "target": "x86_64-apple-darwin",
+        "version_id": 190769
+      },
+      {
+        "crate_id": "clap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1001683, "kind": "dev", "optional": false,
+        "req": "^2", "target": null, "version_id": 190769
+      },
+      {
+        "crate_id": "cocoa", "default_features": true, "downloads": 0,
+        "features": [], "id": 1001695, "kind": "normal", "optional": false,
+        "req": "^0.19", "target": "x86_64-apple-darwin",
+        "version_id": 190769
+      },
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 1001696, "kind": "normal",
+        "optional": false, "req": "^0.6", "target": "x86_64-apple-darwin",
+        "version_id": 190769
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 1001697, "kind": "normal",
+        "optional": false, "req": "^0.17", "target": "x86_64-apple-darwin",
+        "version_id": 190769
+      },
+      {
+        "crate_id": "display-link", "default_features": true,
+        "downloads": 0, "features": [], "id": 1001698, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": "x86_64-apple-darwin",
+        "version_id": 190769
+      },
+      {
+        "crate_id": "euclid", "default_features": true, "downloads": 0,
+        "features": [], "id": 1001677, "kind": "normal", "optional": false,
+        "req": "^0.20", "target": null, "version_id": 190769
+      },
+      {
+        "crate_id": "gl", "default_features": true, "downloads": 0,
+        "features": [], "id": 1001684, "kind": "dev", "optional": false,
+        "req": "^0.13", "target": null, "version_id": 190769
+      },
+      {
+        "crate_id": "gl_generator", "default_features": true,
+        "downloads": 0, "features": [], "id": 1001687, "kind": "build",
+        "optional": false, "req": "^0.11", "target": null,
+        "version_id": 190769
+      },
+      {
+        "crate_id": "io-surface", "default_features": true, "downloads": 0,
+        "features": [], "id": 1001699, "kind": "normal", "optional": false,
+        "req": "^0.12", "target": "x86_64-apple-darwin",
+        "version_id": 190769
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1001678, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 190769
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1001679, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 190769
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1001680, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 190769
+      },
+      {
+        "crate_id": "mach", "default_features": true, "downloads": 0,
+        "features": [], "id": 1001700, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": "x86_64-apple-darwin",
+        "version_id": 190769
+      },
+      {
+        "crate_id": "objc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1001701, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "x86_64-apple-darwin",
+        "version_id": 190769
+      },
+      {
+        "crate_id": "png", "default_features": true, "downloads": 0,
+        "features": [], "id": 1001685, "kind": "dev", "optional": false,
+        "req": "^0.15", "target": null, "version_id": 190769
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1001686, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 190769
+      },
+      {
+        "crate_id": "wayland-sys", "default_features": true, "downloads": 0,
+        "features": ["client", "dlopen", "egl"], "id": 1001688,
+        "kind": "normal", "optional": false, "req": "^0.24",
+        "target": "cfg(all(unix, not(any(target_os = \"macos\", target_os = \"android\"))))",
+        "version_id": 190769
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["d3d11", "wingdi", "winuser", "libloaderapi"],
+        "id": 1001692, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(target_os = \"windows\")", "version_id": 190769
+      },
+      {
+        "crate_id": "wio", "default_features": true, "downloads": 0,
+        "features": [], "id": 1001693, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(target_os = \"windows\")",
+        "version_id": 190769
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 1001689, "kind": "normal",
+        "optional": false, "req": "^2.3.0",
+        "target": "cfg(all(unix, not(any(target_os = \"macos\", target_os = \"android\"))))",
+        "version_id": 190769
+      },
+      {
+        "crate_id": "mozangle", "default_features": true, "downloads": 0,
+        "features": ["egl"], "id": 1001691, "kind": "normal",
+        "optional": true, "req": "^0.2",
+        "target": "cfg(target_os = \"windows\")", "version_id": 190769
+      },
+      {
+        "crate_id": "osmesa-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1001681, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 190769
+      },
+      {
+        "crate_id": "winit", "default_features": true, "downloads": 0,
+        "features": [], "id": 1001682, "kind": "normal", "optional": true,
+        "req": "<0.19.4", "target": null, "version_id": 190769
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 1001690, "kind": "normal",
+        "optional": true, "req": "^2.3.0",
+        "target": "cfg(any(not(unix), target_os = \"macos\", target_os = \"android\"))",
+        "version_id": 190769
+      }
+    ],
+    "dl_path": "/api/v1/crates/surfman/0.1.2/download",
+    "downloads": 1095,
+    "features": {
+      "default": ["sm-winit"], "sm-angle": [],
+      "sm-angle-builtin": ["mozangle"], "sm-angle-default": ["sm-angle"],
+      "sm-no-wgl": ["sm-angle-default"], "sm-osmesa": ["osmesa-sys"],
+      "sm-osmesa-default": ["sm-osmesa"], "sm-wayland-default": [],
+      "sm-winit": ["winit"], "sm-x11": ["x11"]
+    },
+    "id": 190769, "license": "MIT / Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/surfman/0.1.2/authors",
+      "dependencies": "/api/v1/crates/surfman/0.1.2/dependencies",
+      "version_downloads": "/api/v1/crates/surfman/0.1.2/downloads"
+    },
+    "num": "0.1.2",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/157897?v=4",
+      "id": 2258, "login": "pcwalton", "name": "Patrick Walton",
+      "url": "https://github.com/pcwalton"
+    },
+    "readme_path": "/api/v1/crates/surfman/0.1.2/readme",
+    "updated_at": "2019-11-19T22:54:19.893592+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2019-12-11T21:57:38.953155+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/157897?v=4",
+          "id": 2258, "login": "pcwalton", "name": "Patrick Walton",
+          "url": "https://github.com/pcwalton"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Emilio Cobos Ãlvarez <emilio@crisal.io>",
+          "Patrick Walton <pcwalton@mimiga.net>",
+          "The Servo Project Developers"
+        ]
+      },
+      "users": []
+    },
+    "crate": "surfman", "crate_size": 86904,
+    "created_at": "2019-12-11T21:57:38.953155+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1035917, "kind": "normal", "optional": false,
+        "req": "^1.1", "target": null, "version_id": 195736
+      },
+      {
+        "crate_id": "cgl", "default_features": true, "downloads": 0,
+        "features": [], "id": 1035935, "kind": "normal", "optional": false,
+        "req": "^0.3.2", "target": "x86_64-apple-darwin",
+        "version_id": 195736
+      },
+      {
+        "crate_id": "clap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1035924, "kind": "dev", "optional": false,
+        "req": "^2", "target": null, "version_id": 195736
+      },
+      {
+        "crate_id": "cocoa", "default_features": true, "downloads": 0,
+        "features": [], "id": 1035936, "kind": "normal", "optional": false,
+        "req": "^0.19", "target": "x86_64-apple-darwin",
+        "version_id": 195736
+      },
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 1035937, "kind": "normal",
+        "optional": false, "req": "^0.6", "target": "x86_64-apple-darwin",
+        "version_id": 195736
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 1035938, "kind": "normal",
+        "optional": false, "req": "^0.17", "target": "x86_64-apple-darwin",
+        "version_id": 195736
+      },
+      {
+        "crate_id": "display-link", "default_features": true,
+        "downloads": 0, "features": [], "id": 1035939, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": "x86_64-apple-darwin",
+        "version_id": 195736
+      },
+      {
+        "crate_id": "euclid", "default_features": true, "downloads": 0,
+        "features": [], "id": 1035918, "kind": "normal", "optional": false,
+        "req": "^0.20", "target": null, "version_id": 195736
+      },
+      {
+        "crate_id": "gl", "default_features": true, "downloads": 0,
+        "features": [], "id": 1035925, "kind": "dev", "optional": false,
+        "req": "^0.13", "target": null, "version_id": 195736
+      },
+      {
+        "crate_id": "gl_generator", "default_features": true,
+        "downloads": 0, "features": [], "id": 1035928, "kind": "build",
+        "optional": false, "req": "^0.11", "target": null,
+        "version_id": 195736
+      },
+      {
+        "crate_id": "io-surface", "default_features": true, "downloads": 0,
+        "features": [], "id": 1035940, "kind": "normal", "optional": false,
+        "req": "^0.12", "target": "x86_64-apple-darwin",
+        "version_id": 195736
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1035919, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 195736
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1035920, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 195736
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1035921, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 195736
+      },
+      {
+        "crate_id": "mach", "default_features": true, "downloads": 0,
+        "features": [], "id": 1035941, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": "x86_64-apple-darwin",
+        "version_id": 195736
+      },
+      {
+        "crate_id": "objc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1035942, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "x86_64-apple-darwin",
+        "version_id": 195736
+      },
+      {
+        "crate_id": "png", "default_features": true, "downloads": 0,
+        "features": [], "id": 1035926, "kind": "dev", "optional": false,
+        "req": "^0.15", "target": null, "version_id": 195736
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1035927, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 195736
+      },
+      {
+        "crate_id": "wayland-sys", "default_features": true, "downloads": 0,
+        "features": ["client", "dlopen", "egl"], "id": 1035929,
+        "kind": "normal", "optional": false, "req": "^0.24",
+        "target": "cfg(all(unix, not(any(target_os = \"macos\", target_os = \"android\"))))",
+        "version_id": 195736
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["d3d11", "wingdi", "winuser", "libloaderapi"],
+        "id": 1035933, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(target_os = \"windows\")", "version_id": 195736
+      },
+      {
+        "crate_id": "wio", "default_features": true, "downloads": 0,
+        "features": [], "id": 1035934, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(target_os = \"windows\")",
+        "version_id": 195736
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 1035930, "kind": "normal",
+        "optional": false, "req": "^2.3.0",
+        "target": "cfg(all(unix, not(any(target_os = \"macos\", target_os = \"android\"))))",
+        "version_id": 195736
+      },
+      {
+        "crate_id": "mozangle", "default_features": true, "downloads": 0,
+        "features": ["egl"], "id": 1035932, "kind": "normal",
+        "optional": true, "req": "^0.2",
+        "target": "cfg(target_os = \"windows\")", "version_id": 195736
+      },
+      {
+        "crate_id": "osmesa-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1035922, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 195736
+      },
+      {
+        "crate_id": "winit", "default_features": true, "downloads": 0,
+        "features": [], "id": 1035923, "kind": "normal", "optional": true,
+        "req": "<0.19.4", "target": null, "version_id": 195736
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 1035931, "kind": "normal",
+        "optional": true, "req": "^2.3.0",
+        "target": "cfg(any(not(unix), target_os = \"macos\", target_os = \"android\"))",
+        "version_id": 195736
+      }
+    ],
+    "dl_path": "/api/v1/crates/surfman/0.1.3/download",
+    "downloads": 9894,
+    "features": {
+      "default": ["sm-winit"], "sm-angle": [],
+      "sm-angle-builtin": ["mozangle"], "sm-angle-default": ["sm-angle"],
+      "sm-no-wgl": ["sm-angle-default"], "sm-osmesa": ["osmesa-sys"],
+      "sm-osmesa-default": ["sm-osmesa"], "sm-wayland-default": [],
+      "sm-winit": ["winit"], "sm-x11": ["x11"]
+    },
+    "id": 195736, "license": "MIT / Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/surfman/0.1.3/authors",
+      "dependencies": "/api/v1/crates/surfman/0.1.3/dependencies",
+      "version_downloads": "/api/v1/crates/surfman/0.1.3/downloads"
+    },
+    "num": "0.1.3",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/157897?v=4",
+      "id": 2258, "login": "pcwalton", "name": "Patrick Walton",
+      "url": "https://github.com/pcwalton"
+    },
+    "readme_path": "/api/v1/crates/surfman/0.1.3/readme",
+    "updated_at": "2019-12-11T21:57:38.953155+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-03-05T20:33:55.790237+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/27658?v=4",
+          "id": 2396, "login": "jdm", "name": "Josh Matthews",
+          "url": "https://github.com/jdm"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Emilio Cobos Ãlvarez <emilio@crisal.io>",
+          "Patrick Walton <pcwalton@mimiga.net>",
+          "The Servo Project Developers"
+        ]
+      },
+      "users": []
+    },
+    "crate": "surfman", "crate_size": 86028,
+    "created_at": "2020-03-05T20:33:55.790237+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1199886, "kind": "normal", "optional": false,
+        "req": "^1.1", "target": null, "version_id": 218519
+      },
+      {
+        "crate_id": "cgl", "default_features": true, "downloads": 0,
+        "features": [], "id": 1199904, "kind": "normal", "optional": false,
+        "req": "^0.3.2", "target": "x86_64-apple-darwin",
+        "version_id": 218519
+      },
+      {
+        "crate_id": "clap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1199893, "kind": "dev", "optional": false,
+        "req": "^2", "target": null, "version_id": 218519
+      },
+      {
+        "crate_id": "cocoa", "default_features": true, "downloads": 0,
+        "features": [], "id": 1199905, "kind": "normal", "optional": false,
+        "req": "^0.19", "target": "x86_64-apple-darwin",
+        "version_id": 218519
+      },
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 1199906, "kind": "normal",
+        "optional": false, "req": "^0.6", "target": "x86_64-apple-darwin",
+        "version_id": 218519
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 1199907, "kind": "normal",
+        "optional": false, "req": "^0.17", "target": "x86_64-apple-darwin",
+        "version_id": 218519
+      },
+      {
+        "crate_id": "display-link", "default_features": true,
+        "downloads": 0, "features": [], "id": 1199908, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": "x86_64-apple-darwin",
+        "version_id": 218519
+      },
+      {
+        "crate_id": "euclid", "default_features": true, "downloads": 0,
+        "features": [], "id": 1199887, "kind": "normal", "optional": false,
+        "req": "^0.20", "target": null, "version_id": 218519
+      },
+      {
+        "crate_id": "gl", "default_features": true, "downloads": 0,
+        "features": [], "id": 1199894, "kind": "dev", "optional": false,
+        "req": "^0.13", "target": null, "version_id": 218519
+      },
+      {
+        "crate_id": "gl_generator", "default_features": true,
+        "downloads": 0, "features": [], "id": 1199897, "kind": "build",
+        "optional": false, "req": "^0.11", "target": null,
+        "version_id": 218519
+      },
+      {
+        "crate_id": "io-surface", "default_features": true, "downloads": 0,
+        "features": [], "id": 1199909, "kind": "normal", "optional": false,
+        "req": "^0.12", "target": "x86_64-apple-darwin",
+        "version_id": 218519
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1199888, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 218519
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1199889, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 218519
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1199890, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 218519
+      },
+      {
+        "crate_id": "mach", "default_features": true, "downloads": 0,
+        "features": [], "id": 1199910, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": "x86_64-apple-darwin",
+        "version_id": 218519
+      },
+      {
+        "crate_id": "objc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1199911, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "x86_64-apple-darwin",
+        "version_id": 218519
+      },
+      {
+        "crate_id": "png", "default_features": true, "downloads": 0,
+        "features": [], "id": 1199895, "kind": "dev", "optional": false,
+        "req": "^0.15", "target": null, "version_id": 218519
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1199896, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 218519
+      },
+      {
+        "crate_id": "wayland-sys", "default_features": true, "downloads": 0,
+        "features": ["client", "dlopen", "egl"], "id": 1199898,
+        "kind": "normal", "optional": false, "req": "^0.24",
+        "target": "cfg(all(unix, not(any(target_os = \"macos\", target_os = \"android\"))))",
+        "version_id": 218519
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["d3d11", "wingdi", "winuser", "libloaderapi"],
+        "id": 1199902, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(target_os = \"windows\")", "version_id": 218519
+      },
+      {
+        "crate_id": "wio", "default_features": true, "downloads": 0,
+        "features": [], "id": 1199903, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(target_os = \"windows\")",
+        "version_id": 218519
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 1199899, "kind": "normal",
+        "optional": false, "req": "^2.3.0",
+        "target": "cfg(all(unix, not(any(target_os = \"macos\", target_os = \"android\"))))",
+        "version_id": 218519
+      },
+      {
+        "crate_id": "mozangle", "default_features": true, "downloads": 0,
+        "features": ["egl"], "id": 1199901, "kind": "normal",
+        "optional": true, "req": "^0.2",
+        "target": "cfg(target_os = \"windows\")", "version_id": 218519
+      },
+      {
+        "crate_id": "osmesa-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1199891, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 218519
+      },
+      {
+        "crate_id": "winit", "default_features": true, "downloads": 0,
+        "features": [], "id": 1199892, "kind": "normal", "optional": true,
+        "req": "<0.19.4", "target": null, "version_id": 218519
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 1199900, "kind": "normal",
+        "optional": true, "req": "^2.3.0",
+        "target": "cfg(any(not(unix), target_os = \"macos\", target_os = \"android\"))",
+        "version_id": 218519
+      }
+    ],
+    "dl_path": "/api/v1/crates/surfman/0.1.4/download",
+    "downloads": 3561,
+    "features": {
+      "default": ["sm-winit"], "sm-angle": [],
+      "sm-angle-builtin": ["mozangle"], "sm-angle-default": ["sm-angle"],
+      "sm-angle-flush": [], "sm-no-wgl": ["sm-angle-default"],
+      "sm-osmesa": ["osmesa-sys"], "sm-osmesa-default": ["sm-osmesa"],
+      "sm-wayland-default": [], "sm-winit": ["winit"], "sm-x11": ["x11"]
+    },
+    "id": 218519, "license": "MIT / Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/surfman/0.1.4/authors",
+      "dependencies": "/api/v1/crates/surfman/0.1.4/dependencies",
+      "version_downloads": "/api/v1/crates/surfman/0.1.4/downloads"
+    },
+    "num": "0.1.4",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/27658?v=4",
+      "id": 2396, "login": "jdm", "name": "Josh Matthews",
+      "url": "https://github.com/jdm"
+    },
+    "readme_path": "/api/v1/crates/surfman/0.1.4/readme",
+    "updated_at": "2020-03-05T20:33:55.790237+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-04-22T20:06:54.267021+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/157897?v=4",
+          "id": 2258, "login": "pcwalton", "name": "Patrick Walton",
+          "url": "https://github.com/pcwalton"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Emilio Cobos Ãlvarez <emilio@crisal.io>",
+          "Patrick Walton <pcwalton@mimiga.net>",
+          "The Servo Project Developers"
+        ]
+      },
+      "users": []
+    },
+    "crate": "surfman", "crate_size": 115681,
+    "created_at": "2020-04-22T20:06:54.267021+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1312240, "kind": "normal", "optional": false,
+        "req": "^1.1", "target": null, "version_id": 233860
+      },
+      {
+        "crate_id": "cgl", "default_features": true, "downloads": 0,
+        "features": [], "id": 1312259, "kind": "normal", "optional": false,
+        "req": "^0.3.2", "target": "x86_64-apple-darwin",
+        "version_id": 233860
+      },
+      {
+        "crate_id": "clap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1312248, "kind": "dev", "optional": false,
+        "req": "^2", "target": null, "version_id": 233860
+      },
+      {
+        "crate_id": "cocoa", "default_features": true, "downloads": 0,
+        "features": [], "id": 1312260, "kind": "normal", "optional": false,
+        "req": "^0.19", "target": "x86_64-apple-darwin",
+        "version_id": 233860
+      },
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 1312261, "kind": "normal",
+        "optional": false, "req": "^0.6", "target": "x86_64-apple-darwin",
+        "version_id": 233860
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 1312262, "kind": "normal",
+        "optional": false, "req": "^0.17", "target": "x86_64-apple-darwin",
+        "version_id": 233860
+      },
+      {
+        "crate_id": "display-link", "default_features": true,
+        "downloads": 0, "features": [], "id": 1312263, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": "x86_64-apple-darwin",
+        "version_id": 233860
+      },
+      {
+        "crate_id": "euclid", "default_features": true, "downloads": 0,
+        "features": [], "id": 1312241, "kind": "normal", "optional": false,
+        "req": "^0.20", "target": null, "version_id": 233860
+      },
+      {
+        "crate_id": "gl", "default_features": true, "downloads": 0,
+        "features": [], "id": 1312249, "kind": "dev", "optional": false,
+        "req": "^0.13", "target": null, "version_id": 233860
+      },
+      {
+        "crate_id": "gl_generator", "default_features": true,
+        "downloads": 0, "features": [], "id": 1312252, "kind": "build",
+        "optional": false, "req": "^0.11", "target": null,
+        "version_id": 233860
+      },
+      {
+        "crate_id": "io-surface", "default_features": true, "downloads": 0,
+        "features": [], "id": 1312264, "kind": "normal", "optional": false,
+        "req": "^0.12", "target": "x86_64-apple-darwin",
+        "version_id": 233860
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1312242, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 233860
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1312243, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 233860
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1312244, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 233860
+      },
+      {
+        "crate_id": "mach", "default_features": true, "downloads": 0,
+        "features": [], "id": 1312265, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": "x86_64-apple-darwin",
+        "version_id": 233860
+      },
+      {
+        "crate_id": "objc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1312266, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "x86_64-apple-darwin",
+        "version_id": 233860
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 1312246, "kind": "normal", "optional": false,
+        "req": "^0.9", "target": null, "version_id": 233860
+      },
+      {
+        "crate_id": "png", "default_features": true, "downloads": 0,
+        "features": [], "id": 1312250, "kind": "dev", "optional": false,
+        "req": "^0.15", "target": null, "version_id": 233860
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1312251, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 233860
+      },
+      {
+        "crate_id": "wayland-sys", "default_features": true, "downloads": 0,
+        "features": ["client", "dlopen", "egl"], "id": 1312253,
+        "kind": "normal", "optional": false, "req": "^0.24",
+        "target": "cfg(all(unix, not(any(target_os = \"macos\", target_os = \"android\"))))",
+        "version_id": 233860
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["d3d11", "wingdi", "winuser", "libloaderapi"],
+        "id": 1312257, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(target_os = \"windows\")", "version_id": 233860
+      },
+      {
+        "crate_id": "wio", "default_features": true, "downloads": 0,
+        "features": [], "id": 1312258, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(target_os = \"windows\")",
+        "version_id": 233860
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 1312254, "kind": "normal",
+        "optional": false, "req": "^2.3.0",
+        "target": "cfg(all(unix, not(any(target_os = \"macos\", target_os = \"android\"))))",
+        "version_id": 233860
+      },
+      {
+        "crate_id": "mozangle", "default_features": true, "downloads": 0,
+        "features": ["egl"], "id": 1312256, "kind": "normal",
+        "optional": true, "req": "^0.2",
+        "target": "cfg(target_os = \"windows\")", "version_id": 233860
+      },
+      {
+        "crate_id": "osmesa-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1312245, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 233860
+      },
+      {
+        "crate_id": "winit", "default_features": true, "downloads": 0,
+        "features": [], "id": 1312247, "kind": "normal", "optional": true,
+        "req": "<0.19.4", "target": null, "version_id": 233860
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 1312255, "kind": "normal",
+        "optional": true, "req": "^2.3.0",
+        "target": "cfg(any(not(unix), target_os = \"macos\", target_os = \"android\"))",
+        "version_id": 233860
+      }
+    ],
+    "dl_path": "/api/v1/crates/surfman/0.2.0/download",
+    "downloads": 377,
+    "features": {
+      "default": ["sm-winit"], "sm-angle": [],
+      "sm-angle-builtin": ["mozangle"], "sm-angle-default": ["sm-angle"],
+      "sm-no-wgl": ["sm-angle-default"], "sm-test": [],
+      "sm-wayland-default": [], "sm-winit": ["winit"], "sm-x11": ["x11"]
+    },
+    "id": 233860, "license": "MIT / Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/surfman/0.2.0/authors",
+      "dependencies": "/api/v1/crates/surfman/0.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/surfman/0.2.0/downloads"
+    },
+    "num": "0.2.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/157897?v=4",
+      "id": 2258, "login": "pcwalton", "name": "Patrick Walton",
+      "url": "https://github.com/pcwalton"
+    },
+    "readme_path": "/api/v1/crates/surfman/0.2.0/readme",
+    "updated_at": "2020-04-22T20:06:54.267021+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-06-26T01:49:55.856475+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/403333?v=4",
+          "id": 2828, "login": "asajeffrey", "name": "Alan Jeffrey",
+          "url": "https://github.com/asajeffrey"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Emilio Cobos Ãlvarez <emilio@crisal.io>",
+          "Patrick Walton <pcwalton@mimiga.net>",
+          "The Servo Project Developers"
+        ]
+      },
+      "users": []
+    },
+    "crate": "surfman", "crate_size": 121792,
+    "created_at": "2020-06-26T01:49:55.856475+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1476979, "kind": "normal", "optional": false,
+        "req": "^1.1", "target": null, "version_id": 256244
+      },
+      {
+        "crate_id": "cfg_aliases", "default_features": true, "downloads": 0,
+        "features": [], "id": 1476992, "kind": "build", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 256244
+      },
+      {
+        "crate_id": "cgl", "default_features": true, "downloads": 0,
+        "features": [], "id": 1476999, "kind": "normal", "optional": false,
+        "req": "^0.3.2", "target": "x86_64-apple-darwin",
+        "version_id": 256244
+      },
+      {
+        "crate_id": "clap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1476988, "kind": "dev", "optional": false,
+        "req": "^2", "target": null, "version_id": 256244
+      },
+      {
+        "crate_id": "cocoa", "default_features": true, "downloads": 0,
+        "features": [], "id": 1477000, "kind": "normal", "optional": false,
+        "req": "^0.19", "target": "x86_64-apple-darwin",
+        "version_id": 256244
+      },
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 1477001, "kind": "normal",
+        "optional": false, "req": "^0.6", "target": "x86_64-apple-darwin",
+        "version_id": 256244
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 1477002, "kind": "normal",
+        "optional": false, "req": "^0.17", "target": "x86_64-apple-darwin",
+        "version_id": 256244
+      },
+      {
+        "crate_id": "display-link", "default_features": true,
+        "downloads": 0, "features": [], "id": 1477003, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": "x86_64-apple-darwin",
+        "version_id": 256244
+      },
+      {
+        "crate_id": "euclid", "default_features": true, "downloads": 0,
+        "features": [], "id": 1476980, "kind": "normal", "optional": false,
+        "req": "^0.20", "target": null, "version_id": 256244
+      },
+      {
+        "crate_id": "gl", "default_features": true, "downloads": 0,
+        "features": [], "id": 1476989, "kind": "dev", "optional": false,
+        "req": "^0.14", "target": null, "version_id": 256244
+      },
+      {
+        "crate_id": "gl_generator", "default_features": true,
+        "downloads": 0, "features": [], "id": 1476993, "kind": "build",
+        "optional": false, "req": "^0.14", "target": null,
+        "version_id": 256244
+      },
+      {
+        "crate_id": "io-surface", "default_features": true, "downloads": 0,
+        "features": [], "id": 1477004, "kind": "normal", "optional": false,
+        "req": "^0.12", "target": "x86_64-apple-darwin",
+        "version_id": 256244
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1476981, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 256244
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1476982, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 256244
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1476983, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 256244
+      },
+      {
+        "crate_id": "mach", "default_features": true, "downloads": 0,
+        "features": [], "id": 1477005, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": "x86_64-apple-darwin",
+        "version_id": 256244
+      },
+      {
+        "crate_id": "metal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1477006, "kind": "normal", "optional": false,
+        "req": "^0.18", "target": "x86_64-apple-darwin",
+        "version_id": 256244
+      },
+      {
+        "crate_id": "objc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1477007, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "x86_64-apple-darwin",
+        "version_id": 256244
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 1476985, "kind": "normal", "optional": false,
+        "req": "^0.10.2", "target": null, "version_id": 256244
+      },
+      {
+        "crate_id": "png", "default_features": true, "downloads": 0,
+        "features": [], "id": 1476990, "kind": "dev", "optional": false,
+        "req": "^0.15", "target": null, "version_id": 256244
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1476991, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 256244
+      },
+      {
+        "crate_id": "wayland-sys", "default_features": true, "downloads": 0,
+        "features": ["client", "dlopen", "egl"], "id": 1476994,
+        "kind": "normal", "optional": false, "req": "^0.24",
+        "target": "cfg(all(unix, not(any(target_os = \"macos\", target_os = \"android\"))))",
+        "version_id": 256244
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["d3d11", "wingdi", "winuser", "libloaderapi"],
+        "id": 1476997, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(target_os = \"windows\")", "version_id": 256244
+      },
+      {
+        "crate_id": "wio", "default_features": true, "downloads": 0,
+        "features": [], "id": 1476998, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(target_os = \"windows\")",
+        "version_id": 256244
+      },
+      {
+        "crate_id": "mozangle", "default_features": true, "downloads": 0,
+        "features": ["egl"], "id": 1476996, "kind": "normal",
+        "optional": true, "req": "^0.2",
+        "target": "cfg(target_os = \"windows\")", "version_id": 256244
+      },
+      {
+        "crate_id": "osmesa-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1476984, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 256244
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1476986, "kind": "normal",
+        "optional": true, "req": "^0.3.3", "target": null,
+        "version_id": 256244
+      },
+      {
+        "crate_id": "winit", "default_features": true, "downloads": 0,
+        "features": [], "id": 1476987, "kind": "normal", "optional": true,
+        "req": "<0.19.4", "target": null, "version_id": 256244
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 1476995, "kind": "normal",
+        "optional": true, "req": "^2.3.0",
+        "target": "cfg(all(unix, not(any(target_os = \"macos\", target_os = \"android\"))))",
+        "version_id": 256244
+      }
+    ],
+    "dl_path": "/api/v1/crates/surfman/0.3.0/download",
+    "downloads": 8683,
+    "features": {
+      "default": ["sm-winit"], "sm-angle": [],
+      "sm-angle-builtin": ["mozangle"], "sm-angle-default": ["sm-angle"],
+      "sm-no-wgl": ["sm-angle-default"],
+      "sm-raw-window-handle": ["raw-window-handle"], "sm-test": [],
+      "sm-wayland-default": [], "sm-winit": ["winit"], "sm-x11": ["x11"]
+    },
+    "id": 256244, "license": "MIT / Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/surfman/0.3.0/authors",
+      "dependencies": "/api/v1/crates/surfman/0.3.0/dependencies",
+      "version_downloads": "/api/v1/crates/surfman/0.3.0/downloads"
+    },
+    "num": "0.3.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/403333?v=4",
+      "id": 2828, "login": "asajeffrey", "name": "Alan Jeffrey",
+      "url": "https://github.com/asajeffrey"
+    },
+    "readme_path": "/api/v1/crates/surfman/0.3.0/readme",
+    "updated_at": "2020-06-26T01:49:55.856475+00:00", "yanked": false
+  }
+]

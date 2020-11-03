@@ -1,0 +1,584 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Linus FÃ¤rnstrand <faern@faern.net>",
+          "Robert Clipsham <robert@octarineparrot.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "pnet_datalink", "crate_size": null,
+    "created_at": "2017-10-30T18:49:30.213625+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ipnetwork", "default_features": true, "downloads": 0,
+        "features": [], "id": 291489, "kind": "normal", "optional": false,
+        "req": "^0.12", "target": null, "version_id": 69787
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 291490, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 69787
+      },
+      {
+        "crate_id": "pnet_base", "default_features": true, "downloads": 0,
+        "features": [], "id": 291491, "kind": "normal", "optional": false,
+        "req": "^0.20.0", "target": null, "version_id": 69787
+      },
+      {
+        "crate_id": "pnet_sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 291492, "kind": "normal", "optional": false,
+        "req": "^0.20.0", "target": null, "version_id": 69787
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [], "id": 291493, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 69787
+      },
+      {
+        "crate_id": "netmap_sys", "default_features": true, "downloads": 0,
+        "features": ["netmap_with_libs"], "id": 291487, "kind": "normal",
+        "optional": true, "req": ">=0.0", "target": null,
+        "version_id": 69787
+      },
+      {
+        "crate_id": "pcap", "default_features": true, "downloads": 0,
+        "features": [], "id": 291488, "kind": "normal", "optional": true,
+        "req": "^0.6", "target": null, "version_id": 69787
+      }
+    ],
+    "dl_path": "/api/v1/crates/pnet_datalink/0.20.0/download",
+    "downloads": 2998, "features": {}, "id": 69787,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/pnet_datalink/0.20.0/authors",
+      "dependencies": "/api/v1/crates/pnet_datalink/0.20.0/dependencies",
+      "version_downloads": "/api/v1/crates/pnet_datalink/0.20.0/downloads"
+    },
+    "num": "0.20.0", "published_by": null,
+    "readme_path": "/api/v1/crates/pnet_datalink/0.20.0/readme",
+    "updated_at": "2017-11-30T03:11:40.338523+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Linus FÃ¤rnstrand <faern@faern.net>",
+          "Robert Clipsham <robert@octarineparrot.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "pnet_datalink", "crate_size": null,
+    "created_at": "2018-03-07T18:35:40.342232+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ipnetwork", "default_features": true, "downloads": 0,
+        "features": [], "id": 367444, "kind": "normal", "optional": false,
+        "req": "^0.12", "target": null, "version_id": 83755
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 367445, "kind": "normal", "optional": false,
+        "req": "^0.2.39", "target": null, "version_id": 83755
+      },
+      {
+        "crate_id": "pnet_base", "default_features": true, "downloads": 0,
+        "features": [], "id": 367448, "kind": "normal", "optional": false,
+        "req": "^0.21.0", "target": null, "version_id": 83755
+      },
+      {
+        "crate_id": "pnet_sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 367449, "kind": "normal", "optional": false,
+        "req": "^0.21.0", "target": null, "version_id": 83755
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [], "id": 367450, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 83755
+      },
+      {
+        "crate_id": "netmap_sys", "default_features": true, "downloads": 0,
+        "features": ["netmap_with_libs"], "id": 367446, "kind": "normal",
+        "optional": true, "req": ">=0.0", "target": null,
+        "version_id": 83755
+      },
+      {
+        "crate_id": "pcap", "default_features": true, "downloads": 0,
+        "features": [], "id": 367447, "kind": "normal", "optional": true,
+        "req": "^0.6", "target": null, "version_id": 83755
+      }
+    ],
+    "dl_path": "/api/v1/crates/pnet_datalink/0.21.0/download",
+    "downloads": 29180, "features": {"netmap": []}, "id": 83755,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/pnet_datalink/0.21.0/authors",
+      "dependencies": "/api/v1/crates/pnet_datalink/0.21.0/dependencies",
+      "version_downloads": "/api/v1/crates/pnet_datalink/0.21.0/downloads"
+    },
+    "num": "0.21.0", "published_by": null,
+    "readme_path": "/api/v1/crates/pnet_datalink/0.21.0/readme",
+    "updated_at": "2018-03-07T18:35:40.342232+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Linus FÃ¤rnstrand <faern@faern.net>",
+          "Robert Clipsham <robert@octarineparrot.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "pnet_datalink", "crate_size": 20961,
+    "created_at": "2019-02-21T18:12:27.786809+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ipnetwork", "default_features": true, "downloads": 0,
+        "features": [], "id": 652040, "kind": "normal", "optional": false,
+        "req": "^0.14.0", "target": null, "version_id": 135157
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 652041, "kind": "normal", "optional": false,
+        "req": "^0.2.42", "target": null, "version_id": 135157
+      },
+      {
+        "crate_id": "pnet_base", "default_features": true, "downloads": 0,
+        "features": [], "id": 652044, "kind": "normal", "optional": false,
+        "req": "^0.22.0", "target": null, "version_id": 135157
+      },
+      {
+        "crate_id": "pnet_sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 652045, "kind": "normal", "optional": false,
+        "req": "^0.22.0", "target": null, "version_id": 135157
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [], "id": 652046, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 135157
+      },
+      {
+        "crate_id": "netmap_sys", "default_features": true, "downloads": 0,
+        "features": ["netmap_with_libs"], "id": 652042, "kind": "normal",
+        "optional": true, "req": ">=0.0", "target": null,
+        "version_id": 135157
+      },
+      {
+        "crate_id": "pcap", "default_features": true, "downloads": 0,
+        "features": [], "id": 652043, "kind": "normal", "optional": true,
+        "req": "^0.7", "target": null, "version_id": 135157
+      }
+    ],
+    "dl_path": "/api/v1/crates/pnet_datalink/0.22.0/download",
+    "downloads": 47362, "features": {"netmap": []}, "id": 135157,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/pnet_datalink/0.22.0/authors",
+      "dependencies": "/api/v1/crates/pnet_datalink/0.22.0/dependencies",
+      "version_downloads": "/api/v1/crates/pnet_datalink/0.22.0/downloads"
+    },
+    "num": "0.22.0", "published_by": null,
+    "readme_path": "/api/v1/crates/pnet_datalink/0.22.0/readme",
+    "updated_at": "2019-02-21T18:12:27.786809+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "yank", "time": "2020-01-08T22:24:15.260948+00:00",
+        "user": {
+          "avatar": "https://avatars2.githubusercontent.com/u/8005101?v=4",
+          "id": 25214, "login": "JuxhinDB", "name": "Juxhin",
+          "url": "https://github.com/JuxhinDB"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Linus FÃ¤rnstrand <faern@faern.net>",
+          "Robert Clipsham <robert@octarineparrot.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "pnet_datalink", "crate_size": 20850,
+    "created_at": "2019-11-06T12:49:35.643216+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ipnetwork", "default_features": true, "downloads": 0,
+        "features": [], "id": 980576, "kind": "normal", "optional": false,
+        "req": "^0.15.0", "target": null, "version_id": 187636
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 980577, "kind": "normal", "optional": false,
+        "req": "^0.2.42", "target": null, "version_id": 187636
+      },
+      {
+        "crate_id": "pnet_base", "default_features": true, "downloads": 0,
+        "features": [], "id": 980580, "kind": "normal", "optional": false,
+        "req": "^0.23.0", "target": null, "version_id": 187636
+      },
+      {
+        "crate_id": "pnet_sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 980581, "kind": "normal", "optional": false,
+        "req": "^0.23.0", "target": null, "version_id": 187636
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [], "id": 980582, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 187636
+      },
+      {
+        "crate_id": "netmap_sys", "default_features": true, "downloads": 0,
+        "features": ["netmap_with_libs"], "id": 980578, "kind": "normal",
+        "optional": true, "req": ">=0.0", "target": null,
+        "version_id": 187636
+      },
+      {
+        "crate_id": "pcap", "default_features": true, "downloads": 0,
+        "features": [], "id": 980579, "kind": "normal", "optional": true,
+        "req": "^0.7", "target": null, "version_id": 187636
+      }
+    ],
+    "dl_path": "/api/v1/crates/pnet_datalink/0.23.0/download",
+    "downloads": 39678, "features": {"netmap": []}, "id": 187636,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/pnet_datalink/0.23.0/authors",
+      "dependencies": "/api/v1/crates/pnet_datalink/0.23.0/dependencies",
+      "version_downloads": "/api/v1/crates/pnet_datalink/0.23.0/downloads"
+    },
+    "num": "0.23.0",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/8005101?v=4",
+      "id": 25214, "login": "JuxhinDB", "name": "Juxhin",
+      "url": "https://github.com/JuxhinDB"
+    },
+    "readme_path": "/api/v1/crates/pnet_datalink/0.23.0/readme",
+    "updated_at": "2020-01-08T22:24:17.148994+00:00", "yanked": true
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-01-08T22:24:51.124413+00:00",
+        "user": {
+          "avatar": "https://avatars2.githubusercontent.com/u/8005101?v=4",
+          "id": 25214, "login": "JuxhinDB", "name": "Juxhin",
+          "url": "https://github.com/JuxhinDB"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Linus FÃ¤rnstrand <faern@faern.net>",
+          "Robert Clipsham <robert@octarineparrot.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "pnet_datalink", "crate_size": 20861,
+    "created_at": "2020-01-08T22:24:51.124413+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ipnetwork", "default_features": true, "downloads": 0,
+        "features": [], "id": 1079256, "kind": "normal", "optional": false,
+        "req": "^0.15.0", "target": null, "version_id": 202385
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1079257, "kind": "normal", "optional": false,
+        "req": "^0.2.42", "target": null, "version_id": 202385
+      },
+      {
+        "crate_id": "pnet_base", "default_features": true, "downloads": 0,
+        "features": [], "id": 1079260, "kind": "normal", "optional": false,
+        "req": "^0.22.0", "target": null, "version_id": 202385
+      },
+      {
+        "crate_id": "pnet_sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1079261, "kind": "normal", "optional": false,
+        "req": ">=0.23.1", "target": null, "version_id": 202385
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [], "id": 1079262, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 202385
+      },
+      {
+        "crate_id": "netmap_sys", "default_features": true, "downloads": 0,
+        "features": ["netmap_with_libs"], "id": 1079258, "kind": "normal",
+        "optional": true, "req": ">=0.0", "target": null,
+        "version_id": 202385
+      },
+      {
+        "crate_id": "pcap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1079259, "kind": "normal", "optional": true,
+        "req": "^0.7", "target": null, "version_id": 202385
+      }
+    ],
+    "dl_path": "/api/v1/crates/pnet_datalink/0.23.1/download",
+    "downloads": 19214, "features": {"netmap": []}, "id": 202385,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/pnet_datalink/0.23.1/authors",
+      "dependencies": "/api/v1/crates/pnet_datalink/0.23.1/dependencies",
+      "version_downloads": "/api/v1/crates/pnet_datalink/0.23.1/downloads"
+    },
+    "num": "0.23.1",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/8005101?v=4",
+      "id": 25214, "login": "JuxhinDB", "name": "Juxhin",
+      "url": "https://github.com/JuxhinDB"
+    },
+    "readme_path": "/api/v1/crates/pnet_datalink/0.23.1/readme",
+    "updated_at": "2020-01-08T22:24:51.124413+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-01-08T19:48:56.424449+00:00",
+        "user": {
+          "avatar": "https://avatars2.githubusercontent.com/u/8005101?v=4",
+          "id": 25214, "login": "JuxhinDB", "name": "Juxhin",
+          "url": "https://github.com/JuxhinDB"
+        }
+      },
+      {
+        "action": "yank", "time": "2020-01-08T22:11:14.843113+00:00",
+        "user": {
+          "avatar": "https://avatars2.githubusercontent.com/u/8005101?v=4",
+          "id": 25214, "login": "JuxhinDB", "name": "Juxhin",
+          "url": "https://github.com/JuxhinDB"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Linus FÃ¤rnstrand <faern@faern.net>",
+          "Robert Clipsham <robert@octarineparrot.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "pnet_datalink", "crate_size": 20855,
+    "created_at": "2020-01-08T19:48:56.424449+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ipnetwork", "default_features": true, "downloads": 0,
+        "features": [], "id": 1078983, "kind": "normal", "optional": false,
+        "req": "^0.15.0", "target": null, "version_id": 202340
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1078984, "kind": "normal", "optional": false,
+        "req": "^0.2.42", "target": null, "version_id": 202340
+      },
+      {
+        "crate_id": "pnet_base", "default_features": true, "downloads": 0,
+        "features": [], "id": 1078987, "kind": "normal", "optional": false,
+        "req": "^0.23.0", "target": null, "version_id": 202340
+      },
+      {
+        "crate_id": "pnet_sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1078988, "kind": "normal", "optional": false,
+        "req": "^0.23.0", "target": null, "version_id": 202340
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [], "id": 1078989, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 202340
+      },
+      {
+        "crate_id": "netmap_sys", "default_features": true, "downloads": 0,
+        "features": ["netmap_with_libs"], "id": 1078985, "kind": "normal",
+        "optional": true, "req": ">=0.0", "target": null,
+        "version_id": 202340
+      },
+      {
+        "crate_id": "pcap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1078986, "kind": "normal", "optional": true,
+        "req": "^0.7", "target": null, "version_id": 202340
+      }
+    ],
+    "dl_path": "/api/v1/crates/pnet_datalink/0.24.0/download",
+    "downloads": 90, "features": {"netmap": []}, "id": 202340,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/pnet_datalink/0.24.0/authors",
+      "dependencies": "/api/v1/crates/pnet_datalink/0.24.0/dependencies",
+      "version_downloads": "/api/v1/crates/pnet_datalink/0.24.0/downloads"
+    },
+    "num": "0.24.0",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/8005101?v=4",
+      "id": 25214, "login": "JuxhinDB", "name": "Juxhin",
+      "url": "https://github.com/JuxhinDB"
+    },
+    "readme_path": "/api/v1/crates/pnet_datalink/0.24.0/readme",
+    "updated_at": "2020-01-08T22:11:16.485326+00:00", "yanked": true
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-01-08T20:14:45.607416+00:00",
+        "user": {
+          "avatar": "https://avatars2.githubusercontent.com/u/8005101?v=4",
+          "id": 25214, "login": "JuxhinDB", "name": "Juxhin",
+          "url": "https://github.com/JuxhinDB"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Linus FÃ¤rnstrand <faern@faern.net>",
+          "Robert Clipsham <robert@octarineparrot.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "pnet_datalink", "crate_size": 20860,
+    "created_at": "2020-01-08T20:14:45.607416+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ipnetwork", "default_features": true, "downloads": 0,
+        "features": [], "id": 1079023, "kind": "normal", "optional": false,
+        "req": "^0.15.0", "target": null, "version_id": 202347
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1079024, "kind": "normal", "optional": false,
+        "req": "^0.2.42", "target": null, "version_id": 202347
+      },
+      {
+        "crate_id": "pnet_base", "default_features": true, "downloads": 0,
+        "features": [], "id": 1079027, "kind": "normal", "optional": false,
+        "req": "^0.22.0", "target": null, "version_id": 202347
+      },
+      {
+        "crate_id": "pnet_sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1079028, "kind": "normal", "optional": false,
+        "req": ">=0.25.0", "target": null, "version_id": 202347
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [], "id": 1079029, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 202347
+      },
+      {
+        "crate_id": "netmap_sys", "default_features": true, "downloads": 0,
+        "features": ["netmap_with_libs"], "id": 1079025, "kind": "normal",
+        "optional": true, "req": ">=0.0", "target": null,
+        "version_id": 202347
+      },
+      {
+        "crate_id": "pcap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1079026, "kind": "normal", "optional": true,
+        "req": "^0.7", "target": null, "version_id": 202347
+      }
+    ],
+    "dl_path": "/api/v1/crates/pnet_datalink/0.25.0/download",
+    "downloads": 49618, "features": {"netmap": []}, "id": 202347,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/pnet_datalink/0.25.0/authors",
+      "dependencies": "/api/v1/crates/pnet_datalink/0.25.0/dependencies",
+      "version_downloads": "/api/v1/crates/pnet_datalink/0.25.0/downloads"
+    },
+    "num": "0.25.0",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/8005101?v=4",
+      "id": 25214, "login": "JuxhinDB", "name": "Juxhin",
+      "url": "https://github.com/JuxhinDB"
+    },
+    "readme_path": "/api/v1/crates/pnet_datalink/0.25.0/readme",
+    "updated_at": "2020-01-08T20:14:45.607416+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-05-01T18:28:00.865609+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/324938?v=4",
+          "id": 87178, "login": "kishiguro", "name": "Kunihiro Ishiguro",
+          "url": "https://github.com/kishiguro"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Linus FÃ¤rnstrand <faern@faern.net>",
+          "Robert Clipsham <robert@octarineparrot.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "pnet_datalink", "crate_size": 21245,
+    "created_at": "2020-05-01T18:28:00.865609+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ipnetwork", "default_features": true, "downloads": 0,
+        "features": [], "id": 1333091, "kind": "normal", "optional": false,
+        "req": "^0.16.0", "target": null, "version_id": 236771
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1333092, "kind": "normal", "optional": false,
+        "req": "^0.2.42", "target": null, "version_id": 236771
+      },
+      {
+        "crate_id": "pnet_base", "default_features": true, "downloads": 0,
+        "features": [], "id": 1333095, "kind": "normal", "optional": false,
+        "req": "^0.26.0", "target": null, "version_id": 236771
+      },
+      {
+        "crate_id": "pnet_sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1333096, "kind": "normal", "optional": false,
+        "req": "^0.26.0", "target": null, "version_id": 236771
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [], "id": 1333097, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 236771
+      },
+      {
+        "crate_id": "netmap_sys", "default_features": true, "downloads": 0,
+        "features": ["netmap_with_libs"], "id": 1333093, "kind": "normal",
+        "optional": true, "req": ">=0.0", "target": null,
+        "version_id": 236771
+      },
+      {
+        "crate_id": "pcap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1333094, "kind": "normal", "optional": true,
+        "req": "^0.7", "target": null, "version_id": 236771
+      }
+    ],
+    "dl_path": "/api/v1/crates/pnet_datalink/0.26.0/download",
+    "downloads": 61396, "features": {"netmap": []}, "id": 236771,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/pnet_datalink/0.26.0/authors",
+      "dependencies": "/api/v1/crates/pnet_datalink/0.26.0/dependencies",
+      "version_downloads": "/api/v1/crates/pnet_datalink/0.26.0/downloads"
+    },
+    "num": "0.26.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/324938?v=4",
+      "id": 87178, "login": "kishiguro", "name": "Kunihiro Ishiguro",
+      "url": "https://github.com/kishiguro"
+    },
+    "readme_path": "/api/v1/crates/pnet_datalink/0.26.0/readme",
+    "updated_at": "2020-05-01T18:28:00.865609+00:00", "yanked": false
+  }
+]
