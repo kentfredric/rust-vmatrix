@@ -107,6 +107,8 @@ sub crate_flat_rustcs {
 
 sub crate_flat_rustc_results {
     my ( $self, $crate, $rustc ) = @_;
+    die "crate missing" if not defined $crate or not length $crate;
+    die "rustc missing" if not defined $rustc or not length $rustc;
     my $rustc_file = $self->crate_dir($crate) . '/rustc-' . $rustc;
     if ( not -e $rustc_file ) {
         return [];
