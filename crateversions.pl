@@ -11,9 +11,9 @@ use resultdb;
 use Time::HiRes qw(sleep);
 my $rdb = resultdb->new();
 
-my $refresh_after = 7.55 * 60 * 60;
+my $refresh_after = 6 * 60 * 60;
 my $poll_pause    = 0.1;
-my $pause         = 1.5;
+my $pause         = 5;
 my $loop_pause    = 30;
 my $min_fresh;
 my $now;
@@ -114,13 +114,33 @@ sub should_update {
       100 - ( ( $age_secs + 0.1 ) / $refresh_after * 100 );
 
     my $time_till_refresh = $refresh_after - $age_secs;
-    if ( $freshness > 1 ) {
+    if ( $time_till_refresh > 0 ) {
         $min_fresh = $time_till_refresh if not defined $min_fresh;
         $min_fresh = $time_till_refresh if $min_fresh > $time_till_refresh;
-    }
-    if ( $freshness > 5 ) {
         if ( $ENV{QUIET} ) {
-            *STDERR->print("\e[32m.\e[0m");
+            my $freshbits = {
+                0  => "\e[33m\x{2586}\e[0m",
+                1  => "\e[35m\x{2584}\e[0m",
+                2  => "\e[31m\x{2582}\e[0m",
+                3  => "\e[31m\x{2581}\e[0m",
+                4  => "\e[31m\x{2581}\e[0m",
+                5  => "\x{2581}",
+                6  => "\x{2581}",
+                7  => "\x{2581}",
+                8  => '.',
+                9  => '.',
+                10 => '.',
+            };
+            my $freshkind = sprintf "%d", $freshness / 10;
+            $freshkind = 1
+              if $freshkind == 0
+              and $time_till_refresh > $loop_pause;
+            $freshkind = 2
+              if $freshkind == 1
+              and $time_till_refresh > ( $loop_pause * 2 );
+            my $freshbit = $freshbits->{$freshkind};
+            utf8::encode($freshbit);
+            *STDERR->print("$freshbit");
         }
         else {
             # skip entirely if its fresher than the pause limit
@@ -128,18 +148,10 @@ sub should_update {
         }
         return;
     }
-    if ( $time_till_refresh > 0 ) {
-        if ( $ENV{QUIET} ) {
-            *STDERR->print("\e[33m|\e[0m");
-        }
-        else {
-            warn
-              " $crate is \e[33msemifresh\e[0m($freshness%), skipping update\n";
-        }
-        return;
-    }
     if ( $ENV{QUIET} ) {
-        *STDERR->print("\e[34m^\e[0m");
+        my $code = "\e[32;1m\x{2588}\e[0m";
+        utf8::encode($code);
+        *STDERR->print($code);
     }
     else {
         warn
