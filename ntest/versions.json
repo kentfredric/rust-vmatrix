@@ -710,7 +710,7 @@
         "req": "^0.1.2", "target": null, "version_id": 177454
       }
     ],
-    "dl_path": "/api/v1/crates/ntest/0.3.3/download", "downloads": 7465,
+    "dl_path": "/api/v1/crates/ntest/0.3.3/download", "downloads": 7470,
     "features": {}, "id": 177454, "license": "non-standard",
     "links": {
       "authors": "/api/v1/crates/ntest/0.3.3/authors",
@@ -1111,7 +1111,7 @@
         "version_id": 244702
       }
     ],
-    "dl_path": "/api/v1/crates/ntest/0.7.1/download", "downloads": 1591,
+    "dl_path": "/api/v1/crates/ntest/0.7.1/download", "downloads": 1612,
     "features": {}, "id": 244702, "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/ntest/0.7.1/authors",
@@ -1126,5 +1126,58 @@
     },
     "readme_path": "/api/v1/crates/ntest/0.7.1/readme",
     "updated_at": "2020-05-24T12:37:12.696364+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-11-03T19:44:13.806303+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/22472855?v=4",
+          "id": 56990, "login": "becheran", "name": "Armin Becher",
+          "url": "https://github.com/becheran"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Armin Becher <becherarmin@gmail.com>"]},
+      "users": []
+    },
+    "crate": "ntest", "crate_size": 5181,
+    "created_at": "2020-11-03T19:44:13.806303+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ntest_proc_macro_helper", "default_features": true,
+        "downloads": 0, "features": [], "id": 1816097, "kind": "normal",
+        "optional": false, "req": "^0.7.2", "target": null,
+        "version_id": 301633
+      },
+      {
+        "crate_id": "ntest_test_cases", "default_features": true,
+        "downloads": 0, "features": [], "id": 1816098, "kind": "normal",
+        "optional": false, "req": "^0.7.2", "target": null,
+        "version_id": 301633
+      },
+      {
+        "crate_id": "ntest_timeout", "default_features": true,
+        "downloads": 0, "features": [], "id": 1816099, "kind": "normal",
+        "optional": false, "req": "^0.7.2", "target": null,
+        "version_id": 301633
+      }
+    ],
+    "dl_path": "/api/v1/crates/ntest/0.7.2/download", "downloads": 6,
+    "features": {}, "id": 301633, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/ntest/0.7.2/authors",
+      "dependencies": "/api/v1/crates/ntest/0.7.2/dependencies",
+      "version_downloads": "/api/v1/crates/ntest/0.7.2/downloads"
+    },
+    "num": "0.7.2",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/22472855?v=4",
+      "id": 56990, "login": "becheran", "name": "Armin Becher",
+      "url": "https://github.com/becheran"
+    },
+    "readme_path": "/api/v1/crates/ntest/0.7.2/readme",
+    "updated_at": "2020-11-03T19:44:13.806303+00:00", "yanked": false
   }
 ]
