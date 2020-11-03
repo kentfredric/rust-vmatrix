@@ -28,7 +28,6 @@ our (@RUSTC) = (
 );
 my $batch_start = time;
 my $test_count  = 0;
-my %used_pool;
 
 for my $rustc ( reverse @RUSTC ) {
     if ( not $ENV{UPDATE} and -e "${VERSION_DEST_PREFIX}${rustc}" ) {
@@ -59,60 +58,6 @@ my $avg        = ( $batch_stop - $batch_start ) / $test_count;
 printf
 "\e[34;1m* Suite run: %d seconds for %d version targets (%4.3f seconds per target)\e[0m\n",
   ( $batch_stop - $batch_start ), $test_count, $avg;
-for ( sort keys %used_pool ) {
-    printf "\e[34;1m*\e[0m Used Crate: \e[34;1m%s\e[0m\n", $_;
-}
-
-sub update_used {
-    my (%params)      = @_;
-    my $work_dir      = $params{work_dir};
-    my $crate         = $params{crate};
-    my $rustc_version = $params{rustc_version};
-
-    my $build_dir = "${work_dir}/target/debug/build";
-    my $lock_file = "${work_dir}/Cargo.lock";
-
-    # Collect all dep names
-    if ( -d $build_dir ) {
-        opendir my $dfh, $build_dir or die "can't opendir $build_dir, $!";
-        while ( my $ent = readdir $dfh ) {
-            next if $ent eq '.';
-            next if $ent eq '..';
-            if ( $ent =~ /\A(.*?)-[0-9a-f]{16}\z/ ) {
-                my ($dcrate) = $1;
-                next if $dcrate eq $crate;
-                next if exists $used_pool{$dcrate};
-                $used_pool{$dcrate} = $rustc_version;
-                printf "\e[33;1m*\e[0m used crate: \e[33;1m%s\e[0m\n", $dcrate;
-            }
-        }
-    }
-
-    # scrape cargo.lock too
-    if ( -f $lock_file ) {
-        open my $fh, "<", $lock_file or die "Cant' read $lock_file, $!";
-        my $seen_pkg;
-        while ( my $line = <$fh> ) {
-            chomp $line;
-            if ( $line eq '[[package]]' ) {
-                $seen_pkg = 1;
-                next;
-            }
-          ignore: {
-                if ( $seen_pkg and $line =~ /\Aname = "([^"]+)"\s*\z/ ) {
-                    my $dcrate = $1;
-                    last ignore if $dcrate eq $crate;
-                    last ignore if exists $used_pool{$dcrate};
-                    last ignore if $dcrate eq 'test';
-                    $used_pool{$dcrate} = $rustc_version;
-                    printf "\e[33;1m*\e[0m used crate: \e[33;1m%s\e[0m\n",
-                      $dcrate;
-                }
-            }
-            $seen_pkg = undef;
-        }
-    }
-}
 
 sub get_versions {
     my ($path) = @_;
@@ -171,11 +116,6 @@ EOF
     my $exit = system(
         "/home/kent/bin/cargo.sh", "+${rustc_toolchain}",
         "build",                   "--verbose"
-    );
-    update_used(
-        work_dir      => $work_dir,
-        crate         => $crate,
-        rustc_version => $rustc_version,
     );
     if ( $exit != 0 ) {
         my $low  = $exit & 0b11111111;
@@ -261,20 +201,6 @@ sub do_testset {
     printf
 "\e[33;1m* processed %d versions in %d seconds (%4.2f secs per version)\e[0m\n",
       $ncrates, $consumed, $atime;
-
-    for ( sort keys %used_pool ) {
-        if ( $used_pool{$_} eq $rustc_version ) {
-            printf
-              "\e[33;1m*\e[0m Used Crate: \e[34;1m%s\e[0m (\e[32;1mNEW\e[0m)\n",
-              $_;
-        }
-        else {
-            printf
-              "\e[33;1m*\e[0m Used Crate: \e[34;1m%s\e[0m (\e[32;1mNEW\e[0m)\n",
-              $_;
-
-        }
-    }
 
     -e "${work_dir}/target/debug"
       and system( "rm", "-r", "${work_dir}/target/debug" );
