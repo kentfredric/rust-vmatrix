@@ -11,39 +11,23 @@ my $rdb = resultdb->new();
 our $ROOT  = $rdb->root();
 our $CRATE = "gcc";
 $CRATE = $ENV{CRATE} if exists $ENV{CRATE} and length $ENV{CRATE};
-our $INFO_PREFIX = "rustc-";
+
+my $crateinfo = $rdb->crate_info($CRATE);
 
 my %versions;
 my %rustc_results;
 my (@order);
 my $crate_vspace = 0;
-for my $version ( @{ $rdb->crate_read_vjson($CRATE) } ) {
-    next if exists $version->{yanked} and $version->{yanked};
-    my $v = $version->{num};
-    if ( length $v > $crate_vspace ) {
-        $crate_vspace = length $v;
+for my $version ( @{ $crateinfo->versions } ) {
+    next if $crateinfo->is_yanked($version);
+    if ( length $version > $crate_vspace ) {
+        $crate_vspace = length $version;
     }
-    push @order, $v;
-    $versions{$v} = {} unless exists $versions{$v};
+    push @order, $version;
+    $versions{$version} = {} unless exists $versions{$version};
 }
-{
-    opendir my $dfh, "${ROOT}/${CRATE}"
-      or die "Can't opendir ${ROOT}/${CRATE}, $!";
-    while ( my $ent = readdir $dfh ) {
-        next if $ent eq '.';
-        next if $ent eq '..';
-        next unless $ent =~ /\A\Q$INFO_PREFIX\E(\d+.\d+.\d+)\z/;
-        my $rustc = $1;
-        my (@results) = get_versions("${ROOT}/${CRATE}/$ent");
-        $rustc_results{$rustc} = {} unless exists $rustc_results{$rustc};
-        for my $version (@results) {
-            my $v = $version->{version};
-            next unless exists $versions{$v};
-            $rustc_results{$rustc}{$v} = $version->{message};
-        }
-    }
-}
-my (@rustc_order) = sort { vsort( $a, $b ) } keys %rustc_results;
+
+my (@rustc_order) = sort { vsort( $a, $b ) } @{ $crateinfo->rustcs };
 
 # Create a rotated heading, lmao
 my $vspace = 0;
@@ -83,43 +67,21 @@ for (@vpad) {
 for my $version ( reverse @order ) {
     printf "%*s: ", $crate_vspace + 1, $version;
     for my $rustc (@rustc_order) {
-        if ( not exists $rustc_results{$rustc}{$version} ) {
+        my $result = $crateinfo->rustc_version_result( $rustc, $version );
+        if ( not length $result ) {
             print "?";
             next;
         }
-        if ( $rustc_results{$rustc}{$version} eq 'pass' ) {
+        if ( 'pass' eq $result ) {
             print "\e[32;1m*\e[0m";
             next;
         }
-        if ( $rustc_results{$rustc}{$version} eq 'fail' ) {
+        if ( 'fail' eq $result ) {
             print "\e[31m_\e[0m";
             next;
         }
     }
     print "\n";
-}
-
-sub get_versions {
-    my ($path) = @_;
-    open my $fh, "<", $path or die "can't read $path";
-    my @v;
-    while ( my $line = <$fh> ) {
-        chomp $line;
-        my ( $version, $message, @rest ) = split /[|]/, $line;
-        my $rec = { version => $version };
-        if ( defined $message and length $message ) {
-            $rec->{message} = $message;
-        }
-        if (@rest) {
-            $rec->{extras} = \@rest;
-        }
-        push @v, $rec;
-    }
-    return @v;
-}
-
-sub vsplit {
-    split /[.]/;
 }
 
 sub vsort {
