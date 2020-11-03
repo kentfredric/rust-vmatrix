@@ -1,0 +1,1675 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["NikVolf <nikvolf@gmail.com>"]}, "users": []},
+    "crate": "jsonrpc-tcp-server", "crate_size": null,
+    "created_at": "2017-02-16T13:49:05.880087+00:00",
+    "dependencies": [
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 168127, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 45583
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 168125, "kind": "normal",
+        "optional": false, "req": "^6.0", "target": null,
+        "version_id": 45583
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 168121, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 45583
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 168126, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 45583
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 168124, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 45583
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 168123, "kind": "normal", "optional": false,
+        "req": "^0.9", "target": null, "version_id": 45583
+      },
+      {
+        "crate_id": "tokio-core", "default_features": true, "downloads": 0,
+        "features": [], "id": 168122, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 45583
+      },
+      {
+        "crate_id": "tokio-proto", "default_features": true, "downloads": 0,
+        "features": [], "id": 168120, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 45583
+      },
+      {
+        "crate_id": "tokio-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 168128, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 45583
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-tcp-server/6.0.0/download",
+    "downloads": 461, "features": {"default": ["jsonrpc-core/reactor"]},
+    "id": 45583, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-tcp-server/6.0.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-tcp-server/6.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-tcp-server/6.0.0/downloads"
+    },
+    "num": "6.0.0", "published_by": null,
+    "readme_path": "/api/v1/crates/jsonrpc-tcp-server/6.0.0/readme",
+    "updated_at": "2017-11-30T03:33:08.092254+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["NikVolf <nikvolf@gmail.com>"]}, "users": []},
+    "crate": "jsonrpc-tcp-server", "crate_size": null,
+    "created_at": "2017-06-14T09:30:33.104486+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 223077, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 56703
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 223083, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 56703
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 223081, "kind": "normal",
+        "optional": false, "req": "^7.0", "target": null,
+        "version_id": 56703
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 223076, "kind": "normal",
+        "optional": false, "req": "^7.0", "target": null,
+        "version_id": 56703
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 223082, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 56703
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 223079, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 56703
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 223078, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 56703
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 223080, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 56703
+      },
+      {
+        "crate_id": "tokio-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 223075, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 56703
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-tcp-server/7.0.1/download",
+    "downloads": 316, "features": {}, "id": 56703, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-tcp-server/7.0.1/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-tcp-server/7.0.1/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-tcp-server/7.0.1/downloads"
+    },
+    "num": "7.0.1", "published_by": null,
+    "readme_path": "/api/v1/crates/jsonrpc-tcp-server/7.0.1/readme",
+    "updated_at": "2017-11-30T03:33:14.459390+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["NikVolf <nikvolf@gmail.com>"]}, "users": []},
+    "crate": "jsonrpc-tcp-server", "crate_size": null,
+    "created_at": "2017-08-10T09:31:30.159684+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 250983, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 62053
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 250986, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 62053
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 250982, "kind": "normal",
+        "optional": false, "req": "^7.1", "target": null,
+        "version_id": 62053
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 250978, "kind": "normal",
+        "optional": false, "req": "^7.1", "target": null,
+        "version_id": 62053
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 250985, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 62053
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 250980, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 62053
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 250984, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 62053
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 250979, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 62053
+      },
+      {
+        "crate_id": "tokio-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 250981, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 62053
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-tcp-server/7.1.0/download",
+    "downloads": 343, "features": {}, "id": 62053, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-tcp-server/7.1.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-tcp-server/7.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-tcp-server/7.1.0/downloads"
+    },
+    "num": "7.1.0", "published_by": null,
+    "readme_path": "/api/v1/crates/jsonrpc-tcp-server/7.1.0/readme",
+    "updated_at": "2017-11-30T03:07:53.425827+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["NikVolf <nikvolf@gmail.com>"]}, "users": []},
+    "crate": "jsonrpc-tcp-server", "crate_size": null,
+    "created_at": "2017-09-11T13:43:29.137660+00:00",
+    "dependencies": [
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 266207, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 65051
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 266201, "kind": "normal",
+        "optional": false, "req": "^7.1", "target": null,
+        "version_id": 65051
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 266205, "kind": "normal",
+        "optional": false, "req": "^7.1", "target": null,
+        "version_id": 65051
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 266206, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 65051
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 266202, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 65051
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 266204, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 65051
+      },
+      {
+        "crate_id": "tokio-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 266203, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 65051
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-tcp-server/7.1.1/download",
+    "downloads": 448, "features": {}, "id": 65051, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-tcp-server/7.1.1/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-tcp-server/7.1.1/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-tcp-server/7.1.1/downloads"
+    },
+    "num": "7.1.1", "published_by": null,
+    "readme_path": "/api/v1/crates/jsonrpc-tcp-server/7.1.1/readme",
+    "updated_at": "2017-11-30T03:50:42.537486+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["NikVolf <nikvolf@gmail.com>"]}, "users": []},
+    "crate": "jsonrpc-tcp-server", "crate_size": null,
+    "created_at": "2017-11-21T08:12:36.125147+00:00",
+    "dependencies": [
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 302089, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 71945
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 302085, "kind": "normal",
+        "optional": false, "req": "^8.0", "target": null,
+        "version_id": 71945
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 302088, "kind": "normal",
+        "optional": false, "req": "^8.0", "target": null,
+        "version_id": 71945
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 302090, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 71945
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 302084, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 71945
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 302087, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 71945
+      },
+      {
+        "crate_id": "tokio-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 302086, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 71945
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-tcp-server/8.0.0/download",
+    "downloads": 905, "features": {}, "id": 71945, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-tcp-server/8.0.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-tcp-server/8.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-tcp-server/8.0.0/downloads"
+    },
+    "num": "8.0.0", "published_by": null,
+    "readme_path": "/api/v1/crates/jsonrpc-tcp-server/8.0.0/readme",
+    "updated_at": "2017-11-30T03:09:17.063115+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["NikVolf <nikvolf@gmail.com>"]}, "users": []},
+    "crate": "jsonrpc-tcp-server", "crate_size": 7369,
+    "created_at": "2018-11-05T12:05:28.874252+00:00",
+    "dependencies": [
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 547021, "kind": "dev", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 116325
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 547016, "kind": "normal",
+        "optional": false, "req": "^9.0", "target": null,
+        "version_id": 116325
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 547017, "kind": "normal",
+        "optional": false, "req": "^9.0", "target": null,
+        "version_id": 116325
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 547022, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 116325
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 547018, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 116325
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 547019, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 116325
+      },
+      {
+        "crate_id": "tokio-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 547020, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 116325
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-tcp-server/9.0.0/download",
+    "downloads": 978, "features": {}, "id": 116325, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-tcp-server/9.0.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-tcp-server/9.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-tcp-server/9.0.0/downloads"
+    },
+    "num": "9.0.0", "published_by": null,
+    "readme_path": "/api/v1/crates/jsonrpc-tcp-server/9.0.0/readme",
+    "updated_at": "2018-11-05T12:05:28.874252+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["NikVolf <nikvolf@gmail.com>"]}, "users": []},
+    "crate": "jsonrpc-tcp-server", "crate_size": 7288,
+    "created_at": "2019-01-31T12:14:47.635783+00:00",
+    "dependencies": [
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 628971, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 131069
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 628966, "kind": "normal",
+        "optional": false, "req": "^10.0", "target": null,
+        "version_id": 131069
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 628967, "kind": "normal",
+        "optional": false, "req": "^10.0", "target": null,
+        "version_id": 131069
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 628972, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 131069
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 628968, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 131069
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 628969, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 131069
+      },
+      {
+        "crate_id": "tokio-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 628970, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 131069
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-tcp-server/10.0.0/download",
+    "downloads": 181, "features": {}, "id": 131069, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-tcp-server/10.0.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-tcp-server/10.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-tcp-server/10.0.0/downloads"
+    },
+    "num": "10.0.0", "published_by": null,
+    "readme_path": "/api/v1/crates/jsonrpc-tcp-server/10.0.0/readme",
+    "updated_at": "2019-01-31T12:14:47.635783+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-tcp-server", "crate_size": 7298,
+    "created_at": "2019-01-31T14:36:55.601309+00:00",
+    "dependencies": [
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 629177, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 131100
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 629172, "kind": "normal",
+        "optional": false, "req": "^10.0", "target": null,
+        "version_id": 131100
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 629173, "kind": "normal",
+        "optional": false, "req": "^10.0", "target": null,
+        "version_id": 131100
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 629178, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 131100
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 629174, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 131100
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 629175, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 131100
+      },
+      {
+        "crate_id": "tokio-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 629176, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 131100
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-tcp-server/10.0.1/download",
+    "downloads": 7169, "features": {}, "id": 131100, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-tcp-server/10.0.1/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-tcp-server/10.0.1/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-tcp-server/10.0.1/downloads"
+    },
+    "num": "10.0.1", "published_by": null,
+    "readme_path": "/api/v1/crates/jsonrpc-tcp-server/10.0.1/readme",
+    "updated_at": "2019-01-31T14:36:55.601309+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-tcp-server", "crate_size": 7311,
+    "created_at": "2019-02-13T08:32:08.404214+00:00",
+    "dependencies": [
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 642651, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 133533
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 642646, "kind": "normal",
+        "optional": false, "req": "^10.1", "target": null,
+        "version_id": 133533
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 642647, "kind": "normal",
+        "optional": false, "req": "^10.1", "target": null,
+        "version_id": 133533
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 642652, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 133533
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 642648, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 133533
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 642649, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 133533
+      },
+      {
+        "crate_id": "tokio-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 642650, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 133533
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-tcp-server/10.1.0/download",
+    "downloads": 4522, "features": {}, "id": 133533, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-tcp-server/10.1.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-tcp-server/10.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-tcp-server/10.1.0/downloads"
+    },
+    "num": "10.1.0", "published_by": null,
+    "readme_path": "/api/v1/crates/jsonrpc-tcp-server/10.1.0/readme",
+    "updated_at": "2019-02-13T08:32:08.404214+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-tcp-server", "crate_size": 7198,
+    "created_at": "2019-04-05T09:41:43.274224+00:00",
+    "dependencies": [
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 697368, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 143274
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 697363, "kind": "normal",
+        "optional": false, "req": "^11.0", "target": null,
+        "version_id": 143274
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 697364, "kind": "normal",
+        "optional": false, "req": "^11.0", "target": null,
+        "version_id": 143274
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 697369, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 143274
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 697365, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 143274
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 697366, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 143274
+      },
+      {
+        "crate_id": "tokio-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 697367, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 143274
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-tcp-server/11.0.0/download",
+    "downloads": 930, "features": {}, "id": 143274, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-tcp-server/11.0.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-tcp-server/11.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-tcp-server/11.0.0/downloads"
+    },
+    "num": "11.0.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/75586?v=4",
+      "id": 22071, "login": "ascjones", "name": "Andrew Jones",
+      "url": "https://github.com/ascjones"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-tcp-server/11.0.0/readme",
+    "updated_at": "2019-04-05T09:41:43.274224+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-tcp-server", "crate_size": 7464,
+    "created_at": "2019-06-04T09:59:45.154897+00:00",
+    "dependencies": [
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 762984, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 154406
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 762979, "kind": "normal",
+        "optional": false, "req": "^12.0", "target": null,
+        "version_id": 154406
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 762980, "kind": "normal",
+        "optional": false, "req": "^12.0", "target": null,
+        "version_id": 154406
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 762985, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 154406
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 762981, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 154406
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 762982, "kind": "normal", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 154406
+      },
+      {
+        "crate_id": "tokio-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 762983, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 154406
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-tcp-server/12.0.0/download",
+    "downloads": 2743, "features": {}, "id": 154406, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-tcp-server/12.0.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-tcp-server/12.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-tcp-server/12.0.0/downloads"
+    },
+    "num": "12.0.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/581548?v=4",
+      "id": 4242, "login": "tomusdrw", "name": "Tomasz DrwiÄga",
+      "url": "https://github.com/tomusdrw"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-tcp-server/12.0.0/readme",
+    "updated_at": "2019-06-04T09:59:45.154897+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-tcp-server", "crate_size": 7497,
+    "created_at": "2019-07-08T14:08:02.744189+00:00",
+    "dependencies": [
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 813249, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 161770
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 813244, "kind": "normal",
+        "optional": false, "req": "^12.1", "target": null,
+        "version_id": 161770
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 813245, "kind": "normal",
+        "optional": false, "req": "^12.1", "target": null,
+        "version_id": 161770
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 813250, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 161770
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 813246, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 161770
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 813247, "kind": "normal", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 161770
+      },
+      {
+        "crate_id": "tokio-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 813248, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 161770
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-tcp-server/12.1.0/download",
+    "downloads": 668, "features": {}, "id": 161770, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-tcp-server/12.1.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-tcp-server/12.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-tcp-server/12.1.0/downloads"
+    },
+    "num": "12.1.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/75586?v=4",
+      "id": 22071, "login": "ascjones", "name": "Andrew Jones",
+      "url": "https://github.com/ascjones"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-tcp-server/12.1.0/readme",
+    "updated_at": "2019-07-08T14:08:02.744189+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-tcp-server", "crate_size": 7491,
+    "created_at": "2019-07-30T08:14:30.792375+00:00",
+    "dependencies": [
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 842099, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 166237
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 842094, "kind": "normal",
+        "optional": false, "req": "^12.2", "target": null,
+        "version_id": 166237
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 842095, "kind": "normal",
+        "optional": false, "req": "^12.2", "target": null,
+        "version_id": 166237
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 842100, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 166237
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 842096, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 166237
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 842097, "kind": "normal", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 166237
+      },
+      {
+        "crate_id": "tokio-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 842098, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 166237
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-tcp-server/12.2.0/download",
+    "downloads": 1008, "features": {}, "id": 166237, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-tcp-server/12.2.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-tcp-server/12.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-tcp-server/12.2.0/downloads"
+    },
+    "num": "12.2.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/581548?v=4",
+      "id": 4242, "login": "tomusdrw", "name": "Tomasz DrwiÄga",
+      "url": "https://github.com/tomusdrw"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-tcp-server/12.2.0/readme",
+    "updated_at": "2019-07-30T08:14:30.792375+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-tcp-server", "crate_size": 7494,
+    "created_at": "2019-07-29T09:54:43.345714+00:00",
+    "dependencies": [
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 840552, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 166007
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 840547, "kind": "normal",
+        "optional": false, "req": "^13.0", "target": null,
+        "version_id": 166007
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 840548, "kind": "normal",
+        "optional": false, "req": "^13.0", "target": null,
+        "version_id": 166007
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 840553, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 166007
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 840549, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 166007
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 840550, "kind": "normal", "optional": false,
+        "req": "^0.9", "target": null, "version_id": 166007
+      },
+      {
+        "crate_id": "tokio-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 840551, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 166007
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-tcp-server/13.0.0/download",
+    "downloads": 339, "features": {}, "id": 166007, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-tcp-server/13.0.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-tcp-server/13.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-tcp-server/13.0.0/downloads"
+    },
+    "num": "13.0.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/581548?v=4",
+      "id": 4242, "login": "tomusdrw", "name": "Tomasz DrwiÄga",
+      "url": "https://github.com/tomusdrw"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-tcp-server/13.0.0/readme",
+    "updated_at": "2019-07-29T09:54:43.345714+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-tcp-server", "crate_size": 7495,
+    "created_at": "2019-08-26T12:29:27.345832+00:00",
+    "dependencies": [
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 878016, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 171942
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 878011, "kind": "normal",
+        "optional": false, "req": "^13.1", "target": null,
+        "version_id": 171942
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 878012, "kind": "normal",
+        "optional": false, "req": "^13.1", "target": null,
+        "version_id": 171942
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 878017, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 171942
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 878013, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 171942
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 878014, "kind": "normal", "optional": false,
+        "req": "^0.9", "target": null, "version_id": 171942
+      },
+      {
+        "crate_id": "tokio-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 878015, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 171942
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-tcp-server/13.1.0/download",
+    "downloads": 275, "features": {}, "id": 171942, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-tcp-server/13.1.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-tcp-server/13.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-tcp-server/13.1.0/downloads"
+    },
+    "num": "13.1.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/581548?v=4",
+      "id": 4242, "login": "tomusdrw", "name": "Tomasz DrwiÄga",
+      "url": "https://github.com/tomusdrw"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-tcp-server/13.1.0/readme",
+    "updated_at": "2019-08-26T12:29:27.345832+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-tcp-server", "crate_size": 15053,
+    "created_at": "2019-09-13T11:56:26.717183+00:00",
+    "dependencies": [
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 903239, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 175992
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 903234, "kind": "normal",
+        "optional": false, "req": "^13.2", "target": null,
+        "version_id": 175992
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 903235, "kind": "normal",
+        "optional": false, "req": "^13.2", "target": null,
+        "version_id": 175992
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 903240, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 175992
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 903236, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 175992
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 903237, "kind": "normal", "optional": false,
+        "req": "^0.9", "target": null, "version_id": 175992
+      },
+      {
+        "crate_id": "tokio-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 903238, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 175992
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-tcp-server/13.2.0/download",
+    "downloads": 733, "features": {}, "id": 175992, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-tcp-server/13.2.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-tcp-server/13.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-tcp-server/13.2.0/downloads"
+    },
+    "num": "13.2.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/581548?v=4",
+      "id": 4242, "login": "tomusdrw", "name": "Tomasz DrwiÄga",
+      "url": "https://github.com/tomusdrw"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-tcp-server/13.2.0/readme",
+    "updated_at": "2019-09-13T11:56:26.717183+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-tcp-server", "crate_size": 13796,
+    "created_at": "2019-10-09T12:28:56.334615+00:00",
+    "dependencies": [
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 937403, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 181444
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 937398, "kind": "normal",
+        "optional": false, "req": "^14.0", "target": null,
+        "version_id": 181444
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 937399, "kind": "normal",
+        "optional": false, "req": "^14.0", "target": null,
+        "version_id": 181444
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 937404, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 181444
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 937400, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 181444
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 937401, "kind": "normal", "optional": false,
+        "req": "^0.9", "target": null, "version_id": 181444
+      },
+      {
+        "crate_id": "tokio-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 937402, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 181444
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-tcp-server/14.0.0/download",
+    "downloads": 871, "features": {}, "id": 181444, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-tcp-server/14.0.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-tcp-server/14.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-tcp-server/14.0.0/downloads"
+    },
+    "num": "14.0.0",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/18515?v=4",
+      "id": 11797, "login": "dvdplm", "name": "David",
+      "url": "https://github.com/dvdplm"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-tcp-server/14.0.0/readme",
+    "updated_at": "2019-10-09T12:28:56.334615+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-tcp-server", "crate_size": 13910,
+    "created_at": "2019-10-18T17:19:59.960507+00:00",
+    "dependencies": [
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 951497, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 183557
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 951492, "kind": "normal",
+        "optional": false, "req": "^14.0", "target": null,
+        "version_id": 183557
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 951493, "kind": "normal",
+        "optional": false, "req": "^14.0", "target": null,
+        "version_id": 183557
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 951498, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 183557
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 951494, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 183557
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 951495, "kind": "normal", "optional": false,
+        "req": "^0.9", "target": null, "version_id": 183557
+      },
+      {
+        "crate_id": "tokio-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 951496, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 183557
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-tcp-server/14.0.1/download",
+    "downloads": 653, "features": {}, "id": 183557, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-tcp-server/14.0.1/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-tcp-server/14.0.1/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-tcp-server/14.0.1/downloads"
+    },
+    "num": "14.0.1",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/18515?v=4",
+      "id": 11797, "login": "dvdplm", "name": "David",
+      "url": "https://github.com/dvdplm"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-tcp-server/14.0.1/readme",
+    "updated_at": "2019-10-18T17:19:59.960507+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-tcp-server", "crate_size": 13915,
+    "created_at": "2019-10-25T07:42:02.424041+00:00",
+    "dependencies": [
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 960979, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 184934
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 960974, "kind": "normal",
+        "optional": false, "req": "^14.0", "target": null,
+        "version_id": 184934
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 960975, "kind": "normal",
+        "optional": false, "req": "^14.0", "target": null,
+        "version_id": 184934
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 960980, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 184934
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 960976, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 184934
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 960977, "kind": "normal", "optional": false,
+        "req": "^0.9", "target": null, "version_id": 184934
+      },
+      {
+        "crate_id": "tokio-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 960978, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 184934
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-tcp-server/14.0.2/download",
+    "downloads": 108, "features": {}, "id": 184934, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-tcp-server/14.0.2/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-tcp-server/14.0.2/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-tcp-server/14.0.2/downloads"
+    },
+    "num": "14.0.2",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/581548?v=4",
+      "id": 4242, "login": "tomusdrw", "name": "Tomasz DrwiÄga",
+      "url": "https://github.com/tomusdrw"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-tcp-server/14.0.2/readme",
+    "updated_at": "2019-10-25T07:42:02.424041+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-tcp-server", "crate_size": 13914,
+    "created_at": "2019-10-25T12:50:05.586587+00:00",
+    "dependencies": [
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 961351, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 184988
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 961346, "kind": "normal",
+        "optional": false, "req": "^14.0", "target": null,
+        "version_id": 184988
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 961347, "kind": "normal",
+        "optional": false, "req": "^14.0", "target": null,
+        "version_id": 184988
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 961352, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 184988
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 961348, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 184988
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 961349, "kind": "normal", "optional": false,
+        "req": "^0.9", "target": null, "version_id": 184988
+      },
+      {
+        "crate_id": "tokio-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 961350, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 184988
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-tcp-server/14.0.3/download",
+    "downloads": 8154, "features": {}, "id": 184988, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-tcp-server/14.0.3/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-tcp-server/14.0.3/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-tcp-server/14.0.3/downloads"
+    },
+    "num": "14.0.3",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/581548?v=4",
+      "id": 4242, "login": "tomusdrw", "name": "Tomasz DrwiÄga",
+      "url": "https://github.com/tomusdrw"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-tcp-server/14.0.3/readme",
+    "updated_at": "2019-10-25T12:50:05.586587+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-tcp-server", "crate_size": 14022,
+    "created_at": "2019-11-28T13:36:26.165462+00:00",
+    "dependencies": [
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1015291, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 192834
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 1015286, "kind": "normal",
+        "optional": false, "req": "^14.0", "target": null,
+        "version_id": 192834
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 1015287, "kind": "normal",
+        "optional": false, "req": "^14.0", "target": null,
+        "version_id": 192834
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1015292, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 192834
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1015288, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 192834
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 1015289, "kind": "normal", "optional": false,
+        "req": "^0.9", "target": null, "version_id": 192834
+      },
+      {
+        "crate_id": "tokio-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 1015290, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 192834
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-tcp-server/14.0.5/download",
+    "downloads": 6314, "features": {}, "id": 192834, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-tcp-server/14.0.5/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-tcp-server/14.0.5/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-tcp-server/14.0.5/downloads"
+    },
+    "num": "14.0.5",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/581548?v=4",
+      "id": 4242, "login": "tomusdrw", "name": "Tomasz DrwiÄga",
+      "url": "https://github.com/tomusdrw"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-tcp-server/14.0.5/readme",
+    "updated_at": "2019-11-28T13:36:26.165462+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-02-07T15:28:42.234746+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/4211399?v=4",
+          "id": 7434, "login": "ordian", "name": "Andronik Ordian",
+          "url": "https://github.com/ordian"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-tcp-server", "crate_size": 13341,
+    "created_at": "2020-02-07T15:28:42.234746+00:00",
+    "dependencies": [
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1135637, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 210271
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 1135632, "kind": "normal",
+        "optional": false, "req": "^14.0", "target": null,
+        "version_id": 210271
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 1135633, "kind": "normal",
+        "optional": false, "req": "^14.0", "target": null,
+        "version_id": 210271
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1135638, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 210271
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1135634, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 210271
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 1135635, "kind": "normal", "optional": false,
+        "req": "^0.10.0", "target": null, "version_id": 210271
+      },
+      {
+        "crate_id": "tokio-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 1135636, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 210271
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-tcp-server/14.0.6/download",
+    "downloads": 9571, "features": {}, "id": 210271, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-tcp-server/14.0.6/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-tcp-server/14.0.6/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-tcp-server/14.0.6/downloads"
+    },
+    "num": "14.0.6",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/4211399?v=4",
+      "id": 7434, "login": "ordian", "name": "Andronik Ordian",
+      "url": "https://github.com/ordian"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-tcp-server/14.0.6/readme",
+    "updated_at": "2020-02-07T15:28:42.234746+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-04-14T10:10:14.043278+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/75586?v=4",
+          "id": 22071, "login": "ascjones", "name": "Andrew Jones",
+          "url": "https://github.com/ascjones"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-tcp-server", "crate_size": 13326,
+    "created_at": "2020-04-14T10:10:14.043278+00:00",
+    "dependencies": [
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1292458, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 231112
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 1292453, "kind": "normal",
+        "optional": false, "req": "^14.1", "target": null,
+        "version_id": 231112
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 1292454, "kind": "normal",
+        "optional": false, "req": "^14.1", "target": null,
+        "version_id": 231112
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1292459, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 231112
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1292455, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 231112
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 1292456, "kind": "normal", "optional": false,
+        "req": "^0.10.0", "target": null, "version_id": 231112
+      },
+      {
+        "crate_id": "tokio-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 1292457, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 231112
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-tcp-server/14.1.0/download",
+    "downloads": 11839, "features": {}, "id": 231112, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-tcp-server/14.1.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-tcp-server/14.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-tcp-server/14.1.0/downloads"
+    },
+    "num": "14.1.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/75586?v=4",
+      "id": 22071, "login": "ascjones", "name": "Andrew Jones",
+      "url": "https://github.com/ascjones"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-tcp-server/14.1.0/readme",
+    "updated_at": "2020-04-14T10:10:14.043278+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-06-03T11:06:23.352318+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/581548?v=4",
+          "id": 4242, "login": "tomusdrw", "name": "Tomasz DrwiÄga",
+          "url": "https://github.com/tomusdrw"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-tcp-server", "crate_size": 13312,
+    "created_at": "2020-06-03T11:06:23.352318+00:00",
+    "dependencies": [
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1419600, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 248469
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 1419595, "kind": "normal",
+        "optional": false, "req": "^14.2", "target": null,
+        "version_id": 248469
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 1419596, "kind": "normal",
+        "optional": false, "req": "^14.2", "target": null,
+        "version_id": 248469
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1419601, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 248469
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1419597, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 248469
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 1419598, "kind": "normal", "optional": false,
+        "req": "^0.10.0", "target": null, "version_id": 248469
+      },
+      {
+        "crate_id": "tokio-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 1419599, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 248469
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-tcp-server/14.2.0/download",
+    "downloads": 973, "features": {}, "id": 248469, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-tcp-server/14.2.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-tcp-server/14.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-tcp-server/14.2.0/downloads"
+    },
+    "num": "14.2.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/581548?v=4",
+      "id": 4242, "login": "tomusdrw", "name": "Tomasz DrwiÄga",
+      "url": "https://github.com/tomusdrw"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-tcp-server/14.2.0/readme",
+    "updated_at": "2020-06-03T11:06:23.352318+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-09-18T19:07:16.869291+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/1096222?v=4",
+          "id": 3670, "login": "maciejhirsz", "name": "Maciej Hirsz",
+          "url": "https://github.com/maciejhirsz"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-tcp-server", "crate_size": 13319,
+    "created_at": "2020-09-18T19:07:16.869291+00:00",
+    "dependencies": [
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1696035, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 285019
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 1696030, "kind": "normal",
+        "optional": false, "req": "^15.0", "target": null,
+        "version_id": 285019
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 1696031, "kind": "normal",
+        "optional": false, "req": "^15.0", "target": null,
+        "version_id": 285019
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1696036, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 285019
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1696032, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 285019
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 1696033, "kind": "normal", "optional": false,
+        "req": "^0.10.0", "target": null, "version_id": 285019
+      },
+      {
+        "crate_id": "tokio-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 1696034, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 285019
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-tcp-server/15.0.0/download",
+    "downloads": 1131, "features": {}, "id": 285019, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-tcp-server/15.0.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-tcp-server/15.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-tcp-server/15.0.0/downloads"
+    },
+    "num": "15.0.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/1096222?v=4",
+      "id": 3670, "login": "maciejhirsz", "name": "Maciej Hirsz",
+      "url": "https://github.com/maciejhirsz"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-tcp-server/15.0.0/readme",
+    "updated_at": "2020-09-18T19:07:16.869291+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-09-30T11:45:19.787985+00:00",
+        "user": {
+          "avatar": "https://avatars2.githubusercontent.com/u/18515?v=4",
+          "id": 11797, "login": "dvdplm", "name": "David",
+          "url": "https://github.com/dvdplm"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-tcp-server", "crate_size": 13304,
+    "created_at": "2020-09-30T11:45:19.787985+00:00",
+    "dependencies": [
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1725406, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 288946
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 1725401, "kind": "normal",
+        "optional": false, "req": "^15.1.0", "target": null,
+        "version_id": 288946
+      },
+      {
+        "crate_id": "jsonrpc-server-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 1725402, "kind": "normal",
+        "optional": false, "req": "^15.1.0", "target": null,
+        "version_id": 288946
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1725407, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 288946
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1725403, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 288946
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 1725404, "kind": "normal", "optional": false,
+        "req": "^0.10.0", "target": null, "version_id": 288946
+      },
+      {
+        "crate_id": "tokio-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 1725405, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 288946
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-tcp-server/15.1.0/download",
+    "downloads": 334, "features": {}, "id": 288946, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-tcp-server/15.1.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-tcp-server/15.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-tcp-server/15.1.0/downloads"
+    },
+    "num": "15.1.0",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/18515?v=4",
+      "id": 11797, "login": "dvdplm", "name": "David",
+      "url": "https://github.com/dvdplm"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-tcp-server/15.1.0/readme",
+    "updated_at": "2020-09-30T11:45:19.787985+00:00", "yanked": false
+  }
+]

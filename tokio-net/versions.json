@@ -1,0 +1,827 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["Carl Lerche <me@carllerche.com>"]}, "users": []},
+    "crate": "tokio-net", "crate_size": null,
+    "created_at": "2018-02-01T17:45:18.915708+00:00",
+    "dependencies": [],
+    "dl_path": "/api/v1/crates/tokio-net/0.0.0/download",
+    "downloads": 569, "features": {}, "id": 79491, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tokio-net/0.0.0/authors",
+      "dependencies": "/api/v1/crates/tokio-net/0.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/tokio-net/0.0.0/downloads"
+    },
+    "num": "0.0.0", "published_by": null,
+    "readme_path": "/api/v1/crates/tokio-net/0.0.0/readme",
+    "updated_at": "2018-02-01T17:45:18.915708+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Tokio Contributors <team@tokio.rs>"]},
+      "users": []
+    },
+    "crate": "tokio-net", "crate_size": 54477,
+    "created_at": "2019-08-18T07:48:29.893459+00:00",
+    "dependencies": [
+      {
+        "crate_id": "crossbeam-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 867378, "kind": "normal",
+        "optional": false, "req": "^0.6.0", "target": null,
+        "version_id": 170290
+      },
+      {
+        "crate_id": "futures-core-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 867379, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.18", "target": null,
+        "version_id": 170290
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 867383, "kind": "normal", "optional": false,
+        "req": "^1.0.2", "target": null, "version_id": 170290
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 867384, "kind": "normal", "optional": false,
+        "req": "^0.4.6", "target": null, "version_id": 170290
+      },
+      {
+        "crate_id": "mio", "default_features": true, "downloads": 0,
+        "features": [], "id": 867385, "kind": "normal", "optional": false,
+        "req": "^0.6.14", "target": null, "version_id": 170290
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 867386, "kind": "normal", "optional": false,
+        "req": "^1.8.0", "target": null, "version_id": 170290
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 867387, "kind": "normal", "optional": false,
+        "req": "^0.9", "target": null, "version_id": 170290
+      },
+      {
+        "crate_id": "slab", "default_features": true, "downloads": 0,
+        "features": [], "id": 867388, "kind": "normal", "optional": false,
+        "req": "^0.4.0", "target": null, "version_id": 170290
+      },
+      {
+        "crate_id": "tokio-codec", "default_features": true, "downloads": 0,
+        "features": [], "id": 867389, "kind": "normal", "optional": false,
+        "req": "=0.2.0-alpha.2", "target": null, "version_id": 170290
+      },
+      {
+        "crate_id": "tokio-executor", "default_features": true,
+        "downloads": 0, "features": [], "id": 867390, "kind": "normal",
+        "optional": false, "req": "=0.2.0-alpha.2", "target": null,
+        "version_id": 170290
+      },
+      {
+        "crate_id": "tokio-io", "default_features": true, "downloads": 0,
+        "features": [], "id": 867391, "kind": "normal", "optional": false,
+        "req": "=0.2.0-alpha.2", "target": null, "version_id": 170290
+      },
+      {
+        "crate_id": "tokio-sync", "default_features": true, "downloads": 0,
+        "features": [], "id": 867392, "kind": "normal", "optional": false,
+        "req": "=0.2.0-alpha.2", "target": null, "version_id": 170290
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 867377, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 170290
+      },
+      {
+        "crate_id": "futures-sink-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 867380, "kind": "normal",
+        "optional": true, "req": "=0.3.0-alpha.18", "target": null,
+        "version_id": 170290
+      },
+      {
+        "crate_id": "futures-util-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 867381, "kind": "normal",
+        "optional": true, "req": "=0.3.0-alpha.18", "target": null,
+        "version_id": 170290
+      },
+      {
+        "crate_id": "iovec", "default_features": true, "downloads": 0,
+        "features": [], "id": 867382, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 170290
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 867393, "kind": "normal", "optional": true,
+        "req": "^0.2.42", "target": "cfg(unix)", "version_id": 170290
+      },
+      {
+        "crate_id": "mio-uds", "default_features": true, "downloads": 0,
+        "features": [], "id": 867394, "kind": "normal", "optional": true,
+        "req": "^0.6.5", "target": "cfg(unix)", "version_id": 170290
+      },
+      {
+        "crate_id": "signal-hook-registry", "default_features": true,
+        "downloads": 0, "features": [], "id": 867395, "kind": "normal",
+        "optional": true, "req": "~1", "target": "cfg(unix)",
+        "version_id": 170290
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["consoleapi", "minwindef", "wincon"], "id": 867396,
+        "kind": "normal", "optional": true, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 170290
+      }
+    ],
+    "dl_path": "/api/v1/crates/tokio-net/0.2.0-alpha.2/download",
+    "downloads": 3248,
+    "features": {
+      "async-traits": [],
+      "signal": [
+        "futures-util-preview", "mio-uds", "libc", "signal-hook-registry",
+        "winapi"
+      ],
+      "tcp": ["bytes", "futures-util-preview", "iovec"],
+      "udp": ["bytes", "futures-sink-preview", "futures-util-preview"],
+      "uds": ["bytes", "mio-uds", "futures-util-preview", "iovec", "libc"]
+    },
+    "id": 170290, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tokio-net/0.2.0-alpha.2/authors",
+      "dependencies": "/api/v1/crates/tokio-net/0.2.0-alpha.2/dependencies",
+      "version_downloads": "/api/v1/crates/tokio-net/0.2.0-alpha.2/downloads"
+    },
+    "num": "0.2.0-alpha.2",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/6180?v=4",
+      "id": 10, "login": "carllerche", "name": "Carl Lerche",
+      "url": "https://github.com/carllerche"
+    },
+    "readme_path": "/api/v1/crates/tokio-net/0.2.0-alpha.2/readme",
+    "updated_at": "2019-08-18T07:48:29.893459+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Tokio Contributors <team@tokio.rs>"]},
+      "users": []
+    },
+    "crate": "tokio-net", "crate_size": 76496,
+    "created_at": "2019-08-28T22:09:04.506810+00:00",
+    "dependencies": [
+      {
+        "crate_id": "crossbeam-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 881830, "kind": "normal",
+        "optional": false, "req": "^0.6.0", "target": null,
+        "version_id": 172513
+      },
+      {
+        "crate_id": "futures-core-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 881831, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.18", "target": null,
+        "version_id": 172513
+      },
+      {
+        "crate_id": "futures-util-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 881833, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.18", "target": null,
+        "version_id": 172513
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 881835, "kind": "normal", "optional": false,
+        "req": "^1.0.2", "target": null, "version_id": 172513
+      },
+      {
+        "crate_id": "mio", "default_features": true, "downloads": 0,
+        "features": [], "id": 881836, "kind": "normal", "optional": false,
+        "req": "^0.6.14", "target": null, "version_id": 172513
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 881837, "kind": "normal", "optional": false,
+        "req": "^1.8.0", "target": null, "version_id": 172513
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 881838, "kind": "normal", "optional": false,
+        "req": "^0.9", "target": null, "version_id": 172513
+      },
+      {
+        "crate_id": "slab", "default_features": true, "downloads": 0,
+        "features": [], "id": 881839, "kind": "normal", "optional": false,
+        "req": "^0.4.0", "target": null, "version_id": 172513
+      },
+      {
+        "crate_id": "tokio-codec", "default_features": true, "downloads": 0,
+        "features": [], "id": 881840, "kind": "normal", "optional": false,
+        "req": "=0.2.0-alpha.3", "target": null, "version_id": 172513
+      },
+      {
+        "crate_id": "tokio-executor", "default_features": true,
+        "downloads": 0, "features": ["blocking"], "id": 881841,
+        "kind": "normal", "optional": false, "req": "=0.2.0-alpha.3",
+        "target": null, "version_id": 172513
+      },
+      {
+        "crate_id": "tokio-io", "default_features": true, "downloads": 0,
+        "features": [], "id": 881842, "kind": "normal", "optional": false,
+        "req": "=0.2.0-alpha.3", "target": null, "version_id": 172513
+      },
+      {
+        "crate_id": "tokio-sync", "default_features": true, "downloads": 0,
+        "features": [], "id": 881843, "kind": "normal", "optional": false,
+        "req": "=0.2.0-alpha.3", "target": null, "version_id": 172513
+      },
+      {
+        "crate_id": "tracing", "default_features": true, "downloads": 0,
+        "features": ["log"], "id": 881845, "kind": "normal",
+        "optional": false, "req": "^0.1.5", "target": "cfg(test)",
+        "version_id": 172513
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 881829, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 172513
+      },
+      {
+        "crate_id": "crossbeam-queue", "default_features": true,
+        "downloads": 0, "features": [], "id": 881846, "kind": "normal",
+        "optional": true, "req": "^0.1.2", "target": "cfg(unix)",
+        "version_id": 172513
+      },
+      {
+        "crate_id": "futures-sink-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 881832, "kind": "normal",
+        "optional": true, "req": "=0.3.0-alpha.18", "target": null,
+        "version_id": 172513
+      },
+      {
+        "crate_id": "iovec", "default_features": true, "downloads": 0,
+        "features": [], "id": 881834, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 172513
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 881847, "kind": "normal", "optional": true,
+        "req": "^0.2.42", "target": "cfg(unix)", "version_id": 172513
+      },
+      {
+        "crate_id": "mio-named-pipes", "default_features": true,
+        "downloads": 0, "features": [], "id": 881850, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": "cfg(windows)",
+        "version_id": 172513
+      },
+      {
+        "crate_id": "mio-uds", "default_features": true, "downloads": 0,
+        "features": [], "id": 881848, "kind": "normal", "optional": true,
+        "req": "^0.6.5", "target": "cfg(unix)", "version_id": 172513
+      },
+      {
+        "crate_id": "signal-hook-registry", "default_features": true,
+        "downloads": 0, "features": [], "id": 881849, "kind": "normal",
+        "optional": true, "req": "~1", "target": "cfg(unix)",
+        "version_id": 172513
+      },
+      {
+        "crate_id": "tracing", "default_features": true, "downloads": 0,
+        "features": [], "id": 881844, "kind": "normal", "optional": true,
+        "req": "^0.1.5", "target": null, "version_id": 172513
+      },
+      {
+        "crate_id": "winapi", "default_features": false, "downloads": 0,
+        "features": [], "id": 881851, "kind": "normal", "optional": true,
+        "req": "^0.3", "target": "cfg(windows)", "version_id": 172513
+      }
+    ],
+    "dl_path": "/api/v1/crates/tokio-net/0.2.0-alpha.3/download",
+    "downloads": 526,
+    "features": {
+      "async-traits": [], "log": ["tracing/log"],
+      "process": [
+        "crossbeam-queue", "libc", "mio-named-pipes", "signal",
+        "winapi/handleapi", "winapi/winerror", "winapi/minwindef",
+        "winapi/processthreadsapi", "winapi/synchapi",
+        "winapi/threadpoollegacyapiset", "winapi/winbase", "winapi/winnt"
+      ],
+      "signal": [
+        "mio-uds", "libc", "signal-hook-registry", "winapi/consoleapi",
+        "winapi/minwindef", "winapi/wincon"
+      ],
+      "tcp": ["bytes", "iovec"], "udp": ["bytes", "futures-sink-preview"],
+      "uds": ["bytes", "mio-uds", "iovec", "libc"]
+    },
+    "id": 172513, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tokio-net/0.2.0-alpha.3/authors",
+      "dependencies": "/api/v1/crates/tokio-net/0.2.0-alpha.3/dependencies",
+      "version_downloads": "/api/v1/crates/tokio-net/0.2.0-alpha.3/downloads"
+    },
+    "num": "0.2.0-alpha.3",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/6180?v=4",
+      "id": 10, "login": "carllerche", "name": "Carl Lerche",
+      "url": "https://github.com/carllerche"
+    },
+    "readme_path": "/api/v1/crates/tokio-net/0.2.0-alpha.3/readme",
+    "updated_at": "2019-08-28T22:09:04.506810+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Tokio Contributors <team@tokio.rs>"]},
+      "users": []
+    },
+    "crate": "tokio-net", "crate_size": 76694,
+    "created_at": "2019-08-29T20:04:45.601203+00:00",
+    "dependencies": [
+      {
+        "crate_id": "crossbeam-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 882986, "kind": "normal",
+        "optional": false, "req": "^0.6.0", "target": null,
+        "version_id": 172709
+      },
+      {
+        "crate_id": "futures-core-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 882987, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.18", "target": null,
+        "version_id": 172709
+      },
+      {
+        "crate_id": "futures-util-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 882989, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.18", "target": null,
+        "version_id": 172709
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 882991, "kind": "normal", "optional": false,
+        "req": "^1.0.2", "target": null, "version_id": 172709
+      },
+      {
+        "crate_id": "mio", "default_features": true, "downloads": 0,
+        "features": [], "id": 882992, "kind": "normal", "optional": false,
+        "req": "^0.6.14", "target": null, "version_id": 172709
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 882993, "kind": "normal", "optional": false,
+        "req": "^1.8.0", "target": null, "version_id": 172709
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 882994, "kind": "normal", "optional": false,
+        "req": "^0.9", "target": null, "version_id": 172709
+      },
+      {
+        "crate_id": "slab", "default_features": true, "downloads": 0,
+        "features": [], "id": 882995, "kind": "normal", "optional": false,
+        "req": "^0.4.0", "target": null, "version_id": 172709
+      },
+      {
+        "crate_id": "tokio-codec", "default_features": true, "downloads": 0,
+        "features": [], "id": 882996, "kind": "normal", "optional": false,
+        "req": "=0.2.0-alpha.4", "target": null, "version_id": 172709
+      },
+      {
+        "crate_id": "tokio-executor", "default_features": true,
+        "downloads": 0, "features": ["blocking"], "id": 882997,
+        "kind": "normal", "optional": false, "req": "=0.2.0-alpha.4",
+        "target": null, "version_id": 172709
+      },
+      {
+        "crate_id": "tokio-io", "default_features": true, "downloads": 0,
+        "features": [], "id": 882998, "kind": "normal", "optional": false,
+        "req": "=0.2.0-alpha.4", "target": null, "version_id": 172709
+      },
+      {
+        "crate_id": "tokio-sync", "default_features": true, "downloads": 0,
+        "features": [], "id": 882999, "kind": "normal", "optional": false,
+        "req": "=0.2.0-alpha.4", "target": null, "version_id": 172709
+      },
+      {
+        "crate_id": "tracing", "default_features": true, "downloads": 0,
+        "features": ["log"], "id": 883001, "kind": "normal",
+        "optional": false, "req": "^0.1.5", "target": "cfg(test)",
+        "version_id": 172709
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 882985, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 172709
+      },
+      {
+        "crate_id": "crossbeam-queue", "default_features": true,
+        "downloads": 0, "features": [], "id": 883002, "kind": "normal",
+        "optional": true, "req": "^0.1.2", "target": "cfg(unix)",
+        "version_id": 172709
+      },
+      {
+        "crate_id": "futures-sink-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 882988, "kind": "normal",
+        "optional": true, "req": "=0.3.0-alpha.18", "target": null,
+        "version_id": 172709
+      },
+      {
+        "crate_id": "iovec", "default_features": true, "downloads": 0,
+        "features": [], "id": 882990, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 172709
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 883003, "kind": "normal", "optional": true,
+        "req": "^0.2.42", "target": "cfg(unix)", "version_id": 172709
+      },
+      {
+        "crate_id": "mio-named-pipes", "default_features": true,
+        "downloads": 0, "features": [], "id": 883006, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": "cfg(windows)",
+        "version_id": 172709
+      },
+      {
+        "crate_id": "mio-uds", "default_features": true, "downloads": 0,
+        "features": [], "id": 883004, "kind": "normal", "optional": true,
+        "req": "^0.6.5", "target": "cfg(unix)", "version_id": 172709
+      },
+      {
+        "crate_id": "signal-hook-registry", "default_features": true,
+        "downloads": 0, "features": [], "id": 883005, "kind": "normal",
+        "optional": true, "req": "~1", "target": "cfg(unix)",
+        "version_id": 172709
+      },
+      {
+        "crate_id": "tracing", "default_features": true, "downloads": 0,
+        "features": [], "id": 883000, "kind": "normal", "optional": true,
+        "req": "^0.1.5", "target": null, "version_id": 172709
+      },
+      {
+        "crate_id": "winapi", "default_features": false, "downloads": 0,
+        "features": [], "id": 883007, "kind": "normal", "optional": true,
+        "req": "^0.3", "target": "cfg(windows)", "version_id": 172709
+      }
+    ],
+    "dl_path": "/api/v1/crates/tokio-net/0.2.0-alpha.4/download",
+    "downloads": 13566,
+    "features": {
+      "async-traits": [], "log": ["tracing/log"],
+      "process": [
+        "crossbeam-queue", "libc", "mio-named-pipes", "signal",
+        "winapi/handleapi", "winapi/winerror", "winapi/minwindef",
+        "winapi/processthreadsapi", "winapi/synchapi",
+        "winapi/threadpoollegacyapiset", "winapi/winbase", "winapi/winnt"
+      ],
+      "signal": [
+        "mio-uds", "libc", "signal-hook-registry", "winapi/consoleapi",
+        "winapi/minwindef", "winapi/wincon"
+      ],
+      "tcp": ["bytes", "iovec"], "udp": ["bytes", "futures-sink-preview"],
+      "uds": ["bytes", "mio-uds", "iovec", "libc"]
+    },
+    "id": 172709, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tokio-net/0.2.0-alpha.4/authors",
+      "dependencies": "/api/v1/crates/tokio-net/0.2.0-alpha.4/dependencies",
+      "version_downloads": "/api/v1/crates/tokio-net/0.2.0-alpha.4/downloads"
+    },
+    "num": "0.2.0-alpha.4",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/6180?v=4",
+      "id": 10, "login": "carllerche", "name": "Carl Lerche",
+      "url": "https://github.com/carllerche"
+    },
+    "readme_path": "/api/v1/crates/tokio-net/0.2.0-alpha.4/readme",
+    "updated_at": "2019-08-29T20:04:45.601203+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Tokio Contributors <team@tokio.rs>"]},
+      "users": []
+    },
+    "crate": "tokio-net", "crate_size": 76358,
+    "created_at": "2019-09-19T20:46:09.208003+00:00",
+    "dependencies": [
+      {
+        "crate_id": "crossbeam-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 910214, "kind": "normal",
+        "optional": false, "req": "^0.6.0", "target": null,
+        "version_id": 177207
+      },
+      {
+        "crate_id": "futures-core-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 910215, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.18", "target": null,
+        "version_id": 177207
+      },
+      {
+        "crate_id": "futures-util-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 910217, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.18", "target": null,
+        "version_id": 177207
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 910219, "kind": "normal", "optional": false,
+        "req": "^1.0.2", "target": null, "version_id": 177207
+      },
+      {
+        "crate_id": "mio", "default_features": true, "downloads": 0,
+        "features": [], "id": 910220, "kind": "normal", "optional": false,
+        "req": "^0.6.14", "target": null, "version_id": 177207
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 910221, "kind": "normal", "optional": false,
+        "req": "^1.8.0", "target": null, "version_id": 177207
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 910222, "kind": "normal", "optional": false,
+        "req": "^0.9", "target": null, "version_id": 177207
+      },
+      {
+        "crate_id": "slab", "default_features": true, "downloads": 0,
+        "features": [], "id": 910223, "kind": "normal", "optional": false,
+        "req": "^0.4.0", "target": null, "version_id": 177207
+      },
+      {
+        "crate_id": "tokio-codec", "default_features": true, "downloads": 0,
+        "features": [], "id": 910224, "kind": "normal", "optional": false,
+        "req": "=0.2.0-alpha.5", "target": null, "version_id": 177207
+      },
+      {
+        "crate_id": "tokio-executor", "default_features": true,
+        "downloads": 0, "features": ["blocking"], "id": 910225,
+        "kind": "normal", "optional": false, "req": "=0.2.0-alpha.5",
+        "target": null, "version_id": 177207
+      },
+      {
+        "crate_id": "tokio-io", "default_features": true, "downloads": 0,
+        "features": [], "id": 910226, "kind": "normal", "optional": false,
+        "req": "=0.2.0-alpha.5", "target": null, "version_id": 177207
+      },
+      {
+        "crate_id": "tokio-sync", "default_features": true, "downloads": 0,
+        "features": [], "id": 910227, "kind": "normal", "optional": false,
+        "req": "=0.2.0-alpha.5", "target": null, "version_id": 177207
+      },
+      {
+        "crate_id": "tracing", "default_features": true, "downloads": 0,
+        "features": ["log"], "id": 910229, "kind": "normal",
+        "optional": false, "req": "^0.1.5", "target": "cfg(test)",
+        "version_id": 177207
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 910213, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 177207
+      },
+      {
+        "crate_id": "crossbeam-queue", "default_features": true,
+        "downloads": 0, "features": [], "id": 910230, "kind": "normal",
+        "optional": true, "req": "^0.1.2", "target": "cfg(unix)",
+        "version_id": 177207
+      },
+      {
+        "crate_id": "futures-sink-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 910216, "kind": "normal",
+        "optional": true, "req": "=0.3.0-alpha.18", "target": null,
+        "version_id": 177207
+      },
+      {
+        "crate_id": "iovec", "default_features": true, "downloads": 0,
+        "features": [], "id": 910218, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 177207
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 910231, "kind": "normal", "optional": true,
+        "req": "^0.2.42", "target": "cfg(unix)", "version_id": 177207
+      },
+      {
+        "crate_id": "mio-named-pipes", "default_features": true,
+        "downloads": 0, "features": [], "id": 910234, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": "cfg(windows)",
+        "version_id": 177207
+      },
+      {
+        "crate_id": "mio-uds", "default_features": true, "downloads": 0,
+        "features": [], "id": 910232, "kind": "normal", "optional": true,
+        "req": "^0.6.5", "target": "cfg(unix)", "version_id": 177207
+      },
+      {
+        "crate_id": "signal-hook-registry", "default_features": true,
+        "downloads": 0, "features": [], "id": 910233, "kind": "normal",
+        "optional": true, "req": "~1", "target": "cfg(unix)",
+        "version_id": 177207
+      },
+      {
+        "crate_id": "tracing", "default_features": true, "downloads": 0,
+        "features": [], "id": 910228, "kind": "normal", "optional": true,
+        "req": "^0.1.5", "target": null, "version_id": 177207
+      },
+      {
+        "crate_id": "winapi", "default_features": false, "downloads": 0,
+        "features": [], "id": 910235, "kind": "normal", "optional": true,
+        "req": "^0.3", "target": "cfg(windows)", "version_id": 177207
+      }
+    ],
+    "dl_path": "/api/v1/crates/tokio-net/0.2.0-alpha.5/download",
+    "downloads": 6280,
+    "features": {
+      "async-traits": [], "log": ["tracing/log"],
+      "process": [
+        "tokio-io/util", "crossbeam-queue", "libc", "mio-named-pipes",
+        "signal", "winapi/handleapi", "winapi/winerror", "winapi/minwindef",
+        "winapi/processthreadsapi", "winapi/synchapi",
+        "winapi/threadpoollegacyapiset", "winapi/winbase", "winapi/winnt"
+      ],
+      "signal": [
+        "mio-uds", "libc", "signal-hook-registry", "winapi/consoleapi",
+        "winapi/minwindef", "winapi/wincon"
+      ],
+      "tcp": ["bytes", "iovec"], "udp": ["bytes", "futures-sink-preview"],
+      "uds": ["bytes", "mio-uds", "iovec", "libc"]
+    },
+    "id": 177207, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tokio-net/0.2.0-alpha.5/authors",
+      "dependencies": "/api/v1/crates/tokio-net/0.2.0-alpha.5/dependencies",
+      "version_downloads": "/api/v1/crates/tokio-net/0.2.0-alpha.5/downloads"
+    },
+    "num": "0.2.0-alpha.5",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/6180?v=4",
+      "id": 10, "login": "carllerche", "name": "Carl Lerche",
+      "url": "https://github.com/carllerche"
+    },
+    "readme_path": "/api/v1/crates/tokio-net/0.2.0-alpha.5/readme",
+    "updated_at": "2019-09-19T20:46:09.208003+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Tokio Contributors <team@tokio.rs>"]},
+      "users": []
+    },
+    "crate": "tokio-net", "crate_size": 76353,
+    "created_at": "2019-10-01T00:45:04.369590+00:00",
+    "dependencies": [
+      {
+        "crate_id": "crossbeam-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 925177, "kind": "normal",
+        "optional": false, "req": "^0.6.0", "target": null,
+        "version_id": 179591
+      },
+      {
+        "crate_id": "futures-core-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 925178, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.19", "target": null,
+        "version_id": 179591
+      },
+      {
+        "crate_id": "futures-util-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 925180, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.19", "target": null,
+        "version_id": 179591
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 925182, "kind": "normal", "optional": false,
+        "req": "^1.0.2", "target": null, "version_id": 179591
+      },
+      {
+        "crate_id": "mio", "default_features": true, "downloads": 0,
+        "features": [], "id": 925183, "kind": "normal", "optional": false,
+        "req": "^0.6.14", "target": null, "version_id": 179591
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 925184, "kind": "normal", "optional": false,
+        "req": "^1.8.0", "target": null, "version_id": 179591
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 925185, "kind": "normal", "optional": false,
+        "req": "^0.9", "target": null, "version_id": 179591
+      },
+      {
+        "crate_id": "slab", "default_features": true, "downloads": 0,
+        "features": [], "id": 925186, "kind": "normal", "optional": false,
+        "req": "^0.4.0", "target": null, "version_id": 179591
+      },
+      {
+        "crate_id": "tokio-codec", "default_features": true, "downloads": 0,
+        "features": [], "id": 925187, "kind": "normal", "optional": false,
+        "req": "=0.2.0-alpha.6", "target": null, "version_id": 179591
+      },
+      {
+        "crate_id": "tokio-executor", "default_features": true,
+        "downloads": 0, "features": ["blocking"], "id": 925188,
+        "kind": "normal", "optional": false, "req": "=0.2.0-alpha.6",
+        "target": null, "version_id": 179591
+      },
+      {
+        "crate_id": "tokio-io", "default_features": true, "downloads": 0,
+        "features": [], "id": 925189, "kind": "normal", "optional": false,
+        "req": "=0.2.0-alpha.6", "target": null, "version_id": 179591
+      },
+      {
+        "crate_id": "tokio-sync", "default_features": true, "downloads": 0,
+        "features": [], "id": 925190, "kind": "normal", "optional": false,
+        "req": "=0.2.0-alpha.6", "target": null, "version_id": 179591
+      },
+      {
+        "crate_id": "tracing", "default_features": true, "downloads": 0,
+        "features": ["log"], "id": 925192, "kind": "normal",
+        "optional": false, "req": "^0.1.5", "target": "cfg(test)",
+        "version_id": 179591
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 925176, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 179591
+      },
+      {
+        "crate_id": "crossbeam-queue", "default_features": true,
+        "downloads": 0, "features": [], "id": 925193, "kind": "normal",
+        "optional": true, "req": "^0.1.2", "target": "cfg(unix)",
+        "version_id": 179591
+      },
+      {
+        "crate_id": "futures-sink-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 925179, "kind": "normal",
+        "optional": true, "req": "=0.3.0-alpha.19", "target": null,
+        "version_id": 179591
+      },
+      {
+        "crate_id": "iovec", "default_features": true, "downloads": 0,
+        "features": [], "id": 925181, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 179591
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 925194, "kind": "normal", "optional": true,
+        "req": "^0.2.42", "target": "cfg(unix)", "version_id": 179591
+      },
+      {
+        "crate_id": "mio-named-pipes", "default_features": true,
+        "downloads": 0, "features": [], "id": 925197, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": "cfg(windows)",
+        "version_id": 179591
+      },
+      {
+        "crate_id": "mio-uds", "default_features": true, "downloads": 0,
+        "features": [], "id": 925195, "kind": "normal", "optional": true,
+        "req": "^0.6.5", "target": "cfg(unix)", "version_id": 179591
+      },
+      {
+        "crate_id": "signal-hook-registry", "default_features": true,
+        "downloads": 0, "features": [], "id": 925196, "kind": "normal",
+        "optional": true, "req": "~1", "target": "cfg(unix)",
+        "version_id": 179591
+      },
+      {
+        "crate_id": "tracing", "default_features": true, "downloads": 0,
+        "features": [], "id": 925191, "kind": "normal", "optional": true,
+        "req": "^0.1.5", "target": null, "version_id": 179591
+      },
+      {
+        "crate_id": "winapi", "default_features": false, "downloads": 0,
+        "features": [], "id": 925198, "kind": "normal", "optional": true,
+        "req": "^0.3", "target": "cfg(windows)", "version_id": 179591
+      }
+    ],
+    "dl_path": "/api/v1/crates/tokio-net/0.2.0-alpha.6/download",
+    "downloads": 185677,
+    "features": {
+      "async-traits": [], "log": ["tracing/log"],
+      "process": [
+        "tokio-io/util", "crossbeam-queue", "libc", "mio-named-pipes",
+        "signal", "winapi/handleapi", "winapi/winerror", "winapi/minwindef",
+        "winapi/processthreadsapi", "winapi/synchapi",
+        "winapi/threadpoollegacyapiset", "winapi/winbase", "winapi/winnt"
+      ],
+      "signal": [
+        "mio-uds", "libc", "signal-hook-registry", "winapi/consoleapi",
+        "winapi/minwindef", "winapi/wincon"
+      ],
+      "tcp": ["bytes", "iovec"], "udp": ["bytes", "futures-sink-preview"],
+      "uds": ["bytes", "mio-uds", "iovec", "libc"]
+    },
+    "id": 179591, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tokio-net/0.2.0-alpha.6/authors",
+      "dependencies": "/api/v1/crates/tokio-net/0.2.0-alpha.6/dependencies",
+      "version_downloads": "/api/v1/crates/tokio-net/0.2.0-alpha.6/downloads"
+    },
+    "num": "0.2.0-alpha.6",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/5758045?v=4",
+      "id": 3959, "login": "LucioFranco", "name": "Lucio Franco",
+      "url": "https://github.com/LucioFranco"
+    },
+    "readme_path": "/api/v1/crates/tokio-net/0.2.0-alpha.6/readme",
+    "updated_at": "2019-10-01T00:45:04.369590+00:00", "yanked": false
+  }
+]

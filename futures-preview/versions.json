@@ -1,0 +1,1629 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "futures-preview", "crate_size": null,
+    "created_at": "2018-06-26T21:04:27.563859+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures-async-runtime-preview",
+        "default_features": false, "downloads": 0, "features": [],
+        "id": 446429, "kind": "normal", "optional": false, "req": "^0.2.2",
+        "target": null, "version_id": 97963
+      },
+      {
+        "crate_id": "futures-channel-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 446430, "kind": "normal",
+        "optional": false, "req": "^0.2.2", "target": null,
+        "version_id": 97963
+      },
+      {
+        "crate_id": "futures-core-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 446431, "kind": "normal",
+        "optional": false, "req": "^0.2.2", "target": null,
+        "version_id": 97963
+      },
+      {
+        "crate_id": "futures-executor-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 446432, "kind": "normal",
+        "optional": false, "req": "^0.2.2", "target": null,
+        "version_id": 97963
+      },
+      {
+        "crate_id": "futures-io-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 446433, "kind": "normal",
+        "optional": false, "req": "^0.2.2", "target": null,
+        "version_id": 97963
+      },
+      {
+        "crate_id": "futures-sink-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 446436, "kind": "normal",
+        "optional": false, "req": "^0.2.2", "target": null,
+        "version_id": 97963
+      },
+      {
+        "crate_id": "futures-stable-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 446437, "kind": "normal",
+        "optional": false, "req": "^0.2.2", "target": null,
+        "version_id": 97963
+      },
+      {
+        "crate_id": "futures-util-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 446438, "kind": "normal",
+        "optional": false, "req": "^0.2.2", "target": null,
+        "version_id": 97963
+      },
+      {
+        "crate_id": "futures-macro-async-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 446434, "kind": "normal",
+        "optional": true, "req": "^0.2.2", "target": null,
+        "version_id": 97963
+      },
+      {
+        "crate_id": "futures-macro-await-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 446435, "kind": "normal",
+        "optional": true, "req": "^0.2.2", "target": null,
+        "version_id": 97963
+      }
+    ],
+    "dl_path": "/api/v1/crates/futures-preview/0.2.2/download",
+    "downloads": 31222,
+    "features": {
+      "default": ["std"],
+      "nightly": [
+        "futures-core-preview/nightly", "futures-stable-preview/nightly",
+        "futures-async-runtime-preview/nightly",
+        "futures-macro-async-preview", "futures-macro-await-preview",
+        "futures-macro-async-preview/nightly"
+      ],
+      "std": [
+        "futures-core-preview/std", "futures-executor-preview/std",
+        "futures-io-preview/std", "futures-sink-preview/std",
+        "futures-stable-preview/std", "futures-util-preview/std",
+        "futures-async-runtime-preview/std"
+      ]
+    },
+    "id": 97963, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/futures-preview/0.2.2/authors",
+      "dependencies": "/api/v1/crates/futures-preview/0.2.2/dependencies",
+      "version_downloads": "/api/v1/crates/futures-preview/0.2.2/downloads"
+    },
+    "num": "0.2.2", "published_by": null,
+    "readme_path": "/api/v1/crates/futures-preview/0.2.2/readme",
+    "updated_at": "2018-06-26T21:04:27.563859+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "futures-preview", "crate_size": null,
+    "created_at": "2018-07-19T21:17:33.153717+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures-channel-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 460092, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.1", "target": null,
+        "version_id": 100496
+      },
+      {
+        "crate_id": "futures-core-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 460093, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.1", "target": null,
+        "version_id": 100496
+      },
+      {
+        "crate_id": "futures-executor-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 460094, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.1", "target": null,
+        "version_id": 100496
+      },
+      {
+        "crate_id": "futures-io-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 460095, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.1", "target": null,
+        "version_id": 100496
+      },
+      {
+        "crate_id": "futures-sink-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 460096, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.1", "target": null,
+        "version_id": 100496
+      },
+      {
+        "crate_id": "futures-util-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 460097, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.1", "target": null,
+        "version_id": 100496
+      }
+    ],
+    "dl_path": "/api/v1/crates/futures-preview/0.3.0-alpha.1/download",
+    "downloads": 489,
+    "features": {
+      "default": ["std"], "nightly": ["futures-util-preview/nightly"],
+      "std": [
+        "futures-core-preview/std", "futures-executor-preview/std",
+        "futures-io-preview/std", "futures-sink-preview/std",
+        "futures-util-preview/std"
+      ]
+    },
+    "id": 100496, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/futures-preview/0.3.0-alpha.1/authors",
+      "dependencies": "/api/v1/crates/futures-preview/0.3.0-alpha.1/dependencies",
+      "version_downloads": "/api/v1/crates/futures-preview/0.3.0-alpha.1/downloads"
+    },
+    "num": "0.3.0-alpha.1", "published_by": null,
+    "readme_path": "/api/v1/crates/futures-preview/0.3.0-alpha.1/readme",
+    "updated_at": "2018-07-19T21:17:33.153717+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "futures-preview", "crate_size": null,
+    "created_at": "2018-07-30T11:04:23.403266+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures-channel-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 466635, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.2", "target": null,
+        "version_id": 101665
+      },
+      {
+        "crate_id": "futures-core-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 466636, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.2", "target": null,
+        "version_id": 101665
+      },
+      {
+        "crate_id": "futures-executor-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 466637, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.2", "target": null,
+        "version_id": 101665
+      },
+      {
+        "crate_id": "futures-io-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 466638, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.2", "target": null,
+        "version_id": 101665
+      },
+      {
+        "crate_id": "futures-sink-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 466639, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.2", "target": null,
+        "version_id": 101665
+      },
+      {
+        "crate_id": "futures-util-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 466640, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.2", "target": null,
+        "version_id": 101665
+      }
+    ],
+    "dl_path": "/api/v1/crates/futures-preview/0.3.0-alpha.2/download",
+    "downloads": 497,
+    "features": {
+      "default": ["std"], "nightly": ["futures-util-preview/nightly"],
+      "std": [
+        "futures-core-preview/std", "futures-executor-preview/std",
+        "futures-io-preview/std", "futures-sink-preview/std",
+        "futures-util-preview/std"
+      ]
+    },
+    "id": 101665, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/futures-preview/0.3.0-alpha.2/authors",
+      "dependencies": "/api/v1/crates/futures-preview/0.3.0-alpha.2/dependencies",
+      "version_downloads": "/api/v1/crates/futures-preview/0.3.0-alpha.2/downloads"
+    },
+    "num": "0.3.0-alpha.2", "published_by": null,
+    "readme_path": "/api/v1/crates/futures-preview/0.3.0-alpha.2/readme",
+    "updated_at": "2018-07-30T11:04:23.403266+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "futures-preview", "crate_size": 27496,
+    "created_at": "2018-08-13T05:20:24.378440+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures-channel-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 477335, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.2", "target": null,
+        "version_id": 103675
+      },
+      {
+        "crate_id": "futures-core-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 477336, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.2", "target": null,
+        "version_id": 103675
+      },
+      {
+        "crate_id": "futures-executor-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 477337, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.2.1", "target": null,
+        "version_id": 103675
+      },
+      {
+        "crate_id": "futures-io-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 477338, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.2", "target": null,
+        "version_id": 103675
+      },
+      {
+        "crate_id": "futures-sink-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 477339, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.2", "target": null,
+        "version_id": 103675
+      },
+      {
+        "crate_id": "futures-util-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 477340, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.2.1", "target": null,
+        "version_id": 103675
+      },
+      {
+        "crate_id": "pin-utils", "default_features": true, "downloads": 0,
+        "features": [], "id": 477341, "kind": "dev", "optional": false,
+        "req": "^0.1.0-alpha.1", "target": null, "version_id": 103675
+      }
+    ],
+    "dl_path": "/api/v1/crates/futures-preview/0.3.0-alpha.2.1/download",
+    "downloads": 297,
+    "features": {
+      "compat": ["std", "futures-util-preview/compat"],
+      "default": ["std"], "nightly": ["futures-util-preview/nightly"],
+      "std": [
+        "futures-core-preview/std", "futures-executor-preview/std",
+        "futures-io-preview/std", "futures-sink-preview/std",
+        "futures-util-preview/std"
+      ],
+      "tokio-compat": ["compat", "futures-util-preview/tokio-compat"]
+    },
+    "id": 103675, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/futures-preview/0.3.0-alpha.2.1/authors",
+      "dependencies": "/api/v1/crates/futures-preview/0.3.0-alpha.2.1/dependencies",
+      "version_downloads": "/api/v1/crates/futures-preview/0.3.0-alpha.2.1/downloads"
+    },
+    "num": "0.3.0-alpha.2.1", "published_by": null,
+    "readme_path": "/api/v1/crates/futures-preview/0.3.0-alpha.2.1/readme",
+    "updated_at": "2018-08-13T05:20:24.378440+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "futures-preview", "crate_size": 27435,
+    "created_at": "2018-08-15T00:16:35.671849+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures-channel-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 478758, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.3", "target": null,
+        "version_id": 103929
+      },
+      {
+        "crate_id": "futures-core-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 478759, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.3", "target": null,
+        "version_id": 103929
+      },
+      {
+        "crate_id": "futures-executor-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 478760, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.3", "target": null,
+        "version_id": 103929
+      },
+      {
+        "crate_id": "futures-io-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 478761, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.3", "target": null,
+        "version_id": 103929
+      },
+      {
+        "crate_id": "futures-sink-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 478762, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.3", "target": null,
+        "version_id": 103929
+      },
+      {
+        "crate_id": "futures-util-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 478763, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.3", "target": null,
+        "version_id": 103929
+      },
+      {
+        "crate_id": "pin-utils", "default_features": true, "downloads": 0,
+        "features": [], "id": 478764, "kind": "dev", "optional": false,
+        "req": "^0.1.0-alpha.1", "target": null, "version_id": 103929
+      }
+    ],
+    "dl_path": "/api/v1/crates/futures-preview/0.3.0-alpha.3/download",
+    "downloads": 905,
+    "features": {
+      "compat": ["std", "futures-util-preview/compat"],
+      "default": ["std"], "nightly": ["futures-util-preview/nightly"],
+      "std": [
+        "futures-core-preview/std", "futures-executor-preview/std",
+        "futures-io-preview/std", "futures-sink-preview/std",
+        "futures-util-preview/std"
+      ],
+      "tokio-compat": ["compat", "futures-util-preview/tokio-compat"]
+    },
+    "id": 103929, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/futures-preview/0.3.0-alpha.3/authors",
+      "dependencies": "/api/v1/crates/futures-preview/0.3.0-alpha.3/dependencies",
+      "version_downloads": "/api/v1/crates/futures-preview/0.3.0-alpha.3/downloads"
+    },
+    "num": "0.3.0-alpha.3", "published_by": null,
+    "readme_path": "/api/v1/crates/futures-preview/0.3.0-alpha.3/readme",
+    "updated_at": "2018-08-15T00:16:35.671849+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "futures-preview", "crate_size": 26179,
+    "created_at": "2018-09-02T19:18:16.534801+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures-channel-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 491578, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.4", "target": null,
+        "version_id": 106567
+      },
+      {
+        "crate_id": "futures-core-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 491579, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.4", "target": null,
+        "version_id": 106567
+      },
+      {
+        "crate_id": "futures-executor-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 491580, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.4", "target": null,
+        "version_id": 106567
+      },
+      {
+        "crate_id": "futures-io-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 491581, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.4", "target": null,
+        "version_id": 106567
+      },
+      {
+        "crate_id": "futures-sink-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 491582, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.4", "target": null,
+        "version_id": 106567
+      },
+      {
+        "crate_id": "futures-test-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 491584, "kind": "dev",
+        "optional": false, "req": "^0.3.0-alpha.4", "target": null,
+        "version_id": 106567
+      },
+      {
+        "crate_id": "futures-util-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 491583, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.4", "target": null,
+        "version_id": 106567
+      },
+      {
+        "crate_id": "pin-utils", "default_features": true, "downloads": 0,
+        "features": [], "id": 491585, "kind": "dev", "optional": false,
+        "req": "^0.1.0-alpha.2", "target": null, "version_id": 106567
+      }
+    ],
+    "dl_path": "/api/v1/crates/futures-preview/0.3.0-alpha.4/download",
+    "downloads": 240,
+    "features": {
+      "compat": ["std", "futures-util-preview/compat"],
+      "default": ["std"], "nightly": ["futures-util-preview/nightly"],
+      "std": [
+        "futures-core-preview/std", "futures-executor-preview/std",
+        "futures-io-preview/std", "futures-sink-preview/std",
+        "futures-util-preview/std"
+      ],
+      "tokio-compat": ["compat", "futures-util-preview/tokio-compat"]
+    },
+    "id": 106567, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/futures-preview/0.3.0-alpha.4/authors",
+      "dependencies": "/api/v1/crates/futures-preview/0.3.0-alpha.4/dependencies",
+      "version_downloads": "/api/v1/crates/futures-preview/0.3.0-alpha.4/downloads"
+    },
+    "num": "0.3.0-alpha.4", "published_by": null,
+    "readme_path": "/api/v1/crates/futures-preview/0.3.0-alpha.4/readme",
+    "updated_at": "2018-10-02T16:51:02.240162+00:00", "yanked": true
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "futures-preview", "crate_size": 26182,
+    "created_at": "2018-09-03T21:06:36.860536+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures-channel-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 492260, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.5", "target": null,
+        "version_id": 106722
+      },
+      {
+        "crate_id": "futures-core-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 492261, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.5", "target": null,
+        "version_id": 106722
+      },
+      {
+        "crate_id": "futures-executor-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 492262, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.5", "target": null,
+        "version_id": 106722
+      },
+      {
+        "crate_id": "futures-io-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 492263, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.5", "target": null,
+        "version_id": 106722
+      },
+      {
+        "crate_id": "futures-sink-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 492264, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.5", "target": null,
+        "version_id": 106722
+      },
+      {
+        "crate_id": "futures-test-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 492266, "kind": "dev",
+        "optional": false, "req": "^0.3.0-alpha.5", "target": null,
+        "version_id": 106722
+      },
+      {
+        "crate_id": "futures-util-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 492265, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.5", "target": null,
+        "version_id": 106722
+      },
+      {
+        "crate_id": "pin-utils", "default_features": true, "downloads": 0,
+        "features": [], "id": 492267, "kind": "dev", "optional": false,
+        "req": "^0.1.0-alpha.2", "target": null, "version_id": 106722
+      }
+    ],
+    "dl_path": "/api/v1/crates/futures-preview/0.3.0-alpha.5/download",
+    "downloads": 490,
+    "features": {
+      "compat": ["std", "futures-util-preview/compat"],
+      "default": ["std"], "nightly": ["futures-util-preview/nightly"],
+      "std": [
+        "futures-core-preview/std", "futures-executor-preview/std",
+        "futures-io-preview/std", "futures-sink-preview/std",
+        "futures-util-preview/std"
+      ],
+      "tokio-compat": ["compat", "futures-util-preview/tokio-compat"]
+    },
+    "id": 106722, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/futures-preview/0.3.0-alpha.5/authors",
+      "dependencies": "/api/v1/crates/futures-preview/0.3.0-alpha.5/dependencies",
+      "version_downloads": "/api/v1/crates/futures-preview/0.3.0-alpha.5/downloads"
+    },
+    "num": "0.3.0-alpha.5", "published_by": null,
+    "readme_path": "/api/v1/crates/futures-preview/0.3.0-alpha.5/readme",
+    "updated_at": "2018-09-03T21:06:36.860536+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "futures-preview", "crate_size": 26011,
+    "created_at": "2018-09-11T17:20:45.680240+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures-channel-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 498532, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.6", "target": null,
+        "version_id": 107845
+      },
+      {
+        "crate_id": "futures-core-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 498533, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.6", "target": null,
+        "version_id": 107845
+      },
+      {
+        "crate_id": "futures-executor-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 498534, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.6", "target": null,
+        "version_id": 107845
+      },
+      {
+        "crate_id": "futures-io-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 498535, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.6", "target": null,
+        "version_id": 107845
+      },
+      {
+        "crate_id": "futures-sink-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 498536, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.6", "target": null,
+        "version_id": 107845
+      },
+      {
+        "crate_id": "futures-util-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 498537, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.6", "target": null,
+        "version_id": 107845
+      }
+    ],
+    "dl_path": "/api/v1/crates/futures-preview/0.3.0-alpha.6/download",
+    "downloads": 937,
+    "features": {
+      "compat": ["std", "futures-util-preview/compat"],
+      "default": ["std"], "nightly": ["futures-util-preview/nightly"],
+      "std": [
+        "futures-core-preview/std", "futures-executor-preview/std",
+        "futures-io-preview/std", "futures-sink-preview/std",
+        "futures-util-preview/std"
+      ],
+      "tokio-compat": ["compat", "futures-util-preview/tokio-compat"]
+    },
+    "id": 107845, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/futures-preview/0.3.0-alpha.6/authors",
+      "dependencies": "/api/v1/crates/futures-preview/0.3.0-alpha.6/dependencies",
+      "version_downloads": "/api/v1/crates/futures-preview/0.3.0-alpha.6/downloads"
+    },
+    "num": "0.3.0-alpha.6", "published_by": null,
+    "readme_path": "/api/v1/crates/futures-preview/0.3.0-alpha.6/readme",
+    "updated_at": "2018-09-11T17:20:45.680240+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "futures-preview", "crate_size": 25877,
+    "created_at": "2018-10-02T17:15:46.775207+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures-channel-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 513139, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.7", "target": null,
+        "version_id": 110542
+      },
+      {
+        "crate_id": "futures-core-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 513140, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.7", "target": null,
+        "version_id": 110542
+      },
+      {
+        "crate_id": "futures-executor-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 513141, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.7", "target": null,
+        "version_id": 110542
+      },
+      {
+        "crate_id": "futures-io-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 513142, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.7", "target": null,
+        "version_id": 110542
+      },
+      {
+        "crate_id": "futures-sink-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 513143, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.7", "target": null,
+        "version_id": 110542
+      },
+      {
+        "crate_id": "futures-util-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 513144, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.7", "target": null,
+        "version_id": 110542
+      }
+    ],
+    "dl_path": "/api/v1/crates/futures-preview/0.3.0-alpha.7/download",
+    "downloads": 642,
+    "features": {
+      "compat": ["std", "futures-util-preview/compat"],
+      "default": ["std"], "nightly": ["futures-util-preview/nightly"],
+      "std": [
+        "futures-core-preview/std", "futures-executor-preview/std",
+        "futures-io-preview/std", "futures-sink-preview/std",
+        "futures-util-preview/std"
+      ],
+      "tokio-compat": ["compat", "futures-util-preview/tokio-compat"]
+    },
+    "id": 110542, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/futures-preview/0.3.0-alpha.7/authors",
+      "dependencies": "/api/v1/crates/futures-preview/0.3.0-alpha.7/dependencies",
+      "version_downloads": "/api/v1/crates/futures-preview/0.3.0-alpha.7/downloads"
+    },
+    "num": "0.3.0-alpha.7", "published_by": null,
+    "readme_path": "/api/v1/crates/futures-preview/0.3.0-alpha.7/readme",
+    "updated_at": "2018-10-02T17:15:46.775207+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "futures-preview", "crate_size": 26270,
+    "created_at": "2018-10-16T22:24:51.802425+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures-channel-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 529513, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.8", "target": null,
+        "version_id": 113278
+      },
+      {
+        "crate_id": "futures-core-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 529514, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.8", "target": null,
+        "version_id": 113278
+      },
+      {
+        "crate_id": "futures-executor-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 529515, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.8", "target": null,
+        "version_id": 113278
+      },
+      {
+        "crate_id": "futures-io-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 529516, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.8", "target": null,
+        "version_id": 113278
+      },
+      {
+        "crate_id": "futures-sink-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 529517, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.8", "target": null,
+        "version_id": 113278
+      },
+      {
+        "crate_id": "futures-util-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 529518, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.8", "target": null,
+        "version_id": 113278
+      }
+    ],
+    "dl_path": "/api/v1/crates/futures-preview/0.3.0-alpha.8/download",
+    "downloads": 304,
+    "features": {
+      "compat": ["std", "futures-util-preview/compat"],
+      "default": ["std"],
+      "io-compat": ["compat", "futures-util-preview/io-compat"],
+      "nightly": ["futures-util-preview/nightly"],
+      "std": [
+        "futures-core-preview/std", "futures-executor-preview/std",
+        "futures-io-preview/std", "futures-sink-preview/std",
+        "futures-util-preview/std"
+      ],
+      "tokio-compat": ["compat", "futures-util-preview/tokio-compat"]
+    },
+    "id": 113278, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/futures-preview/0.3.0-alpha.8/authors",
+      "dependencies": "/api/v1/crates/futures-preview/0.3.0-alpha.8/dependencies",
+      "version_downloads": "/api/v1/crates/futures-preview/0.3.0-alpha.8/downloads"
+    },
+    "num": "0.3.0-alpha.8", "published_by": null,
+    "readme_path": "/api/v1/crates/futures-preview/0.3.0-alpha.8/readme",
+    "updated_at": "2018-10-16T22:24:51.802425+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "futures-preview", "crate_size": 26351,
+    "created_at": "2018-10-19T03:07:42.968552+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures-channel-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 531292, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.9", "target": null,
+        "version_id": 113546
+      },
+      {
+        "crate_id": "futures-core-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 531293, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.9", "target": null,
+        "version_id": 113546
+      },
+      {
+        "crate_id": "futures-executor-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 531294, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.9", "target": null,
+        "version_id": 113546
+      },
+      {
+        "crate_id": "futures-io-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 531295, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.9", "target": null,
+        "version_id": 113546
+      },
+      {
+        "crate_id": "futures-sink-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 531296, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.9", "target": null,
+        "version_id": 113546
+      },
+      {
+        "crate_id": "futures-util-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 531297, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.9", "target": null,
+        "version_id": 113546
+      }
+    ],
+    "dl_path": "/api/v1/crates/futures-preview/0.3.0-alpha.9/download",
+    "downloads": 2445,
+    "features": {
+      "compat": ["std", "futures-util-preview/compat"],
+      "default": ["std"],
+      "io-compat": ["compat", "futures-util-preview/io-compat"],
+      "nightly": ["futures-util-preview/nightly"],
+      "std": [
+        "futures-core-preview/std", "futures-executor-preview/std",
+        "futures-io-preview/std", "futures-sink-preview/std",
+        "futures-util-preview/std"
+      ],
+      "tokio-compat": ["compat", "futures-util-preview/tokio-compat"]
+    },
+    "id": 113546, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/futures-preview/0.3.0-alpha.9/authors",
+      "dependencies": "/api/v1/crates/futures-preview/0.3.0-alpha.9/dependencies",
+      "version_downloads": "/api/v1/crates/futures-preview/0.3.0-alpha.9/downloads"
+    },
+    "num": "0.3.0-alpha.9", "published_by": null,
+    "readme_path": "/api/v1/crates/futures-preview/0.3.0-alpha.9/readme",
+    "updated_at": "2018-10-19T03:07:42.968552+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "futures-preview", "crate_size": 26954,
+    "created_at": "2018-11-27T20:40:15.874128+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures-channel-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 567550, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.10", "target": null,
+        "version_id": 119845
+      },
+      {
+        "crate_id": "futures-core-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 567551, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.10", "target": null,
+        "version_id": 119845
+      },
+      {
+        "crate_id": "futures-executor-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 567552, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.10", "target": null,
+        "version_id": 119845
+      },
+      {
+        "crate_id": "futures-io-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 567553, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.10", "target": null,
+        "version_id": 119845
+      },
+      {
+        "crate_id": "futures-sink-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 567554, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.10", "target": null,
+        "version_id": 119845
+      },
+      {
+        "crate_id": "futures-util-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 567555, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.10", "target": null,
+        "version_id": 119845
+      }
+    ],
+    "dl_path": "/api/v1/crates/futures-preview/0.3.0-alpha.10/download",
+    "downloads": 7009,
+    "features": {
+      "compat": ["std", "futures-util-preview/compat"],
+      "default": ["std"],
+      "io-compat": ["compat", "futures-util-preview/io-compat"],
+      "nightly": ["futures-util-preview/nightly", "futures-core-preview/nightly"],
+      "std": [
+        "futures-core-preview/std", "futures-executor-preview/std",
+        "futures-io-preview/std", "futures-sink-preview/std",
+        "futures-util-preview/std"
+      ],
+      "tokio-compat": ["compat", "futures-util-preview/tokio-compat"]
+    },
+    "id": 119845, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/futures-preview/0.3.0-alpha.10/authors",
+      "dependencies": "/api/v1/crates/futures-preview/0.3.0-alpha.10/dependencies",
+      "version_downloads": "/api/v1/crates/futures-preview/0.3.0-alpha.10/downloads"
+    },
+    "num": "0.3.0-alpha.10", "published_by": null,
+    "readme_path": "/api/v1/crates/futures-preview/0.3.0-alpha.10/readme",
+    "updated_at": "2018-11-27T20:40:15.874128+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "futures-preview", "crate_size": 27136,
+    "created_at": "2018-12-27T19:27:40.565292+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures-channel-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 594231, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.11", "target": null,
+        "version_id": 124349
+      },
+      {
+        "crate_id": "futures-core-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 594232, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.11", "target": null,
+        "version_id": 124349
+      },
+      {
+        "crate_id": "futures-executor-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 594233, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.11", "target": null,
+        "version_id": 124349
+      },
+      {
+        "crate_id": "futures-io-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 594234, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.11", "target": null,
+        "version_id": 124349
+      },
+      {
+        "crate_id": "futures-sink-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 594235, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.11", "target": null,
+        "version_id": 124349
+      },
+      {
+        "crate_id": "futures-util-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 594236, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.11", "target": null,
+        "version_id": 124349
+      }
+    ],
+    "dl_path": "/api/v1/crates/futures-preview/0.3.0-alpha.11/download",
+    "downloads": 8209,
+    "features": {
+      "compat": ["std", "futures-util-preview/compat"],
+      "default": ["std"],
+      "io-compat": ["compat", "futures-util-preview/io-compat"],
+      "nightly": ["futures-util-preview/nightly", "futures-core-preview/nightly"],
+      "std": [
+        "futures-core-preview/std", "futures-executor-preview/std",
+        "futures-io-preview/std", "futures-sink-preview/std",
+        "futures-util-preview/std"
+      ],
+      "tokio-compat": ["compat", "futures-util-preview/tokio-compat"]
+    },
+    "id": 124349, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/futures-preview/0.3.0-alpha.11/authors",
+      "dependencies": "/api/v1/crates/futures-preview/0.3.0-alpha.11/dependencies",
+      "version_downloads": "/api/v1/crates/futures-preview/0.3.0-alpha.11/downloads"
+    },
+    "num": "0.3.0-alpha.11", "published_by": null,
+    "readme_path": "/api/v1/crates/futures-preview/0.3.0-alpha.11/readme",
+    "updated_at": "2018-12-27T19:27:40.565292+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "futures-preview", "crate_size": 27211,
+    "created_at": "2019-01-15T17:01:15.241431+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures-channel-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 611966, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.12", "target": null,
+        "version_id": 128297
+      },
+      {
+        "crate_id": "futures-core-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 611967, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.12", "target": null,
+        "version_id": 128297
+      },
+      {
+        "crate_id": "futures-executor-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 611968, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.12", "target": null,
+        "version_id": 128297
+      },
+      {
+        "crate_id": "futures-io-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 611969, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.12", "target": null,
+        "version_id": 128297
+      },
+      {
+        "crate_id": "futures-sink-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 611970, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.12", "target": null,
+        "version_id": 128297
+      },
+      {
+        "crate_id": "futures-util-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 611971, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.12", "target": null,
+        "version_id": 128297
+      }
+    ],
+    "dl_path": "/api/v1/crates/futures-preview/0.3.0-alpha.12/download",
+    "downloads": 40081,
+    "features": {
+      "compat": ["std", "futures-util-preview/compat"],
+      "default": ["std"],
+      "io-compat": ["compat", "futures-util-preview/io-compat"],
+      "nightly": ["futures-util-preview/nightly", "futures-core-preview/nightly"],
+      "std": [
+        "futures-core-preview/std", "futures-executor-preview/std",
+        "futures-io-preview/std", "futures-sink-preview/std",
+        "futures-util-preview/std"
+      ],
+      "tokio-compat": ["compat", "futures-util-preview/tokio-compat"]
+    },
+    "id": 128297, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/futures-preview/0.3.0-alpha.12/authors",
+      "dependencies": "/api/v1/crates/futures-preview/0.3.0-alpha.12/dependencies",
+      "version_downloads": "/api/v1/crates/futures-preview/0.3.0-alpha.12/downloads"
+    },
+    "num": "0.3.0-alpha.12", "published_by": null,
+    "readme_path": "/api/v1/crates/futures-preview/0.3.0-alpha.12/readme",
+    "updated_at": "2019-01-15T17:01:15.241431+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "futures-preview", "crate_size": 27583,
+    "created_at": "2019-02-21T00:17:59.942360+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures-channel-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 651108, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.13", "target": null,
+        "version_id": 134965
+      },
+      {
+        "crate_id": "futures-core-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 651109, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.13", "target": null,
+        "version_id": 134965
+      },
+      {
+        "crate_id": "futures-executor-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 651110, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.13", "target": null,
+        "version_id": 134965
+      },
+      {
+        "crate_id": "futures-io-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 651111, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.13", "target": null,
+        "version_id": 134965
+      },
+      {
+        "crate_id": "futures-sink-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 651112, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.13", "target": null,
+        "version_id": 134965
+      },
+      {
+        "crate_id": "futures-util-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 651113, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.13", "target": null,
+        "version_id": 134965
+      }
+    ],
+    "dl_path": "/api/v1/crates/futures-preview/0.3.0-alpha.13/download",
+    "downloads": 6852,
+    "features": {
+      "cfg-target-has-atomic": [
+        "futures-core-preview/cfg-target-has-atomic",
+        "futures-util-preview/cfg-target-has-atomic"
+      ],
+      "compat": ["std", "futures-util-preview/compat"],
+      "default": ["std"],
+      "io-compat": ["compat", "futures-util-preview/io-compat"],
+      "nightly": ["futures-util-preview/nightly", "futures-core-preview/nightly"],
+      "std": [
+        "futures-core-preview/std", "futures-executor-preview/std",
+        "futures-io-preview/std", "futures-sink-preview/std",
+        "futures-util-preview/std"
+      ]
+    },
+    "id": 134965, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/futures-preview/0.3.0-alpha.13/authors",
+      "dependencies": "/api/v1/crates/futures-preview/0.3.0-alpha.13/dependencies",
+      "version_downloads": "/api/v1/crates/futures-preview/0.3.0-alpha.13/downloads"
+    },
+    "num": "0.3.0-alpha.13", "published_by": null,
+    "readme_path": "/api/v1/crates/futures-preview/0.3.0-alpha.13/readme",
+    "updated_at": "2019-02-21T00:17:59.942360+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "futures-preview", "crate_size": 27709,
+    "created_at": "2019-04-15T18:44:06.529162+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures-channel-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 708154, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.14", "target": null,
+        "version_id": 145070
+      },
+      {
+        "crate_id": "futures-core-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 708155, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.14", "target": null,
+        "version_id": 145070
+      },
+      {
+        "crate_id": "futures-executor-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 708156, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.14", "target": null,
+        "version_id": 145070
+      },
+      {
+        "crate_id": "futures-io-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 708157, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.14", "target": null,
+        "version_id": 145070
+      },
+      {
+        "crate_id": "futures-sink-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 708158, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.14", "target": null,
+        "version_id": 145070
+      },
+      {
+        "crate_id": "futures-util-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 708159, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.14", "target": null,
+        "version_id": 145070
+      }
+    ],
+    "dl_path": "/api/v1/crates/futures-preview/0.3.0-alpha.14/download",
+    "downloads": 3334,
+    "features": {
+      "alloc": [
+        "futures-core-preview/alloc", "futures-sink-preview/alloc",
+        "futures-util-preview/alloc"
+      ],
+      "cfg-target-has-atomic": [
+        "futures-core-preview/cfg-target-has-atomic",
+        "futures-util-preview/cfg-target-has-atomic"
+      ],
+      "compat": ["std", "futures-util-preview/compat"],
+      "default": ["std"],
+      "io-compat": ["compat", "futures-util-preview/io-compat"],
+      "nightly": [
+        "futures-core-preview/nightly", "futures-sink-preview/nightly",
+        "futures-util-preview/nightly"
+      ],
+      "std": [
+        "alloc", "futures-core-preview/std", "futures-executor-preview/std",
+        "futures-io-preview/std", "futures-sink-preview/std",
+        "futures-util-preview/std"
+      ]
+    },
+    "id": 145070, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/futures-preview/0.3.0-alpha.14/authors",
+      "dependencies": "/api/v1/crates/futures-preview/0.3.0-alpha.14/dependencies",
+      "version_downloads": "/api/v1/crates/futures-preview/0.3.0-alpha.14/downloads"
+    },
+    "num": "0.3.0-alpha.14",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/5963049?v=4",
+      "id": 5149, "login": "cramertj", "name": "Taylor Cramer",
+      "url": "https://github.com/cramertj"
+    },
+    "readme_path": "/api/v1/crates/futures-preview/0.3.0-alpha.14/readme",
+    "updated_at": "2019-04-15T18:44:06.529162+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "futures-preview", "crate_size": 27966,
+    "created_at": "2019-04-27T00:28:25.570291+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures-channel-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 720079, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.15", "target": null,
+        "version_id": 147033
+      },
+      {
+        "crate_id": "futures-core-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 720080, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.15", "target": null,
+        "version_id": 147033
+      },
+      {
+        "crate_id": "futures-executor-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 720081, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.15", "target": null,
+        "version_id": 147033
+      },
+      {
+        "crate_id": "futures-io-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 720082, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.15", "target": null,
+        "version_id": 147033
+      },
+      {
+        "crate_id": "futures-sink-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 720083, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.15", "target": null,
+        "version_id": 147033
+      },
+      {
+        "crate_id": "futures-util-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 720084, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.15", "target": null,
+        "version_id": 147033
+      }
+    ],
+    "dl_path": "/api/v1/crates/futures-preview/0.3.0-alpha.15/download",
+    "downloads": 2808,
+    "features": {
+      "alloc": [
+        "futures-core-preview/alloc", "futures-sink-preview/alloc",
+        "futures-util-preview/alloc"
+      ],
+      "async-await": ["futures-util-preview/async-await"],
+      "cfg-target-has-atomic": [
+        "futures-core-preview/cfg-target-has-atomic",
+        "futures-util-preview/cfg-target-has-atomic"
+      ],
+      "compat": ["std", "futures-util-preview/compat"],
+      "default": ["std"],
+      "io-compat": ["compat", "futures-util-preview/io-compat"],
+      "never-type": ["futures-util-preview/never-type"],
+      "nightly": [
+        "futures-core-preview/nightly", "futures-sink-preview/nightly",
+        "futures-util-preview/nightly"
+      ],
+      "std": [
+        "alloc", "futures-core-preview/std", "futures-executor-preview/std",
+        "futures-io-preview/std", "futures-sink-preview/std",
+        "futures-util-preview/std"
+      ]
+    },
+    "id": 147033, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/futures-preview/0.3.0-alpha.15/authors",
+      "dependencies": "/api/v1/crates/futures-preview/0.3.0-alpha.15/dependencies",
+      "version_downloads": "/api/v1/crates/futures-preview/0.3.0-alpha.15/downloads"
+    },
+    "num": "0.3.0-alpha.15",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/5963049?v=4",
+      "id": 5149, "login": "cramertj", "name": "Taylor Cramer",
+      "url": "https://github.com/cramertj"
+    },
+    "readme_path": "/api/v1/crates/futures-preview/0.3.0-alpha.15/readme",
+    "updated_at": "2019-04-27T00:28:25.570291+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "futures-preview", "crate_size": 30486,
+    "created_at": "2019-05-10T17:24:35.459373+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures-channel-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 734022, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.16", "target": null,
+        "version_id": 149622
+      },
+      {
+        "crate_id": "futures-core-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 734023, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.16", "target": null,
+        "version_id": 149622
+      },
+      {
+        "crate_id": "futures-executor-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 734024, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.16", "target": null,
+        "version_id": 149622
+      },
+      {
+        "crate_id": "futures-io-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 734025, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.16", "target": null,
+        "version_id": 149622
+      },
+      {
+        "crate_id": "futures-sink-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 734026, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.16", "target": null,
+        "version_id": 149622
+      },
+      {
+        "crate_id": "futures-util-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 734027, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.16", "target": null,
+        "version_id": 149622
+      }
+    ],
+    "dl_path": "/api/v1/crates/futures-preview/0.3.0-alpha.16/download",
+    "downloads": 33947,
+    "features": {
+      "alloc": [
+        "futures-core-preview/alloc", "futures-sink-preview/alloc",
+        "futures-util-preview/alloc"
+      ],
+      "async-await": ["futures-util-preview/async-await"],
+      "cfg-target-has-atomic": [
+        "futures-core-preview/cfg-target-has-atomic",
+        "futures-util-preview/cfg-target-has-atomic"
+      ],
+      "compat": ["std", "futures-util-preview/compat"],
+      "default": ["std"],
+      "io-compat": ["compat", "futures-util-preview/io-compat"],
+      "never-type": ["futures-util-preview/never-type"],
+      "nightly": [
+        "futures-core-preview/nightly", "futures-sink-preview/nightly",
+        "futures-util-preview/nightly"
+      ],
+      "std": [
+        "alloc", "futures-core-preview/std", "futures-executor-preview/std",
+        "futures-io-preview/std", "futures-sink-preview/std",
+        "futures-util-preview/std"
+      ]
+    },
+    "id": 149622, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/futures-preview/0.3.0-alpha.16/authors",
+      "dependencies": "/api/v1/crates/futures-preview/0.3.0-alpha.16/dependencies",
+      "version_downloads": "/api/v1/crates/futures-preview/0.3.0-alpha.16/downloads"
+    },
+    "num": "0.3.0-alpha.16",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/5963049?v=4",
+      "id": 5149, "login": "cramertj", "name": "Taylor Cramer",
+      "url": "https://github.com/cramertj"
+    },
+    "readme_path": "/api/v1/crates/futures-preview/0.3.0-alpha.16/readme",
+    "updated_at": "2019-05-10T17:24:35.459373+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "futures-preview", "crate_size": 34804,
+    "created_at": "2019-07-03T23:12:59.228779+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures-channel-preview", "default_features": false,
+        "downloads": 0, "features": ["sink"], "id": 800279,
+        "kind": "normal", "optional": false, "req": "=0.3.0-alpha.17",
+        "target": null, "version_id": 160164
+      },
+      {
+        "crate_id": "futures-core-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 800280, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.17", "target": null,
+        "version_id": 160164
+      },
+      {
+        "crate_id": "futures-executor-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 800281, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.17", "target": null,
+        "version_id": 160164
+      },
+      {
+        "crate_id": "futures-io-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 800282, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.17", "target": null,
+        "version_id": 160164
+      },
+      {
+        "crate_id": "futures-sink-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 800283, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.17", "target": null,
+        "version_id": 160164
+      },
+      {
+        "crate_id": "futures-util-preview", "default_features": false,
+        "downloads": 0, "features": ["sink"], "id": 800284,
+        "kind": "normal", "optional": false, "req": "=0.3.0-alpha.17",
+        "target": null, "version_id": 160164
+      }
+    ],
+    "dl_path": "/api/v1/crates/futures-preview/0.3.0-alpha.17/download",
+    "downloads": 86509,
+    "features": {
+      "alloc": [
+        "futures-core-preview/alloc", "futures-sink-preview/alloc",
+        "futures-util-preview/alloc"
+      ],
+      "async-await": [
+        "futures-util-preview/async-await",
+        "futures-util-preview/select-macro"
+      ],
+      "cfg-target-has-atomic": [
+        "futures-core-preview/cfg-target-has-atomic",
+        "futures-util-preview/cfg-target-has-atomic"
+      ],
+      "compat": ["std", "futures-util-preview/compat"],
+      "default": ["std"],
+      "io-compat": ["compat", "futures-util-preview/io-compat"],
+      "nightly": ["futures-core-preview/nightly", "futures-util-preview/nightly"],
+      "std": [
+        "alloc", "futures-core-preview/std", "futures-executor-preview/std",
+        "futures-io-preview/std", "futures-sink-preview/std",
+        "futures-util-preview/std", "futures-util-preview/io",
+        "futures-util-preview/channel"
+      ]
+    },
+    "id": 160164, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/futures-preview/0.3.0-alpha.17/authors",
+      "dependencies": "/api/v1/crates/futures-preview/0.3.0-alpha.17/dependencies",
+      "version_downloads": "/api/v1/crates/futures-preview/0.3.0-alpha.17/downloads"
+    },
+    "num": "0.3.0-alpha.17",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/5963049?v=4",
+      "id": 5149, "login": "cramertj", "name": "Taylor Cramer",
+      "url": "https://github.com/cramertj"
+    },
+    "readme_path": "/api/v1/crates/futures-preview/0.3.0-alpha.17/readme",
+    "updated_at": "2019-07-03T23:12:59.228779+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "futures-preview", "crate_size": 34252,
+    "created_at": "2019-08-09T22:32:11.871523+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures-channel-preview", "default_features": false,
+        "downloads": 0, "features": ["sink"], "id": 855516,
+        "kind": "normal", "optional": false, "req": "=0.3.0-alpha.18",
+        "target": null, "version_id": 168478
+      },
+      {
+        "crate_id": "futures-core-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 855517, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.18", "target": null,
+        "version_id": 168478
+      },
+      {
+        "crate_id": "futures-executor-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 855518, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.18", "target": null,
+        "version_id": 168478
+      },
+      {
+        "crate_id": "futures-io-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 855519, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.18", "target": null,
+        "version_id": 168478
+      },
+      {
+        "crate_id": "futures-sink-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 855520, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.18", "target": null,
+        "version_id": 168478
+      },
+      {
+        "crate_id": "futures-util-preview", "default_features": false,
+        "downloads": 0, "features": ["sink"], "id": 855521,
+        "kind": "normal", "optional": false, "req": "=0.3.0-alpha.18",
+        "target": null, "version_id": 168478
+      }
+    ],
+    "dl_path": "/api/v1/crates/futures-preview/0.3.0-alpha.18/download",
+    "downloads": 83629,
+    "features": {
+      "alloc": [
+        "futures-core-preview/alloc", "futures-sink-preview/alloc",
+        "futures-channel-preview/alloc", "futures-util-preview/alloc"
+      ],
+      "async-await": [
+        "futures-util-preview/async-await",
+        "futures-util-preview/join-macro",
+        "futures-util-preview/select-macro"
+      ],
+      "cfg-target-has-atomic": [
+        "futures-core-preview/cfg-target-has-atomic",
+        "futures-channel-preview/cfg-target-has-atomic",
+        "futures-util-preview/cfg-target-has-atomic"
+      ],
+      "compat": ["std", "futures-util-preview/compat"],
+      "default": ["std"],
+      "io-compat": ["compat", "futures-util-preview/io-compat"],
+      "nightly": [
+        "futures-core-preview/nightly", "futures-channel-preview/nightly",
+        "futures-util-preview/nightly"
+      ],
+      "std": [
+        "alloc", "futures-core-preview/std", "futures-executor-preview/std",
+        "futures-io-preview/std", "futures-sink-preview/std",
+        "futures-util-preview/std", "futures-util-preview/io",
+        "futures-util-preview/channel"
+      ]
+    },
+    "id": 168478, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/futures-preview/0.3.0-alpha.18/authors",
+      "dependencies": "/api/v1/crates/futures-preview/0.3.0-alpha.18/dependencies",
+      "version_downloads": "/api/v1/crates/futures-preview/0.3.0-alpha.18/downloads"
+    },
+    "num": "0.3.0-alpha.18",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/5963049?v=4",
+      "id": 5149, "login": "cramertj", "name": "Taylor Cramer",
+      "url": "https://github.com/cramertj"
+    },
+    "readme_path": "/api/v1/crates/futures-preview/0.3.0-alpha.18/readme",
+    "updated_at": "2019-08-09T22:32:11.871523+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "futures-preview", "crate_size": 35201,
+    "created_at": "2019-09-26T21:30:41.078935+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures-channel-preview", "default_features": false,
+        "downloads": 0, "features": ["sink"], "id": 919975,
+        "kind": "normal", "optional": false, "req": "=0.3.0-alpha.19",
+        "target": null, "version_id": 178778
+      },
+      {
+        "crate_id": "futures-core-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 919976, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.19", "target": null,
+        "version_id": 178778
+      },
+      {
+        "crate_id": "futures-executor-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 919977, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.19", "target": null,
+        "version_id": 178778
+      },
+      {
+        "crate_id": "futures-io-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 919978, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.19", "target": null,
+        "version_id": 178778
+      },
+      {
+        "crate_id": "futures-sink-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 919979, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.19", "target": null,
+        "version_id": 178778
+      },
+      {
+        "crate_id": "futures-util-preview", "default_features": false,
+        "downloads": 0, "features": ["sink"], "id": 919980,
+        "kind": "normal", "optional": false, "req": "=0.3.0-alpha.19",
+        "target": null, "version_id": 178778
+      }
+    ],
+    "dl_path": "/api/v1/crates/futures-preview/0.3.0-alpha.19/download",
+    "downloads": 390124,
+    "features": {
+      "alloc": [
+        "futures-core-preview/alloc", "futures-sink-preview/alloc",
+        "futures-channel-preview/alloc", "futures-util-preview/alloc"
+      ],
+      "async-await": [
+        "futures-util-preview/async-await",
+        "futures-util-preview/join-macro",
+        "futures-util-preview/select-macro"
+      ],
+      "bilock": ["futures-util-preview/bilock"],
+      "cfg-target-has-atomic": [
+        "futures-core-preview/cfg-target-has-atomic",
+        "futures-channel-preview/cfg-target-has-atomic",
+        "futures-util-preview/cfg-target-has-atomic"
+      ],
+      "compat": ["std", "futures-util-preview/compat"],
+      "default": ["std"],
+      "io-compat": ["compat", "futures-util-preview/io-compat"],
+      "read_initializer": [
+        "futures-io-preview/read_initializer",
+        "futures-util-preview/read_initializer"
+      ],
+      "std": [
+        "alloc", "futures-core-preview/std", "futures-executor-preview/std",
+        "futures-io-preview/std", "futures-sink-preview/std",
+        "futures-util-preview/std", "futures-util-preview/io",
+        "futures-util-preview/channel"
+      ],
+      "unstable": [
+        "futures-core-preview/unstable", "futures-channel-preview/unstable",
+        "futures-io-preview/unstable", "futures-util-preview/unstable"
+      ]
+    },
+    "id": 178778, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/futures-preview/0.3.0-alpha.19/authors",
+      "dependencies": "/api/v1/crates/futures-preview/0.3.0-alpha.19/dependencies",
+      "version_downloads": "/api/v1/crates/futures-preview/0.3.0-alpha.19/downloads"
+    },
+    "num": "0.3.0-alpha.19",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/5963049?v=4",
+      "id": 5149, "login": "cramertj", "name": "Taylor Cramer",
+      "url": "https://github.com/cramertj"
+    },
+    "readme_path": "/api/v1/crates/futures-preview/0.3.0-alpha.19/readme",
+    "updated_at": "2019-09-26T21:30:41.078935+00:00", "yanked": false
+  }
+]

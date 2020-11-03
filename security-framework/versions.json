@@ -1,0 +1,2781 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Steven Fackler <sfackler@gmail.com>"]},
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": null,
+    "created_at": "2015-11-27T22:17:03.539454+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 50964, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 18629
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 50965, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 18629
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 50963, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 18629
+      },
+      {
+        "crate_id": "rustc-serialize", "default_features": true,
+        "downloads": 0, "features": [], "id": 50967, "kind": "dev",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 18629
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 50962, "kind": "normal",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 18629
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 50966, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 18629
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/0.1.0/download",
+    "downloads": 409,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_8": ["security-framework-sys/OSX_10_8"],
+      "OSX_10_9": ["OSX_10_8", "security-framework-sys/OSX_10_9"]
+    },
+    "id": 18629, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/0.1.0/authors",
+      "dependencies": "/api/v1/crates/security-framework/0.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/0.1.0/downloads"
+    },
+    "num": "0.1.0", "published_by": null,
+    "readme_path": "/api/v1/crates/security-framework/0.1.0/readme",
+    "updated_at": "2017-11-30T02:29:18.950330+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Steven Fackler <sfackler@gmail.com>"]},
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": null,
+    "created_at": "2015-12-05T22:28:42.079551+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 52391, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 18931
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 52393, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 18931
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 52392, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 18931
+      },
+      {
+        "crate_id": "rustc-serialize", "default_features": true,
+        "downloads": 0, "features": [], "id": 52394, "kind": "dev",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 18931
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 52390, "kind": "normal",
+        "optional": false, "req": "^0.1.1", "target": null,
+        "version_id": 18931
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 52395, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 18931
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/0.1.1/download",
+    "downloads": 422,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_8": ["security-framework-sys/OSX_10_8"],
+      "OSX_10_9": ["OSX_10_8", "security-framework-sys/OSX_10_9"]
+    },
+    "id": 18931, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/0.1.1/authors",
+      "dependencies": "/api/v1/crates/security-framework/0.1.1/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/0.1.1/downloads"
+    },
+    "num": "0.1.1", "published_by": null,
+    "readme_path": "/api/v1/crates/security-framework/0.1.1/readme",
+    "updated_at": "2017-11-30T02:57:05.556399+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Steven Fackler <sfackler@gmail.com>"]},
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": null,
+    "created_at": "2015-12-21T03:26:23.982243+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 55173, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 19638
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 55172, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 19638
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 55174, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 19638
+      },
+      {
+        "crate_id": "rustc-serialize", "default_features": true,
+        "downloads": 0, "features": [], "id": 55176, "kind": "dev",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 19638
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 55171, "kind": "normal",
+        "optional": false, "req": "^0.1.2", "target": null,
+        "version_id": 19638
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 55175, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 19638
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/0.1.2/download",
+    "downloads": 569,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_8": ["security-framework-sys/OSX_10_8"],
+      "OSX_10_9": ["OSX_10_8", "security-framework-sys/OSX_10_9"]
+    },
+    "id": 19638, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/0.1.2/authors",
+      "dependencies": "/api/v1/crates/security-framework/0.1.2/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/0.1.2/downloads"
+    },
+    "num": "0.1.2", "published_by": null,
+    "readme_path": "/api/v1/crates/security-framework/0.1.2/readme",
+    "updated_at": "2017-11-30T02:39:52.422846+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Steven Fackler <sfackler@gmail.com>"]},
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": null,
+    "created_at": "2016-02-26T16:41:56.363436+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 67572, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 22999
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 67575, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 22999
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 67573, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 22999
+      },
+      {
+        "crate_id": "rustc-serialize", "default_features": true,
+        "downloads": 0, "features": [], "id": 67577, "kind": "dev",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 22999
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 67574, "kind": "normal",
+        "optional": false, "req": "^0.1.3", "target": null,
+        "version_id": 22999
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 67576, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 22999
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/0.1.3/download",
+    "downloads": 1900,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_8": ["security-framework-sys/OSX_10_8"],
+      "OSX_10_9": ["OSX_10_8", "security-framework-sys/OSX_10_9"],
+      "nightly": []
+    },
+    "id": 22999, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/0.1.3/authors",
+      "dependencies": "/api/v1/crates/security-framework/0.1.3/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/0.1.3/downloads"
+    },
+    "num": "0.1.3", "published_by": null,
+    "readme_path": "/api/v1/crates/security-framework/0.1.3/readme",
+    "updated_at": "2017-11-30T02:34:00.561636+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Steven Fackler <sfackler@gmail.com>"]},
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": null,
+    "created_at": "2016-04-16T19:43:26.833730+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 79094, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 25706
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 79097, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 25706
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 79096, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 25706
+      },
+      {
+        "crate_id": "rustc-serialize", "default_features": true,
+        "downloads": 0, "features": [], "id": 79099, "kind": "dev",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 25706
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 79095, "kind": "normal",
+        "optional": false, "req": "^0.1.4", "target": null,
+        "version_id": 25706
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 79098, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 25706
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/0.1.4/download",
+    "downloads": 1570,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_8": ["security-framework-sys/OSX_10_8"],
+      "OSX_10_9": ["OSX_10_8", "security-framework-sys/OSX_10_9"],
+      "nightly": []
+    },
+    "id": 25706, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/0.1.4/authors",
+      "dependencies": "/api/v1/crates/security-framework/0.1.4/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/0.1.4/downloads"
+    },
+    "num": "0.1.4", "published_by": null,
+    "readme_path": "/api/v1/crates/security-framework/0.1.4/readme",
+    "updated_at": "2017-11-30T02:33:52.560701+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Steven Fackler <sfackler@gmail.com>"]},
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": null,
+    "created_at": "2016-06-17T04:27:36.190623+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 91152, "kind": "normal",
+        "optional": false, "req": "^0.2.1", "target": null,
+        "version_id": 28753
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 91153, "kind": "normal",
+        "optional": false, "req": "^0.2.1", "target": null,
+        "version_id": 28753
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 91156, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 28753
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 91155, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 28753
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 91154, "kind": "normal",
+        "optional": false, "req": "^0.1.5", "target": null,
+        "version_id": 28753
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 91157, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 28753
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/0.1.5/download",
+    "downloads": 1355,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_8": ["security-framework-sys/OSX_10_8"],
+      "OSX_10_9": ["OSX_10_8", "security-framework-sys/OSX_10_9"],
+      "nightly": []
+    },
+    "id": 28753, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/0.1.5/authors",
+      "dependencies": "/api/v1/crates/security-framework/0.1.5/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/0.1.5/downloads"
+    },
+    "num": "0.1.5", "published_by": null,
+    "readme_path": "/api/v1/crates/security-framework/0.1.5/readme",
+    "updated_at": "2017-11-30T02:36:50.367962+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Steven Fackler <sfackler@gmail.com>"]},
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": null,
+    "created_at": "2016-07-16T18:10:10.172688+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 96538, "kind": "normal",
+        "optional": false, "req": "^0.2.1", "target": null,
+        "version_id": 30144
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 96540, "kind": "normal",
+        "optional": false, "req": "^0.2.1", "target": null,
+        "version_id": 30144
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 96543, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 30144
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 96541, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 30144
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 96539, "kind": "normal",
+        "optional": false, "req": "^0.1.6", "target": null,
+        "version_id": 30144
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 96542, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 30144
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/0.1.6/download",
+    "downloads": 635,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_8": ["security-framework-sys/OSX_10_8"],
+      "OSX_10_9": ["OSX_10_8", "security-framework-sys/OSX_10_9"],
+      "nightly": []
+    },
+    "id": 30144, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/0.1.6/authors",
+      "dependencies": "/api/v1/crates/security-framework/0.1.6/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/0.1.6/downloads"
+    },
+    "num": "0.1.6", "published_by": null,
+    "readme_path": "/api/v1/crates/security-framework/0.1.6/readme",
+    "updated_at": "2017-11-30T02:26:41.300276+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Steven Fackler <sfackler@gmail.com>"]},
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": null,
+    "created_at": "2016-07-30T01:51:46.245727+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 99865, "kind": "normal",
+        "optional": false, "req": "^0.2.1", "target": null,
+        "version_id": 30961
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 99866, "kind": "normal",
+        "optional": false, "req": "^0.2.1", "target": null,
+        "version_id": 30961
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 99868, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 30961
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 99864, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 30961
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 99863, "kind": "normal",
+        "optional": false, "req": "^0.1.7", "target": null,
+        "version_id": 30961
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 99867, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 30961
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/0.1.7/download",
+    "downloads": 807,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_8": ["security-framework-sys/OSX_10_8"],
+      "OSX_10_9": ["OSX_10_8", "security-framework-sys/OSX_10_9"],
+      "nightly": []
+    },
+    "id": 30961, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/0.1.7/authors",
+      "dependencies": "/api/v1/crates/security-framework/0.1.7/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/0.1.7/downloads"
+    },
+    "num": "0.1.7", "published_by": null,
+    "readme_path": "/api/v1/crates/security-framework/0.1.7/readme",
+    "updated_at": "2017-11-30T02:39:58.016662+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Steven Fackler <sfackler@gmail.com>"]},
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": null,
+    "created_at": "2016-08-11T20:15:10.839513+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 102558, "kind": "normal",
+        "optional": false, "req": "^0.2.1", "target": null,
+        "version_id": 31631
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 102555, "kind": "normal",
+        "optional": false, "req": "^0.2.1", "target": null,
+        "version_id": 31631
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 102559, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 31631
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 102556, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 31631
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 102557, "kind": "normal",
+        "optional": false, "req": "^0.1.8", "target": null,
+        "version_id": 31631
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 102560, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 31631
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/0.1.8/download",
+    "downloads": 2056,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_8": ["security-framework-sys/OSX_10_8"],
+      "OSX_10_9": ["OSX_10_8", "security-framework-sys/OSX_10_9"],
+      "nightly": []
+    },
+    "id": 31631, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/0.1.8/authors",
+      "dependencies": "/api/v1/crates/security-framework/0.1.8/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/0.1.8/downloads"
+    },
+    "num": "0.1.8", "published_by": null,
+    "readme_path": "/api/v1/crates/security-framework/0.1.8/readme",
+    "updated_at": "2017-11-30T02:41:30.459796+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Steven Fackler <sfackler@gmail.com>"]},
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": null,
+    "created_at": "2016-11-08T20:42:55.812977+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 129281, "kind": "normal",
+        "optional": false, "req": "^0.2.1", "target": null,
+        "version_id": 37525
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 129284, "kind": "normal",
+        "optional": false, "req": "^0.2.1", "target": null,
+        "version_id": 37525
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 129285, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 37525
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 129283, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 37525
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 129282, "kind": "normal",
+        "optional": false, "req": "^0.1.9", "target": null,
+        "version_id": 37525
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 129286, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 37525
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/0.1.9/download",
+    "downloads": 4967,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_8": ["security-framework-sys/OSX_10_8"],
+      "OSX_10_9": ["OSX_10_8", "security-framework-sys/OSX_10_9"],
+      "nightly": []
+    },
+    "id": 37525, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/0.1.9/authors",
+      "dependencies": "/api/v1/crates/security-framework/0.1.9/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/0.1.9/downloads"
+    },
+    "num": "0.1.9", "published_by": null,
+    "readme_path": "/api/v1/crates/security-framework/0.1.9/readme",
+    "updated_at": "2017-11-30T02:36:03.544602+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Steven Fackler <sfackler@gmail.com>"]},
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": null,
+    "created_at": "2016-12-20T03:36:50.087539+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 140328, "kind": "normal",
+        "optional": false, "req": "^0.2.1", "target": null,
+        "version_id": 40024
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 140329, "kind": "normal",
+        "optional": false, "req": "^0.2.1", "target": null,
+        "version_id": 40024
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 140331, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 40024
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 140327, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 40024
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 140326, "kind": "normal",
+        "optional": false, "req": "^0.1.9", "target": null,
+        "version_id": 40024
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 140330, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 40024
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/0.1.10/download",
+    "downloads": 10404,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_8": ["security-framework-sys/OSX_10_8"],
+      "OSX_10_9": ["OSX_10_8", "security-framework-sys/OSX_10_9"],
+      "nightly": []
+    },
+    "id": 40024, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/0.1.10/authors",
+      "dependencies": "/api/v1/crates/security-framework/0.1.10/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/0.1.10/downloads"
+    },
+    "num": "0.1.10", "published_by": null,
+    "readme_path": "/api/v1/crates/security-framework/0.1.10/readme",
+    "updated_at": "2017-11-30T02:59:57.742900+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Steven Fackler <sfackler@gmail.com>"]},
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": null,
+    "created_at": "2017-03-13T02:27:26.561329+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 177254, "kind": "normal",
+        "optional": false, "req": "^0.2.1", "target": null,
+        "version_id": 47676
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 177253, "kind": "normal",
+        "optional": false, "req": "^0.2.1", "target": null,
+        "version_id": 47676
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 177256, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 47676
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 177252, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 47676
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 177255, "kind": "normal",
+        "optional": false, "req": "^0.1.11", "target": null,
+        "version_id": 47676
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 177257, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 47676
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/0.1.11/download",
+    "downloads": 722,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_8": ["security-framework-sys/OSX_10_8"],
+      "OSX_10_9": ["OSX_10_8", "security-framework-sys/OSX_10_9"],
+      "nightly": []
+    },
+    "id": 47676, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/0.1.11/authors",
+      "dependencies": "/api/v1/crates/security-framework/0.1.11/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/0.1.11/downloads"
+    },
+    "num": "0.1.11", "published_by": null,
+    "readme_path": "/api/v1/crates/security-framework/0.1.11/readme",
+    "updated_at": "2017-11-30T02:35:12.502617+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Steven Fackler <sfackler@gmail.com>"]},
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": null,
+    "created_at": "2017-03-15T18:40:43.171170+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 178351, "kind": "normal",
+        "optional": false, "req": "^0.2.1", "target": null,
+        "version_id": 47893
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 178350, "kind": "normal",
+        "optional": false, "req": "^0.2.1", "target": null,
+        "version_id": 47893
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 178355, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 47893
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 178353, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 47893
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 178352, "kind": "normal",
+        "optional": false, "req": "^0.1.12", "target": null,
+        "version_id": 47893
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 178354, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 47893
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/0.1.12/download",
+    "downloads": 1290,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_8": ["security-framework-sys/OSX_10_8"],
+      "OSX_10_9": ["OSX_10_8", "security-framework-sys/OSX_10_9"],
+      "nightly": []
+    },
+    "id": 47893, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/0.1.12/authors",
+      "dependencies": "/api/v1/crates/security-framework/0.1.12/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/0.1.12/downloads"
+    },
+    "num": "0.1.12", "published_by": null,
+    "readme_path": "/api/v1/crates/security-framework/0.1.12/readme",
+    "updated_at": "2017-11-30T03:07:48.523528+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Steven Fackler <sfackler@gmail.com>"]},
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": null,
+    "created_at": "2017-03-27T05:02:41.530639+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 182537, "kind": "normal",
+        "optional": false, "req": "^0.2.1", "target": null,
+        "version_id": 48810
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 182539, "kind": "normal",
+        "optional": false, "req": "^0.2.1", "target": null,
+        "version_id": 48810
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 182542, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 48810
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 182538, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 48810
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 182540, "kind": "normal",
+        "optional": false, "req": "^0.1.13", "target": null,
+        "version_id": 48810
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 182541, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 48810
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/0.1.13/download",
+    "downloads": 773,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_8": ["security-framework-sys/OSX_10_8"],
+      "OSX_10_9": ["OSX_10_8", "security-framework-sys/OSX_10_9"],
+      "nightly": []
+    },
+    "id": 48810, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/0.1.13/authors",
+      "dependencies": "/api/v1/crates/security-framework/0.1.13/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/0.1.13/downloads"
+    },
+    "num": "0.1.13", "published_by": null,
+    "readme_path": "/api/v1/crates/security-framework/0.1.13/readme",
+    "updated_at": "2017-11-30T02:36:17.356204+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Steven Fackler <sfackler@gmail.com>"]},
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": null,
+    "created_at": "2017-03-29T21:58:42.728619+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 183525, "kind": "normal",
+        "optional": false, "req": "^0.2.1", "target": null,
+        "version_id": 49053
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 183523, "kind": "normal",
+        "optional": false, "req": "^0.2.1", "target": null,
+        "version_id": 49053
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 183526, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 49053
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 183524, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 49053
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 183522, "kind": "normal",
+        "optional": false, "req": "^0.1.14", "target": null,
+        "version_id": 49053
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 183527, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 49053
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/0.1.14/download",
+    "downloads": 25631,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_8": ["security-framework-sys/OSX_10_8"],
+      "OSX_10_9": ["OSX_10_8", "security-framework-sys/OSX_10_9"],
+      "nightly": []
+    },
+    "id": 49053, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/0.1.14/authors",
+      "dependencies": "/api/v1/crates/security-framework/0.1.14/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/0.1.14/downloads"
+    },
+    "num": "0.1.14", "published_by": null,
+    "readme_path": "/api/v1/crates/security-framework/0.1.14/readme",
+    "updated_at": "2017-11-30T03:43:18.658865+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Steven Fackler <sfackler@gmail.com>"]},
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": null,
+    "created_at": "2017-08-04T04:27:35.597956+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 248631, "kind": "normal",
+        "optional": false, "req": "^0.2.1", "target": null,
+        "version_id": 61563
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 248629, "kind": "normal",
+        "optional": false, "req": "^0.2.1", "target": null,
+        "version_id": 61563
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 248634, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 61563
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 248630, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 61563
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 248632, "kind": "normal",
+        "optional": false, "req": "^0.1.15", "target": null,
+        "version_id": 61563
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 248633, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 61563
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/0.1.15/download",
+    "downloads": 3051,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_12": ["OSX_10_11", "security-framework-sys/OSX_10_11"],
+      "OSX_10_8": ["security-framework-sys/OSX_10_8"],
+      "OSX_10_9": ["OSX_10_8", "security-framework-sys/OSX_10_9"],
+      "nightly": []
+    },
+    "id": 61563, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/0.1.15/authors",
+      "dependencies": "/api/v1/crates/security-framework/0.1.15/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/0.1.15/downloads"
+    },
+    "num": "0.1.15", "published_by": null,
+    "readme_path": "/api/v1/crates/security-framework/0.1.15/readme",
+    "updated_at": "2017-11-30T03:46:43.182610+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Steven Fackler <sfackler@gmail.com>"]},
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": null,
+    "created_at": "2017-08-15T03:42:47.096139+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 252834, "kind": "normal",
+        "optional": false, "req": "^0.2.1", "target": null,
+        "version_id": 62416
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 252831, "kind": "normal",
+        "optional": false, "req": "^0.2.1", "target": null,
+        "version_id": 62416
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 252835, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 62416
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 252833, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 62416
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 252832, "kind": "normal",
+        "optional": false, "req": "^0.1.16", "target": null,
+        "version_id": 62416
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 252836, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 62416
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/0.1.16/download",
+    "downloads": 190141,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_12": ["OSX_10_11", "security-framework-sys/OSX_10_11"],
+      "OSX_10_8": ["security-framework-sys/OSX_10_8"],
+      "OSX_10_9": ["OSX_10_8", "security-framework-sys/OSX_10_9"],
+      "nightly": []
+    },
+    "id": 62416, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/0.1.16/authors",
+      "dependencies": "/api/v1/crates/security-framework/0.1.16/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/0.1.16/downloads"
+    },
+    "num": "0.1.16", "published_by": null,
+    "readme_path": "/api/v1/crates/security-framework/0.1.16/readme",
+    "updated_at": "2017-11-30T03:07:22.378309+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Steven Fackler <sfackler@gmail.com>"]},
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": null,
+    "created_at": "2018-03-24T16:22:44.777568+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 380504, "kind": "normal",
+        "optional": false, "req": "^0.5.1", "target": null,
+        "version_id": 86165
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 380505, "kind": "normal",
+        "optional": false, "req": "^0.5.1", "target": null,
+        "version_id": 86165
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 380508, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 86165
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 380506, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 86165
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 380507, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 86165
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 380509, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 86165
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/0.2.0/download",
+    "downloads": 897,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_12": ["OSX_10_11", "security-framework-sys/OSX_10_11"],
+      "OSX_10_9": ["security-framework-sys/OSX_10_9"], "nightly": []
+    },
+    "id": 86165, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/0.2.0/authors",
+      "dependencies": "/api/v1/crates/security-framework/0.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/0.2.0/downloads"
+    },
+    "num": "0.2.0", "published_by": null,
+    "readme_path": "/api/v1/crates/security-framework/0.2.0/readme",
+    "updated_at": "2018-03-24T16:22:44.777568+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Steven Fackler <sfackler@gmail.com>"]},
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": null,
+    "created_at": "2018-06-01T05:37:45.822838+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 429617, "kind": "normal",
+        "optional": false, "req": "^0.5.1", "target": null,
+        "version_id": 94991
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 429618, "kind": "normal",
+        "optional": false, "req": "^0.5.1", "target": null,
+        "version_id": 94991
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 429621, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 94991
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 429619, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 94991
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 429620, "kind": "normal",
+        "optional": false, "req": "^0.2.1", "target": null,
+        "version_id": 94991
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 429622, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 94991
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/0.2.1/download",
+    "downloads": 175240,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_12": ["OSX_10_11", "security-framework-sys/OSX_10_11"],
+      "OSX_10_9": ["security-framework-sys/OSX_10_9"], "nightly": []
+    },
+    "id": 94991, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/0.2.1/authors",
+      "dependencies": "/api/v1/crates/security-framework/0.2.1/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/0.2.1/downloads"
+    },
+    "num": "0.2.1", "published_by": null,
+    "readme_path": "/api/v1/crates/security-framework/0.2.1/readme",
+    "updated_at": "2018-06-01T05:37:45.822838+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Kornel <kornel@geekhood.net>",
+          "Steven Fackler <sfackler@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": 44080,
+    "created_at": "2019-01-19T15:21:40.006677+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 616697, "kind": "normal",
+        "optional": false, "req": "^0.5.1", "target": null,
+        "version_id": 129027
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 616698, "kind": "normal",
+        "optional": false, "req": "^0.5.1", "target": null,
+        "version_id": 129027
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 616701, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 129027
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 616699, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 129027
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 616700, "kind": "normal",
+        "optional": false, "req": "^0.2.3", "target": null,
+        "version_id": 129027
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 616702, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 129027
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/0.2.2/download",
+    "downloads": 271417,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_12": ["OSX_10_11", "security-framework-sys/OSX_10_12"],
+      "OSX_10_13": ["OSX_10_12", "security-framework-sys/OSX_10_13", "alpn"],
+      "OSX_10_9": ["security-framework-sys/OSX_10_9"], "alpn": [],
+      "nightly": []
+    },
+    "id": 129027, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/0.2.2/authors",
+      "dependencies": "/api/v1/crates/security-framework/0.2.2/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/0.2.2/downloads"
+    },
+    "num": "0.2.2", "published_by": null,
+    "readme_path": "/api/v1/crates/security-framework/0.2.2/readme",
+    "updated_at": "2019-01-19T15:21:40.006677+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Kornel <kornel@geekhood.net>",
+          "Steven Fackler <sfackler@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": 44753,
+    "created_at": "2019-02-09T01:03:47.953328+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 638215, "kind": "normal",
+        "optional": false, "req": "^0.6.3", "target": null,
+        "version_id": 132726
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 638216, "kind": "normal",
+        "optional": false, "req": "^0.6.2", "target": null,
+        "version_id": 132726
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 638219, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 132726
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 638217, "kind": "normal", "optional": false,
+        "req": "^0.2.47", "target": null, "version_id": 132726
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 638218, "kind": "normal",
+        "optional": false, "req": "^0.2.4-beta", "target": null,
+        "version_id": 132726
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 638220, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 132726
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/0.2.4-beta/download",
+    "downloads": 181,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_12": ["OSX_10_11", "security-framework-sys/OSX_10_12"],
+      "OSX_10_13": ["OSX_10_12", "security-framework-sys/OSX_10_13", "alpn"],
+      "OSX_10_9": ["security-framework-sys/OSX_10_9"], "alpn": [],
+      "nightly": []
+    },
+    "id": 132726, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/0.2.4-beta/authors",
+      "dependencies": "/api/v1/crates/security-framework/0.2.4-beta/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/0.2.4-beta/downloads"
+    },
+    "num": "0.2.4-beta", "published_by": null,
+    "readme_path": "/api/v1/crates/security-framework/0.2.4-beta/readme",
+    "updated_at": "2019-02-09T01:03:47.953328+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Kornel <kornel@geekhood.net>",
+          "Steven Fackler <sfackler@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": 46087,
+    "created_at": "2019-02-27T01:26:35.279554+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 657724, "kind": "normal",
+        "optional": false, "req": "^0.6.3", "target": null,
+        "version_id": 136152
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 657725, "kind": "normal",
+        "optional": false, "req": "^0.6.2", "target": null,
+        "version_id": 136152
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 657728, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 136152
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 657726, "kind": "normal", "optional": false,
+        "req": "^0.2.47", "target": null, "version_id": 136152
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 657727, "kind": "normal",
+        "optional": false, "req": "^0.2.4-beta.2", "target": null,
+        "version_id": 136152
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 657729, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 136152
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/0.2.4-beta.2/download",
+    "downloads": 165,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_12": ["OSX_10_11", "security-framework-sys/OSX_10_12"],
+      "OSX_10_13": ["OSX_10_12", "security-framework-sys/OSX_10_13", "alpn"],
+      "OSX_10_9": ["security-framework-sys/OSX_10_9"], "alpn": [],
+      "nightly": []
+    },
+    "id": 136152, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/0.2.4-beta.2/authors",
+      "dependencies": "/api/v1/crates/security-framework/0.2.4-beta.2/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/0.2.4-beta.2/downloads"
+    },
+    "num": "0.2.4-beta.2",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/72159?v=4",
+      "id": 988, "login": "kornelski", "name": "Kornel",
+      "url": "https://github.com/kornelski"
+    },
+    "readme_path": "/api/v1/crates/security-framework/0.2.4-beta.2/readme",
+    "updated_at": "2019-04-20T18:04:45.660661+00:00", "yanked": true
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Kornel <kornel@geekhood.net>",
+          "Steven Fackler <sfackler@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": 46177,
+    "created_at": "2019-03-02T16:31:55.643274+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 661053, "kind": "normal",
+        "optional": false, "req": "^0.6.3", "target": null,
+        "version_id": 136775
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 661054, "kind": "normal",
+        "optional": false, "req": "^0.6.2", "target": null,
+        "version_id": 136775
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 661057, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 136775
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 661055, "kind": "normal", "optional": false,
+        "req": "^0.2.47", "target": null, "version_id": 136775
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 661056, "kind": "normal",
+        "optional": false, "req": "^0.2.4", "target": null,
+        "version_id": 136775
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 661058, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 136775
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/0.2.4/download",
+    "downloads": 251,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_12": ["OSX_10_11", "security-framework-sys/OSX_10_12"],
+      "OSX_10_13": ["OSX_10_12", "security-framework-sys/OSX_10_13", "alpn"],
+      "OSX_10_9": ["security-framework-sys/OSX_10_9"], "alpn": [],
+      "nightly": []
+    },
+    "id": 136775, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/0.2.4/authors",
+      "dependencies": "/api/v1/crates/security-framework/0.2.4/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/0.2.4/downloads"
+    },
+    "num": "0.2.4",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/72159?v=4",
+      "id": 988, "login": "kornelski", "name": "Kornel",
+      "url": "https://github.com/kornelski"
+    },
+    "readme_path": "/api/v1/crates/security-framework/0.2.4/readme",
+    "updated_at": "2019-03-02T17:11:36.923552+00:00", "yanked": true
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Kornel <kornel@geekhood.net>",
+          "Steven Fackler <sfackler@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": 46184,
+    "created_at": "2019-03-02T17:10:48.067891+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 661080, "kind": "normal",
+        "optional": false, "req": "^0.6.3", "target": null,
+        "version_id": 136779
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 661081, "kind": "normal",
+        "optional": false, "req": "^0.6.2", "target": null,
+        "version_id": 136779
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 661084, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 136779
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 661082, "kind": "normal", "optional": false,
+        "req": "^0.2.47", "target": null, "version_id": 136779
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 661083, "kind": "normal",
+        "optional": false, "req": "^0.3.0", "target": null,
+        "version_id": 136779
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 661085, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 136779
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/0.3.0/download",
+    "downloads": 271,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_12": ["OSX_10_11", "security-framework-sys/OSX_10_12"],
+      "OSX_10_13": ["OSX_10_12", "security-framework-sys/OSX_10_13", "alpn"],
+      "OSX_10_9": ["security-framework-sys/OSX_10_9"], "alpn": [],
+      "nightly": []
+    },
+    "id": 136779, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/0.3.0/authors",
+      "dependencies": "/api/v1/crates/security-framework/0.3.0/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/0.3.0/downloads"
+    },
+    "num": "0.3.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/72159?v=4",
+      "id": 988, "login": "kornelski", "name": "Kornel",
+      "url": "https://github.com/kornelski"
+    },
+    "readme_path": "/api/v1/crates/security-framework/0.3.0/readme",
+    "updated_at": "2019-03-02T17:10:48.067891+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Kornel <kornel@geekhood.net>",
+          "Steven Fackler <sfackler@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": 46167,
+    "created_at": "2019-04-20T18:11:30.476076+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 713484, "kind": "normal",
+        "optional": false, "req": "^0.6.3", "target": null,
+        "version_id": 145965
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 713485, "kind": "normal",
+        "optional": false, "req": "^0.6.2", "target": null,
+        "version_id": 145965
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 713488, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 145965
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 713486, "kind": "normal", "optional": false,
+        "req": "^0.2.47", "target": null, "version_id": 145965
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 713487, "kind": "normal",
+        "optional": false, "req": "^0.3.1-beta.1", "target": null,
+        "version_id": 145965
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 713489, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 145965
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/0.3.1-beta.1/download",
+    "downloads": 161,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_12": ["OSX_10_11", "security-framework-sys/OSX_10_12"],
+      "OSX_10_13": ["OSX_10_12", "security-framework-sys/OSX_10_13", "alpn"],
+      "OSX_10_9": ["security-framework-sys/OSX_10_9"], "alpn": [],
+      "nightly": []
+    },
+    "id": 145965, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/0.3.1-beta.1/authors",
+      "dependencies": "/api/v1/crates/security-framework/0.3.1-beta.1/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/0.3.1-beta.1/downloads"
+    },
+    "num": "0.3.1-beta.1",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/72159?v=4",
+      "id": 988, "login": "kornelski", "name": "Kornel",
+      "url": "https://github.com/kornelski"
+    },
+    "readme_path": "/api/v1/crates/security-framework/0.3.1-beta.1/readme",
+    "updated_at": "2019-04-20T18:11:30.476076+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Kornel <kornel@geekhood.net>",
+          "Steven Fackler <sfackler@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": 46179,
+    "created_at": "2019-04-24T21:43:11.447291+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 718111, "kind": "normal",
+        "optional": false, "req": "^0.6.3", "target": null,
+        "version_id": 146696
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 718112, "kind": "normal",
+        "optional": false, "req": "^0.6.2", "target": null,
+        "version_id": 146696
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 718115, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 146696
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 718113, "kind": "normal", "optional": false,
+        "req": "^0.2.47", "target": null, "version_id": 146696
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 718114, "kind": "normal",
+        "optional": false, "req": "^0.3.1", "target": null,
+        "version_id": 146696
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 718116, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 146696
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/0.3.1/download",
+    "downloads": 642235,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_12": ["OSX_10_11", "security-framework-sys/OSX_10_12"],
+      "OSX_10_13": ["OSX_10_12", "security-framework-sys/OSX_10_13", "alpn"],
+      "OSX_10_9": ["security-framework-sys/OSX_10_9"], "alpn": [],
+      "nightly": []
+    },
+    "id": 146696, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/0.3.1/authors",
+      "dependencies": "/api/v1/crates/security-framework/0.3.1/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/0.3.1/downloads"
+    },
+    "num": "0.3.1",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/72159?v=4",
+      "id": 988, "login": "kornelski", "name": "Kornel",
+      "url": "https://github.com/kornelski"
+    },
+    "readme_path": "/api/v1/crates/security-framework/0.3.1/readme",
+    "updated_at": "2019-04-24T21:43:11.447291+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Kornel <kornel@geekhood.net>",
+          "Steven Fackler <sfackler@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": 49829,
+    "created_at": "2019-11-04T17:15:58.924162+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 976667, "kind": "normal",
+        "optional": false, "req": "^0.6.3", "target": null,
+        "version_id": 187137
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 976668, "kind": "normal",
+        "optional": false, "req": "^0.6.2", "target": null,
+        "version_id": 187137
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 976671, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 187137
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 976669, "kind": "normal", "optional": false,
+        "req": "^0.2.47", "target": null, "version_id": 187137
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 976670, "kind": "normal",
+        "optional": false, "req": "^0.3.2", "target": null,
+        "version_id": 187137
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 976672, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 187137
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/0.3.2/download",
+    "downloads": 14641,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_12": ["OSX_10_11", "security-framework-sys/OSX_10_12"],
+      "OSX_10_13": ["OSX_10_12", "security-framework-sys/OSX_10_13", "alpn"],
+      "OSX_10_9": ["security-framework-sys/OSX_10_9"], "alpn": [],
+      "nightly": []
+    },
+    "id": 187137, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/0.3.2/authors",
+      "dependencies": "/api/v1/crates/security-framework/0.3.2/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/0.3.2/downloads"
+    },
+    "num": "0.3.2",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/72159?v=4",
+      "id": 988, "login": "kornelski", "name": "Kornel",
+      "url": "https://github.com/kornelski"
+    },
+    "readme_path": "/api/v1/crates/security-framework/0.3.2/readme",
+    "updated_at": "2019-11-04T17:15:58.924162+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Kornel <kornel@geekhood.net>",
+          "Steven Fackler <sfackler@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": 49844,
+    "created_at": "2019-11-06T16:18:34.350470+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 981235, "kind": "normal",
+        "optional": false, "req": "^0.6.3", "target": null,
+        "version_id": 187706
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 981236, "kind": "normal",
+        "optional": false, "req": "^0.6.2", "target": null,
+        "version_id": 187706
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 981239, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 187706
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 981237, "kind": "normal", "optional": false,
+        "req": "^0.2.47", "target": null, "version_id": 187706
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 981238, "kind": "normal",
+        "optional": false, "req": "^0.3.2", "target": null,
+        "version_id": 187706
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 981240, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 187706
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/0.3.3/download",
+    "downloads": 70075,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_12": ["OSX_10_11", "security-framework-sys/OSX_10_12"],
+      "OSX_10_13": ["OSX_10_12", "security-framework-sys/OSX_10_13", "alpn"],
+      "OSX_10_9": ["security-framework-sys/OSX_10_9"], "alpn": [],
+      "nightly": []
+    },
+    "id": 187706, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/0.3.3/authors",
+      "dependencies": "/api/v1/crates/security-framework/0.3.3/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/0.3.3/downloads"
+    },
+    "num": "0.3.3",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/72159?v=4",
+      "id": 988, "login": "kornelski", "name": "Kornel",
+      "url": "https://github.com/kornelski"
+    },
+    "readme_path": "/api/v1/crates/security-framework/0.3.3/readme",
+    "updated_at": "2019-11-06T16:18:34.350470+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Kornel <kornel@geekhood.net>",
+          "Steven Fackler <sfackler@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": 48568,
+    "created_at": "2019-11-21T23:42:11.588194+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 1006122, "kind": "normal",
+        "optional": false, "req": "^0.6.3", "target": null,
+        "version_id": 191434
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 1006123, "kind": "normal",
+        "optional": false, "req": "^0.6.2", "target": null,
+        "version_id": 191434
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 1006126, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 191434
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1006124, "kind": "normal", "optional": false,
+        "req": "^0.2.47", "target": null, "version_id": 191434
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 1006125, "kind": "normal",
+        "optional": false, "req": "^0.3.2", "target": null,
+        "version_id": 191434
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 1006127, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 191434
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/0.3.4/download",
+    "downloads": 518430,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_12": ["OSX_10_11", "security-framework-sys/OSX_10_12"],
+      "OSX_10_13": ["OSX_10_12", "security-framework-sys/OSX_10_13", "alpn"],
+      "OSX_10_9": ["security-framework-sys/OSX_10_9"], "alpn": [],
+      "nightly": []
+    },
+    "id": 191434, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/0.3.4/authors",
+      "dependencies": "/api/v1/crates/security-framework/0.3.4/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/0.3.4/downloads"
+    },
+    "num": "0.3.4",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/72159?v=4",
+      "id": 988, "login": "kornelski", "name": "Kornel",
+      "url": "https://github.com/kornelski"
+    },
+    "readme_path": "/api/v1/crates/security-framework/0.3.4/readme",
+    "updated_at": "2019-11-21T23:42:11.588194+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2019-12-13T14:00:37.698475+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/72159?v=4",
+          "id": 988, "login": "kornelski", "name": "Kornel",
+          "url": "https://github.com/kornelski"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Kornel <kornel@geekhood.net>",
+          "Steven Fackler <sfackler@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": 49723,
+    "created_at": "2019-12-13T14:00:37.698475+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 1038312, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 196119
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 1038313, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 196119
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 1038316, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 196119
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1038314, "kind": "normal", "optional": false,
+        "req": "^0.2.47", "target": null, "version_id": 196119
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 1038315, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 196119
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 1038317, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 196119
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/0.4.0/download",
+    "downloads": 229,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_12": ["OSX_10_11", "security-framework-sys/OSX_10_12"],
+      "OSX_10_13": ["OSX_10_12", "security-framework-sys/OSX_10_13", "alpn"],
+      "OSX_10_9": ["security-framework-sys/OSX_10_9"], "alpn": [],
+      "nightly": []
+    },
+    "id": 196119, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/0.4.0/authors",
+      "dependencies": "/api/v1/crates/security-framework/0.4.0/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/0.4.0/downloads"
+    },
+    "num": "0.4.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/72159?v=4",
+      "id": 988, "login": "kornelski", "name": "Kornel",
+      "url": "https://github.com/kornelski"
+    },
+    "readme_path": "/api/v1/crates/security-framework/0.4.0/readme",
+    "updated_at": "2019-12-13T14:00:37.698475+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-02-01T14:43:53.972990+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/72159?v=4",
+          "id": 988, "login": "kornelski", "name": "Kornel",
+          "url": "https://github.com/kornelski"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Kornel <kornel@geekhood.net>",
+          "Steven Fackler <sfackler@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": 54190,
+    "created_at": "2020-02-01T14:43:53.972990+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1123148, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 208561
+      },
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 1123149, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 208561
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 1123150, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 208561
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 1123152, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 208561
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 1123151, "kind": "normal",
+        "optional": false, "req": "^0.4.1", "target": null,
+        "version_id": 208561
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 1123153, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 208561
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/0.4.1/download",
+    "downloads": 175573,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_12": ["OSX_10_11", "security-framework-sys/OSX_10_12"],
+      "OSX_10_13": ["OSX_10_12", "security-framework-sys/OSX_10_13", "alpn"],
+      "OSX_10_9": ["security-framework-sys/OSX_10_9"], "alpn": [],
+      "nightly": []
+    },
+    "id": 208561, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/0.4.1/authors",
+      "dependencies": "/api/v1/crates/security-framework/0.4.1/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/0.4.1/downloads"
+    },
+    "num": "0.4.1",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/72159?v=4",
+      "id": 988, "login": "kornelski", "name": "Kornel",
+      "url": "https://github.com/kornelski"
+    },
+    "readme_path": "/api/v1/crates/security-framework/0.4.1/readme",
+    "updated_at": "2020-02-01T14:43:53.972990+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-03-22T18:13:17.423146+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/72159?v=4",
+          "id": 988, "login": "kornelski", "name": "Kornel",
+          "url": "https://github.com/kornelski"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Kornel <kornel@geekhood.net>",
+          "Steven Fackler <sfackler@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": 54644,
+    "created_at": "2020-03-22T18:13:17.423146+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1234678, "kind": "normal", "optional": false,
+        "req": "^1.2.1", "target": null, "version_id": 223457
+      },
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 1234679, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 223457
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 1234680, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 223457
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 1234682, "kind": "dev", "optional": false,
+        "req": "^0.4.2", "target": null, "version_id": 223457
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 1234681, "kind": "normal",
+        "optional": false, "req": "^0.4.2-alpha.1", "target": null,
+        "version_id": 223457
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 1234683, "kind": "dev", "optional": false,
+        "req": "^0.3.7", "target": null, "version_id": 223457
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/0.4.2-alpha.1/download",
+    "downloads": 70,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_12": ["OSX_10_11", "security-framework-sys/OSX_10_12"],
+      "OSX_10_13": [
+        "OSX_10_12", "security-framework-sys/OSX_10_13", "alpn",
+        "session-tickets"
+      ],
+      "OSX_10_9": ["security-framework-sys/OSX_10_9"], "alpn": [],
+      "nightly": [], "session-tickets": []
+    },
+    "id": 223457, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/0.4.2-alpha.1/authors",
+      "dependencies": "/api/v1/crates/security-framework/0.4.2-alpha.1/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/0.4.2-alpha.1/downloads"
+    },
+    "num": "0.4.2-alpha.1",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/72159?v=4",
+      "id": 988, "login": "kornelski", "name": "Kornel",
+      "url": "https://github.com/kornelski"
+    },
+    "readme_path": "/api/v1/crates/security-framework/0.4.2-alpha.1/readme",
+    "updated_at": "2020-03-22T18:13:17.423146+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-03-30T14:44:52.414798+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/72159?v=4",
+          "id": 988, "login": "kornelski", "name": "Kornel",
+          "url": "https://github.com/kornelski"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Kornel <kornel@geekhood.net>",
+          "Steven Fackler <sfackler@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": 54657,
+    "created_at": "2020-03-30T14:44:52.414798+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1254257, "kind": "normal", "optional": false,
+        "req": "^1.2.1", "target": null, "version_id": 226012
+      },
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 1254258, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 226012
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 1254259, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 226012
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 1254262, "kind": "dev", "optional": false,
+        "req": "^0.4.2", "target": null, "version_id": 226012
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1254260, "kind": "normal", "optional": false,
+        "req": "^0.2.68", "target": null, "version_id": 226012
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 1254261, "kind": "normal",
+        "optional": false, "req": "^0.4.2", "target": null,
+        "version_id": 226012
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 1254263, "kind": "dev", "optional": false,
+        "req": "^0.3.7", "target": null, "version_id": 226012
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/0.4.2/download",
+    "downloads": 168870,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_12": ["OSX_10_11", "security-framework-sys/OSX_10_12"],
+      "OSX_10_13": [
+        "OSX_10_12", "security-framework-sys/OSX_10_13", "alpn",
+        "session-tickets"
+      ],
+      "OSX_10_9": ["security-framework-sys/OSX_10_9"], "alpn": [],
+      "nightly": [], "session-tickets": []
+    },
+    "id": 226012, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/0.4.2/authors",
+      "dependencies": "/api/v1/crates/security-framework/0.4.2/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/0.4.2/downloads"
+    },
+    "num": "0.4.2",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/72159?v=4",
+      "id": 988, "login": "kornelski", "name": "Kornel",
+      "url": "https://github.com/kornelski"
+    },
+    "readme_path": "/api/v1/crates/security-framework/0.4.2/readme",
+    "updated_at": "2020-03-30T14:44:52.414798+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-04-23T22:57:44.368254+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/72159?v=4",
+          "id": 988, "login": "kornelski", "name": "Kornel",
+          "url": "https://github.com/kornelski"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Kornel <kornel@geekhood.net>",
+          "Steven Fackler <sfackler@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": 54838,
+    "created_at": "2020-04-23T22:57:44.368254+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1315134, "kind": "normal", "optional": false,
+        "req": "^1.2.1", "target": null, "version_id": 234205
+      },
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 1315135, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 234205
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 1315136, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 234205
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 1315139, "kind": "dev", "optional": false,
+        "req": "^0.4.2", "target": null, "version_id": 234205
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1315137, "kind": "normal", "optional": false,
+        "req": "^0.2.68", "target": null, "version_id": 234205
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 1315138, "kind": "normal",
+        "optional": false, "req": "^0.4.3", "target": null,
+        "version_id": 234205
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 1315140, "kind": "dev", "optional": false,
+        "req": "^0.3.7", "target": null, "version_id": 234205
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/0.4.3/download",
+    "downloads": 105667,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_12": ["OSX_10_11", "security-framework-sys/OSX_10_12"],
+      "OSX_10_13": [
+        "OSX_10_12", "security-framework-sys/OSX_10_13", "alpn",
+        "session-tickets"
+      ],
+      "OSX_10_9": ["security-framework-sys/OSX_10_9"], "alpn": [],
+      "nightly": [], "session-tickets": []
+    },
+    "id": 234205, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/0.4.3/authors",
+      "dependencies": "/api/v1/crates/security-framework/0.4.3/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/0.4.3/downloads"
+    },
+    "num": "0.4.3",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/72159?v=4",
+      "id": 988, "login": "kornelski", "name": "Kornel",
+      "url": "https://github.com/kornelski"
+    },
+    "readme_path": "/api/v1/crates/security-framework/0.4.3/readme",
+    "updated_at": "2020-04-23T22:57:44.368254+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-05-08T18:10:58.188096+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/72159?v=4",
+          "id": 988, "login": "kornelski", "name": "Kornel",
+          "url": "https://github.com/kornelski"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Kornel <kornel@geekhood.net>",
+          "Steven Fackler <sfackler@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": 54841,
+    "created_at": "2020-05-08T18:10:58.188096+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1350649, "kind": "normal", "optional": false,
+        "req": "^1.2.1", "target": null, "version_id": 239130
+      },
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 1350650, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 239130
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 1350651, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 239130
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 1350654, "kind": "dev", "optional": false,
+        "req": "^0.4.2", "target": null, "version_id": 239130
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1350652, "kind": "normal", "optional": false,
+        "req": "^0.2.68", "target": null, "version_id": 239130
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 1350653, "kind": "normal",
+        "optional": false, "req": "^0.4.3", "target": null,
+        "version_id": 239130
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 1350655, "kind": "dev", "optional": false,
+        "req": "^0.3.7", "target": null, "version_id": 239130
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/0.4.4/download",
+    "downloads": 877296,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_12": ["OSX_10_11", "security-framework-sys/OSX_10_12"],
+      "OSX_10_13": [
+        "OSX_10_12", "security-framework-sys/OSX_10_13", "alpn",
+        "session-tickets"
+      ],
+      "OSX_10_9": ["security-framework-sys/OSX_10_9"], "alpn": [],
+      "nightly": [], "session-tickets": []
+    },
+    "id": 239130, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/0.4.4/authors",
+      "dependencies": "/api/v1/crates/security-framework/0.4.4/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/0.4.4/downloads"
+    },
+    "num": "0.4.4",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/72159?v=4",
+      "id": 988, "login": "kornelski", "name": "Kornel",
+      "url": "https://github.com/kornelski"
+    },
+    "readme_path": "/api/v1/crates/security-framework/0.4.4/readme",
+    "updated_at": "2020-05-08T18:10:58.188096+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-04-17T17:20:17.264850+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/72159?v=4",
+          "id": 988, "login": "kornelski", "name": "Kornel",
+          "url": "https://github.com/kornelski"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Kornel <kornel@geekhood.net>",
+          "Steven Fackler <sfackler@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": 55072,
+    "created_at": "2020-04-17T17:20:17.264850+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1301170, "kind": "normal", "optional": false,
+        "req": "^1.2.1", "target": null, "version_id": 232265
+      },
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 1301171, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 232265
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 1301172, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 232265
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 1301175, "kind": "dev", "optional": false,
+        "req": "^0.4.2", "target": null, "version_id": 232265
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1301173, "kind": "normal", "optional": false,
+        "req": "^0.2.68", "target": null, "version_id": 232265
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": false,
+        "downloads": 0, "features": [], "id": 1301174, "kind": "normal",
+        "optional": false, "req": "^1.0.0-alpha.1", "target": null,
+        "version_id": 232265
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 1301176, "kind": "dev", "optional": false,
+        "req": "^0.3.7", "target": null, "version_id": 232265
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/1.0.0-alpha.1/download",
+    "downloads": 60,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_12": ["OSX_10_11", "security-framework-sys/OSX_10_12"],
+      "OSX_10_13": [
+        "OSX_10_12", "security-framework-sys/OSX_10_13", "alpn",
+        "session-tickets"
+      ],
+      "OSX_10_9": ["security-framework-sys/OSX_10_9"], "alpn": [],
+      "default": ["OSX_10_9"], "nightly": [], "session-tickets": []
+    },
+    "id": 232265, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/1.0.0-alpha.1/authors",
+      "dependencies": "/api/v1/crates/security-framework/1.0.0-alpha.1/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/1.0.0-alpha.1/downloads"
+    },
+    "num": "1.0.0-alpha.1",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/72159?v=4",
+      "id": 988, "login": "kornelski", "name": "Kornel",
+      "url": "https://github.com/kornelski"
+    },
+    "readme_path": "/api/v1/crates/security-framework/1.0.0-alpha.1/readme",
+    "updated_at": "2020-04-17T17:20:17.264850+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-05-08T18:44:55.021095+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/72159?v=4",
+          "id": 988, "login": "kornelski", "name": "Kornel",
+          "url": "https://github.com/kornelski"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Kornel <kornel@geekhood.net>",
+          "Steven Fackler <sfackler@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": 54546,
+    "created_at": "2020-05-08T18:44:55.021095+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1350713, "kind": "normal", "optional": false,
+        "req": "^1.2.1", "target": null, "version_id": 239141
+      },
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 1350714, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 239141
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 1350715, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 239141
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 1350718, "kind": "dev", "optional": false,
+        "req": "^0.4.2", "target": null, "version_id": 239141
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1350716, "kind": "normal", "optional": false,
+        "req": "^0.2.68", "target": null, "version_id": 239141
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": false,
+        "downloads": 0, "features": [], "id": 1350717, "kind": "normal",
+        "optional": false, "req": "^1.0.0-alpha.1", "target": null,
+        "version_id": 239141
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 1350719, "kind": "dev", "optional": false,
+        "req": "^0.3.7", "target": null, "version_id": 239141
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/1.0.0-alpha.2/download",
+    "downloads": 54,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_12": ["OSX_10_11", "security-framework-sys/OSX_10_12"],
+      "OSX_10_13": [
+        "OSX_10_12", "security-framework-sys/OSX_10_13", "alpn",
+        "session-tickets"
+      ],
+      "OSX_10_9": ["security-framework-sys/OSX_10_9"], "alpn": [],
+      "default": ["OSX_10_9"], "nightly": [], "session-tickets": []
+    },
+    "id": 239141, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/1.0.0-alpha.2/authors",
+      "dependencies": "/api/v1/crates/security-framework/1.0.0-alpha.2/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/1.0.0-alpha.2/downloads"
+    },
+    "num": "1.0.0-alpha.2",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/72159?v=4",
+      "id": 988, "login": "kornelski", "name": "Kornel",
+      "url": "https://github.com/kornelski"
+    },
+    "readme_path": "/api/v1/crates/security-framework/1.0.0-alpha.2/readme",
+    "updated_at": "2020-05-08T18:44:55.021095+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-06-10T12:10:08.202159+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/72159?v=4",
+          "id": 988, "login": "kornelski", "name": "Kornel",
+          "url": "https://github.com/kornelski"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Kornel <kornel@geekhood.net>",
+          "Steven Fackler <sfackler@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": 54505,
+    "created_at": "2020-06-10T12:10:08.202159+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1436638, "kind": "normal", "optional": false,
+        "req": "^1.2.1", "target": null, "version_id": 250881
+      },
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 1436639, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 250881
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 1436640, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 250881
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 1436643, "kind": "dev", "optional": false,
+        "req": "^0.4.2", "target": null, "version_id": 250881
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1436641, "kind": "normal", "optional": false,
+        "req": "^0.2.68", "target": null, "version_id": 250881
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": false,
+        "downloads": 0, "features": [], "id": 1436642, "kind": "normal",
+        "optional": false, "req": "^1.0.0", "target": null,
+        "version_id": 250881
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 1436644, "kind": "dev", "optional": false,
+        "req": "^0.3.7", "target": null, "version_id": 250881
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/1.0.0/download",
+    "downloads": 92886,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_12": ["OSX_10_11", "security-framework-sys/OSX_10_12"],
+      "OSX_10_13": [
+        "OSX_10_12", "security-framework-sys/OSX_10_13", "alpn",
+        "session-tickets"
+      ],
+      "OSX_10_9": ["security-framework-sys/OSX_10_9"], "alpn": [],
+      "default": ["OSX_10_9"], "nightly": [], "session-tickets": []
+    },
+    "id": 250881, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/1.0.0/authors",
+      "dependencies": "/api/v1/crates/security-framework/1.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/1.0.0/downloads"
+    },
+    "num": "1.0.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/72159?v=4",
+      "id": 988, "login": "kornelski", "name": "Kornel",
+      "url": "https://github.com/kornelski"
+    },
+    "readme_path": "/api/v1/crates/security-framework/1.0.0/readme",
+    "updated_at": "2020-06-10T12:10:08.202159+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-08-03T00:43:12.241917+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/72159?v=4",
+          "id": 988, "login": "kornelski", "name": "Kornel",
+          "url": "https://github.com/kornelski"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Kornel <kornel@geekhood.net>",
+          "Steven Fackler <sfackler@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "security-framework", "crate_size": 54526,
+    "created_at": "2020-08-03T00:43:12.241917+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1571933, "kind": "normal", "optional": false,
+        "req": "^1.2.1", "target": null, "version_id": 268888
+      },
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 1571934, "kind": "normal",
+        "optional": false, "req": "^0.9", "target": null,
+        "version_id": 268888
+      },
+      {
+        "crate_id": "core-foundation-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 1571935, "kind": "normal",
+        "optional": false, "req": "^0.8", "target": null,
+        "version_id": 268888
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 1571938, "kind": "dev", "optional": false,
+        "req": "^0.4.2", "target": null, "version_id": 268888
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1571936, "kind": "normal", "optional": false,
+        "req": "^0.2.68", "target": null, "version_id": 268888
+      },
+      {
+        "crate_id": "security-framework-sys", "default_features": false,
+        "downloads": 0, "features": [], "id": 1571937, "kind": "normal",
+        "optional": false, "req": "^2.0.0", "target": null,
+        "version_id": 268888
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 1571939, "kind": "dev", "optional": false,
+        "req": "^0.3.7", "target": null, "version_id": 268888
+      }
+    ],
+    "dl_path": "/api/v1/crates/security-framework/2.0.0/download",
+    "downloads": 1104,
+    "features": {
+      "OSX_10_10": ["OSX_10_9", "security-framework-sys/OSX_10_10"],
+      "OSX_10_11": ["OSX_10_10", "security-framework-sys/OSX_10_11"],
+      "OSX_10_12": ["OSX_10_11", "security-framework-sys/OSX_10_12"],
+      "OSX_10_13": [
+        "OSX_10_12", "security-framework-sys/OSX_10_13", "alpn",
+        "session-tickets"
+      ],
+      "OSX_10_9": ["security-framework-sys/OSX_10_9"], "alpn": [],
+      "default": ["OSX_10_9"], "nightly": [], "session-tickets": []
+    },
+    "id": 268888, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/security-framework/2.0.0/authors",
+      "dependencies": "/api/v1/crates/security-framework/2.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/security-framework/2.0.0/downloads"
+    },
+    "num": "2.0.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/72159?v=4",
+      "id": 988, "login": "kornelski", "name": "Kornel",
+      "url": "https://github.com/kornelski"
+    },
+    "readme_path": "/api/v1/crates/security-framework/2.0.0/readme",
+    "updated_at": "2020-08-03T00:43:12.241917+00:00", "yanked": false
+  }
+]

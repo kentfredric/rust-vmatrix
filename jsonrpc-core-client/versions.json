@@ -1,0 +1,730 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-core-client", "crate_size": 4562,
+    "created_at": "2019-04-05T09:40:25.277813+00:00",
+    "dependencies": [
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 697322, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 143271
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 697323, "kind": "normal", "optional": false,
+        "req": "~0.1.6", "target": null, "version_id": 143271
+      },
+      {
+        "crate_id": "jsonrpc-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 697324, "kind": "normal",
+        "optional": false, "req": "^11.0", "target": null,
+        "version_id": 143271
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 697325, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 143271
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 697326, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 143271
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 697328, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 143271
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 697327, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 143271
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 697329, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 143271
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-core-client/11.0.0/download",
+    "downloads": 1853, "features": {}, "id": 143271, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-core-client/11.0.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-core-client/11.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-core-client/11.0.0/downloads"
+    },
+    "num": "11.0.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/75586?v=4",
+      "id": 22071, "login": "ascjones", "name": "Andrew Jones",
+      "url": "https://github.com/ascjones"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-core-client/11.0.0/readme",
+    "updated_at": "2019-04-05T09:40:25.277813+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-core-client", "crate_size": 1282,
+    "created_at": "2019-06-04T10:07:34.386404+00:00",
+    "dependencies": [
+      {
+        "crate_id": "jsonrpc-client-transports", "default_features": false,
+        "downloads": 0, "features": [], "id": 763041, "kind": "normal",
+        "optional": false, "req": "^12.0", "target": null,
+        "version_id": 154414
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-core-client/12.0.0/download",
+    "downloads": 1606,
+    "features": {
+      "http": ["jsonrpc-client-transports/http"],
+      "tls": ["jsonrpc-client-transports/tls"],
+      "ws": ["jsonrpc-client-transports/ws"]
+    },
+    "id": 154414, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-core-client/12.0.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-core-client/12.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-core-client/12.0.0/downloads"
+    },
+    "num": "12.0.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/581548?v=4",
+      "id": 4242, "login": "tomusdrw", "name": "Tomasz DrwiÄga",
+      "url": "https://github.com/tomusdrw"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-core-client/12.0.0/readme",
+    "updated_at": "2019-06-04T10:07:34.386404+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-core-client", "crate_size": 1312,
+    "created_at": "2019-07-08T15:17:35.843011+00:00",
+    "dependencies": [
+      {
+        "crate_id": "jsonrpc-client-transports", "default_features": false,
+        "downloads": 0, "features": [], "id": 813386, "kind": "normal",
+        "optional": false, "req": "^12.1", "target": null,
+        "version_id": 161793
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-core-client/12.1.0/download",
+    "downloads": 1997,
+    "features": {
+      "http": ["jsonrpc-client-transports/http"],
+      "tls": ["jsonrpc-client-transports/tls"],
+      "ws": ["jsonrpc-client-transports/ws"]
+    },
+    "id": 161793, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-core-client/12.1.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-core-client/12.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-core-client/12.1.0/downloads"
+    },
+    "num": "12.1.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/75586?v=4",
+      "id": 22071, "login": "ascjones", "name": "Andrew Jones",
+      "url": "https://github.com/ascjones"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-core-client/12.1.0/readme",
+    "updated_at": "2019-07-08T15:17:35.843011+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-core-client", "crate_size": 1313,
+    "created_at": "2019-07-30T08:17:12.894911+00:00",
+    "dependencies": [
+      {
+        "crate_id": "jsonrpc-client-transports", "default_features": false,
+        "downloads": 0, "features": [], "id": 842153, "kind": "normal",
+        "optional": false, "req": "^12.2", "target": null,
+        "version_id": 166244
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-core-client/12.2.0/download",
+    "downloads": 657,
+    "features": {
+      "http": ["jsonrpc-client-transports/http"],
+      "tls": ["jsonrpc-client-transports/tls"],
+      "ws": ["jsonrpc-client-transports/ws"]
+    },
+    "id": 166244, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-core-client/12.2.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-core-client/12.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-core-client/12.2.0/downloads"
+    },
+    "num": "12.2.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/581548?v=4",
+      "id": 4242, "login": "tomusdrw", "name": "Tomasz DrwiÄga",
+      "url": "https://github.com/tomusdrw"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-core-client/12.2.0/readme",
+    "updated_at": "2019-07-30T08:17:12.894911+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-core-client", "crate_size": 1311,
+    "created_at": "2019-08-20T09:54:05.875085+00:00",
+    "dependencies": [
+      {
+        "crate_id": "jsonrpc-client-transports", "default_features": false,
+        "downloads": 0, "features": [], "id": 869975, "kind": "normal",
+        "optional": false, "req": "^12.2", "target": null,
+        "version_id": 170717
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-core-client/12.2.1/download",
+    "downloads": 582,
+    "features": {
+      "http": ["jsonrpc-client-transports/http"],
+      "tls": ["jsonrpc-client-transports/tls"],
+      "ws": ["jsonrpc-client-transports/ws"]
+    },
+    "id": 170717, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-core-client/12.2.1/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-core-client/12.2.1/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-core-client/12.2.1/downloads"
+    },
+    "num": "12.2.1",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/75586?v=4",
+      "id": 22071, "login": "ascjones", "name": "Andrew Jones",
+      "url": "https://github.com/ascjones"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-core-client/12.2.1/readme",
+    "updated_at": "2019-08-20T09:54:05.875085+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-core-client", "crate_size": 1320,
+    "created_at": "2019-07-29T09:58:10.032057+00:00",
+    "dependencies": [
+      {
+        "crate_id": "jsonrpc-client-transports", "default_features": false,
+        "downloads": 0, "features": [], "id": 840622, "kind": "normal",
+        "optional": false, "req": "^13.0", "target": null,
+        "version_id": 166015
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-core-client/13.0.0/download",
+    "downloads": 1961,
+    "features": {
+      "http": ["jsonrpc-client-transports/http"],
+      "ipc": ["jsonrpc-client-transports/ipc"],
+      "tls": ["jsonrpc-client-transports/tls"],
+      "ws": ["jsonrpc-client-transports/ws"]
+    },
+    "id": 166015, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-core-client/13.0.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-core-client/13.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-core-client/13.0.0/downloads"
+    },
+    "num": "13.0.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/581548?v=4",
+      "id": 4242, "login": "tomusdrw", "name": "Tomasz DrwiÄga",
+      "url": "https://github.com/tomusdrw"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-core-client/13.0.0/readme",
+    "updated_at": "2019-07-29T09:58:10.032057+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-core-client", "crate_size": 1320,
+    "created_at": "2019-08-26T12:38:20.074604+00:00",
+    "dependencies": [
+      {
+        "crate_id": "jsonrpc-client-transports", "default_features": false,
+        "downloads": 0, "features": [], "id": 878101, "kind": "normal",
+        "optional": false, "req": "^13.1", "target": null,
+        "version_id": 171953
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-core-client/13.1.0/download",
+    "downloads": 116462,
+    "features": {
+      "http": ["jsonrpc-client-transports/http"],
+      "ipc": ["jsonrpc-client-transports/ipc"],
+      "tls": ["jsonrpc-client-transports/tls"],
+      "ws": ["jsonrpc-client-transports/ws"]
+    },
+    "id": 171953, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-core-client/13.1.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-core-client/13.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-core-client/13.1.0/downloads"
+    },
+    "num": "13.1.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/581548?v=4",
+      "id": 4242, "login": "tomusdrw", "name": "Tomasz DrwiÄga",
+      "url": "https://github.com/tomusdrw"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-core-client/13.1.0/readme",
+    "updated_at": "2019-08-26T12:38:20.074604+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-core-client", "crate_size": 1321,
+    "created_at": "2019-09-13T12:01:43.804859+00:00",
+    "dependencies": [
+      {
+        "crate_id": "jsonrpc-client-transports", "default_features": false,
+        "downloads": 0, "features": [], "id": 903297, "kind": "normal",
+        "optional": false, "req": "^13.2", "target": null,
+        "version_id": 175999
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-core-client/13.2.0/download",
+    "downloads": 16720,
+    "features": {
+      "http": ["jsonrpc-client-transports/http"],
+      "ipc": ["jsonrpc-client-transports/ipc"],
+      "tls": ["jsonrpc-client-transports/tls"],
+      "ws": ["jsonrpc-client-transports/ws"]
+    },
+    "id": 175999, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-core-client/13.2.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-core-client/13.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-core-client/13.2.0/downloads"
+    },
+    "num": "13.2.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/581548?v=4",
+      "id": 4242, "login": "tomusdrw", "name": "Tomasz DrwiÄga",
+      "url": "https://github.com/tomusdrw"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-core-client/13.2.0/readme",
+    "updated_at": "2019-09-13T12:01:43.804859+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-core-client", "crate_size": 1323,
+    "created_at": "2019-10-09T12:35:20.299102+00:00",
+    "dependencies": [
+      {
+        "crate_id": "jsonrpc-client-transports", "default_features": false,
+        "downloads": 0, "features": [], "id": 937461, "kind": "normal",
+        "optional": false, "req": "^14.0", "target": null,
+        "version_id": 181451
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-core-client/14.0.0/download",
+    "downloads": 1209,
+    "features": {
+      "http": ["jsonrpc-client-transports/http"],
+      "ipc": ["jsonrpc-client-transports/ipc"],
+      "tls": ["jsonrpc-client-transports/tls"],
+      "ws": ["jsonrpc-client-transports/ws"]
+    },
+    "id": 181451, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-core-client/14.0.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-core-client/14.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-core-client/14.0.0/downloads"
+    },
+    "num": "14.0.0",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/18515?v=4",
+      "id": 11797, "login": "dvdplm", "name": "David",
+      "url": "https://github.com/dvdplm"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-core-client/14.0.0/readme",
+    "updated_at": "2019-10-09T12:35:20.299102+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-core-client", "crate_size": 1319,
+    "created_at": "2019-10-18T17:24:58.693136+00:00",
+    "dependencies": [
+      {
+        "crate_id": "jsonrpc-client-transports", "default_features": false,
+        "downloads": 0, "features": [], "id": 951555, "kind": "normal",
+        "optional": false, "req": "^14.0", "target": null,
+        "version_id": 183564
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-core-client/14.0.1/download",
+    "downloads": 853,
+    "features": {
+      "http": ["jsonrpc-client-transports/http"],
+      "ipc": ["jsonrpc-client-transports/ipc"],
+      "tls": ["jsonrpc-client-transports/tls"],
+      "ws": ["jsonrpc-client-transports/ws"]
+    },
+    "id": 183564, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-core-client/14.0.1/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-core-client/14.0.1/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-core-client/14.0.1/downloads"
+    },
+    "num": "14.0.1",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/18515?v=4",
+      "id": 11797, "login": "dvdplm", "name": "David",
+      "url": "https://github.com/dvdplm"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-core-client/14.0.1/readme",
+    "updated_at": "2019-10-18T17:24:58.693136+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-core-client", "crate_size": 1320,
+    "created_at": "2019-10-25T07:46:58.009865+00:00",
+    "dependencies": [
+      {
+        "crate_id": "jsonrpc-client-transports", "default_features": false,
+        "downloads": 0, "features": [], "id": 961037, "kind": "normal",
+        "optional": false, "req": "^14.0", "target": null,
+        "version_id": 184942
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-core-client/14.0.2/download",
+    "downloads": 281,
+    "features": {
+      "http": ["jsonrpc-client-transports/http"],
+      "ipc": ["jsonrpc-client-transports/ipc"],
+      "tls": ["jsonrpc-client-transports/tls"],
+      "ws": ["jsonrpc-client-transports/ws"]
+    },
+    "id": 184942, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-core-client/14.0.2/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-core-client/14.0.2/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-core-client/14.0.2/downloads"
+    },
+    "num": "14.0.2",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/581548?v=4",
+      "id": 4242, "login": "tomusdrw", "name": "Tomasz DrwiÄga",
+      "url": "https://github.com/tomusdrw"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-core-client/14.0.2/readme",
+    "updated_at": "2019-10-25T07:46:58.009865+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-core-client", "crate_size": 1318,
+    "created_at": "2019-10-25T12:54:36.159303+00:00",
+    "dependencies": [
+      {
+        "crate_id": "jsonrpc-client-transports", "default_features": false,
+        "downloads": 0, "features": [], "id": 961415, "kind": "normal",
+        "optional": false, "req": "^14.0", "target": null,
+        "version_id": 184996
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-core-client/14.0.3/download",
+    "downloads": 8263,
+    "features": {
+      "http": ["jsonrpc-client-transports/http"],
+      "ipc": ["jsonrpc-client-transports/ipc"],
+      "tls": ["jsonrpc-client-transports/tls"],
+      "ws": ["jsonrpc-client-transports/ws"]
+    },
+    "id": 184996, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-core-client/14.0.3/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-core-client/14.0.3/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-core-client/14.0.3/downloads"
+    },
+    "num": "14.0.3",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/581548?v=4",
+      "id": 4242, "login": "tomusdrw", "name": "Tomasz DrwiÄga",
+      "url": "https://github.com/tomusdrw"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-core-client/14.0.3/readme",
+    "updated_at": "2019-10-25T12:54:36.159303+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-core-client", "crate_size": 1343,
+    "created_at": "2019-11-28T13:50:35.559016+00:00",
+    "dependencies": [
+      {
+        "crate_id": "jsonrpc-client-transports", "default_features": false,
+        "downloads": 0, "features": [], "id": 1015334, "kind": "normal",
+        "optional": false, "req": "^14.0", "target": null,
+        "version_id": 192840
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-core-client/14.0.5/download",
+    "downloads": 244187,
+    "features": {
+      "arbitrary_precision": ["jsonrpc-client-transports/arbitrary_precision"],
+      "http": ["jsonrpc-client-transports/http"],
+      "ipc": ["jsonrpc-client-transports/ipc"],
+      "tls": ["jsonrpc-client-transports/tls"],
+      "ws": ["jsonrpc-client-transports/ws"]
+    },
+    "id": 192840, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-core-client/14.0.5/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-core-client/14.0.5/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-core-client/14.0.5/downloads"
+    },
+    "num": "14.0.5",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/581548?v=4",
+      "id": 4242, "login": "tomusdrw", "name": "Tomasz DrwiÄga",
+      "url": "https://github.com/tomusdrw"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-core-client/14.0.5/readme",
+    "updated_at": "2019-11-28T13:50:35.559016+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-04-14T10:15:46.076946+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/75586?v=4",
+          "id": 22071, "login": "ascjones", "name": "Andrew Jones",
+          "url": "https://github.com/ascjones"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-core-client", "crate_size": 1340,
+    "created_at": "2020-04-14T10:15:46.076946+00:00",
+    "dependencies": [
+      {
+        "crate_id": "jsonrpc-client-transports", "default_features": false,
+        "downloads": 0, "features": [], "id": 1292517, "kind": "normal",
+        "optional": false, "req": "^14.1", "target": null,
+        "version_id": 231119
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-core-client/14.1.0/download",
+    "downloads": 37866,
+    "features": {
+      "arbitrary_precision": ["jsonrpc-client-transports/arbitrary_precision"],
+      "http": ["jsonrpc-client-transports/http"],
+      "ipc": ["jsonrpc-client-transports/ipc"],
+      "tls": ["jsonrpc-client-transports/tls"],
+      "ws": ["jsonrpc-client-transports/ws"]
+    },
+    "id": 231119, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-core-client/14.1.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-core-client/14.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-core-client/14.1.0/downloads"
+    },
+    "num": "14.1.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/75586?v=4",
+      "id": 22071, "login": "ascjones", "name": "Andrew Jones",
+      "url": "https://github.com/ascjones"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-core-client/14.1.0/readme",
+    "updated_at": "2020-04-14T10:15:46.076946+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-06-03T11:11:06.354805+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/581548?v=4",
+          "id": 4242, "login": "tomusdrw", "name": "Tomasz DrwiÄga",
+          "url": "https://github.com/tomusdrw"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-core-client", "crate_size": 1339,
+    "created_at": "2020-06-03T11:11:06.354805+00:00",
+    "dependencies": [
+      {
+        "crate_id": "jsonrpc-client-transports", "default_features": false,
+        "downloads": 0, "features": [], "id": 1419665, "kind": "normal",
+        "optional": false, "req": "^14.2", "target": null,
+        "version_id": 248477
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-core-client/14.2.0/download",
+    "downloads": 140087,
+    "features": {
+      "arbitrary_precision": ["jsonrpc-client-transports/arbitrary_precision"],
+      "http": ["jsonrpc-client-transports/http"],
+      "ipc": ["jsonrpc-client-transports/ipc"],
+      "tls": ["jsonrpc-client-transports/tls"],
+      "ws": ["jsonrpc-client-transports/ws"]
+    },
+    "id": 248477, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-core-client/14.2.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-core-client/14.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-core-client/14.2.0/downloads"
+    },
+    "num": "14.2.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/581548?v=4",
+      "id": 4242, "login": "tomusdrw", "name": "Tomasz DrwiÄga",
+      "url": "https://github.com/tomusdrw"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-core-client/14.2.0/readme",
+    "updated_at": "2020-06-03T11:11:06.354805+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-09-18T19:17:36.145837+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/1096222?v=4",
+          "id": 3670, "login": "maciejhirsz", "name": "Maciej Hirsz",
+          "url": "https://github.com/maciejhirsz"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-core-client", "crate_size": 1338,
+    "created_at": "2020-09-18T19:17:36.145837+00:00",
+    "dependencies": [
+      {
+        "crate_id": "jsonrpc-client-transports", "default_features": false,
+        "downloads": 0, "features": [], "id": 1696104, "kind": "normal",
+        "optional": false, "req": "^15.0", "target": null,
+        "version_id": 285029
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-core-client/15.0.0/download",
+    "downloads": 20416,
+    "features": {
+      "arbitrary_precision": ["jsonrpc-client-transports/arbitrary_precision"],
+      "http": ["jsonrpc-client-transports/http"],
+      "ipc": ["jsonrpc-client-transports/ipc"],
+      "tls": ["jsonrpc-client-transports/tls"],
+      "ws": ["jsonrpc-client-transports/ws"]
+    },
+    "id": 285029, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-core-client/15.0.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-core-client/15.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-core-client/15.0.0/downloads"
+    },
+    "num": "15.0.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/1096222?v=4",
+      "id": 3670, "login": "maciejhirsz", "name": "Maciej Hirsz",
+      "url": "https://github.com/maciejhirsz"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-core-client/15.0.0/readme",
+    "updated_at": "2020-09-18T19:17:36.145837+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-09-30T13:04:36.785513+00:00",
+        "user": {
+          "avatar": "https://avatars2.githubusercontent.com/u/18515?v=4",
+          "id": 11797, "login": "dvdplm", "name": "David",
+          "url": "https://github.com/dvdplm"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Parity Technologies <admin@parity.io>"]},
+      "users": []
+    },
+    "crate": "jsonrpc-core-client", "crate_size": 1336,
+    "created_at": "2020-09-30T13:04:36.785513+00:00",
+    "dependencies": [
+      {
+        "crate_id": "jsonrpc-client-transports", "default_features": false,
+        "downloads": 0, "features": [], "id": 1725630, "kind": "normal",
+        "optional": false, "req": "^15.1.0", "target": null,
+        "version_id": 288970
+      }
+    ],
+    "dl_path": "/api/v1/crates/jsonrpc-core-client/15.1.0/download",
+    "downloads": 6526,
+    "features": {
+      "arbitrary_precision": ["jsonrpc-client-transports/arbitrary_precision"],
+      "http": ["jsonrpc-client-transports/http"],
+      "ipc": ["jsonrpc-client-transports/ipc"],
+      "tls": ["jsonrpc-client-transports/tls"],
+      "ws": ["jsonrpc-client-transports/ws"]
+    },
+    "id": 288970, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/jsonrpc-core-client/15.1.0/authors",
+      "dependencies": "/api/v1/crates/jsonrpc-core-client/15.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/jsonrpc-core-client/15.1.0/downloads"
+    },
+    "num": "15.1.0",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/18515?v=4",
+      "id": 11797, "login": "dvdplm", "name": "David",
+      "url": "https://github.com/dvdplm"
+    },
+    "readme_path": "/api/v1/crates/jsonrpc-core-client/15.1.0/readme",
+    "updated_at": "2020-09-30T13:04:36.785513+00:00", "yanked": false
+  }
+]

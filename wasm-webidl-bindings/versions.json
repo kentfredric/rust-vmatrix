@@ -1,0 +1,869 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Nick Fitzgerald <fitzgen@gmail.com>",
+          "The Rust and WebAssembly Working Group"
+        ]
+      },
+      "users": []
+    },
+    "crate": "wasm-webidl-bindings", "crate_size": 34362,
+    "created_at": "2019-07-11T22:01:51.375210+00:00",
+    "dependencies": [
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 817342, "kind": "normal", "optional": false,
+        "req": "^0.1.5", "target": null, "version_id": 162421
+      },
+      {
+        "crate_id": "id-arena", "default_features": true, "downloads": 0,
+        "features": [], "id": 817343, "kind": "normal", "optional": false,
+        "req": "^2.2.1", "target": null, "version_id": 162421
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 817349, "kind": "dev", "optional": false,
+        "req": "^1.3.0", "target": null, "version_id": 162421
+      },
+      {
+        "crate_id": "leb128", "default_features": true, "downloads": 0,
+        "features": [], "id": 817344, "kind": "normal", "optional": false,
+        "req": "^0.2.4", "target": null, "version_id": 162421
+      },
+      {
+        "crate_id": "walrus", "default_features": true, "downloads": 0,
+        "features": [], "id": 817347, "kind": "normal", "optional": false,
+        "req": "^0.8.0", "target": null, "version_id": 162421
+      },
+      {
+        "crate_id": "quickcheck", "default_features": true, "downloads": 0,
+        "features": [], "id": 817345, "kind": "normal", "optional": true,
+        "req": "^0.8.5", "target": null, "version_id": 162421
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 817346, "kind": "normal", "optional": true,
+        "req": "^0.6.5", "target": null, "version_id": 162421
+      },
+      {
+        "crate_id": "wasm-webidl-bindings-text-parser",
+        "default_features": true, "downloads": 0, "features": [],
+        "id": 817348, "kind": "normal", "optional": true, "req": "^0.1.0",
+        "target": null, "version_id": 162421
+      }
+    ],
+    "dl_path": "/api/v1/crates/wasm-webidl-bindings/0.1.0/download",
+    "downloads": 290,
+    "features": {
+      "quickchecking": ["rand", "quickcheck"],
+      "text": ["wasm-webidl-bindings-text-parser"]
+    },
+    "id": 162421, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/wasm-webidl-bindings/0.1.0/authors",
+      "dependencies": "/api/v1/crates/wasm-webidl-bindings/0.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/wasm-webidl-bindings/0.1.0/downloads"
+    },
+    "num": "0.1.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+      "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+      "url": "https://github.com/alexcrichton"
+    },
+    "readme_path": "/api/v1/crates/wasm-webidl-bindings/0.1.0/readme",
+    "updated_at": "2019-07-11T22:01:51.375210+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Nick Fitzgerald <fitzgen@gmail.com>",
+          "The Rust and WebAssembly Working Group"
+        ]
+      },
+      "users": []
+    },
+    "crate": "wasm-webidl-bindings", "crate_size": 34401,
+    "created_at": "2019-07-12T18:47:29.534495+00:00",
+    "dependencies": [
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 818362, "kind": "normal", "optional": false,
+        "req": "^0.1.5", "target": null, "version_id": 162577
+      },
+      {
+        "crate_id": "id-arena", "default_features": true, "downloads": 0,
+        "features": [], "id": 818363, "kind": "normal", "optional": false,
+        "req": "^2.2.1", "target": null, "version_id": 162577
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 818369, "kind": "dev", "optional": false,
+        "req": "^1.3.0", "target": null, "version_id": 162577
+      },
+      {
+        "crate_id": "leb128", "default_features": true, "downloads": 0,
+        "features": [], "id": 818364, "kind": "normal", "optional": false,
+        "req": "^0.2.4", "target": null, "version_id": 162577
+      },
+      {
+        "crate_id": "walrus", "default_features": true, "downloads": 0,
+        "features": [], "id": 818367, "kind": "normal", "optional": false,
+        "req": "^0.8.0", "target": null, "version_id": 162577
+      },
+      {
+        "crate_id": "quickcheck", "default_features": true, "downloads": 0,
+        "features": [], "id": 818365, "kind": "normal", "optional": true,
+        "req": "^0.8.5", "target": null, "version_id": 162577
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 818366, "kind": "normal", "optional": true,
+        "req": "^0.6.5", "target": null, "version_id": 162577
+      },
+      {
+        "crate_id": "wasm-webidl-bindings-text-parser",
+        "default_features": true, "downloads": 0, "features": [],
+        "id": 818368, "kind": "normal", "optional": true, "req": "=0.1.1",
+        "target": null, "version_id": 162577
+      }
+    ],
+    "dl_path": "/api/v1/crates/wasm-webidl-bindings/0.1.1/download",
+    "downloads": 327,
+    "features": {
+      "quickchecking": ["rand", "quickcheck"],
+      "text": ["wasm-webidl-bindings-text-parser"]
+    },
+    "id": 162577, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/wasm-webidl-bindings/0.1.1/authors",
+      "dependencies": "/api/v1/crates/wasm-webidl-bindings/0.1.1/dependencies",
+      "version_downloads": "/api/v1/crates/wasm-webidl-bindings/0.1.1/downloads"
+    },
+    "num": "0.1.1",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/74571?v=4",
+      "id": 696, "login": "fitzgen", "name": "Nick Fitzgerald",
+      "url": "https://github.com/fitzgen"
+    },
+    "readme_path": "/api/v1/crates/wasm-webidl-bindings/0.1.1/readme",
+    "updated_at": "2019-07-12T18:47:29.534495+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Nick Fitzgerald <fitzgen@gmail.com>",
+          "The Rust and WebAssembly Working Group"
+        ]
+      },
+      "users": []
+    },
+    "crate": "wasm-webidl-bindings", "crate_size": 34362,
+    "created_at": "2019-07-15T16:32:31.645795+00:00",
+    "dependencies": [
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 821982, "kind": "normal", "optional": false,
+        "req": "^0.1.5", "target": null, "version_id": 163098
+      },
+      {
+        "crate_id": "id-arena", "default_features": true, "downloads": 0,
+        "features": [], "id": 821983, "kind": "normal", "optional": false,
+        "req": "^2.2.1", "target": null, "version_id": 163098
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 821989, "kind": "dev", "optional": false,
+        "req": "^1.3.0", "target": null, "version_id": 163098
+      },
+      {
+        "crate_id": "leb128", "default_features": true, "downloads": 0,
+        "features": [], "id": 821984, "kind": "normal", "optional": false,
+        "req": "^0.2.4", "target": null, "version_id": 163098
+      },
+      {
+        "crate_id": "walrus", "default_features": true, "downloads": 0,
+        "features": [], "id": 821987, "kind": "normal", "optional": false,
+        "req": "^0.8.0", "target": null, "version_id": 163098
+      },
+      {
+        "crate_id": "quickcheck", "default_features": true, "downloads": 0,
+        "features": [], "id": 821985, "kind": "normal", "optional": true,
+        "req": "^0.8.5", "target": null, "version_id": 163098
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 821986, "kind": "normal", "optional": true,
+        "req": "^0.6.5", "target": null, "version_id": 163098
+      },
+      {
+        "crate_id": "wasm-webidl-bindings-text-parser",
+        "default_features": true, "downloads": 0, "features": [],
+        "id": 821988, "kind": "normal", "optional": true, "req": "=0.1.2",
+        "target": null, "version_id": 163098
+      }
+    ],
+    "dl_path": "/api/v1/crates/wasm-webidl-bindings/0.1.2/download",
+    "downloads": 2303,
+    "features": {
+      "quickchecking": ["rand", "quickcheck"],
+      "text": ["wasm-webidl-bindings-text-parser"]
+    },
+    "id": 163098, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/wasm-webidl-bindings/0.1.2/authors",
+      "dependencies": "/api/v1/crates/wasm-webidl-bindings/0.1.2/dependencies",
+      "version_downloads": "/api/v1/crates/wasm-webidl-bindings/0.1.2/downloads"
+    },
+    "num": "0.1.2",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/74571?v=4",
+      "id": 696, "login": "fitzgen", "name": "Nick Fitzgerald",
+      "url": "https://github.com/fitzgen"
+    },
+    "readme_path": "/api/v1/crates/wasm-webidl-bindings/0.1.2/readme",
+    "updated_at": "2019-07-15T16:32:31.645795+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Nick Fitzgerald <fitzgen@gmail.com>",
+          "The Rust and WebAssembly Working Group"
+        ]
+      },
+      "users": []
+    },
+    "crate": "wasm-webidl-bindings", "crate_size": 34395,
+    "created_at": "2019-07-29T20:08:28.377011+00:00",
+    "dependencies": [
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 841417, "kind": "normal", "optional": false,
+        "req": "^0.1.5", "target": null, "version_id": 166134
+      },
+      {
+        "crate_id": "id-arena", "default_features": true, "downloads": 0,
+        "features": [], "id": 841418, "kind": "normal", "optional": false,
+        "req": "^2.2.1", "target": null, "version_id": 166134
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 841424, "kind": "dev", "optional": false,
+        "req": "^1.3.0", "target": null, "version_id": 166134
+      },
+      {
+        "crate_id": "leb128", "default_features": true, "downloads": 0,
+        "features": [], "id": 841419, "kind": "normal", "optional": false,
+        "req": "^0.2.4", "target": null, "version_id": 166134
+      },
+      {
+        "crate_id": "walrus", "default_features": true, "downloads": 0,
+        "features": [], "id": 841422, "kind": "normal", "optional": false,
+        "req": "^0.9.0", "target": null, "version_id": 166134
+      },
+      {
+        "crate_id": "quickcheck", "default_features": true, "downloads": 0,
+        "features": [], "id": 841420, "kind": "normal", "optional": true,
+        "req": "^0.8.5", "target": null, "version_id": 166134
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 841421, "kind": "normal", "optional": true,
+        "req": "^0.6.5", "target": null, "version_id": 166134
+      },
+      {
+        "crate_id": "wasm-webidl-bindings-text-parser",
+        "default_features": true, "downloads": 0, "features": [],
+        "id": 841423, "kind": "normal", "optional": true, "req": "=0.1.2",
+        "target": null, "version_id": 166134
+      }
+    ],
+    "dl_path": "/api/v1/crates/wasm-webidl-bindings/0.2.0/download",
+    "downloads": 191,
+    "features": {
+      "quickchecking": ["rand", "quickcheck"],
+      "text": ["wasm-webidl-bindings-text-parser"]
+    },
+    "id": 166134, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/wasm-webidl-bindings/0.2.0/authors",
+      "dependencies": "/api/v1/crates/wasm-webidl-bindings/0.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/wasm-webidl-bindings/0.2.0/downloads"
+    },
+    "num": "0.2.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+      "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+      "url": "https://github.com/alexcrichton"
+    },
+    "readme_path": "/api/v1/crates/wasm-webidl-bindings/0.2.0/readme",
+    "updated_at": "2019-07-29T20:08:28.377011+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Nick Fitzgerald <fitzgen@gmail.com>",
+          "The Rust and WebAssembly Working Group"
+        ]
+      },
+      "users": []
+    },
+    "crate": "wasm-webidl-bindings", "crate_size": 34410,
+    "created_at": "2019-07-30T14:55:43.231376+00:00",
+    "dependencies": [
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 842767, "kind": "normal", "optional": false,
+        "req": "^0.1.5", "target": null, "version_id": 166345
+      },
+      {
+        "crate_id": "id-arena", "default_features": true, "downloads": 0,
+        "features": [], "id": 842768, "kind": "normal", "optional": false,
+        "req": "^2.2.1", "target": null, "version_id": 166345
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 842774, "kind": "dev", "optional": false,
+        "req": "^1.3.0", "target": null, "version_id": 166345
+      },
+      {
+        "crate_id": "leb128", "default_features": true, "downloads": 0,
+        "features": [], "id": 842769, "kind": "normal", "optional": false,
+        "req": "^0.2.4", "target": null, "version_id": 166345
+      },
+      {
+        "crate_id": "walrus", "default_features": true, "downloads": 0,
+        "features": [], "id": 842772, "kind": "normal", "optional": false,
+        "req": "^0.10.0", "target": null, "version_id": 166345
+      },
+      {
+        "crate_id": "quickcheck", "default_features": true, "downloads": 0,
+        "features": [], "id": 842770, "kind": "normal", "optional": true,
+        "req": "^0.8.5", "target": null, "version_id": 166345
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 842771, "kind": "normal", "optional": true,
+        "req": "^0.6.5", "target": null, "version_id": 166345
+      },
+      {
+        "crate_id": "wasm-webidl-bindings-text-parser",
+        "default_features": true, "downloads": 0, "features": [],
+        "id": 842773, "kind": "normal", "optional": true, "req": "=0.1.2",
+        "target": null, "version_id": 166345
+      }
+    ],
+    "dl_path": "/api/v1/crates/wasm-webidl-bindings/0.3.0/download",
+    "downloads": 236,
+    "features": {
+      "quickchecking": ["rand", "quickcheck"],
+      "text": ["wasm-webidl-bindings-text-parser"]
+    },
+    "id": 166345, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/wasm-webidl-bindings/0.3.0/authors",
+      "dependencies": "/api/v1/crates/wasm-webidl-bindings/0.3.0/dependencies",
+      "version_downloads": "/api/v1/crates/wasm-webidl-bindings/0.3.0/downloads"
+    },
+    "num": "0.3.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+      "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+      "url": "https://github.com/alexcrichton"
+    },
+    "readme_path": "/api/v1/crates/wasm-webidl-bindings/0.3.0/readme",
+    "updated_at": "2019-07-30T14:55:43.231376+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Nick Fitzgerald <fitzgen@gmail.com>",
+          "The Rust and WebAssembly Working Group"
+        ]
+      },
+      "users": []
+    },
+    "crate": "wasm-webidl-bindings", "crate_size": 34797,
+    "created_at": "2019-07-30T20:01:43.590458+00:00",
+    "dependencies": [
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 843472, "kind": "normal", "optional": false,
+        "req": "^0.1.5", "target": null, "version_id": 166424
+      },
+      {
+        "crate_id": "id-arena", "default_features": true, "downloads": 0,
+        "features": [], "id": 843473, "kind": "normal", "optional": false,
+        "req": "^2.2.1", "target": null, "version_id": 166424
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 843479, "kind": "dev", "optional": false,
+        "req": "^1.3.0", "target": null, "version_id": 166424
+      },
+      {
+        "crate_id": "leb128", "default_features": true, "downloads": 0,
+        "features": [], "id": 843474, "kind": "normal", "optional": false,
+        "req": "^0.2.4", "target": null, "version_id": 166424
+      },
+      {
+        "crate_id": "walrus", "default_features": true, "downloads": 0,
+        "features": [], "id": 843477, "kind": "normal", "optional": false,
+        "req": "^0.10.0", "target": null, "version_id": 166424
+      },
+      {
+        "crate_id": "quickcheck", "default_features": true, "downloads": 0,
+        "features": [], "id": 843475, "kind": "normal", "optional": true,
+        "req": "^0.8.5", "target": null, "version_id": 166424
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 843476, "kind": "normal", "optional": true,
+        "req": "^0.6.5", "target": null, "version_id": 166424
+      },
+      {
+        "crate_id": "wasm-webidl-bindings-text-parser",
+        "default_features": true, "downloads": 0, "features": [],
+        "id": 843478, "kind": "normal", "optional": true, "req": "=0.1.2",
+        "target": null, "version_id": 166424
+      }
+    ],
+    "dl_path": "/api/v1/crates/wasm-webidl-bindings/0.3.1/download",
+    "downloads": 776,
+    "features": {
+      "quickchecking": ["rand", "quickcheck"],
+      "text": ["wasm-webidl-bindings-text-parser"]
+    },
+    "id": 166424, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/wasm-webidl-bindings/0.3.1/authors",
+      "dependencies": "/api/v1/crates/wasm-webidl-bindings/0.3.1/dependencies",
+      "version_downloads": "/api/v1/crates/wasm-webidl-bindings/0.3.1/downloads"
+    },
+    "num": "0.3.1",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+      "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+      "url": "https://github.com/alexcrichton"
+    },
+    "readme_path": "/api/v1/crates/wasm-webidl-bindings/0.3.1/readme",
+    "updated_at": "2019-07-30T20:01:43.590458+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Nick Fitzgerald <fitzgen@gmail.com>",
+          "The Rust and WebAssembly Working Group"
+        ]
+      },
+      "users": []
+    },
+    "crate": "wasm-webidl-bindings", "crate_size": 34804,
+    "created_at": "2019-08-13T19:08:37.006682+00:00",
+    "dependencies": [
+      {
+        "crate_id": "failure", "default_features": false, "downloads": 0,
+        "features": ["std"], "id": 860215, "kind": "normal",
+        "optional": false, "req": "^0.1.5", "target": null,
+        "version_id": 169254
+      },
+      {
+        "crate_id": "id-arena", "default_features": true, "downloads": 0,
+        "features": [], "id": 860216, "kind": "normal", "optional": false,
+        "req": "^2.2.1", "target": null, "version_id": 169254
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 860222, "kind": "dev", "optional": false,
+        "req": "^1.3.0", "target": null, "version_id": 169254
+      },
+      {
+        "crate_id": "leb128", "default_features": true, "downloads": 0,
+        "features": [], "id": 860217, "kind": "normal", "optional": false,
+        "req": "^0.2.4", "target": null, "version_id": 169254
+      },
+      {
+        "crate_id": "walrus", "default_features": true, "downloads": 0,
+        "features": [], "id": 860220, "kind": "normal", "optional": false,
+        "req": "^0.11.0", "target": null, "version_id": 169254
+      },
+      {
+        "crate_id": "quickcheck", "default_features": true, "downloads": 0,
+        "features": [], "id": 860218, "kind": "normal", "optional": true,
+        "req": "^0.8.5", "target": null, "version_id": 169254
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 860219, "kind": "normal", "optional": true,
+        "req": "^0.6.5", "target": null, "version_id": 169254
+      },
+      {
+        "crate_id": "wasm-webidl-bindings-text-parser",
+        "default_features": true, "downloads": 0, "features": [],
+        "id": 860221, "kind": "normal", "optional": true, "req": "=0.1.2",
+        "target": null, "version_id": 169254
+      }
+    ],
+    "dl_path": "/api/v1/crates/wasm-webidl-bindings/0.4.0/download",
+    "downloads": 21819,
+    "features": {
+      "quickchecking": ["rand", "quickcheck"],
+      "text": ["wasm-webidl-bindings-text-parser"]
+    },
+    "id": 169254, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/wasm-webidl-bindings/0.4.0/authors",
+      "dependencies": "/api/v1/crates/wasm-webidl-bindings/0.4.0/dependencies",
+      "version_downloads": "/api/v1/crates/wasm-webidl-bindings/0.4.0/downloads"
+    },
+    "num": "0.4.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+      "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+      "url": "https://github.com/alexcrichton"
+    },
+    "readme_path": "/api/v1/crates/wasm-webidl-bindings/0.4.0/readme",
+    "updated_at": "2019-08-13T19:08:37.006682+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Nick Fitzgerald <fitzgen@gmail.com>",
+          "The Rust and WebAssembly Working Group"
+        ]
+      },
+      "users": []
+    },
+    "crate": "wasm-webidl-bindings", "crate_size": 34286,
+    "created_at": "2019-09-11T00:31:08.214998+00:00",
+    "dependencies": [
+      {
+        "crate_id": "failure", "default_features": false, "downloads": 0,
+        "features": ["std"], "id": 900526, "kind": "normal",
+        "optional": false, "req": "^0.1.5", "target": null,
+        "version_id": 175557
+      },
+      {
+        "crate_id": "id-arena", "default_features": true, "downloads": 0,
+        "features": [], "id": 900527, "kind": "normal", "optional": false,
+        "req": "^2.2.1", "target": null, "version_id": 175557
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 900533, "kind": "dev", "optional": false,
+        "req": "^1.3.0", "target": null, "version_id": 175557
+      },
+      {
+        "crate_id": "leb128", "default_features": true, "downloads": 0,
+        "features": [], "id": 900528, "kind": "normal", "optional": false,
+        "req": "^0.2.4", "target": null, "version_id": 175557
+      },
+      {
+        "crate_id": "walrus", "default_features": true, "downloads": 0,
+        "features": [], "id": 900531, "kind": "normal", "optional": false,
+        "req": "^0.12.0", "target": null, "version_id": 175557
+      },
+      {
+        "crate_id": "quickcheck", "default_features": true, "downloads": 0,
+        "features": [], "id": 900529, "kind": "normal", "optional": true,
+        "req": "^0.8.5", "target": null, "version_id": 175557
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 900530, "kind": "normal", "optional": true,
+        "req": "^0.6.5", "target": null, "version_id": 175557
+      },
+      {
+        "crate_id": "wasm-webidl-bindings-text-parser",
+        "default_features": true, "downloads": 0, "features": [],
+        "id": 900532, "kind": "normal", "optional": true, "req": "=0.5.0",
+        "target": null, "version_id": 175557
+      }
+    ],
+    "dl_path": "/api/v1/crates/wasm-webidl-bindings/0.5.0/download",
+    "downloads": 6593,
+    "features": {
+      "quickchecking": ["rand", "quickcheck"],
+      "text": ["wasm-webidl-bindings-text-parser"]
+    },
+    "id": 175557, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/wasm-webidl-bindings/0.5.0/authors",
+      "dependencies": "/api/v1/crates/wasm-webidl-bindings/0.5.0/dependencies",
+      "version_downloads": "/api/v1/crates/wasm-webidl-bindings/0.5.0/downloads"
+    },
+    "num": "0.5.0",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/74571?v=4",
+      "id": 696, "login": "fitzgen", "name": "Nick Fitzgerald",
+      "url": "https://github.com/fitzgen"
+    },
+    "readme_path": "/api/v1/crates/wasm-webidl-bindings/0.5.0/readme",
+    "updated_at": "2019-09-11T00:31:08.214998+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Nick Fitzgerald <fitzgen@gmail.com>",
+          "The Rust and WebAssembly Working Group"
+        ]
+      },
+      "users": []
+    },
+    "crate": "wasm-webidl-bindings", "crate_size": 34191,
+    "created_at": "2019-11-04T18:37:11.648836+00:00",
+    "dependencies": [
+      {
+        "crate_id": "anyhow", "default_features": true, "downloads": 0,
+        "features": [], "id": 976816, "kind": "normal", "optional": false,
+        "req": "^1.0.18", "target": null, "version_id": 187165
+      },
+      {
+        "crate_id": "id-arena", "default_features": true, "downloads": 0,
+        "features": [], "id": 976817, "kind": "normal", "optional": false,
+        "req": "^2.2.1", "target": null, "version_id": 187165
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 976823, "kind": "dev", "optional": false,
+        "req": "^1.3.0", "target": null, "version_id": 187165
+      },
+      {
+        "crate_id": "leb128", "default_features": true, "downloads": 0,
+        "features": [], "id": 976818, "kind": "normal", "optional": false,
+        "req": "^0.2.4", "target": null, "version_id": 187165
+      },
+      {
+        "crate_id": "walrus", "default_features": true, "downloads": 0,
+        "features": [], "id": 976821, "kind": "normal", "optional": false,
+        "req": "^0.13.0", "target": null, "version_id": 187165
+      },
+      {
+        "crate_id": "quickcheck", "default_features": true, "downloads": 0,
+        "features": [], "id": 976819, "kind": "normal", "optional": true,
+        "req": "^0.8.5", "target": null, "version_id": 187165
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 976820, "kind": "normal", "optional": true,
+        "req": "^0.6.5", "target": null, "version_id": 187165
+      },
+      {
+        "crate_id": "wasm-webidl-bindings-text-parser",
+        "default_features": true, "downloads": 0, "features": [],
+        "id": 976822, "kind": "normal", "optional": true, "req": "=0.6.0",
+        "target": null, "version_id": 187165
+      }
+    ],
+    "dl_path": "/api/v1/crates/wasm-webidl-bindings/0.6.0/download",
+    "downloads": 23442,
+    "features": {
+      "quickchecking": ["rand", "quickcheck"],
+      "text": ["wasm-webidl-bindings-text-parser"]
+    },
+    "id": 187165, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/wasm-webidl-bindings/0.6.0/authors",
+      "dependencies": "/api/v1/crates/wasm-webidl-bindings/0.6.0/dependencies",
+      "version_downloads": "/api/v1/crates/wasm-webidl-bindings/0.6.0/downloads"
+    },
+    "num": "0.6.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+      "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+      "url": "https://github.com/alexcrichton"
+    },
+    "readme_path": "/api/v1/crates/wasm-webidl-bindings/0.6.0/readme",
+    "updated_at": "2019-11-04T18:37:11.648836+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-02-03T21:46:33.507612+00:00",
+        "user": {
+          "avatar": "https://avatars2.githubusercontent.com/u/74571?v=4",
+          "id": 696, "login": "fitzgen", "name": "Nick Fitzgerald",
+          "url": "https://github.com/fitzgen"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Nick Fitzgerald <fitzgen@gmail.com>",
+          "The Rust and WebAssembly Working Group"
+        ]
+      },
+      "users": []
+    },
+    "crate": "wasm-webidl-bindings", "crate_size": 34179,
+    "created_at": "2020-02-03T21:46:33.507612+00:00",
+    "dependencies": [
+      {
+        "crate_id": "anyhow", "default_features": true, "downloads": 0,
+        "features": [], "id": 1126893, "kind": "normal", "optional": false,
+        "req": "^1.0.18", "target": null, "version_id": 209121
+      },
+      {
+        "crate_id": "id-arena", "default_features": true, "downloads": 0,
+        "features": [], "id": 1126894, "kind": "normal", "optional": false,
+        "req": "^2.2.1", "target": null, "version_id": 209121
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1126900, "kind": "dev", "optional": false,
+        "req": "^1.3.0", "target": null, "version_id": 209121
+      },
+      {
+        "crate_id": "leb128", "default_features": true, "downloads": 0,
+        "features": [], "id": 1126895, "kind": "normal", "optional": false,
+        "req": "^0.2.4", "target": null, "version_id": 209121
+      },
+      {
+        "crate_id": "walrus", "default_features": true, "downloads": 0,
+        "features": [], "id": 1126898, "kind": "normal", "optional": false,
+        "req": "^0.14.0", "target": null, "version_id": 209121
+      },
+      {
+        "crate_id": "quickcheck", "default_features": true, "downloads": 0,
+        "features": [], "id": 1126896, "kind": "normal", "optional": true,
+        "req": "^0.8.5", "target": null, "version_id": 209121
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1126897, "kind": "normal", "optional": true,
+        "req": "^0.6.5", "target": null, "version_id": 209121
+      },
+      {
+        "crate_id": "wasm-webidl-bindings-text-parser",
+        "default_features": true, "downloads": 0, "features": [],
+        "id": 1126899, "kind": "normal", "optional": true, "req": "=0.7.0",
+        "target": null, "version_id": 209121
+      }
+    ],
+    "dl_path": "/api/v1/crates/wasm-webidl-bindings/0.7.0/download",
+    "downloads": 79,
+    "features": {
+      "quickchecking": ["rand", "quickcheck"],
+      "text": ["wasm-webidl-bindings-text-parser"]
+    },
+    "id": 209121, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/wasm-webidl-bindings/0.7.0/authors",
+      "dependencies": "/api/v1/crates/wasm-webidl-bindings/0.7.0/dependencies",
+      "version_downloads": "/api/v1/crates/wasm-webidl-bindings/0.7.0/downloads"
+    },
+    "num": "0.7.0",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/74571?v=4",
+      "id": 696, "login": "fitzgen", "name": "Nick Fitzgerald",
+      "url": "https://github.com/fitzgen"
+    },
+    "readme_path": "/api/v1/crates/wasm-webidl-bindings/0.7.0/readme",
+    "updated_at": "2020-02-03T21:46:33.507612+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-02-03T22:14:58.810865+00:00",
+        "user": {
+          "avatar": "https://avatars2.githubusercontent.com/u/74571?v=4",
+          "id": 696, "login": "fitzgen", "name": "Nick Fitzgerald",
+          "url": "https://github.com/fitzgen"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Nick Fitzgerald <fitzgen@gmail.com>",
+          "The Rust and WebAssembly Working Group"
+        ]
+      },
+      "users": []
+    },
+    "crate": "wasm-webidl-bindings", "crate_size": 34179,
+    "created_at": "2020-02-03T22:14:58.810865+00:00",
+    "dependencies": [
+      {
+        "crate_id": "anyhow", "default_features": true, "downloads": 0,
+        "features": [], "id": 1126999, "kind": "normal", "optional": false,
+        "req": "^1.0.18", "target": null, "version_id": 209134
+      },
+      {
+        "crate_id": "id-arena", "default_features": true, "downloads": 0,
+        "features": [], "id": 1127000, "kind": "normal", "optional": false,
+        "req": "^2.2.1", "target": null, "version_id": 209134
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1127006, "kind": "dev", "optional": false,
+        "req": "^1.3.0", "target": null, "version_id": 209134
+      },
+      {
+        "crate_id": "leb128", "default_features": true, "downloads": 0,
+        "features": [], "id": 1127001, "kind": "normal", "optional": false,
+        "req": "^0.2.4", "target": null, "version_id": 209134
+      },
+      {
+        "crate_id": "walrus", "default_features": true, "downloads": 0,
+        "features": [], "id": 1127004, "kind": "normal", "optional": false,
+        "req": "^0.15.0", "target": null, "version_id": 209134
+      },
+      {
+        "crate_id": "quickcheck", "default_features": true, "downloads": 0,
+        "features": [], "id": 1127002, "kind": "normal", "optional": true,
+        "req": "^0.8.5", "target": null, "version_id": 209134
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1127003, "kind": "normal", "optional": true,
+        "req": "^0.6.5", "target": null, "version_id": 209134
+      },
+      {
+        "crate_id": "wasm-webidl-bindings-text-parser",
+        "default_features": true, "downloads": 0, "features": [],
+        "id": 1127005, "kind": "normal", "optional": true, "req": "=0.8.0",
+        "target": null, "version_id": 209134
+      }
+    ],
+    "dl_path": "/api/v1/crates/wasm-webidl-bindings/0.8.0/download",
+    "downloads": 7388,
+    "features": {
+      "quickchecking": ["rand", "quickcheck"],
+      "text": ["wasm-webidl-bindings-text-parser"]
+    },
+    "id": 209134, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/wasm-webidl-bindings/0.8.0/authors",
+      "dependencies": "/api/v1/crates/wasm-webidl-bindings/0.8.0/dependencies",
+      "version_downloads": "/api/v1/crates/wasm-webidl-bindings/0.8.0/downloads"
+    },
+    "num": "0.8.0",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/74571?v=4",
+      "id": 696, "login": "fitzgen", "name": "Nick Fitzgerald",
+      "url": "https://github.com/fitzgen"
+    },
+    "readme_path": "/api/v1/crates/wasm-webidl-bindings/0.8.0/readme",
+    "updated_at": "2020-02-03T22:14:58.810865+00:00", "yanked": false
+  }
+]

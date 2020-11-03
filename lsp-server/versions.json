@@ -1,0 +1,569 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["rust-analyzer developers"]}, "users": []},
+    "crate": "lsp-server", "crate_size": 9182,
+    "created_at": "2019-08-30T14:18:28.228046+00:00",
+    "dependencies": [
+      {
+        "crate_id": "crossbeam-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 883872, "kind": "normal",
+        "optional": false, "req": "^0.3.5", "target": null,
+        "version_id": 172847
+      },
+      {
+        "crate_id": "flexi_logger", "default_features": true,
+        "downloads": 0, "features": [], "id": 883876, "kind": "dev",
+        "optional": false, "req": "^0.14.0", "target": null,
+        "version_id": 172847
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 883873, "kind": "normal", "optional": false,
+        "req": "^0.4.3", "target": null, "version_id": 172847
+      },
+      {
+        "crate_id": "lsp-types", "default_features": true, "downloads": 0,
+        "features": [], "id": 883877, "kind": "dev", "optional": false,
+        "req": "^0.61.0", "target": null, "version_id": 172847
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 883874, "kind": "normal",
+        "optional": false, "req": "^1.0.83", "target": null,
+        "version_id": 172847
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 883875, "kind": "normal", "optional": false,
+        "req": "^1.0.34", "target": null, "version_id": 172847
+      }
+    ],
+    "dl_path": "/api/v1/crates/lsp-server/0.1.0/download",
+    "downloads": 156, "features": {}, "id": 172847,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/lsp-server/0.1.0/authors",
+      "dependencies": "/api/v1/crates/lsp-server/0.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/lsp-server/0.1.0/downloads"
+    },
+    "num": "0.1.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/1711539?v=4",
+      "id": 2699, "login": "matklad", "name": "Aleksey Kladov",
+      "url": "https://github.com/matklad"
+    },
+    "readme_path": "/api/v1/crates/lsp-server/0.1.0/readme",
+    "updated_at": "2019-08-30T14:18:28.228046+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["rust-analyzer developers"]}, "users": []},
+    "crate": "lsp-server", "crate_size": 9017,
+    "created_at": "2019-08-30T17:18:17.185799+00:00",
+    "dependencies": [
+      {
+        "crate_id": "crossbeam-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 884150, "kind": "normal",
+        "optional": false, "req": "^0.3.5", "target": null,
+        "version_id": 172896
+      },
+      {
+        "crate_id": "flexi_logger", "default_features": true,
+        "downloads": 0, "features": [], "id": 884154, "kind": "dev",
+        "optional": false, "req": "^0.14.0", "target": null,
+        "version_id": 172896
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 884151, "kind": "normal", "optional": false,
+        "req": "^0.4.3", "target": null, "version_id": 172896
+      },
+      {
+        "crate_id": "lsp-types", "default_features": true, "downloads": 0,
+        "features": [], "id": 884155, "kind": "dev", "optional": false,
+        "req": "^0.61.0", "target": null, "version_id": 172896
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 884152, "kind": "normal",
+        "optional": false, "req": "^1.0.83", "target": null,
+        "version_id": 172896
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 884153, "kind": "normal", "optional": false,
+        "req": "^1.0.34", "target": null, "version_id": 172896
+      }
+    ],
+    "dl_path": "/api/v1/crates/lsp-server/0.2.0/download",
+    "downloads": 3981, "features": {}, "id": 172896,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/lsp-server/0.2.0/authors",
+      "dependencies": "/api/v1/crates/lsp-server/0.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/lsp-server/0.2.0/downloads"
+    },
+    "num": "0.2.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/1711539?v=4",
+      "id": 2699, "login": "matklad", "name": "Aleksey Kladov",
+      "url": "https://github.com/matklad"
+    },
+    "readme_path": "/api/v1/crates/lsp-server/0.2.0/readme",
+    "updated_at": "2019-08-30T17:18:17.185799+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["rust-analyzer developers"]}, "users": []},
+    "crate": "lsp-server", "crate_size": 9091,
+    "created_at": "2019-11-07T16:28:40.740263+00:00",
+    "dependencies": [
+      {
+        "crate_id": "crossbeam-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 983455, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 188034
+      },
+      {
+        "crate_id": "flexi_logger", "default_features": true,
+        "downloads": 0, "features": [], "id": 983459, "kind": "dev",
+        "optional": false, "req": "^0.14.0", "target": null,
+        "version_id": 188034
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 983456, "kind": "normal", "optional": false,
+        "req": "^0.4.3", "target": null, "version_id": 188034
+      },
+      {
+        "crate_id": "lsp-types", "default_features": true, "downloads": 0,
+        "features": [], "id": 983460, "kind": "dev", "optional": false,
+        "req": "^0.61.0", "target": null, "version_id": 188034
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 983457, "kind": "normal",
+        "optional": false, "req": "^1.0.83", "target": null,
+        "version_id": 188034
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 983458, "kind": "normal", "optional": false,
+        "req": "^1.0.34", "target": null, "version_id": 188034
+      }
+    ],
+    "dl_path": "/api/v1/crates/lsp-server/0.3.0/download",
+    "downloads": 6174, "features": {}, "id": 188034,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/lsp-server/0.3.0/authors",
+      "dependencies": "/api/v1/crates/lsp-server/0.3.0/dependencies",
+      "version_downloads": "/api/v1/crates/lsp-server/0.3.0/downloads"
+    },
+    "num": "0.3.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/1711539?v=4",
+      "id": 2699, "login": "matklad", "name": "Aleksey Kladov",
+      "url": "https://github.com/matklad"
+    },
+    "readme_path": "/api/v1/crates/lsp-server/0.3.0/readme",
+    "updated_at": "2019-11-07T16:28:40.740263+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2019-12-31T10:44:17.090681+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/1711539?v=4",
+          "id": 2699, "login": "matklad", "name": "Aleksey Kladov",
+          "url": "https://github.com/matklad"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["rust-analyzer developers"]}, "users": []},
+    "crate": "lsp-server", "crate_size": 10245,
+    "created_at": "2019-12-31T10:44:17.090681+00:00",
+    "dependencies": [
+      {
+        "crate_id": "crossbeam-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1062684, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 200012
+      },
+      {
+        "crate_id": "flexi_logger", "default_features": true,
+        "downloads": 0, "features": [], "id": 1062688, "kind": "dev",
+        "optional": false, "req": "^0.14.0", "target": null,
+        "version_id": 200012
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1062685, "kind": "normal", "optional": false,
+        "req": "^0.4.3", "target": null, "version_id": 200012
+      },
+      {
+        "crate_id": "lsp-types", "default_features": true, "downloads": 0,
+        "features": [], "id": 1062689, "kind": "dev", "optional": false,
+        "req": "^0.63.0", "target": null, "version_id": 200012
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1062686, "kind": "normal",
+        "optional": false, "req": "^1.0.83", "target": null,
+        "version_id": 200012
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1062687, "kind": "normal", "optional": false,
+        "req": "^1.0.34", "target": null, "version_id": 200012
+      }
+    ],
+    "dl_path": "/api/v1/crates/lsp-server/0.3.1/download",
+    "downloads": 23705, "features": {}, "id": 200012,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/lsp-server/0.3.1/authors",
+      "dependencies": "/api/v1/crates/lsp-server/0.3.1/dependencies",
+      "version_downloads": "/api/v1/crates/lsp-server/0.3.1/downloads"
+    },
+    "num": "0.3.1",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/1711539?v=4",
+      "id": 2699, "login": "matklad", "name": "Aleksey Kladov",
+      "url": "https://github.com/matklad"
+    },
+    "readme_path": "/api/v1/crates/lsp-server/0.3.1/readme",
+    "updated_at": "2019-12-31T10:44:17.090681+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-05-19T14:33:39.663095+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/1711539?v=4",
+          "id": 2699, "login": "matklad", "name": "Aleksey Kladov",
+          "url": "https://github.com/matklad"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["rust-analyzer developers"]}, "users": []},
+    "crate": "lsp-server", "crate_size": 10633,
+    "created_at": "2020-05-19T14:33:39.663095+00:00",
+    "dependencies": [
+      {
+        "crate_id": "crossbeam-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1379597, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 243129
+      },
+      {
+        "crate_id": "flexi_logger", "default_features": true,
+        "downloads": 0, "features": [], "id": 1379601, "kind": "dev",
+        "optional": false, "req": "^0.14.0", "target": null,
+        "version_id": 243129
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1379598, "kind": "normal", "optional": false,
+        "req": "^0.4.3", "target": null, "version_id": 243129
+      },
+      {
+        "crate_id": "lsp-types", "default_features": true, "downloads": 0,
+        "features": [], "id": 1379602, "kind": "dev", "optional": false,
+        "req": "^0.63.0", "target": null, "version_id": 243129
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1379599, "kind": "normal",
+        "optional": false, "req": "^1.0.83", "target": null,
+        "version_id": 243129
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1379600, "kind": "normal", "optional": false,
+        "req": "^1.0.34", "target": null, "version_id": 243129
+      }
+    ],
+    "dl_path": "/api/v1/crates/lsp-server/0.3.2/download",
+    "downloads": 4578, "features": {}, "id": 243129,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/lsp-server/0.3.2/authors",
+      "dependencies": "/api/v1/crates/lsp-server/0.3.2/dependencies",
+      "version_downloads": "/api/v1/crates/lsp-server/0.3.2/downloads"
+    },
+    "num": "0.3.2",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/1711539?v=4",
+      "id": 2699, "login": "matklad", "name": "Aleksey Kladov",
+      "url": "https://github.com/matklad"
+    },
+    "readme_path": "/api/v1/crates/lsp-server/0.3.2/readme",
+    "updated_at": "2020-05-19T14:33:39.663095+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-06-20T21:17:21.259427+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/1711539?v=4",
+          "id": 2699, "login": "matklad", "name": "Aleksey Kladov",
+          "url": "https://github.com/matklad"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["rust-analyzer developers"]}, "users": []},
+    "crate": "lsp-server", "crate_size": 11116,
+    "created_at": "2020-06-20T21:17:21.259427+00:00",
+    "dependencies": [
+      {
+        "crate_id": "crossbeam-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1461562, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 254289
+      },
+      {
+        "crate_id": "flexi_logger", "default_features": true,
+        "downloads": 0, "features": [], "id": 1461566, "kind": "dev",
+        "optional": false, "req": "^0.14.0", "target": null,
+        "version_id": 254289
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1461563, "kind": "normal", "optional": false,
+        "req": "^0.4.3", "target": null, "version_id": 254289
+      },
+      {
+        "crate_id": "lsp-types", "default_features": true, "downloads": 0,
+        "features": [], "id": 1461567, "kind": "dev", "optional": false,
+        "req": "^0.63.0", "target": null, "version_id": 254289
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1461564, "kind": "normal",
+        "optional": false, "req": "^1.0.83", "target": null,
+        "version_id": 254289
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1461565, "kind": "normal", "optional": false,
+        "req": "^1.0.34", "target": null, "version_id": 254289
+      }
+    ],
+    "dl_path": "/api/v1/crates/lsp-server/0.3.3/download",
+    "downloads": 29622, "features": {}, "id": 254289,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/lsp-server/0.3.3/authors",
+      "dependencies": "/api/v1/crates/lsp-server/0.3.3/dependencies",
+      "version_downloads": "/api/v1/crates/lsp-server/0.3.3/downloads"
+    },
+    "num": "0.3.3",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/1711539?v=4",
+      "id": 2699, "login": "matklad", "name": "Aleksey Kladov",
+      "url": "https://github.com/matklad"
+    },
+    "readme_path": "/api/v1/crates/lsp-server/0.3.3/readme",
+    "updated_at": "2020-06-20T21:17:21.259427+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-08-17T16:06:36.862450+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/1711539?v=4",
+          "id": 2699, "login": "matklad", "name": "Aleksey Kladov",
+          "url": "https://github.com/matklad"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["rust-analyzer developers"]}, "users": []},
+    "crate": "lsp-server", "crate_size": 11483,
+    "created_at": "2020-08-17T16:06:36.862450+00:00",
+    "dependencies": [
+      {
+        "crate_id": "crossbeam-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1607154, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 273566
+      },
+      {
+        "crate_id": "flexi_logger", "default_features": true,
+        "downloads": 0, "features": [], "id": 1607158, "kind": "dev",
+        "optional": false, "req": "^0.14.0", "target": null,
+        "version_id": 273566
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1607155, "kind": "normal", "optional": false,
+        "req": "^0.4.3", "target": null, "version_id": 273566
+      },
+      {
+        "crate_id": "lsp-types", "default_features": true, "downloads": 0,
+        "features": [], "id": 1607159, "kind": "dev", "optional": false,
+        "req": "^0.63.0", "target": null, "version_id": 273566
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1607156, "kind": "normal",
+        "optional": false, "req": "^1.0.83", "target": null,
+        "version_id": 273566
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1607157, "kind": "normal", "optional": false,
+        "req": "^1.0.34", "target": null, "version_id": 273566
+      }
+    ],
+    "dl_path": "/api/v1/crates/lsp-server/0.3.4/download",
+    "downloads": 34824, "features": {}, "id": 273566,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/lsp-server/0.3.4/authors",
+      "dependencies": "/api/v1/crates/lsp-server/0.3.4/dependencies",
+      "version_downloads": "/api/v1/crates/lsp-server/0.3.4/downloads"
+    },
+    "num": "0.3.4",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/1711539?v=4",
+      "id": 2699, "login": "matklad", "name": "Aleksey Kladov",
+      "url": "https://github.com/matklad"
+    },
+    "readme_path": "/api/v1/crates/lsp-server/0.3.4/readme",
+    "updated_at": "2020-08-17T16:06:36.862450+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-10-13T14:06:12.057319+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/1711539?v=4",
+          "id": 2699, "login": "matklad", "name": "Aleksey Kladov",
+          "url": "https://github.com/matklad"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["rust-analyzer developers"]}, "users": []},
+    "crate": "lsp-server", "crate_size": 12056,
+    "created_at": "2020-10-13T14:06:12.057319+00:00",
+    "dependencies": [
+      {
+        "crate_id": "crossbeam-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1756695, "kind": "normal",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 293168
+      },
+      {
+        "crate_id": "flexi_logger", "default_features": true,
+        "downloads": 0, "features": [], "id": 1756699, "kind": "dev",
+        "optional": false, "req": "^0.16.0", "target": null,
+        "version_id": 293168
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1756696, "kind": "normal", "optional": false,
+        "req": "^0.4.3", "target": null, "version_id": 293168
+      },
+      {
+        "crate_id": "lsp-types", "default_features": true, "downloads": 0,
+        "features": [], "id": 1756700, "kind": "dev", "optional": false,
+        "req": "^0.82.0", "target": null, "version_id": 293168
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1756697, "kind": "normal",
+        "optional": false, "req": "^1.0.83", "target": null,
+        "version_id": 293168
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1756698, "kind": "normal", "optional": false,
+        "req": "^1.0.34", "target": null, "version_id": 293168
+      }
+    ],
+    "dl_path": "/api/v1/crates/lsp-server/0.4.0/download",
+    "downloads": 1079, "features": {}, "id": 293168,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/lsp-server/0.4.0/authors",
+      "dependencies": "/api/v1/crates/lsp-server/0.4.0/dependencies",
+      "version_downloads": "/api/v1/crates/lsp-server/0.4.0/downloads"
+    },
+    "num": "0.4.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/1711539?v=4",
+      "id": 2699, "login": "matklad", "name": "Aleksey Kladov",
+      "url": "https://github.com/matklad"
+    },
+    "readme_path": "/api/v1/crates/lsp-server/0.4.0/readme",
+    "updated_at": "2020-10-13T14:06:12.057319+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-10-19T11:52:20.399659+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/1711539?v=4",
+          "id": 2699, "login": "matklad", "name": "Aleksey Kladov",
+          "url": "https://github.com/matklad"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["rust-analyzer developers"]}, "users": []},
+    "crate": "lsp-server", "crate_size": 11821,
+    "created_at": "2020-10-19T11:52:20.399659+00:00",
+    "dependencies": [
+      {
+        "crate_id": "crossbeam-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1776953, "kind": "normal",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 296632
+      },
+      {
+        "crate_id": "flexi_logger", "default_features": true,
+        "downloads": 0, "features": [], "id": 1776957, "kind": "dev",
+        "optional": false, "req": "^0.16.0", "target": null,
+        "version_id": 296632
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1776954, "kind": "normal", "optional": false,
+        "req": "^0.4.3", "target": null, "version_id": 296632
+      },
+      {
+        "crate_id": "lsp-types", "default_features": true, "downloads": 0,
+        "features": [], "id": 1776958, "kind": "dev", "optional": false,
+        "req": "^0.82.0", "target": null, "version_id": 296632
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1776955, "kind": "normal",
+        "optional": false, "req": "^1.0.83", "target": null,
+        "version_id": 296632
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1776956, "kind": "normal", "optional": false,
+        "req": "^1.0.34", "target": null, "version_id": 296632
+      }
+    ],
+    "dl_path": "/api/v1/crates/lsp-server/0.4.1/download",
+    "downloads": 2303, "features": {}, "id": 296632,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/lsp-server/0.4.1/authors",
+      "dependencies": "/api/v1/crates/lsp-server/0.4.1/dependencies",
+      "version_downloads": "/api/v1/crates/lsp-server/0.4.1/downloads"
+    },
+    "num": "0.4.1",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/1711539?v=4",
+      "id": 2699, "login": "matklad", "name": "Aleksey Kladov",
+      "url": "https://github.com/matklad"
+    },
+    "readme_path": "/api/v1/crates/lsp-server/0.4.1/readme",
+    "updated_at": "2020-10-19T11:52:20.399659+00:00", "yanked": false
+  }
+]

@@ -1,0 +1,875 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Zibi Braniecki <gandalf@mozilla.com>"]},
+      "users": []
+    },
+    "crate": "annotate-snippets", "crate_size": null,
+    "created_at": "2018-04-25T08:08:25.933764+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ansi_term", "default_features": true, "downloads": 0,
+        "features": [], "id": 403060, "kind": "dev", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 90234
+      },
+      {
+        "crate_id": "difference", "default_features": true, "downloads": 0,
+        "features": [], "id": 403061, "kind": "dev", "optional": false,
+        "req": "^2.0", "target": null, "version_id": 90234
+      },
+      {
+        "crate_id": "glob", "default_features": true, "downloads": 0,
+        "features": [], "id": 403062, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 90234
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 403063, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 90234
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 403064, "kind": "dev",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 90234
+      },
+      {
+        "crate_id": "serde_yaml", "default_features": true, "downloads": 0,
+        "features": [], "id": 403065, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 90234
+      }
+    ],
+    "dl_path": "/api/v1/crates/annotate-snippets/0.0.1/download",
+    "downloads": 249, "features": {}, "id": 90234,
+    "license": "Apache-2.0/MIT",
+    "links": {
+      "authors": "/api/v1/crates/annotate-snippets/0.0.1/authors",
+      "dependencies": "/api/v1/crates/annotate-snippets/0.0.1/dependencies",
+      "version_downloads": "/api/v1/crates/annotate-snippets/0.0.1/downloads"
+    },
+    "num": "0.0.1", "published_by": null,
+    "readme_path": "/api/v1/crates/annotate-snippets/0.0.1/readme",
+    "updated_at": "2018-04-25T08:08:25.933764+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Zibi Braniecki <gandalf@mozilla.com>"]},
+      "users": []
+    },
+    "crate": "annotate-snippets", "crate_size": null,
+    "created_at": "2018-05-03T08:39:52.854363+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ansi_term", "default_features": true, "downloads": 0,
+        "features": [], "id": 408728, "kind": "dev", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 91237
+      },
+      {
+        "crate_id": "difference", "default_features": true, "downloads": 0,
+        "features": [], "id": 408729, "kind": "dev", "optional": false,
+        "req": "^2.0", "target": null, "version_id": 91237
+      },
+      {
+        "crate_id": "glob", "default_features": true, "downloads": 0,
+        "features": [], "id": 408730, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 91237
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 408731, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 91237
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 408732, "kind": "dev",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 91237
+      },
+      {
+        "crate_id": "serde_yaml", "default_features": true, "downloads": 0,
+        "features": [], "id": 408733, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 91237
+      },
+      {
+        "crate_id": "ansi_term", "default_features": true, "downloads": 0,
+        "features": [], "id": 408727, "kind": "normal", "optional": true,
+        "req": "^0.11.0", "target": null, "version_id": 91237
+      }
+    ],
+    "dl_path": "/api/v1/crates/annotate-snippets/0.0.2/download",
+    "downloads": 252,
+    "features": {"color": ["ansi_term"], "default": []}, "id": 91237,
+    "license": "Apache-2.0/MIT",
+    "links": {
+      "authors": "/api/v1/crates/annotate-snippets/0.0.2/authors",
+      "dependencies": "/api/v1/crates/annotate-snippets/0.0.2/dependencies",
+      "version_downloads": "/api/v1/crates/annotate-snippets/0.0.2/downloads"
+    },
+    "num": "0.0.2", "published_by": null,
+    "readme_path": "/api/v1/crates/annotate-snippets/0.0.2/readme",
+    "updated_at": "2018-05-03T08:39:52.854363+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Zibi Braniecki <gandalf@mozilla.com>"]},
+      "users": []
+    },
+    "crate": "annotate-snippets", "crate_size": null,
+    "created_at": "2018-05-09T20:22:10.213008+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ansi_term", "default_features": true, "downloads": 0,
+        "features": [], "id": 413696, "kind": "dev", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 92117
+      },
+      {
+        "crate_id": "difference", "default_features": true, "downloads": 0,
+        "features": [], "id": 413697, "kind": "dev", "optional": false,
+        "req": "^2.0", "target": null, "version_id": 92117
+      },
+      {
+        "crate_id": "glob", "default_features": true, "downloads": 0,
+        "features": [], "id": 413698, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 92117
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 413699, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 92117
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 413700, "kind": "dev",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 92117
+      },
+      {
+        "crate_id": "serde_yaml", "default_features": true, "downloads": 0,
+        "features": [], "id": 413701, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 92117
+      },
+      {
+        "crate_id": "ansi_term", "default_features": true, "downloads": 0,
+        "features": [], "id": 413695, "kind": "normal", "optional": true,
+        "req": "^0.11.0", "target": null, "version_id": 92117
+      }
+    ],
+    "dl_path": "/api/v1/crates/annotate-snippets/0.0.3/download",
+    "downloads": 271,
+    "features": {"color": ["ansi_term"], "default": []}, "id": 92117,
+    "license": "Apache-2.0/MIT",
+    "links": {
+      "authors": "/api/v1/crates/annotate-snippets/0.0.3/authors",
+      "dependencies": "/api/v1/crates/annotate-snippets/0.0.3/dependencies",
+      "version_downloads": "/api/v1/crates/annotate-snippets/0.0.3/downloads"
+    },
+    "num": "0.0.3", "published_by": null,
+    "readme_path": "/api/v1/crates/annotate-snippets/0.0.3/readme",
+    "updated_at": "2018-05-09T20:22:10.213008+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Zibi Braniecki <gandalf@mozilla.com>"]},
+      "users": []
+    },
+    "crate": "annotate-snippets", "crate_size": null,
+    "created_at": "2018-05-13T06:48:31.279540+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ansi_term", "default_features": true, "downloads": 0,
+        "features": [], "id": 416055, "kind": "dev", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 92587
+      },
+      {
+        "crate_id": "difference", "default_features": true, "downloads": 0,
+        "features": [], "id": 416056, "kind": "dev", "optional": false,
+        "req": "^2.0", "target": null, "version_id": 92587
+      },
+      {
+        "crate_id": "glob", "default_features": true, "downloads": 0,
+        "features": [], "id": 416057, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 92587
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 416058, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 92587
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 416059, "kind": "dev",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 92587
+      },
+      {
+        "crate_id": "serde_yaml", "default_features": true, "downloads": 0,
+        "features": [], "id": 416060, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 92587
+      },
+      {
+        "crate_id": "ansi_term", "default_features": true, "downloads": 0,
+        "features": [], "id": 416054, "kind": "normal", "optional": true,
+        "req": "^0.11.0", "target": null, "version_id": 92587
+      }
+    ],
+    "dl_path": "/api/v1/crates/annotate-snippets/0.0.4/download",
+    "downloads": 256,
+    "features": {"color": ["ansi_term"], "default": []}, "id": 92587,
+    "license": "Apache-2.0/MIT",
+    "links": {
+      "authors": "/api/v1/crates/annotate-snippets/0.0.4/authors",
+      "dependencies": "/api/v1/crates/annotate-snippets/0.0.4/dependencies",
+      "version_downloads": "/api/v1/crates/annotate-snippets/0.0.4/downloads"
+    },
+    "num": "0.0.4", "published_by": null,
+    "readme_path": "/api/v1/crates/annotate-snippets/0.0.4/readme",
+    "updated_at": "2018-05-13T06:48:31.279540+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Zibi Braniecki <gandalf@mozilla.com>"]},
+      "users": []
+    },
+    "crate": "annotate-snippets", "crate_size": null,
+    "created_at": "2018-05-21T17:48:31.506872+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ansi_term", "default_features": true, "downloads": 0,
+        "features": [], "id": 422226, "kind": "dev", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 93673
+      },
+      {
+        "crate_id": "difference", "default_features": true, "downloads": 0,
+        "features": [], "id": 422227, "kind": "dev", "optional": false,
+        "req": "^2.0", "target": null, "version_id": 93673
+      },
+      {
+        "crate_id": "glob", "default_features": true, "downloads": 0,
+        "features": [], "id": 422228, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 93673
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 422229, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 93673
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 422230, "kind": "dev",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 93673
+      },
+      {
+        "crate_id": "serde_yaml", "default_features": true, "downloads": 0,
+        "features": [], "id": 422231, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 93673
+      },
+      {
+        "crate_id": "ansi_term", "default_features": true, "downloads": 0,
+        "features": [], "id": 422225, "kind": "normal", "optional": true,
+        "req": "^0.11.0", "target": null, "version_id": 93673
+      }
+    ],
+    "dl_path": "/api/v1/crates/annotate-snippets/0.0.5/download",
+    "downloads": 286,
+    "features": {"color": ["ansi_term"], "default": []}, "id": 93673,
+    "license": "Apache-2.0/MIT",
+    "links": {
+      "authors": "/api/v1/crates/annotate-snippets/0.0.5/authors",
+      "dependencies": "/api/v1/crates/annotate-snippets/0.0.5/dependencies",
+      "version_downloads": "/api/v1/crates/annotate-snippets/0.0.5/downloads"
+    },
+    "num": "0.0.5", "published_by": null,
+    "readme_path": "/api/v1/crates/annotate-snippets/0.0.5/readme",
+    "updated_at": "2018-05-21T17:48:31.506872+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Zibi Braniecki <gandalf@mozilla.com>"]},
+      "users": []
+    },
+    "crate": "annotate-snippets", "crate_size": null,
+    "created_at": "2018-05-21T19:59:33.897529+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ansi_term", "default_features": true, "downloads": 0,
+        "features": [], "id": 422280, "kind": "dev", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 93682
+      },
+      {
+        "crate_id": "difference", "default_features": true, "downloads": 0,
+        "features": [], "id": 422281, "kind": "dev", "optional": false,
+        "req": "^2.0", "target": null, "version_id": 93682
+      },
+      {
+        "crate_id": "glob", "default_features": true, "downloads": 0,
+        "features": [], "id": 422282, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 93682
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 422283, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 93682
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 422284, "kind": "dev",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 93682
+      },
+      {
+        "crate_id": "serde_yaml", "default_features": true, "downloads": 0,
+        "features": [], "id": 422285, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 93682
+      },
+      {
+        "crate_id": "ansi_term", "default_features": true, "downloads": 0,
+        "features": [], "id": 422279, "kind": "normal", "optional": true,
+        "req": "^0.11.0", "target": null, "version_id": 93682
+      }
+    ],
+    "dl_path": "/api/v1/crates/annotate-snippets/0.0.6/download",
+    "downloads": 273,
+    "features": {"color": ["ansi_term"], "default": []}, "id": 93682,
+    "license": "Apache-2.0/MIT",
+    "links": {
+      "authors": "/api/v1/crates/annotate-snippets/0.0.6/authors",
+      "dependencies": "/api/v1/crates/annotate-snippets/0.0.6/dependencies",
+      "version_downloads": "/api/v1/crates/annotate-snippets/0.0.6/downloads"
+    },
+    "num": "0.0.6", "published_by": null,
+    "readme_path": "/api/v1/crates/annotate-snippets/0.0.6/readme",
+    "updated_at": "2018-05-21T19:59:33.897529+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Zibi Braniecki <gandalf@mozilla.com>"]},
+      "users": []
+    },
+    "crate": "annotate-snippets", "crate_size": null,
+    "created_at": "2018-05-21T20:10:02.814165+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ansi_term", "default_features": true, "downloads": 0,
+        "features": [], "id": 422287, "kind": "dev", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 93683
+      },
+      {
+        "crate_id": "difference", "default_features": true, "downloads": 0,
+        "features": [], "id": 422288, "kind": "dev", "optional": false,
+        "req": "^2.0", "target": null, "version_id": 93683
+      },
+      {
+        "crate_id": "glob", "default_features": true, "downloads": 0,
+        "features": [], "id": 422289, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 93683
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 422290, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 93683
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 422291, "kind": "dev",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 93683
+      },
+      {
+        "crate_id": "serde_yaml", "default_features": true, "downloads": 0,
+        "features": [], "id": 422292, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 93683
+      },
+      {
+        "crate_id": "ansi_term", "default_features": true, "downloads": 0,
+        "features": [], "id": 422286, "kind": "normal", "optional": true,
+        "req": "^0.11.0", "target": null, "version_id": 93683
+      }
+    ],
+    "dl_path": "/api/v1/crates/annotate-snippets/0.0.7/download",
+    "downloads": 260,
+    "features": {"color": ["ansi_term"], "default": []}, "id": 93683,
+    "license": "Apache-2.0/MIT",
+    "links": {
+      "authors": "/api/v1/crates/annotate-snippets/0.0.7/authors",
+      "dependencies": "/api/v1/crates/annotate-snippets/0.0.7/dependencies",
+      "version_downloads": "/api/v1/crates/annotate-snippets/0.0.7/downloads"
+    },
+    "num": "0.0.7", "published_by": null,
+    "readme_path": "/api/v1/crates/annotate-snippets/0.0.7/readme",
+    "updated_at": "2018-05-21T20:10:02.814165+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Zibi Braniecki <gandalf@mozilla.com>"]},
+      "users": []
+    },
+    "crate": "annotate-snippets", "crate_size": null,
+    "created_at": "2018-05-22T00:52:15.884207+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ansi_term", "default_features": true, "downloads": 0,
+        "features": [], "id": 422386, "kind": "dev", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 93699
+      },
+      {
+        "crate_id": "difference", "default_features": true, "downloads": 0,
+        "features": [], "id": 422387, "kind": "dev", "optional": false,
+        "req": "^2.0", "target": null, "version_id": 93699
+      },
+      {
+        "crate_id": "glob", "default_features": true, "downloads": 0,
+        "features": [], "id": 422388, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 93699
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 422389, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 93699
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 422390, "kind": "dev",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 93699
+      },
+      {
+        "crate_id": "serde_yaml", "default_features": true, "downloads": 0,
+        "features": [], "id": 422391, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 93699
+      },
+      {
+        "crate_id": "ansi_term", "default_features": true, "downloads": 0,
+        "features": [], "id": 422385, "kind": "normal", "optional": true,
+        "req": "^0.11.0", "target": null, "version_id": 93699
+      }
+    ],
+    "dl_path": "/api/v1/crates/annotate-snippets/0.1.0/download",
+    "downloads": 27389,
+    "features": {"color": ["ansi_term"], "default": []}, "id": 93699,
+    "license": "Apache-2.0/MIT",
+    "links": {
+      "authors": "/api/v1/crates/annotate-snippets/0.1.0/authors",
+      "dependencies": "/api/v1/crates/annotate-snippets/0.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/annotate-snippets/0.1.0/downloads"
+    },
+    "num": "0.1.0", "published_by": null,
+    "readme_path": "/api/v1/crates/annotate-snippets/0.1.0/readme",
+    "updated_at": "2018-05-22T00:52:15.884207+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Zibi Braniecki <gandalf@mozilla.com>"]},
+      "users": []
+    },
+    "crate": "annotate-snippets", "crate_size": 21506,
+    "created_at": "2019-01-05T21:52:05.330624+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ansi_term", "default_features": true, "downloads": 0,
+        "features": [], "id": 601983, "kind": "dev", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 125801
+      },
+      {
+        "crate_id": "difference", "default_features": true, "downloads": 0,
+        "features": [], "id": 601984, "kind": "dev", "optional": false,
+        "req": "^2.0", "target": null, "version_id": 125801
+      },
+      {
+        "crate_id": "glob", "default_features": true, "downloads": 0,
+        "features": [], "id": 601985, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 125801
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 601986, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 125801
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 601987, "kind": "dev",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 125801
+      },
+      {
+        "crate_id": "serde_yaml", "default_features": true, "downloads": 0,
+        "features": [], "id": 601988, "kind": "dev", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 125801
+      },
+      {
+        "crate_id": "ansi_term", "default_features": true, "downloads": 0,
+        "features": [], "id": 601982, "kind": "normal", "optional": true,
+        "req": "^0.11.0", "target": null, "version_id": 125801
+      }
+    ],
+    "dl_path": "/api/v1/crates/annotate-snippets/0.5.0/download",
+    "downloads": 114620,
+    "features": {"color": ["ansi_term"], "default": []}, "id": 125801,
+    "license": "Apache-2.0/MIT",
+    "links": {
+      "authors": "/api/v1/crates/annotate-snippets/0.5.0/authors",
+      "dependencies": "/api/v1/crates/annotate-snippets/0.5.0/dependencies",
+      "version_downloads": "/api/v1/crates/annotate-snippets/0.5.0/downloads"
+    },
+    "num": "0.5.0", "published_by": null,
+    "readme_path": "/api/v1/crates/annotate-snippets/0.5.0/readme",
+    "updated_at": "2019-01-05T21:52:05.330624+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Zibi Braniecki <gandalf@mozilla.com>"]},
+      "users": []
+    },
+    "crate": "annotate-snippets", "crate_size": 21857,
+    "created_at": "2019-06-26T18:29:38.786766+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ansi_term", "default_features": true, "downloads": 0,
+        "features": [], "id": 790161, "kind": "dev", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 158586
+      },
+      {
+        "crate_id": "difference", "default_features": true, "downloads": 0,
+        "features": [], "id": 790162, "kind": "dev", "optional": false,
+        "req": "^2.0", "target": null, "version_id": 158586
+      },
+      {
+        "crate_id": "glob", "default_features": true, "downloads": 0,
+        "features": [], "id": 790163, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 158586
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 790164, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 158586
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 790165, "kind": "dev",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 158586
+      },
+      {
+        "crate_id": "serde_yaml", "default_features": true, "downloads": 0,
+        "features": [], "id": 790166, "kind": "dev", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 158586
+      },
+      {
+        "crate_id": "ansi_term", "default_features": true, "downloads": 0,
+        "features": [], "id": 790160, "kind": "normal", "optional": true,
+        "req": "^0.11.0", "target": null, "version_id": 158586
+      }
+    ],
+    "dl_path": "/api/v1/crates/annotate-snippets/0.6.0/download",
+    "downloads": 182,
+    "features": {"color": ["ansi_term"], "default": []}, "id": 158586,
+    "license": "Apache-2.0/MIT",
+    "links": {
+      "authors": "/api/v1/crates/annotate-snippets/0.6.0/authors",
+      "dependencies": "/api/v1/crates/annotate-snippets/0.6.0/dependencies",
+      "version_downloads": "/api/v1/crates/annotate-snippets/0.6.0/downloads"
+    },
+    "num": "0.6.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/449986?v=4",
+      "id": 9648, "login": "zbraniecki", "name": "Zibi Braniecki",
+      "url": "https://github.com/zbraniecki"
+    },
+    "readme_path": "/api/v1/crates/annotate-snippets/0.6.0/readme",
+    "updated_at": "2019-06-26T18:29:38.786766+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Zibi Braniecki <gandalf@mozilla.com>"]},
+      "users": []
+    },
+    "crate": "annotate-snippets", "crate_size": 21894,
+    "created_at": "2019-07-23T08:29:46.598446+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ansi_term", "default_features": true, "downloads": 0,
+        "features": [], "id": 832000, "kind": "dev", "optional": false,
+        "req": "^0.12", "target": null, "version_id": 164612
+      },
+      {
+        "crate_id": "difference", "default_features": true, "downloads": 0,
+        "features": [], "id": 832001, "kind": "dev", "optional": false,
+        "req": "^2.0", "target": null, "version_id": 164612
+      },
+      {
+        "crate_id": "glob", "default_features": true, "downloads": 0,
+        "features": [], "id": 832002, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 164612
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 832003, "kind": "dev",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 164612
+      },
+      {
+        "crate_id": "serde_yaml", "default_features": true, "downloads": 0,
+        "features": [], "id": 832004, "kind": "dev", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 164612
+      },
+      {
+        "crate_id": "ansi_term", "default_features": true, "downloads": 0,
+        "features": [], "id": 831999, "kind": "normal", "optional": true,
+        "req": "^0.11.0", "target": null, "version_id": 164612
+      }
+    ],
+    "dl_path": "/api/v1/crates/annotate-snippets/0.6.1/download",
+    "downloads": 462059,
+    "features": {"color": ["ansi_term"], "default": []}, "id": 164612,
+    "license": "Apache-2.0/MIT",
+    "links": {
+      "authors": "/api/v1/crates/annotate-snippets/0.6.1/authors",
+      "dependencies": "/api/v1/crates/annotate-snippets/0.6.1/dependencies",
+      "version_downloads": "/api/v1/crates/annotate-snippets/0.6.1/downloads"
+    },
+    "num": "0.6.1",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/449986?v=4",
+      "id": 9648, "login": "zbraniecki", "name": "Zibi Braniecki",
+      "url": "https://github.com/zbraniecki"
+    },
+    "readme_path": "/api/v1/crates/annotate-snippets/0.6.1/readme",
+    "updated_at": "2019-07-23T08:29:46.598446+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-03-30T21:12:10.947100+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/449986?v=4",
+          "id": 9648, "login": "zbraniecki", "name": "Zibi Braniecki",
+          "url": "https://github.com/zbraniecki"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Zibi Braniecki <gandalf@mozilla.com>"]},
+      "users": []
+    },
+    "crate": "annotate-snippets", "crate_size": 27266,
+    "created_at": "2020-03-30T21:12:10.947100+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ansi_term", "default_features": true, "downloads": 0,
+        "features": [], "id": 1255668, "kind": "dev", "optional": false,
+        "req": "^0.12", "target": null, "version_id": 226169
+      },
+      {
+        "crate_id": "criterion", "default_features": true, "downloads": 0,
+        "features": [], "id": 1255669, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 226169
+      },
+      {
+        "crate_id": "difference", "default_features": true, "downloads": 0,
+        "features": [], "id": 1255670, "kind": "dev", "optional": false,
+        "req": "^2.0", "target": null, "version_id": 226169
+      },
+      {
+        "crate_id": "glob", "default_features": true, "downloads": 0,
+        "features": [], "id": 1255671, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 226169
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1255672, "kind": "dev",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 226169
+      },
+      {
+        "crate_id": "serde_yaml", "default_features": true, "downloads": 0,
+        "features": [], "id": 1255673, "kind": "dev", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 226169
+      },
+      {
+        "crate_id": "ansi_term", "default_features": true, "downloads": 0,
+        "features": [], "id": 1255667, "kind": "normal", "optional": true,
+        "req": "^0.12", "target": null, "version_id": 226169
+      }
+    ],
+    "dl_path": "/api/v1/crates/annotate-snippets/0.7.0/download",
+    "downloads": 7959,
+    "features": {"color": ["ansi_term"], "default": []}, "id": 226169,
+    "license": "Apache-2.0/MIT",
+    "links": {
+      "authors": "/api/v1/crates/annotate-snippets/0.7.0/authors",
+      "dependencies": "/api/v1/crates/annotate-snippets/0.7.0/dependencies",
+      "version_downloads": "/api/v1/crates/annotate-snippets/0.7.0/downloads"
+    },
+    "num": "0.7.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/449986?v=4",
+      "id": 9648, "login": "zbraniecki", "name": "Zibi Braniecki",
+      "url": "https://github.com/zbraniecki"
+    },
+    "readme_path": "/api/v1/crates/annotate-snippets/0.7.0/readme",
+    "updated_at": "2020-03-30T21:12:10.947100+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-04-14T23:58:41.235586+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/449986?v=4",
+          "id": 9648, "login": "zbraniecki", "name": "Zibi Braniecki",
+          "url": "https://github.com/zbraniecki"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Zibi Braniecki <gandalf@mozilla.com>"]},
+      "users": []
+    },
+    "crate": "annotate-snippets", "crate_size": 28829,
+    "created_at": "2020-04-14T23:58:41.235586+00:00",
+    "dependencies": [
+      {
+        "crate_id": "criterion", "default_features": true, "downloads": 0,
+        "features": [], "id": 1295493, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 231470
+      },
+      {
+        "crate_id": "difference", "default_features": true, "downloads": 0,
+        "features": [], "id": 1295494, "kind": "dev", "optional": false,
+        "req": "^2.0", "target": null, "version_id": 231470
+      },
+      {
+        "crate_id": "glob", "default_features": true, "downloads": 0,
+        "features": [], "id": 1295495, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 231470
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1295496, "kind": "dev",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 231470
+      },
+      {
+        "crate_id": "toml", "default_features": true, "downloads": 0,
+        "features": [], "id": 1295497, "kind": "dev", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 231470
+      },
+      {
+        "crate_id": "yansi-term", "default_features": true, "downloads": 0,
+        "features": [], "id": 1295498, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 231470
+      },
+      {
+        "crate_id": "yansi-term", "default_features": true, "downloads": 0,
+        "features": [], "id": 1295492, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 231470
+      }
+    ],
+    "dl_path": "/api/v1/crates/annotate-snippets/0.8.0/download",
+    "downloads": 202975,
+    "features": {"color": ["yansi-term"], "default": []}, "id": 231470,
+    "license": "Apache-2.0/MIT",
+    "links": {
+      "authors": "/api/v1/crates/annotate-snippets/0.8.0/authors",
+      "dependencies": "/api/v1/crates/annotate-snippets/0.8.0/dependencies",
+      "version_downloads": "/api/v1/crates/annotate-snippets/0.8.0/downloads"
+    },
+    "num": "0.8.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/449986?v=4",
+      "id": 9648, "login": "zbraniecki", "name": "Zibi Braniecki",
+      "url": "https://github.com/zbraniecki"
+    },
+    "readme_path": "/api/v1/crates/annotate-snippets/0.8.0/readme",
+    "updated_at": "2020-04-14T23:58:41.235586+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-06-28T07:45:27.156501+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/449986?v=4",
+          "id": 9648, "login": "zbraniecki", "name": "Zibi Braniecki",
+          "url": "https://github.com/zbraniecki"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Zibi Braniecki <gandalf@mozilla.com>"]},
+      "users": []
+    },
+    "crate": "annotate-snippets", "crate_size": 31491,
+    "created_at": "2020-06-28T07:45:27.156501+00:00",
+    "dependencies": [
+      {
+        "crate_id": "criterion", "default_features": true, "downloads": 0,
+        "features": [], "id": 1481001, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 256876
+      },
+      {
+        "crate_id": "difference", "default_features": true, "downloads": 0,
+        "features": [], "id": 1481002, "kind": "dev", "optional": false,
+        "req": "^2.0", "target": null, "version_id": 256876
+      },
+      {
+        "crate_id": "glob", "default_features": true, "downloads": 0,
+        "features": [], "id": 1481003, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 256876
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1481004, "kind": "dev",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 256876
+      },
+      {
+        "crate_id": "toml", "default_features": true, "downloads": 0,
+        "features": [], "id": 1481005, "kind": "dev", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 256876
+      },
+      {
+        "crate_id": "unicode-width", "default_features": true,
+        "downloads": 0, "features": [], "id": 1480999, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 256876
+      },
+      {
+        "crate_id": "yansi-term", "default_features": true, "downloads": 0,
+        "features": [], "id": 1481006, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 256876
+      },
+      {
+        "crate_id": "yansi-term", "default_features": true, "downloads": 0,
+        "features": [], "id": 1481000, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 256876
+      }
+    ],
+    "dl_path": "/api/v1/crates/annotate-snippets/0.9.0/download",
+    "downloads": 11333,
+    "features": {"color": ["yansi-term"], "default": []}, "id": 256876,
+    "license": "Apache-2.0/MIT",
+    "links": {
+      "authors": "/api/v1/crates/annotate-snippets/0.9.0/authors",
+      "dependencies": "/api/v1/crates/annotate-snippets/0.9.0/dependencies",
+      "version_downloads": "/api/v1/crates/annotate-snippets/0.9.0/downloads"
+    },
+    "num": "0.9.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/449986?v=4",
+      "id": 9648, "login": "zbraniecki", "name": "Zibi Braniecki",
+      "url": "https://github.com/zbraniecki"
+    },
+    "readme_path": "/api/v1/crates/annotate-snippets/0.9.0/readme",
+    "updated_at": "2020-06-28T07:45:27.156501+00:00", "yanked": false
+  }
+]

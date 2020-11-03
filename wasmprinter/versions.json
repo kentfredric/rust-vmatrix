@@ -1,0 +1,968 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "wasmprinter", "crate_size": 29350,
+    "created_at": "2019-11-18T17:42:38.354072+00:00",
+    "dependencies": [
+      {
+        "crate_id": "anyhow", "default_features": true, "downloads": 0,
+        "features": [], "id": 1000144, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 190491
+      },
+      {
+        "crate_id": "diff", "default_features": true, "downloads": 0,
+        "features": [], "id": 1000146, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 190491
+      },
+      {
+        "crate_id": "getopts", "default_features": true, "downloads": 0,
+        "features": [], "id": 1000147, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 190491
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 1000148, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 190491
+      },
+      {
+        "crate_id": "tempfile", "default_features": true, "downloads": 0,
+        "features": [], "id": 1000149, "kind": "dev", "optional": false,
+        "req": "^3.0", "target": null, "version_id": 190491
+      },
+      {
+        "crate_id": "wasmparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 1000145, "kind": "normal", "optional": false,
+        "req": "^0.42.1", "target": null, "version_id": 190491
+      },
+      {
+        "crate_id": "wast", "default_features": true, "downloads": 0,
+        "features": [], "id": 1000150, "kind": "dev", "optional": false,
+        "req": "^3.0.3", "target": null, "version_id": 190491
+      },
+      {
+        "crate_id": "wat", "default_features": true, "downloads": 0,
+        "features": [], "id": 1000151, "kind": "dev", "optional": false,
+        "req": "^1.0.4", "target": null, "version_id": 190491
+      }
+    ],
+    "dl_path": "/api/v1/crates/wasmprinter/0.1.0/download",
+    "downloads": 112, "features": {}, "id": 190491,
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "links": {
+      "authors": "/api/v1/crates/wasmprinter/0.1.0/authors",
+      "dependencies": "/api/v1/crates/wasmprinter/0.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/wasmprinter/0.1.0/downloads"
+    },
+    "num": "0.1.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+      "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+      "url": "https://github.com/alexcrichton"
+    },
+    "readme_path": "/api/v1/crates/wasmprinter/0.1.0/readme",
+    "updated_at": "2019-11-18T17:42:38.354072+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "wasmprinter", "crate_size": 29443,
+    "created_at": "2019-11-18T20:47:00.171593+00:00",
+    "dependencies": [
+      {
+        "crate_id": "anyhow", "default_features": true, "downloads": 0,
+        "features": [], "id": 1000296, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 190527
+      },
+      {
+        "crate_id": "diff", "default_features": true, "downloads": 0,
+        "features": [], "id": 1000298, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 190527
+      },
+      {
+        "crate_id": "getopts", "default_features": true, "downloads": 0,
+        "features": [], "id": 1000299, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 190527
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 1000300, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 190527
+      },
+      {
+        "crate_id": "tempfile", "default_features": true, "downloads": 0,
+        "features": [], "id": 1000301, "kind": "dev", "optional": false,
+        "req": "^3.0", "target": null, "version_id": 190527
+      },
+      {
+        "crate_id": "wasmparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 1000297, "kind": "normal", "optional": false,
+        "req": "^0.42.1", "target": null, "version_id": 190527
+      },
+      {
+        "crate_id": "wast", "default_features": true, "downloads": 0,
+        "features": [], "id": 1000302, "kind": "dev", "optional": false,
+        "req": "^3.0.3", "target": null, "version_id": 190527
+      },
+      {
+        "crate_id": "wat", "default_features": true, "downloads": 0,
+        "features": [], "id": 1000303, "kind": "dev", "optional": false,
+        "req": "^1.0.4", "target": null, "version_id": 190527
+      }
+    ],
+    "dl_path": "/api/v1/crates/wasmprinter/0.2.0/download",
+    "downloads": 12410, "features": {}, "id": 190527,
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "links": {
+      "authors": "/api/v1/crates/wasmprinter/0.2.0/authors",
+      "dependencies": "/api/v1/crates/wasmprinter/0.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/wasmprinter/0.2.0/downloads"
+    },
+    "num": "0.2.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+      "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+      "url": "https://github.com/alexcrichton"
+    },
+    "readme_path": "/api/v1/crates/wasmprinter/0.2.0/readme",
+    "updated_at": "2019-11-18T20:47:00.171593+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-02-03T22:34:59.841449+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+          "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+          "url": "https://github.com/alexcrichton"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "wasmprinter", "crate_size": 29553,
+    "created_at": "2020-02-03T22:34:59.841449+00:00",
+    "dependencies": [
+      {
+        "crate_id": "anyhow", "default_features": true, "downloads": 0,
+        "features": [], "id": 1127098, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 209141
+      },
+      {
+        "crate_id": "diff", "default_features": true, "downloads": 0,
+        "features": [], "id": 1127100, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 209141
+      },
+      {
+        "crate_id": "getopts", "default_features": true, "downloads": 0,
+        "features": [], "id": 1127101, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 209141
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 1127102, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 209141
+      },
+      {
+        "crate_id": "tempfile", "default_features": true, "downloads": 0,
+        "features": [], "id": 1127103, "kind": "dev", "optional": false,
+        "req": "^3.0", "target": null, "version_id": 209141
+      },
+      {
+        "crate_id": "wasmparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 1127099, "kind": "normal", "optional": false,
+        "req": "^0.48.1", "target": null, "version_id": 209141
+      }
+    ],
+    "dl_path": "/api/v1/crates/wasmprinter/0.2.1/download",
+    "downloads": 222, "features": {}, "id": 209141,
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "links": {
+      "authors": "/api/v1/crates/wasmprinter/0.2.1/authors",
+      "dependencies": "/api/v1/crates/wasmprinter/0.2.1/dependencies",
+      "version_downloads": "/api/v1/crates/wasmprinter/0.2.1/downloads"
+    },
+    "num": "0.2.1",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+      "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+      "url": "https://github.com/alexcrichton"
+    },
+    "readme_path": "/api/v1/crates/wasmprinter/0.2.1/readme",
+    "updated_at": "2020-02-03T22:34:59.841449+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-02-06T17:02:01.297173+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+          "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+          "url": "https://github.com/alexcrichton"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "wasmprinter", "crate_size": 29999,
+    "created_at": "2020-02-06T17:02:01.297173+00:00",
+    "dependencies": [
+      {
+        "crate_id": "anyhow", "default_features": true, "downloads": 0,
+        "features": [], "id": 1133455, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 209993
+      },
+      {
+        "crate_id": "diff", "default_features": true, "downloads": 0,
+        "features": [], "id": 1133457, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 209993
+      },
+      {
+        "crate_id": "getopts", "default_features": true, "downloads": 0,
+        "features": [], "id": 1133458, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 209993
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 1133459, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 209993
+      },
+      {
+        "crate_id": "tempfile", "default_features": true, "downloads": 0,
+        "features": [], "id": 1133460, "kind": "dev", "optional": false,
+        "req": "^3.0", "target": null, "version_id": 209993
+      },
+      {
+        "crate_id": "wasmparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 1133456, "kind": "normal", "optional": false,
+        "req": "^0.50.0", "target": null, "version_id": 209993
+      },
+      {
+        "crate_id": "wast", "default_features": true, "downloads": 0,
+        "features": [], "id": 1133461, "kind": "dev", "optional": false,
+        "req": "^7.0.0", "target": null, "version_id": 209993
+      },
+      {
+        "crate_id": "wat", "default_features": true, "downloads": 0,
+        "features": [], "id": 1133462, "kind": "dev", "optional": false,
+        "req": "^1.0.8", "target": null, "version_id": 209993
+      }
+    ],
+    "dl_path": "/api/v1/crates/wasmprinter/0.2.2/download",
+    "downloads": 76, "features": {}, "id": 209993,
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "links": {
+      "authors": "/api/v1/crates/wasmprinter/0.2.2/authors",
+      "dependencies": "/api/v1/crates/wasmprinter/0.2.2/dependencies",
+      "version_downloads": "/api/v1/crates/wasmprinter/0.2.2/downloads"
+    },
+    "num": "0.2.2",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+      "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+      "url": "https://github.com/alexcrichton"
+    },
+    "readme_path": "/api/v1/crates/wasmprinter/0.2.2/readme",
+    "updated_at": "2020-02-06T17:02:01.297173+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-02-06T17:02:59.492545+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+          "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+          "url": "https://github.com/alexcrichton"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "wasmprinter", "crate_size": 29997,
+    "created_at": "2020-02-06T17:02:59.492545+00:00",
+    "dependencies": [
+      {
+        "crate_id": "anyhow", "default_features": true, "downloads": 0,
+        "features": [], "id": 1133463, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 209994
+      },
+      {
+        "crate_id": "diff", "default_features": true, "downloads": 0,
+        "features": [], "id": 1133465, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 209994
+      },
+      {
+        "crate_id": "getopts", "default_features": true, "downloads": 0,
+        "features": [], "id": 1133466, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 209994
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 1133467, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 209994
+      },
+      {
+        "crate_id": "tempfile", "default_features": true, "downloads": 0,
+        "features": [], "id": 1133468, "kind": "dev", "optional": false,
+        "req": "^3.0", "target": null, "version_id": 209994
+      },
+      {
+        "crate_id": "wasmparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 1133464, "kind": "normal", "optional": false,
+        "req": "^0.51.0", "target": null, "version_id": 209994
+      },
+      {
+        "crate_id": "wast", "default_features": true, "downloads": 0,
+        "features": [], "id": 1133469, "kind": "dev", "optional": false,
+        "req": "^7.0.0", "target": null, "version_id": 209994
+      },
+      {
+        "crate_id": "wat", "default_features": true, "downloads": 0,
+        "features": [], "id": 1133470, "kind": "dev", "optional": false,
+        "req": "^1.0.8", "target": null, "version_id": 209994
+      }
+    ],
+    "dl_path": "/api/v1/crates/wasmprinter/0.2.3/download",
+    "downloads": 22444, "features": {}, "id": 209994,
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "links": {
+      "authors": "/api/v1/crates/wasmprinter/0.2.3/authors",
+      "dependencies": "/api/v1/crates/wasmprinter/0.2.3/dependencies",
+      "version_downloads": "/api/v1/crates/wasmprinter/0.2.3/downloads"
+    },
+    "num": "0.2.3",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+      "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+      "url": "https://github.com/alexcrichton"
+    },
+    "readme_path": "/api/v1/crates/wasmprinter/0.2.3/readme",
+    "updated_at": "2020-02-06T17:02:59.492545+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-05-05T16:57:42.235278+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+          "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+          "url": "https://github.com/alexcrichton"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "wasmprinter", "crate_size": 29436,
+    "created_at": "2020-05-05T16:57:42.235278+00:00",
+    "dependencies": [
+      {
+        "crate_id": "anyhow", "default_features": true, "downloads": 0,
+        "features": [], "id": 1342268, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 238052
+      },
+      {
+        "crate_id": "diff", "default_features": true, "downloads": 0,
+        "features": [], "id": 1342270, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 238052
+      },
+      {
+        "crate_id": "getopts", "default_features": true, "downloads": 0,
+        "features": [], "id": 1342271, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 238052
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 1342272, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 238052
+      },
+      {
+        "crate_id": "tempfile", "default_features": true, "downloads": 0,
+        "features": [], "id": 1342273, "kind": "dev", "optional": false,
+        "req": "^3.0", "target": null, "version_id": 238052
+      },
+      {
+        "crate_id": "wasmparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 1342269, "kind": "normal", "optional": false,
+        "req": "^0.52.0", "target": null, "version_id": 238052
+      },
+      {
+        "crate_id": "wast", "default_features": true, "downloads": 0,
+        "features": [], "id": 1342274, "kind": "dev", "optional": false,
+        "req": "^15.0.0", "target": null, "version_id": 238052
+      },
+      {
+        "crate_id": "wat", "default_features": true, "downloads": 0,
+        "features": [], "id": 1342275, "kind": "dev", "optional": false,
+        "req": "^1.0.8", "target": null, "version_id": 238052
+      }
+    ],
+    "dl_path": "/api/v1/crates/wasmprinter/0.2.4/download",
+    "downloads": 1672, "features": {}, "id": 238052,
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "links": {
+      "authors": "/api/v1/crates/wasmprinter/0.2.4/authors",
+      "dependencies": "/api/v1/crates/wasmprinter/0.2.4/dependencies",
+      "version_downloads": "/api/v1/crates/wasmprinter/0.2.4/downloads"
+    },
+    "num": "0.2.4",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+      "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+      "url": "https://github.com/alexcrichton"
+    },
+    "readme_path": "/api/v1/crates/wasmprinter/0.2.4/readme",
+    "updated_at": "2020-05-05T16:57:42.235278+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-05-13T17:42:18.898705+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+          "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+          "url": "https://github.com/alexcrichton"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "wasmprinter", "crate_size": 30048,
+    "created_at": "2020-05-13T17:42:18.898705+00:00",
+    "dependencies": [
+      {
+        "crate_id": "anyhow", "default_features": true, "downloads": 0,
+        "features": [], "id": 1364313, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 241064
+      },
+      {
+        "crate_id": "diff", "default_features": true, "downloads": 0,
+        "features": [], "id": 1364315, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 241064
+      },
+      {
+        "crate_id": "getopts", "default_features": true, "downloads": 0,
+        "features": [], "id": 1364316, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 241064
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 1364317, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 241064
+      },
+      {
+        "crate_id": "tempfile", "default_features": true, "downloads": 0,
+        "features": [], "id": 1364318, "kind": "dev", "optional": false,
+        "req": "^3.0", "target": null, "version_id": 241064
+      },
+      {
+        "crate_id": "wasmparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 1364314, "kind": "normal", "optional": false,
+        "req": "^0.55.0", "target": null, "version_id": 241064
+      },
+      {
+        "crate_id": "wast", "default_features": true, "downloads": 0,
+        "features": [], "id": 1364319, "kind": "dev", "optional": false,
+        "req": "^17.0.0", "target": null, "version_id": 241064
+      },
+      {
+        "crate_id": "wat", "default_features": true, "downloads": 0,
+        "features": [], "id": 1364320, "kind": "dev", "optional": false,
+        "req": "^1.0.8", "target": null, "version_id": 241064
+      }
+    ],
+    "dl_path": "/api/v1/crates/wasmprinter/0.2.5/download",
+    "downloads": 15321, "features": {}, "id": 241064,
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "links": {
+      "authors": "/api/v1/crates/wasmprinter/0.2.5/authors",
+      "dependencies": "/api/v1/crates/wasmprinter/0.2.5/dependencies",
+      "version_downloads": "/api/v1/crates/wasmprinter/0.2.5/downloads"
+    },
+    "num": "0.2.5",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+      "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+      "url": "https://github.com/alexcrichton"
+    },
+    "readme_path": "/api/v1/crates/wasmprinter/0.2.5/readme",
+    "updated_at": "2020-05-13T17:42:18.898705+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-07-13T18:04:31.585552+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+          "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+          "url": "https://github.com/alexcrichton"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "wasmprinter", "crate_size": 15029,
+    "created_at": "2020-07-13T18:04:31.585552+00:00",
+    "dependencies": [
+      {
+        "crate_id": "anyhow", "default_features": true, "downloads": 0,
+        "features": [], "id": 1520740, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 262046
+      },
+      {
+        "crate_id": "diff", "default_features": true, "downloads": 0,
+        "features": [], "id": 1520742, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 262046
+      },
+      {
+        "crate_id": "getopts", "default_features": true, "downloads": 0,
+        "features": [], "id": 1520743, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 262046
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 1520744, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 262046
+      },
+      {
+        "crate_id": "tempfile", "default_features": true, "downloads": 0,
+        "features": [], "id": 1520745, "kind": "dev", "optional": false,
+        "req": "^3.0", "target": null, "version_id": 262046
+      },
+      {
+        "crate_id": "wasmparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 1520741, "kind": "normal", "optional": false,
+        "req": "^0.59", "target": null, "version_id": 262046
+      }
+    ],
+    "dl_path": "/api/v1/crates/wasmprinter/0.2.6/download",
+    "downloads": 14908, "features": {}, "id": 262046,
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "links": {
+      "authors": "/api/v1/crates/wasmprinter/0.2.6/authors",
+      "dependencies": "/api/v1/crates/wasmprinter/0.2.6/dependencies",
+      "version_downloads": "/api/v1/crates/wasmprinter/0.2.6/downloads"
+    },
+    "num": "0.2.6",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+      "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+      "url": "https://github.com/alexcrichton"
+    },
+    "readme_path": "/api/v1/crates/wasmprinter/0.2.6/readme",
+    "updated_at": "2020-07-13T18:04:31.585552+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-07-22T16:10:39.612536+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+          "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+          "url": "https://github.com/alexcrichton"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "wasmprinter", "crate_size": 15432,
+    "created_at": "2020-07-22T16:10:39.612536+00:00",
+    "dependencies": [
+      {
+        "crate_id": "anyhow", "default_features": true, "downloads": 0,
+        "features": [], "id": 1542177, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 264951
+      },
+      {
+        "crate_id": "diff", "default_features": true, "downloads": 0,
+        "features": [], "id": 1542179, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 264951
+      },
+      {
+        "crate_id": "getopts", "default_features": true, "downloads": 0,
+        "features": [], "id": 1542180, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 264951
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 1542181, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 264951
+      },
+      {
+        "crate_id": "tempfile", "default_features": true, "downloads": 0,
+        "features": [], "id": 1542182, "kind": "dev", "optional": false,
+        "req": "^3.0", "target": null, "version_id": 264951
+      },
+      {
+        "crate_id": "wasmparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 1542178, "kind": "normal", "optional": false,
+        "req": "^0.60", "target": null, "version_id": 264951
+      }
+    ],
+    "dl_path": "/api/v1/crates/wasmprinter/0.2.7/download",
+    "downloads": 418, "features": {}, "id": 264951,
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "links": {
+      "authors": "/api/v1/crates/wasmprinter/0.2.7/authors",
+      "dependencies": "/api/v1/crates/wasmprinter/0.2.7/dependencies",
+      "version_downloads": "/api/v1/crates/wasmprinter/0.2.7/downloads"
+    },
+    "num": "0.2.7",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+      "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+      "url": "https://github.com/alexcrichton"
+    },
+    "readme_path": "/api/v1/crates/wasmprinter/0.2.7/readme",
+    "updated_at": "2020-07-22T16:10:39.612536+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-07-31T15:31:59.717925+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+          "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+          "url": "https://github.com/alexcrichton"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "wasmprinter", "crate_size": 15437,
+    "created_at": "2020-07-31T15:31:59.717925+00:00",
+    "dependencies": [
+      {
+        "crate_id": "anyhow", "default_features": true, "downloads": 0,
+        "features": [], "id": 1567069, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 268223
+      },
+      {
+        "crate_id": "diff", "default_features": true, "downloads": 0,
+        "features": [], "id": 1567071, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 268223
+      },
+      {
+        "crate_id": "getopts", "default_features": true, "downloads": 0,
+        "features": [], "id": 1567072, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 268223
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 1567073, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 268223
+      },
+      {
+        "crate_id": "tempfile", "default_features": true, "downloads": 0,
+        "features": [], "id": 1567074, "kind": "dev", "optional": false,
+        "req": "^3.0", "target": null, "version_id": 268223
+      },
+      {
+        "crate_id": "wasmparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 1567070, "kind": "normal", "optional": false,
+        "req": "^0.61", "target": null, "version_id": 268223
+      }
+    ],
+    "dl_path": "/api/v1/crates/wasmprinter/0.2.8/download",
+    "downloads": 701, "features": {}, "id": 268223,
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "links": {
+      "authors": "/api/v1/crates/wasmprinter/0.2.8/authors",
+      "dependencies": "/api/v1/crates/wasmprinter/0.2.8/dependencies",
+      "version_downloads": "/api/v1/crates/wasmprinter/0.2.8/downloads"
+    },
+    "num": "0.2.8",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+      "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+      "url": "https://github.com/alexcrichton"
+    },
+    "readme_path": "/api/v1/crates/wasmprinter/0.2.8/readme",
+    "updated_at": "2020-07-31T15:31:59.717925+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-08-27T05:42:20.222218+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+          "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+          "url": "https://github.com/alexcrichton"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "wasmprinter", "crate_size": 15535,
+    "created_at": "2020-08-27T05:42:20.222218+00:00",
+    "dependencies": [
+      {
+        "crate_id": "anyhow", "default_features": true, "downloads": 0,
+        "features": [], "id": 1633536, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 276972
+      },
+      {
+        "crate_id": "diff", "default_features": true, "downloads": 0,
+        "features": [], "id": 1633538, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 276972
+      },
+      {
+        "crate_id": "getopts", "default_features": true, "downloads": 0,
+        "features": [], "id": 1633539, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 276972
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 1633540, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 276972
+      },
+      {
+        "crate_id": "tempfile", "default_features": true, "downloads": 0,
+        "features": [], "id": 1633541, "kind": "dev", "optional": false,
+        "req": "^3.0", "target": null, "version_id": 276972
+      },
+      {
+        "crate_id": "wasmparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 1633537, "kind": "normal", "optional": false,
+        "req": "^0.62", "target": null, "version_id": 276972
+      }
+    ],
+    "dl_path": "/api/v1/crates/wasmprinter/0.2.9/download",
+    "downloads": 5884, "features": {}, "id": 276972,
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "links": {
+      "authors": "/api/v1/crates/wasmprinter/0.2.9/authors",
+      "dependencies": "/api/v1/crates/wasmprinter/0.2.9/dependencies",
+      "version_downloads": "/api/v1/crates/wasmprinter/0.2.9/downloads"
+    },
+    "num": "0.2.9",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+      "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+      "url": "https://github.com/alexcrichton"
+    },
+    "readme_path": "/api/v1/crates/wasmprinter/0.2.9/readme",
+    "updated_at": "2020-08-27T05:42:20.222218+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-10-02T17:46:22.653640+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+          "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+          "url": "https://github.com/alexcrichton"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "wasmprinter", "crate_size": 15630,
+    "created_at": "2020-10-02T17:46:22.653640+00:00",
+    "dependencies": [
+      {
+        "crate_id": "anyhow", "default_features": true, "downloads": 0,
+        "features": [], "id": 1731862, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 289781
+      },
+      {
+        "crate_id": "diff", "default_features": true, "downloads": 0,
+        "features": [], "id": 1731864, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 289781
+      },
+      {
+        "crate_id": "getopts", "default_features": true, "downloads": 0,
+        "features": [], "id": 1731865, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 289781
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 1731866, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 289781
+      },
+      {
+        "crate_id": "tempfile", "default_features": true, "downloads": 0,
+        "features": [], "id": 1731867, "kind": "dev", "optional": false,
+        "req": "^3.0", "target": null, "version_id": 289781
+      },
+      {
+        "crate_id": "wasmparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 1731863, "kind": "normal", "optional": false,
+        "req": "^0.63", "target": null, "version_id": 289781
+      }
+    ],
+    "dl_path": "/api/v1/crates/wasmprinter/0.2.10/download",
+    "downloads": 4661, "features": {}, "id": 289781,
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "links": {
+      "authors": "/api/v1/crates/wasmprinter/0.2.10/authors",
+      "dependencies": "/api/v1/crates/wasmprinter/0.2.10/dependencies",
+      "version_downloads": "/api/v1/crates/wasmprinter/0.2.10/downloads"
+    },
+    "num": "0.2.10",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+      "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+      "url": "https://github.com/alexcrichton"
+    },
+    "readme_path": "/api/v1/crates/wasmprinter/0.2.10/readme",
+    "updated_at": "2020-10-02T17:46:22.653640+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-10-19T17:57:45.809865+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+          "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+          "url": "https://github.com/alexcrichton"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "wasmprinter", "crate_size": 16047,
+    "created_at": "2020-10-19T17:57:45.809865+00:00",
+    "dependencies": [
+      {
+        "crate_id": "anyhow", "default_features": true, "downloads": 0,
+        "features": [], "id": 1777642, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 296743
+      },
+      {
+        "crate_id": "diff", "default_features": true, "downloads": 0,
+        "features": [], "id": 1777644, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 296743
+      },
+      {
+        "crate_id": "getopts", "default_features": true, "downloads": 0,
+        "features": [], "id": 1777645, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 296743
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 1777646, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 296743
+      },
+      {
+        "crate_id": "tempfile", "default_features": true, "downloads": 0,
+        "features": [], "id": 1777647, "kind": "dev", "optional": false,
+        "req": "^3.0", "target": null, "version_id": 296743
+      },
+      {
+        "crate_id": "wasmparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 1777643, "kind": "normal", "optional": false,
+        "req": "^0.64", "target": null, "version_id": 296743
+      }
+    ],
+    "dl_path": "/api/v1/crates/wasmprinter/0.2.11/download",
+    "downloads": 127, "features": {}, "id": 296743,
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "links": {
+      "authors": "/api/v1/crates/wasmprinter/0.2.11/authors",
+      "dependencies": "/api/v1/crates/wasmprinter/0.2.11/dependencies",
+      "version_downloads": "/api/v1/crates/wasmprinter/0.2.11/downloads"
+    },
+    "num": "0.2.11",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+      "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+      "url": "https://github.com/alexcrichton"
+    },
+    "readme_path": "/api/v1/crates/wasmprinter/0.2.11/readme",
+    "updated_at": "2020-10-19T17:57:45.809865+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-10-26T15:24:30.036734+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/1523410?v=4",
+          "id": 6802, "login": "yurydelendik", "name": "Yury Delendik",
+          "url": "https://github.com/yurydelendik"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "wasmprinter", "crate_size": 16083,
+    "created_at": "2020-10-26T15:24:30.036734+00:00",
+    "dependencies": [
+      {
+        "crate_id": "anyhow", "default_features": true, "downloads": 0,
+        "features": [], "id": 1796220, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 299167
+      },
+      {
+        "crate_id": "diff", "default_features": true, "downloads": 0,
+        "features": [], "id": 1796222, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 299167
+      },
+      {
+        "crate_id": "getopts", "default_features": true, "downloads": 0,
+        "features": [], "id": 1796223, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 299167
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 1796224, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 299167
+      },
+      {
+        "crate_id": "tempfile", "default_features": true, "downloads": 0,
+        "features": [], "id": 1796225, "kind": "dev", "optional": false,
+        "req": "^3.0", "target": null, "version_id": 299167
+      },
+      {
+        "crate_id": "wasmparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 1796221, "kind": "normal", "optional": false,
+        "req": "^0.65", "target": null, "version_id": 299167
+      }
+    ],
+    "dl_path": "/api/v1/crates/wasmprinter/0.2.12/download",
+    "downloads": 214, "features": {}, "id": 299167,
+    "license": "Apache-2.0 WITH LLVM-exception",
+    "links": {
+      "authors": "/api/v1/crates/wasmprinter/0.2.12/authors",
+      "dependencies": "/api/v1/crates/wasmprinter/0.2.12/dependencies",
+      "version_downloads": "/api/v1/crates/wasmprinter/0.2.12/downloads"
+    },
+    "num": "0.2.12",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/1523410?v=4",
+      "id": 6802, "login": "yurydelendik", "name": "Yury Delendik",
+      "url": "https://github.com/yurydelendik"
+    },
+    "readme_path": "/api/v1/crates/wasmprinter/0.2.12/readme",
+    "updated_at": "2020-10-26T15:24:30.036734+00:00", "yanked": false
+  }
+]

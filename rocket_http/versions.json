@@ -1,0 +1,777 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["Sergio Benitez <sb@sergio.bz>"]}, "users": []},
+    "crate": "rocket_http", "crate_size": 57511,
+    "created_at": "2018-10-31T21:29:01.634758+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cookie", "default_features": true, "downloads": 0,
+        "features": ["percent-encode", "secure"], "id": 542482,
+        "kind": "normal", "optional": false, "req": "^0.11", "target": null,
+        "version_id": 115501
+      },
+      {
+        "crate_id": "hyper", "default_features": false, "downloads": 0,
+        "features": [], "id": 542483, "kind": "normal", "optional": false,
+        "req": "^0.10.13", "target": null, "version_id": 115501
+      },
+      {
+        "crate_id": "indexmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 542485, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 115501
+      },
+      {
+        "crate_id": "pear", "default_features": true, "downloads": 0,
+        "features": [], "id": 542486, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 115501
+      },
+      {
+        "crate_id": "percent-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 542487, "kind": "normal",
+        "optional": false, "req": "^1", "target": null,
+        "version_id": 115501
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 542489, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 115501
+      },
+      {
+        "crate_id": "state", "default_features": true, "downloads": 0,
+        "features": [], "id": 542490, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 115501
+      },
+      {
+        "crate_id": "time", "default_features": true, "downloads": 0,
+        "features": [], "id": 542491, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 115501
+      },
+      {
+        "crate_id": "unicode-xid", "default_features": true, "downloads": 0,
+        "features": [], "id": 542492, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 115501
+      },
+      {
+        "crate_id": "hyper-sync-rustls", "default_features": true,
+        "downloads": 0, "features": ["server"], "id": 542484,
+        "kind": "normal", "optional": true, "req": "=0.3.0-rc.4",
+        "target": null, "version_id": 115501
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 542488, "kind": "normal", "optional": true,
+        "req": "^0.14", "target": null, "version_id": 115501
+      }
+    ],
+    "dl_path": "/api/v1/crates/rocket_http/0.4.0-rc/download",
+    "downloads": 188,
+    "features": {"tls": ["rustls", "hyper-sync-rustls"]}, "id": 115501,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/rocket_http/0.4.0-rc/authors",
+      "dependencies": "/api/v1/crates/rocket_http/0.4.0-rc/dependencies",
+      "version_downloads": "/api/v1/crates/rocket_http/0.4.0-rc/downloads"
+    },
+    "num": "0.4.0-rc", "published_by": null,
+    "readme_path": "/api/v1/crates/rocket_http/0.4.0-rc/readme",
+    "updated_at": "2018-10-31T22:03:53.341854+00:00", "yanked": true
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["Sergio Benitez <sb@sergio.bz>"]}, "users": []},
+    "crate": "rocket_http", "crate_size": 57520,
+    "created_at": "2018-10-31T21:56:51.383739+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cookie", "default_features": true, "downloads": 0,
+        "features": ["percent-encode", "secure"], "id": 542558,
+        "kind": "normal", "optional": false, "req": "^0.11", "target": null,
+        "version_id": 115508
+      },
+      {
+        "crate_id": "hyper", "default_features": false, "downloads": 0,
+        "features": [], "id": 542559, "kind": "normal", "optional": false,
+        "req": "^0.10.13", "target": null, "version_id": 115508
+      },
+      {
+        "crate_id": "indexmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 542561, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 115508
+      },
+      {
+        "crate_id": "pear", "default_features": true, "downloads": 0,
+        "features": [], "id": 542562, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 115508
+      },
+      {
+        "crate_id": "percent-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 542563, "kind": "normal",
+        "optional": false, "req": "^1", "target": null,
+        "version_id": 115508
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 542565, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 115508
+      },
+      {
+        "crate_id": "state", "default_features": true, "downloads": 0,
+        "features": [], "id": 542566, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 115508
+      },
+      {
+        "crate_id": "time", "default_features": true, "downloads": 0,
+        "features": [], "id": 542567, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 115508
+      },
+      {
+        "crate_id": "unicode-xid", "default_features": true, "downloads": 0,
+        "features": [], "id": 542568, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 115508
+      },
+      {
+        "crate_id": "hyper-sync-rustls", "default_features": true,
+        "downloads": 0, "features": ["server"], "id": 542560,
+        "kind": "normal", "optional": true, "req": "=0.3.0-rc.4",
+        "target": null, "version_id": 115508
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 542564, "kind": "normal", "optional": true,
+        "req": "^0.14", "target": null, "version_id": 115508
+      }
+    ],
+    "dl_path": "/api/v1/crates/rocket_http/0.4.0-rc.1/download",
+    "downloads": 5508,
+    "features": {"tls": ["rustls", "hyper-sync-rustls"]}, "id": 115508,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/rocket_http/0.4.0-rc.1/authors",
+      "dependencies": "/api/v1/crates/rocket_http/0.4.0-rc.1/dependencies",
+      "version_downloads": "/api/v1/crates/rocket_http/0.4.0-rc.1/downloads"
+    },
+    "num": "0.4.0-rc.1", "published_by": null,
+    "readme_path": "/api/v1/crates/rocket_http/0.4.0-rc.1/readme",
+    "updated_at": "2018-10-31T21:56:51.383739+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["Sergio Benitez <sb@sergio.bz>"]}, "users": []},
+    "crate": "rocket_http", "crate_size": 61375,
+    "created_at": "2018-12-01T05:21:50.158711+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cookie", "default_features": true, "downloads": 0,
+        "features": ["percent-encode"], "id": 569877, "kind": "normal",
+        "optional": false, "req": "^0.11", "target": null,
+        "version_id": 120273
+      },
+      {
+        "crate_id": "hyper", "default_features": false, "downloads": 0,
+        "features": [], "id": 569878, "kind": "normal", "optional": false,
+        "req": "^0.10.13", "target": null, "version_id": 120273
+      },
+      {
+        "crate_id": "indexmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 569880, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 120273
+      },
+      {
+        "crate_id": "pear", "default_features": true, "downloads": 0,
+        "features": [], "id": 569881, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 120273
+      },
+      {
+        "crate_id": "percent-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 569882, "kind": "normal",
+        "optional": false, "req": "^1", "target": null,
+        "version_id": 120273
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 569884, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 120273
+      },
+      {
+        "crate_id": "state", "default_features": true, "downloads": 0,
+        "features": [], "id": 569885, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 120273
+      },
+      {
+        "crate_id": "time", "default_features": true, "downloads": 0,
+        "features": [], "id": 569886, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 120273
+      },
+      {
+        "crate_id": "unicode-xid", "default_features": true, "downloads": 0,
+        "features": [], "id": 569887, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 120273
+      },
+      {
+        "crate_id": "hyper-sync-rustls", "default_features": true,
+        "downloads": 0, "features": ["server"], "id": 569879,
+        "kind": "normal", "optional": true, "req": "=0.3.0-rc.4",
+        "target": null, "version_id": 120273
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 569883, "kind": "normal", "optional": true,
+        "req": "^0.14", "target": null, "version_id": 120273
+      }
+    ],
+    "dl_path": "/api/v1/crates/rocket_http/0.4.0-rc.2/download",
+    "downloads": 1639,
+    "features": {
+      "default": [], "private-cookies": ["cookie/secure"],
+      "tls": ["rustls", "hyper-sync-rustls"]
+    },
+    "id": 120273, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/rocket_http/0.4.0-rc.2/authors",
+      "dependencies": "/api/v1/crates/rocket_http/0.4.0-rc.2/dependencies",
+      "version_downloads": "/api/v1/crates/rocket_http/0.4.0-rc.2/downloads"
+    },
+    "num": "0.4.0-rc.2", "published_by": null,
+    "readme_path": "/api/v1/crates/rocket_http/0.4.0-rc.2/readme",
+    "updated_at": "2018-12-01T05:21:50.158711+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["Sergio Benitez <sb@sergio.bz>"]}, "users": []},
+    "crate": "rocket_http", "crate_size": 63676,
+    "created_at": "2018-12-06T17:29:20.758819+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cookie", "default_features": true, "downloads": 0,
+        "features": ["percent-encode"], "id": 574460, "kind": "normal",
+        "optional": false, "req": "^0.11", "target": null,
+        "version_id": 121077
+      },
+      {
+        "crate_id": "hyper", "default_features": false, "downloads": 0,
+        "features": [], "id": 574461, "kind": "normal", "optional": false,
+        "req": "^0.10.13", "target": null, "version_id": 121077
+      },
+      {
+        "crate_id": "indexmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 574463, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 121077
+      },
+      {
+        "crate_id": "pear", "default_features": true, "downloads": 0,
+        "features": [], "id": 574464, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 121077
+      },
+      {
+        "crate_id": "percent-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 574465, "kind": "normal",
+        "optional": false, "req": "^1", "target": null,
+        "version_id": 121077
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 574467, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 121077
+      },
+      {
+        "crate_id": "state", "default_features": true, "downloads": 0,
+        "features": [], "id": 574468, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 121077
+      },
+      {
+        "crate_id": "time", "default_features": true, "downloads": 0,
+        "features": [], "id": 574469, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 121077
+      },
+      {
+        "crate_id": "unicode-xid", "default_features": true, "downloads": 0,
+        "features": [], "id": 574470, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 121077
+      },
+      {
+        "crate_id": "hyper-sync-rustls", "default_features": true,
+        "downloads": 0, "features": ["server"], "id": 574462,
+        "kind": "normal", "optional": true, "req": "=0.3.0-rc.4",
+        "target": null, "version_id": 121077
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 574466, "kind": "normal", "optional": true,
+        "req": "^0.14", "target": null, "version_id": 121077
+      }
+    ],
+    "dl_path": "/api/v1/crates/rocket_http/0.4.0/download",
+    "downloads": 79198,
+    "features": {
+      "default": [], "private-cookies": ["cookie/secure"],
+      "tls": ["rustls", "hyper-sync-rustls"]
+    },
+    "id": 121077, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/rocket_http/0.4.0/authors",
+      "dependencies": "/api/v1/crates/rocket_http/0.4.0/dependencies",
+      "version_downloads": "/api/v1/crates/rocket_http/0.4.0/downloads"
+    },
+    "num": "0.4.0", "published_by": null,
+    "readme_path": "/api/v1/crates/rocket_http/0.4.0/readme",
+    "updated_at": "2018-12-06T17:29:20.758819+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["Sergio Benitez <sb@sergio.bz>"]}, "users": []},
+    "crate": "rocket_http", "crate_size": 64022,
+    "created_at": "2019-05-12T00:02:27.516037+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cookie", "default_features": true, "downloads": 0,
+        "features": ["percent-encode"], "id": 734957, "kind": "normal",
+        "optional": false, "req": "^0.11", "target": null,
+        "version_id": 149829
+      },
+      {
+        "crate_id": "hyper", "default_features": false, "downloads": 0,
+        "features": [], "id": 734958, "kind": "normal", "optional": false,
+        "req": "^0.10.13", "target": null, "version_id": 149829
+      },
+      {
+        "crate_id": "indexmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 734960, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 149829
+      },
+      {
+        "crate_id": "pear", "default_features": true, "downloads": 0,
+        "features": [], "id": 734961, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 149829
+      },
+      {
+        "crate_id": "percent-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 734962, "kind": "normal",
+        "optional": false, "req": "^1", "target": null,
+        "version_id": 149829
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 734964, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 149829
+      },
+      {
+        "crate_id": "state", "default_features": true, "downloads": 0,
+        "features": [], "id": 734965, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 149829
+      },
+      {
+        "crate_id": "time", "default_features": true, "downloads": 0,
+        "features": [], "id": 734966, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 149829
+      },
+      {
+        "crate_id": "unicode-xid", "default_features": true, "downloads": 0,
+        "features": [], "id": 734967, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 149829
+      },
+      {
+        "crate_id": "hyper-sync-rustls", "default_features": true,
+        "downloads": 0, "features": ["server"], "id": 734959,
+        "kind": "normal", "optional": true, "req": "=0.3.0-rc.4",
+        "target": null, "version_id": 149829
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 734963, "kind": "normal", "optional": true,
+        "req": "^0.14", "target": null, "version_id": 149829
+      }
+    ],
+    "dl_path": "/api/v1/crates/rocket_http/0.4.1/download",
+    "downloads": 26340,
+    "features": {
+      "default": [], "private-cookies": ["cookie/secure"],
+      "tls": ["rustls", "hyper-sync-rustls"]
+    },
+    "id": 149829, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/rocket_http/0.4.1/authors",
+      "dependencies": "/api/v1/crates/rocket_http/0.4.1/dependencies",
+      "version_downloads": "/api/v1/crates/rocket_http/0.4.1/downloads"
+    },
+    "num": "0.4.1",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/1480321?v=4",
+      "id": 3864, "login": "SergioBenitez", "name": "Sergio Benitez",
+      "url": "https://github.com/SergioBenitez"
+    },
+    "readme_path": "/api/v1/crates/rocket_http/0.4.1/readme",
+    "updated_at": "2019-05-12T00:02:27.516037+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["Sergio Benitez <sb@sergio.bz>"]}, "users": []},
+    "crate": "rocket_http", "crate_size": 64044,
+    "created_at": "2019-06-29T01:05:44.235945+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cookie", "default_features": true, "downloads": 0,
+        "features": ["percent-encode"], "id": 793478, "kind": "normal",
+        "optional": false, "req": "^0.11", "target": null,
+        "version_id": 159109
+      },
+      {
+        "crate_id": "hyper", "default_features": false, "downloads": 0,
+        "features": [], "id": 793479, "kind": "normal", "optional": false,
+        "req": "^0.10.13", "target": null, "version_id": 159109
+      },
+      {
+        "crate_id": "indexmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 793481, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 159109
+      },
+      {
+        "crate_id": "pear", "default_features": true, "downloads": 0,
+        "features": [], "id": 793482, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 159109
+      },
+      {
+        "crate_id": "percent-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 793483, "kind": "normal",
+        "optional": false, "req": "^1", "target": null,
+        "version_id": 159109
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 793485, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 159109
+      },
+      {
+        "crate_id": "state", "default_features": true, "downloads": 0,
+        "features": [], "id": 793486, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 159109
+      },
+      {
+        "crate_id": "time", "default_features": true, "downloads": 0,
+        "features": [], "id": 793487, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 159109
+      },
+      {
+        "crate_id": "unicode-xid", "default_features": true, "downloads": 0,
+        "features": [], "id": 793488, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 159109
+      },
+      {
+        "crate_id": "hyper-sync-rustls", "default_features": true,
+        "downloads": 0, "features": ["server"], "id": 793480,
+        "kind": "normal", "optional": true, "req": "=0.3.0-rc.4",
+        "target": null, "version_id": 159109
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 793484, "kind": "normal", "optional": true,
+        "req": "^0.14", "target": null, "version_id": 159109
+      }
+    ],
+    "dl_path": "/api/v1/crates/rocket_http/0.4.2/download",
+    "downloads": 163589,
+    "features": {
+      "default": [], "private-cookies": ["cookie/secure"],
+      "tls": ["rustls", "hyper-sync-rustls"]
+    },
+    "id": 159109, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/rocket_http/0.4.2/authors",
+      "dependencies": "/api/v1/crates/rocket_http/0.4.2/dependencies",
+      "version_downloads": "/api/v1/crates/rocket_http/0.4.2/downloads"
+    },
+    "num": "0.4.2",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/1480321?v=4",
+      "id": 3864, "login": "SergioBenitez", "name": "Sergio Benitez",
+      "url": "https://github.com/SergioBenitez"
+    },
+    "readme_path": "/api/v1/crates/rocket_http/0.4.2/readme",
+    "updated_at": "2019-06-29T01:05:44.235945+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-03-01T02:33:53.160853+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/1480321?v=4",
+          "id": 3864, "login": "SergioBenitez", "name": "Sergio Benitez",
+          "url": "https://github.com/SergioBenitez"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["Sergio Benitez <sb@sergio.bz>"]}, "users": []},
+    "crate": "rocket_http", "crate_size": 64089,
+    "created_at": "2020-03-01T02:33:53.160853+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cookie", "default_features": true, "downloads": 0,
+        "features": ["percent-encode"], "id": 1187239, "kind": "normal",
+        "optional": false, "req": "^0.11.2", "target": null,
+        "version_id": 217014
+      },
+      {
+        "crate_id": "hyper", "default_features": false, "downloads": 0,
+        "features": [], "id": 1187240, "kind": "normal", "optional": false,
+        "req": "^0.10.13", "target": null, "version_id": 217014
+      },
+      {
+        "crate_id": "indexmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1187242, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 217014
+      },
+      {
+        "crate_id": "pear", "default_features": true, "downloads": 0,
+        "features": [], "id": 1187243, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 217014
+      },
+      {
+        "crate_id": "percent-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1187244, "kind": "normal",
+        "optional": false, "req": "^1", "target": null,
+        "version_id": 217014
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1187246, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 217014
+      },
+      {
+        "crate_id": "state", "default_features": true, "downloads": 0,
+        "features": [], "id": 1187247, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 217014
+      },
+      {
+        "crate_id": "time", "default_features": true, "downloads": 0,
+        "features": [], "id": 1187248, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 217014
+      },
+      {
+        "crate_id": "unicode-xid", "default_features": true, "downloads": 0,
+        "features": [], "id": 1187249, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 217014
+      },
+      {
+        "crate_id": "hyper-sync-rustls", "default_features": true,
+        "downloads": 0, "features": ["server"], "id": 1187241,
+        "kind": "normal", "optional": true, "req": "=0.3.0-rc.4",
+        "target": null, "version_id": 217014
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1187245, "kind": "normal", "optional": true,
+        "req": "^0.14", "target": null, "version_id": 217014
+      }
+    ],
+    "dl_path": "/api/v1/crates/rocket_http/0.4.3/download",
+    "downloads": 14146,
+    "features": {
+      "default": [], "private-cookies": ["cookie/secure"],
+      "tls": ["rustls", "hyper-sync-rustls"]
+    },
+    "id": 217014, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/rocket_http/0.4.3/authors",
+      "dependencies": "/api/v1/crates/rocket_http/0.4.3/dependencies",
+      "version_downloads": "/api/v1/crates/rocket_http/0.4.3/downloads"
+    },
+    "num": "0.4.3",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/1480321?v=4",
+      "id": 3864, "login": "SergioBenitez", "name": "Sergio Benitez",
+      "url": "https://github.com/SergioBenitez"
+    },
+    "readme_path": "/api/v1/crates/rocket_http/0.4.3/readme",
+    "updated_at": "2020-03-01T02:33:53.160853+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-03-09T09:34:48.432056+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/1480321?v=4",
+          "id": 3864, "login": "SergioBenitez", "name": "Sergio Benitez",
+          "url": "https://github.com/SergioBenitez"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["Sergio Benitez <sb@sergio.bz>"]}, "users": []},
+    "crate": "rocket_http", "crate_size": 64062,
+    "created_at": "2020-03-09T09:34:48.432056+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cookie", "default_features": true, "downloads": 0,
+        "features": ["percent-encode"], "id": 1206343, "kind": "normal",
+        "optional": false, "req": "^0.11.2", "target": null,
+        "version_id": 219390
+      },
+      {
+        "crate_id": "hyper", "default_features": false, "downloads": 0,
+        "features": [], "id": 1206344, "kind": "normal", "optional": false,
+        "req": "^0.10.13", "target": null, "version_id": 219390
+      },
+      {
+        "crate_id": "indexmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1206346, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 219390
+      },
+      {
+        "crate_id": "pear", "default_features": true, "downloads": 0,
+        "features": [], "id": 1206347, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 219390
+      },
+      {
+        "crate_id": "percent-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1206348, "kind": "normal",
+        "optional": false, "req": "^1", "target": null,
+        "version_id": 219390
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1206350, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 219390
+      },
+      {
+        "crate_id": "state", "default_features": true, "downloads": 0,
+        "features": [], "id": 1206351, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 219390
+      },
+      {
+        "crate_id": "time", "default_features": true, "downloads": 0,
+        "features": [], "id": 1206352, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 219390
+      },
+      {
+        "crate_id": "unicode-xid", "default_features": true, "downloads": 0,
+        "features": [], "id": 1206353, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 219390
+      },
+      {
+        "crate_id": "hyper-sync-rustls", "default_features": true,
+        "downloads": 0, "features": ["server"], "id": 1206345,
+        "kind": "normal", "optional": true, "req": "=0.3.0-rc.4",
+        "target": null, "version_id": 219390
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1206349, "kind": "normal", "optional": true,
+        "req": "^0.14", "target": null, "version_id": 219390
+      }
+    ],
+    "dl_path": "/api/v1/crates/rocket_http/0.4.4/download",
+    "downloads": 84568,
+    "features": {
+      "default": [], "private-cookies": ["cookie/secure"],
+      "tls": ["rustls", "hyper-sync-rustls"]
+    },
+    "id": 219390, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/rocket_http/0.4.4/authors",
+      "dependencies": "/api/v1/crates/rocket_http/0.4.4/dependencies",
+      "version_downloads": "/api/v1/crates/rocket_http/0.4.4/downloads"
+    },
+    "num": "0.4.4",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/1480321?v=4",
+      "id": 3864, "login": "SergioBenitez", "name": "Sergio Benitez",
+      "url": "https://github.com/SergioBenitez"
+    },
+    "readme_path": "/api/v1/crates/rocket_http/0.4.4/readme",
+    "updated_at": "2020-03-09T09:34:48.432056+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-05-30T21:53:27.610168+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/1480321?v=4",
+          "id": 3864, "login": "SergioBenitez", "name": "Sergio Benitez",
+          "url": "https://github.com/SergioBenitez"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["Sergio Benitez <sb@sergio.bz>"]}, "users": []},
+    "crate": "rocket_http", "crate_size": 64335,
+    "created_at": "2020-05-30T21:53:27.610168+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cookie", "default_features": true, "downloads": 0,
+        "features": ["percent-encode"], "id": 1409369, "kind": "normal",
+        "optional": false, "req": "^0.11.3", "target": null,
+        "version_id": 247076
+      },
+      {
+        "crate_id": "hyper", "default_features": false, "downloads": 0,
+        "features": [], "id": 1409370, "kind": "normal", "optional": false,
+        "req": "^0.10.13", "target": null, "version_id": 247076
+      },
+      {
+        "crate_id": "indexmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1409372, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 247076
+      },
+      {
+        "crate_id": "pear", "default_features": true, "downloads": 0,
+        "features": [], "id": 1409373, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 247076
+      },
+      {
+        "crate_id": "percent-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1409374, "kind": "normal",
+        "optional": false, "req": "^1", "target": null,
+        "version_id": 247076
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1409376, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 247076
+      },
+      {
+        "crate_id": "state", "default_features": true, "downloads": 0,
+        "features": [], "id": 1409377, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 247076
+      },
+      {
+        "crate_id": "time", "default_features": true, "downloads": 0,
+        "features": [], "id": 1409378, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 247076
+      },
+      {
+        "crate_id": "unicode-xid", "default_features": true, "downloads": 0,
+        "features": [], "id": 1409379, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 247076
+      },
+      {
+        "crate_id": "hyper-sync-rustls", "default_features": true,
+        "downloads": 0, "features": ["server"], "id": 1409371,
+        "kind": "normal", "optional": true, "req": "=0.3.0-rc.4",
+        "target": null, "version_id": 247076
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1409375, "kind": "normal", "optional": true,
+        "req": "^0.14", "target": null, "version_id": 247076
+      }
+    ],
+    "dl_path": "/api/v1/crates/rocket_http/0.4.5/download",
+    "downloads": 137806,
+    "features": {
+      "default": [], "private-cookies": ["cookie/secure"],
+      "tls": ["rustls", "hyper-sync-rustls"]
+    },
+    "id": 247076, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/rocket_http/0.4.5/authors",
+      "dependencies": "/api/v1/crates/rocket_http/0.4.5/dependencies",
+      "version_downloads": "/api/v1/crates/rocket_http/0.4.5/downloads"
+    },
+    "num": "0.4.5",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/1480321?v=4",
+      "id": 3864, "login": "SergioBenitez", "name": "Sergio Benitez",
+      "url": "https://github.com/SergioBenitez"
+    },
+    "readme_path": "/api/v1/crates/rocket_http/0.4.5/readme",
+    "updated_at": "2020-05-30T21:53:27.610168+00:00", "yanked": false
+  }
+]

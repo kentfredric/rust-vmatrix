@@ -1,0 +1,3323 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-https", "crate_size": null,
+    "created_at": "2018-07-22T17:28:13.346900+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 461995, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 100815
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 461996, "kind": "normal",
+        "optional": false, "req": "^2.1.0", "target": null,
+        "version_id": 100815
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 462010, "kind": "dev", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 100815
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 461997, "kind": "normal", "optional": false,
+        "req": "^0.1.17", "target": null, "version_id": 100815
+      },
+      {
+        "crate_id": "h2", "default_features": true, "downloads": 0,
+        "features": [], "id": 461998, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 100815
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 461999, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 100815
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 462000, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 100815
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 462001, "kind": "normal", "optional": false,
+        "req": "^0.12", "target": null, "version_id": 100815
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 462011, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 100815
+      },
+      {
+        "crate_id": "tokio-executor", "default_features": true,
+        "downloads": 0, "features": [], "id": 462002, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 100815
+      },
+      {
+        "crate_id": "tokio-reactor", "default_features": true,
+        "downloads": 0, "features": [], "id": 462003, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 100815
+      },
+      {
+        "crate_id": "tokio-rustls", "default_features": true,
+        "downloads": 0, "features": [], "id": 462004, "kind": "normal",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 100815
+      },
+      {
+        "crate_id": "tokio-tcp", "default_features": true, "downloads": 0,
+        "features": [], "id": 462005, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 100815
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": false,
+        "downloads": 0, "features": [], "id": 462006, "kind": "normal",
+        "optional": false, "req": "^0.5.0-alpha", "target": null,
+        "version_id": 100815
+      },
+      {
+        "crate_id": "trust-dns-rustls", "default_features": false,
+        "downloads": 0, "features": [], "id": 462007, "kind": "normal",
+        "optional": false, "req": "^0.4.0-alpha", "target": null,
+        "version_id": 100815
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 462008, "kind": "normal", "optional": false,
+        "req": "^0.18.0-alpha", "target": null, "version_id": 100815
+      },
+      {
+        "crate_id": "webpki-roots", "default_features": true,
+        "downloads": 0, "features": [], "id": 462009, "kind": "normal",
+        "optional": false, "req": "^0.14", "target": null,
+        "version_id": 100815
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-https/0.1.0-alpha.1/download",
+    "downloads": 316, "features": {}, "id": 100815,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-https/0.1.0-alpha.1/authors",
+      "dependencies": "/api/v1/crates/trust-dns-https/0.1.0-alpha.1/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-https/0.1.0-alpha.1/downloads"
+    },
+    "num": "0.1.0-alpha.1", "published_by": null,
+    "readme_path": "/api/v1/crates/trust-dns-https/0.1.0-alpha.1/readme",
+    "updated_at": "2018-07-22T17:28:13.346900+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-https", "crate_size": null,
+    "created_at": "2018-08-07T04:20:27.788298+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 472993, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 102791
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 472994, "kind": "normal",
+        "optional": false, "req": "^2.1.0", "target": null,
+        "version_id": 102791
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 473008, "kind": "dev", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 102791
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 472995, "kind": "normal", "optional": false,
+        "req": "^0.1.17", "target": null, "version_id": 102791
+      },
+      {
+        "crate_id": "h2", "default_features": true, "downloads": 0,
+        "features": [], "id": 472996, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 102791
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 472997, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 102791
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 472998, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 102791
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 472999, "kind": "normal", "optional": false,
+        "req": "^0.13", "target": null, "version_id": 102791
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 473009, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 102791
+      },
+      {
+        "crate_id": "tokio-executor", "default_features": true,
+        "downloads": 0, "features": [], "id": 473000, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 102791
+      },
+      {
+        "crate_id": "tokio-reactor", "default_features": true,
+        "downloads": 0, "features": [], "id": 473001, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 102791
+      },
+      {
+        "crate_id": "tokio-rustls", "default_features": true,
+        "downloads": 0, "features": [], "id": 473002, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 102791
+      },
+      {
+        "crate_id": "tokio-tcp", "default_features": true, "downloads": 0,
+        "features": [], "id": 473003, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 102791
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": false,
+        "downloads": 0, "features": [], "id": 473004, "kind": "normal",
+        "optional": false, "req": "^0.5.0-alpha", "target": null,
+        "version_id": 102791
+      },
+      {
+        "crate_id": "trust-dns-rustls", "default_features": false,
+        "downloads": 0, "features": [], "id": 473005, "kind": "normal",
+        "optional": false, "req": "^0.4.0-alpha", "target": null,
+        "version_id": 102791
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 473006, "kind": "normal", "optional": false,
+        "req": "^0.18.0", "target": null, "version_id": 102791
+      },
+      {
+        "crate_id": "webpki-roots", "default_features": true,
+        "downloads": 0, "features": [], "id": 473007, "kind": "normal",
+        "optional": false, "req": "^0.15", "target": null,
+        "version_id": 102791
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-https/0.1.0-alpha.2/download",
+    "downloads": 328, "features": {}, "id": 102791,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-https/0.1.0-alpha.2/authors",
+      "dependencies": "/api/v1/crates/trust-dns-https/0.1.0-alpha.2/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-https/0.1.0-alpha.2/downloads"
+    },
+    "num": "0.1.0-alpha.2", "published_by": null,
+    "readme_path": "/api/v1/crates/trust-dns-https/0.1.0-alpha.2/readme",
+    "updated_at": "2018-08-07T04:20:27.788298+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-https", "crate_size": 12314,
+    "created_at": "2018-10-10T06:40:09.287416+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 519726, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 111705
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 519727, "kind": "normal",
+        "optional": false, "req": "^2.1.0", "target": null,
+        "version_id": 111705
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 519743, "kind": "dev", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 111705
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 519728, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 111705
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 519729, "kind": "normal", "optional": false,
+        "req": "^0.1.17", "target": null, "version_id": 111705
+      },
+      {
+        "crate_id": "h2", "default_features": true, "downloads": 0,
+        "features": [], "id": 519730, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 111705
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 519731, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 111705
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 519732, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 111705
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 519733, "kind": "normal", "optional": false,
+        "req": "^0.14", "target": null, "version_id": 111705
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 519744, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 111705
+      },
+      {
+        "crate_id": "tokio-executor", "default_features": true,
+        "downloads": 0, "features": [], "id": 519734, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 111705
+      },
+      {
+        "crate_id": "tokio-reactor", "default_features": true,
+        "downloads": 0, "features": [], "id": 519735, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 111705
+      },
+      {
+        "crate_id": "tokio-rustls", "default_features": true,
+        "downloads": 0, "features": [], "id": 519736, "kind": "normal",
+        "optional": false, "req": "^0.8", "target": null,
+        "version_id": 111705
+      },
+      {
+        "crate_id": "tokio-tcp", "default_features": true, "downloads": 0,
+        "features": [], "id": 519737, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 111705
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": false,
+        "downloads": 0, "features": [], "id": 519738, "kind": "normal",
+        "optional": false, "req": "^0.5.0-alpha", "target": null,
+        "version_id": 111705
+      },
+      {
+        "crate_id": "trust-dns-rustls", "default_features": false,
+        "downloads": 0, "features": [], "id": 519739, "kind": "normal",
+        "optional": false, "req": "^0.4.0-alpha", "target": null,
+        "version_id": 111705
+      },
+      {
+        "crate_id": "typed-headers", "default_features": true,
+        "downloads": 0, "features": [], "id": 519740, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 111705
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 519741, "kind": "normal", "optional": false,
+        "req": "^0.18", "target": null, "version_id": 111705
+      },
+      {
+        "crate_id": "webpki-roots", "default_features": true,
+        "downloads": 0, "features": [], "id": 519742, "kind": "normal",
+        "optional": false, "req": "^0.15", "target": null,
+        "version_id": 111705
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-https/0.1.0-alpha.3/download",
+    "downloads": 212, "features": {}, "id": 111705,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-https/0.1.0-alpha.3/authors",
+      "dependencies": "/api/v1/crates/trust-dns-https/0.1.0-alpha.3/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-https/0.1.0-alpha.3/downloads"
+    },
+    "num": "0.1.0-alpha.3", "published_by": null,
+    "readme_path": "/api/v1/crates/trust-dns-https/0.1.0-alpha.3/readme",
+    "updated_at": "2018-10-10T06:40:09.287416+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-https", "crate_size": 12404,
+    "created_at": "2018-11-01T07:13:26.035265+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 542934, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 115571
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 542935, "kind": "normal",
+        "optional": false, "req": "^2.1.0", "target": null,
+        "version_id": 115571
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 542951, "kind": "dev", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 115571
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 542936, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 115571
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 542937, "kind": "normal", "optional": false,
+        "req": "^0.1.17", "target": null, "version_id": 115571
+      },
+      {
+        "crate_id": "h2", "default_features": true, "downloads": 0,
+        "features": [], "id": 542938, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 115571
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 542939, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 115571
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 542940, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 115571
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 542941, "kind": "normal", "optional": false,
+        "req": "^0.14", "target": null, "version_id": 115571
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 542952, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 115571
+      },
+      {
+        "crate_id": "tokio-executor", "default_features": true,
+        "downloads": 0, "features": [], "id": 542942, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 115571
+      },
+      {
+        "crate_id": "tokio-reactor", "default_features": true,
+        "downloads": 0, "features": [], "id": 542943, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 115571
+      },
+      {
+        "crate_id": "tokio-rustls", "default_features": true,
+        "downloads": 0, "features": [], "id": 542944, "kind": "normal",
+        "optional": false, "req": "^0.8", "target": null,
+        "version_id": 115571
+      },
+      {
+        "crate_id": "tokio-tcp", "default_features": true, "downloads": 0,
+        "features": [], "id": 542945, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 115571
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": false,
+        "downloads": 0, "features": [], "id": 542946, "kind": "normal",
+        "optional": false, "req": "^0.5.0", "target": null,
+        "version_id": 115571
+      },
+      {
+        "crate_id": "trust-dns-rustls", "default_features": false,
+        "downloads": 0, "features": [], "id": 542947, "kind": "normal",
+        "optional": false, "req": "^0.4.0", "target": null,
+        "version_id": 115571
+      },
+      {
+        "crate_id": "typed-headers", "default_features": true,
+        "downloads": 0, "features": [], "id": 542948, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 115571
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 542949, "kind": "normal", "optional": false,
+        "req": "^0.18", "target": null, "version_id": 115571
+      },
+      {
+        "crate_id": "webpki-roots", "default_features": true,
+        "downloads": 0, "features": [], "id": 542950, "kind": "normal",
+        "optional": false, "req": "^0.15", "target": null,
+        "version_id": 115571
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-https/0.1.0/download",
+    "downloads": 869, "features": {}, "id": 115571,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-https/0.1.0/authors",
+      "dependencies": "/api/v1/crates/trust-dns-https/0.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-https/0.1.0/downloads"
+    },
+    "num": "0.1.0", "published_by": null,
+    "readme_path": "/api/v1/crates/trust-dns-https/0.1.0/readme",
+    "updated_at": "2018-11-01T07:13:26.035265+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-https", "crate_size": 12439,
+    "created_at": "2018-12-21T15:51:46.228247+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 589084, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 123484
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 589085, "kind": "normal",
+        "optional": false, "req": "^2.1.0", "target": null,
+        "version_id": 123484
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 589101, "kind": "dev", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 123484
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 589086, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 123484
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 589087, "kind": "normal", "optional": false,
+        "req": "^0.1.17", "target": null, "version_id": 123484
+      },
+      {
+        "crate_id": "h2", "default_features": true, "downloads": 0,
+        "features": [], "id": 589088, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 123484
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 589089, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 123484
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 589090, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 123484
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 589091, "kind": "normal", "optional": false,
+        "req": "^0.14", "target": null, "version_id": 123484
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 589102, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 123484
+      },
+      {
+        "crate_id": "tokio-executor", "default_features": true,
+        "downloads": 0, "features": [], "id": 589092, "kind": "normal",
+        "optional": false, "req": "^0.1.4", "target": null,
+        "version_id": 123484
+      },
+      {
+        "crate_id": "tokio-reactor", "default_features": true,
+        "downloads": 0, "features": [], "id": 589093, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 123484
+      },
+      {
+        "crate_id": "tokio-rustls", "default_features": true,
+        "downloads": 0, "features": [], "id": 589094, "kind": "normal",
+        "optional": false, "req": "^0.8", "target": null,
+        "version_id": 123484
+      },
+      {
+        "crate_id": "tokio-tcp", "default_features": true, "downloads": 0,
+        "features": [], "id": 589095, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 123484
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": false,
+        "downloads": 0, "features": [], "id": 589096, "kind": "normal",
+        "optional": false, "req": "^0.6.0", "target": null,
+        "version_id": 123484
+      },
+      {
+        "crate_id": "trust-dns-rustls", "default_features": false,
+        "downloads": 0, "features": [], "id": 589097, "kind": "normal",
+        "optional": false, "req": "^0.5.0", "target": null,
+        "version_id": 123484
+      },
+      {
+        "crate_id": "typed-headers", "default_features": true,
+        "downloads": 0, "features": [], "id": 589098, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 123484
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 589099, "kind": "normal", "optional": false,
+        "req": "^0.18", "target": null, "version_id": 123484
+      },
+      {
+        "crate_id": "webpki-roots", "default_features": true,
+        "downloads": 0, "features": [], "id": 589100, "kind": "normal",
+        "optional": false, "req": "^0.15", "target": null,
+        "version_id": 123484
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-https/0.2.0/download",
+    "downloads": 2085, "features": {}, "id": 123484,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-https/0.2.0/authors",
+      "dependencies": "/api/v1/crates/trust-dns-https/0.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-https/0.2.0/downloads"
+    },
+    "num": "0.2.0", "published_by": null,
+    "readme_path": "/api/v1/crates/trust-dns-https/0.2.0/readme",
+    "updated_at": "2018-12-21T15:51:46.228247+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-https", "crate_size": 12406,
+    "created_at": "2019-01-27T01:10:38.423818+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 623791, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 130239
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 623792, "kind": "normal",
+        "optional": false, "req": "^2.1.0", "target": null,
+        "version_id": 130239
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 623808, "kind": "dev", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 130239
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 623793, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 130239
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 623794, "kind": "normal", "optional": false,
+        "req": "^0.1.17", "target": null, "version_id": 130239
+      },
+      {
+        "crate_id": "h2", "default_features": true, "downloads": 0,
+        "features": [], "id": 623795, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 130239
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 623796, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 130239
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 623797, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 130239
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 623798, "kind": "normal", "optional": false,
+        "req": "^0.15", "target": null, "version_id": 130239
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 623809, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 130239
+      },
+      {
+        "crate_id": "tokio-executor", "default_features": true,
+        "downloads": 0, "features": [], "id": 623799, "kind": "normal",
+        "optional": false, "req": "^0.1.4", "target": null,
+        "version_id": 130239
+      },
+      {
+        "crate_id": "tokio-reactor", "default_features": true,
+        "downloads": 0, "features": [], "id": 623800, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 130239
+      },
+      {
+        "crate_id": "tokio-rustls", "default_features": true,
+        "downloads": 0, "features": [], "id": 623801, "kind": "normal",
+        "optional": false, "req": "^0.9", "target": null,
+        "version_id": 130239
+      },
+      {
+        "crate_id": "tokio-tcp", "default_features": true, "downloads": 0,
+        "features": [], "id": 623802, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 130239
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": false,
+        "downloads": 0, "features": [], "id": 623803, "kind": "normal",
+        "optional": false, "req": "^0.6.0", "target": null,
+        "version_id": 130239
+      },
+      {
+        "crate_id": "trust-dns-rustls", "default_features": false,
+        "downloads": 0, "features": [], "id": 623804, "kind": "normal",
+        "optional": false, "req": "^0.5.0", "target": null,
+        "version_id": 130239
+      },
+      {
+        "crate_id": "typed-headers", "default_features": true,
+        "downloads": 0, "features": [], "id": 623805, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 130239
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 623806, "kind": "normal", "optional": false,
+        "req": "^0.19", "target": null, "version_id": 130239
+      },
+      {
+        "crate_id": "webpki-roots", "default_features": true,
+        "downloads": 0, "features": [], "id": 623807, "kind": "normal",
+        "optional": false, "req": "^0.16", "target": null,
+        "version_id": 130239
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-https/0.2.1/download",
+    "downloads": 2524, "features": {}, "id": 130239,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-https/0.2.1/authors",
+      "dependencies": "/api/v1/crates/trust-dns-https/0.2.1/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-https/0.2.1/downloads"
+    },
+    "num": "0.2.1", "published_by": null,
+    "readme_path": "/api/v1/crates/trust-dns-https/0.2.1/readme",
+    "updated_at": "2019-01-27T01:10:38.423818+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-https", "crate_size": 12415,
+    "created_at": "2019-01-19T22:11:01.092278+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 616948, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 129060
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 616949, "kind": "normal",
+        "optional": false, "req": "^2.1.0", "target": null,
+        "version_id": 129060
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 616965, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 129060
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 616950, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 129060
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 616951, "kind": "normal", "optional": false,
+        "req": "^0.1.17", "target": null, "version_id": 129060
+      },
+      {
+        "crate_id": "h2", "default_features": true, "downloads": 0,
+        "features": [], "id": 616952, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 129060
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 616953, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 129060
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 616954, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 129060
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 616955, "kind": "normal", "optional": false,
+        "req": "^0.14", "target": null, "version_id": 129060
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 616966, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 129060
+      },
+      {
+        "crate_id": "tokio-executor", "default_features": true,
+        "downloads": 0, "features": [], "id": 616956, "kind": "normal",
+        "optional": false, "req": "^0.1.4", "target": null,
+        "version_id": 129060
+      },
+      {
+        "crate_id": "tokio-reactor", "default_features": true,
+        "downloads": 0, "features": [], "id": 616957, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 129060
+      },
+      {
+        "crate_id": "tokio-rustls", "default_features": true,
+        "downloads": 0, "features": [], "id": 616958, "kind": "normal",
+        "optional": false, "req": "^0.8", "target": null,
+        "version_id": 129060
+      },
+      {
+        "crate_id": "tokio-tcp", "default_features": true, "downloads": 0,
+        "features": [], "id": 616959, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 129060
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": false,
+        "downloads": 0, "features": [], "id": 616960, "kind": "normal",
+        "optional": false, "req": "^0.7.0", "target": null,
+        "version_id": 129060
+      },
+      {
+        "crate_id": "trust-dns-rustls", "default_features": false,
+        "downloads": 0, "features": [], "id": 616961, "kind": "normal",
+        "optional": false, "req": "^0.6.0", "target": null,
+        "version_id": 129060
+      },
+      {
+        "crate_id": "typed-headers", "default_features": true,
+        "downloads": 0, "features": [], "id": 616962, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 129060
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 616963, "kind": "normal", "optional": false,
+        "req": "^0.18", "target": null, "version_id": 129060
+      },
+      {
+        "crate_id": "webpki-roots", "default_features": true,
+        "downloads": 0, "features": [], "id": 616964, "kind": "normal",
+        "optional": false, "req": "^0.15", "target": null,
+        "version_id": 129060
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-https/0.3.0/download",
+    "downloads": 170, "features": {}, "id": 129060,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-https/0.3.0/authors",
+      "dependencies": "/api/v1/crates/trust-dns-https/0.3.0/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-https/0.3.0/downloads"
+    },
+    "num": "0.3.0", "published_by": null,
+    "readme_path": "/api/v1/crates/trust-dns-https/0.3.0/readme",
+    "updated_at": "2019-01-19T22:11:01.092278+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-https", "crate_size": 12443,
+    "created_at": "2019-01-27T01:24:57.657928+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 623919, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 130245
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 623920, "kind": "normal",
+        "optional": false, "req": "^2.1.0", "target": null,
+        "version_id": 130245
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 623936, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 130245
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 623921, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 130245
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 623922, "kind": "normal", "optional": false,
+        "req": "^0.1.17", "target": null, "version_id": 130245
+      },
+      {
+        "crate_id": "h2", "default_features": true, "downloads": 0,
+        "features": [], "id": 623923, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 130245
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 623924, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 130245
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 623925, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 130245
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 623926, "kind": "normal", "optional": false,
+        "req": "^0.15", "target": null, "version_id": 130245
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 623937, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 130245
+      },
+      {
+        "crate_id": "tokio-executor", "default_features": true,
+        "downloads": 0, "features": [], "id": 623927, "kind": "normal",
+        "optional": false, "req": "^0.1.4", "target": null,
+        "version_id": 130245
+      },
+      {
+        "crate_id": "tokio-reactor", "default_features": true,
+        "downloads": 0, "features": [], "id": 623928, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 130245
+      },
+      {
+        "crate_id": "tokio-rustls", "default_features": true,
+        "downloads": 0, "features": [], "id": 623929, "kind": "normal",
+        "optional": false, "req": "^0.9", "target": null,
+        "version_id": 130245
+      },
+      {
+        "crate_id": "tokio-tcp", "default_features": true, "downloads": 0,
+        "features": [], "id": 623930, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 130245
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": false,
+        "downloads": 0, "features": [], "id": 623931, "kind": "normal",
+        "optional": false, "req": "^0.7.0", "target": null,
+        "version_id": 130245
+      },
+      {
+        "crate_id": "trust-dns-rustls", "default_features": false,
+        "downloads": 0, "features": [], "id": 623932, "kind": "normal",
+        "optional": false, "req": "^0.6.0", "target": null,
+        "version_id": 130245
+      },
+      {
+        "crate_id": "typed-headers", "default_features": true,
+        "downloads": 0, "features": [], "id": 623933, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 130245
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 623934, "kind": "normal", "optional": false,
+        "req": "^0.19", "target": null, "version_id": 130245
+      },
+      {
+        "crate_id": "webpki-roots", "default_features": true,
+        "downloads": 0, "features": [], "id": 623935, "kind": "normal",
+        "optional": false, "req": "^0.16", "target": null,
+        "version_id": 130245
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-https/0.3.1/download",
+    "downloads": 171, "features": {}, "id": 130245,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-https/0.3.1/authors",
+      "dependencies": "/api/v1/crates/trust-dns-https/0.3.1/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-https/0.3.1/downloads"
+    },
+    "num": "0.3.1", "published_by": null,
+    "readme_path": "/api/v1/crates/trust-dns-https/0.3.1/readme",
+    "updated_at": "2019-01-27T01:24:57.657928+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-https", "crate_size": 12427,
+    "created_at": "2019-04-06T20:11:53.674984+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 698828, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 143513
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 698829, "kind": "normal",
+        "optional": false, "req": "^2.1.0", "target": null,
+        "version_id": 143513
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 698845, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 143513
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 698830, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 143513
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 698831, "kind": "normal", "optional": false,
+        "req": "^0.1.17", "target": null, "version_id": 143513
+      },
+      {
+        "crate_id": "h2", "default_features": true, "downloads": 0,
+        "features": [], "id": 698832, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 143513
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 698833, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 143513
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 698834, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 143513
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 698835, "kind": "normal", "optional": false,
+        "req": "^0.15", "target": null, "version_id": 143513
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 698846, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 143513
+      },
+      {
+        "crate_id": "tokio-executor", "default_features": true,
+        "downloads": 0, "features": [], "id": 698836, "kind": "normal",
+        "optional": false, "req": "^0.1.7", "target": null,
+        "version_id": 143513
+      },
+      {
+        "crate_id": "tokio-reactor", "default_features": true,
+        "downloads": 0, "features": [], "id": 698837, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 143513
+      },
+      {
+        "crate_id": "tokio-rustls", "default_features": true,
+        "downloads": 0, "features": [], "id": 698838, "kind": "normal",
+        "optional": false, "req": "^0.9", "target": null,
+        "version_id": 143513
+      },
+      {
+        "crate_id": "tokio-tcp", "default_features": true, "downloads": 0,
+        "features": [], "id": 698839, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 143513
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": false,
+        "downloads": 0, "features": [], "id": 698840, "kind": "normal",
+        "optional": false, "req": "^0.7.0", "target": null,
+        "version_id": 143513
+      },
+      {
+        "crate_id": "trust-dns-rustls", "default_features": false,
+        "downloads": 0, "features": [], "id": 698841, "kind": "normal",
+        "optional": false, "req": "^0.6.0", "target": null,
+        "version_id": 143513
+      },
+      {
+        "crate_id": "typed-headers", "default_features": true,
+        "downloads": 0, "features": [], "id": 698842, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 143513
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 698843, "kind": "normal", "optional": false,
+        "req": "^0.19", "target": null, "version_id": 143513
+      },
+      {
+        "crate_id": "webpki-roots", "default_features": true,
+        "downloads": 0, "features": [], "id": 698844, "kind": "normal",
+        "optional": false, "req": "^0.16", "target": null,
+        "version_id": 143513
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-https/0.3.2/download",
+    "downloads": 168, "features": {}, "id": 143513,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-https/0.3.2/authors",
+      "dependencies": "/api/v1/crates/trust-dns-https/0.3.2/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-https/0.3.2/downloads"
+    },
+    "num": "0.3.2",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+      "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+      "url": "https://github.com/bluejekyll"
+    },
+    "readme_path": "/api/v1/crates/trust-dns-https/0.3.2/readme",
+    "updated_at": "2019-04-06T20:11:53.674984+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-https", "crate_size": 12447,
+    "created_at": "2019-04-15T01:38:30.287575+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 707321, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 144928
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 707322, "kind": "normal",
+        "optional": false, "req": "^2.1.0", "target": null,
+        "version_id": 144928
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 707338, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 144928
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 707323, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 144928
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 707324, "kind": "normal", "optional": false,
+        "req": "^0.1.26", "target": null, "version_id": 144928
+      },
+      {
+        "crate_id": "h2", "default_features": true, "downloads": 0,
+        "features": [], "id": 707325, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 144928
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 707326, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 144928
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 707327, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 144928
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 707328, "kind": "normal", "optional": false,
+        "req": "^0.15", "target": null, "version_id": 144928
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 707339, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 144928
+      },
+      {
+        "crate_id": "tokio-executor", "default_features": true,
+        "downloads": 0, "features": [], "id": 707329, "kind": "normal",
+        "optional": false, "req": "^0.1.7", "target": null,
+        "version_id": 144928
+      },
+      {
+        "crate_id": "tokio-reactor", "default_features": true,
+        "downloads": 0, "features": [], "id": 707330, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 144928
+      },
+      {
+        "crate_id": "tokio-rustls", "default_features": true,
+        "downloads": 0, "features": [], "id": 707331, "kind": "normal",
+        "optional": false, "req": "^0.9", "target": null,
+        "version_id": 144928
+      },
+      {
+        "crate_id": "tokio-tcp", "default_features": true, "downloads": 0,
+        "features": [], "id": 707332, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 144928
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": false,
+        "downloads": 0, "features": [], "id": 707333, "kind": "normal",
+        "optional": false, "req": "^0.7.3", "target": null,
+        "version_id": 144928
+      },
+      {
+        "crate_id": "trust-dns-rustls", "default_features": false,
+        "downloads": 0, "features": [], "id": 707334, "kind": "normal",
+        "optional": false, "req": "^0.6.0", "target": null,
+        "version_id": 144928
+      },
+      {
+        "crate_id": "typed-headers", "default_features": true,
+        "downloads": 0, "features": [], "id": 707335, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 144928
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 707336, "kind": "normal", "optional": false,
+        "req": "^0.19", "target": null, "version_id": 144928
+      },
+      {
+        "crate_id": "webpki-roots", "default_features": true,
+        "downloads": 0, "features": [], "id": 707337, "kind": "normal",
+        "optional": false, "req": "^0.16", "target": null,
+        "version_id": 144928
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-https/0.3.3/download",
+    "downloads": 733, "features": {}, "id": 144928,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-https/0.3.3/authors",
+      "dependencies": "/api/v1/crates/trust-dns-https/0.3.3/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-https/0.3.3/downloads"
+    },
+    "num": "0.3.3",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+      "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+      "url": "https://github.com/bluejekyll"
+    },
+    "readme_path": "/api/v1/crates/trust-dns-https/0.3.3/readme",
+    "updated_at": "2019-04-15T01:38:30.287575+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-https", "crate_size": 12429,
+    "created_at": "2019-05-29T06:22:36.205552+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 756529, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 153390
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 756530, "kind": "normal",
+        "optional": false, "req": "^2.1.0", "target": null,
+        "version_id": 153390
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 756546, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 153390
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 756531, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 153390
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 756532, "kind": "normal", "optional": false,
+        "req": "^0.1.27", "target": null, "version_id": 153390
+      },
+      {
+        "crate_id": "h2", "default_features": true, "downloads": 0,
+        "features": [], "id": 756533, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 153390
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 756534, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 153390
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 756535, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 153390
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 756536, "kind": "normal", "optional": false,
+        "req": "^0.15", "target": null, "version_id": 153390
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 756547, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 153390
+      },
+      {
+        "crate_id": "tokio-executor", "default_features": true,
+        "downloads": 0, "features": [], "id": 756537, "kind": "normal",
+        "optional": false, "req": "^0.1.7", "target": null,
+        "version_id": 153390
+      },
+      {
+        "crate_id": "tokio-reactor", "default_features": true,
+        "downloads": 0, "features": [], "id": 756538, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 153390
+      },
+      {
+        "crate_id": "tokio-rustls", "default_features": true,
+        "downloads": 0, "features": [], "id": 756539, "kind": "normal",
+        "optional": false, "req": "^0.9", "target": null,
+        "version_id": 153390
+      },
+      {
+        "crate_id": "tokio-tcp", "default_features": true, "downloads": 0,
+        "features": [], "id": 756540, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 153390
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": false,
+        "downloads": 0, "features": [], "id": 756541, "kind": "normal",
+        "optional": false, "req": "^0.7.3", "target": null,
+        "version_id": 153390
+      },
+      {
+        "crate_id": "trust-dns-rustls", "default_features": false,
+        "downloads": 0, "features": [], "id": 756542, "kind": "normal",
+        "optional": false, "req": "^0.6.0", "target": null,
+        "version_id": 153390
+      },
+      {
+        "crate_id": "typed-headers", "default_features": true,
+        "downloads": 0, "features": [], "id": 756543, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 153390
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 756544, "kind": "normal", "optional": false,
+        "req": "^0.19", "target": null, "version_id": 153390
+      },
+      {
+        "crate_id": "webpki-roots", "default_features": true,
+        "downloads": 0, "features": [], "id": 756545, "kind": "normal",
+        "optional": false, "req": "^0.16", "target": null,
+        "version_id": 153390
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-https/0.3.4/download",
+    "downloads": 1312, "features": {}, "id": 153390,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-https/0.3.4/authors",
+      "dependencies": "/api/v1/crates/trust-dns-https/0.3.4/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-https/0.3.4/downloads"
+    },
+    "num": "0.3.4",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+      "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+      "url": "https://github.com/bluejekyll"
+    },
+    "readme_path": "/api/v1/crates/trust-dns-https/0.3.4/readme",
+    "updated_at": "2019-05-29T06:22:36.205552+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-https", "crate_size": 16704,
+    "created_at": "2019-08-12T04:47:36.845759+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 857707, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 168841
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 857708, "kind": "normal",
+        "optional": false, "req": "^2.1.0", "target": null,
+        "version_id": 168841
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 857724, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 168841
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 857709, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 168841
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 857710, "kind": "normal", "optional": false,
+        "req": "^0.1.28", "target": null, "version_id": 168841
+      },
+      {
+        "crate_id": "h2", "default_features": true, "downloads": 0,
+        "features": [], "id": 857711, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 168841
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 857712, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 168841
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 857713, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 168841
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 857714, "kind": "normal", "optional": false,
+        "req": "^0.16", "target": null, "version_id": 168841
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 857725, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 168841
+      },
+      {
+        "crate_id": "tokio-executor", "default_features": true,
+        "downloads": 0, "features": [], "id": 857715, "kind": "normal",
+        "optional": false, "req": "^0.1.8", "target": null,
+        "version_id": 168841
+      },
+      {
+        "crate_id": "tokio-reactor", "default_features": true,
+        "downloads": 0, "features": [], "id": 857716, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 168841
+      },
+      {
+        "crate_id": "tokio-rustls", "default_features": true,
+        "downloads": 0, "features": [], "id": 857717, "kind": "normal",
+        "optional": false, "req": "^0.10", "target": null,
+        "version_id": 168841
+      },
+      {
+        "crate_id": "tokio-tcp", "default_features": true, "downloads": 0,
+        "features": [], "id": 857718, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 168841
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": false,
+        "downloads": 0, "features": ["tokio-compat"], "id": 857719,
+        "kind": "normal", "optional": false, "req": "^0.8.0",
+        "target": null, "version_id": 168841
+      },
+      {
+        "crate_id": "trust-dns-rustls", "default_features": false,
+        "downloads": 0, "features": [], "id": 857720, "kind": "normal",
+        "optional": false, "req": "^0.7.0", "target": null,
+        "version_id": 168841
+      },
+      {
+        "crate_id": "typed-headers", "default_features": true,
+        "downloads": 0, "features": [], "id": 857721, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 168841
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 857722, "kind": "normal", "optional": false,
+        "req": "^0.21", "target": null, "version_id": 168841
+      },
+      {
+        "crate_id": "webpki-roots", "default_features": true,
+        "downloads": 0, "features": [], "id": 857723, "kind": "normal",
+        "optional": false, "req": "^0.17", "target": null,
+        "version_id": 168841
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-https/0.4.0/download",
+    "downloads": 637, "features": {}, "id": 168841,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-https/0.4.0/authors",
+      "dependencies": "/api/v1/crates/trust-dns-https/0.4.0/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-https/0.4.0/downloads"
+    },
+    "num": "0.4.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+      "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+      "url": "https://github.com/bluejekyll"
+    },
+    "readme_path": "/api/v1/crates/trust-dns-https/0.4.0/readme",
+    "updated_at": "2019-08-12T04:47:36.845759+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-https", "crate_size": 16515,
+    "created_at": "2019-10-27T01:37:05.745279+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 963837, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 185363
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 963838, "kind": "normal",
+        "optional": false, "req": "^2.1.0", "target": null,
+        "version_id": 185363
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 963853, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 185363
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 963839, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 185363
+      },
+      {
+        "crate_id": "futures-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 963840, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha", "target": null,
+        "version_id": 185363
+      },
+      {
+        "crate_id": "h2", "default_features": true, "downloads": 0,
+        "features": ["unstable-stream"], "id": 963841, "kind": "normal",
+        "optional": false, "req": "^0.2.0-alpha.2", "target": null,
+        "version_id": 185363
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 963842, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 185363
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 963843, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 185363
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 963844, "kind": "normal", "optional": false,
+        "req": "^0.16", "target": null, "version_id": 185363
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 963854, "kind": "dev", "optional": false,
+        "req": "^0.2.0-alpha", "target": null, "version_id": 185363
+      },
+      {
+        "crate_id": "tokio-executor", "default_features": true,
+        "downloads": 0, "features": [], "id": 963845, "kind": "normal",
+        "optional": false, "req": "^0.2.0-alpha", "target": null,
+        "version_id": 185363
+      },
+      {
+        "crate_id": "tokio-net", "default_features": true, "downloads": 0,
+        "features": [], "id": 963846, "kind": "normal", "optional": false,
+        "req": "^0.2.0-alpha", "target": null, "version_id": 185363
+      },
+      {
+        "crate_id": "tokio-rustls", "default_features": true,
+        "downloads": 0, "features": [], "id": 963847, "kind": "normal",
+        "optional": false, "req": "^0.12.0-alpha", "target": null,
+        "version_id": 185363
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": false,
+        "downloads": 0, "features": ["tokio-compat"], "id": 963848,
+        "kind": "normal", "optional": false, "req": "^0.18.0-alpha",
+        "target": null, "version_id": 185363
+      },
+      {
+        "crate_id": "trust-dns-rustls", "default_features": false,
+        "downloads": 0, "features": [], "id": 963849, "kind": "normal",
+        "optional": false, "req": "^0.18.0-alpha", "target": null,
+        "version_id": 185363
+      },
+      {
+        "crate_id": "typed-headers", "default_features": true,
+        "downloads": 0, "features": [], "id": 963850, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 185363
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 963851, "kind": "normal", "optional": false,
+        "req": "^0.21", "target": null, "version_id": 185363
+      },
+      {
+        "crate_id": "webpki-roots", "default_features": true,
+        "downloads": 0, "features": [], "id": 963852, "kind": "normal",
+        "optional": false, "req": "^0.18", "target": null,
+        "version_id": 185363
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-https/0.18.0-alpha.1/download",
+    "downloads": 126, "features": {}, "id": 185363,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-https/0.18.0-alpha.1/authors",
+      "dependencies": "/api/v1/crates/trust-dns-https/0.18.0-alpha.1/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-https/0.18.0-alpha.1/downloads"
+    },
+    "num": "0.18.0-alpha.1",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+      "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+      "url": "https://github.com/bluejekyll"
+    },
+    "readme_path": "/api/v1/crates/trust-dns-https/0.18.0-alpha.1/readme",
+    "updated_at": "2019-10-27T01:37:05.745279+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2019-12-06T16:39:07.862192+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+          "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+          "url": "https://github.com/bluejekyll"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-https", "crate_size": 16335,
+    "created_at": "2019-12-06T16:39:07.862192+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1025379, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 194282
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1025380, "kind": "normal",
+        "optional": false, "req": "^2.1.0", "target": null,
+        "version_id": 194282
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1025394, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 194282
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 1025381, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 194282
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1025382, "kind": "normal", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 194282
+      },
+      {
+        "crate_id": "h2", "default_features": true, "downloads": 0,
+        "features": ["stream"], "id": 1025383, "kind": "normal",
+        "optional": false, "req": "^0.2.0", "target": null,
+        "version_id": 194282
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1025384, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 194282
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1025385, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 194282
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1025386, "kind": "normal", "optional": false,
+        "req": "^0.16", "target": null, "version_id": 194282
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["tcp", "io-util", "rt-core"], "id": 1025387,
+        "kind": "normal", "optional": false, "req": "^0.2.1",
+        "target": null, "version_id": 194282
+      },
+      {
+        "crate_id": "tokio-rustls", "default_features": true,
+        "downloads": 0, "features": [], "id": 1025388, "kind": "normal",
+        "optional": false, "req": "^0.12.0", "target": null,
+        "version_id": 194282
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": false,
+        "downloads": 0, "features": ["tokio-compat"], "id": 1025389,
+        "kind": "normal", "optional": false, "req": "^0.18.0-alpha",
+        "target": null, "version_id": 194282
+      },
+      {
+        "crate_id": "trust-dns-rustls", "default_features": false,
+        "downloads": 0, "features": [], "id": 1025390, "kind": "normal",
+        "optional": false, "req": "^0.18.0-alpha", "target": null,
+        "version_id": 194282
+      },
+      {
+        "crate_id": "typed-headers", "default_features": true,
+        "downloads": 0, "features": [], "id": 1025391, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 194282
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 1025392, "kind": "normal", "optional": false,
+        "req": "^0.21", "target": null, "version_id": 194282
+      },
+      {
+        "crate_id": "webpki-roots", "default_features": true,
+        "downloads": 0, "features": [], "id": 1025393, "kind": "normal",
+        "optional": false, "req": "^0.18", "target": null,
+        "version_id": 194282
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-https/0.18.0-alpha.2/download",
+    "downloads": 212, "features": {}, "id": 194282,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-https/0.18.0-alpha.2/authors",
+      "dependencies": "/api/v1/crates/trust-dns-https/0.18.0-alpha.2/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-https/0.18.0-alpha.2/downloads"
+    },
+    "num": "0.18.0-alpha.2",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+      "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+      "url": "https://github.com/bluejekyll"
+    },
+    "readme_path": "/api/v1/crates/trust-dns-https/0.18.0-alpha.2/readme",
+    "updated_at": "2019-12-06T16:39:07.862192+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2019-12-15T00:53:06.814894+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+          "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+          "url": "https://github.com/bluejekyll"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-https", "crate_size": 16355,
+    "created_at": "2019-12-15T00:53:06.814894+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1040233, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 196484
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1040234, "kind": "normal",
+        "optional": false, "req": "^2.1.0", "target": null,
+        "version_id": 196484
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1040248, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 196484
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 1040235, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 196484
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1040236, "kind": "normal", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 196484
+      },
+      {
+        "crate_id": "h2", "default_features": true, "downloads": 0,
+        "features": ["stream"], "id": 1040237, "kind": "normal",
+        "optional": false, "req": "^0.2.0", "target": null,
+        "version_id": 196484
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1040238, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 196484
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1040239, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 196484
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1040240, "kind": "normal", "optional": false,
+        "req": "^0.16", "target": null, "version_id": 196484
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["tcp", "io-util", "rt-core"], "id": 1040241,
+        "kind": "normal", "optional": false, "req": "^0.2.1",
+        "target": null, "version_id": 196484
+      },
+      {
+        "crate_id": "tokio-rustls", "default_features": true,
+        "downloads": 0, "features": [], "id": 1040242, "kind": "normal",
+        "optional": false, "req": "^0.12.1", "target": null,
+        "version_id": 196484
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": false,
+        "downloads": 0, "features": ["tokio-runtime"], "id": 1040243,
+        "kind": "normal", "optional": false, "req": "^0.18.0-alpha",
+        "target": null, "version_id": 196484
+      },
+      {
+        "crate_id": "trust-dns-rustls", "default_features": false,
+        "downloads": 0, "features": [], "id": 1040244, "kind": "normal",
+        "optional": false, "req": "^0.18.0-alpha", "target": null,
+        "version_id": 196484
+      },
+      {
+        "crate_id": "typed-headers", "default_features": true,
+        "downloads": 0, "features": [], "id": 1040245, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 196484
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 1040246, "kind": "normal", "optional": false,
+        "req": "^0.21", "target": null, "version_id": 196484
+      },
+      {
+        "crate_id": "webpki-roots", "default_features": true,
+        "downloads": 0, "features": [], "id": 1040247, "kind": "normal",
+        "optional": false, "req": "^0.18", "target": null,
+        "version_id": 196484
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-https/0.18.0-alpha.3/download",
+    "downloads": 254, "features": {"dns-over-https-rustls": []},
+    "id": 196484, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-https/0.18.0-alpha.3/authors",
+      "dependencies": "/api/v1/crates/trust-dns-https/0.18.0-alpha.3/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-https/0.18.0-alpha.3/downloads"
+    },
+    "num": "0.18.0-alpha.3",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+      "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+      "url": "https://github.com/bluejekyll"
+    },
+    "readme_path": "/api/v1/crates/trust-dns-https/0.18.0-alpha.3/readme",
+    "updated_at": "2019-12-15T00:53:06.814894+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2019-12-22T21:38:39.832490+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+          "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+          "url": "https://github.com/bluejekyll"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-https", "crate_size": 16335,
+    "created_at": "2019-12-22T21:38:39.832490+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1051937, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 198231
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1051938, "kind": "normal",
+        "optional": false, "req": "^2.1.0", "target": null,
+        "version_id": 198231
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1051952, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 198231
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 1051939, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 198231
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1051940, "kind": "normal", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 198231
+      },
+      {
+        "crate_id": "h2", "default_features": true, "downloads": 0,
+        "features": ["stream"], "id": 1051941, "kind": "normal",
+        "optional": false, "req": "^0.2.0", "target": null,
+        "version_id": 198231
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1051942, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 198231
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1051943, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 198231
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1051944, "kind": "normal", "optional": false,
+        "req": "^0.16", "target": null, "version_id": 198231
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["tcp", "io-util", "rt-core"], "id": 1051945,
+        "kind": "normal", "optional": false, "req": "^0.2.1",
+        "target": null, "version_id": 198231
+      },
+      {
+        "crate_id": "tokio-rustls", "default_features": true,
+        "downloads": 0, "features": [], "id": 1051946, "kind": "normal",
+        "optional": false, "req": "^0.12.1", "target": null,
+        "version_id": 198231
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": false,
+        "downloads": 0, "features": ["tokio-runtime"], "id": 1051947,
+        "kind": "normal", "optional": false, "req": "^0.18.0",
+        "target": null, "version_id": 198231
+      },
+      {
+        "crate_id": "trust-dns-rustls", "default_features": false,
+        "downloads": 0, "features": [], "id": 1051948, "kind": "normal",
+        "optional": false, "req": "^0.18.0", "target": null,
+        "version_id": 198231
+      },
+      {
+        "crate_id": "typed-headers", "default_features": true,
+        "downloads": 0, "features": [], "id": 1051949, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 198231
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 1051950, "kind": "normal", "optional": false,
+        "req": "^0.21", "target": null, "version_id": 198231
+      },
+      {
+        "crate_id": "webpki-roots", "default_features": true,
+        "downloads": 0, "features": [], "id": 1051951, "kind": "normal",
+        "optional": false, "req": "^0.18", "target": null,
+        "version_id": 198231
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-https/0.18.0/download",
+    "downloads": 401, "features": {"dns-over-https-rustls": []},
+    "id": 198231, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-https/0.18.0/authors",
+      "dependencies": "/api/v1/crates/trust-dns-https/0.18.0/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-https/0.18.0/downloads"
+    },
+    "num": "0.18.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+      "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+      "url": "https://github.com/bluejekyll"
+    },
+    "readme_path": "/api/v1/crates/trust-dns-https/0.18.0/readme",
+    "updated_at": "2019-12-22T21:38:39.832490+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-01-05T01:12:41.059997+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+          "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+          "url": "https://github.com/bluejekyll"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-https", "crate_size": 16338,
+    "created_at": "2020-01-05T01:12:41.059997+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1070334, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 201173
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1070335, "kind": "normal",
+        "optional": false, "req": "^2.1.0", "target": null,
+        "version_id": 201173
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1070349, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 201173
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 1070336, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 201173
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1070337, "kind": "normal", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 201173
+      },
+      {
+        "crate_id": "h2", "default_features": true, "downloads": 0,
+        "features": ["stream"], "id": 1070338, "kind": "normal",
+        "optional": false, "req": "^0.2.0", "target": null,
+        "version_id": 201173
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1070339, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 201173
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1070340, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 201173
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1070341, "kind": "normal", "optional": false,
+        "req": "^0.16", "target": null, "version_id": 201173
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["tcp", "io-util", "rt-core"], "id": 1070342,
+        "kind": "normal", "optional": false, "req": "^0.2.1",
+        "target": null, "version_id": 201173
+      },
+      {
+        "crate_id": "tokio-rustls", "default_features": true,
+        "downloads": 0, "features": [], "id": 1070343, "kind": "normal",
+        "optional": false, "req": "^0.12.1", "target": null,
+        "version_id": 201173
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": false,
+        "downloads": 0, "features": ["tokio-runtime"], "id": 1070344,
+        "kind": "normal", "optional": false, "req": "^0.18.1",
+        "target": null, "version_id": 201173
+      },
+      {
+        "crate_id": "trust-dns-rustls", "default_features": false,
+        "downloads": 0, "features": [], "id": 1070345, "kind": "normal",
+        "optional": false, "req": "^0.18.1", "target": null,
+        "version_id": 201173
+      },
+      {
+        "crate_id": "typed-headers", "default_features": true,
+        "downloads": 0, "features": [], "id": 1070346, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 201173
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 1070347, "kind": "normal", "optional": false,
+        "req": "^0.21", "target": null, "version_id": 201173
+      },
+      {
+        "crate_id": "webpki-roots", "default_features": true,
+        "downloads": 0, "features": [], "id": 1070348, "kind": "normal",
+        "optional": false, "req": "^0.18", "target": null,
+        "version_id": 201173
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-https/0.18.1/download",
+    "downloads": 1184, "features": {"dns-over-https-rustls": []},
+    "id": 201173, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-https/0.18.1/authors",
+      "dependencies": "/api/v1/crates/trust-dns-https/0.18.1/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-https/0.18.1/downloads"
+    },
+    "num": "0.18.1",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+      "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+      "url": "https://github.com/bluejekyll"
+    },
+    "readme_path": "/api/v1/crates/trust-dns-https/0.18.1/readme",
+    "updated_at": "2020-01-05T01:12:41.059997+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-01-15T03:57:54.348989+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+          "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+          "url": "https://github.com/bluejekyll"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-https", "crate_size": 16332,
+    "created_at": "2020-01-15T03:57:54.348989+00:00",
+    "dependencies": [
+      {
+        "crate_id": "backtrace", "default_features": true, "downloads": 0,
+        "features": [], "id": 1088802, "kind": "normal", "optional": false,
+        "req": "^0.3.40", "target": null, "version_id": 203861
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1088803, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 203861
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1088804, "kind": "normal",
+        "optional": false, "req": "^2.1.0", "target": null,
+        "version_id": 203861
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1088818, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 203861
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1088805, "kind": "normal", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 203861
+      },
+      {
+        "crate_id": "h2", "default_features": true, "downloads": 0,
+        "features": ["stream"], "id": 1088806, "kind": "normal",
+        "optional": false, "req": "^0.2.0", "target": null,
+        "version_id": 203861
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1088807, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 203861
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1088808, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 203861
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1088809, "kind": "normal", "optional": false,
+        "req": "^0.16", "target": null, "version_id": 203861
+      },
+      {
+        "crate_id": "thiserror", "default_features": true, "downloads": 0,
+        "features": [], "id": 1088810, "kind": "normal", "optional": false,
+        "req": "^1.0.9", "target": null, "version_id": 203861
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["tcp", "io-util", "rt-core"], "id": 1088811,
+        "kind": "normal", "optional": false, "req": "^0.2.1",
+        "target": null, "version_id": 203861
+      },
+      {
+        "crate_id": "tokio-rustls", "default_features": true,
+        "downloads": 0, "features": [], "id": 1088812, "kind": "normal",
+        "optional": false, "req": "^0.12.1", "target": null,
+        "version_id": 203861
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": false,
+        "downloads": 0, "features": ["tokio-runtime"], "id": 1088813,
+        "kind": "normal", "optional": false, "req": "^0.19.0",
+        "target": null, "version_id": 203861
+      },
+      {
+        "crate_id": "trust-dns-rustls", "default_features": false,
+        "downloads": 0, "features": [], "id": 1088814, "kind": "normal",
+        "optional": false, "req": "^0.19.0", "target": null,
+        "version_id": 203861
+      },
+      {
+        "crate_id": "typed-headers", "default_features": true,
+        "downloads": 0, "features": [], "id": 1088815, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 203861
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 1088816, "kind": "normal", "optional": false,
+        "req": "^0.21", "target": null, "version_id": 203861
+      },
+      {
+        "crate_id": "webpki-roots", "default_features": true,
+        "downloads": 0, "features": [], "id": 1088817, "kind": "normal",
+        "optional": false, "req": "^0.18", "target": null,
+        "version_id": 203861
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-https/0.19.0/download",
+    "downloads": 93, "features": {"dns-over-https-rustls": []},
+    "id": 203861, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-https/0.19.0/authors",
+      "dependencies": "/api/v1/crates/trust-dns-https/0.19.0/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-https/0.19.0/downloads"
+    },
+    "num": "0.19.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+      "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+      "url": "https://github.com/bluejekyll"
+    },
+    "readme_path": "/api/v1/crates/trust-dns-https/0.19.0/readme",
+    "updated_at": "2020-01-15T03:57:54.348989+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-01-16T15:54:27.816341+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+          "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+          "url": "https://github.com/bluejekyll"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-https", "crate_size": 16333,
+    "created_at": "2020-01-16T15:54:27.816341+00:00",
+    "dependencies": [
+      {
+        "crate_id": "backtrace", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093099, "kind": "normal", "optional": false,
+        "req": "^0.3.40", "target": null, "version_id": 204390
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093100, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 204390
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1093101, "kind": "normal",
+        "optional": false, "req": "^2.1.0", "target": null,
+        "version_id": 204390
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093115, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 204390
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093102, "kind": "normal", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 204390
+      },
+      {
+        "crate_id": "h2", "default_features": true, "downloads": 0,
+        "features": ["stream"], "id": 1093103, "kind": "normal",
+        "optional": false, "req": "^0.2.0", "target": null,
+        "version_id": 204390
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093104, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 204390
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093105, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 204390
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093106, "kind": "normal", "optional": false,
+        "req": "^0.16", "target": null, "version_id": 204390
+      },
+      {
+        "crate_id": "thiserror", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093107, "kind": "normal", "optional": false,
+        "req": "^1.0.9", "target": null, "version_id": 204390
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["tcp", "io-util", "rt-core"], "id": 1093108,
+        "kind": "normal", "optional": false, "req": "^0.2.1",
+        "target": null, "version_id": 204390
+      },
+      {
+        "crate_id": "tokio-rustls", "default_features": true,
+        "downloads": 0, "features": [], "id": 1093109, "kind": "normal",
+        "optional": false, "req": "^0.12.1", "target": null,
+        "version_id": 204390
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": false,
+        "downloads": 0, "features": ["tokio-runtime"], "id": 1093110,
+        "kind": "normal", "optional": false, "req": "^0.19.1",
+        "target": null, "version_id": 204390
+      },
+      {
+        "crate_id": "trust-dns-rustls", "default_features": false,
+        "downloads": 0, "features": [], "id": 1093111, "kind": "normal",
+        "optional": false, "req": "^0.19.1", "target": null,
+        "version_id": 204390
+      },
+      {
+        "crate_id": "typed-headers", "default_features": true,
+        "downloads": 0, "features": [], "id": 1093112, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 204390
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093113, "kind": "normal", "optional": false,
+        "req": "^0.21", "target": null, "version_id": 204390
+      },
+      {
+        "crate_id": "webpki-roots", "default_features": true,
+        "downloads": 0, "features": [], "id": 1093114, "kind": "normal",
+        "optional": false, "req": "^0.18", "target": null,
+        "version_id": 204390
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-https/0.19.1/download",
+    "downloads": 90, "features": {"dns-over-https-rustls": []},
+    "id": 204390, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-https/0.19.1/authors",
+      "dependencies": "/api/v1/crates/trust-dns-https/0.19.1/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-https/0.19.1/downloads"
+    },
+    "num": "0.19.1",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+      "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+      "url": "https://github.com/bluejekyll"
+    },
+    "readme_path": "/api/v1/crates/trust-dns-https/0.19.1/readme",
+    "updated_at": "2020-01-16T15:54:27.816341+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-01-17T04:12:07.399509+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+          "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+          "url": "https://github.com/bluejekyll"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-https", "crate_size": 16333,
+    "created_at": "2020-01-17T04:12:07.399509+00:00",
+    "dependencies": [
+      {
+        "crate_id": "backtrace", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093869, "kind": "normal", "optional": false,
+        "req": "^0.3.40", "target": null, "version_id": 204518
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093870, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 204518
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1093871, "kind": "normal",
+        "optional": false, "req": "^2.1.0", "target": null,
+        "version_id": 204518
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093885, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 204518
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093872, "kind": "normal", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 204518
+      },
+      {
+        "crate_id": "h2", "default_features": true, "downloads": 0,
+        "features": ["stream"], "id": 1093873, "kind": "normal",
+        "optional": false, "req": "^0.2.0", "target": null,
+        "version_id": 204518
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093874, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 204518
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093875, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 204518
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093876, "kind": "normal", "optional": false,
+        "req": "^0.16", "target": null, "version_id": 204518
+      },
+      {
+        "crate_id": "thiserror", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093877, "kind": "normal", "optional": false,
+        "req": "^1.0.9", "target": null, "version_id": 204518
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["tcp", "io-util", "rt-core"], "id": 1093878,
+        "kind": "normal", "optional": false, "req": "^0.2.1",
+        "target": null, "version_id": 204518
+      },
+      {
+        "crate_id": "tokio-rustls", "default_features": true,
+        "downloads": 0, "features": [], "id": 1093879, "kind": "normal",
+        "optional": false, "req": "^0.12.1", "target": null,
+        "version_id": 204518
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": false,
+        "downloads": 0, "features": ["tokio-runtime"], "id": 1093880,
+        "kind": "normal", "optional": false, "req": "^0.19.2",
+        "target": null, "version_id": 204518
+      },
+      {
+        "crate_id": "trust-dns-rustls", "default_features": false,
+        "downloads": 0, "features": [], "id": 1093881, "kind": "normal",
+        "optional": false, "req": "^0.19.2", "target": null,
+        "version_id": 204518
+      },
+      {
+        "crate_id": "typed-headers", "default_features": true,
+        "downloads": 0, "features": [], "id": 1093882, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 204518
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093883, "kind": "normal", "optional": false,
+        "req": "^0.21", "target": null, "version_id": 204518
+      },
+      {
+        "crate_id": "webpki-roots", "default_features": true,
+        "downloads": 0, "features": [], "id": 1093884, "kind": "normal",
+        "optional": false, "req": "^0.18", "target": null,
+        "version_id": 204518
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-https/0.19.2/download",
+    "downloads": 1300, "features": {"dns-over-https-rustls": []},
+    "id": 204518, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-https/0.19.2/authors",
+      "dependencies": "/api/v1/crates/trust-dns-https/0.19.2/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-https/0.19.2/downloads"
+    },
+    "num": "0.19.2",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+      "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+      "url": "https://github.com/bluejekyll"
+    },
+    "readme_path": "/api/v1/crates/trust-dns-https/0.19.2/readme",
+    "updated_at": "2020-01-17T04:12:07.399509+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-02-15T23:56:01.923289+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+          "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+          "url": "https://github.com/bluejekyll"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-https", "crate_size": 16377,
+    "created_at": "2020-02-15T23:56:01.923289+00:00",
+    "dependencies": [
+      {
+        "crate_id": "backtrace", "default_features": true, "downloads": 0,
+        "features": [], "id": 1156738, "kind": "normal", "optional": false,
+        "req": "^0.3.44", "target": null, "version_id": 212966
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1156739, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 212966
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1156740, "kind": "normal",
+        "optional": false, "req": "^2.1.0", "target": null,
+        "version_id": 212966
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1156754, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 212966
+      },
+      {
+        "crate_id": "futures", "default_features": false, "downloads": 0,
+        "features": ["std", "executor"], "id": 1156755, "kind": "dev",
+        "optional": false, "req": "^0.3.4", "target": null,
+        "version_id": 212966
+      },
+      {
+        "crate_id": "futures", "default_features": false, "downloads": 0,
+        "features": ["std"], "id": 1156741, "kind": "normal",
+        "optional": false, "req": "^0.3.4", "target": null,
+        "version_id": 212966
+      },
+      {
+        "crate_id": "h2", "default_features": true, "downloads": 0,
+        "features": ["stream"], "id": 1156742, "kind": "normal",
+        "optional": false, "req": "^0.2.0", "target": null,
+        "version_id": 212966
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1156743, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 212966
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1156744, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 212966
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1156745, "kind": "normal", "optional": false,
+        "req": "^0.16", "target": null, "version_id": 212966
+      },
+      {
+        "crate_id": "thiserror", "default_features": true, "downloads": 0,
+        "features": [], "id": 1156746, "kind": "normal", "optional": false,
+        "req": "^1.0.10", "target": null, "version_id": 212966
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["tcp", "io-util", "rt-core"], "id": 1156747,
+        "kind": "normal", "optional": false, "req": "^0.2.11",
+        "target": null, "version_id": 212966
+      },
+      {
+        "crate_id": "tokio-rustls", "default_features": true,
+        "downloads": 0, "features": [], "id": 1156748, "kind": "normal",
+        "optional": false, "req": "^0.12.1", "target": null,
+        "version_id": 212966
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": false,
+        "downloads": 0, "features": ["tokio-runtime"], "id": 1156749,
+        "kind": "normal", "optional": false, "req": "^0.19.3",
+        "target": null, "version_id": 212966
+      },
+      {
+        "crate_id": "trust-dns-rustls", "default_features": false,
+        "downloads": 0, "features": [], "id": 1156750, "kind": "normal",
+        "optional": false, "req": "^0.19.3", "target": null,
+        "version_id": 212966
+      },
+      {
+        "crate_id": "typed-headers", "default_features": true,
+        "downloads": 0, "features": [], "id": 1156751, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 212966
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 1156752, "kind": "normal", "optional": false,
+        "req": "^0.21", "target": null, "version_id": 212966
+      },
+      {
+        "crate_id": "webpki-roots", "default_features": true,
+        "downloads": 0, "features": [], "id": 1156753, "kind": "normal",
+        "optional": false, "req": "^0.19", "target": null,
+        "version_id": 212966
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-https/0.19.3/download",
+    "downloads": 3019, "features": {"dns-over-https-rustls": []},
+    "id": 212966, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-https/0.19.3/authors",
+      "dependencies": "/api/v1/crates/trust-dns-https/0.19.3/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-https/0.19.3/downloads"
+    },
+    "num": "0.19.3",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+      "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+      "url": "https://github.com/bluejekyll"
+    },
+    "readme_path": "/api/v1/crates/trust-dns-https/0.19.3/readme",
+    "updated_at": "2020-02-15T23:56:01.923289+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-04-12T00:27:02.262032+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+          "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+          "url": "https://github.com/bluejekyll"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-https", "crate_size": 16408,
+    "created_at": "2020-04-12T00:27:02.262032+00:00",
+    "dependencies": [
+      {
+        "crate_id": "backtrace", "default_features": true, "downloads": 0,
+        "features": [], "id": 1283903, "kind": "normal", "optional": false,
+        "req": "^0.3.44", "target": null, "version_id": 230045
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1283904, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 230045
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1283905, "kind": "normal",
+        "optional": false, "req": "^2.2.0", "target": null,
+        "version_id": 230045
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1283919, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 230045
+      },
+      {
+        "crate_id": "futures", "default_features": false, "downloads": 0,
+        "features": ["std", "executor"], "id": 1283920, "kind": "dev",
+        "optional": false, "req": "^0.3.4", "target": null,
+        "version_id": 230045
+      },
+      {
+        "crate_id": "futures", "default_features": false, "downloads": 0,
+        "features": ["std"], "id": 1283906, "kind": "normal",
+        "optional": false, "req": "^0.3.4", "target": null,
+        "version_id": 230045
+      },
+      {
+        "crate_id": "h2", "default_features": true, "downloads": 0,
+        "features": ["stream"], "id": 1283907, "kind": "normal",
+        "optional": false, "req": "^0.2.4", "target": null,
+        "version_id": 230045
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1283908, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 230045
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1283909, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 230045
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1283910, "kind": "normal", "optional": false,
+        "req": "^0.17", "target": null, "version_id": 230045
+      },
+      {
+        "crate_id": "thiserror", "default_features": true, "downloads": 0,
+        "features": [], "id": 1283911, "kind": "normal", "optional": false,
+        "req": "^1.0.14", "target": null, "version_id": 230045
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["tcp", "io-util", "rt-core"], "id": 1283912,
+        "kind": "normal", "optional": false, "req": "^0.2.16",
+        "target": null, "version_id": 230045
+      },
+      {
+        "crate_id": "tokio-rustls", "default_features": true,
+        "downloads": 0, "features": [], "id": 1283913, "kind": "normal",
+        "optional": false, "req": "^0.13", "target": null,
+        "version_id": 230045
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": false,
+        "downloads": 0, "features": ["tokio-runtime"], "id": 1283914,
+        "kind": "normal", "optional": false, "req": "^0.19.4",
+        "target": null, "version_id": 230045
+      },
+      {
+        "crate_id": "trust-dns-rustls", "default_features": false,
+        "downloads": 0, "features": [], "id": 1283915, "kind": "normal",
+        "optional": false, "req": "^0.19.4", "target": null,
+        "version_id": 230045
+      },
+      {
+        "crate_id": "typed-headers", "default_features": true,
+        "downloads": 0, "features": [], "id": 1283916, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 230045
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 1283917, "kind": "normal", "optional": false,
+        "req": "^0.21", "target": null, "version_id": 230045
+      },
+      {
+        "crate_id": "webpki-roots", "default_features": true,
+        "downloads": 0, "features": [], "id": 1283918, "kind": "normal",
+        "optional": false, "req": "^0.19", "target": null,
+        "version_id": 230045
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-https/0.19.4/download",
+    "downloads": 227, "features": {"dns-over-https-rustls": []},
+    "id": 230045, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-https/0.19.4/authors",
+      "dependencies": "/api/v1/crates/trust-dns-https/0.19.4/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-https/0.19.4/downloads"
+    },
+    "num": "0.19.4",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+      "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+      "url": "https://github.com/bluejekyll"
+    },
+    "readme_path": "/api/v1/crates/trust-dns-https/0.19.4/readme",
+    "updated_at": "2020-04-12T00:27:02.262032+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-04-28T15:13:18.245565+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+          "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+          "url": "https://github.com/bluejekyll"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-https", "crate_size": 16481,
+    "created_at": "2020-04-28T15:13:18.245565+00:00",
+    "dependencies": [
+      {
+        "crate_id": "backtrace", "default_features": true, "downloads": 0,
+        "features": [], "id": 1325610, "kind": "normal", "optional": false,
+        "req": "^0.3.44", "target": null, "version_id": 235613
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1325611, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 235613
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1325612, "kind": "normal",
+        "optional": false, "req": "^2.2.0", "target": null,
+        "version_id": 235613
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1325626, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 235613
+      },
+      {
+        "crate_id": "futures", "default_features": false, "downloads": 0,
+        "features": ["std", "executor"], "id": 1325627, "kind": "dev",
+        "optional": false, "req": "^0.3.4", "target": null,
+        "version_id": 235613
+      },
+      {
+        "crate_id": "futures", "default_features": false, "downloads": 0,
+        "features": ["std"], "id": 1325613, "kind": "normal",
+        "optional": false, "req": "^0.3.4", "target": null,
+        "version_id": 235613
+      },
+      {
+        "crate_id": "h2", "default_features": true, "downloads": 0,
+        "features": ["stream"], "id": 1325614, "kind": "normal",
+        "optional": false, "req": "^0.2.4", "target": null,
+        "version_id": 235613
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1325615, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 235613
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1325616, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 235613
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1325617, "kind": "normal", "optional": false,
+        "req": "^0.17", "target": null, "version_id": 235613
+      },
+      {
+        "crate_id": "thiserror", "default_features": true, "downloads": 0,
+        "features": [], "id": 1325618, "kind": "normal", "optional": false,
+        "req": "^1.0.14", "target": null, "version_id": 235613
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["tcp", "io-util", "rt-core"], "id": 1325619,
+        "kind": "normal", "optional": false, "req": "^0.2.16",
+        "target": null, "version_id": 235613
+      },
+      {
+        "crate_id": "tokio-rustls", "default_features": true,
+        "downloads": 0, "features": [], "id": 1325620, "kind": "normal",
+        "optional": false, "req": "^0.13", "target": null,
+        "version_id": 235613
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": false,
+        "downloads": 0, "features": ["tokio-runtime"], "id": 1325621,
+        "kind": "normal", "optional": false, "req": "^0.19.5",
+        "target": null, "version_id": 235613
+      },
+      {
+        "crate_id": "trust-dns-rustls", "default_features": false,
+        "downloads": 0, "features": [], "id": 1325622, "kind": "normal",
+        "optional": false, "req": "^0.19.5", "target": null,
+        "version_id": 235613
+      },
+      {
+        "crate_id": "typed-headers", "default_features": true,
+        "downloads": 0, "features": [], "id": 1325623, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 235613
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 1325624, "kind": "normal", "optional": false,
+        "req": "^0.21", "target": null, "version_id": 235613
+      },
+      {
+        "crate_id": "webpki-roots", "default_features": true,
+        "downloads": 0, "features": [], "id": 1325625, "kind": "normal",
+        "optional": false, "req": "^0.19", "target": null,
+        "version_id": 235613
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-https/0.19.5/download",
+    "downloads": 820, "features": {"dns-over-https-rustls": []},
+    "id": 235613, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-https/0.19.5/authors",
+      "dependencies": "/api/v1/crates/trust-dns-https/0.19.5/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-https/0.19.5/downloads"
+    },
+    "num": "0.19.5",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+      "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+      "url": "https://github.com/bluejekyll"
+    },
+    "readme_path": "/api/v1/crates/trust-dns-https/0.19.5/readme",
+    "updated_at": "2020-04-28T15:13:18.245565+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-08-17T01:11:17.614123+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+          "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+          "url": "https://github.com/bluejekyll"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-https", "crate_size": 16702,
+    "created_at": "2020-08-17T01:11:17.614123+00:00",
+    "dependencies": [
+      {
+        "crate_id": "backtrace", "default_features": true, "downloads": 0,
+        "features": [], "id": 1605731, "kind": "normal", "optional": false,
+        "req": "^0.3.50", "target": null, "version_id": 273408
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1605732, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 273408
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1605733, "kind": "normal",
+        "optional": false, "req": "^2.2.0", "target": null,
+        "version_id": 273408
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1605747, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 273408
+      },
+      {
+        "crate_id": "futures", "default_features": false, "downloads": 0,
+        "features": ["std", "executor"], "id": 1605748, "kind": "dev",
+        "optional": false, "req": "^0.3.5", "target": null,
+        "version_id": 273408
+      },
+      {
+        "crate_id": "futures", "default_features": false, "downloads": 0,
+        "features": ["std"], "id": 1605734, "kind": "normal",
+        "optional": false, "req": "^0.3.5", "target": null,
+        "version_id": 273408
+      },
+      {
+        "crate_id": "h2", "default_features": true, "downloads": 0,
+        "features": ["stream"], "id": 1605735, "kind": "normal",
+        "optional": false, "req": "^0.2.6", "target": null,
+        "version_id": 273408
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1605736, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 273408
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1605737, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 273408
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1605738, "kind": "normal", "optional": false,
+        "req": "^0.18", "target": null, "version_id": 273408
+      },
+      {
+        "crate_id": "thiserror", "default_features": true, "downloads": 0,
+        "features": [], "id": 1605739, "kind": "normal", "optional": false,
+        "req": "^1.0.20", "target": null, "version_id": 273408
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["tcp", "io-util", "rt-core"], "id": 1605740,
+        "kind": "normal", "optional": false, "req": "^0.2.22",
+        "target": null, "version_id": 273408
+      },
+      {
+        "crate_id": "tokio-rustls", "default_features": true,
+        "downloads": 0, "features": [], "id": 1605741, "kind": "normal",
+        "optional": false, "req": "^0.14", "target": null,
+        "version_id": 273408
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": false,
+        "downloads": 0, "features": ["tokio-runtime"], "id": 1605742,
+        "kind": "normal", "optional": false, "req": "^0.20.0-alpha.1",
+        "target": null, "version_id": 273408
+      },
+      {
+        "crate_id": "trust-dns-rustls", "default_features": false,
+        "downloads": 0, "features": [], "id": 1605743, "kind": "normal",
+        "optional": false, "req": "^0.20.0-alpha.1", "target": null,
+        "version_id": 273408
+      },
+      {
+        "crate_id": "typed-headers", "default_features": true,
+        "downloads": 0, "features": [], "id": 1605744, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 273408
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 1605745, "kind": "normal", "optional": false,
+        "req": "^0.21", "target": null, "version_id": 273408
+      },
+      {
+        "crate_id": "webpki-roots", "default_features": true,
+        "downloads": 0, "features": [], "id": 1605746, "kind": "normal",
+        "optional": false, "req": "^0.20", "target": null,
+        "version_id": 273408
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-https/0.20.0-alpha.1/download",
+    "downloads": 84, "features": {"dns-over-https-rustls": []},
+    "id": 273408, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-https/0.20.0-alpha.1/authors",
+      "dependencies": "/api/v1/crates/trust-dns-https/0.20.0-alpha.1/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-https/0.20.0-alpha.1/downloads"
+    },
+    "num": "0.20.0-alpha.1",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+      "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+      "url": "https://github.com/bluejekyll"
+    },
+    "readme_path": "/api/v1/crates/trust-dns-https/0.20.0-alpha.1/readme",
+    "updated_at": "2020-08-17T01:11:17.614123+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-09-16T23:31:03.809866+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+          "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+          "url": "https://github.com/bluejekyll"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-https", "crate_size": 16709,
+    "created_at": "2020-09-16T23:31:03.809866+00:00",
+    "dependencies": [
+      {
+        "crate_id": "backtrace", "default_features": true, "downloads": 0,
+        "features": [], "id": 1691477, "kind": "normal", "optional": false,
+        "req": "^0.3.50", "target": null, "version_id": 284424
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1691478, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 284424
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1691479, "kind": "normal",
+        "optional": false, "req": "^2.2.0", "target": null,
+        "version_id": 284424
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1691493, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 284424
+      },
+      {
+        "crate_id": "futures", "default_features": false, "downloads": 0,
+        "features": ["std", "executor"], "id": 1691494, "kind": "dev",
+        "optional": false, "req": "^0.3.5", "target": null,
+        "version_id": 284424
+      },
+      {
+        "crate_id": "futures", "default_features": false, "downloads": 0,
+        "features": ["std"], "id": 1691480, "kind": "normal",
+        "optional": false, "req": "^0.3.5", "target": null,
+        "version_id": 284424
+      },
+      {
+        "crate_id": "h2", "default_features": true, "downloads": 0,
+        "features": ["stream"], "id": 1691481, "kind": "normal",
+        "optional": false, "req": "^0.2.6", "target": null,
+        "version_id": 284424
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1691482, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 284424
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1691483, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 284424
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1691484, "kind": "normal", "optional": false,
+        "req": "^0.18", "target": null, "version_id": 284424
+      },
+      {
+        "crate_id": "thiserror", "default_features": true, "downloads": 0,
+        "features": [], "id": 1691485, "kind": "normal", "optional": false,
+        "req": "^1.0.20", "target": null, "version_id": 284424
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["tcp", "io-util", "rt-core"], "id": 1691486,
+        "kind": "normal", "optional": false, "req": "^0.2.22",
+        "target": null, "version_id": 284424
+      },
+      {
+        "crate_id": "tokio-rustls", "default_features": true,
+        "downloads": 0, "features": [], "id": 1691487, "kind": "normal",
+        "optional": false, "req": "^0.14", "target": null,
+        "version_id": 284424
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": false,
+        "downloads": 0, "features": ["tokio-runtime"], "id": 1691488,
+        "kind": "normal", "optional": false, "req": "^0.20.0-alpha.2",
+        "target": null, "version_id": 284424
+      },
+      {
+        "crate_id": "trust-dns-rustls", "default_features": false,
+        "downloads": 0, "features": [], "id": 1691489, "kind": "normal",
+        "optional": false, "req": "^0.20.0-alpha.2", "target": null,
+        "version_id": 284424
+      },
+      {
+        "crate_id": "typed-headers", "default_features": true,
+        "downloads": 0, "features": [], "id": 1691490, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 284424
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 1691491, "kind": "normal", "optional": false,
+        "req": "^0.21", "target": null, "version_id": 284424
+      },
+      {
+        "crate_id": "webpki-roots", "default_features": true,
+        "downloads": 0, "features": [], "id": 1691492, "kind": "normal",
+        "optional": false, "req": "^0.20", "target": null,
+        "version_id": 284424
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-https/0.20.0-alpha.2/download",
+    "downloads": 102, "features": {"dns-over-https-rustls": []},
+    "id": 284424, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-https/0.20.0-alpha.2/authors",
+      "dependencies": "/api/v1/crates/trust-dns-https/0.20.0-alpha.2/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-https/0.20.0-alpha.2/downloads"
+    },
+    "num": "0.20.0-alpha.2",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+      "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+      "url": "https://github.com/bluejekyll"
+    },
+    "readme_path": "/api/v1/crates/trust-dns-https/0.20.0-alpha.2/readme",
+    "updated_at": "2020-09-16T23:31:03.809866+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-10-25T03:18:20.108015+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+          "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+          "url": "https://github.com/bluejekyll"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-https", "crate_size": 16606,
+    "created_at": "2020-10-25T03:18:20.108015+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1793067, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 298768
+      },
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 1793068, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 298768
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1793069, "kind": "normal",
+        "optional": false, "req": "^2.2.0", "target": null,
+        "version_id": 298768
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1793082, "kind": "dev", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 298768
+      },
+      {
+        "crate_id": "futures", "default_features": false, "downloads": 0,
+        "features": ["std", "executor"], "id": 1793083, "kind": "dev",
+        "optional": false, "req": "^0.3.5", "target": null,
+        "version_id": 298768
+      },
+      {
+        "crate_id": "futures-util", "default_features": false,
+        "downloads": 0, "features": ["std"], "id": 1793070,
+        "kind": "normal", "optional": false, "req": "^0.3.5",
+        "target": null, "version_id": 298768
+      },
+      {
+        "crate_id": "h2", "default_features": true, "downloads": 0,
+        "features": ["stream"], "id": 1793071, "kind": "normal",
+        "optional": false, "req": "^0.2.6", "target": null,
+        "version_id": 298768
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1793072, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 298768
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1793073, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 298768
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1793074, "kind": "normal", "optional": false,
+        "req": "^0.18", "target": null, "version_id": 298768
+      },
+      {
+        "crate_id": "thiserror", "default_features": true, "downloads": 0,
+        "features": [], "id": 1793075, "kind": "normal", "optional": false,
+        "req": "^1.0.20", "target": null, "version_id": 298768
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["tcp", "io-util", "rt-core"], "id": 1793076,
+        "kind": "normal", "optional": false, "req": "^0.2.22",
+        "target": null, "version_id": 298768
+      },
+      {
+        "crate_id": "tokio-rustls", "default_features": true,
+        "downloads": 0, "features": [], "id": 1793077, "kind": "normal",
+        "optional": false, "req": "^0.14", "target": null,
+        "version_id": 298768
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": false,
+        "downloads": 0, "features": ["tokio-runtime"], "id": 1793078,
+        "kind": "normal", "optional": false, "req": "^0.20.0-alpha.3",
+        "target": null, "version_id": 298768
+      },
+      {
+        "crate_id": "trust-dns-rustls", "default_features": false,
+        "downloads": 0, "features": [], "id": 1793079, "kind": "normal",
+        "optional": false, "req": "^0.20.0-alpha.3", "target": null,
+        "version_id": 298768
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 1793080, "kind": "normal", "optional": false,
+        "req": "^0.21", "target": null, "version_id": 298768
+      },
+      {
+        "crate_id": "webpki-roots", "default_features": true,
+        "downloads": 0, "features": [], "id": 1793081, "kind": "normal",
+        "optional": false, "req": "^0.20", "target": null,
+        "version_id": 298768
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-https/0.20.0-alpha.3/download",
+    "downloads": 68,
+    "features": {
+      "backtrace": ["trust-dns-proto/backtrace"],
+      "dns-over-https-rustls": []
+    },
+    "id": 298768, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-https/0.20.0-alpha.3/authors",
+      "dependencies": "/api/v1/crates/trust-dns-https/0.20.0-alpha.3/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-https/0.20.0-alpha.3/downloads"
+    },
+    "num": "0.20.0-alpha.3",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+      "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+      "url": "https://github.com/bluejekyll"
+    },
+    "readme_path": "/api/v1/crates/trust-dns-https/0.20.0-alpha.3/readme",
+    "updated_at": "2020-10-25T03:18:20.108015+00:00", "yanked": false
+  }
+]

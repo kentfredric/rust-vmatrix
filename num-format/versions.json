@@ -1,0 +1,639 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Brian Myers <brian.carl.myers@gmail.com>"]},
+      "users": []
+    },
+    "crate": "num-format", "crate_size": 43645,
+    "created_at": "2019-02-05T04:44:16.604302+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": false, "downloads": 0,
+        "features": [], "id": 634325, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 132029
+      },
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 634331, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 132029
+      },
+      {
+        "crate_id": "criterion", "default_features": true, "downloads": 0,
+        "features": [], "id": 634332, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 132029
+      },
+      {
+        "crate_id": "failure", "default_features": false, "downloads": 0,
+        "features": ["derive"], "id": 634326, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 132029
+      },
+      {
+        "crate_id": "itoa", "default_features": false, "downloads": 0,
+        "features": ["i128"], "id": 634327, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 132029
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 634333, "kind": "dev", "optional": false,
+        "req": "^1.2", "target": null, "version_id": 132029
+      },
+      {
+        "crate_id": "libc", "default_features": false, "downloads": 0,
+        "features": [], "id": 634328, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 132029
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 634334, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 132029
+      },
+      {
+        "crate_id": "walkdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 634335, "kind": "dev", "optional": false,
+        "req": "^2.2", "target": null, "version_id": 132029
+      },
+      {
+        "crate_id": "num-bigint", "default_features": true, "downloads": 0,
+        "features": [], "id": 634329, "kind": "normal", "optional": true,
+        "req": "^0.2", "target": null, "version_id": 132029
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 634330, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 132029
+      }
+    ],
+    "dl_path": "/api/v1/crates/num-format/0.1.0/download",
+    "downloads": 174,
+    "features": {
+      "default": ["std"],
+      "std": [
+        "arrayvec/default", "failure/default", "itoa/default", "itoa/i128",
+        "libc/default"
+      ],
+      "with-serde": ["arrayvec/serde-1", "serde/derive"]
+    },
+    "id": 132029, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/num-format/0.1.0/authors",
+      "dependencies": "/api/v1/crates/num-format/0.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/num-format/0.1.0/downloads"
+    },
+    "num": "0.1.0", "published_by": null,
+    "readme_path": "/api/v1/crates/num-format/0.1.0/readme",
+    "updated_at": "2019-02-05T04:44:16.604302+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Brian Myers <brian.carl.myers@gmail.com>"]},
+      "users": []
+    },
+    "crate": "num-format", "crate_size": 43653,
+    "created_at": "2019-02-05T04:48:49.673285+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": false, "downloads": 0,
+        "features": [], "id": 634336, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 132031
+      },
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 634342, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 132031
+      },
+      {
+        "crate_id": "criterion", "default_features": true, "downloads": 0,
+        "features": [], "id": 634343, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 132031
+      },
+      {
+        "crate_id": "failure", "default_features": false, "downloads": 0,
+        "features": ["derive"], "id": 634337, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 132031
+      },
+      {
+        "crate_id": "itoa", "default_features": false, "downloads": 0,
+        "features": ["i128"], "id": 634338, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 132031
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 634344, "kind": "dev", "optional": false,
+        "req": "^1.2", "target": null, "version_id": 132031
+      },
+      {
+        "crate_id": "libc", "default_features": false, "downloads": 0,
+        "features": [], "id": 634339, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 132031
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 634345, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 132031
+      },
+      {
+        "crate_id": "walkdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 634346, "kind": "dev", "optional": false,
+        "req": "^2.2", "target": null, "version_id": 132031
+      },
+      {
+        "crate_id": "num-bigint", "default_features": true, "downloads": 0,
+        "features": [], "id": 634340, "kind": "normal", "optional": true,
+        "req": "^0.2", "target": null, "version_id": 132031
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 634341, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 132031
+      }
+    ],
+    "dl_path": "/api/v1/crates/num-format/0.1.1/download",
+    "downloads": 173,
+    "features": {
+      "default": ["std"],
+      "std": [
+        "arrayvec/default", "failure/default", "itoa/default", "itoa/i128",
+        "libc/default"
+      ],
+      "with-serde": ["arrayvec/serde-1", "serde/derive"]
+    },
+    "id": 132031, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/num-format/0.1.1/authors",
+      "dependencies": "/api/v1/crates/num-format/0.1.1/dependencies",
+      "version_downloads": "/api/v1/crates/num-format/0.1.1/downloads"
+    },
+    "num": "0.1.1", "published_by": null,
+    "readme_path": "/api/v1/crates/num-format/0.1.1/readme",
+    "updated_at": "2019-02-05T04:48:49.673285+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Brian Myers <brian.carl.myers@gmail.com>"]},
+      "users": []
+    },
+    "crate": "num-format", "crate_size": 43657,
+    "created_at": "2019-02-05T04:52:14.515634+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": false, "downloads": 0,
+        "features": [], "id": 634347, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 132032
+      },
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 634353, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 132032
+      },
+      {
+        "crate_id": "criterion", "default_features": true, "downloads": 0,
+        "features": [], "id": 634354, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 132032
+      },
+      {
+        "crate_id": "failure", "default_features": false, "downloads": 0,
+        "features": ["derive"], "id": 634348, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 132032
+      },
+      {
+        "crate_id": "itoa", "default_features": false, "downloads": 0,
+        "features": ["i128"], "id": 634349, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 132032
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 634355, "kind": "dev", "optional": false,
+        "req": "^1.2", "target": null, "version_id": 132032
+      },
+      {
+        "crate_id": "libc", "default_features": false, "downloads": 0,
+        "features": [], "id": 634350, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 132032
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 634356, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 132032
+      },
+      {
+        "crate_id": "walkdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 634357, "kind": "dev", "optional": false,
+        "req": "^2.2", "target": null, "version_id": 132032
+      },
+      {
+        "crate_id": "num-bigint", "default_features": true, "downloads": 0,
+        "features": [], "id": 634351, "kind": "normal", "optional": true,
+        "req": "^0.2", "target": null, "version_id": 132032
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 634352, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 132032
+      }
+    ],
+    "dl_path": "/api/v1/crates/num-format/0.1.2/download",
+    "downloads": 330,
+    "features": {
+      "default": ["std"],
+      "std": [
+        "arrayvec/default", "failure/default", "itoa/default", "itoa/i128",
+        "libc/default"
+      ],
+      "with-serde": ["arrayvec/serde-1", "serde/derive"]
+    },
+    "id": 132032, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/num-format/0.1.2/authors",
+      "dependencies": "/api/v1/crates/num-format/0.1.2/dependencies",
+      "version_downloads": "/api/v1/crates/num-format/0.1.2/downloads"
+    },
+    "num": "0.1.2", "published_by": null,
+    "readme_path": "/api/v1/crates/num-format/0.1.2/readme",
+    "updated_at": "2019-02-05T04:52:14.515634+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Brian Myers <brian.carl.myers@gmail.com>"]},
+      "users": []
+    },
+    "crate": "num-format", "crate_size": 46103,
+    "created_at": "2019-02-07T01:17:09.893620+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": false, "downloads": 0,
+        "features": [], "id": 636396, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 132402
+      },
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 636401, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 132402
+      },
+      {
+        "crate_id": "criterion", "default_features": true, "downloads": 0,
+        "features": [], "id": 636402, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 132402
+      },
+      {
+        "crate_id": "itoa", "default_features": false, "downloads": 0,
+        "features": ["i128"], "id": 636397, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 132402
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 636403, "kind": "dev", "optional": false,
+        "req": "^1.2", "target": null, "version_id": 132402
+      },
+      {
+        "crate_id": "libc", "default_features": false, "downloads": 0,
+        "features": [], "id": 636398, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 132402
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 636404, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 132402
+      },
+      {
+        "crate_id": "walkdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 636405, "kind": "dev", "optional": false,
+        "req": "^2.2", "target": null, "version_id": 132402
+      },
+      {
+        "crate_id": "num-bigint", "default_features": true, "downloads": 0,
+        "features": [], "id": 636399, "kind": "normal", "optional": true,
+        "req": "^0.2", "target": null, "version_id": 132402
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 636400, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 132402
+      }
+    ],
+    "dl_path": "/api/v1/crates/num-format/0.2.0/download",
+    "downloads": 192,
+    "features": {
+      "default": ["std"],
+      "std": ["arrayvec/default", "itoa/default", "itoa/i128", "libc/default"],
+      "with-serde": ["arrayvec/serde-1", "serde/derive"]
+    },
+    "id": 132402, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/num-format/0.2.0/authors",
+      "dependencies": "/api/v1/crates/num-format/0.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/num-format/0.2.0/downloads"
+    },
+    "num": "0.2.0", "published_by": null,
+    "readme_path": "/api/v1/crates/num-format/0.2.0/readme",
+    "updated_at": "2019-02-07T01:17:09.893620+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Brian Myers <brian.carl.myers@gmail.com>"]},
+      "users": []
+    },
+    "crate": "num-format", "crate_size": 46232,
+    "created_at": "2019-02-07T02:11:23.024441+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": false, "downloads": 0,
+        "features": [], "id": 636436, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 132409
+      },
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 636441, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 132409
+      },
+      {
+        "crate_id": "criterion", "default_features": true, "downloads": 0,
+        "features": [], "id": 636442, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 132409
+      },
+      {
+        "crate_id": "itoa", "default_features": false, "downloads": 0,
+        "features": ["i128"], "id": 636437, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 132409
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 636443, "kind": "dev", "optional": false,
+        "req": "^1.2", "target": null, "version_id": 132409
+      },
+      {
+        "crate_id": "libc", "default_features": false, "downloads": 0,
+        "features": [], "id": 636438, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 132409
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 636444, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 132409
+      },
+      {
+        "crate_id": "walkdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 636445, "kind": "dev", "optional": false,
+        "req": "^2.2", "target": null, "version_id": 132409
+      },
+      {
+        "crate_id": "num-bigint", "default_features": true, "downloads": 0,
+        "features": [], "id": 636439, "kind": "normal", "optional": true,
+        "req": "^0.2", "target": null, "version_id": 132409
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 636440, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 132409
+      }
+    ],
+    "dl_path": "/api/v1/crates/num-format/0.2.1/download",
+    "downloads": 207,
+    "features": {
+      "default": ["std"],
+      "std": ["arrayvec/default", "itoa/default", "itoa/i128", "libc/default"],
+      "with-serde": ["arrayvec/serde-1", "serde/derive"]
+    },
+    "id": 132409, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/num-format/0.2.1/authors",
+      "dependencies": "/api/v1/crates/num-format/0.2.1/dependencies",
+      "version_downloads": "/api/v1/crates/num-format/0.2.1/downloads"
+    },
+    "num": "0.2.1", "published_by": null,
+    "readme_path": "/api/v1/crates/num-format/0.2.1/readme",
+    "updated_at": "2019-02-07T02:11:23.024441+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Brian Myers <brian.carl.myers@gmail.com>"]},
+      "users": []
+    },
+    "crate": "num-format", "crate_size": 60558,
+    "created_at": "2019-02-19T04:22:22.381278+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": false, "downloads": 0,
+        "features": [], "id": 648899, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 134577
+      },
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 648904, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 134577
+      },
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 648909, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": "cfg(unix)", "version_id": 134577
+      },
+      {
+        "crate_id": "criterion", "default_features": true, "downloads": 0,
+        "features": [], "id": 648905, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 134577
+      },
+      {
+        "crate_id": "encoding_rs", "default_features": true, "downloads": 0,
+        "features": [], "id": 648910, "kind": "normal", "optional": false,
+        "req": "^0.8", "target": "cfg(unix)", "version_id": 134577
+      },
+      {
+        "crate_id": "itoa", "default_features": false, "downloads": 0,
+        "features": ["i128"], "id": 648900, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 134577
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 648906, "kind": "dev", "optional": false,
+        "req": "^1.2", "target": null, "version_id": 134577
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 648911, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(unix)", "version_id": 134577
+      },
+      {
+        "crate_id": "num-format-windows", "default_features": true,
+        "downloads": 0, "features": [], "id": 648912, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": "cfg(windows)",
+        "version_id": 134577
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 648907, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 134577
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 648908, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 134577
+      },
+      {
+        "crate_id": "widestring", "default_features": true, "downloads": 0,
+        "features": [], "id": 648913, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": "cfg(windows)", "version_id": 134577
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["winnls"], "id": 648914, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": "cfg(windows)",
+        "version_id": 134577
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 648901, "kind": "normal", "optional": true,
+        "req": "^1.2", "target": null, "version_id": 134577
+      },
+      {
+        "crate_id": "num-bigint", "default_features": true, "downloads": 0,
+        "features": [], "id": 648902, "kind": "normal", "optional": true,
+        "req": "^0.2", "target": null, "version_id": 134577
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 648903, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 134577
+      }
+    ],
+    "dl_path": "/api/v1/crates/num-format/0.3.0/download",
+    "downloads": 191,
+    "features": {
+      "default": ["std"],
+      "std": ["arrayvec/default", "itoa/default", "itoa/i128", "lazy_static"],
+      "with-serde": ["arrayvec/serde-1", "serde/derive"]
+    },
+    "id": 134577, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/num-format/0.3.0/authors",
+      "dependencies": "/api/v1/crates/num-format/0.3.0/dependencies",
+      "version_downloads": "/api/v1/crates/num-format/0.3.0/downloads"
+    },
+    "num": "0.3.0", "published_by": null,
+    "readme_path": "/api/v1/crates/num-format/0.3.0/readme",
+    "updated_at": "2019-02-19T04:22:22.381278+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Brian Myers <brian.carl.myers@gmail.com>"]},
+      "users": []
+    },
+    "crate": "num-format", "crate_size": 59791,
+    "created_at": "2019-02-20T00:19:32.612433+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": false, "downloads": 0,
+        "features": [], "id": 649767, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 134717
+      },
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 649772, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 134717
+      },
+      {
+        "crate_id": "itoa", "default_features": false, "downloads": 0,
+        "features": ["i128"], "id": 649768, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 134717
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 649773, "kind": "dev", "optional": false,
+        "req": "^1.2", "target": null, "version_id": 134717
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 649774, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 134717
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 649775, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 134717
+      },
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 649776, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": "cfg(unix)", "version_id": 134717
+      },
+      {
+        "crate_id": "encoding_rs", "default_features": true, "downloads": 0,
+        "features": [], "id": 649777, "kind": "normal", "optional": true,
+        "req": "^0.8", "target": "cfg(unix)", "version_id": 134717
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 649769, "kind": "normal", "optional": true,
+        "req": "^1.2", "target": null, "version_id": 134717
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 649778, "kind": "normal", "optional": true,
+        "req": "^0.2", "target": "cfg(unix)", "version_id": 134717
+      },
+      {
+        "crate_id": "num-bigint", "default_features": true, "downloads": 0,
+        "features": [], "id": 649770, "kind": "normal", "optional": true,
+        "req": "^0.2", "target": null, "version_id": 134717
+      },
+      {
+        "crate_id": "num-format-windows", "default_features": true,
+        "downloads": 0, "features": [], "id": 649779, "kind": "normal",
+        "optional": true, "req": "^0.3", "target": "cfg(windows)",
+        "version_id": 134717
+      },
+      {
+        "crate_id": "serde", "default_features": false, "downloads": 0,
+        "features": [], "id": 649771, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 134717
+      },
+      {
+        "crate_id": "widestring", "default_features": true, "downloads": 0,
+        "features": [], "id": 649780, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": "cfg(windows)", "version_id": 134717
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["winnls"], "id": 649781, "kind": "normal",
+        "optional": true, "req": "^0.3", "target": "cfg(windows)",
+        "version_id": 134717
+      }
+    ],
+    "dl_path": "/api/v1/crates/num-format/0.4.0/download",
+    "downloads": 155589,
+    "features": {
+      "default": ["std"],
+      "std": ["arrayvec/default", "itoa/default", "itoa/i128"],
+      "with-num-bigint": ["num-bigint", "std"],
+      "with-serde": ["arrayvec/serde-1", "serde/derive"],
+      "with-system-locale": [
+        "cfg-if", "encoding_rs", "lazy_static", "libc",
+        "num-format-windows", "std", "widestring", "winapi/winnls"
+      ]
+    },
+    "id": 134717, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/num-format/0.4.0/authors",
+      "dependencies": "/api/v1/crates/num-format/0.4.0/dependencies",
+      "version_downloads": "/api/v1/crates/num-format/0.4.0/downloads"
+    },
+    "num": "0.4.0", "published_by": null,
+    "readme_path": "/api/v1/crates/num-format/0.4.0/readme",
+    "updated_at": "2019-02-20T00:19:32.612433+00:00", "yanked": false
+  }
+]

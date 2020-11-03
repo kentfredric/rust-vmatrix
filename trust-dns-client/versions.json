@@ -1,0 +1,2058 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-client", "crate_size": 72593,
+    "created_at": "2019-10-27T01:39:05.535974+00:00",
+    "dependencies": [
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 963855, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 185364
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 963856, "kind": "normal",
+        "optional": false, "req": "^2.1.0", "target": null,
+        "version_id": 185364
+      },
+      {
+        "crate_id": "data-encoding-macro", "default_features": true,
+        "downloads": 0, "features": [], "id": 963857, "kind": "normal",
+        "optional": false, "req": "^0.1.7", "target": null,
+        "version_id": 185364
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 963858, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 185364
+      },
+      {
+        "crate_id": "futures-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 963859, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha", "target": null,
+        "version_id": 185364
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 963860, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 185364
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 963861, "kind": "normal", "optional": false,
+        "req": "^0.4.8", "target": null, "version_id": 185364
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": ["v102", "v110"], "id": 963873, "kind": "dev",
+        "optional": false, "req": "^0.10", "target": null,
+        "version_id": 185364
+      },
+      {
+        "crate_id": "radix_trie", "default_features": true, "downloads": 0,
+        "features": [], "id": 963863, "kind": "normal", "optional": false,
+        "req": "^0.1.5", "target": null, "version_id": 185364
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 963864, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 185364
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 963868, "kind": "normal", "optional": false,
+        "req": "^0.2.0-alpha", "target": null, "version_id": 185364
+      },
+      {
+        "crate_id": "tokio-net", "default_features": true, "downloads": 0,
+        "features": [], "id": 963869, "kind": "normal", "optional": false,
+        "req": "^0.2.0-alpha", "target": null, "version_id": 185364
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": true,
+        "downloads": 0, "features": ["dnssec"], "id": 963871,
+        "kind": "normal", "optional": false, "req": "^0.18.0-alpha",
+        "target": null, "version_id": 185364
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": ["v102", "v110"], "id": 963862, "kind": "normal",
+        "optional": true, "req": "^0.10", "target": null,
+        "version_id": 185364
+      },
+      {
+        "crate_id": "ring", "default_features": true, "downloads": 0,
+        "features": ["std"], "id": 963865, "kind": "normal",
+        "optional": true, "req": "^0.16", "target": null,
+        "version_id": 185364
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 963866, "kind": "normal", "optional": true,
+        "req": "^0.16", "target": null, "version_id": 185364
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 963867, "kind": "normal",
+        "optional": true, "req": "^1.0", "target": null,
+        "version_id": 185364
+      },
+      {
+        "crate_id": "trust-dns-https", "default_features": true,
+        "downloads": 0, "features": [], "id": 963870, "kind": "normal",
+        "optional": true, "req": "^0.18.0-alpha", "target": null,
+        "version_id": 185364
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 963872, "kind": "normal", "optional": true,
+        "req": "^0.21", "target": null, "version_id": 185364
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-client/0.18.0-alpha.1/download",
+    "downloads": 219,
+    "features": {
+      "dns-over-https": ["trust-dns-https"],
+      "dns-over-https-openssl": ["dns-over-https", "dns-over-openssl"],
+      "dns-over-https-rustls": ["dns-over-https", "dns-over-rustls"],
+      "dns-over-openssl": ["dns-over-tls", "dnssec-openssl", "openssl"],
+      "dns-over-rustls": ["dns-over-tls", "dnssec-ring", "rustls", "webpki"],
+      "dns-over-tls": [], "dnssec": [],
+      "dnssec-openssl": ["dnssec", "openssl", "trust-dns-proto/dnssec-openssl"],
+      "dnssec-ring": ["dnssec", "ring", "trust-dns-proto/dnssec-ring"],
+      "mdns": ["trust-dns-proto/mdns"], "serde-config": ["serde"]
+    },
+    "id": 185364, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-client/0.18.0-alpha.1/authors",
+      "dependencies": "/api/v1/crates/trust-dns-client/0.18.0-alpha.1/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-client/0.18.0-alpha.1/downloads"
+    },
+    "num": "0.18.0-alpha.1",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+      "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+      "url": "https://github.com/bluejekyll"
+    },
+    "readme_path": "/api/v1/crates/trust-dns-client/0.18.0-alpha.1/readme",
+    "updated_at": "2019-10-27T01:39:05.535974+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2019-12-06T16:40:17.931947+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+          "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+          "url": "https://github.com/bluejekyll"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-client", "crate_size": 72695,
+    "created_at": "2019-12-06T16:40:17.931947+00:00",
+    "dependencies": [
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 1025395, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 194283
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1025396, "kind": "normal",
+        "optional": false, "req": "^2.1.0", "target": null,
+        "version_id": 194283
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 1025397, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 194283
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1025398, "kind": "normal", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 194283
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1025399, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 194283
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1025400, "kind": "normal", "optional": false,
+        "req": "^0.4.8", "target": null, "version_id": 194283
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": ["v102", "v110"], "id": 1025411, "kind": "dev",
+        "optional": false, "req": "^0.10", "target": null,
+        "version_id": 194283
+      },
+      {
+        "crate_id": "radix_trie", "default_features": true, "downloads": 0,
+        "features": [], "id": 1025402, "kind": "normal", "optional": false,
+        "req": "^0.1.6", "target": null, "version_id": 194283
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1025403, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 194283
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["rt-core"], "id": 1025407, "kind": "normal",
+        "optional": false, "req": "^0.2.1", "target": null,
+        "version_id": 194283
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": true,
+        "downloads": 0, "features": ["dnssec"], "id": 1025409,
+        "kind": "normal", "optional": false, "req": "^0.18.0-alpha",
+        "target": null, "version_id": 194283
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": ["v102", "v110"], "id": 1025401, "kind": "normal",
+        "optional": true, "req": "^0.10", "target": null,
+        "version_id": 194283
+      },
+      {
+        "crate_id": "ring", "default_features": true, "downloads": 0,
+        "features": ["std"], "id": 1025404, "kind": "normal",
+        "optional": true, "req": "^0.16", "target": null,
+        "version_id": 194283
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1025405, "kind": "normal", "optional": true,
+        "req": "^0.16", "target": null, "version_id": 194283
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1025406, "kind": "normal",
+        "optional": true, "req": "^1.0", "target": null,
+        "version_id": 194283
+      },
+      {
+        "crate_id": "trust-dns-https", "default_features": true,
+        "downloads": 0, "features": [], "id": 1025408, "kind": "normal",
+        "optional": true, "req": "^0.18.0-alpha", "target": null,
+        "version_id": 194283
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 1025410, "kind": "normal", "optional": true,
+        "req": "^0.21", "target": null, "version_id": 194283
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-client/0.18.0-alpha.2/download",
+    "downloads": 176,
+    "features": {
+      "dns-over-https": ["trust-dns-https"],
+      "dns-over-https-openssl": ["dns-over-https", "dns-over-openssl"],
+      "dns-over-https-rustls": ["dns-over-https", "dns-over-rustls"],
+      "dns-over-openssl": ["dns-over-tls", "dnssec-openssl", "openssl"],
+      "dns-over-rustls": ["dns-over-tls", "dnssec-ring", "rustls", "webpki"],
+      "dns-over-tls": [], "dnssec": [],
+      "dnssec-openssl": ["dnssec", "openssl", "trust-dns-proto/dnssec-openssl"],
+      "dnssec-ring": ["dnssec", "ring", "trust-dns-proto/dnssec-ring"],
+      "mdns": ["trust-dns-proto/mdns"], "serde-config": ["serde"]
+    },
+    "id": 194283, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-client/0.18.0-alpha.2/authors",
+      "dependencies": "/api/v1/crates/trust-dns-client/0.18.0-alpha.2/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-client/0.18.0-alpha.2/downloads"
+    },
+    "num": "0.18.0-alpha.2",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+      "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+      "url": "https://github.com/bluejekyll"
+    },
+    "readme_path": "/api/v1/crates/trust-dns-client/0.18.0-alpha.2/readme",
+    "updated_at": "2019-12-06T16:40:17.931947+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2019-12-15T00:55:48.146094+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+          "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+          "url": "https://github.com/bluejekyll"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-client", "crate_size": 71699,
+    "created_at": "2019-12-15T00:55:48.146094+00:00",
+    "dependencies": [
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 1040271, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 196486
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1040272, "kind": "normal",
+        "optional": false, "req": "^2.1.0", "target": null,
+        "version_id": 196486
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 1040273, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 196486
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1040274, "kind": "normal", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 196486
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1040275, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 196486
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1040276, "kind": "normal", "optional": false,
+        "req": "^0.4.8", "target": null, "version_id": 196486
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": ["v102", "v110"], "id": 1040287, "kind": "dev",
+        "optional": false, "req": "^0.10", "target": null,
+        "version_id": 196486
+      },
+      {
+        "crate_id": "radix_trie", "default_features": true, "downloads": 0,
+        "features": [], "id": 1040278, "kind": "normal", "optional": false,
+        "req": "^0.1.6", "target": null, "version_id": 196486
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1040279, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 196486
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["rt-core"], "id": 1040283, "kind": "normal",
+        "optional": false, "req": "^0.2.1", "target": null,
+        "version_id": 196486
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": true,
+        "downloads": 0, "features": ["dnssec"], "id": 1040285,
+        "kind": "normal", "optional": false, "req": "^0.18.0-alpha",
+        "target": null, "version_id": 196486
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": ["v102", "v110"], "id": 1040277, "kind": "normal",
+        "optional": true, "req": "^0.10", "target": null,
+        "version_id": 196486
+      },
+      {
+        "crate_id": "ring", "default_features": true, "downloads": 0,
+        "features": ["std"], "id": 1040280, "kind": "normal",
+        "optional": true, "req": "^0.16", "target": null,
+        "version_id": 196486
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1040281, "kind": "normal", "optional": true,
+        "req": "^0.16", "target": null, "version_id": 196486
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1040282, "kind": "normal",
+        "optional": true, "req": "^1.0", "target": null,
+        "version_id": 196486
+      },
+      {
+        "crate_id": "trust-dns-https", "default_features": true,
+        "downloads": 0, "features": [], "id": 1040284, "kind": "normal",
+        "optional": true, "req": "^0.18.0-alpha", "target": null,
+        "version_id": 196486
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 1040286, "kind": "normal", "optional": true,
+        "req": "^0.21", "target": null, "version_id": 196486
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-client/0.18.0-alpha.3/download",
+    "downloads": 156,
+    "features": {
+      "dns-over-https": ["trust-dns-https"],
+      "dns-over-https-openssl": ["dns-over-https", "dns-over-openssl"],
+      "dns-over-https-rustls": ["dns-over-https", "dns-over-rustls"],
+      "dns-over-openssl": ["dns-over-tls", "dnssec-openssl", "openssl"],
+      "dns-over-rustls": ["dns-over-tls", "dnssec-ring", "rustls", "webpki"],
+      "dns-over-tls": [], "dnssec": [],
+      "dnssec-openssl": ["dnssec", "openssl", "trust-dns-proto/dnssec-openssl"],
+      "dnssec-ring": ["dnssec", "ring", "trust-dns-proto/dnssec-ring"],
+      "mdns": ["trust-dns-proto/mdns"], "serde-config": ["serde"]
+    },
+    "id": 196486, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-client/0.18.0-alpha.3/authors",
+      "dependencies": "/api/v1/crates/trust-dns-client/0.18.0-alpha.3/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-client/0.18.0-alpha.3/downloads"
+    },
+    "num": "0.18.0-alpha.3",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+      "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+      "url": "https://github.com/bluejekyll"
+    },
+    "readme_path": "/api/v1/crates/trust-dns-client/0.18.0-alpha.3/readme",
+    "updated_at": "2019-12-15T00:55:48.146094+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2019-12-22T21:40:50.856932+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+          "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+          "url": "https://github.com/bluejekyll"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-client", "crate_size": 72140,
+    "created_at": "2019-12-22T21:40:50.856932+00:00",
+    "dependencies": [
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 1051975, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 198233
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1051976, "kind": "normal",
+        "optional": false, "req": "^2.1.0", "target": null,
+        "version_id": 198233
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 1051977, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 198233
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1051978, "kind": "normal", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 198233
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1051979, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 198233
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1051980, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 198233
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": ["v102", "v110"], "id": 1051991, "kind": "dev",
+        "optional": false, "req": "^0.10", "target": null,
+        "version_id": 198233
+      },
+      {
+        "crate_id": "radix_trie", "default_features": true, "downloads": 0,
+        "features": [], "id": 1051982, "kind": "normal", "optional": false,
+        "req": "^0.1.6", "target": null, "version_id": 198233
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1051983, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 198233
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["rt-core"], "id": 1051987, "kind": "normal",
+        "optional": false, "req": "^0.2.1", "target": null,
+        "version_id": 198233
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": true,
+        "downloads": 0, "features": ["dnssec"], "id": 1051989,
+        "kind": "normal", "optional": false, "req": "^0.18.0",
+        "target": null, "version_id": 198233
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": ["v102", "v110"], "id": 1051981, "kind": "normal",
+        "optional": true, "req": "^0.10", "target": null,
+        "version_id": 198233
+      },
+      {
+        "crate_id": "ring", "default_features": true, "downloads": 0,
+        "features": ["std"], "id": 1051984, "kind": "normal",
+        "optional": true, "req": "^0.16", "target": null,
+        "version_id": 198233
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1051985, "kind": "normal", "optional": true,
+        "req": "^0.16", "target": null, "version_id": 198233
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1051986, "kind": "normal",
+        "optional": true, "req": "^1.0", "target": null,
+        "version_id": 198233
+      },
+      {
+        "crate_id": "trust-dns-https", "default_features": true,
+        "downloads": 0, "features": [], "id": 1051988, "kind": "normal",
+        "optional": true, "req": "^0.18.0", "target": null,
+        "version_id": 198233
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 1051990, "kind": "normal", "optional": true,
+        "req": "^0.21", "target": null, "version_id": 198233
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-client/0.18.0/download",
+    "downloads": 184,
+    "features": {
+      "dns-over-https": ["trust-dns-https"],
+      "dns-over-https-openssl": ["dns-over-https", "dns-over-openssl"],
+      "dns-over-https-rustls": ["dns-over-https", "dns-over-rustls"],
+      "dns-over-openssl": ["dns-over-tls", "dnssec-openssl", "openssl"],
+      "dns-over-rustls": ["dns-over-tls", "dnssec-ring", "rustls", "webpki"],
+      "dns-over-tls": [], "dnssec": [],
+      "dnssec-openssl": ["dnssec", "openssl", "trust-dns-proto/dnssec-openssl"],
+      "dnssec-ring": ["dnssec", "ring", "trust-dns-proto/dnssec-ring"],
+      "mdns": ["trust-dns-proto/mdns"], "serde-config": ["serde"]
+    },
+    "id": 198233, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-client/0.18.0/authors",
+      "dependencies": "/api/v1/crates/trust-dns-client/0.18.0/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-client/0.18.0/downloads"
+    },
+    "num": "0.18.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+      "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+      "url": "https://github.com/bluejekyll"
+    },
+    "readme_path": "/api/v1/crates/trust-dns-client/0.18.0/readme",
+    "updated_at": "2019-12-22T21:40:50.856932+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-01-05T01:15:07.318893+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+          "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+          "url": "https://github.com/bluejekyll"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-client", "crate_size": 72137,
+    "created_at": "2020-01-05T01:15:07.318893+00:00",
+    "dependencies": [
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 1070382, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 201176
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1070383, "kind": "normal",
+        "optional": false, "req": "^2.1.0", "target": null,
+        "version_id": 201176
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 1070384, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 201176
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1070385, "kind": "normal", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 201176
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1070386, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 201176
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1070387, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 201176
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": ["v102", "v110"], "id": 1070398, "kind": "dev",
+        "optional": false, "req": "^0.10", "target": null,
+        "version_id": 201176
+      },
+      {
+        "crate_id": "radix_trie", "default_features": true, "downloads": 0,
+        "features": [], "id": 1070389, "kind": "normal", "optional": false,
+        "req": "^0.1.6", "target": null, "version_id": 201176
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1070390, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 201176
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["rt-core"], "id": 1070394, "kind": "normal",
+        "optional": false, "req": "^0.2.1", "target": null,
+        "version_id": 201176
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": true,
+        "downloads": 0, "features": ["dnssec"], "id": 1070396,
+        "kind": "normal", "optional": false, "req": "^0.18.1",
+        "target": null, "version_id": 201176
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": ["v102", "v110"], "id": 1070388, "kind": "normal",
+        "optional": true, "req": "^0.10", "target": null,
+        "version_id": 201176
+      },
+      {
+        "crate_id": "ring", "default_features": true, "downloads": 0,
+        "features": ["std"], "id": 1070391, "kind": "normal",
+        "optional": true, "req": "^0.16", "target": null,
+        "version_id": 201176
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1070392, "kind": "normal", "optional": true,
+        "req": "^0.16", "target": null, "version_id": 201176
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1070393, "kind": "normal",
+        "optional": true, "req": "^1.0", "target": null,
+        "version_id": 201176
+      },
+      {
+        "crate_id": "trust-dns-https", "default_features": true,
+        "downloads": 0, "features": [], "id": 1070395, "kind": "normal",
+        "optional": true, "req": "^0.18.1", "target": null,
+        "version_id": 201176
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 1070397, "kind": "normal", "optional": true,
+        "req": "^0.21", "target": null, "version_id": 201176
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-client/0.18.1/download",
+    "downloads": 1177,
+    "features": {
+      "dns-over-https": ["trust-dns-https"],
+      "dns-over-https-openssl": ["dns-over-https", "dns-over-openssl"],
+      "dns-over-https-rustls": ["dns-over-https", "dns-over-rustls"],
+      "dns-over-openssl": ["dns-over-tls", "dnssec-openssl", "openssl"],
+      "dns-over-rustls": ["dns-over-tls", "dnssec-ring", "rustls", "webpki"],
+      "dns-over-tls": [], "dnssec": [],
+      "dnssec-openssl": ["dnssec", "openssl", "trust-dns-proto/dnssec-openssl"],
+      "dnssec-ring": ["dnssec", "ring", "trust-dns-proto/dnssec-ring"],
+      "mdns": ["trust-dns-proto/mdns"], "serde-config": ["serde"]
+    },
+    "id": 201176, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-client/0.18.1/authors",
+      "dependencies": "/api/v1/crates/trust-dns-client/0.18.1/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-client/0.18.1/downloads"
+    },
+    "num": "0.18.1",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+      "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+      "url": "https://github.com/bluejekyll"
+    },
+    "readme_path": "/api/v1/crates/trust-dns-client/0.18.1/readme",
+    "updated_at": "2020-01-05T01:15:07.318893+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-01-15T04:01:30.101316+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+          "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+          "url": "https://github.com/bluejekyll"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-client", "crate_size": 72130,
+    "created_at": "2020-01-15T04:01:30.101316+00:00",
+    "dependencies": [
+      {
+        "crate_id": "backtrace", "default_features": true, "downloads": 0,
+        "features": [], "id": 1088842, "kind": "normal", "optional": false,
+        "req": "^0.3.40", "target": null, "version_id": 203863
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 1088843, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 203863
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1088844, "kind": "normal",
+        "optional": false, "req": "^2.1.0", "target": null,
+        "version_id": 203863
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1088845, "kind": "normal", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 203863
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1088846, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 203863
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1088847, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 203863
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": ["v102", "v110"], "id": 1088859, "kind": "dev",
+        "optional": false, "req": "^0.10", "target": null,
+        "version_id": 203863
+      },
+      {
+        "crate_id": "radix_trie", "default_features": true, "downloads": 0,
+        "features": [], "id": 1088849, "kind": "normal", "optional": false,
+        "req": "^0.1.6", "target": null, "version_id": 203863
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1088850, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 203863
+      },
+      {
+        "crate_id": "thiserror", "default_features": true, "downloads": 0,
+        "features": [], "id": 1088854, "kind": "normal", "optional": false,
+        "req": "^1.0.9", "target": null, "version_id": 203863
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["rt-core"], "id": 1088855, "kind": "normal",
+        "optional": false, "req": "^0.2.1", "target": null,
+        "version_id": 203863
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": true,
+        "downloads": 0, "features": ["dnssec"], "id": 1088857,
+        "kind": "normal", "optional": false, "req": "^0.19.0",
+        "target": null, "version_id": 203863
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": ["v102", "v110"], "id": 1088848, "kind": "normal",
+        "optional": true, "req": "^0.10", "target": null,
+        "version_id": 203863
+      },
+      {
+        "crate_id": "ring", "default_features": true, "downloads": 0,
+        "features": ["std"], "id": 1088851, "kind": "normal",
+        "optional": true, "req": "^0.16", "target": null,
+        "version_id": 203863
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1088852, "kind": "normal", "optional": true,
+        "req": "^0.16", "target": null, "version_id": 203863
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1088853, "kind": "normal",
+        "optional": true, "req": "^1.0", "target": null,
+        "version_id": 203863
+      },
+      {
+        "crate_id": "trust-dns-https", "default_features": true,
+        "downloads": 0, "features": [], "id": 1088856, "kind": "normal",
+        "optional": true, "req": "^0.19.0", "target": null,
+        "version_id": 203863
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 1088858, "kind": "normal", "optional": true,
+        "req": "^0.21", "target": null, "version_id": 203863
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-client/0.19.0/download",
+    "downloads": 133,
+    "features": {
+      "dns-over-https": ["trust-dns-https"],
+      "dns-over-https-openssl": ["dns-over-https", "dns-over-openssl"],
+      "dns-over-https-rustls": ["dns-over-https", "dns-over-rustls"],
+      "dns-over-openssl": ["dns-over-tls", "dnssec-openssl", "openssl"],
+      "dns-over-rustls": ["dns-over-tls", "dnssec-ring", "rustls", "webpki"],
+      "dns-over-tls": [], "dnssec": [],
+      "dnssec-openssl": ["dnssec", "openssl", "trust-dns-proto/dnssec-openssl"],
+      "dnssec-ring": ["dnssec", "ring", "trust-dns-proto/dnssec-ring"],
+      "mdns": ["trust-dns-proto/mdns"], "serde-config": ["serde"]
+    },
+    "id": 203863, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-client/0.19.0/authors",
+      "dependencies": "/api/v1/crates/trust-dns-client/0.19.0/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-client/0.19.0/downloads"
+    },
+    "num": "0.19.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+      "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+      "url": "https://github.com/bluejekyll"
+    },
+    "readme_path": "/api/v1/crates/trust-dns-client/0.19.0/readme",
+    "updated_at": "2020-01-15T04:01:30.101316+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-01-16T16:21:54.380865+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+          "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+          "url": "https://github.com/bluejekyll"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-client", "crate_size": 72123,
+    "created_at": "2020-01-16T16:21:54.380865+00:00",
+    "dependencies": [
+      {
+        "crate_id": "backtrace", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093154, "kind": "normal", "optional": false,
+        "req": "^0.3.40", "target": null, "version_id": 204396
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093155, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 204396
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1093156, "kind": "normal",
+        "optional": false, "req": "^2.1.0", "target": null,
+        "version_id": 204396
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093157, "kind": "normal", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 204396
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093158, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 204396
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093159, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 204396
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": ["v102", "v110"], "id": 1093171, "kind": "dev",
+        "optional": false, "req": "^0.10", "target": null,
+        "version_id": 204396
+      },
+      {
+        "crate_id": "radix_trie", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093161, "kind": "normal", "optional": false,
+        "req": "^0.1.6", "target": null, "version_id": 204396
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093162, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 204396
+      },
+      {
+        "crate_id": "thiserror", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093166, "kind": "normal", "optional": false,
+        "req": "^1.0.9", "target": null, "version_id": 204396
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["rt-core"], "id": 1093167, "kind": "normal",
+        "optional": false, "req": "^0.2.1", "target": null,
+        "version_id": 204396
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": true,
+        "downloads": 0, "features": ["dnssec"], "id": 1093169,
+        "kind": "normal", "optional": false, "req": "^0.19.1",
+        "target": null, "version_id": 204396
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": ["v102", "v110"], "id": 1093160, "kind": "normal",
+        "optional": true, "req": "^0.10", "target": null,
+        "version_id": 204396
+      },
+      {
+        "crate_id": "ring", "default_features": true, "downloads": 0,
+        "features": ["std"], "id": 1093163, "kind": "normal",
+        "optional": true, "req": "^0.16", "target": null,
+        "version_id": 204396
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093164, "kind": "normal", "optional": true,
+        "req": "^0.16", "target": null, "version_id": 204396
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1093165, "kind": "normal",
+        "optional": true, "req": "^1.0", "target": null,
+        "version_id": 204396
+      },
+      {
+        "crate_id": "trust-dns-https", "default_features": true,
+        "downloads": 0, "features": [], "id": 1093168, "kind": "normal",
+        "optional": true, "req": "^0.19.1", "target": null,
+        "version_id": 204396
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093170, "kind": "normal", "optional": true,
+        "req": "^0.21", "target": null, "version_id": 204396
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-client/0.19.1/download",
+    "downloads": 142,
+    "features": {
+      "dns-over-https": ["trust-dns-https"],
+      "dns-over-https-openssl": ["dns-over-https", "dns-over-openssl"],
+      "dns-over-https-rustls": ["dns-over-https", "dns-over-rustls"],
+      "dns-over-openssl": ["dns-over-tls", "dnssec-openssl", "openssl"],
+      "dns-over-rustls": ["dns-over-tls", "dnssec-ring", "rustls", "webpki"],
+      "dns-over-tls": [], "dnssec": [],
+      "dnssec-openssl": ["dnssec", "openssl", "trust-dns-proto/dnssec-openssl"],
+      "dnssec-ring": ["dnssec", "ring", "trust-dns-proto/dnssec-ring"],
+      "mdns": ["trust-dns-proto/mdns"], "serde-config": ["serde"]
+    },
+    "id": 204396, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-client/0.19.1/authors",
+      "dependencies": "/api/v1/crates/trust-dns-client/0.19.1/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-client/0.19.1/downloads"
+    },
+    "num": "0.19.1",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+      "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+      "url": "https://github.com/bluejekyll"
+    },
+    "readme_path": "/api/v1/crates/trust-dns-client/0.19.1/readme",
+    "updated_at": "2020-01-16T16:21:54.380865+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-01-17T04:16:18.827127+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+          "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+          "url": "https://github.com/bluejekyll"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-client", "crate_size": 72121,
+    "created_at": "2020-01-17T04:16:18.827127+00:00",
+    "dependencies": [
+      {
+        "crate_id": "backtrace", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093909, "kind": "normal", "optional": false,
+        "req": "^0.3.40", "target": null, "version_id": 204520
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093910, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 204520
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1093911, "kind": "normal",
+        "optional": false, "req": "^2.1.0", "target": null,
+        "version_id": 204520
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093912, "kind": "normal", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 204520
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093913, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 204520
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093914, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 204520
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": ["v102", "v110"], "id": 1093926, "kind": "dev",
+        "optional": false, "req": "^0.10", "target": null,
+        "version_id": 204520
+      },
+      {
+        "crate_id": "radix_trie", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093916, "kind": "normal", "optional": false,
+        "req": "^0.1.6", "target": null, "version_id": 204520
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093917, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 204520
+      },
+      {
+        "crate_id": "thiserror", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093921, "kind": "normal", "optional": false,
+        "req": "^1.0.9", "target": null, "version_id": 204520
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["rt-core"], "id": 1093922, "kind": "normal",
+        "optional": false, "req": "^0.2.1", "target": null,
+        "version_id": 204520
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": true,
+        "downloads": 0, "features": ["dnssec"], "id": 1093924,
+        "kind": "normal", "optional": false, "req": "^0.19.2",
+        "target": null, "version_id": 204520
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": ["v102", "v110"], "id": 1093915, "kind": "normal",
+        "optional": true, "req": "^0.10", "target": null,
+        "version_id": 204520
+      },
+      {
+        "crate_id": "ring", "default_features": true, "downloads": 0,
+        "features": ["std"], "id": 1093918, "kind": "normal",
+        "optional": true, "req": "^0.16", "target": null,
+        "version_id": 204520
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093919, "kind": "normal", "optional": true,
+        "req": "^0.16", "target": null, "version_id": 204520
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1093920, "kind": "normal",
+        "optional": true, "req": "^1.0", "target": null,
+        "version_id": 204520
+      },
+      {
+        "crate_id": "trust-dns-https", "default_features": true,
+        "downloads": 0, "features": [], "id": 1093923, "kind": "normal",
+        "optional": true, "req": "^0.19.2", "target": null,
+        "version_id": 204520
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093925, "kind": "normal", "optional": true,
+        "req": "^0.21", "target": null, "version_id": 204520
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-client/0.19.2/download",
+    "downloads": 1113,
+    "features": {
+      "dns-over-https": ["trust-dns-https"],
+      "dns-over-https-openssl": ["dns-over-https", "dns-over-openssl"],
+      "dns-over-https-rustls": ["dns-over-https", "dns-over-rustls"],
+      "dns-over-openssl": ["dns-over-tls", "dnssec-openssl", "openssl"],
+      "dns-over-rustls": ["dns-over-tls", "dnssec-ring", "rustls", "webpki"],
+      "dns-over-tls": [], "dnssec": [],
+      "dnssec-openssl": ["dnssec", "openssl", "trust-dns-proto/dnssec-openssl"],
+      "dnssec-ring": ["dnssec", "ring", "trust-dns-proto/dnssec-ring"],
+      "mdns": ["trust-dns-proto/mdns"], "serde-config": ["serde"]
+    },
+    "id": 204520, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-client/0.19.2/authors",
+      "dependencies": "/api/v1/crates/trust-dns-client/0.19.2/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-client/0.19.2/downloads"
+    },
+    "num": "0.19.2",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+      "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+      "url": "https://github.com/bluejekyll"
+    },
+    "readme_path": "/api/v1/crates/trust-dns-client/0.19.2/readme",
+    "updated_at": "2020-01-17T04:16:18.827127+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-02-15T23:57:48.239515+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+          "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+          "url": "https://github.com/bluejekyll"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-client", "crate_size": 72160,
+    "created_at": "2020-02-15T23:57:48.239515+00:00",
+    "dependencies": [
+      {
+        "crate_id": "backtrace", "default_features": true, "downloads": 0,
+        "features": [], "id": 1156780, "kind": "normal", "optional": false,
+        "req": "^0.3.44", "target": null, "version_id": 212968
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 1156781, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 212968
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1156782, "kind": "normal",
+        "optional": false, "req": "^2.1.0", "target": null,
+        "version_id": 212968
+      },
+      {
+        "crate_id": "futures", "default_features": false, "downloads": 0,
+        "features": ["std", "executor"], "id": 1156797, "kind": "dev",
+        "optional": false, "req": "^0.3.4", "target": null,
+        "version_id": 212968
+      },
+      {
+        "crate_id": "futures", "default_features": false, "downloads": 0,
+        "features": ["std"], "id": 1156783, "kind": "normal",
+        "optional": false, "req": "^0.3.4", "target": null,
+        "version_id": 212968
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1156784, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 212968
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1156785, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 212968
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": ["v102", "v110"], "id": 1156798, "kind": "dev",
+        "optional": false, "req": "^0.10", "target": null,
+        "version_id": 212968
+      },
+      {
+        "crate_id": "radix_trie", "default_features": true, "downloads": 0,
+        "features": [], "id": 1156787, "kind": "normal", "optional": false,
+        "req": "^0.1.6", "target": null, "version_id": 212968
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1156788, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 212968
+      },
+      {
+        "crate_id": "thiserror", "default_features": true, "downloads": 0,
+        "features": [], "id": 1156792, "kind": "normal", "optional": false,
+        "req": "^1.0.10", "target": null, "version_id": 212968
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["rt-core"], "id": 1156793, "kind": "normal",
+        "optional": false, "req": "^0.2.11", "target": null,
+        "version_id": 212968
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": true,
+        "downloads": 0, "features": ["dnssec"], "id": 1156795,
+        "kind": "normal", "optional": false, "req": "^0.19.3",
+        "target": null, "version_id": 212968
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": ["v102", "v110"], "id": 1156786, "kind": "normal",
+        "optional": true, "req": "^0.10", "target": null,
+        "version_id": 212968
+      },
+      {
+        "crate_id": "ring", "default_features": true, "downloads": 0,
+        "features": ["std"], "id": 1156789, "kind": "normal",
+        "optional": true, "req": "^0.16", "target": null,
+        "version_id": 212968
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1156790, "kind": "normal", "optional": true,
+        "req": "^0.16", "target": null, "version_id": 212968
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1156791, "kind": "normal",
+        "optional": true, "req": "^1.0", "target": null,
+        "version_id": 212968
+      },
+      {
+        "crate_id": "trust-dns-https", "default_features": true,
+        "downloads": 0, "features": [], "id": 1156794, "kind": "normal",
+        "optional": true, "req": "^0.19.3", "target": null,
+        "version_id": 212968
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 1156796, "kind": "normal", "optional": true,
+        "req": "^0.21", "target": null, "version_id": 212968
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-client/0.19.3/download",
+    "downloads": 3454,
+    "features": {
+      "dns-over-https": ["trust-dns-https"],
+      "dns-over-https-openssl": ["dns-over-https", "dns-over-openssl"],
+      "dns-over-https-rustls": ["dns-over-https", "dns-over-rustls"],
+      "dns-over-openssl": ["dns-over-tls", "dnssec-openssl", "openssl"],
+      "dns-over-rustls": ["dns-over-tls", "dnssec-ring", "rustls", "webpki"],
+      "dns-over-tls": [], "dnssec": [],
+      "dnssec-openssl": ["dnssec", "openssl", "trust-dns-proto/dnssec-openssl"],
+      "dnssec-ring": ["dnssec", "ring", "trust-dns-proto/dnssec-ring"],
+      "mdns": ["trust-dns-proto/mdns"], "serde-config": ["serde"]
+    },
+    "id": 212968, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-client/0.19.3/authors",
+      "dependencies": "/api/v1/crates/trust-dns-client/0.19.3/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-client/0.19.3/downloads"
+    },
+    "num": "0.19.3",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+      "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+      "url": "https://github.com/bluejekyll"
+    },
+    "readme_path": "/api/v1/crates/trust-dns-client/0.19.3/readme",
+    "updated_at": "2020-02-15T23:57:48.239515+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-04-12T00:28:45.795991+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+          "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+          "url": "https://github.com/bluejekyll"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-client", "crate_size": 72175,
+    "created_at": "2020-04-12T00:28:45.795991+00:00",
+    "dependencies": [
+      {
+        "crate_id": "backtrace", "default_features": true, "downloads": 0,
+        "features": [], "id": 1283945, "kind": "normal", "optional": false,
+        "req": "^0.3.44", "target": null, "version_id": 230047
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 1283946, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 230047
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1283947, "kind": "normal",
+        "optional": false, "req": "^2.2.0", "target": null,
+        "version_id": 230047
+      },
+      {
+        "crate_id": "futures", "default_features": false, "downloads": 0,
+        "features": ["std", "executor"], "id": 1283962, "kind": "dev",
+        "optional": false, "req": "^0.3.4", "target": null,
+        "version_id": 230047
+      },
+      {
+        "crate_id": "futures", "default_features": false, "downloads": 0,
+        "features": ["std"], "id": 1283948, "kind": "normal",
+        "optional": false, "req": "^0.3.4", "target": null,
+        "version_id": 230047
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1283949, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 230047
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1283950, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 230047
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": ["v102", "v110"], "id": 1283963, "kind": "dev",
+        "optional": false, "req": "^0.10", "target": null,
+        "version_id": 230047
+      },
+      {
+        "crate_id": "radix_trie", "default_features": true, "downloads": 0,
+        "features": [], "id": 1283952, "kind": "normal", "optional": false,
+        "req": "^0.1.6", "target": null, "version_id": 230047
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1283953, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 230047
+      },
+      {
+        "crate_id": "thiserror", "default_features": true, "downloads": 0,
+        "features": [], "id": 1283957, "kind": "normal", "optional": false,
+        "req": "^1.0.14", "target": null, "version_id": 230047
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["rt-core"], "id": 1283958, "kind": "normal",
+        "optional": false, "req": "^0.2.16", "target": null,
+        "version_id": 230047
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": true,
+        "downloads": 0, "features": ["dnssec"], "id": 1283960,
+        "kind": "normal", "optional": false, "req": "^0.19.4",
+        "target": null, "version_id": 230047
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": ["v102", "v110"], "id": 1283951, "kind": "normal",
+        "optional": true, "req": "^0.10", "target": null,
+        "version_id": 230047
+      },
+      {
+        "crate_id": "ring", "default_features": true, "downloads": 0,
+        "features": ["std"], "id": 1283954, "kind": "normal",
+        "optional": true, "req": "^0.16", "target": null,
+        "version_id": 230047
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1283955, "kind": "normal", "optional": true,
+        "req": "^0.17", "target": null, "version_id": 230047
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1283956, "kind": "normal",
+        "optional": true, "req": "^1.0", "target": null,
+        "version_id": 230047
+      },
+      {
+        "crate_id": "trust-dns-https", "default_features": true,
+        "downloads": 0, "features": [], "id": 1283959, "kind": "normal",
+        "optional": true, "req": "^0.19.4", "target": null,
+        "version_id": 230047
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 1283961, "kind": "normal", "optional": true,
+        "req": "^0.21", "target": null, "version_id": 230047
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-client/0.19.4/download",
+    "downloads": 1828,
+    "features": {
+      "dns-over-https": ["trust-dns-https"],
+      "dns-over-https-openssl": ["dns-over-https", "dns-over-openssl"],
+      "dns-over-https-rustls": ["dns-over-https", "dns-over-rustls"],
+      "dns-over-openssl": ["dns-over-tls", "dnssec-openssl", "openssl"],
+      "dns-over-rustls": ["dns-over-tls", "dnssec-ring", "rustls", "webpki"],
+      "dns-over-tls": [], "dnssec": [],
+      "dnssec-openssl": ["dnssec", "openssl", "trust-dns-proto/dnssec-openssl"],
+      "dnssec-ring": ["dnssec", "ring", "trust-dns-proto/dnssec-ring"],
+      "mdns": ["trust-dns-proto/mdns"], "serde-config": ["serde"]
+    },
+    "id": 230047, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-client/0.19.4/authors",
+      "dependencies": "/api/v1/crates/trust-dns-client/0.19.4/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-client/0.19.4/downloads"
+    },
+    "num": "0.19.4",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+      "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+      "url": "https://github.com/bluejekyll"
+    },
+    "readme_path": "/api/v1/crates/trust-dns-client/0.19.4/readme",
+    "updated_at": "2020-04-12T00:28:45.795991+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-04-28T15:16:57.491328+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+          "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+          "url": "https://github.com/bluejekyll"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-client", "crate_size": 72085,
+    "created_at": "2020-04-28T15:16:57.491328+00:00",
+    "dependencies": [
+      {
+        "crate_id": "backtrace", "default_features": true, "downloads": 0,
+        "features": [], "id": 1325652, "kind": "normal", "optional": false,
+        "req": "^0.3.44", "target": null, "version_id": 235615
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 1325653, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 235615
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1325654, "kind": "normal",
+        "optional": false, "req": "^2.2.0", "target": null,
+        "version_id": 235615
+      },
+      {
+        "crate_id": "futures", "default_features": false, "downloads": 0,
+        "features": ["std", "executor"], "id": 1325669, "kind": "dev",
+        "optional": false, "req": "^0.3.4", "target": null,
+        "version_id": 235615
+      },
+      {
+        "crate_id": "futures", "default_features": false, "downloads": 0,
+        "features": ["std"], "id": 1325655, "kind": "normal",
+        "optional": false, "req": "^0.3.4", "target": null,
+        "version_id": 235615
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1325656, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 235615
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1325657, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 235615
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": ["v102", "v110"], "id": 1325670, "kind": "dev",
+        "optional": false, "req": "^0.10", "target": null,
+        "version_id": 235615
+      },
+      {
+        "crate_id": "radix_trie", "default_features": true, "downloads": 0,
+        "features": [], "id": 1325659, "kind": "normal", "optional": false,
+        "req": "^0.1.6", "target": null, "version_id": 235615
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1325660, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 235615
+      },
+      {
+        "crate_id": "thiserror", "default_features": true, "downloads": 0,
+        "features": [], "id": 1325664, "kind": "normal", "optional": false,
+        "req": "^1.0.14", "target": null, "version_id": 235615
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["rt-core"], "id": 1325665, "kind": "normal",
+        "optional": false, "req": "^0.2.16", "target": null,
+        "version_id": 235615
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": true,
+        "downloads": 0, "features": ["dnssec"], "id": 1325667,
+        "kind": "normal", "optional": false, "req": "^0.19.5",
+        "target": null, "version_id": 235615
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": ["v102", "v110"], "id": 1325658, "kind": "normal",
+        "optional": true, "req": "^0.10", "target": null,
+        "version_id": 235615
+      },
+      {
+        "crate_id": "ring", "default_features": true, "downloads": 0,
+        "features": ["std"], "id": 1325661, "kind": "normal",
+        "optional": true, "req": "^0.16", "target": null,
+        "version_id": 235615
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1325662, "kind": "normal", "optional": true,
+        "req": "^0.17", "target": null, "version_id": 235615
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1325663, "kind": "normal",
+        "optional": true, "req": "^1.0", "target": null,
+        "version_id": 235615
+      },
+      {
+        "crate_id": "trust-dns-https", "default_features": true,
+        "downloads": 0, "features": [], "id": 1325666, "kind": "normal",
+        "optional": true, "req": "^0.19.5", "target": null,
+        "version_id": 235615
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 1325668, "kind": "normal", "optional": true,
+        "req": "^0.21", "target": null, "version_id": 235615
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-client/0.19.5/download",
+    "downloads": 13646,
+    "features": {
+      "dns-over-https": ["trust-dns-https"],
+      "dns-over-https-openssl": ["dns-over-https", "dns-over-openssl"],
+      "dns-over-https-rustls": ["dns-over-https", "dns-over-rustls"],
+      "dns-over-openssl": ["dns-over-tls", "dnssec-openssl", "openssl"],
+      "dns-over-rustls": ["dns-over-tls", "dnssec-ring", "rustls", "webpki"],
+      "dns-over-tls": [], "dnssec": [],
+      "dnssec-openssl": ["dnssec", "openssl", "trust-dns-proto/dnssec-openssl"],
+      "dnssec-ring": ["dnssec", "ring", "trust-dns-proto/dnssec-ring"],
+      "mdns": ["trust-dns-proto/mdns"], "serde-config": ["serde"]
+    },
+    "id": 235615, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-client/0.19.5/authors",
+      "dependencies": "/api/v1/crates/trust-dns-client/0.19.5/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-client/0.19.5/downloads"
+    },
+    "num": "0.19.5",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+      "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+      "url": "https://github.com/bluejekyll"
+    },
+    "readme_path": "/api/v1/crates/trust-dns-client/0.19.5/readme",
+    "updated_at": "2020-04-28T15:16:57.491328+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-08-17T01:14:47.662277+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+          "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+          "url": "https://github.com/bluejekyll"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-client", "crate_size": 72134,
+    "created_at": "2020-08-17T01:14:47.662277+00:00",
+    "dependencies": [
+      {
+        "crate_id": "backtrace", "default_features": true, "downloads": 0,
+        "features": [], "id": 1605773, "kind": "normal", "optional": false,
+        "req": "^0.3.50", "target": null, "version_id": 273410
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 1605774, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 273410
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1605775, "kind": "normal",
+        "optional": false, "req": "^2.2.0", "target": null,
+        "version_id": 273410
+      },
+      {
+        "crate_id": "futures", "default_features": false, "downloads": 0,
+        "features": ["std", "executor"], "id": 1605790, "kind": "dev",
+        "optional": false, "req": "^0.3.5", "target": null,
+        "version_id": 273410
+      },
+      {
+        "crate_id": "futures", "default_features": false, "downloads": 0,
+        "features": ["std"], "id": 1605776, "kind": "normal",
+        "optional": false, "req": "^0.3.5", "target": null,
+        "version_id": 273410
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1605777, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 273410
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1605778, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 273410
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": ["v102", "v110"], "id": 1605791, "kind": "dev",
+        "optional": false, "req": "^0.10", "target": null,
+        "version_id": 273410
+      },
+      {
+        "crate_id": "radix_trie", "default_features": true, "downloads": 0,
+        "features": [], "id": 1605780, "kind": "normal", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 273410
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1605781, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 273410
+      },
+      {
+        "crate_id": "thiserror", "default_features": true, "downloads": 0,
+        "features": [], "id": 1605785, "kind": "normal", "optional": false,
+        "req": "^1.0.20", "target": null, "version_id": 273410
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["rt-core"], "id": 1605786, "kind": "normal",
+        "optional": false, "req": "^0.2.22", "target": null,
+        "version_id": 273410
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": true,
+        "downloads": 0, "features": ["dnssec"], "id": 1605788,
+        "kind": "normal", "optional": false, "req": "^0.20.0-alpha.1",
+        "target": null, "version_id": 273410
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": ["v102", "v110"], "id": 1605779, "kind": "normal",
+        "optional": true, "req": "^0.10", "target": null,
+        "version_id": 273410
+      },
+      {
+        "crate_id": "ring", "default_features": true, "downloads": 0,
+        "features": ["std"], "id": 1605782, "kind": "normal",
+        "optional": true, "req": "^0.16", "target": null,
+        "version_id": 273410
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1605783, "kind": "normal", "optional": true,
+        "req": "^0.18", "target": null, "version_id": 273410
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1605784, "kind": "normal",
+        "optional": true, "req": "^1.0", "target": null,
+        "version_id": 273410
+      },
+      {
+        "crate_id": "trust-dns-https", "default_features": true,
+        "downloads": 0, "features": [], "id": 1605787, "kind": "normal",
+        "optional": true, "req": "^0.20.0-alpha.1", "target": null,
+        "version_id": 273410
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 1605789, "kind": "normal", "optional": true,
+        "req": "^0.21", "target": null, "version_id": 273410
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-client/0.20.0-alpha.1/download",
+    "downloads": 121,
+    "features": {
+      "dns-over-https": ["trust-dns-https"],
+      "dns-over-https-openssl": ["dns-over-https", "dns-over-openssl"],
+      "dns-over-https-rustls": ["dns-over-https", "dns-over-rustls"],
+      "dns-over-openssl": ["dns-over-tls", "dnssec-openssl", "openssl"],
+      "dns-over-rustls": ["dns-over-tls", "dnssec-ring", "rustls", "webpki"],
+      "dns-over-tls": [], "dnssec": [],
+      "dnssec-openssl": ["dnssec", "openssl", "trust-dns-proto/dnssec-openssl"],
+      "dnssec-ring": ["dnssec", "ring", "trust-dns-proto/dnssec-ring"],
+      "mdns": ["trust-dns-proto/mdns"], "serde-config": ["serde"]
+    },
+    "id": 273410, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-client/0.20.0-alpha.1/authors",
+      "dependencies": "/api/v1/crates/trust-dns-client/0.20.0-alpha.1/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-client/0.20.0-alpha.1/downloads"
+    },
+    "num": "0.20.0-alpha.1",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+      "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+      "url": "https://github.com/bluejekyll"
+    },
+    "readme_path": "/api/v1/crates/trust-dns-client/0.20.0-alpha.1/readme",
+    "updated_at": "2020-08-17T01:14:47.662277+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-09-16T23:35:02.718083+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+          "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+          "url": "https://github.com/bluejekyll"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-client", "crate_size": 72150,
+    "created_at": "2020-09-16T23:35:02.718083+00:00",
+    "dependencies": [
+      {
+        "crate_id": "backtrace", "default_features": true, "downloads": 0,
+        "features": [], "id": 1691519, "kind": "normal", "optional": false,
+        "req": "^0.3.50", "target": null, "version_id": 284426
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 1691520, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 284426
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1691521, "kind": "normal",
+        "optional": false, "req": "^2.2.0", "target": null,
+        "version_id": 284426
+      },
+      {
+        "crate_id": "futures", "default_features": false, "downloads": 0,
+        "features": ["std", "executor"], "id": 1691536, "kind": "dev",
+        "optional": false, "req": "^0.3.5", "target": null,
+        "version_id": 284426
+      },
+      {
+        "crate_id": "futures", "default_features": false, "downloads": 0,
+        "features": ["std"], "id": 1691522, "kind": "normal",
+        "optional": false, "req": "^0.3.5", "target": null,
+        "version_id": 284426
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1691523, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 284426
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1691524, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 284426
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": ["v102", "v110"], "id": 1691537, "kind": "dev",
+        "optional": false, "req": "^0.10", "target": null,
+        "version_id": 284426
+      },
+      {
+        "crate_id": "radix_trie", "default_features": true, "downloads": 0,
+        "features": [], "id": 1691526, "kind": "normal", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 284426
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1691527, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 284426
+      },
+      {
+        "crate_id": "thiserror", "default_features": true, "downloads": 0,
+        "features": [], "id": 1691531, "kind": "normal", "optional": false,
+        "req": "^1.0.20", "target": null, "version_id": 284426
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["rt-core"], "id": 1691532, "kind": "normal",
+        "optional": false, "req": "^0.2.22", "target": null,
+        "version_id": 284426
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": true,
+        "downloads": 0, "features": ["dnssec"], "id": 1691534,
+        "kind": "normal", "optional": false, "req": "^0.20.0-alpha.2",
+        "target": null, "version_id": 284426
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": ["v102", "v110"], "id": 1691525, "kind": "normal",
+        "optional": true, "req": "^0.10", "target": null,
+        "version_id": 284426
+      },
+      {
+        "crate_id": "ring", "default_features": true, "downloads": 0,
+        "features": ["std"], "id": 1691528, "kind": "normal",
+        "optional": true, "req": "^0.16", "target": null,
+        "version_id": 284426
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1691529, "kind": "normal", "optional": true,
+        "req": "^0.18", "target": null, "version_id": 284426
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1691530, "kind": "normal",
+        "optional": true, "req": "^1.0", "target": null,
+        "version_id": 284426
+      },
+      {
+        "crate_id": "trust-dns-https", "default_features": true,
+        "downloads": 0, "features": [], "id": 1691533, "kind": "normal",
+        "optional": true, "req": "^0.20.0-alpha.2", "target": null,
+        "version_id": 284426
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 1691535, "kind": "normal", "optional": true,
+        "req": "^0.21", "target": null, "version_id": 284426
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-client/0.20.0-alpha.2/download",
+    "downloads": 127,
+    "features": {
+      "dns-over-https": ["trust-dns-https"],
+      "dns-over-https-openssl": ["dns-over-https", "dns-over-openssl"],
+      "dns-over-https-rustls": ["dns-over-https", "dns-over-rustls"],
+      "dns-over-openssl": ["dns-over-tls", "dnssec-openssl", "openssl"],
+      "dns-over-rustls": ["dns-over-tls", "dnssec-ring", "rustls", "webpki"],
+      "dns-over-tls": [], "dnssec": [],
+      "dnssec-openssl": ["dnssec", "openssl", "trust-dns-proto/dnssec-openssl"],
+      "dnssec-ring": ["dnssec", "ring", "trust-dns-proto/dnssec-ring"],
+      "mdns": ["trust-dns-proto/mdns"], "serde-config": ["serde"]
+    },
+    "id": 284426, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-client/0.20.0-alpha.2/authors",
+      "dependencies": "/api/v1/crates/trust-dns-client/0.20.0-alpha.2/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-client/0.20.0-alpha.2/downloads"
+    },
+    "num": "0.20.0-alpha.2",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+      "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+      "url": "https://github.com/bluejekyll"
+    },
+    "readme_path": "/api/v1/crates/trust-dns-client/0.20.0-alpha.2/readme",
+    "updated_at": "2020-09-16T23:35:02.718083+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-10-25T03:21:18.242998+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+          "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+          "url": "https://github.com/bluejekyll"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-client", "crate_size": 71884,
+    "created_at": "2020-10-25T03:21:18.242998+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 1793108, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 298770
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 1793109, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 298770
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1793110, "kind": "normal",
+        "optional": false, "req": "^2.2.0", "target": null,
+        "version_id": 298770
+      },
+      {
+        "crate_id": "futures", "default_features": false, "downloads": 0,
+        "features": ["std", "executor"], "id": 1793126, "kind": "dev",
+        "optional": false, "req": "^0.3.5", "target": null,
+        "version_id": 298770
+      },
+      {
+        "crate_id": "futures-channel", "default_features": false,
+        "downloads": 0, "features": ["std"], "id": 1793111,
+        "kind": "normal", "optional": false, "req": "^0.3.5",
+        "target": null, "version_id": 298770
+      },
+      {
+        "crate_id": "futures-util", "default_features": false,
+        "downloads": 0, "features": ["std"], "id": 1793112,
+        "kind": "normal", "optional": false, "req": "^0.3.5",
+        "target": null, "version_id": 298770
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1793113, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 298770
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1793114, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 298770
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": ["v102", "v110"], "id": 1793127, "kind": "dev",
+        "optional": false, "req": "^0.10", "target": null,
+        "version_id": 298770
+      },
+      {
+        "crate_id": "radix_trie", "default_features": true, "downloads": 0,
+        "features": [], "id": 1793116, "kind": "normal", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 298770
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1793117, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 298770
+      },
+      {
+        "crate_id": "thiserror", "default_features": true, "downloads": 0,
+        "features": [], "id": 1793121, "kind": "normal", "optional": false,
+        "req": "^1.0.20", "target": null, "version_id": 298770
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["rt-core"], "id": 1793122, "kind": "normal",
+        "optional": false, "req": "^0.2.22", "target": null,
+        "version_id": 298770
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": true,
+        "downloads": 0, "features": ["dnssec"], "id": 1793124,
+        "kind": "normal", "optional": false, "req": "^0.20.0-alpha.3",
+        "target": null, "version_id": 298770
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": ["v102", "v110"], "id": 1793115, "kind": "normal",
+        "optional": true, "req": "^0.10", "target": null,
+        "version_id": 298770
+      },
+      {
+        "crate_id": "ring", "default_features": true, "downloads": 0,
+        "features": ["std"], "id": 1793118, "kind": "normal",
+        "optional": true, "req": "^0.16", "target": null,
+        "version_id": 298770
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1793119, "kind": "normal", "optional": true,
+        "req": "^0.18", "target": null, "version_id": 298770
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1793120, "kind": "normal",
+        "optional": true, "req": "^1.0", "target": null,
+        "version_id": 298770
+      },
+      {
+        "crate_id": "trust-dns-https", "default_features": true,
+        "downloads": 0, "features": [], "id": 1793123, "kind": "normal",
+        "optional": true, "req": "^0.20.0-alpha.3", "target": null,
+        "version_id": 298770
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 1793125, "kind": "normal", "optional": true,
+        "req": "^0.21", "target": null, "version_id": 298770
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-client/0.20.0-alpha.3/download",
+    "downloads": 52,
+    "features": {
+      "backtrace": ["trust-dns-proto/backtrace"],
+      "dns-over-https": ["trust-dns-https"],
+      "dns-over-https-openssl": ["dns-over-https", "dns-over-openssl"],
+      "dns-over-https-rustls": ["dns-over-https", "dns-over-rustls"],
+      "dns-over-openssl": ["dns-over-tls", "dnssec-openssl", "openssl"],
+      "dns-over-rustls": ["dns-over-tls", "dnssec-ring", "rustls", "webpki"],
+      "dns-over-tls": [], "dnssec": [],
+      "dnssec-openssl": ["dnssec", "openssl", "trust-dns-proto/dnssec-openssl"],
+      "dnssec-ring": ["dnssec", "ring", "trust-dns-proto/dnssec-ring"],
+      "mdns": ["trust-dns-proto/mdns"], "serde-config": ["serde"]
+    },
+    "id": 298770, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-client/0.20.0-alpha.3/authors",
+      "dependencies": "/api/v1/crates/trust-dns-client/0.20.0-alpha.3/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-client/0.20.0-alpha.3/downloads"
+    },
+    "num": "0.20.0-alpha.3",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+      "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+      "url": "https://github.com/bluejekyll"
+    },
+    "readme_path": "/api/v1/crates/trust-dns-client/0.20.0-alpha.3/readme",
+    "updated_at": "2020-10-25T03:21:18.242998+00:00", "yanked": false
+  }
+]

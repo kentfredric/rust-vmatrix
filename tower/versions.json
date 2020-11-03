@@ -1,0 +1,783 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["Carl Lerche <me@carllerche.com>"]}, "users": []},
+    "crate": "tower", "crate_size": null,
+    "created_at": "2016-12-23T17:20:31.319203+00:00",
+    "dependencies": [],
+    "dl_path": "/api/v1/crates/tower/0.0.1/download", "downloads": 613,
+    "features": {}, "id": 40248, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tower/0.0.1/authors",
+      "dependencies": "/api/v1/crates/tower/0.0.1/dependencies",
+      "version_downloads": "/api/v1/crates/tower/0.0.1/downloads"
+    },
+    "num": "0.0.1", "published_by": null,
+    "readme_path": "/api/v1/crates/tower/0.0.1/readme",
+    "updated_at": "2017-11-30T02:44:18.794790+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Tower Maintainers <team@tower-rs.com>"]},
+      "users": []
+    },
+    "crate": "tower", "crate_size": 5670,
+    "created_at": "2019-04-27T05:29:59.862630+00:00",
+    "dependencies": [
+      {
+        "crate_id": "env_logger", "default_features": false, "downloads": 0,
+        "features": [], "id": 720300, "kind": "dev", "optional": false,
+        "req": "^0.5.3", "target": null, "version_id": 147070
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 720301, "kind": "dev", "optional": false,
+        "req": "^0.1.26", "target": null, "version_id": 147070
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 720290, "kind": "normal", "optional": false,
+        "req": "^0.1.26", "target": null, "version_id": 147070
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 720302, "kind": "dev", "optional": false,
+        "req": "^0.4.1", "target": null, "version_id": 147070
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 720303, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 147070
+      },
+      {
+        "crate_id": "tower-buffer", "default_features": true,
+        "downloads": 0, "features": [], "id": 720291, "kind": "normal",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 147070
+      },
+      {
+        "crate_id": "tower-discover", "default_features": true,
+        "downloads": 0, "features": [], "id": 720292, "kind": "normal",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 147070
+      },
+      {
+        "crate_id": "tower-layer", "default_features": true, "downloads": 0,
+        "features": [], "id": 720293, "kind": "normal", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 147070
+      },
+      {
+        "crate_id": "tower-limit", "default_features": true, "downloads": 0,
+        "features": [], "id": 720294, "kind": "normal", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 147070
+      },
+      {
+        "crate_id": "tower-load-shed", "default_features": true,
+        "downloads": 0, "features": [], "id": 720295, "kind": "normal",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 147070
+      },
+      {
+        "crate_id": "tower-retry", "default_features": true, "downloads": 0,
+        "features": [], "id": 720296, "kind": "normal", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 147070
+      },
+      {
+        "crate_id": "tower-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 720297, "kind": "normal",
+        "optional": false, "req": "^0.2.0", "target": null,
+        "version_id": 147070
+      },
+      {
+        "crate_id": "tower-timeout", "default_features": true,
+        "downloads": 0, "features": [], "id": 720298, "kind": "normal",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 147070
+      },
+      {
+        "crate_id": "tower-util", "default_features": true, "downloads": 0,
+        "features": ["io"], "id": 720299, "kind": "normal",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 147070
+      },
+      {
+        "crate_id": "void", "default_features": true, "downloads": 0,
+        "features": [], "id": 720304, "kind": "dev", "optional": false,
+        "req": "^1.0.2", "target": null, "version_id": 147070
+      }
+    ],
+    "dl_path": "/api/v1/crates/tower/0.1.0/download",
+    "downloads": 78240, "features": {"default": ["full"], "full": []},
+    "id": 147070, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tower/0.1.0/authors",
+      "dependencies": "/api/v1/crates/tower/0.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/tower/0.1.0/downloads"
+    },
+    "num": "0.1.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/6180?v=4",
+      "id": 10, "login": "carllerche", "name": "Carl Lerche",
+      "url": "https://github.com/carllerche"
+    },
+    "readme_path": "/api/v1/crates/tower/0.1.0/readme",
+    "updated_at": "2019-04-27T05:29:59.862630+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Tower Maintainers <team@tower-rs.com>"]},
+      "users": []
+    },
+    "crate": "tower", "crate_size": 5910,
+    "created_at": "2019-07-19T18:54:12.381896+00:00",
+    "dependencies": [
+      {
+        "crate_id": "env_logger", "default_features": false, "downloads": 0,
+        "features": [], "id": 828107, "kind": "dev", "optional": false,
+        "req": "^0.5.3", "target": null, "version_id": 163946
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 828108, "kind": "dev", "optional": false,
+        "req": "^0.1.26", "target": null, "version_id": 163946
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 828097, "kind": "normal", "optional": false,
+        "req": "^0.1.26", "target": null, "version_id": 163946
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 828109, "kind": "dev", "optional": false,
+        "req": "^0.4.1", "target": null, "version_id": 163946
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 828110, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 163946
+      },
+      {
+        "crate_id": "tower-buffer", "default_features": true,
+        "downloads": 0, "features": [], "id": 828098, "kind": "normal",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 163946
+      },
+      {
+        "crate_id": "tower-discover", "default_features": true,
+        "downloads": 0, "features": [], "id": 828099, "kind": "normal",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 163946
+      },
+      {
+        "crate_id": "tower-layer", "default_features": true, "downloads": 0,
+        "features": [], "id": 828100, "kind": "normal", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 163946
+      },
+      {
+        "crate_id": "tower-limit", "default_features": true, "downloads": 0,
+        "features": [], "id": 828101, "kind": "normal", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 163946
+      },
+      {
+        "crate_id": "tower-load-shed", "default_features": true,
+        "downloads": 0, "features": [], "id": 828102, "kind": "normal",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 163946
+      },
+      {
+        "crate_id": "tower-retry", "default_features": true, "downloads": 0,
+        "features": [], "id": 828103, "kind": "normal", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 163946
+      },
+      {
+        "crate_id": "tower-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 828104, "kind": "normal",
+        "optional": false, "req": "^0.2.0", "target": null,
+        "version_id": 163946
+      },
+      {
+        "crate_id": "tower-timeout", "default_features": true,
+        "downloads": 0, "features": [], "id": 828105, "kind": "normal",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 163946
+      },
+      {
+        "crate_id": "tower-util", "default_features": true, "downloads": 0,
+        "features": ["io"], "id": 828106, "kind": "normal",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 163946
+      },
+      {
+        "crate_id": "void", "default_features": true, "downloads": 0,
+        "features": [], "id": 828111, "kind": "dev", "optional": false,
+        "req": "^1.0.2", "target": null, "version_id": 163946
+      }
+    ],
+    "dl_path": "/api/v1/crates/tower/0.1.1/download",
+    "downloads": 254222, "features": {"default": ["full"], "full": []},
+    "id": 163946, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tower/0.1.1/authors",
+      "dependencies": "/api/v1/crates/tower/0.1.1/dependencies",
+      "version_downloads": "/api/v1/crates/tower/0.1.1/downloads"
+    },
+    "num": "0.1.1",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/5758045?v=4",
+      "id": 3959, "login": "LucioFranco", "name": "Lucio Franco",
+      "url": "https://github.com/LucioFranco"
+    },
+    "readme_path": "/api/v1/crates/tower/0.1.1/readme",
+    "updated_at": "2019-07-19T18:54:12.381896+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Tower Maintainers <team@tower-rs.com>"]},
+      "users": []
+    },
+    "crate": "tower", "crate_size": 5863,
+    "created_at": "2019-09-11T20:45:57.843670+00:00",
+    "dependencies": [
+      {
+        "crate_id": "env_logger", "default_features": false, "downloads": 0,
+        "features": [], "id": 901742, "kind": "dev", "optional": false,
+        "req": "^0.5.3", "target": null, "version_id": 175755
+      },
+      {
+        "crate_id": "futures-core-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 901732, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.18", "target": null,
+        "version_id": 175755
+      },
+      {
+        "crate_id": "futures-util-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 901743, "kind": "dev",
+        "optional": false, "req": "=0.3.0-alpha.18", "target": null,
+        "version_id": 175755
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 901744, "kind": "dev", "optional": false,
+        "req": "^0.4.1", "target": null, "version_id": 175755
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 901745, "kind": "dev", "optional": false,
+        "req": "=0.2.0-alpha.4", "target": null, "version_id": 175755
+      },
+      {
+        "crate_id": "tower-buffer", "default_features": true,
+        "downloads": 0, "features": [], "id": 901733, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.1", "target": null,
+        "version_id": 175755
+      },
+      {
+        "crate_id": "tower-discover", "default_features": true,
+        "downloads": 0, "features": [], "id": 901734, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.1", "target": null,
+        "version_id": 175755
+      },
+      {
+        "crate_id": "tower-layer", "default_features": true, "downloads": 0,
+        "features": [], "id": 901735, "kind": "normal", "optional": false,
+        "req": "=0.3.0-alpha.1", "target": null, "version_id": 175755
+      },
+      {
+        "crate_id": "tower-limit", "default_features": true, "downloads": 0,
+        "features": [], "id": 901736, "kind": "normal", "optional": false,
+        "req": "=0.3.0-alpha.1", "target": null, "version_id": 175755
+      },
+      {
+        "crate_id": "tower-load-shed", "default_features": true,
+        "downloads": 0, "features": [], "id": 901737, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.1", "target": null,
+        "version_id": 175755
+      },
+      {
+        "crate_id": "tower-retry", "default_features": true, "downloads": 0,
+        "features": [], "id": 901738, "kind": "normal", "optional": false,
+        "req": "=0.3.0-alpha.1", "target": null, "version_id": 175755
+      },
+      {
+        "crate_id": "tower-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 901739, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.1", "target": null,
+        "version_id": 175755
+      },
+      {
+        "crate_id": "tower-test", "default_features": true, "downloads": 0,
+        "features": [], "id": 901746, "kind": "dev", "optional": false,
+        "req": "=0.3.0-alpha.1", "target": null, "version_id": 175755
+      },
+      {
+        "crate_id": "tower-timeout", "default_features": true,
+        "downloads": 0, "features": [], "id": 901740, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.1", "target": null,
+        "version_id": 175755
+      },
+      {
+        "crate_id": "tower-util", "default_features": true, "downloads": 0,
+        "features": [], "id": 901741, "kind": "normal", "optional": false,
+        "req": "=0.3.0-alpha.1", "target": null, "version_id": 175755
+      }
+    ],
+    "dl_path": "/api/v1/crates/tower/0.3.0-alpha.1/download",
+    "downloads": 130, "features": {"default": ["full"], "full": []},
+    "id": 175755, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tower/0.3.0-alpha.1/authors",
+      "dependencies": "/api/v1/crates/tower/0.3.0-alpha.1/dependencies",
+      "version_downloads": "/api/v1/crates/tower/0.3.0-alpha.1/downloads"
+    },
+    "num": "0.3.0-alpha.1",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/5758045?v=4",
+      "id": 3959, "login": "LucioFranco", "name": "Lucio Franco",
+      "url": "https://github.com/LucioFranco"
+    },
+    "readme_path": "/api/v1/crates/tower/0.3.0-alpha.1/readme",
+    "updated_at": "2019-09-11T20:45:57.843670+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Tower Maintainers <team@tower-rs.com>"]},
+      "users": []
+    },
+    "crate": "tower", "crate_size": 5791,
+    "created_at": "2019-10-01T01:07:18.418982+00:00",
+    "dependencies": [
+      {
+        "crate_id": "env_logger", "default_features": false, "downloads": 0,
+        "features": [], "id": 925318, "kind": "dev", "optional": false,
+        "req": "^0.5.3", "target": null, "version_id": 179607
+      },
+      {
+        "crate_id": "futures-core-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 925308, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.19", "target": null,
+        "version_id": 179607
+      },
+      {
+        "crate_id": "futures-util-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 925319, "kind": "dev",
+        "optional": false, "req": "=0.3.0-alpha.19", "target": null,
+        "version_id": 179607
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 925320, "kind": "dev", "optional": false,
+        "req": "^0.4.1", "target": null, "version_id": 179607
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 925321, "kind": "dev", "optional": false,
+        "req": "=0.2.0-alpha.6", "target": null, "version_id": 179607
+      },
+      {
+        "crate_id": "tower-buffer", "default_features": true,
+        "downloads": 0, "features": [], "id": 925309, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.2", "target": null,
+        "version_id": 179607
+      },
+      {
+        "crate_id": "tower-discover", "default_features": true,
+        "downloads": 0, "features": [], "id": 925310, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.2", "target": null,
+        "version_id": 179607
+      },
+      {
+        "crate_id": "tower-layer", "default_features": true, "downloads": 0,
+        "features": [], "id": 925311, "kind": "normal", "optional": false,
+        "req": "=0.3.0-alpha.2", "target": null, "version_id": 179607
+      },
+      {
+        "crate_id": "tower-limit", "default_features": true, "downloads": 0,
+        "features": [], "id": 925312, "kind": "normal", "optional": false,
+        "req": "=0.3.0-alpha.2", "target": null, "version_id": 179607
+      },
+      {
+        "crate_id": "tower-load-shed", "default_features": true,
+        "downloads": 0, "features": [], "id": 925313, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.2", "target": null,
+        "version_id": 179607
+      },
+      {
+        "crate_id": "tower-retry", "default_features": true, "downloads": 0,
+        "features": [], "id": 925314, "kind": "normal", "optional": false,
+        "req": "=0.3.0-alpha.2", "target": null, "version_id": 179607
+      },
+      {
+        "crate_id": "tower-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 925315, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.2", "target": null,
+        "version_id": 179607
+      },
+      {
+        "crate_id": "tower-test", "default_features": true, "downloads": 0,
+        "features": [], "id": 925322, "kind": "dev", "optional": false,
+        "req": "=0.3.0-alpha.2", "target": null, "version_id": 179607
+      },
+      {
+        "crate_id": "tower-timeout", "default_features": true,
+        "downloads": 0, "features": [], "id": 925316, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.2", "target": null,
+        "version_id": 179607
+      },
+      {
+        "crate_id": "tower-util", "default_features": true, "downloads": 0,
+        "features": [], "id": 925317, "kind": "normal", "optional": false,
+        "req": "=0.3.0-alpha.2", "target": null, "version_id": 179607
+      }
+    ],
+    "dl_path": "/api/v1/crates/tower/0.3.0-alpha.2/download",
+    "downloads": 25299, "features": {"default": ["full"], "full": []},
+    "id": 179607, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tower/0.3.0-alpha.2/authors",
+      "dependencies": "/api/v1/crates/tower/0.3.0-alpha.2/dependencies",
+      "version_downloads": "/api/v1/crates/tower/0.3.0-alpha.2/downloads"
+    },
+    "num": "0.3.0-alpha.2",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/5758045?v=4",
+      "id": 3959, "login": "LucioFranco", "name": "Lucio Franco",
+      "url": "https://github.com/LucioFranco"
+    },
+    "readme_path": "/api/v1/crates/tower/0.3.0-alpha.2/readme",
+    "updated_at": "2019-10-01T01:07:18.418982+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Tower Maintainers <team@tower-rs.com>"]},
+      "users": []
+    },
+    "crate": "tower", "crate_size": 5890,
+    "created_at": "2019-09-14T16:49:29.921884+00:00",
+    "dependencies": [
+      {
+        "crate_id": "env_logger", "default_features": false, "downloads": 0,
+        "features": [], "id": 904397, "kind": "dev", "optional": false,
+        "req": "^0.5.3", "target": null, "version_id": 176198
+      },
+      {
+        "crate_id": "futures-core-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 904387, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.18", "target": null,
+        "version_id": 176198
+      },
+      {
+        "crate_id": "futures-util-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 904398, "kind": "dev",
+        "optional": false, "req": "=0.3.0-alpha.18", "target": null,
+        "version_id": 176198
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 904399, "kind": "dev", "optional": false,
+        "req": "^0.4.1", "target": null, "version_id": 176198
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 904400, "kind": "dev", "optional": false,
+        "req": "=0.2.0-alpha.4", "target": null, "version_id": 176198
+      },
+      {
+        "crate_id": "tower-buffer", "default_features": true,
+        "downloads": 0, "features": [], "id": 904388, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.1b", "target": null,
+        "version_id": 176198
+      },
+      {
+        "crate_id": "tower-discover", "default_features": true,
+        "downloads": 0, "features": [], "id": 904389, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.1", "target": null,
+        "version_id": 176198
+      },
+      {
+        "crate_id": "tower-layer", "default_features": true, "downloads": 0,
+        "features": [], "id": 904390, "kind": "normal", "optional": false,
+        "req": "=0.3.0-alpha.1", "target": null, "version_id": 176198
+      },
+      {
+        "crate_id": "tower-limit", "default_features": true, "downloads": 0,
+        "features": [], "id": 904391, "kind": "normal", "optional": false,
+        "req": "=0.3.0-alpha.1", "target": null, "version_id": 176198
+      },
+      {
+        "crate_id": "tower-load-shed", "default_features": true,
+        "downloads": 0, "features": [], "id": 904392, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.1", "target": null,
+        "version_id": 176198
+      },
+      {
+        "crate_id": "tower-retry", "default_features": true, "downloads": 0,
+        "features": [], "id": 904393, "kind": "normal", "optional": false,
+        "req": "=0.3.0-alpha.1", "target": null, "version_id": 176198
+      },
+      {
+        "crate_id": "tower-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 904394, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.1", "target": null,
+        "version_id": 176198
+      },
+      {
+        "crate_id": "tower-test", "default_features": true, "downloads": 0,
+        "features": [], "id": 904401, "kind": "dev", "optional": false,
+        "req": "=0.3.0-alpha.1", "target": null, "version_id": 176198
+      },
+      {
+        "crate_id": "tower-timeout", "default_features": true,
+        "downloads": 0, "features": [], "id": 904395, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.1", "target": null,
+        "version_id": 176198
+      },
+      {
+        "crate_id": "tower-util", "default_features": true, "downloads": 0,
+        "features": [], "id": 904396, "kind": "normal", "optional": false,
+        "req": "=0.3.0-alpha.1", "target": null, "version_id": 176198
+      }
+    ],
+    "dl_path": "/api/v1/crates/tower/0.3.0-alpha.1a/download",
+    "downloads": 576, "features": {"default": ["full"], "full": []},
+    "id": 176198, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tower/0.3.0-alpha.1a/authors",
+      "dependencies": "/api/v1/crates/tower/0.3.0-alpha.1a/dependencies",
+      "version_downloads": "/api/v1/crates/tower/0.3.0-alpha.1a/downloads"
+    },
+    "num": "0.3.0-alpha.1a",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/5758045?v=4",
+      "id": 3959, "login": "LucioFranco", "name": "Lucio Franco",
+      "url": "https://github.com/LucioFranco"
+    },
+    "readme_path": "/api/v1/crates/tower/0.3.0-alpha.1a/readme",
+    "updated_at": "2019-09-14T16:49:29.921884+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2019-12-19T23:18:30.544026+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/5758045?v=4",
+          "id": 3959, "login": "LucioFranco", "name": "Lucio Franco",
+          "url": "https://github.com/LucioFranco"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Tower Maintainers <team@tower-rs.com>"]},
+      "users": []
+    },
+    "crate": "tower", "crate_size": 5506,
+    "created_at": "2019-12-19T23:18:30.544026+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 1048092, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 197625
+      },
+      {
+        "crate_id": "futures-util", "default_features": false,
+        "downloads": 0, "features": [], "id": 1048102, "kind": "dev",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 197625
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["macros"], "id": 1048103, "kind": "dev",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 197625
+      },
+      {
+        "crate_id": "tower-buffer", "default_features": true,
+        "downloads": 0, "features": [], "id": 1048093, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 197625
+      },
+      {
+        "crate_id": "tower-discover", "default_features": true,
+        "downloads": 0, "features": [], "id": 1048094, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 197625
+      },
+      {
+        "crate_id": "tower-layer", "default_features": true, "downloads": 0,
+        "features": [], "id": 1048095, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 197625
+      },
+      {
+        "crate_id": "tower-limit", "default_features": true, "downloads": 0,
+        "features": [], "id": 1048096, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 197625
+      },
+      {
+        "crate_id": "tower-load-shed", "default_features": true,
+        "downloads": 0, "features": [], "id": 1048097, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 197625
+      },
+      {
+        "crate_id": "tower-retry", "default_features": true, "downloads": 0,
+        "features": [], "id": 1048098, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 197625
+      },
+      {
+        "crate_id": "tower-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 1048099, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 197625
+      },
+      {
+        "crate_id": "tower-test", "default_features": true, "downloads": 0,
+        "features": [], "id": 1048104, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 197625
+      },
+      {
+        "crate_id": "tower-timeout", "default_features": true,
+        "downloads": 0, "features": [], "id": 1048100, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 197625
+      },
+      {
+        "crate_id": "tower-util", "default_features": true, "downloads": 0,
+        "features": ["call-all"], "id": 1048101, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 197625
+      }
+    ],
+    "dl_path": "/api/v1/crates/tower/0.3.0/download",
+    "downloads": 43636, "features": {"default": ["full"], "full": []},
+    "id": 197625, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tower/0.3.0/authors",
+      "dependencies": "/api/v1/crates/tower/0.3.0/dependencies",
+      "version_downloads": "/api/v1/crates/tower/0.3.0/downloads"
+    },
+    "num": "0.3.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/5758045?v=4",
+      "id": 3959, "login": "LucioFranco", "name": "Lucio Franco",
+      "url": "https://github.com/LucioFranco"
+    },
+    "readme_path": "/api/v1/crates/tower/0.3.0/readme",
+    "updated_at": "2019-12-19T23:18:30.544026+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-01-18T03:53:45.739372+00:00",
+        "user": {
+          "avatar": "https://avatars2.githubusercontent.com/u/176295?v=4",
+          "id": 3989, "login": "jonhoo", "name": "Jon Gjengset",
+          "url": "https://github.com/jonhoo"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Tower Maintainers <team@tower-rs.com>"]},
+      "users": []
+    },
+    "crate": "tower", "crate_size": 5547,
+    "created_at": "2020-01-18T03:53:45.739372+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 1096034, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 204831
+      },
+      {
+        "crate_id": "futures-util", "default_features": false,
+        "downloads": 0, "features": [], "id": 1096044, "kind": "dev",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 204831
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["macros"], "id": 1096045, "kind": "dev",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 204831
+      },
+      {
+        "crate_id": "tower-buffer", "default_features": false,
+        "downloads": 0, "features": [], "id": 1096035, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 204831
+      },
+      {
+        "crate_id": "tower-discover", "default_features": true,
+        "downloads": 0, "features": [], "id": 1096036, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 204831
+      },
+      {
+        "crate_id": "tower-layer", "default_features": true, "downloads": 0,
+        "features": [], "id": 1096037, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 204831
+      },
+      {
+        "crate_id": "tower-limit", "default_features": true, "downloads": 0,
+        "features": [], "id": 1096038, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 204831
+      },
+      {
+        "crate_id": "tower-load-shed", "default_features": true,
+        "downloads": 0, "features": [], "id": 1096039, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 204831
+      },
+      {
+        "crate_id": "tower-retry", "default_features": true, "downloads": 0,
+        "features": [], "id": 1096040, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 204831
+      },
+      {
+        "crate_id": "tower-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 1096041, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 204831
+      },
+      {
+        "crate_id": "tower-test", "default_features": true, "downloads": 0,
+        "features": [], "id": 1096046, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 204831
+      },
+      {
+        "crate_id": "tower-timeout", "default_features": true,
+        "downloads": 0, "features": [], "id": 1096042, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 204831
+      },
+      {
+        "crate_id": "tower-util", "default_features": true, "downloads": 0,
+        "features": ["call-all"], "id": 1096043, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 204831
+      }
+    ],
+    "dl_path": "/api/v1/crates/tower/0.3.1/download",
+    "downloads": 620472,
+    "features": {"default": ["full", "log"], "full": [], "log": ["tower-buffer/log"]},
+    "id": 204831, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tower/0.3.1/authors",
+      "dependencies": "/api/v1/crates/tower/0.3.1/dependencies",
+      "version_downloads": "/api/v1/crates/tower/0.3.1/downloads"
+    },
+    "num": "0.3.1",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/176295?v=4",
+      "id": 3989, "login": "jonhoo", "name": "Jon Gjengset",
+      "url": "https://github.com/jonhoo"
+    },
+    "readme_path": "/api/v1/crates/tower/0.3.1/readme",
+    "updated_at": "2020-01-18T03:53:45.739372+00:00", "yanked": false
+  }
+]

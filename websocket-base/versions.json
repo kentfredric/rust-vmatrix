@@ -1,0 +1,332 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "cyderize <admin@cyderize.org>",
+          "Michael Eden <themichaeleden@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "websocket-base", "crate_size": 18002,
+    "created_at": "2019-11-07T19:55:55.968127+00:00",
+    "dependencies": [
+      {
+        "crate_id": "base64", "default_features": true, "downloads": 0,
+        "features": [], "id": 983939, "kind": "normal", "optional": false,
+        "req": "^0.10.0", "target": null, "version_id": 188112
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 983940, "kind": "normal", "optional": false,
+        "req": "^1.0.4", "target": null, "version_id": 188112
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 983941, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 188112
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 983945, "kind": "normal", "optional": false,
+        "req": "^0.6.1", "target": null, "version_id": 188112
+      },
+      {
+        "crate_id": "sha1", "default_features": true, "downloads": 0,
+        "features": [], "id": 983946, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 188112
+      },
+      {
+        "crate_id": "tokio", "default_features": false, "downloads": 0,
+        "features": ["codec", "tcp", "rt-full"], "id": 983951,
+        "kind": "dev", "optional": false, "req": "^0.1", "target": null,
+        "version_id": 188112
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 983942, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 188112
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 983943, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 188112
+      },
+      {
+        "crate_id": "native-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 983944, "kind": "normal", "optional": true,
+        "req": "^0.2.1", "target": null, "version_id": 188112
+      },
+      {
+        "crate_id": "tokio-codec", "default_features": true, "downloads": 0,
+        "features": [], "id": 983947, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 188112
+      },
+      {
+        "crate_id": "tokio-io", "default_features": true, "downloads": 0,
+        "features": [], "id": 983948, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 188112
+      },
+      {
+        "crate_id": "tokio-tcp", "default_features": true, "downloads": 0,
+        "features": [], "id": 983949, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 188112
+      },
+      {
+        "crate_id": "tokio-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 983950, "kind": "normal", "optional": true,
+        "req": "^0.2.0", "target": null, "version_id": 188112
+      }
+    ],
+    "dl_path": "/api/v1/crates/websocket-base/0.24.0/download",
+    "downloads": 62494,
+    "features": {
+      "async": ["tokio-codec", "tokio-io", "tokio-tcp", "bytes", "futures"],
+      "async-ssl": ["native-tls", "tokio-tls", "async"],
+      "default": ["sync", "async", "sync-ssl", "async-ssl"], "sync": [],
+      "sync-ssl": ["native-tls", "sync"]
+    },
+    "id": 188112, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/websocket-base/0.24.0/authors",
+      "dependencies": "/api/v1/crates/websocket-base/0.24.0/dependencies",
+      "version_downloads": "/api/v1/crates/websocket-base/0.24.0/downloads"
+    },
+    "num": "0.24.0",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/173219?v=4",
+      "id": 2471, "login": "vi", "name": "Vitaly Shukela",
+      "url": "https://github.com/vi"
+    },
+    "readme_path": "/api/v1/crates/websocket-base/0.24.0/readme",
+    "updated_at": "2019-11-07T19:55:55.968127+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-07-06T19:27:49.000133+00:00",
+        "user": {
+          "avatar": "https://avatars2.githubusercontent.com/u/173219?v=4",
+          "id": 2471, "login": "vi", "name": "Vitaly Shukela",
+          "url": "https://github.com/vi"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "cyderize <admin@cyderize.org>",
+          "Michael Eden <themichaeleden@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "websocket-base", "crate_size": 18802,
+    "created_at": "2020-07-06T19:27:49.000133+00:00",
+    "dependencies": [
+      {
+        "crate_id": "base64", "default_features": true, "downloads": 0,
+        "features": [], "id": 1502443, "kind": "normal", "optional": false,
+        "req": "^0.10.0", "target": null, "version_id": 259628
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1502444, "kind": "normal", "optional": false,
+        "req": "^1.0.4", "target": null, "version_id": 259628
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1502445, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 259628
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1502449, "kind": "normal", "optional": false,
+        "req": "^0.6.1", "target": null, "version_id": 259628
+      },
+      {
+        "crate_id": "sha-1", "default_features": true, "downloads": 0,
+        "features": [], "id": 1502450, "kind": "normal", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 259628
+      },
+      {
+        "crate_id": "tokio", "default_features": false, "downloads": 0,
+        "features": ["codec", "tcp", "rt-full"], "id": 1502455,
+        "kind": "dev", "optional": false, "req": "^0.1", "target": null,
+        "version_id": 259628
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1502446, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 259628
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1502447, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 259628
+      },
+      {
+        "crate_id": "native-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1502448, "kind": "normal", "optional": true,
+        "req": "^0.2.1", "target": null, "version_id": 259628
+      },
+      {
+        "crate_id": "tokio-codec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1502451, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 259628
+      },
+      {
+        "crate_id": "tokio-io", "default_features": true, "downloads": 0,
+        "features": [], "id": 1502452, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 259628
+      },
+      {
+        "crate_id": "tokio-tcp", "default_features": true, "downloads": 0,
+        "features": [], "id": 1502453, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 259628
+      },
+      {
+        "crate_id": "tokio-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1502454, "kind": "normal", "optional": true,
+        "req": "^0.2.0", "target": null, "version_id": 259628
+      }
+    ],
+    "dl_path": "/api/v1/crates/websocket-base/0.26.1/download",
+    "downloads": 311,
+    "features": {
+      "async": ["tokio-codec", "tokio-io", "tokio-tcp", "bytes", "futures"],
+      "async-ssl": ["native-tls", "tokio-tls", "async"],
+      "default": ["sync", "async", "sync-ssl", "async-ssl"], "sync": [],
+      "sync-ssl": ["native-tls", "sync"]
+    },
+    "id": 259628, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/websocket-base/0.26.1/authors",
+      "dependencies": "/api/v1/crates/websocket-base/0.26.1/dependencies",
+      "version_downloads": "/api/v1/crates/websocket-base/0.26.1/downloads"
+    },
+    "num": "0.26.1",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/173219?v=4",
+      "id": 2471, "login": "vi", "name": "Vitaly Shukela",
+      "url": "https://github.com/vi"
+    },
+    "readme_path": "/api/v1/crates/websocket-base/0.26.1/readme",
+    "updated_at": "2020-07-06T19:27:49.000133+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-07-08T19:09:35.544337+00:00",
+        "user": {
+          "avatar": "https://avatars2.githubusercontent.com/u/173219?v=4",
+          "id": 2471, "login": "vi", "name": "Vitaly Shukela",
+          "url": "https://github.com/vi"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "cyderize <admin@cyderize.org>",
+          "Michael Eden <themichaeleden@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "websocket-base", "crate_size": 18804,
+    "created_at": "2020-07-08T19:09:35.544337+00:00",
+    "dependencies": [
+      {
+        "crate_id": "base64", "default_features": true, "downloads": 0,
+        "features": [], "id": 1506425, "kind": "normal", "optional": false,
+        "req": "^0.10.0", "target": null, "version_id": 260146
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1506426, "kind": "normal", "optional": false,
+        "req": "^1.0.4", "target": null, "version_id": 260146
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1506427, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 260146
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1506431, "kind": "normal", "optional": false,
+        "req": "^0.6.1", "target": null, "version_id": 260146
+      },
+      {
+        "crate_id": "sha-1", "default_features": true, "downloads": 0,
+        "features": [], "id": 1506432, "kind": "normal", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 260146
+      },
+      {
+        "crate_id": "tokio", "default_features": false, "downloads": 0,
+        "features": ["codec", "tcp", "rt-full"], "id": 1506437,
+        "kind": "dev", "optional": false, "req": "^0.1", "target": null,
+        "version_id": 260146
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1506428, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 260146
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1506429, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 260146
+      },
+      {
+        "crate_id": "native-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1506430, "kind": "normal", "optional": true,
+        "req": "^0.2.1", "target": null, "version_id": 260146
+      },
+      {
+        "crate_id": "tokio-codec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1506433, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 260146
+      },
+      {
+        "crate_id": "tokio-io", "default_features": true, "downloads": 0,
+        "features": [], "id": 1506434, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 260146
+      },
+      {
+        "crate_id": "tokio-tcp", "default_features": true, "downloads": 0,
+        "features": [], "id": 1506435, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 260146
+      },
+      {
+        "crate_id": "tokio-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1506436, "kind": "normal", "optional": true,
+        "req": "^0.2.0", "target": null, "version_id": 260146
+      }
+    ],
+    "dl_path": "/api/v1/crates/websocket-base/0.26.2/download",
+    "downloads": 6823,
+    "features": {
+      "async": ["tokio-codec", "tokio-io", "tokio-tcp", "bytes", "futures"],
+      "async-ssl": ["native-tls", "tokio-tls", "async"],
+      "default": ["sync", "async", "sync-ssl", "async-ssl"], "sync": [],
+      "sync-ssl": ["native-tls", "sync"]
+    },
+    "id": 260146, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/websocket-base/0.26.2/authors",
+      "dependencies": "/api/v1/crates/websocket-base/0.26.2/dependencies",
+      "version_downloads": "/api/v1/crates/websocket-base/0.26.2/downloads"
+    },
+    "num": "0.26.2",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/173219?v=4",
+      "id": 2471, "login": "vi", "name": "Vitaly Shukela",
+      "url": "https://github.com/vi"
+    },
+    "readme_path": "/api/v1/crates/websocket-base/0.26.2/readme",
+    "updated_at": "2020-07-08T19:09:35.544337+00:00", "yanked": false
+  }
+]

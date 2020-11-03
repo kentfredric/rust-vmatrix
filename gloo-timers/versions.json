@@ -1,0 +1,232 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Rust and WebAssembly Working Group"]},
+      "users": []
+    },
+    "crate": "gloo-timers", "crate_size": 5606,
+    "created_at": "2019-09-13T11:49:44.838113+00:00",
+    "dependencies": [
+      {
+        "crate_id": "js-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 903195, "kind": "normal", "optional": false,
+        "req": "^0.3.17", "target": null, "version_id": 175985
+      },
+      {
+        "crate_id": "wasm-bindgen", "default_features": true,
+        "downloads": 0, "features": [], "id": 903196, "kind": "normal",
+        "optional": false, "req": "^0.2.43", "target": null,
+        "version_id": 175985
+      },
+      {
+        "crate_id": "wasm-bindgen-test", "default_features": true,
+        "downloads": 0, "features": [], "id": 903199, "kind": "dev",
+        "optional": false, "req": "^0.2.43", "target": null,
+        "version_id": 175985
+      },
+      {
+        "crate_id": "web-sys", "default_features": true, "downloads": 0,
+        "features": ["Window"], "id": 903198, "kind": "normal",
+        "optional": false, "req": "^0.3.19", "target": null,
+        "version_id": 175985
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 903194, "kind": "normal", "optional": true,
+        "req": "^0.1.25", "target": null, "version_id": 175985
+      },
+      {
+        "crate_id": "wasm-bindgen-futures", "default_features": true,
+        "downloads": 0, "features": [], "id": 903197, "kind": "normal",
+        "optional": true, "req": "^0.3.19", "target": null,
+        "version_id": 175985
+      }
+    ],
+    "dl_path": "/api/v1/crates/gloo-timers/0.1.0/download",
+    "downloads": 6810,
+    "features": {"default": [], "futures": ["futures_rs", "wasm-bindgen-futures"]},
+    "id": 175985, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gloo-timers/0.1.0/authors",
+      "dependencies": "/api/v1/crates/gloo-timers/0.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/gloo-timers/0.1.0/downloads"
+    },
+    "num": "0.1.0",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/97238?v=4",
+      "id": 4798, "login": "Pauan", "name": null,
+      "url": "https://github.com/Pauan"
+    },
+    "readme_path": "/api/v1/crates/gloo-timers/0.1.0/readme",
+    "updated_at": "2019-09-13T11:49:44.838113+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2019-12-12T08:09:34.337818+00:00",
+        "user": {
+          "avatar": "https://avatars2.githubusercontent.com/u/97238?v=4",
+          "id": 4798, "login": "Pauan", "name": null,
+          "url": "https://github.com/Pauan"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Rust and WebAssembly Working Group"]},
+      "users": []
+    },
+    "crate": "gloo-timers", "crate_size": 5317,
+    "created_at": "2019-12-12T08:09:34.337818+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures-util", "default_features": true,
+        "downloads": 0, "features": [], "id": 1036616, "kind": "dev",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 195868
+      },
+      {
+        "crate_id": "js-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1036613, "kind": "normal", "optional": false,
+        "req": "^0.3.31", "target": null, "version_id": 195868
+      },
+      {
+        "crate_id": "wasm-bindgen", "default_features": true,
+        "downloads": 0, "features": [], "id": 1036614, "kind": "normal",
+        "optional": false, "req": "^0.2.54", "target": null,
+        "version_id": 195868
+      },
+      {
+        "crate_id": "wasm-bindgen-futures", "default_features": true,
+        "downloads": 0, "features": [], "id": 1036617, "kind": "dev",
+        "optional": false, "req": "^0.4.4", "target": null,
+        "version_id": 195868
+      },
+      {
+        "crate_id": "wasm-bindgen-test", "default_features": true,
+        "downloads": 0, "features": [], "id": 1036618, "kind": "dev",
+        "optional": false, "req": "^0.3.4", "target": null,
+        "version_id": 195868
+      },
+      {
+        "crate_id": "web-sys", "default_features": true, "downloads": 0,
+        "features": ["Window"], "id": 1036615, "kind": "normal",
+        "optional": false, "req": "^0.3.19", "target": null,
+        "version_id": 195868
+      },
+      {
+        "crate_id": "futures-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1036611, "kind": "normal",
+        "optional": true, "req": "^0.3", "target": null,
+        "version_id": 195868
+      },
+      {
+        "crate_id": "futures-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 1036612, "kind": "normal",
+        "optional": true, "req": "^0.3", "target": null,
+        "version_id": 195868
+      }
+    ],
+    "dl_path": "/api/v1/crates/gloo-timers/0.2.0/download",
+    "downloads": 15348,
+    "features": {"default": [], "futures": ["futures-core", "futures-channel"]},
+    "id": 195868, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gloo-timers/0.2.0/authors",
+      "dependencies": "/api/v1/crates/gloo-timers/0.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/gloo-timers/0.2.0/downloads"
+    },
+    "num": "0.2.0",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/97238?v=4",
+      "id": 4798, "login": "Pauan", "name": null,
+      "url": "https://github.com/Pauan"
+    },
+    "readme_path": "/api/v1/crates/gloo-timers/0.2.0/readme",
+    "updated_at": "2019-12-12T08:09:34.337818+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-03-11T15:08:17.690142+00:00",
+        "user": {
+          "avatar": "https://avatars2.githubusercontent.com/u/97238?v=4",
+          "id": 4798, "login": "Pauan", "name": null,
+          "url": "https://github.com/Pauan"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Rust and WebAssembly Working Group"]},
+      "users": []
+    },
+    "crate": "gloo-timers", "crate_size": 5832,
+    "created_at": "2020-03-11T15:08:17.690142+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures-util", "default_features": true,
+        "downloads": 0, "features": [], "id": 1211353, "kind": "dev",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 220065
+      },
+      {
+        "crate_id": "js-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1211350, "kind": "normal", "optional": false,
+        "req": "^0.3.31", "target": null, "version_id": 220065
+      },
+      {
+        "crate_id": "wasm-bindgen", "default_features": true,
+        "downloads": 0, "features": [], "id": 1211351, "kind": "normal",
+        "optional": false, "req": "^0.2.54", "target": null,
+        "version_id": 220065
+      },
+      {
+        "crate_id": "wasm-bindgen-futures", "default_features": true,
+        "downloads": 0, "features": [], "id": 1211354, "kind": "dev",
+        "optional": false, "req": "^0.4.4", "target": null,
+        "version_id": 220065
+      },
+      {
+        "crate_id": "wasm-bindgen-test", "default_features": true,
+        "downloads": 0, "features": [], "id": 1211355, "kind": "dev",
+        "optional": false, "req": "^0.3.4", "target": null,
+        "version_id": 220065
+      },
+      {
+        "crate_id": "web-sys", "default_features": true, "downloads": 0,
+        "features": ["Window", "WorkerGlobalScope"], "id": 1211352,
+        "kind": "normal", "optional": false, "req": "^0.3.19",
+        "target": null, "version_id": 220065
+      },
+      {
+        "crate_id": "futures-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1211348, "kind": "normal",
+        "optional": true, "req": "^0.3", "target": null,
+        "version_id": 220065
+      },
+      {
+        "crate_id": "futures-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 1211349, "kind": "normal",
+        "optional": true, "req": "^0.3", "target": null,
+        "version_id": 220065
+      }
+    ],
+    "dl_path": "/api/v1/crates/gloo-timers/0.2.1/download",
+    "downloads": 441077,
+    "features": {"default": [], "futures": ["futures-core", "futures-channel"]},
+    "id": 220065, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gloo-timers/0.2.1/authors",
+      "dependencies": "/api/v1/crates/gloo-timers/0.2.1/dependencies",
+      "version_downloads": "/api/v1/crates/gloo-timers/0.2.1/downloads"
+    },
+    "num": "0.2.1",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/97238?v=4",
+      "id": 4798, "login": "Pauan", "name": null,
+      "url": "https://github.com/Pauan"
+    },
+    "readme_path": "/api/v1/crates/gloo-timers/0.2.1/readme",
+    "updated_at": "2020-03-11T15:08:17.690142+00:00", "yanked": false
+  }
+]

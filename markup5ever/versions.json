@@ -1,0 +1,1412 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Simon Sapin <simon.sapin@exyr.org>"]},
+      "users": []
+    },
+    "crate": "markup5ever", "crate_size": null,
+    "created_at": "2017-02-25T21:47:06.765799+00:00",
+    "dependencies": [],
+    "dl_path": "/api/v1/crates/markup5ever/0.0.0/download",
+    "downloads": 447, "features": {}, "id": 46337,
+    "license": "MIT / Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/markup5ever/0.0.0/authors",
+      "dependencies": "/api/v1/crates/markup5ever/0.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/markup5ever/0.0.0/downloads"
+    },
+    "num": "0.0.0", "published_by": null,
+    "readme_path": "/api/v1/crates/markup5ever/0.0.0/readme",
+    "updated_at": "2017-11-30T04:16:09.334386+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["The html5ever Project Developers"]},
+      "users": []
+    },
+    "crate": "markup5ever", "crate_size": null,
+    "created_at": "2017-05-02T17:15:47.620800+00:00",
+    "dependencies": [
+      {
+        "crate_id": "phf", "default_features": true, "downloads": 0,
+        "features": [], "id": 198426, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 52007
+      },
+      {
+        "crate_id": "phf_codegen", "default_features": true, "downloads": 0,
+        "features": [], "id": 198431, "kind": "build", "optional": false,
+        "req": "^0.7.3", "target": null, "version_id": 52007
+      },
+      {
+        "crate_id": "rustc-serialize", "default_features": true,
+        "downloads": 0, "features": [], "id": 198430, "kind": "build",
+        "optional": false, "req": "^0.3.15", "target": null,
+        "version_id": 52007
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 198428, "kind": "normal",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 52007
+      },
+      {
+        "crate_id": "string_cache_codegen", "default_features": true,
+        "downloads": 0, "features": [], "id": 198432, "kind": "build",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 52007
+      },
+      {
+        "crate_id": "tendril", "default_features": true, "downloads": 0,
+        "features": [], "id": 198427, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 52007
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": [], "id": 198429, "kind": "normal", "optional": true,
+        "req": "^0.3", "target": null, "version_id": 52007
+      },
+      {
+        "crate_id": "heapsize_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 198425, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 52007
+      }
+    ],
+    "dl_path": "/api/v1/crates/markup5ever/0.1.0/download",
+    "downloads": 4344,
+    "features": {
+      "heap_size": ["heapsize", "heapsize_derive", "string_cache/heapsize"]
+    },
+    "id": 52007, "license": "MIT / Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/markup5ever/0.1.0/authors",
+      "dependencies": "/api/v1/crates/markup5ever/0.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/markup5ever/0.1.0/downloads"
+    },
+    "num": "0.1.0", "published_by": null,
+    "readme_path": "/api/v1/crates/markup5ever/0.1.0/readme",
+    "updated_at": "2017-11-30T03:10:59.772664+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["The html5ever Project Developers"]},
+      "users": []
+    },
+    "crate": "markup5ever", "crate_size": null,
+    "created_at": "2017-05-22T11:58:37.888975+00:00",
+    "dependencies": [
+      {
+        "crate_id": "phf", "default_features": true, "downloads": 0,
+        "features": [], "id": 209037, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 54040
+      },
+      {
+        "crate_id": "phf_codegen", "default_features": true, "downloads": 0,
+        "features": [], "id": 209044, "kind": "build", "optional": false,
+        "req": "^0.7.3", "target": null, "version_id": 54040
+      },
+      {
+        "crate_id": "rustc-serialize", "default_features": true,
+        "downloads": 0, "features": [], "id": 209042, "kind": "build",
+        "optional": false, "req": "^0.3.15", "target": null,
+        "version_id": 54040
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 209041, "kind": "normal",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 54040
+      },
+      {
+        "crate_id": "string_cache_codegen", "default_features": true,
+        "downloads": 0, "features": [], "id": 209043, "kind": "build",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 54040
+      },
+      {
+        "crate_id": "tendril", "default_features": true, "downloads": 0,
+        "features": [], "id": 209038, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 54040
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": [], "id": 209039, "kind": "normal", "optional": true,
+        "req": "^0.3", "target": null, "version_id": 54040
+      },
+      {
+        "crate_id": "heapsize_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 209040, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 54040
+      }
+    ],
+    "dl_path": "/api/v1/crates/markup5ever/0.2.0/download",
+    "downloads": 931,
+    "features": {
+      "heap_size": ["heapsize", "heapsize_derive", "string_cache/heapsize"],
+      "unstable": ["tendril/unstable"]
+    },
+    "id": 54040, "license": "MIT / Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/markup5ever/0.2.0/authors",
+      "dependencies": "/api/v1/crates/markup5ever/0.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/markup5ever/0.2.0/downloads"
+    },
+    "num": "0.2.0", "published_by": null,
+    "readme_path": "/api/v1/crates/markup5ever/0.2.0/readme",
+    "updated_at": "2017-11-30T03:47:27.162138+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["The html5ever Project Developers"]},
+      "users": []
+    },
+    "crate": "markup5ever", "crate_size": null,
+    "created_at": "2017-05-28T23:33:57.627476+00:00",
+    "dependencies": [
+      {
+        "crate_id": "phf", "default_features": true, "downloads": 0,
+        "features": [], "id": 215122, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 54995
+      },
+      {
+        "crate_id": "phf_codegen", "default_features": true, "downloads": 0,
+        "features": [], "id": 215125, "kind": "build", "optional": false,
+        "req": "^0.7.3", "target": null, "version_id": 54995
+      },
+      {
+        "crate_id": "rustc-serialize", "default_features": true,
+        "downloads": 0, "features": [], "id": 215127, "kind": "build",
+        "optional": false, "req": "^0.3.15", "target": null,
+        "version_id": 54995
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 215124, "kind": "normal",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 54995
+      },
+      {
+        "crate_id": "string_cache_codegen", "default_features": true,
+        "downloads": 0, "features": [], "id": 215126, "kind": "build",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 54995
+      },
+      {
+        "crate_id": "tendril", "default_features": true, "downloads": 0,
+        "features": [], "id": 215123, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 54995
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": [], "id": 215121, "kind": "normal", "optional": true,
+        "req": ">=0.3, <0.5", "target": null, "version_id": 54995
+      },
+      {
+        "crate_id": "heapsize_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 215120, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 54995
+      }
+    ],
+    "dl_path": "/api/v1/crates/markup5ever/0.2.1/download",
+    "downloads": 6624,
+    "features": {
+      "heap_size": ["heapsize", "heapsize_derive", "string_cache/heapsize"],
+      "unstable": ["tendril/unstable"]
+    },
+    "id": 54995, "license": "MIT / Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/markup5ever/0.2.1/authors",
+      "dependencies": "/api/v1/crates/markup5ever/0.2.1/dependencies",
+      "version_downloads": "/api/v1/crates/markup5ever/0.2.1/downloads"
+    },
+    "num": "0.2.1", "published_by": null,
+    "readme_path": "/api/v1/crates/markup5ever/0.2.1/readme",
+    "updated_at": "2017-11-30T03:22:25.946147+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["The html5ever Project Developers"]},
+      "users": []
+    },
+    "crate": "markup5ever", "crate_size": null,
+    "created_at": "2017-06-16T10:15:12.505733+00:00",
+    "dependencies": [
+      {
+        "crate_id": "phf", "default_features": true, "downloads": 0,
+        "features": [], "id": 224291, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 56912
+      },
+      {
+        "crate_id": "phf_codegen", "default_features": true, "downloads": 0,
+        "features": [], "id": 224294, "kind": "build", "optional": false,
+        "req": "^0.7.3", "target": null, "version_id": 56912
+      },
+      {
+        "crate_id": "rustc-serialize", "default_features": true,
+        "downloads": 0, "features": [], "id": 224293, "kind": "build",
+        "optional": false, "req": "^0.3.15", "target": null,
+        "version_id": 56912
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 224289, "kind": "normal",
+        "optional": false, "req": "^0.6", "target": null,
+        "version_id": 56912
+      },
+      {
+        "crate_id": "string_cache_codegen", "default_features": true,
+        "downloads": 0, "features": [], "id": 224295, "kind": "build",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 56912
+      },
+      {
+        "crate_id": "tendril", "default_features": true, "downloads": 0,
+        "features": [], "id": 224290, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 56912
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": [], "id": 224292, "kind": "normal", "optional": true,
+        "req": ">=0.3, <0.5", "target": null, "version_id": 56912
+      },
+      {
+        "crate_id": "heapsize_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 224288, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 56912
+      }
+    ],
+    "dl_path": "/api/v1/crates/markup5ever/0.3.0/download",
+    "downloads": 2711,
+    "features": {
+      "heap_size": ["heapsize", "heapsize_derive", "string_cache/heapsize"],
+      "unstable": ["tendril/unstable"]
+    },
+    "id": 56912, "license": "MIT / Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/markup5ever/0.3.0/authors",
+      "dependencies": "/api/v1/crates/markup5ever/0.3.0/dependencies",
+      "version_downloads": "/api/v1/crates/markup5ever/0.3.0/downloads"
+    },
+    "num": "0.3.0", "published_by": null,
+    "readme_path": "/api/v1/crates/markup5ever/0.3.0/readme",
+    "updated_at": "2017-11-30T03:02:41.645300+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["The html5ever Project Developers"]},
+      "users": []
+    },
+    "crate": "markup5ever", "crate_size": null,
+    "created_at": "2017-06-23T14:09:53.878471+00:00",
+    "dependencies": [
+      {
+        "crate_id": "phf", "default_features": true, "downloads": 0,
+        "features": [], "id": 228284, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 57713
+      },
+      {
+        "crate_id": "phf_codegen", "default_features": true, "downloads": 0,
+        "features": [], "id": 228287, "kind": "build", "optional": false,
+        "req": "^0.7.3", "target": null, "version_id": 57713
+      },
+      {
+        "crate_id": "rustc-serialize", "default_features": true,
+        "downloads": 0, "features": [], "id": 228286, "kind": "build",
+        "optional": false, "req": "^0.3.15", "target": null,
+        "version_id": 57713
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 228282, "kind": "normal",
+        "optional": false, "req": "^0.6", "target": null,
+        "version_id": 57713
+      },
+      {
+        "crate_id": "string_cache_codegen", "default_features": true,
+        "downloads": 0, "features": [], "id": 228288, "kind": "build",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 57713
+      },
+      {
+        "crate_id": "tendril", "default_features": true, "downloads": 0,
+        "features": [], "id": 228283, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 57713
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": [], "id": 228281, "kind": "normal", "optional": true,
+        "req": ">=0.3, <0.5", "target": null, "version_id": 57713
+      },
+      {
+        "crate_id": "heapsize_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 228285, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 57713
+      }
+    ],
+    "dl_path": "/api/v1/crates/markup5ever/0.3.1/download",
+    "downloads": 2889,
+    "features": {
+      "heap_size": ["heapsize", "heapsize_derive", "string_cache/heapsize"],
+      "unstable": ["tendril/unstable"]
+    },
+    "id": 57713, "license": "MIT / Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/markup5ever/0.3.1/authors",
+      "dependencies": "/api/v1/crates/markup5ever/0.3.1/dependencies",
+      "version_downloads": "/api/v1/crates/markup5ever/0.3.1/downloads"
+    },
+    "num": "0.3.1", "published_by": null,
+    "readme_path": "/api/v1/crates/markup5ever/0.3.1/readme",
+    "updated_at": "2017-11-30T02:59:50.787067+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["The html5ever Project Developers"]},
+      "users": []
+    },
+    "crate": "markup5ever", "crate_size": null,
+    "created_at": "2017-08-03T13:18:19.025126+00:00",
+    "dependencies": [
+      {
+        "crate_id": "phf", "default_features": true, "downloads": 0,
+        "features": [], "id": 248110, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 61482
+      },
+      {
+        "crate_id": "phf_codegen", "default_features": true, "downloads": 0,
+        "features": [], "id": 248112, "kind": "build", "optional": false,
+        "req": "^0.7.3", "target": null, "version_id": 61482
+      },
+      {
+        "crate_id": "rustc-serialize", "default_features": true,
+        "downloads": 0, "features": [], "id": 248113, "kind": "build",
+        "optional": false, "req": "^0.3.15", "target": null,
+        "version_id": 61482
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 248108, "kind": "normal",
+        "optional": false, "req": "^0.6", "target": null,
+        "version_id": 61482
+      },
+      {
+        "crate_id": "string_cache_codegen", "default_features": true,
+        "downloads": 0, "features": [], "id": 248111, "kind": "build",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 61482
+      },
+      {
+        "crate_id": "tendril", "default_features": true, "downloads": 0,
+        "features": [], "id": 248107, "kind": "normal", "optional": false,
+        "req": "^0.3.1", "target": null, "version_id": 61482
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": [], "id": 248106, "kind": "normal", "optional": true,
+        "req": ">=0.3, <0.5", "target": null, "version_id": 61482
+      },
+      {
+        "crate_id": "heapsize_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 248109, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 61482
+      }
+    ],
+    "dl_path": "/api/v1/crates/markup5ever/0.3.2/download",
+    "downloads": 96236,
+    "features": {
+      "heap_size": ["heapsize", "heapsize_derive", "string_cache/heapsize"],
+      "unstable": []
+    },
+    "id": 61482, "license": "MIT / Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/markup5ever/0.3.2/authors",
+      "dependencies": "/api/v1/crates/markup5ever/0.3.2/dependencies",
+      "version_downloads": "/api/v1/crates/markup5ever/0.3.2/downloads"
+    },
+    "num": "0.3.2", "published_by": null,
+    "readme_path": "/api/v1/crates/markup5ever/0.3.2/readme",
+    "updated_at": "2017-11-30T03:07:33.227946+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["The html5ever Project Developers"]},
+      "users": []
+    },
+    "crate": "markup5ever", "crate_size": null,
+    "created_at": "2017-08-17T18:55:20.830573+00:00",
+    "dependencies": [
+      {
+        "crate_id": "phf", "default_features": true, "downloads": 0,
+        "features": [], "id": 254055, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 62647
+      },
+      {
+        "crate_id": "phf_codegen", "default_features": true, "downloads": 0,
+        "features": [], "id": 254059, "kind": "build", "optional": false,
+        "req": "^0.7.3", "target": null, "version_id": 62647
+      },
+      {
+        "crate_id": "rustc-serialize", "default_features": true,
+        "downloads": 0, "features": [], "id": 254060, "kind": "build",
+        "optional": false, "req": "^0.3.15", "target": null,
+        "version_id": 62647
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 254057, "kind": "normal",
+        "optional": false, "req": "^0.6", "target": null,
+        "version_id": 62647
+      },
+      {
+        "crate_id": "string_cache_codegen", "default_features": true,
+        "downloads": 0, "features": [], "id": 254061, "kind": "build",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 62647
+      },
+      {
+        "crate_id": "tendril", "default_features": true, "downloads": 0,
+        "features": [], "id": 254054, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 62647
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": [], "id": 254056, "kind": "normal", "optional": true,
+        "req": ">=0.3, <0.5", "target": null, "version_id": 62647
+      },
+      {
+        "crate_id": "heapsize_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 254058, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 62647
+      }
+    ],
+    "dl_path": "/api/v1/crates/markup5ever/0.4.0/download",
+    "downloads": 3791,
+    "features": {
+      "heap_size": ["heapsize", "heapsize_derive", "string_cache/heapsize"]
+    },
+    "id": 62647, "license": "MIT / Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/markup5ever/0.4.0/authors",
+      "dependencies": "/api/v1/crates/markup5ever/0.4.0/dependencies",
+      "version_downloads": "/api/v1/crates/markup5ever/0.4.0/downloads"
+    },
+    "num": "0.4.0", "published_by": null,
+    "readme_path": "/api/v1/crates/markup5ever/0.4.0/readme",
+    "updated_at": "2017-11-30T04:20:46.440421+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["The html5ever Project Developers"]},
+      "users": []
+    },
+    "crate": "markup5ever", "crate_size": null,
+    "created_at": "2017-09-13T12:20:27.562120+00:00",
+    "dependencies": [
+      {
+        "crate_id": "phf", "default_features": true, "downloads": 0,
+        "features": [], "id": 267201, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 65211
+      },
+      {
+        "crate_id": "phf_codegen", "default_features": true, "downloads": 0,
+        "features": [], "id": 267206, "kind": "build", "optional": false,
+        "req": "^0.7.3", "target": null, "version_id": 65211
+      },
+      {
+        "crate_id": "rustc-serialize", "default_features": true,
+        "downloads": 0, "features": [], "id": 267204, "kind": "build",
+        "optional": false, "req": "^0.3.15", "target": null,
+        "version_id": 65211
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 267202, "kind": "normal",
+        "optional": false, "req": "^0.6", "target": null,
+        "version_id": 65211
+      },
+      {
+        "crate_id": "string_cache_codegen", "default_features": true,
+        "downloads": 0, "features": [], "id": 267205, "kind": "build",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 65211
+      },
+      {
+        "crate_id": "tendril", "default_features": true, "downloads": 0,
+        "features": [], "id": 267203, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 65211
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": [], "id": 267199, "kind": "normal", "optional": true,
+        "req": ">=0.3, <0.5", "target": null, "version_id": 65211
+      },
+      {
+        "crate_id": "heapsize_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 267200, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 65211
+      }
+    ],
+    "dl_path": "/api/v1/crates/markup5ever/0.5.0/download",
+    "downloads": 74958,
+    "features": {
+      "heap_size": ["heapsize", "heapsize_derive", "string_cache/heapsize"]
+    },
+    "id": 65211, "license": "MIT / Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/markup5ever/0.5.0/authors",
+      "dependencies": "/api/v1/crates/markup5ever/0.5.0/dependencies",
+      "version_downloads": "/api/v1/crates/markup5ever/0.5.0/downloads"
+    },
+    "num": "0.5.0", "published_by": null,
+    "readme_path": "/api/v1/crates/markup5ever/0.5.0/readme",
+    "updated_at": "2017-11-30T02:38:13.013110+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["The html5ever Project Developers"]},
+      "users": []
+    },
+    "crate": "markup5ever", "crate_size": null,
+    "created_at": "2017-10-17T14:00:36.944805+00:00",
+    "dependencies": [
+      {
+        "crate_id": "phf", "default_features": true, "downloads": 0,
+        "features": [], "id": 285727, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 68624
+      },
+      {
+        "crate_id": "phf_codegen", "default_features": true, "downloads": 0,
+        "features": [], "id": 285731, "kind": "build", "optional": false,
+        "req": "^0.7.3", "target": null, "version_id": 68624
+      },
+      {
+        "crate_id": "rustc-serialize", "default_features": true,
+        "downloads": 0, "features": [], "id": 285730, "kind": "build",
+        "optional": false, "req": "^0.3.15", "target": null,
+        "version_id": 68624
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 285728, "kind": "normal",
+        "optional": false, "req": "^0.6", "target": null,
+        "version_id": 68624
+      },
+      {
+        "crate_id": "string_cache_codegen", "default_features": true,
+        "downloads": 0, "features": [], "id": 285732, "kind": "build",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 68624
+      },
+      {
+        "crate_id": "tendril", "default_features": true, "downloads": 0,
+        "features": [], "id": 285726, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 68624
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": [], "id": 285725, "kind": "normal", "optional": true,
+        "req": ">=0.3, <0.5", "target": null, "version_id": 68624
+      },
+      {
+        "crate_id": "heapsize_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 285729, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 68624
+      }
+    ],
+    "dl_path": "/api/v1/crates/markup5ever/0.6.0/download",
+    "downloads": 1136,
+    "features": {
+      "heap_size": ["heapsize", "heapsize_derive", "string_cache/heapsize"]
+    },
+    "id": 68624, "license": "MIT / Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/markup5ever/0.6.0/authors",
+      "dependencies": "/api/v1/crates/markup5ever/0.6.0/dependencies",
+      "version_downloads": "/api/v1/crates/markup5ever/0.6.0/downloads"
+    },
+    "num": "0.6.0", "published_by": null,
+    "readme_path": "/api/v1/crates/markup5ever/0.6.0/readme",
+    "updated_at": "2017-11-30T02:28:55.535300+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["The html5ever Project Developers"]},
+      "users": []
+    },
+    "crate": "markup5ever", "crate_size": null,
+    "created_at": "2017-10-19T21:59:31.670370+00:00",
+    "dependencies": [
+      {
+        "crate_id": "phf", "default_features": true, "downloads": 0,
+        "features": [], "id": 286844, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 68818
+      },
+      {
+        "crate_id": "phf_codegen", "default_features": true, "downloads": 0,
+        "features": [], "id": 286847, "kind": "build", "optional": false,
+        "req": "^0.7.3", "target": null, "version_id": 68818
+      },
+      {
+        "crate_id": "rustc-serialize", "default_features": true,
+        "downloads": 0, "features": [], "id": 286849, "kind": "build",
+        "optional": false, "req": "^0.3.15", "target": null,
+        "version_id": 68818
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 286846, "kind": "normal",
+        "optional": false, "req": "^0.6", "target": null,
+        "version_id": 68818
+      },
+      {
+        "crate_id": "string_cache_codegen", "default_features": true,
+        "downloads": 0, "features": [], "id": 286848, "kind": "build",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 68818
+      },
+      {
+        "crate_id": "tendril", "default_features": true, "downloads": 0,
+        "features": [], "id": 286845, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 68818
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": [], "id": 286842, "kind": "normal", "optional": true,
+        "req": ">=0.3, <0.5", "target": null, "version_id": 68818
+      },
+      {
+        "crate_id": "heapsize_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 286843, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 68818
+      }
+    ],
+    "dl_path": "/api/v1/crates/markup5ever/0.6.1/download",
+    "downloads": 477,
+    "features": {
+      "heap_size": ["heapsize", "heapsize_derive", "string_cache/heapsize"]
+    },
+    "id": 68818, "license": "MIT / Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/markup5ever/0.6.1/authors",
+      "dependencies": "/api/v1/crates/markup5ever/0.6.1/dependencies",
+      "version_downloads": "/api/v1/crates/markup5ever/0.6.1/downloads"
+    },
+    "num": "0.6.1", "published_by": null,
+    "readme_path": "/api/v1/crates/markup5ever/0.6.1/readme",
+    "updated_at": "2017-11-30T02:49:07.396615+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["The html5ever Project Developers"]},
+      "users": []
+    },
+    "crate": "markup5ever", "crate_size": null,
+    "created_at": "2017-10-26T06:41:59.116893+00:00",
+    "dependencies": [
+      {
+        "crate_id": "phf", "default_features": true, "downloads": 0,
+        "features": [], "id": 289605, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 69386
+      },
+      {
+        "crate_id": "phf_codegen", "default_features": true, "downloads": 0,
+        "features": [], "id": 289608, "kind": "build", "optional": false,
+        "req": "^0.7.3", "target": null, "version_id": 69386
+      },
+      {
+        "crate_id": "rustc-serialize", "default_features": true,
+        "downloads": 0, "features": [], "id": 289609, "kind": "build",
+        "optional": false, "req": "^0.3.15", "target": null,
+        "version_id": 69386
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 289604, "kind": "normal",
+        "optional": false, "req": "^0.6", "target": null,
+        "version_id": 69386
+      },
+      {
+        "crate_id": "string_cache_codegen", "default_features": true,
+        "downloads": 0, "features": [], "id": 289610, "kind": "build",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 69386
+      },
+      {
+        "crate_id": "tendril", "default_features": true, "downloads": 0,
+        "features": [], "id": 289607, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 69386
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": [], "id": 289606, "kind": "normal", "optional": true,
+        "req": ">=0.3, <0.5", "target": null, "version_id": 69386
+      },
+      {
+        "crate_id": "heapsize_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 289603, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 69386
+      }
+    ],
+    "dl_path": "/api/v1/crates/markup5ever/0.6.2/download",
+    "downloads": 8273,
+    "features": {
+      "heap_size": ["heapsize", "heapsize_derive", "string_cache/heapsize"]
+    },
+    "id": 69386, "license": "MIT / Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/markup5ever/0.6.2/authors",
+      "dependencies": "/api/v1/crates/markup5ever/0.6.2/dependencies",
+      "version_downloads": "/api/v1/crates/markup5ever/0.6.2/downloads"
+    },
+    "num": "0.6.2", "published_by": null,
+    "readme_path": "/api/v1/crates/markup5ever/0.6.2/readme",
+    "updated_at": "2017-11-30T02:40:55.639002+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["The html5ever Project Developers"]},
+      "users": []
+    },
+    "crate": "markup5ever", "crate_size": null,
+    "created_at": "2017-12-07T19:31:57.715213+00:00",
+    "dependencies": [
+      {
+        "crate_id": "phf", "default_features": true, "downloads": 0,
+        "features": [], "id": 311408, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 73614
+      },
+      {
+        "crate_id": "phf_codegen", "default_features": true, "downloads": 0,
+        "features": [], "id": 311411, "kind": "build", "optional": false,
+        "req": "^0.7.3", "target": null, "version_id": 73614
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 311412, "kind": "build", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 73614
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 311413, "kind": "build",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 73614
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 311414, "kind": "build", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 73614
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 311409, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 73614
+      },
+      {
+        "crate_id": "string_cache_codegen", "default_features": true,
+        "downloads": 0, "features": [], "id": 311415, "kind": "build",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 73614
+      },
+      {
+        "crate_id": "tendril", "default_features": true, "downloads": 0,
+        "features": [], "id": 311410, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 73614
+      }
+    ],
+    "dl_path": "/api/v1/crates/markup5ever/0.7.0/download",
+    "downloads": 2144, "features": {}, "id": 73614,
+    "license": "MIT / Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/markup5ever/0.7.0/authors",
+      "dependencies": "/api/v1/crates/markup5ever/0.7.0/dependencies",
+      "version_downloads": "/api/v1/crates/markup5ever/0.7.0/downloads"
+    },
+    "num": "0.7.0", "published_by": null,
+    "readme_path": "/api/v1/crates/markup5ever/0.7.0/readme",
+    "updated_at": "2017-12-07T19:31:57.715213+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["The html5ever Project Developers"]},
+      "users": []
+    },
+    "crate": "markup5ever", "crate_size": null,
+    "created_at": "2018-01-08T13:51:05.935296+00:00",
+    "dependencies": [
+      {
+        "crate_id": "phf", "default_features": true, "downloads": 0,
+        "features": [], "id": 329450, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 76767
+      },
+      {
+        "crate_id": "phf_codegen", "default_features": true, "downloads": 0,
+        "features": [], "id": 329453, "kind": "build", "optional": false,
+        "req": "^0.7.3", "target": null, "version_id": 76767
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 329454, "kind": "build", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 76767
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 329455, "kind": "build",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 76767
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 329456, "kind": "build", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 76767
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 329451, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 76767
+      },
+      {
+        "crate_id": "string_cache_codegen", "default_features": true,
+        "downloads": 0, "features": [], "id": 329457, "kind": "build",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 76767
+      },
+      {
+        "crate_id": "tendril", "default_features": true, "downloads": 0,
+        "features": [], "id": 329452, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 76767
+      }
+    ],
+    "dl_path": "/api/v1/crates/markup5ever/0.7.1/download",
+    "downloads": 9705, "features": {}, "id": 76767,
+    "license": "MIT / Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/markup5ever/0.7.1/authors",
+      "dependencies": "/api/v1/crates/markup5ever/0.7.1/dependencies",
+      "version_downloads": "/api/v1/crates/markup5ever/0.7.1/downloads"
+    },
+    "num": "0.7.1", "published_by": null,
+    "readme_path": "/api/v1/crates/markup5ever/0.7.1/readme",
+    "updated_at": "2018-01-08T13:51:05.935296+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["The html5ever Project Developers"]},
+      "users": []
+    },
+    "crate": "markup5ever", "crate_size": null,
+    "created_at": "2018-01-12T16:38:18.579983+00:00",
+    "dependencies": [
+      {
+        "crate_id": "phf", "default_features": true, "downloads": 0,
+        "features": [], "id": 331891, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 77230
+      },
+      {
+        "crate_id": "phf_codegen", "default_features": true, "downloads": 0,
+        "features": [], "id": 331894, "kind": "build", "optional": false,
+        "req": "^0.7.3", "target": null, "version_id": 77230
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 331895, "kind": "build", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 77230
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 331896, "kind": "build",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 77230
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 331897, "kind": "build", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 77230
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 331892, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 77230
+      },
+      {
+        "crate_id": "string_cache_codegen", "default_features": true,
+        "downloads": 0, "features": [], "id": 331898, "kind": "build",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 77230
+      },
+      {
+        "crate_id": "tendril", "default_features": true, "downloads": 0,
+        "features": [], "id": 331893, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 77230
+      }
+    ],
+    "dl_path": "/api/v1/crates/markup5ever/0.7.2/download",
+    "downloads": 437791, "features": {}, "id": 77230,
+    "license": "MIT / Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/markup5ever/0.7.2/authors",
+      "dependencies": "/api/v1/crates/markup5ever/0.7.2/dependencies",
+      "version_downloads": "/api/v1/crates/markup5ever/0.7.2/downloads"
+    },
+    "num": "0.7.2", "published_by": null,
+    "readme_path": "/api/v1/crates/markup5ever/0.7.2/readme",
+    "updated_at": "2018-01-12T16:38:18.579983+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["The html5ever Project Developers"]},
+      "users": []
+    },
+    "crate": "markup5ever", "crate_size": 40404,
+    "created_at": "2018-10-17T12:21:38.355990+00:00",
+    "dependencies": [
+      {
+        "crate_id": "phf", "default_features": true, "downloads": 0,
+        "features": [], "id": 529898, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 113350
+      },
+      {
+        "crate_id": "phf_codegen", "default_features": true, "downloads": 0,
+        "features": [], "id": 529901, "kind": "build", "optional": false,
+        "req": "^0.7.3", "target": null, "version_id": 113350
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 529902, "kind": "build", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 113350
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 529903, "kind": "build",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 113350
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 529904, "kind": "build", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 113350
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 529899, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 113350
+      },
+      {
+        "crate_id": "string_cache_codegen", "default_features": true,
+        "downloads": 0, "features": [], "id": 529905, "kind": "build",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 113350
+      },
+      {
+        "crate_id": "tendril", "default_features": true, "downloads": 0,
+        "features": [], "id": 529900, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 113350
+      }
+    ],
+    "dl_path": "/api/v1/crates/markup5ever/0.7.3/download",
+    "downloads": 13473, "features": {}, "id": 113350,
+    "license": "MIT / Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/markup5ever/0.7.3/authors",
+      "dependencies": "/api/v1/crates/markup5ever/0.7.3/dependencies",
+      "version_downloads": "/api/v1/crates/markup5ever/0.7.3/downloads"
+    },
+    "num": "0.7.3", "published_by": null,
+    "readme_path": "/api/v1/crates/markup5ever/0.7.3/readme",
+    "updated_at": "2018-10-17T12:21:38.355990+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["The html5ever Project Developers"]},
+      "users": []
+    },
+    "crate": "markup5ever", "crate_size": 40452,
+    "created_at": "2018-12-13T15:20:04.378031+00:00",
+    "dependencies": [
+      {
+        "crate_id": "phf", "default_features": true, "downloads": 0,
+        "features": [], "id": 581812, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 122271
+      },
+      {
+        "crate_id": "phf_codegen", "default_features": true, "downloads": 0,
+        "features": [], "id": 581815, "kind": "build", "optional": false,
+        "req": "^0.7.3", "target": null, "version_id": 122271
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 581816, "kind": "build", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 122271
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 581817, "kind": "build",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 122271
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 581818, "kind": "build", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 122271
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 581813, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 122271
+      },
+      {
+        "crate_id": "string_cache_codegen", "default_features": true,
+        "downloads": 0, "features": [], "id": 581819, "kind": "build",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 122271
+      },
+      {
+        "crate_id": "tendril", "default_features": true, "downloads": 0,
+        "features": [], "id": 581814, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 122271
+      }
+    ],
+    "dl_path": "/api/v1/crates/markup5ever/0.7.5/download",
+    "downloads": 176049, "features": {}, "id": 122271,
+    "license": "MIT / Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/markup5ever/0.7.5/authors",
+      "dependencies": "/api/v1/crates/markup5ever/0.7.5/dependencies",
+      "version_downloads": "/api/v1/crates/markup5ever/0.7.5/downloads"
+    },
+    "num": "0.7.5", "published_by": null,
+    "readme_path": "/api/v1/crates/markup5ever/0.7.5/readme",
+    "updated_at": "2018-12-13T15:20:04.378031+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["The html5ever Project Developers"]},
+      "users": []
+    },
+    "crate": "markup5ever", "crate_size": 47358,
+    "created_at": "2019-04-27T13:34:46.581410+00:00",
+    "dependencies": [
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 720616, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 147133
+      },
+      {
+        "crate_id": "phf", "default_features": true, "downloads": 0,
+        "features": [], "id": 720617, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 147133
+      },
+      {
+        "crate_id": "phf_codegen", "default_features": true, "downloads": 0,
+        "features": [], "id": 720620, "kind": "build", "optional": false,
+        "req": "^0.7.3", "target": null, "version_id": 147133
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 720621, "kind": "build", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 147133
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 720622, "kind": "build",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 147133
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 720623, "kind": "build", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 147133
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 720618, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 147133
+      },
+      {
+        "crate_id": "string_cache_codegen", "default_features": true,
+        "downloads": 0, "features": [], "id": 720624, "kind": "build",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 147133
+      },
+      {
+        "crate_id": "tendril", "default_features": true, "downloads": 0,
+        "features": [], "id": 720619, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 147133
+      }
+    ],
+    "dl_path": "/api/v1/crates/markup5ever/0.8.0/download",
+    "downloads": 2837, "features": {}, "id": 147133,
+    "license": "MIT / Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/markup5ever/0.8.0/authors",
+      "dependencies": "/api/v1/crates/markup5ever/0.8.0/dependencies",
+      "version_downloads": "/api/v1/crates/markup5ever/0.8.0/downloads"
+    },
+    "num": "0.8.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/27658?v=4",
+      "id": 2396, "login": "jdm", "name": "Josh Matthews",
+      "url": "https://github.com/jdm"
+    },
+    "readme_path": "/api/v1/crates/markup5ever/0.8.0/readme",
+    "updated_at": "2019-04-27T13:34:46.581410+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["The html5ever Project Developers"]},
+      "users": []
+    },
+    "crate": "markup5ever", "crate_size": 47369,
+    "created_at": "2019-05-03T14:04:33.259529+00:00",
+    "dependencies": [
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 726766, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 148243
+      },
+      {
+        "crate_id": "phf", "default_features": true, "downloads": 0,
+        "features": [], "id": 726767, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 148243
+      },
+      {
+        "crate_id": "phf_codegen", "default_features": true, "downloads": 0,
+        "features": [], "id": 726770, "kind": "build", "optional": false,
+        "req": "^0.7.3", "target": null, "version_id": 148243
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 726771, "kind": "build", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 148243
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 726772, "kind": "build",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 148243
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 726773, "kind": "build", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 148243
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 726768, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 148243
+      },
+      {
+        "crate_id": "string_cache_codegen", "default_features": true,
+        "downloads": 0, "features": [], "id": 726774, "kind": "build",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 148243
+      },
+      {
+        "crate_id": "tendril", "default_features": true, "downloads": 0,
+        "features": [], "id": 726769, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 148243
+      }
+    ],
+    "dl_path": "/api/v1/crates/markup5ever/0.8.1/download",
+    "downloads": 200732, "features": {}, "id": 148243,
+    "license": "MIT / Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/markup5ever/0.8.1/authors",
+      "dependencies": "/api/v1/crates/markup5ever/0.8.1/dependencies",
+      "version_downloads": "/api/v1/crates/markup5ever/0.8.1/downloads"
+    },
+    "num": "0.8.1",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/27658?v=4",
+      "id": 2396, "login": "jdm", "name": "Josh Matthews",
+      "url": "https://github.com/jdm"
+    },
+    "readme_path": "/api/v1/crates/markup5ever/0.8.1/readme",
+    "updated_at": "2019-05-03T14:04:33.259529+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["The html5ever Project Developers"]},
+      "users": []
+    },
+    "crate": "markup5ever", "crate_size": 46871,
+    "created_at": "2019-07-21T14:24:07.268803+00:00",
+    "dependencies": [
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 830046, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 164298
+      },
+      {
+        "crate_id": "phf", "default_features": true, "downloads": 0,
+        "features": [], "id": 830047, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 164298
+      },
+      {
+        "crate_id": "phf_codegen", "default_features": true, "downloads": 0,
+        "features": [], "id": 830050, "kind": "build", "optional": false,
+        "req": "^0.7.3", "target": null, "version_id": 164298
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 830051, "kind": "build", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 164298
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 830052, "kind": "build",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 164298
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 830053, "kind": "build", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 164298
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 830048, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 164298
+      },
+      {
+        "crate_id": "string_cache_codegen", "default_features": true,
+        "downloads": 0, "features": [], "id": 830054, "kind": "build",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 164298
+      },
+      {
+        "crate_id": "tendril", "default_features": true, "downloads": 0,
+        "features": [], "id": 830049, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 164298
+      }
+    ],
+    "dl_path": "/api/v1/crates/markup5ever/0.9.0/download",
+    "downloads": 364751, "features": {}, "id": 164298,
+    "license": "MIT / Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/markup5ever/0.9.0/authors",
+      "dependencies": "/api/v1/crates/markup5ever/0.9.0/dependencies",
+      "version_downloads": "/api/v1/crates/markup5ever/0.9.0/downloads"
+    },
+    "num": "0.9.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/27658?v=4",
+      "id": 2396, "login": "jdm", "name": "Josh Matthews",
+      "url": "https://github.com/jdm"
+    },
+    "readme_path": "/api/v1/crates/markup5ever/0.9.0/readme",
+    "updated_at": "2019-07-21T14:24:07.268803+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["The html5ever Project Developers"]},
+      "users": []
+    },
+    "crate": "markup5ever", "crate_size": 42925,
+    "created_at": "2019-10-22T11:01:34.354655+00:00",
+    "dependencies": [
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 956056, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 184274
+      },
+      {
+        "crate_id": "phf", "default_features": true, "downloads": 0,
+        "features": [], "id": 956057, "kind": "normal", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 184274
+      },
+      {
+        "crate_id": "phf_codegen", "default_features": true, "downloads": 0,
+        "features": [], "id": 956060, "kind": "build", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 184274
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 956061, "kind": "build", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 184274
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 956062, "kind": "build",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 184274
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 956063, "kind": "build", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 184274
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 956058, "kind": "normal",
+        "optional": false, "req": "^0.8", "target": null,
+        "version_id": 184274
+      },
+      {
+        "crate_id": "string_cache_codegen", "default_features": true,
+        "downloads": 0, "features": [], "id": 956064, "kind": "build",
+        "optional": false, "req": "^0.5.1", "target": null,
+        "version_id": 184274
+      },
+      {
+        "crate_id": "tendril", "default_features": true, "downloads": 0,
+        "features": [], "id": 956059, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 184274
+      }
+    ],
+    "dl_path": "/api/v1/crates/markup5ever/0.10.0/download",
+    "downloads": 331003, "features": {}, "id": 184274,
+    "license": "MIT / Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/markup5ever/0.10.0/authors",
+      "dependencies": "/api/v1/crates/markup5ever/0.10.0/dependencies",
+      "version_downloads": "/api/v1/crates/markup5ever/0.10.0/downloads"
+    },
+    "num": "0.10.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/123095?v=4",
+      "id": 3100, "login": "nox", "name": "Anthony Ramine",
+      "url": "https://github.com/nox"
+    },
+    "readme_path": "/api/v1/crates/markup5ever/0.10.0/readme",
+    "updated_at": "2019-10-22T11:01:34.354655+00:00", "yanked": false
+  }
+]

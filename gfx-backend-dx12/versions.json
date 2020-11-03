@@ -1,0 +1,3623 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 69231,
+    "created_at": "2018-12-27T02:27:25.533018+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 593713, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 124250
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": [], "id": 593714, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 124250
+      },
+      {
+        "crate_id": "derivative", "default_features": true, "downloads": 0,
+        "features": [], "id": 593715, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 124250
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 593716, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 124250
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 593717, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 124250
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 593718, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 124250
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 593719, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 124250
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": [], "id": 593720, "kind": "normal", "optional": false,
+        "req": "^0.12.0", "target": null, "version_id": 124250
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgiformat",
+          "dxgitype", "handleapi", "minwindef", "synchapi", "unknwnbase",
+          "winbase", "windef", "winerror", "winnt", "winuser"
+        ],
+        "id": 593721, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 124250
+      },
+      {
+        "crate_id": "winit", "default_features": true, "downloads": 0,
+        "features": [], "id": 593722, "kind": "normal", "optional": true,
+        "req": "^0.18", "target": null, "version_id": 124250
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.1.0/download",
+    "downloads": 1009, "features": {"default": ["winit"]}, "id": 124250,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.1.0/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.1.0/downloads"
+    },
+    "num": "0.1.0", "published_by": null,
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.1.0/readme",
+    "updated_at": "2018-12-27T02:27:25.533018+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 69236,
+    "created_at": "2019-02-05T02:35:26.697236+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 634266, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 132019
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": [], "id": 634267, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 132019
+      },
+      {
+        "crate_id": "derivative", "default_features": true, "downloads": 0,
+        "features": [], "id": 634268, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 132019
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 634269, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 132019
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 634270, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 132019
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 634271, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 132019
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 634272, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 132019
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": [], "id": 634273, "kind": "normal", "optional": false,
+        "req": "^0.12.0", "target": null, "version_id": 132019
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgiformat",
+          "dxgitype", "handleapi", "minwindef", "synchapi", "unknwnbase",
+          "winbase", "windef", "winerror", "winnt", "winuser"
+        ],
+        "id": 634274, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 132019
+      },
+      {
+        "crate_id": "winit", "default_features": true, "downloads": 0,
+        "features": [], "id": 634275, "kind": "normal", "optional": true,
+        "req": "^0.18", "target": null, "version_id": 132019
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.1.1/download",
+    "downloads": 552, "features": {"default": ["winit"]}, "id": 132019,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.1.1/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.1.1/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.1.1/downloads"
+    },
+    "num": "0.1.1", "published_by": null,
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.1.1/readme",
+    "updated_at": "2019-02-05T02:35:26.697236+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 69545,
+    "created_at": "2019-03-04T22:43:26.246722+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 664111, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 137264
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": [], "id": 664112, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 137264
+      },
+      {
+        "crate_id": "derivative", "default_features": true, "downloads": 0,
+        "features": [], "id": 664113, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 137264
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 664114, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 137264
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 664115, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 137264
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 664116, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 137264
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 664117, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 137264
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": [], "id": 664118, "kind": "normal", "optional": false,
+        "req": "^0.12.0", "target": null, "version_id": 137264
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgiformat",
+          "dxgitype", "handleapi", "minwindef", "synchapi", "unknwnbase",
+          "winbase", "windef", "winerror", "winnt", "winuser"
+        ],
+        "id": 664119, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 137264
+      },
+      {
+        "crate_id": "winit", "default_features": true, "downloads": 0,
+        "features": [], "id": 664120, "kind": "normal", "optional": true,
+        "req": "^0.18", "target": null, "version_id": 137264
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.1.2/download",
+    "downloads": 480, "features": {"default": ["winit"]}, "id": 137264,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.1.2/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.1.2/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.1.2/downloads"
+    },
+    "num": "0.1.2",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.1.2/readme",
+    "updated_at": "2019-03-04T22:43:26.246722+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 69404,
+    "created_at": "2019-03-14T19:25:12.384450+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 674366, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 138932
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": [], "id": 674367, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 138932
+      },
+      {
+        "crate_id": "derivative", "default_features": true, "downloads": 0,
+        "features": [], "id": 674368, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 138932
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 674369, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 138932
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 674370, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 138932
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 674371, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 138932
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 674372, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 138932
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": [], "id": 674373, "kind": "normal", "optional": false,
+        "req": "^0.12.0", "target": null, "version_id": 138932
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgiformat",
+          "dxgitype", "handleapi", "minwindef", "synchapi", "unknwnbase",
+          "winbase", "windef", "winerror", "winnt", "winuser"
+        ],
+        "id": 674374, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 138932
+      },
+      {
+        "crate_id": "winit", "default_features": true, "downloads": 0,
+        "features": [], "id": 674375, "kind": "normal", "optional": true,
+        "req": "^0.18", "target": null, "version_id": 138932
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.1.3/download",
+    "downloads": 1603, "features": {"default": ["winit"]}, "id": 138932,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.1.3/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.1.3/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.1.3/downloads"
+    },
+    "num": "0.1.3",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.1.3/readme",
+    "updated_at": "2019-03-14T19:25:12.384450+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 71126,
+    "created_at": "2019-05-11T02:24:51.364019+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 734351, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 149704
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": [], "id": 734352, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 149704
+      },
+      {
+        "crate_id": "derivative", "default_features": true, "downloads": 0,
+        "features": [], "id": 734353, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 149704
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 734354, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 149704
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 734355, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 149704
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 734356, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 149704
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 734357, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 149704
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": [], "id": 734358, "kind": "normal", "optional": false,
+        "req": "^0.12.1", "target": null, "version_id": 149704
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgi1_6",
+          "dxgidebug", "dxgiformat", "dxgitype", "handleapi", "minwindef",
+          "synchapi", "unknwnbase", "winbase", "windef", "winerror", "winnt",
+          "winuser"
+        ],
+        "id": 734359, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 149704
+      },
+      {
+        "crate_id": "winit", "default_features": true, "downloads": 0,
+        "features": [], "id": 734360, "kind": "normal", "optional": true,
+        "req": "^0.19", "target": null, "version_id": 149704
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.2.0/download",
+    "downloads": 885, "features": {"default": ["winit"]}, "id": 149704,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.2.0/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.2.0/downloads"
+    },
+    "num": "0.2.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.2.0/readme",
+    "updated_at": "2019-05-11T02:24:51.364019+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 70702,
+    "created_at": "2019-06-28T14:37:49.705921+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 792909, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 159000
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": [], "id": 792910, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 159000
+      },
+      {
+        "crate_id": "derivative", "default_features": true, "downloads": 0,
+        "features": [], "id": 792911, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 159000
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 792912, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 159000
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 792913, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 159000
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 792914, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 159000
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 792915, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 159000
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": [], "id": 792916, "kind": "normal", "optional": false,
+        "req": "^0.12.1", "target": null, "version_id": 159000
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgi1_6",
+          "dxgidebug", "dxgiformat", "dxgitype", "handleapi", "minwindef",
+          "synchapi", "unknwnbase", "winbase", "windef", "winerror", "winnt",
+          "winuser"
+        ],
+        "id": 792917, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 159000
+      },
+      {
+        "crate_id": "winit", "default_features": true, "downloads": 0,
+        "features": [], "id": 792918, "kind": "normal", "optional": true,
+        "req": "^0.19", "target": null, "version_id": 159000
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.2.1/download",
+    "downloads": 714, "features": {"default": ["winit"]}, "id": 159000,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.2.1/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.2.1/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.2.1/downloads"
+    },
+    "num": "0.2.1",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.2.1/readme",
+    "updated_at": "2019-06-28T14:37:49.705921+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 71318,
+    "created_at": "2019-07-29T23:55:36.796704+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 841631, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 166166
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": [], "id": 841632, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 166166
+      },
+      {
+        "crate_id": "derivative", "default_features": true, "downloads": 0,
+        "features": [], "id": 841633, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 166166
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 841634, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 166166
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 841635, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 166166
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 841636, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 166166
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 841637, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 166166
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": [], "id": 841638, "kind": "normal", "optional": false,
+        "req": "^0.12.1", "target": null, "version_id": 166166
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgi1_6",
+          "dxgidebug", "dxgiformat", "dxgitype", "handleapi", "minwindef",
+          "synchapi", "unknwnbase", "winbase", "windef", "winerror", "winnt",
+          "winuser"
+        ],
+        "id": 841639, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 166166
+      },
+      {
+        "crate_id": "winit", "default_features": true, "downloads": 0,
+        "features": [], "id": 841640, "kind": "normal", "optional": true,
+        "req": "^0.19", "target": null, "version_id": 166166
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.2.2/download",
+    "downloads": 197, "features": {"default": ["winit"]}, "id": 166166,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.2.2/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.2.2/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.2.2/downloads"
+    },
+    "num": "0.2.2",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.2.2/readme",
+    "updated_at": "2019-07-29T23:55:36.796704+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 71547,
+    "created_at": "2019-08-01T19:08:21.940331+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 846405, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 166893
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": [], "id": 846406, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 166893
+      },
+      {
+        "crate_id": "derivative", "default_features": true, "downloads": 0,
+        "features": [], "id": 846407, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 166893
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 846408, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 166893
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 846409, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 166893
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 846410, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 166893
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 846411, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 166893
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": [], "id": 846412, "kind": "normal", "optional": false,
+        "req": "^0.12.1", "target": null, "version_id": 166893
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgi1_6",
+          "dxgidebug", "dxgiformat", "dxgitype", "handleapi", "minwindef",
+          "synchapi", "unknwnbase", "winbase", "windef", "winerror", "winnt",
+          "winuser"
+        ],
+        "id": 846413, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 166893
+      },
+      {
+        "crate_id": "winit", "default_features": true, "downloads": 0,
+        "features": [], "id": 846414, "kind": "normal", "optional": true,
+        "req": "^0.19", "target": null, "version_id": 166893
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.2.3/download",
+    "downloads": 153, "features": {"default": ["winit"]}, "id": 166893,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.2.3/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.2.3/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.2.3/downloads"
+    },
+    "num": "0.2.3",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.2.3/readme",
+    "updated_at": "2019-08-01T19:08:21.940331+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 71346,
+    "created_at": "2019-08-02T15:34:19.938768+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 847430, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 167052
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": [], "id": 847431, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 167052
+      },
+      {
+        "crate_id": "derivative", "default_features": true, "downloads": 0,
+        "features": [], "id": 847432, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 167052
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 847433, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 167052
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 847434, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 167052
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 847435, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 167052
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 847436, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 167052
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": [], "id": 847437, "kind": "normal", "optional": false,
+        "req": "^0.12.1", "target": null, "version_id": 167052
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgi1_6",
+          "dxgidebug", "dxgiformat", "dxgitype", "handleapi", "minwindef",
+          "synchapi", "unknwnbase", "winbase", "windef", "winerror", "winnt",
+          "winuser"
+        ],
+        "id": 847438, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 167052
+      },
+      {
+        "crate_id": "winit", "default_features": true, "downloads": 0,
+        "features": [], "id": 847439, "kind": "normal", "optional": true,
+        "req": "^0.19", "target": null, "version_id": 167052
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.2.4/download",
+    "downloads": 607, "features": {"default": ["winit"]}, "id": 167052,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.2.4/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.2.4/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.2.4/downloads"
+    },
+    "num": "0.2.4",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.2.4/readme",
+    "updated_at": "2019-08-02T15:34:19.938768+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 72476,
+    "created_at": "2019-08-08T17:42:06.220412+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 853729, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 168192
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": [], "id": 853730, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 168192
+      },
+      {
+        "crate_id": "derivative", "default_features": true, "downloads": 0,
+        "features": [], "id": 853731, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 168192
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 853732, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 168192
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 853733, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 168192
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 853734, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 168192
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 853735, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 168192
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": ["hlsl"], "id": 853736, "kind": "normal",
+        "optional": false, "req": "^0.14.0", "target": null,
+        "version_id": 168192
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgi1_6",
+          "dxgidebug", "dxgiformat", "dxgitype", "handleapi", "minwindef",
+          "synchapi", "unknwnbase", "winbase", "windef", "winerror", "winnt",
+          "winuser"
+        ],
+        "id": 853737, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 168192
+      },
+      {
+        "crate_id": "winit", "default_features": true, "downloads": 0,
+        "features": [], "id": 853738, "kind": "normal", "optional": true,
+        "req": "^0.19", "target": null, "version_id": 168192
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.3.0/download",
+    "downloads": 774, "features": {"default": []}, "id": 168192,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.3.0/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.3.0/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.3.0/downloads"
+    },
+    "num": "0.3.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.3.0/readme",
+    "updated_at": "2019-08-08T17:42:06.220412+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 72293,
+    "created_at": "2019-08-31T04:43:34.799640+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 884742, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 172992
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": [], "id": 884743, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 172992
+      },
+      {
+        "crate_id": "derivative", "default_features": true, "downloads": 0,
+        "features": [], "id": 884744, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 172992
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 884745, "kind": "normal", "optional": false,
+        "req": "^0.3.1", "target": null, "version_id": 172992
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 884746, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 172992
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 884747, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 172992
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 884748, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 172992
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 884749, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 172992
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": ["hlsl"], "id": 884750, "kind": "normal",
+        "optional": false, "req": "^0.14.0", "target": null,
+        "version_id": 172992
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgi1_6",
+          "dxgidebug", "dxgiformat", "dxgitype", "handleapi", "minwindef",
+          "synchapi", "unknwnbase", "winbase", "windef", "winerror", "winnt",
+          "winuser"
+        ],
+        "id": 884751, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 172992
+      },
+      {
+        "crate_id": "winit", "default_features": true, "downloads": 0,
+        "features": [], "id": 884752, "kind": "normal", "optional": true,
+        "req": "^0.19", "target": null, "version_id": 172992
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.3.2/download",
+    "downloads": 274, "features": {"default": []}, "id": 172992,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.3.2/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.3.2/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.3.2/downloads"
+    },
+    "num": "0.3.2",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.3.2/readme",
+    "updated_at": "2019-08-31T04:43:34.799640+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 72461,
+    "created_at": "2019-09-12T17:54:25.609432+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 902621, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 175900
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": [], "id": 902622, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 175900
+      },
+      {
+        "crate_id": "derivative", "default_features": true, "downloads": 0,
+        "features": [], "id": 902623, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 175900
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 902624, "kind": "normal", "optional": false,
+        "req": "^0.3.1", "target": null, "version_id": 175900
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 902625, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 175900
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 902626, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 175900
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 902627, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 175900
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 902628, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 175900
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": ["hlsl"], "id": 902629, "kind": "normal",
+        "optional": false, "req": "^0.14.0", "target": null,
+        "version_id": 175900
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgi1_6",
+          "dxgidebug", "dxgiformat", "dxgitype", "handleapi", "minwindef",
+          "synchapi", "unknwnbase", "winbase", "windef", "winerror", "winnt",
+          "winuser"
+        ],
+        "id": 902630, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 175900
+      },
+      {
+        "crate_id": "winit", "default_features": true, "downloads": 0,
+        "features": [], "id": 902631, "kind": "normal", "optional": true,
+        "req": "^0.19", "target": null, "version_id": 175900
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.3.3/download",
+    "downloads": 156, "features": {"default": []}, "id": 175900,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.3.3/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.3.3/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.3.3/downloads"
+    },
+    "num": "0.3.3",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.3.3/readme",
+    "updated_at": "2019-09-12T17:54:25.609432+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 73414,
+    "created_at": "2019-09-17T15:09:50.865162+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 907396, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 176728
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": [], "id": 907397, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 176728
+      },
+      {
+        "crate_id": "derivative", "default_features": true, "downloads": 0,
+        "features": [], "id": 907398, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 176728
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 907399, "kind": "normal", "optional": false,
+        "req": "^0.3.1", "target": null, "version_id": 176728
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 907400, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 176728
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 907401, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 176728
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 907402, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 176728
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 907403, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 176728
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": ["hlsl"], "id": 907404, "kind": "normal",
+        "optional": false, "req": "^0.14.0", "target": null,
+        "version_id": 176728
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgi1_6",
+          "dxgidebug", "dxgiformat", "dxgitype", "handleapi", "minwindef",
+          "synchapi", "unknwnbase", "winbase", "windef", "winerror", "winnt",
+          "winuser"
+        ],
+        "id": 907405, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 176728
+      },
+      {
+        "crate_id": "winit", "default_features": true, "downloads": 0,
+        "features": [], "id": 907406, "kind": "normal", "optional": true,
+        "req": "^0.19", "target": null, "version_id": 176728
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.3.4/download",
+    "downloads": 376, "features": {"default": []}, "id": 176728,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.3.4/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.3.4/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.3.4/downloads"
+    },
+    "num": "0.3.4",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.3.4/readme",
+    "updated_at": "2019-09-17T15:09:50.865162+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 73827,
+    "created_at": "2019-11-04T18:48:54.246737+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 976824, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 187166
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": [], "id": 976825, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 187166
+      },
+      {
+        "crate_id": "derivative", "default_features": true, "downloads": 0,
+        "features": [], "id": 976826, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 187166
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 976827, "kind": "normal", "optional": false,
+        "req": "^0.3.1", "target": null, "version_id": 187166
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 976828, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 187166
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 976829, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 187166
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 976830, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 187166
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 976831, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 187166
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": ["hlsl"], "id": 976832, "kind": "normal",
+        "optional": false, "req": "^0.14.0", "target": null,
+        "version_id": 187166
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgi1_6",
+          "dxgidebug", "dxgiformat", "dxgitype", "handleapi", "minwindef",
+          "synchapi", "unknwnbase", "winbase", "windef", "winerror", "winnt",
+          "winuser"
+        ],
+        "id": 976833, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 187166
+      },
+      {
+        "crate_id": "winit", "default_features": true, "downloads": 0,
+        "features": [], "id": 976834, "kind": "normal", "optional": true,
+        "req": "^0.19", "target": null, "version_id": 187166
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.3.5/download",
+    "downloads": 386, "features": {"default": []}, "id": 187166,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.3.5/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.3.5/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.3.5/downloads"
+    },
+    "num": "0.3.5",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.3.5/readme",
+    "updated_at": "2019-11-04T18:48:54.246737+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 76333,
+    "created_at": "2019-10-23T23:43:09.481217+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 958498, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 184621
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": [], "id": 958499, "kind": "normal", "optional": false,
+        "req": "^0.2.2", "target": null, "version_id": 184621
+      },
+      {
+        "crate_id": "gfx-auxil", "default_features": true, "downloads": 0,
+        "features": [], "id": 958497, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 184621
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 958500, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 184621
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 958501, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 184621
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 958502, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 184621
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 958503, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 184621
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 958504, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 184621
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": ["hlsl"], "id": 958505, "kind": "normal",
+        "optional": false, "req": "^0.16", "target": null,
+        "version_id": 184621
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgi1_6",
+          "dxgidebug", "dxgiformat", "dxgitype", "handleapi", "minwindef",
+          "synchapi", "unknwnbase", "winbase", "windef", "winerror", "winnt",
+          "winuser"
+        ],
+        "id": 958506, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 184621
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.4.0/download",
+    "downloads": 178, "features": {"default": []}, "id": 184621,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.4.0/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.4.0/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.4.0/downloads"
+    },
+    "num": "0.4.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.4.0/readme",
+    "updated_at": "2019-10-23T23:43:09.481217+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 76427,
+    "created_at": "2019-11-01T17:25:48.151632+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 972979, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 186569
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": ["libloading"], "id": 972980, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 186569
+      },
+      {
+        "crate_id": "gfx-auxil", "default_features": true, "downloads": 0,
+        "features": [], "id": 972978, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 186569
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 972981, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 186569
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 972982, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 186569
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 972983, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 186569
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 972984, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 186569
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 972985, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 186569
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": ["hlsl"], "id": 972986, "kind": "normal",
+        "optional": false, "req": "^0.16", "target": null,
+        "version_id": 186569
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgi1_6",
+          "dxgidebug", "dxgiformat", "dxgitype", "handleapi", "minwindef",
+          "synchapi", "unknwnbase", "winbase", "windef", "winerror", "winnt",
+          "winuser"
+        ],
+        "id": 972987, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 186569
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.4.1/download",
+    "downloads": 20025, "features": {"default": []}, "id": 186569,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.4.1/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.4.1/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.4.1/downloads"
+    },
+    "num": "0.4.1",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.4.1/readme",
+    "updated_at": "2019-11-01T17:25:48.151632+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-01-07T16:24:32.350445+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 76470,
+    "created_at": "2020-01-07T16:24:32.350445+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1075907, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 201908
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": ["libloading"], "id": 1075908, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 201908
+      },
+      {
+        "crate_id": "gfx-auxil", "default_features": true, "downloads": 0,
+        "features": [], "id": 1075906, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 201908
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1075909, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 201908
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1075910, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 201908
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1075911, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 201908
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1075912, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 201908
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1075913, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 201908
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": ["hlsl"], "id": 1075914, "kind": "normal",
+        "optional": false, "req": "^0.16", "target": null,
+        "version_id": 201908
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgi1_6",
+          "dxgidebug", "dxgiformat", "dxgitype", "handleapi", "minwindef",
+          "synchapi", "unknwnbase", "winbase", "windef", "winerror", "winnt",
+          "winuser"
+        ],
+        "id": 1075915, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 201908
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.4.3/download",
+    "downloads": 19822, "features": {"default": []}, "id": 201908,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.4.3/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.4.3/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.4.3/downloads"
+    },
+    "num": "0.4.3",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.4.3/readme",
+    "updated_at": "2020-01-07T16:24:32.350445+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-03-23T19:08:37.834477+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 76986,
+    "created_at": "2020-03-23T19:08:37.834477+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1236940, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 223798
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": ["libloading"], "id": 1236943, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 223798
+      },
+      {
+        "crate_id": "gfx-auxil", "default_features": true, "downloads": 0,
+        "features": ["spirv_cross"], "id": 1236939, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 223798
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1236941, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 223798
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1236942, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 223798
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1236944, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 223798
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1236945, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 223798
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1236946, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 223798
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": ["hlsl"], "id": 1236947, "kind": "normal",
+        "optional": false, "req": "^0.18", "target": null,
+        "version_id": 223798
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgi1_6",
+          "dxgidebug", "dxgiformat", "dxgitype", "handleapi", "minwindef",
+          "synchapi", "unknwnbase", "winbase", "windef", "winerror", "winnt",
+          "winuser"
+        ],
+        "id": 1236948, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 223798
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.5.0/download",
+    "downloads": 7644, "features": {"default": []}, "id": 223798,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.5.0/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.5.0/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.5.0/downloads"
+    },
+    "num": "0.5.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.5.0/readme",
+    "updated_at": "2020-03-23T19:08:37.834477+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-05-01T03:33:34.247609+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 77331,
+    "created_at": "2020-05-01T03:33:34.247609+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1331508, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 236490
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": ["libloading"], "id": 1331511, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 236490
+      },
+      {
+        "crate_id": "gfx-auxil", "default_features": true, "downloads": 0,
+        "features": ["spirv_cross"], "id": 1331507, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 236490
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1331509, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 236490
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1331510, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 236490
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1331512, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 236490
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1331513, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 236490
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1331514, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 236490
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": ["hlsl"], "id": 1331515, "kind": "normal",
+        "optional": false, "req": "^0.18", "target": null,
+        "version_id": 236490
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgi1_6",
+          "dxgidebug", "dxgiformat", "dxgitype", "handleapi", "minwindef",
+          "synchapi", "unknwnbase", "winbase", "windef", "winerror", "winnt",
+          "winuser"
+        ],
+        "id": 1331516, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 236490
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.5.1/download",
+    "downloads": 32463, "features": {"default": []}, "id": 236490,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.5.1/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.5.1/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.5.1/downloads"
+    },
+    "num": "0.5.1",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.5.1/readme",
+    "updated_at": "2020-05-01T03:33:34.247609+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-05-05T02:26:00.914621+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 77492,
+    "created_at": "2020-05-05T02:26:00.914621+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1340886, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 237873
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": ["libloading"], "id": 1340889, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 237873
+      },
+      {
+        "crate_id": "gfx-auxil", "default_features": true, "downloads": 0,
+        "features": ["spirv_cross"], "id": 1340885, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 237873
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1340887, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 237873
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1340888, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 237873
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1340890, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 237873
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1340891, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 237873
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1340892, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 237873
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": ["hlsl"], "id": 1340893, "kind": "normal",
+        "optional": false, "req": "^0.18", "target": null,
+        "version_id": 237873
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgi1_6",
+          "dxgidebug", "dxgiformat", "dxgitype", "handleapi", "minwindef",
+          "synchapi", "unknwnbase", "winbase", "windef", "winerror", "winnt",
+          "winuser"
+        ],
+        "id": 1340894, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 237873
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.5.2/download",
+    "downloads": 239, "features": {"default": []}, "id": 237873,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.5.2/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.5.2/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.5.2/downloads"
+    },
+    "num": "0.5.2",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.5.2/readme",
+    "updated_at": "2020-05-05T02:26:00.914621+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-05-07T04:15:59.717665+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 77504,
+    "created_at": "2020-05-07T04:15:59.717665+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1347259, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 238675
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": ["libloading"], "id": 1347262, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 238675
+      },
+      {
+        "crate_id": "gfx-auxil", "default_features": true, "downloads": 0,
+        "features": ["spirv_cross"], "id": 1347258, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 238675
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1347260, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 238675
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1347261, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 238675
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1347263, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 238675
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1347264, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 238675
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1347265, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 238675
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": ["hlsl"], "id": 1347266, "kind": "normal",
+        "optional": false, "req": "^0.20", "target": null,
+        "version_id": 238675
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgi1_6",
+          "dxgidebug", "dxgiformat", "dxgitype", "handleapi", "minwindef",
+          "synchapi", "unknwnbase", "winbase", "windef", "winerror", "winnt",
+          "winuser"
+        ],
+        "id": 1347267, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 238675
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.5.3/download",
+    "downloads": 5156, "features": {"default": []}, "id": 238675,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.5.3/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.5.3/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.5.3/downloads"
+    },
+    "num": "0.5.3",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.5.3/readme",
+    "updated_at": "2020-05-07T04:15:59.717665+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-05-30T02:15:34.491367+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 77509,
+    "created_at": "2020-05-30T02:15:34.491367+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1407974, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 246884
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": ["libloading"], "id": 1407977, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 246884
+      },
+      {
+        "crate_id": "gfx-auxil", "default_features": true, "downloads": 0,
+        "features": ["spirv_cross"], "id": 1407973, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 246884
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1407975, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 246884
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1407976, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 246884
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1407978, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 246884
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1407979, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 246884
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1407980, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 246884
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": ["hlsl"], "id": 1407981, "kind": "normal",
+        "optional": false, "req": "^0.20", "target": null,
+        "version_id": 246884
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgi1_6",
+          "dxgidebug", "dxgiformat", "dxgitype", "handleapi", "minwindef",
+          "synchapi", "unknwnbase", "winbase", "windef", "winerror", "winnt",
+          "winuser"
+        ],
+        "id": 1407982, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 246884
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.5.4/download",
+    "downloads": 2342, "features": {"default": []}, "id": 246884,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.5.4/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.5.4/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.5.4/downloads"
+    },
+    "num": "0.5.4",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.5.4/readme",
+    "updated_at": "2020-05-30T02:15:34.491367+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-05-31T15:23:34.591934+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 77674,
+    "created_at": "2020-05-31T15:23:34.591934+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1410844, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 247354
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": ["libloading"], "id": 1410847, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 247354
+      },
+      {
+        "crate_id": "gfx-auxil", "default_features": true, "downloads": 0,
+        "features": ["spirv_cross"], "id": 1410843, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 247354
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1410845, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 247354
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1410846, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 247354
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1410848, "kind": "normal", "optional": false,
+        "req": "^0.1.1", "target": null, "version_id": 247354
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1410849, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 247354
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1410850, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 247354
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": ["hlsl"], "id": 1410851, "kind": "normal",
+        "optional": false, "req": "^0.20", "target": null,
+        "version_id": 247354
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgi1_6",
+          "dxgidebug", "dxgiformat", "dxgitype", "handleapi", "minwindef",
+          "synchapi", "unknwnbase", "winbase", "windef", "winerror", "winnt",
+          "winuser"
+        ],
+        "id": 1410852, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 247354
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.5.5/download",
+    "downloads": 2256, "features": {"default": []}, "id": 247354,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.5.5/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.5.5/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.5.5/downloads"
+    },
+    "num": "0.5.5",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.5.5/readme",
+    "updated_at": "2020-05-31T15:23:34.591934+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-06-10T19:42:20.441648+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 77708,
+    "created_at": "2020-06-10T19:42:20.441648+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1437603, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 251030
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": ["libloading"], "id": 1437606, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 251030
+      },
+      {
+        "crate_id": "gfx-auxil", "default_features": true, "downloads": 0,
+        "features": ["spirv_cross"], "id": 1437602, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 251030
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1437604, "kind": "normal", "optional": false,
+        "req": "^0.5.1", "target": null, "version_id": 251030
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1437605, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 251030
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1437607, "kind": "normal", "optional": false,
+        "req": "^0.1.1", "target": null, "version_id": 251030
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1437608, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 251030
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1437609, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 251030
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": ["hlsl"], "id": 1437610, "kind": "normal",
+        "optional": false, "req": "^0.20", "target": null,
+        "version_id": 251030
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgi1_6",
+          "dxgidebug", "dxgiformat", "dxgitype", "handleapi", "minwindef",
+          "synchapi", "unknwnbase", "winbase", "windef", "winerror", "winnt",
+          "winuser"
+        ],
+        "id": 1437611, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 251030
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.5.6/download",
+    "downloads": 599, "features": {"default": []}, "id": 251030,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.5.6/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.5.6/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.5.6/downloads"
+    },
+    "num": "0.5.6",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.5.6/readme",
+    "updated_at": "2020-06-10T19:42:20.441648+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-06-12T18:30:05.396372+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 77831,
+    "created_at": "2020-06-12T18:30:05.396372+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1443384, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 251804
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": ["libloading"], "id": 1443387, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 251804
+      },
+      {
+        "crate_id": "gfx-auxil", "default_features": true, "downloads": 0,
+        "features": ["spirv_cross"], "id": 1443383, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 251804
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1443385, "kind": "normal", "optional": false,
+        "req": "^0.5.2", "target": null, "version_id": 251804
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1443386, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 251804
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1443388, "kind": "normal", "optional": false,
+        "req": "^0.1.1", "target": null, "version_id": 251804
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1443389, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 251804
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1443390, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 251804
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": ["hlsl"], "id": 1443391, "kind": "normal",
+        "optional": false, "req": "^0.20", "target": null,
+        "version_id": 251804
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgi1_6",
+          "dxgidebug", "dxgiformat", "dxgitype", "handleapi", "minwindef",
+          "synchapi", "unknwnbase", "winbase", "windef", "winerror", "winnt",
+          "winuser"
+        ],
+        "id": 1443392, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 251804
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.5.7/download",
+    "downloads": 4911, "features": {"default": []}, "id": 251804,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.5.7/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.5.7/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.5.7/downloads"
+    },
+    "num": "0.5.7",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.5.7/readme",
+    "updated_at": "2020-06-12T18:30:05.396372+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-06-28T02:01:14.883652+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 77944,
+    "created_at": "2020-06-28T02:01:14.883652+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1480816, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 256845
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": ["libloading"], "id": 1480819, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 256845
+      },
+      {
+        "crate_id": "gfx-auxil", "default_features": true, "downloads": 0,
+        "features": ["spirv_cross"], "id": 1480815, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 256845
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1480817, "kind": "normal", "optional": false,
+        "req": "^0.5.3", "target": null, "version_id": 256845
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1480818, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 256845
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1480820, "kind": "normal", "optional": false,
+        "req": "^0.1.1", "target": null, "version_id": 256845
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1480821, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 256845
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1480822, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 256845
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": ["hlsl"], "id": 1480823, "kind": "normal",
+        "optional": false, "req": "^0.20", "target": null,
+        "version_id": 256845
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgi1_6",
+          "dxgidebug", "dxgiformat", "dxgitype", "handleapi", "minwindef",
+          "synchapi", "unknwnbase", "winbase", "windef", "winerror", "winnt",
+          "winuser"
+        ],
+        "id": 1480824, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 256845
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.5.8/download",
+    "downloads": 13202, "features": {"default": []}, "id": 256845,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.5.8/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.5.8/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.5.8/downloads"
+    },
+    "num": "0.5.8",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.5.8/readme",
+    "updated_at": "2020-06-28T02:01:14.883652+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-08-14T14:59:17.431628+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 78372,
+    "created_at": "2020-08-14T14:59:17.431628+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1600049, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 272672
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": ["libloading"], "id": 1600052, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 272672
+      },
+      {
+        "crate_id": "gfx-auxil", "default_features": true, "downloads": 0,
+        "features": ["spirv_cross"], "id": 1600048, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 272672
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1600050, "kind": "normal", "optional": false,
+        "req": "^0.5.3", "target": null, "version_id": 272672
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1600051, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 272672
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1600053, "kind": "normal", "optional": false,
+        "req": "^0.1.1", "target": null, "version_id": 272672
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1600054, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 272672
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1600055, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 272672
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": ["hlsl"], "id": 1600056, "kind": "normal",
+        "optional": false, "req": "^0.20", "target": null,
+        "version_id": 272672
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgi1_6",
+          "dxgidebug", "dxgiformat", "dxgitype", "handleapi", "minwindef",
+          "synchapi", "unknwnbase", "winbase", "windef", "winerror", "winnt",
+          "winuser"
+        ],
+        "id": 1600057, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 272672
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.5.9/download",
+    "downloads": 602, "features": {"default": []}, "id": 272672,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.5.9/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.5.9/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.5.9/downloads"
+    },
+    "num": "0.5.9",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.5.9/readme",
+    "updated_at": "2020-08-14T14:59:17.431628+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-08-16T04:54:33.202888+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 78371,
+    "created_at": "2020-08-16T04:54:33.202888+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1604161, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 273176
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": ["libloading"], "id": 1604164, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 273176
+      },
+      {
+        "crate_id": "gfx-auxil", "default_features": true, "downloads": 0,
+        "features": ["spirv_cross"], "id": 1604160, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 273176
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1604162, "kind": "normal", "optional": false,
+        "req": "^0.5.3", "target": null, "version_id": 273176
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1604163, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 273176
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1604165, "kind": "normal", "optional": false,
+        "req": "^0.1.1", "target": null, "version_id": 273176
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1604166, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 273176
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1604167, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 273176
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": ["hlsl"], "id": 1604168, "kind": "normal",
+        "optional": false, "req": "^0.20", "target": null,
+        "version_id": 273176
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgi1_6",
+          "dxgidebug", "dxgiformat", "dxgitype", "handleapi", "minwindef",
+          "synchapi", "unknwnbase", "winbase", "windef", "winerror", "winnt",
+          "winuser"
+        ],
+        "id": 1604169, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 273176
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.5.10/download",
+    "downloads": 4987, "features": {"default": []}, "id": 273176,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.5.10/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.5.10/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.5.10/downloads"
+    },
+    "num": "0.5.10",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.5.10/readme",
+    "updated_at": "2020-08-16T04:54:33.202888+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-08-16T04:57:20.153813+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 77707,
+    "created_at": "2020-08-16T04:57:20.153813+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1604171, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 273177
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": ["libloading"], "id": 1604174, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 273177
+      },
+      {
+        "crate_id": "gfx-auxil", "default_features": true, "downloads": 0,
+        "features": ["spirv_cross"], "id": 1604170, "kind": "normal",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 273177
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1604172, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 273177
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1604173, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 273177
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1604175, "kind": "normal", "optional": false,
+        "req": "^0.1.1", "target": null, "version_id": 273177
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1604176, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 273177
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1604177, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 273177
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": ["hlsl"], "id": 1604178, "kind": "normal",
+        "optional": false, "req": "^0.20", "target": null,
+        "version_id": 273177
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgi1_6",
+          "dxgidebug", "dxgiformat", "dxgitype", "handleapi", "minwindef",
+          "synchapi", "unknwnbase", "winbase", "windef", "winerror", "winnt",
+          "winuser"
+        ],
+        "id": 1604179, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 273177
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.6.0/download",
+    "downloads": 1176, "features": {"default": []}, "id": 273177,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.6.0/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.6.0/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.6.0/downloads"
+    },
+    "num": "0.6.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.6.0/readme",
+    "updated_at": "2020-08-16T04:57:20.153813+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-08-19T04:37:23.413662+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 77562,
+    "created_at": "2020-08-19T04:37:23.413662+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1611506, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 274059
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": ["libloading"], "id": 1611509, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 274059
+      },
+      {
+        "crate_id": "gfx-auxil", "default_features": true, "downloads": 0,
+        "features": ["spirv_cross"], "id": 1611505, "kind": "normal",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 274059
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1611507, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 274059
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1611508, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 274059
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1611510, "kind": "normal", "optional": false,
+        "req": "^0.1.1", "target": null, "version_id": 274059
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1611511, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 274059
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1611512, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 274059
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": ["hlsl"], "id": 1611513, "kind": "normal",
+        "optional": false, "req": "^0.20", "target": null,
+        "version_id": 274059
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgi1_6",
+          "dxgidebug", "dxgiformat", "dxgitype", "handleapi", "minwindef",
+          "synchapi", "unknwnbase", "winbase", "windef", "winerror", "winnt",
+          "winuser"
+        ],
+        "id": 1611514, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 274059
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.6.1/download",
+    "downloads": 97, "features": {"default": []}, "id": 274059,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.6.1/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.6.1/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.6.1/downloads"
+    },
+    "num": "0.6.1",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.6.1/readme",
+    "updated_at": "2020-08-19T04:37:23.413662+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-08-19T13:07:21.602841+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 77813,
+    "created_at": "2020-08-19T13:07:21.602841+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1612042, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 274138
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": ["libloading"], "id": 1612045, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 274138
+      },
+      {
+        "crate_id": "gfx-auxil", "default_features": true, "downloads": 0,
+        "features": ["spirv_cross"], "id": 1612041, "kind": "normal",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 274138
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1612043, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 274138
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1612044, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 274138
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1612046, "kind": "normal", "optional": false,
+        "req": "^0.1.1", "target": null, "version_id": 274138
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1612047, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 274138
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1612048, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 274138
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": ["hlsl"], "id": 1612049, "kind": "normal",
+        "optional": false, "req": "^0.20", "target": null,
+        "version_id": 274138
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgi1_6",
+          "dxgidebug", "dxgiformat", "dxgitype", "handleapi", "minwindef",
+          "synchapi", "unknwnbase", "winbase", "windef", "winerror", "winnt",
+          "winuser"
+        ],
+        "id": 1612050, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 274138
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.6.2/download",
+    "downloads": 15686, "features": {"default": []}, "id": 274138,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.6.2/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.6.2/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.6.2/downloads"
+    },
+    "num": "0.6.2",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.6.2/readme",
+    "updated_at": "2020-08-19T13:07:21.602841+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-09-02T13:09:44.781322+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 77910,
+    "created_at": "2020-09-02T13:09:44.781322+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1651846, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 279324
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": ["libloading"], "id": 1651849, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 279324
+      },
+      {
+        "crate_id": "gfx-auxil", "default_features": true, "downloads": 0,
+        "features": ["spirv_cross"], "id": 1651845, "kind": "normal",
+        "optional": false, "req": "^0.6", "target": null,
+        "version_id": 279324
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1651847, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 279324
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1651848, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 279324
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1651850, "kind": "normal", "optional": false,
+        "req": "^0.1.1", "target": null, "version_id": 279324
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1651851, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 279324
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1651852, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 279324
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": ["hlsl"], "id": 1651853, "kind": "normal",
+        "optional": false, "req": "^0.21", "target": null,
+        "version_id": 279324
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgi1_6",
+          "dxgidebug", "dxgiformat", "dxgitype", "handleapi", "minwindef",
+          "synchapi", "unknwnbase", "winbase", "windef", "winerror", "winnt",
+          "winuser"
+        ],
+        "id": 1651854, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 279324
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.6.3/download",
+    "downloads": 6469, "features": {"default": []}, "id": 279324,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.6.3/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.6.3/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.6.3/downloads"
+    },
+    "num": "0.6.3",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.6.3/readme",
+    "updated_at": "2020-09-02T13:09:44.781322+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-09-24T14:01:59.221544+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 77934,
+    "created_at": "2020-09-24T14:01:59.221544+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1712282, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 287102
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": ["libloading"], "id": 1712285, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 287102
+      },
+      {
+        "crate_id": "gfx-auxil", "default_features": true, "downloads": 0,
+        "features": ["spirv_cross"], "id": 1712281, "kind": "normal",
+        "optional": false, "req": "^0.6", "target": null,
+        "version_id": 287102
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1712283, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 287102
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1712284, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 287102
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1712286, "kind": "normal", "optional": false,
+        "req": "^0.1.1", "target": null, "version_id": 287102
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1712287, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 287102
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1712288, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 287102
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": ["hlsl"], "id": 1712289, "kind": "normal",
+        "optional": false, "req": "^0.21", "target": null,
+        "version_id": 287102
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgi1_6",
+          "dxgidebug", "dxgiformat", "dxgitype", "handleapi", "minwindef",
+          "synchapi", "unknwnbase", "winbase", "windef", "winerror", "winnt",
+          "winuser"
+        ],
+        "id": 1712290, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 287102
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.6.4/download",
+    "downloads": 2535, "features": {"default": []}, "id": 287102,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.6.4/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.6.4/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.6.4/downloads"
+    },
+    "num": "0.6.4",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.6.4/readme",
+    "updated_at": "2020-09-24T14:01:59.221544+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-10-04T13:45:04.573875+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 78496,
+    "created_at": "2020-10-04T13:45:04.573875+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1735545, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 290254
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1735547, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 290254
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": ["libloading"], "id": 1735550, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 290254
+      },
+      {
+        "crate_id": "gfx-auxil", "default_features": true, "downloads": 0,
+        "features": ["spirv_cross"], "id": 1735546, "kind": "normal",
+        "optional": false, "req": "^0.6", "target": null,
+        "version_id": 290254
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1735548, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 290254
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1735549, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 290254
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1735551, "kind": "normal", "optional": false,
+        "req": "^0.1.1", "target": null, "version_id": 290254
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1735552, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 290254
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1735553, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 290254
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": ["hlsl"], "id": 1735554, "kind": "normal",
+        "optional": false, "req": "^0.21", "target": null,
+        "version_id": 290254
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgi1_6",
+          "dxgidebug", "dxgiformat", "dxgitype", "handleapi", "minwindef",
+          "synchapi", "unknwnbase", "winbase", "windef", "winerror", "winnt",
+          "winuser"
+        ],
+        "id": 1735555, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 290254
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.6.5/download",
+    "downloads": 312, "features": {"default": []}, "id": 290254,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.6.5/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.6.5/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.6.5/downloads"
+    },
+    "num": "0.6.5",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.6.5/readme",
+    "updated_at": "2020-10-04T13:45:04.573875+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-10-05T16:00:39.200940+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 78570,
+    "created_at": "2020-10-05T16:00:39.200940+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1737715, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 290545
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1737717, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 290545
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": ["libloading"], "id": 1737720, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 290545
+      },
+      {
+        "crate_id": "gfx-auxil", "default_features": true, "downloads": 0,
+        "features": ["spirv_cross"], "id": 1737716, "kind": "normal",
+        "optional": false, "req": "^0.6", "target": null,
+        "version_id": 290545
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1737718, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 290545
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1737719, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 290545
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1737721, "kind": "normal", "optional": false,
+        "req": "^0.1.1", "target": null, "version_id": 290545
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1737722, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 290545
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1737723, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 290545
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": ["hlsl"], "id": 1737724, "kind": "normal",
+        "optional": false, "req": "^0.21", "target": null,
+        "version_id": 290545
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgi1_6",
+          "dxgidebug", "dxgiformat", "dxgitype", "handleapi", "minwindef",
+          "synchapi", "unknwnbase", "winbase", "windef", "winerror", "winnt",
+          "winuser"
+        ],
+        "id": 1737725, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 290545
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.6.6/download",
+    "downloads": 1500, "features": {"default": []}, "id": 290545,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.6.6/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.6.6/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.6.6/downloads"
+    },
+    "num": "0.6.6",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.6.6/readme",
+    "updated_at": "2020-10-05T16:00:39.200940+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-10-12T03:50:17.651872+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 78638,
+    "created_at": "2020-10-12T03:50:17.651872+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1751632, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 292515
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1751634, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 292515
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": ["libloading"], "id": 1751637, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 292515
+      },
+      {
+        "crate_id": "gfx-auxil", "default_features": true, "downloads": 0,
+        "features": ["spirv_cross"], "id": 1751633, "kind": "normal",
+        "optional": false, "req": "^0.6", "target": null,
+        "version_id": 292515
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1751635, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 292515
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1751636, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 292515
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1751638, "kind": "normal", "optional": false,
+        "req": "^0.1.1", "target": null, "version_id": 292515
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1751639, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 292515
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1751640, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 292515
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": ["hlsl"], "id": 1751641, "kind": "normal",
+        "optional": false, "req": "^0.21", "target": null,
+        "version_id": 292515
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgi1_6",
+          "dxgidebug", "dxgiformat", "dxgitype", "handleapi", "minwindef",
+          "synchapi", "unknwnbase", "winbase", "windef", "winerror", "winnt",
+          "winuser"
+        ],
+        "id": 1751642, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 292515
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.6.7/download",
+    "downloads": 1194, "features": {"default": []}, "id": 292515,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.6.7/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.6.7/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.6.7/downloads"
+    },
+    "num": "0.6.7",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.6.7/readme",
+    "updated_at": "2020-10-12T03:50:17.651872+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-10-17T00:02:08.468015+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 79064,
+    "created_at": "2020-10-17T00:02:08.468015+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1767984, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 294876
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1767986, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 294876
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": ["libloading"], "id": 1767989, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 294876
+      },
+      {
+        "crate_id": "gfx-auxil", "default_features": true, "downloads": 0,
+        "features": ["spirv_cross"], "id": 1767985, "kind": "normal",
+        "optional": false, "req": "^0.6", "target": null,
+        "version_id": 294876
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1767987, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 294876
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1767988, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 294876
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1767990, "kind": "normal", "optional": false,
+        "req": "^0.1.1", "target": null, "version_id": 294876
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1767991, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 294876
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1767992, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 294876
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": ["hlsl"], "id": 1767993, "kind": "normal",
+        "optional": false, "req": "^0.21", "target": null,
+        "version_id": 294876
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgi1_6",
+          "dxgidebug", "dxgiformat", "dxgitype", "handleapi", "minwindef",
+          "synchapi", "unknwnbase", "winbase", "windef", "winerror", "winnt",
+          "winuser"
+        ],
+        "id": 1767994, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 294876
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.6.8/download",
+    "downloads": 1130, "features": {"default": []}, "id": 294876,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.6.8/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.6.8/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.6.8/downloads"
+    },
+    "num": "0.6.8",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.6.8/readme",
+    "updated_at": "2020-10-17T00:02:08.468015+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-10-19T15:36:30.876648+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 79527,
+    "created_at": "2020-10-19T15:36:30.876648+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1777310, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 296681
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1777313, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 296681
+      },
+      {
+        "crate_id": "bit-set", "default_features": true, "downloads": 0,
+        "features": [], "id": 1777312, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 296681
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": ["libloading"], "id": 1777316, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 296681
+      },
+      {
+        "crate_id": "gfx-auxil", "default_features": true, "downloads": 0,
+        "features": ["spirv_cross"], "id": 1777311, "kind": "normal",
+        "optional": false, "req": "^0.6", "target": null,
+        "version_id": 296681
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1777314, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 296681
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1777315, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 296681
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1777317, "kind": "normal", "optional": false,
+        "req": "^0.1.1", "target": null, "version_id": 296681
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1777318, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 296681
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1777319, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 296681
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": ["hlsl"], "id": 1777320, "kind": "normal",
+        "optional": false, "req": "^0.21", "target": null,
+        "version_id": 296681
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgi1_6",
+          "dxgidebug", "dxgiformat", "dxgitype", "handleapi", "minwindef",
+          "synchapi", "unknwnbase", "winbase", "windef", "winerror", "winnt",
+          "winuser"
+        ],
+        "id": 1777321, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 296681
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.6.9/download",
+    "downloads": 2817, "features": {"default": []}, "id": 296681,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.6.9/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.6.9/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.6.9/downloads"
+    },
+    "num": "0.6.9",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.6.9/readme",
+    "updated_at": "2020-10-19T15:36:30.876648+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-10-24T19:37:45.270172+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 79678,
+    "created_at": "2020-10-24T19:37:45.270172+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1791655, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 298636
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1791658, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 298636
+      },
+      {
+        "crate_id": "bit-set", "default_features": true, "downloads": 0,
+        "features": [], "id": 1791657, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 298636
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": ["libloading"], "id": 1791661, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 298636
+      },
+      {
+        "crate_id": "gfx-auxil", "default_features": true, "downloads": 0,
+        "features": ["spirv_cross"], "id": 1791656, "kind": "normal",
+        "optional": false, "req": "^0.6", "target": null,
+        "version_id": 298636
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1791659, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 298636
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1791660, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 298636
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1791662, "kind": "normal", "optional": false,
+        "req": "^0.1.1", "target": null, "version_id": 298636
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1791663, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 298636
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1791664, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 298636
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": ["hlsl"], "id": 1791665, "kind": "normal",
+        "optional": false, "req": "^0.21", "target": null,
+        "version_id": 298636
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgi1_6",
+          "dxgidebug", "dxgiformat", "dxgitype", "handleapi", "minwindef",
+          "synchapi", "unknwnbase", "winbase", "windef", "winerror", "winnt",
+          "winuser"
+        ],
+        "id": 1791666, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 298636
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.6.10/download",
+    "downloads": 454, "features": {"default": []}, "id": 298636,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.6.10/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.6.10/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.6.10/downloads"
+    },
+    "num": "0.6.10",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.6.10/readme",
+    "updated_at": "2020-10-24T19:37:45.270172+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-10-26T23:34:53.738369+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-dx12", "crate_size": 79654,
+    "created_at": "2020-10-26T23:34:53.738369+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1797309, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 299291
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1797312, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 299291
+      },
+      {
+        "crate_id": "bit-set", "default_features": true, "downloads": 0,
+        "features": [], "id": 1797311, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 299291
+      },
+      {
+        "crate_id": "d3d12", "default_features": true, "downloads": 0,
+        "features": ["libloading"], "id": 1797315, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 299291
+      },
+      {
+        "crate_id": "gfx-auxil", "default_features": true, "downloads": 0,
+        "features": ["spirv_cross"], "id": 1797310, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 299291
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1797313, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 299291
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1797314, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 299291
+      },
+      {
+        "crate_id": "range-alloc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1797316, "kind": "normal", "optional": false,
+        "req": "^0.1.1", "target": null, "version_id": 299291
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1797317, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 299291
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1797318, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 299291
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": ["hlsl"], "id": 1797319, "kind": "normal",
+        "optional": false, "req": "^0.22", "target": null,
+        "version_id": 299291
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "basetsd", "d3d12", "d3d12sdklayers", "d3d12shader", "d3dcommon",
+          "d3dcompiler", "dxgi1_2", "dxgi1_3", "dxgi1_4", "dxgi1_6",
+          "dxgidebug", "dxgiformat", "dxgitype", "handleapi", "minwindef",
+          "synchapi", "unknwnbase", "winbase", "windef", "winerror", "winnt",
+          "winuser"
+        ],
+        "id": 1797320, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 299291
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-dx12/0.6.11/download",
+    "downloads": 3711, "features": {"default": []}, "id": 299291,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-dx12/0.6.11/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-dx12/0.6.11/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-dx12/0.6.11/downloads"
+    },
+    "num": "0.6.11",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-dx12/0.6.11/readme",
+    "updated_at": "2020-10-26T23:34:53.738369+00:00", "yanked": false
+  }
+]

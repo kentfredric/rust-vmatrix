@@ -1,0 +1,3305 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-vulkan", "crate_size": 33551,
+    "created_at": "2018-12-27T01:48:01.872692+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ash", "default_features": true, "downloads": 0,
+        "features": [], "id": 593674, "kind": "normal", "optional": false,
+        "req": "^0.24.4", "target": null, "version_id": 124242
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 593675, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 124242
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 593676, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 124242
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 593678, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 124242
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 593679, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 124242
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 593681, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 124242
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["libloaderapi", "windef", "winuser"], "id": 593685,
+        "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 124242
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 593683, "kind": "normal",
+        "optional": false, "req": "^2.15",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 124242
+      },
+      {
+        "crate_id": "xcb", "default_features": true, "downloads": 0,
+        "features": [], "id": 593684, "kind": "normal", "optional": false,
+        "req": "^0.8",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 124242
+      },
+      {
+        "crate_id": "glsl-to-spirv", "default_features": true,
+        "downloads": 0, "features": [], "id": 593677, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 124242
+      },
+      {
+        "crate_id": "shared_library", "default_features": true,
+        "downloads": 0, "features": [], "id": 593680, "kind": "normal",
+        "optional": true, "req": "^0.1.9", "target": null,
+        "version_id": 124242
+      },
+      {
+        "crate_id": "winit", "default_features": true, "downloads": 0,
+        "features": [], "id": 593682, "kind": "normal", "optional": true,
+        "req": "^0.18", "target": null, "version_id": 124242
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-vulkan/0.1.0/download",
+    "downloads": 4817,
+    "features": {"default": ["winit"], "use-rtld-next": ["shared_library"]},
+    "id": 124242, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-vulkan/0.1.0/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-vulkan/0.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-vulkan/0.1.0/downloads"
+    },
+    "num": "0.1.0", "published_by": null,
+    "readme_path": "/api/v1/crates/gfx-backend-vulkan/0.1.0/readme",
+    "updated_at": "2018-12-27T01:48:01.872692+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-vulkan", "crate_size": 37627,
+    "created_at": "2019-05-11T02:15:13.741566+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ash", "default_features": true, "downloads": 0,
+        "features": [], "id": 734310, "kind": "normal", "optional": false,
+        "req": "^0.29.0", "target": null, "version_id": 149701
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 734311, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 149701
+      },
+      {
+        "crate_id": "derivative", "default_features": true, "downloads": 0,
+        "features": [], "id": 734312, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 149701
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 734313, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 149701
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 734314, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 149701
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 734315, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 149701
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 734317, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 149701
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["libloaderapi", "windef", "winuser"], "id": 734321,
+        "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 149701
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 734319, "kind": "normal",
+        "optional": false, "req": "^2.15",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 149701
+      },
+      {
+        "crate_id": "xcb", "default_features": true, "downloads": 0,
+        "features": [], "id": 734320, "kind": "normal", "optional": false,
+        "req": "^0.8",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 149701
+      },
+      {
+        "crate_id": "shared_library", "default_features": true,
+        "downloads": 0, "features": [], "id": 734316, "kind": "normal",
+        "optional": true, "req": "^0.1.9", "target": null,
+        "version_id": 149701
+      },
+      {
+        "crate_id": "winit", "default_features": true, "downloads": 0,
+        "features": [], "id": 734318, "kind": "normal", "optional": true,
+        "req": "^0.19", "target": null, "version_id": 149701
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-vulkan/0.2.0/download",
+    "downloads": 657,
+    "features": {"default": ["winit"], "use-rtld-next": ["shared_library"]},
+    "id": 149701, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-vulkan/0.2.0/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-vulkan/0.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-vulkan/0.2.0/downloads"
+    },
+    "num": "0.2.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-vulkan/0.2.0/readme",
+    "updated_at": "2019-05-11T02:15:13.741566+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-vulkan", "crate_size": 37690,
+    "created_at": "2019-05-23T13:09:46.754737+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ash", "default_features": true, "downloads": 0,
+        "features": [], "id": 749679, "kind": "normal", "optional": false,
+        "req": "^0.29.0", "target": null, "version_id": 152261
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 749680, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 152261
+      },
+      {
+        "crate_id": "derivative", "default_features": true, "downloads": 0,
+        "features": [], "id": 749681, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 152261
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 749682, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 152261
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 749683, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 152261
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 749684, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 152261
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 749686, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 152261
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["libloaderapi", "windef", "winuser"], "id": 749690,
+        "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 152261
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 749688, "kind": "normal",
+        "optional": false, "req": "^2.15",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 152261
+      },
+      {
+        "crate_id": "xcb", "default_features": true, "downloads": 0,
+        "features": [], "id": 749689, "kind": "normal", "optional": false,
+        "req": "^0.8",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 152261
+      },
+      {
+        "crate_id": "shared_library", "default_features": true,
+        "downloads": 0, "features": [], "id": 749685, "kind": "normal",
+        "optional": true, "req": "^0.1.9", "target": null,
+        "version_id": 152261
+      },
+      {
+        "crate_id": "winit", "default_features": true, "downloads": 0,
+        "features": [], "id": 749687, "kind": "normal", "optional": true,
+        "req": "^0.19", "target": null, "version_id": 152261
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-vulkan/0.2.1/download",
+    "downloads": 1056,
+    "features": {"default": ["winit"], "use-rtld-next": ["shared_library"]},
+    "id": 152261, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-vulkan/0.2.1/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-vulkan/0.2.1/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-vulkan/0.2.1/downloads"
+    },
+    "num": "0.2.1",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-vulkan/0.2.1/readme",
+    "updated_at": "2019-05-23T13:09:46.754737+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-vulkan", "crate_size": 38079,
+    "created_at": "2019-06-14T20:09:04.012765+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ash", "default_features": true, "downloads": 0,
+        "features": [], "id": 776021, "kind": "normal", "optional": false,
+        "req": "^0.29.0", "target": null, "version_id": 156469
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 776022, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 156469
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 776032, "kind": "normal",
+        "optional": false, "req": "^0.17",
+        "target": "cfg(target_os = \"macos\")", "version_id": 156469
+      },
+      {
+        "crate_id": "derivative", "default_features": true, "downloads": 0,
+        "features": [], "id": 776023, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 156469
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 776024, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 156469
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 776025, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 156469
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 776026, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 156469
+      },
+      {
+        "crate_id": "objc", "default_features": true, "downloads": 0,
+        "features": [], "id": 776033, "kind": "normal", "optional": false,
+        "req": "^0.2.5", "target": "cfg(target_os = \"macos\")",
+        "version_id": 156469
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 776028, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 156469
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["libloaderapi", "windef", "winuser"], "id": 776034,
+        "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 156469
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 776030, "kind": "normal",
+        "optional": false, "req": "^2.15",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 156469
+      },
+      {
+        "crate_id": "xcb", "default_features": true, "downloads": 0,
+        "features": [], "id": 776031, "kind": "normal", "optional": false,
+        "req": "^0.8",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 156469
+      },
+      {
+        "crate_id": "shared_library", "default_features": true,
+        "downloads": 0, "features": [], "id": 776027, "kind": "normal",
+        "optional": true, "req": "^0.1.9", "target": null,
+        "version_id": 156469
+      },
+      {
+        "crate_id": "winit", "default_features": true, "downloads": 0,
+        "features": [], "id": 776029, "kind": "normal", "optional": true,
+        "req": "^0.19", "target": null, "version_id": 156469
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-vulkan/0.2.2/download",
+    "downloads": 1576,
+    "features": {"default": ["winit"], "use-rtld-next": ["shared_library"]},
+    "id": 156469, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-vulkan/0.2.2/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-vulkan/0.2.2/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-vulkan/0.2.2/downloads"
+    },
+    "num": "0.2.2",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-vulkan/0.2.2/readme",
+    "updated_at": "2019-06-14T20:09:04.012765+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-vulkan", "crate_size": 38106,
+    "created_at": "2019-06-23T04:25:23.134666+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ash", "default_features": true, "downloads": 0,
+        "features": [], "id": 785667, "kind": "normal", "optional": false,
+        "req": "^0.29.0", "target": null, "version_id": 157865
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 785668, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 157865
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 785678, "kind": "normal",
+        "optional": false, "req": "^0.17",
+        "target": "cfg(target_os = \"macos\")", "version_id": 157865
+      },
+      {
+        "crate_id": "derivative", "default_features": true, "downloads": 0,
+        "features": [], "id": 785669, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 157865
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 785670, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 157865
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 785671, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 157865
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 785672, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 157865
+      },
+      {
+        "crate_id": "objc", "default_features": true, "downloads": 0,
+        "features": [], "id": 785679, "kind": "normal", "optional": false,
+        "req": "^0.2.5", "target": "cfg(target_os = \"macos\")",
+        "version_id": 157865
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 785674, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 157865
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["libloaderapi", "windef", "winuser"], "id": 785680,
+        "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 157865
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 785676, "kind": "normal",
+        "optional": false, "req": "^2.15",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 157865
+      },
+      {
+        "crate_id": "xcb", "default_features": true, "downloads": 0,
+        "features": [], "id": 785677, "kind": "normal", "optional": false,
+        "req": "^0.8",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 157865
+      },
+      {
+        "crate_id": "shared_library", "default_features": true,
+        "downloads": 0, "features": [], "id": 785673, "kind": "normal",
+        "optional": true, "req": "^0.1.9", "target": null,
+        "version_id": 157865
+      },
+      {
+        "crate_id": "winit", "default_features": true, "downloads": 0,
+        "features": [], "id": 785675, "kind": "normal", "optional": true,
+        "req": "^0.19", "target": null, "version_id": 157865
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-vulkan/0.2.3/download",
+    "downloads": 18507,
+    "features": {"default": ["winit"], "use-rtld-next": ["shared_library"]},
+    "id": 157865, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-vulkan/0.2.3/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-vulkan/0.2.3/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-vulkan/0.2.3/downloads"
+    },
+    "num": "0.2.3",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-vulkan/0.2.3/readme",
+    "updated_at": "2019-06-23T04:25:23.134666+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-vulkan", "crate_size": 39647,
+    "created_at": "2019-08-08T17:31:39.683909+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ash", "default_features": true, "downloads": 0,
+        "features": [], "id": 853686, "kind": "normal", "optional": false,
+        "req": "^0.29.0", "target": null, "version_id": 168189
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 853687, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 168189
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 853697, "kind": "normal",
+        "optional": false, "req": "^0.17",
+        "target": "cfg(target_os = \"macos\")", "version_id": 168189
+      },
+      {
+        "crate_id": "derivative", "default_features": true, "downloads": 0,
+        "features": [], "id": 853688, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 168189
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 853689, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 168189
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 853690, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 168189
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 853691, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 168189
+      },
+      {
+        "crate_id": "objc", "default_features": true, "downloads": 0,
+        "features": [], "id": 853698, "kind": "normal", "optional": false,
+        "req": "^0.2.5", "target": "cfg(target_os = \"macos\")",
+        "version_id": 168189
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 853693, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 168189
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["libloaderapi", "windef", "winuser"], "id": 853699,
+        "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 168189
+      },
+      {
+        "crate_id": "shared_library", "default_features": true,
+        "downloads": 0, "features": [], "id": 853692, "kind": "normal",
+        "optional": true, "req": "^0.1.9", "target": null,
+        "version_id": 168189
+      },
+      {
+        "crate_id": "winit", "default_features": true, "downloads": 0,
+        "features": [], "id": 853694, "kind": "normal", "optional": true,
+        "req": "^0.19", "target": null, "version_id": 168189
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 853695, "kind": "normal",
+        "optional": true, "req": "^2.15",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 168189
+      },
+      {
+        "crate_id": "xcb", "default_features": true, "downloads": 0,
+        "features": [], "id": 853696, "kind": "normal", "optional": true,
+        "req": "^0.8",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 168189
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-vulkan/0.3.0/download",
+    "downloads": 2564,
+    "features": {"default": [], "use-rtld-next": ["shared_library"]},
+    "id": 168189, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-vulkan/0.3.0/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-vulkan/0.3.0/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-vulkan/0.3.0/downloads"
+    },
+    "num": "0.3.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-vulkan/0.3.0/readme",
+    "updated_at": "2019-08-08T17:31:39.683909+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-vulkan", "crate_size": 40042,
+    "created_at": "2019-08-31T04:42:32.194686+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ash", "default_features": true, "downloads": 0,
+        "features": [], "id": 884727, "kind": "normal", "optional": false,
+        "req": "^0.29.0", "target": null, "version_id": 172991
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 884728, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 172991
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 884739, "kind": "normal",
+        "optional": false, "req": "^0.17",
+        "target": "cfg(target_os = \"macos\")", "version_id": 172991
+      },
+      {
+        "crate_id": "derivative", "default_features": true, "downloads": 0,
+        "features": [], "id": 884729, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 172991
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 884730, "kind": "normal", "optional": false,
+        "req": "^0.3.1", "target": null, "version_id": 172991
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 884731, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 172991
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 884732, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 172991
+      },
+      {
+        "crate_id": "objc", "default_features": true, "downloads": 0,
+        "features": [], "id": 884740, "kind": "normal", "optional": false,
+        "req": "^0.2.5", "target": "cfg(target_os = \"macos\")",
+        "version_id": 172991
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 884733, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 172991
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 884735, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 172991
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["libloaderapi", "windef", "winuser"], "id": 884741,
+        "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 172991
+      },
+      {
+        "crate_id": "shared_library", "default_features": true,
+        "downloads": 0, "features": [], "id": 884734, "kind": "normal",
+        "optional": true, "req": "^0.1.9", "target": null,
+        "version_id": 172991
+      },
+      {
+        "crate_id": "winit", "default_features": true, "downloads": 0,
+        "features": [], "id": 884736, "kind": "normal", "optional": true,
+        "req": "^0.19", "target": null, "version_id": 172991
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 884737, "kind": "normal",
+        "optional": true, "req": "^2.15",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 172991
+      },
+      {
+        "crate_id": "xcb", "default_features": true, "downloads": 0,
+        "features": [], "id": 884738, "kind": "normal", "optional": true,
+        "req": "^0.8",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 172991
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-vulkan/0.3.2/download",
+    "downloads": 224,
+    "features": {"default": [], "use-rtld-next": ["shared_library"]},
+    "id": 172991, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-vulkan/0.3.2/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-vulkan/0.3.2/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-vulkan/0.3.2/downloads"
+    },
+    "num": "0.3.2",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-vulkan/0.3.2/readme",
+    "updated_at": "2019-08-31T04:42:32.194686+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-vulkan", "crate_size": 40032,
+    "created_at": "2019-09-03T16:31:56.769029+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ash", "default_features": true, "downloads": 0,
+        "features": [], "id": 888614, "kind": "normal", "optional": false,
+        "req": "^0.29.0", "target": null, "version_id": 173674
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 888615, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 173674
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 888626, "kind": "normal",
+        "optional": false, "req": "^0.17",
+        "target": "cfg(target_os = \"macos\")", "version_id": 173674
+      },
+      {
+        "crate_id": "derivative", "default_features": true, "downloads": 0,
+        "features": [], "id": 888616, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 173674
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 888617, "kind": "normal", "optional": false,
+        "req": "^0.3.1", "target": null, "version_id": 173674
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 888618, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 173674
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 888619, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 173674
+      },
+      {
+        "crate_id": "objc", "default_features": true, "downloads": 0,
+        "features": [], "id": 888627, "kind": "normal", "optional": false,
+        "req": "^0.2.5", "target": "cfg(target_os = \"macos\")",
+        "version_id": 173674
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 888620, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 173674
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 888622, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 173674
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["libloaderapi", "windef", "winuser"], "id": 888628,
+        "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 173674
+      },
+      {
+        "crate_id": "shared_library", "default_features": true,
+        "downloads": 0, "features": [], "id": 888621, "kind": "normal",
+        "optional": true, "req": "^0.1.9", "target": null,
+        "version_id": 173674
+      },
+      {
+        "crate_id": "winit", "default_features": true, "downloads": 0,
+        "features": [], "id": 888623, "kind": "normal", "optional": true,
+        "req": "^0.19", "target": null, "version_id": 173674
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 888624, "kind": "normal",
+        "optional": true, "req": "^2.15",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 173674
+      },
+      {
+        "crate_id": "xcb", "default_features": true, "downloads": 0,
+        "features": [], "id": 888625, "kind": "normal", "optional": true,
+        "req": "^0.8",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 173674
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-vulkan/0.3.3/download",
+    "downloads": 25818,
+    "features": {"default": [], "use-rtld-next": ["shared_library"]},
+    "id": 173674, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-vulkan/0.3.3/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-vulkan/0.3.3/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-vulkan/0.3.3/downloads"
+    },
+    "num": "0.3.3",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-vulkan/0.3.3/readme",
+    "updated_at": "2019-09-03T16:31:56.769029+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-vulkan", "crate_size": 41799,
+    "created_at": "2019-10-23T23:37:53.417482+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 958434, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 184616
+      },
+      {
+        "crate_id": "ash", "default_features": true, "downloads": 0,
+        "features": [], "id": 958435, "kind": "normal", "optional": false,
+        "req": "^0.29.0", "target": null, "version_id": 184616
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 958436, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 184616
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 958445, "kind": "normal",
+        "optional": false, "req": "^0.17",
+        "target": "cfg(target_os = \"macos\")", "version_id": 184616
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 958437, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 184616
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 958438, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 184616
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 958439, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 184616
+      },
+      {
+        "crate_id": "objc", "default_features": true, "downloads": 0,
+        "features": [], "id": 958446, "kind": "normal", "optional": false,
+        "req": "^0.2.5", "target": "cfg(target_os = \"macos\")",
+        "version_id": 184616
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 958440, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 184616
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 958442, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 184616
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["libloaderapi", "windef", "winuser"], "id": 958447,
+        "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 184616
+      },
+      {
+        "crate_id": "shared_library", "default_features": true,
+        "downloads": 0, "features": [], "id": 958441, "kind": "normal",
+        "optional": true, "req": "^0.1.9", "target": null,
+        "version_id": 184616
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 958443, "kind": "normal",
+        "optional": true, "req": "^2.15",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 184616
+      },
+      {
+        "crate_id": "xcb", "default_features": true, "downloads": 0,
+        "features": [], "id": 958444, "kind": "normal", "optional": true,
+        "req": "^0.8",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 184616
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-vulkan/0.4.0/download",
+    "downloads": 35211,
+    "features": {"default": [], "use-rtld-next": ["shared_library"]},
+    "id": 184616, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-vulkan/0.4.0/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-vulkan/0.4.0/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-vulkan/0.4.0/downloads"
+    },
+    "num": "0.4.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-vulkan/0.4.0/readme",
+    "updated_at": "2019-10-23T23:37:53.417482+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-02-01T17:32:54.753099+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-vulkan", "crate_size": 41806,
+    "created_at": "2020-02-01T17:32:54.753099+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1123440, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 208602
+      },
+      {
+        "crate_id": "ash", "default_features": true, "downloads": 0,
+        "features": [], "id": 1123441, "kind": "normal", "optional": false,
+        "req": "^0.29.0", "target": null, "version_id": 208602
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1123442, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 208602
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 1123451, "kind": "normal",
+        "optional": false, "req": "^0.17",
+        "target": "cfg(target_os = \"macos\")", "version_id": 208602
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1123443, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 208602
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1123444, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 208602
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1123445, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 208602
+      },
+      {
+        "crate_id": "objc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1123452, "kind": "normal", "optional": false,
+        "req": "^0.2.5", "target": "cfg(target_os = \"macos\")",
+        "version_id": 208602
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1123446, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 208602
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1123448, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 208602
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["libloaderapi", "windef", "winuser"], "id": 1123453,
+        "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 208602
+      },
+      {
+        "crate_id": "shared_library", "default_features": true,
+        "downloads": 0, "features": [], "id": 1123447, "kind": "normal",
+        "optional": true, "req": "^0.1.9", "target": null,
+        "version_id": 208602
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 1123449, "kind": "normal",
+        "optional": true, "req": "^2.15",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 208602
+      },
+      {
+        "crate_id": "xcb", "default_features": true, "downloads": 0,
+        "features": [], "id": 1123450, "kind": "normal", "optional": true,
+        "req": "^0.8",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 208602
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-vulkan/0.4.1/download",
+    "downloads": 1743,
+    "features": {"default": [], "use-rtld-next": ["shared_library"]},
+    "id": 208602, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-vulkan/0.4.1/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-vulkan/0.4.1/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-vulkan/0.4.1/downloads"
+    },
+    "num": "0.4.1",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-vulkan/0.4.1/readme",
+    "updated_at": "2020-02-01T17:32:54.753099+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-02-13T18:30:49.641084+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-vulkan", "crate_size": 41915,
+    "created_at": "2020-02-13T18:30:49.641084+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1151111, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 212257
+      },
+      {
+        "crate_id": "ash", "default_features": true, "downloads": 0,
+        "features": [], "id": 1151112, "kind": "normal", "optional": false,
+        "req": "^0.29.0", "target": null, "version_id": 212257
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1151113, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 212257
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 1151122, "kind": "normal",
+        "optional": false, "req": "^0.17",
+        "target": "cfg(target_os = \"macos\")", "version_id": 212257
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1151114, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 212257
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1151115, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 212257
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1151116, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 212257
+      },
+      {
+        "crate_id": "objc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1151123, "kind": "normal", "optional": false,
+        "req": "^0.2.5", "target": "cfg(target_os = \"macos\")",
+        "version_id": 212257
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1151117, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 212257
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1151119, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 212257
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["libloaderapi", "windef", "winuser"], "id": 1151124,
+        "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 212257
+      },
+      {
+        "crate_id": "shared_library", "default_features": true,
+        "downloads": 0, "features": [], "id": 1151118, "kind": "normal",
+        "optional": true, "req": "^0.1.9", "target": null,
+        "version_id": 212257
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 1151120, "kind": "normal",
+        "optional": true, "req": "^2.15",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 212257
+      },
+      {
+        "crate_id": "xcb", "default_features": true, "downloads": 0,
+        "features": [], "id": 1151121, "kind": "normal", "optional": true,
+        "req": "^0.8",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 212257
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-vulkan/0.4.2/download",
+    "downloads": 10104,
+    "features": {"default": [], "use-rtld-next": ["shared_library"]},
+    "id": 212257, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-vulkan/0.4.2/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-vulkan/0.4.2/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-vulkan/0.4.2/downloads"
+    },
+    "num": "0.4.2",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-vulkan/0.4.2/readme",
+    "updated_at": "2020-02-13T18:30:49.641084+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-04-09T19:25:19.124835+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-vulkan", "crate_size": 41904,
+    "created_at": "2020-04-09T19:25:19.124835+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1279657, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 229403
+      },
+      {
+        "crate_id": "ash", "default_features": true, "downloads": 0,
+        "features": [], "id": 1279658, "kind": "normal", "optional": false,
+        "req": "^0.29.0", "target": null, "version_id": 229403
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1279659, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 229403
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 1279668, "kind": "normal",
+        "optional": false, "req": "^0.19",
+        "target": "cfg(target_os = \"macos\")", "version_id": 229403
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1279660, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 229403
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1279661, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 229403
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1279662, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 229403
+      },
+      {
+        "crate_id": "objc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1279669, "kind": "normal", "optional": false,
+        "req": "^0.2.5", "target": "cfg(target_os = \"macos\")",
+        "version_id": 229403
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1279663, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 229403
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1279665, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 229403
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["libloaderapi", "windef", "winuser"], "id": 1279670,
+        "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 229403
+      },
+      {
+        "crate_id": "shared_library", "default_features": true,
+        "downloads": 0, "features": [], "id": 1279664, "kind": "normal",
+        "optional": true, "req": "^0.1.9", "target": null,
+        "version_id": 229403
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 1279666, "kind": "normal",
+        "optional": true, "req": "^2.15",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 229403
+      },
+      {
+        "crate_id": "xcb", "default_features": true, "downloads": 0,
+        "features": [], "id": 1279667, "kind": "normal", "optional": true,
+        "req": "^0.8",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 229403
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-vulkan/0.4.3/download",
+    "downloads": 21427,
+    "features": {"default": [], "use-rtld-next": ["shared_library"]},
+    "id": 229403, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-vulkan/0.4.3/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-vulkan/0.4.3/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-vulkan/0.4.3/downloads"
+    },
+    "num": "0.4.3",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-vulkan/0.4.3/readme",
+    "updated_at": "2020-04-09T19:25:19.124835+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-03-23T19:09:28.687521+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-vulkan", "crate_size": 43083,
+    "created_at": "2020-03-23T19:09:28.687521+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1236949, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 223799
+      },
+      {
+        "crate_id": "ash", "default_features": true, "downloads": 0,
+        "features": [], "id": 1236950, "kind": "normal", "optional": false,
+        "req": "^0.30", "target": null, "version_id": 223799
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1236951, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 223799
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 1236960, "kind": "normal",
+        "optional": false, "req": "^0.19",
+        "target": "cfg(target_os = \"macos\")", "version_id": 223799
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1236952, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 223799
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1236953, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 223799
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1236954, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 223799
+      },
+      {
+        "crate_id": "objc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1236961, "kind": "normal", "optional": false,
+        "req": "^0.2.5", "target": "cfg(target_os = \"macos\")",
+        "version_id": 223799
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1236955, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 223799
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1236957, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 223799
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["libloaderapi", "windef", "winuser"], "id": 1236962,
+        "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 223799
+      },
+      {
+        "crate_id": "shared_library", "default_features": true,
+        "downloads": 0, "features": [], "id": 1236956, "kind": "normal",
+        "optional": true, "req": "^0.1.9", "target": null,
+        "version_id": 223799
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 1236958, "kind": "normal",
+        "optional": true, "req": "^2.15",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 223799
+      },
+      {
+        "crate_id": "xcb", "default_features": true, "downloads": 0,
+        "features": [], "id": 1236959, "kind": "normal", "optional": true,
+        "req": "^0.9",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 223799
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-vulkan/0.5.0/download",
+    "downloads": 223,
+    "features": {"default": [], "use-rtld-next": ["shared_library"]},
+    "id": 223799, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-vulkan/0.5.0/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-vulkan/0.5.0/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-vulkan/0.5.0/downloads"
+    },
+    "num": "0.5.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-vulkan/0.5.0/readme",
+    "updated_at": "2020-03-23T19:09:28.687521+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-03-26T22:00:57.871760+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-vulkan", "crate_size": 42815,
+    "created_at": "2020-03-26T22:00:57.871760+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1247188, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 225056
+      },
+      {
+        "crate_id": "ash", "default_features": true, "downloads": 0,
+        "features": [], "id": 1247189, "kind": "normal", "optional": false,
+        "req": "^0.30", "target": null, "version_id": 225056
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1247190, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 225056
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 1247199, "kind": "normal",
+        "optional": false, "req": "^0.19",
+        "target": "cfg(target_os = \"macos\")", "version_id": 225056
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1247191, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 225056
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1247192, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 225056
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1247193, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 225056
+      },
+      {
+        "crate_id": "objc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1247200, "kind": "normal", "optional": false,
+        "req": "^0.2.5", "target": "cfg(target_os = \"macos\")",
+        "version_id": 225056
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1247194, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 225056
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1247196, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 225056
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["libloaderapi", "windef", "winuser"], "id": 1247201,
+        "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 225056
+      },
+      {
+        "crate_id": "shared_library", "default_features": true,
+        "downloads": 0, "features": [], "id": 1247195, "kind": "normal",
+        "optional": true, "req": "^0.1.9", "target": null,
+        "version_id": 225056
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 1247197, "kind": "normal",
+        "optional": true, "req": "^2.15",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 225056
+      },
+      {
+        "crate_id": "xcb", "default_features": true, "downloads": 0,
+        "features": [], "id": 1247198, "kind": "normal", "optional": true,
+        "req": "^0.9",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 225056
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-vulkan/0.5.1/download",
+    "downloads": 1515,
+    "features": {"default": [], "use-rtld-next": ["shared_library"]},
+    "id": 225056, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-vulkan/0.5.1/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-vulkan/0.5.1/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-vulkan/0.5.1/downloads"
+    },
+    "num": "0.5.1",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-vulkan/0.5.1/readme",
+    "updated_at": "2020-03-26T22:00:57.871760+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-04-02T04:24:15.326884+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-vulkan", "crate_size": 43227,
+    "created_at": "2020-04-02T04:24:15.326884+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1262342, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 226958
+      },
+      {
+        "crate_id": "ash", "default_features": true, "downloads": 0,
+        "features": [], "id": 1262343, "kind": "normal", "optional": false,
+        "req": "^0.30", "target": null, "version_id": 226958
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1262344, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 226958
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 1262353, "kind": "normal",
+        "optional": false, "req": "^0.19",
+        "target": "cfg(target_os = \"macos\")", "version_id": 226958
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1262345, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 226958
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1262346, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 226958
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1262347, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 226958
+      },
+      {
+        "crate_id": "objc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1262354, "kind": "normal", "optional": false,
+        "req": "^0.2.5", "target": "cfg(target_os = \"macos\")",
+        "version_id": 226958
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1262348, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 226958
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1262350, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 226958
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["libloaderapi", "windef", "winuser"], "id": 1262355,
+        "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 226958
+      },
+      {
+        "crate_id": "shared_library", "default_features": true,
+        "downloads": 0, "features": [], "id": 1262349, "kind": "normal",
+        "optional": true, "req": "^0.1.9", "target": null,
+        "version_id": 226958
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 1262351, "kind": "normal",
+        "optional": true, "req": "^2.15",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 226958
+      },
+      {
+        "crate_id": "xcb", "default_features": true, "downloads": 0,
+        "features": [], "id": 1262352, "kind": "normal", "optional": true,
+        "req": "^0.9",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 226958
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-vulkan/0.5.2/download",
+    "downloads": 6331,
+    "features": {"default": [], "use-rtld-next": ["shared_library"]},
+    "id": 226958, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-vulkan/0.5.2/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-vulkan/0.5.2/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-vulkan/0.5.2/downloads"
+    },
+    "num": "0.5.2",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-vulkan/0.5.2/readme",
+    "updated_at": "2020-04-02T04:24:15.326884+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-04-25T14:42:15.581645+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-vulkan", "crate_size": 42844,
+    "created_at": "2020-04-25T14:42:15.581645+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1318771, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 234675
+      },
+      {
+        "crate_id": "ash", "default_features": true, "downloads": 0,
+        "features": [], "id": 1318772, "kind": "normal", "optional": false,
+        "req": "^0.30", "target": null, "version_id": 234675
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1318773, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 234675
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 1318782, "kind": "normal",
+        "optional": false, "req": "^0.19",
+        "target": "cfg(target_os = \"macos\")", "version_id": 234675
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1318774, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 234675
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1318775, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 234675
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1318776, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 234675
+      },
+      {
+        "crate_id": "objc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1318783, "kind": "normal", "optional": false,
+        "req": "^0.2.5", "target": "cfg(target_os = \"macos\")",
+        "version_id": 234675
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1318777, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 234675
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1318779, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 234675
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["libloaderapi", "windef", "winuser"], "id": 1318784,
+        "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 234675
+      },
+      {
+        "crate_id": "shared_library", "default_features": true,
+        "downloads": 0, "features": [], "id": 1318778, "kind": "normal",
+        "optional": true, "req": "^0.1.9", "target": null,
+        "version_id": 234675
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 1318780, "kind": "normal",
+        "optional": true, "req": "^2.15",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 234675
+      },
+      {
+        "crate_id": "xcb", "default_features": true, "downloads": 0,
+        "features": [], "id": 1318781, "kind": "normal", "optional": true,
+        "req": "^0.9",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 234675
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-vulkan/0.5.3/download",
+    "downloads": 1761,
+    "features": {"default": [], "use-rtld-next": ["shared_library"]},
+    "id": 234675, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-vulkan/0.5.3/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-vulkan/0.5.3/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-vulkan/0.5.3/downloads"
+    },
+    "num": "0.5.3",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-vulkan/0.5.3/readme",
+    "updated_at": "2020-04-25T14:42:15.581645+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-04-27T18:19:10.760154+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-vulkan", "crate_size": 42837,
+    "created_at": "2020-04-27T18:19:10.760154+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1323769, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 235343
+      },
+      {
+        "crate_id": "ash", "default_features": true, "downloads": 0,
+        "features": [], "id": 1323770, "kind": "normal", "optional": false,
+        "req": "^0.30", "target": null, "version_id": 235343
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1323771, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 235343
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 1323780, "kind": "normal",
+        "optional": false, "req": "^0.19",
+        "target": "cfg(target_os = \"macos\")", "version_id": 235343
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1323772, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 235343
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1323773, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 235343
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1323774, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 235343
+      },
+      {
+        "crate_id": "objc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1323781, "kind": "normal", "optional": false,
+        "req": "^0.2.5", "target": "cfg(target_os = \"macos\")",
+        "version_id": 235343
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1323775, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 235343
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1323777, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 235343
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["libloaderapi", "windef", "winuser"], "id": 1323782,
+        "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 235343
+      },
+      {
+        "crate_id": "shared_library", "default_features": true,
+        "downloads": 0, "features": [], "id": 1323776, "kind": "normal",
+        "optional": true, "req": "^0.1.9", "target": null,
+        "version_id": 235343
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 1323778, "kind": "normal",
+        "optional": true, "req": "^2.15",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 235343
+      },
+      {
+        "crate_id": "xcb", "default_features": true, "downloads": 0,
+        "features": [], "id": 1323779, "kind": "normal", "optional": true,
+        "req": "^0.9",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 235343
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-vulkan/0.5.4/download",
+    "downloads": 51,
+    "features": {"default": [], "use-rtld-next": ["shared_library"]},
+    "id": 235343, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-vulkan/0.5.4/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-vulkan/0.5.4/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-vulkan/0.5.4/downloads"
+    },
+    "num": "0.5.4",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-vulkan/0.5.4/readme",
+    "updated_at": "2020-04-27T18:19:10.760154+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-04-27T18:48:17.994468+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-vulkan", "crate_size": 42869,
+    "created_at": "2020-04-27T18:48:17.994468+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1323828, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 235349
+      },
+      {
+        "crate_id": "ash", "default_features": true, "downloads": 0,
+        "features": [], "id": 1323829, "kind": "normal", "optional": false,
+        "req": "^0.30", "target": null, "version_id": 235349
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1323830, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 235349
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 1323839, "kind": "normal",
+        "optional": false, "req": "^0.19",
+        "target": "cfg(target_os = \"macos\")", "version_id": 235349
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1323831, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 235349
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1323832, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 235349
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1323833, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 235349
+      },
+      {
+        "crate_id": "objc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1323840, "kind": "normal", "optional": false,
+        "req": "^0.2.5", "target": "cfg(target_os = \"macos\")",
+        "version_id": 235349
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1323834, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 235349
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1323836, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 235349
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["libloaderapi", "windef", "winuser"], "id": 1323841,
+        "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 235349
+      },
+      {
+        "crate_id": "shared_library", "default_features": true,
+        "downloads": 0, "features": [], "id": 1323835, "kind": "normal",
+        "optional": true, "req": "^0.1.9", "target": null,
+        "version_id": 235349
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 1323837, "kind": "normal",
+        "optional": true, "req": "^2.15",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 235349
+      },
+      {
+        "crate_id": "xcb", "default_features": true, "downloads": 0,
+        "features": [], "id": 1323838, "kind": "normal", "optional": true,
+        "req": "^0.9",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 235349
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-vulkan/0.5.5/download",
+    "downloads": 63,
+    "features": {"default": [], "use-rtld-next": ["shared_library"]},
+    "id": 235349, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-vulkan/0.5.5/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-vulkan/0.5.5/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-vulkan/0.5.5/downloads"
+    },
+    "num": "0.5.5",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-vulkan/0.5.5/readme",
+    "updated_at": "2020-04-27T18:48:17.994468+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-04-27T21:19:58.197615+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-vulkan", "crate_size": 42849,
+    "created_at": "2020-04-27T21:19:58.197615+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1323979, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 235372
+      },
+      {
+        "crate_id": "ash", "default_features": true, "downloads": 0,
+        "features": [], "id": 1323980, "kind": "normal", "optional": false,
+        "req": "^0.30", "target": null, "version_id": 235372
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1323981, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 235372
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 1323990, "kind": "normal",
+        "optional": false, "req": "^0.19",
+        "target": "cfg(target_os = \"macos\")", "version_id": 235372
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1323982, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 235372
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1323983, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 235372
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1323984, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 235372
+      },
+      {
+        "crate_id": "objc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1323991, "kind": "normal", "optional": false,
+        "req": "^0.2.5", "target": "cfg(target_os = \"macos\")",
+        "version_id": 235372
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1323985, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 235372
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1323987, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 235372
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["libloaderapi", "windef", "winuser"], "id": 1323992,
+        "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 235372
+      },
+      {
+        "crate_id": "shared_library", "default_features": true,
+        "downloads": 0, "features": [], "id": 1323986, "kind": "normal",
+        "optional": true, "req": "^0.1.9", "target": null,
+        "version_id": 235372
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 1323988, "kind": "normal",
+        "optional": true, "req": "^2.15",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 235372
+      },
+      {
+        "crate_id": "xcb", "default_features": true, "downloads": 0,
+        "features": [], "id": 1323989, "kind": "normal", "optional": true,
+        "req": "^0.9",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 235372
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-vulkan/0.5.6/download",
+    "downloads": 56415,
+    "features": {"default": [], "use-rtld-next": ["shared_library"]},
+    "id": 235372, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-vulkan/0.5.6/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-vulkan/0.5.6/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-vulkan/0.5.6/downloads"
+    },
+    "num": "0.5.6",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-vulkan/0.5.6/readme",
+    "updated_at": "2020-04-27T21:19:58.197615+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-06-10T18:38:15.421710+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-vulkan", "crate_size": 42878,
+    "created_at": "2020-06-10T18:38:15.421710+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1437382, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 251011
+      },
+      {
+        "crate_id": "ash", "default_features": true, "downloads": 0,
+        "features": [], "id": 1437383, "kind": "normal", "optional": false,
+        "req": "^0.30", "target": null, "version_id": 251011
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1437384, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 251011
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 1437393, "kind": "normal",
+        "optional": false, "req": "^0.19",
+        "target": "cfg(target_os = \"macos\")", "version_id": 251011
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1437385, "kind": "normal", "optional": false,
+        "req": "^0.5.1", "target": null, "version_id": 251011
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1437386, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 251011
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1437387, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 251011
+      },
+      {
+        "crate_id": "objc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1437394, "kind": "normal", "optional": false,
+        "req": "^0.2.5", "target": "cfg(target_os = \"macos\")",
+        "version_id": 251011
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1437388, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 251011
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1437390, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 251011
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["libloaderapi", "windef", "winuser"], "id": 1437395,
+        "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 251011
+      },
+      {
+        "crate_id": "shared_library", "default_features": true,
+        "downloads": 0, "features": [], "id": 1437389, "kind": "normal",
+        "optional": true, "req": "^0.1.9", "target": null,
+        "version_id": 251011
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 1437391, "kind": "normal",
+        "optional": true, "req": "^2.15",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 251011
+      },
+      {
+        "crate_id": "xcb", "default_features": true, "downloads": 0,
+        "features": [], "id": 1437392, "kind": "normal", "optional": true,
+        "req": "^0.9",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 251011
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-vulkan/0.5.7/download",
+    "downloads": 905,
+    "features": {"default": [], "use-rtld-next": ["shared_library"]},
+    "id": 251011, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-vulkan/0.5.7/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-vulkan/0.5.7/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-vulkan/0.5.7/downloads"
+    },
+    "num": "0.5.7",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-vulkan/0.5.7/readme",
+    "updated_at": "2020-06-10T18:38:15.421710+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-06-12T18:26:31.860667+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-vulkan", "crate_size": 43604,
+    "created_at": "2020-06-12T18:26:31.860667+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1443335, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 251800
+      },
+      {
+        "crate_id": "ash", "default_features": true, "downloads": 0,
+        "features": [], "id": 1443336, "kind": "normal", "optional": false,
+        "req": "^0.30", "target": null, "version_id": 251800
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1443337, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 251800
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 1443346, "kind": "normal",
+        "optional": false, "req": "^0.19",
+        "target": "cfg(target_os = \"macos\")", "version_id": 251800
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1443338, "kind": "normal", "optional": false,
+        "req": "^0.5.2", "target": null, "version_id": 251800
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1443339, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 251800
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1443340, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 251800
+      },
+      {
+        "crate_id": "objc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1443347, "kind": "normal", "optional": false,
+        "req": "^0.2.5", "target": "cfg(target_os = \"macos\")",
+        "version_id": 251800
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1443341, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 251800
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1443343, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 251800
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["libloaderapi", "windef", "winuser"], "id": 1443348,
+        "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 251800
+      },
+      {
+        "crate_id": "shared_library", "default_features": true,
+        "downloads": 0, "features": [], "id": 1443342, "kind": "normal",
+        "optional": true, "req": "^0.1.9", "target": null,
+        "version_id": 251800
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 1443344, "kind": "normal",
+        "optional": true, "req": "^2.15",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 251800
+      },
+      {
+        "crate_id": "xcb", "default_features": true, "downloads": 0,
+        "features": [], "id": 1443345, "kind": "normal", "optional": true,
+        "req": "^0.9",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 251800
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-vulkan/0.5.8/download",
+    "downloads": 9103,
+    "features": {"default": [], "use-rtld-next": ["shared_library"]},
+    "id": 251800, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-vulkan/0.5.8/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-vulkan/0.5.8/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-vulkan/0.5.8/downloads"
+    },
+    "num": "0.5.8",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-vulkan/0.5.8/readme",
+    "updated_at": "2020-06-12T18:26:31.860667+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-06-27T23:37:46.827618+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-vulkan", "crate_size": 43870,
+    "created_at": "2020-06-27T23:37:46.827618+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1480671, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 256819
+      },
+      {
+        "crate_id": "ash", "default_features": true, "downloads": 0,
+        "features": [], "id": 1480672, "kind": "normal", "optional": false,
+        "req": "^0.31", "target": null, "version_id": 256819
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1480673, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 256819
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 1480682, "kind": "normal",
+        "optional": false, "req": "^0.19",
+        "target": "cfg(target_os = \"macos\")", "version_id": 256819
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1480674, "kind": "normal", "optional": false,
+        "req": "^0.5.3", "target": null, "version_id": 256819
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1480675, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 256819
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1480676, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 256819
+      },
+      {
+        "crate_id": "objc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1480683, "kind": "normal", "optional": false,
+        "req": "^0.2.5", "target": "cfg(target_os = \"macos\")",
+        "version_id": 256819
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1480677, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 256819
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1480679, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 256819
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["libloaderapi", "windef", "winuser"], "id": 1480684,
+        "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 256819
+      },
+      {
+        "crate_id": "shared_library", "default_features": true,
+        "downloads": 0, "features": [], "id": 1480678, "kind": "normal",
+        "optional": true, "req": "^0.1.9", "target": null,
+        "version_id": 256819
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 1480680, "kind": "normal",
+        "optional": true, "req": "^2.15",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 256819
+      },
+      {
+        "crate_id": "xcb", "default_features": true, "downloads": 0,
+        "features": [], "id": 1480681, "kind": "normal", "optional": true,
+        "req": "^0.9",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 256819
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-vulkan/0.5.9/download",
+    "downloads": 10739,
+    "features": {"default": [], "use-rtld-next": ["shared_library"]},
+    "id": 256819, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-vulkan/0.5.9/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-vulkan/0.5.9/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-vulkan/0.5.9/downloads"
+    },
+    "num": "0.5.9",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-vulkan/0.5.9/readme",
+    "updated_at": "2020-06-27T23:37:46.827618+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-07-11T02:50:53.886681+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-vulkan", "crate_size": 44359,
+    "created_at": "2020-07-11T02:50:53.886681+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1516366, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 261321
+      },
+      {
+        "crate_id": "ash", "default_features": true, "downloads": 0,
+        "features": [], "id": 1516367, "kind": "normal", "optional": false,
+        "req": "^0.31", "target": null, "version_id": 261321
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1516368, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 261321
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 1516377, "kind": "normal",
+        "optional": false, "req": "^0.19",
+        "target": "cfg(target_os = \"macos\")", "version_id": 261321
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1516369, "kind": "normal", "optional": false,
+        "req": "^0.5.3", "target": null, "version_id": 261321
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1516370, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 261321
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1516371, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 261321
+      },
+      {
+        "crate_id": "objc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1516378, "kind": "normal", "optional": false,
+        "req": "^0.2.5", "target": "cfg(target_os = \"macos\")",
+        "version_id": 261321
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1516372, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 261321
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1516374, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 261321
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["libloaderapi", "windef", "winuser"], "id": 1516379,
+        "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 261321
+      },
+      {
+        "crate_id": "shared_library", "default_features": true,
+        "downloads": 0, "features": [], "id": 1516373, "kind": "normal",
+        "optional": true, "req": "^0.1.9", "target": null,
+        "version_id": 261321
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 1516375, "kind": "normal",
+        "optional": true, "req": "^2.15",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 261321
+      },
+      {
+        "crate_id": "xcb", "default_features": true, "downloads": 0,
+        "features": [], "id": 1516376, "kind": "normal", "optional": true,
+        "req": "^0.9",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 261321
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-vulkan/0.5.10/download",
+    "downloads": 5440,
+    "features": {"default": [], "use-rtld-next": ["shared_library"]},
+    "id": 261321, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-vulkan/0.5.10/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-vulkan/0.5.10/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-vulkan/0.5.10/downloads"
+    },
+    "num": "0.5.10",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-vulkan/0.5.10/readme",
+    "updated_at": "2020-07-11T02:50:53.886681+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-07-22T21:21:23.479128+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-vulkan", "crate_size": 44373,
+    "created_at": "2020-07-22T21:21:23.479128+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1543573, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 265123
+      },
+      {
+        "crate_id": "ash", "default_features": true, "downloads": 0,
+        "features": [], "id": 1543574, "kind": "normal", "optional": false,
+        "req": "^0.31", "target": null, "version_id": 265123
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1543575, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 265123
+      },
+      {
+        "crate_id": "core-graphics-types", "default_features": true,
+        "downloads": 0, "features": [], "id": 1543584, "kind": "normal",
+        "optional": false, "req": "^0.1",
+        "target": "cfg(target_os = \"macos\")", "version_id": 265123
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1543576, "kind": "normal", "optional": false,
+        "req": "^0.5.3", "target": null, "version_id": 265123
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1543577, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 265123
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1543578, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 265123
+      },
+      {
+        "crate_id": "objc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1543585, "kind": "normal", "optional": false,
+        "req": "^0.2.5", "target": "cfg(target_os = \"macos\")",
+        "version_id": 265123
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1543579, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 265123
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1543581, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 265123
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["libloaderapi", "windef", "winuser"], "id": 1543586,
+        "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 265123
+      },
+      {
+        "crate_id": "shared_library", "default_features": true,
+        "downloads": 0, "features": [], "id": 1543580, "kind": "normal",
+        "optional": true, "req": "^0.1.9", "target": null,
+        "version_id": 265123
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 1543582, "kind": "normal",
+        "optional": true, "req": "^2.15",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 265123
+      },
+      {
+        "crate_id": "xcb", "default_features": true, "downloads": 0,
+        "features": [], "id": 1543583, "kind": "normal", "optional": true,
+        "req": "^0.9",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 265123
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-vulkan/0.5.11/download",
+    "downloads": 23326,
+    "features": {"default": [], "use-rtld-next": ["shared_library"]},
+    "id": 265123, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-vulkan/0.5.11/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-vulkan/0.5.11/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-vulkan/0.5.11/downloads"
+    },
+    "num": "0.5.11",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-vulkan/0.5.11/readme",
+    "updated_at": "2020-07-22T21:21:23.479128+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-08-16T03:24:04.941338+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-vulkan", "crate_size": 46073,
+    "created_at": "2020-08-16T03:24:04.941338+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1604057, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 273166
+      },
+      {
+        "crate_id": "ash", "default_features": true, "downloads": 0,
+        "features": [], "id": 1604058, "kind": "normal", "optional": false,
+        "req": "^0.31", "target": null, "version_id": 273166
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1604059, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 273166
+      },
+      {
+        "crate_id": "core-graphics-types", "default_features": true,
+        "downloads": 0, "features": [], "id": 1604069, "kind": "normal",
+        "optional": false, "req": "^0.1",
+        "target": "cfg(target_os = \"macos\")", "version_id": 273166
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1604060, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 273166
+      },
+      {
+        "crate_id": "inplace_it", "default_features": true, "downloads": 0,
+        "features": [], "id": 1604061, "kind": "normal", "optional": false,
+        "req": "^0.3.2", "target": null, "version_id": 273166
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1604062, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 273166
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1604063, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 273166
+      },
+      {
+        "crate_id": "objc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1604070, "kind": "normal", "optional": false,
+        "req": "^0.2.5", "target": "cfg(target_os = \"macos\")",
+        "version_id": 273166
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1604064, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 273166
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1604066, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 273166
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["libloaderapi", "windef", "winuser"], "id": 1604071,
+        "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 273166
+      },
+      {
+        "crate_id": "shared_library", "default_features": true,
+        "downloads": 0, "features": [], "id": 1604065, "kind": "normal",
+        "optional": true, "req": "^0.1.9", "target": null,
+        "version_id": 273166
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 1604067, "kind": "normal",
+        "optional": true, "req": "^2.15",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 273166
+      },
+      {
+        "crate_id": "xcb", "default_features": true, "downloads": 0,
+        "features": [], "id": 1604068, "kind": "normal", "optional": true,
+        "req": "^0.9",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 273166
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-vulkan/0.6.0/download",
+    "downloads": 98,
+    "features": {"default": [], "use-rtld-next": ["shared_library"]},
+    "id": 273166, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-vulkan/0.6.0/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-vulkan/0.6.0/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-vulkan/0.6.0/downloads"
+    },
+    "num": "0.6.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-vulkan/0.6.0/readme",
+    "updated_at": "2020-08-16T03:24:04.941338+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-08-17T14:33:23.463628+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-vulkan", "crate_size": 46139,
+    "created_at": "2020-08-17T14:33:23.463628+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1606749, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 273520
+      },
+      {
+        "crate_id": "ash", "default_features": true, "downloads": 0,
+        "features": [], "id": 1606750, "kind": "normal", "optional": false,
+        "req": "^0.31", "target": null, "version_id": 273520
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1606751, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 273520
+      },
+      {
+        "crate_id": "core-graphics-types", "default_features": true,
+        "downloads": 0, "features": [], "id": 1606761, "kind": "normal",
+        "optional": false, "req": "^0.1",
+        "target": "cfg(target_os = \"macos\")", "version_id": 273520
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1606752, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 273520
+      },
+      {
+        "crate_id": "inplace_it", "default_features": true, "downloads": 0,
+        "features": [], "id": 1606753, "kind": "normal", "optional": false,
+        "req": "^0.3.2", "target": null, "version_id": 273520
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1606754, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 273520
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1606755, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 273520
+      },
+      {
+        "crate_id": "objc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1606762, "kind": "normal", "optional": false,
+        "req": "^0.2.5", "target": "cfg(target_os = \"macos\")",
+        "version_id": 273520
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1606756, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 273520
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1606758, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 273520
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["libloaderapi", "windef", "winuser"], "id": 1606763,
+        "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 273520
+      },
+      {
+        "crate_id": "shared_library", "default_features": true,
+        "downloads": 0, "features": [], "id": 1606757, "kind": "normal",
+        "optional": true, "req": "^0.1.9", "target": null,
+        "version_id": 273520
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 1606759, "kind": "normal",
+        "optional": true, "req": "^2.15",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 273520
+      },
+      {
+        "crate_id": "xcb", "default_features": true, "downloads": 0,
+        "features": [], "id": 1606760, "kind": "normal", "optional": true,
+        "req": "^0.9",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 273520
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-vulkan/0.6.1/download",
+    "downloads": 33578,
+    "features": {"default": [], "use-rtld-next": ["shared_library"]},
+    "id": 273520, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-vulkan/0.6.1/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-vulkan/0.6.1/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-vulkan/0.6.1/downloads"
+    },
+    "num": "0.6.1",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-vulkan/0.6.1/readme",
+    "updated_at": "2020-08-17T14:33:23.463628+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-09-24T02:52:54.469947+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-vulkan", "crate_size": 46152,
+    "created_at": "2020-09-24T02:52:54.469947+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1710619, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 286934
+      },
+      {
+        "crate_id": "ash", "default_features": true, "downloads": 0,
+        "features": [], "id": 1710620, "kind": "normal", "optional": false,
+        "req": "^0.31", "target": null, "version_id": 286934
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1710621, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 286934
+      },
+      {
+        "crate_id": "core-graphics-types", "default_features": true,
+        "downloads": 0, "features": [], "id": 1710631, "kind": "normal",
+        "optional": false, "req": "^0.1",
+        "target": "cfg(target_os = \"macos\")", "version_id": 286934
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1710622, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 286934
+      },
+      {
+        "crate_id": "inplace_it", "default_features": true, "downloads": 0,
+        "features": [], "id": 1710623, "kind": "normal", "optional": false,
+        "req": "^0.3.2", "target": null, "version_id": 286934
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1710624, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 286934
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1710625, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 286934
+      },
+      {
+        "crate_id": "objc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1710632, "kind": "normal", "optional": false,
+        "req": "^0.2.5", "target": "cfg(target_os = \"macos\")",
+        "version_id": 286934
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1710626, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 286934
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1710628, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 286934
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["libloaderapi", "windef", "winuser"], "id": 1710633,
+        "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 286934
+      },
+      {
+        "crate_id": "shared_library", "default_features": true,
+        "downloads": 0, "features": [], "id": 1710627, "kind": "normal",
+        "optional": true, "req": "^0.1.9", "target": null,
+        "version_id": 286934
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 1710629, "kind": "normal",
+        "optional": true, "req": "^2.15",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 286934
+      },
+      {
+        "crate_id": "xcb", "default_features": true, "downloads": 0,
+        "features": [], "id": 1710630, "kind": "normal", "optional": true,
+        "req": "^0.9",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 286934
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-vulkan/0.6.2/download",
+    "downloads": 2550,
+    "features": {"default": [], "use-rtld-next": ["shared_library"]},
+    "id": 286934, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-vulkan/0.6.2/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-vulkan/0.6.2/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-vulkan/0.6.2/downloads"
+    },
+    "num": "0.6.2",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-vulkan/0.6.2/readme",
+    "updated_at": "2020-09-24T02:52:54.469947+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-09-30T23:07:04.941221+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-vulkan", "crate_size": 46179,
+    "created_at": "2020-09-30T23:07:04.941221+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1726998, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 289176
+      },
+      {
+        "crate_id": "ash", "default_features": true, "downloads": 0,
+        "features": [], "id": 1726999, "kind": "normal", "optional": false,
+        "req": "^0.31", "target": null, "version_id": 289176
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1727000, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 289176
+      },
+      {
+        "crate_id": "core-graphics-types", "default_features": true,
+        "downloads": 0, "features": [], "id": 1727010, "kind": "normal",
+        "optional": false, "req": "^0.1",
+        "target": "cfg(target_os = \"macos\")", "version_id": 289176
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1727001, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 289176
+      },
+      {
+        "crate_id": "inplace_it", "default_features": true, "downloads": 0,
+        "features": [], "id": 1727002, "kind": "normal", "optional": false,
+        "req": "^0.3.2", "target": null, "version_id": 289176
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1727003, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 289176
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1727004, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 289176
+      },
+      {
+        "crate_id": "objc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1727011, "kind": "normal", "optional": false,
+        "req": "^0.2.5", "target": "cfg(target_os = \"macos\")",
+        "version_id": 289176
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1727005, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 289176
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1727007, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 289176
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["libloaderapi", "windef", "winuser"], "id": 1727012,
+        "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 289176
+      },
+      {
+        "crate_id": "shared_library", "default_features": true,
+        "downloads": 0, "features": [], "id": 1727006, "kind": "normal",
+        "optional": true, "req": "^0.1.9", "target": null,
+        "version_id": 289176
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 1727008, "kind": "normal",
+        "optional": true, "req": "^2.15",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 289176
+      },
+      {
+        "crate_id": "xcb", "default_features": true, "downloads": 0,
+        "features": [], "id": 1727009, "kind": "normal", "optional": true,
+        "req": "^0.9",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 289176
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-vulkan/0.6.3/download",
+    "downloads": 5563,
+    "features": {"default": [], "use-rtld-next": ["shared_library"]},
+    "id": 289176, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-vulkan/0.6.3/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-vulkan/0.6.3/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-vulkan/0.6.3/downloads"
+    },
+    "num": "0.6.3",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-vulkan/0.6.3/readme",
+    "updated_at": "2020-09-30T23:07:04.941221+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-10-15T19:42:32.948026+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-vulkan", "crate_size": 46388,
+    "created_at": "2020-10-15T19:42:32.948026+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1763411, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 294046
+      },
+      {
+        "crate_id": "ash", "default_features": true, "downloads": 0,
+        "features": [], "id": 1763412, "kind": "normal", "optional": false,
+        "req": "^0.31", "target": null, "version_id": 294046
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1763413, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 294046
+      },
+      {
+        "crate_id": "core-graphics-types", "default_features": true,
+        "downloads": 0, "features": [], "id": 1763423, "kind": "normal",
+        "optional": false, "req": "^0.1",
+        "target": "cfg(target_os = \"macos\")", "version_id": 294046
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1763414, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 294046
+      },
+      {
+        "crate_id": "inplace_it", "default_features": true, "downloads": 0,
+        "features": [], "id": 1763415, "kind": "normal", "optional": false,
+        "req": "^0.3.2", "target": null, "version_id": 294046
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1763416, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 294046
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1763417, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 294046
+      },
+      {
+        "crate_id": "objc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1763424, "kind": "normal", "optional": false,
+        "req": "^0.2.5", "target": "cfg(target_os = \"macos\")",
+        "version_id": 294046
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1763418, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 294046
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1763420, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 294046
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["libloaderapi", "windef", "winuser"], "id": 1763425,
+        "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 294046
+      },
+      {
+        "crate_id": "shared_library", "default_features": true,
+        "downloads": 0, "features": [], "id": 1763419, "kind": "normal",
+        "optional": true, "req": "^0.1.9", "target": null,
+        "version_id": 294046
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 1763421, "kind": "normal",
+        "optional": true, "req": "^2.15",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 294046
+      },
+      {
+        "crate_id": "xcb", "default_features": true, "downloads": 0,
+        "features": [], "id": 1763422, "kind": "normal", "optional": true,
+        "req": "^0.9",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 294046
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-vulkan/0.6.4/download",
+    "downloads": 355,
+    "features": {"default": [], "use-rtld-next": ["shared_library"]},
+    "id": 294046, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-vulkan/0.6.4/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-vulkan/0.6.4/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-vulkan/0.6.4/downloads"
+    },
+    "num": "0.6.4",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-vulkan/0.6.4/readme",
+    "updated_at": "2020-10-15T19:42:32.948026+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-10-15T21:58:44.869010+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-vulkan", "crate_size": 46442,
+    "created_at": "2020-10-15T21:58:44.869010+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1764002, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 294116
+      },
+      {
+        "crate_id": "ash", "default_features": true, "downloads": 0,
+        "features": [], "id": 1764003, "kind": "normal", "optional": false,
+        "req": "^0.31", "target": null, "version_id": 294116
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1764004, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 294116
+      },
+      {
+        "crate_id": "core-graphics-types", "default_features": true,
+        "downloads": 0, "features": [], "id": 1764014, "kind": "normal",
+        "optional": false, "req": "^0.1",
+        "target": "cfg(target_os = \"macos\")", "version_id": 294116
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1764005, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 294116
+      },
+      {
+        "crate_id": "inplace_it", "default_features": true, "downloads": 0,
+        "features": [], "id": 1764006, "kind": "normal", "optional": false,
+        "req": "^0.3.2", "target": null, "version_id": 294116
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1764007, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 294116
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1764008, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 294116
+      },
+      {
+        "crate_id": "objc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1764015, "kind": "normal", "optional": false,
+        "req": "^0.2.5", "target": "cfg(target_os = \"macos\")",
+        "version_id": 294116
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1764009, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 294116
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1764011, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 294116
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["libloaderapi", "windef", "winuser"], "id": 1764016,
+        "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 294116
+      },
+      {
+        "crate_id": "shared_library", "default_features": true,
+        "downloads": 0, "features": [], "id": 1764010, "kind": "normal",
+        "optional": true, "req": "^0.1.9", "target": null,
+        "version_id": 294116
+      },
+      {
+        "crate_id": "x11", "default_features": true, "downloads": 0,
+        "features": ["xlib"], "id": 1764012, "kind": "normal",
+        "optional": true, "req": "^2.15",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 294116
+      },
+      {
+        "crate_id": "xcb", "default_features": true, "downloads": 0,
+        "features": [], "id": 1764013, "kind": "normal", "optional": true,
+        "req": "^0.9",
+        "target": "cfg(all(unix, not(target_os = \"macos\"), not(target_os = \"ios\"), not(target_os = \"android\")))",
+        "version_id": 294116
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-vulkan/0.6.5/download",
+    "downloads": 10838,
+    "features": {"default": [], "use-rtld-next": ["shared_library"]},
+    "id": 294116, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-vulkan/0.6.5/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-vulkan/0.6.5/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-vulkan/0.6.5/downloads"
+    },
+    "num": "0.6.5",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-vulkan/0.6.5/readme",
+    "updated_at": "2020-10-15T21:58:44.869010+00:00", "yanked": false
+  }
+]

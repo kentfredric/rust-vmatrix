@@ -1,0 +1,977 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["Pyfisch <pyfisch@gmail.com>"]}, "users": []},
+    "crate": "serde_cbor", "crate_size": null,
+    "created_at": "2015-09-29T06:32:15.593726+00:00",
+    "dependencies": [
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 41762, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 16214
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 41763, "kind": "normal", "optional": false,
+        "req": "*", "target": null, "version_id": 16214
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 41764, "kind": "normal", "optional": false,
+        "req": "*", "target": null, "version_id": 16214
+      }
+    ],
+    "dl_path": "/api/v1/crates/serde_cbor/0.1.0/download",
+    "downloads": 538, "features": {"unstable": []}, "id": 16214,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/serde_cbor/0.1.0/authors",
+      "dependencies": "/api/v1/crates/serde_cbor/0.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/serde_cbor/0.1.0/downloads"
+    },
+    "num": "0.1.0", "published_by": null,
+    "readme_path": "/api/v1/crates/serde_cbor/0.1.0/readme",
+    "updated_at": "2017-11-30T04:13:24.071545+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["Pyfisch <pyfisch@gmail.com>"]}, "users": []},
+    "crate": "serde_cbor", "crate_size": null,
+    "created_at": "2016-02-07T11:23:26.293792+00:00",
+    "dependencies": [
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 64145, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 22009
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 64143, "kind": "normal", "optional": false,
+        "req": "^0.2.6", "target": null, "version_id": 22009
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 64144, "kind": "normal", "optional": false,
+        "req": "^0.6.11", "target": null, "version_id": 22009
+      }
+    ],
+    "dl_path": "/api/v1/crates/serde_cbor/0.2.0/download",
+    "downloads": 428, "features": {"unstable": []}, "id": 22009,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/serde_cbor/0.2.0/authors",
+      "dependencies": "/api/v1/crates/serde_cbor/0.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/serde_cbor/0.2.0/downloads"
+    },
+    "num": "0.2.0", "published_by": null,
+    "readme_path": "/api/v1/crates/serde_cbor/0.2.0/readme",
+    "updated_at": "2017-11-30T02:42:43.057806+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["Pyfisch <pyfisch@gmail.com>"]}, "users": []},
+    "crate": "serde_cbor", "crate_size": null,
+    "created_at": "2016-02-21T12:39:37.398726+00:00",
+    "dependencies": [
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 66330, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 22698
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 66331, "kind": "normal", "optional": false,
+        "req": "^0.2.6", "target": null, "version_id": 22698
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 66329, "kind": "normal", "optional": false,
+        "req": "^0.6.11", "target": null, "version_id": 22698
+      }
+    ],
+    "dl_path": "/api/v1/crates/serde_cbor/0.2.1/download",
+    "downloads": 1307, "features": {"unstable": []}, "id": 22698,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/serde_cbor/0.2.1/authors",
+      "dependencies": "/api/v1/crates/serde_cbor/0.2.1/dependencies",
+      "version_downloads": "/api/v1/crates/serde_cbor/0.2.1/downloads"
+    },
+    "num": "0.2.1", "published_by": null,
+    "readme_path": "/api/v1/crates/serde_cbor/0.2.1/readme",
+    "updated_at": "2017-11-30T03:43:50.483022+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["Pyfisch <pyfisch@gmail.com>"]}, "users": []},
+    "crate": "serde_cbor", "crate_size": null,
+    "created_at": "2016-03-15T10:20:08.287121+00:00",
+    "dependencies": [
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 71372, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 23933
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 71374, "kind": "normal", "optional": false,
+        "req": "^0.2.6", "target": null, "version_id": 23933
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 71373, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 23933
+      }
+    ],
+    "dl_path": "/api/v1/crates/serde_cbor/0.3.0/download",
+    "downloads": 422, "features": {"unstable": []}, "id": 23933,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/serde_cbor/0.3.0/authors",
+      "dependencies": "/api/v1/crates/serde_cbor/0.3.0/dependencies",
+      "version_downloads": "/api/v1/crates/serde_cbor/0.3.0/downloads"
+    },
+    "num": "0.3.0", "published_by": null,
+    "readme_path": "/api/v1/crates/serde_cbor/0.3.0/readme",
+    "updated_at": "2017-11-30T02:52:52.970862+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["Pyfisch <pyfisch@gmail.com>"]}, "users": []},
+    "crate": "serde_cbor", "crate_size": null,
+    "created_at": "2016-03-18T13:37:03.484586+00:00",
+    "dependencies": [
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 72189, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 24101
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 72188, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 24101
+      }
+    ],
+    "dl_path": "/api/v1/crates/serde_cbor/0.3.1/download",
+    "downloads": 437, "features": {"unstable": []}, "id": 24101,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/serde_cbor/0.3.1/authors",
+      "dependencies": "/api/v1/crates/serde_cbor/0.3.1/dependencies",
+      "version_downloads": "/api/v1/crates/serde_cbor/0.3.1/downloads"
+    },
+    "num": "0.3.1", "published_by": null,
+    "readme_path": "/api/v1/crates/serde_cbor/0.3.1/readme",
+    "updated_at": "2017-11-30T03:20:56.333971+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["Pyfisch <pyfisch@gmail.com>"]}, "users": []},
+    "crate": "serde_cbor", "crate_size": null,
+    "created_at": "2016-03-30T10:53:51.467133+00:00",
+    "dependencies": [
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 74773, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 24734
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 74772, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 24734
+      }
+    ],
+    "dl_path": "/api/v1/crates/serde_cbor/0.3.2/download",
+    "downloads": 436, "features": {"unstable": []}, "id": 24734,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/serde_cbor/0.3.2/authors",
+      "dependencies": "/api/v1/crates/serde_cbor/0.3.2/dependencies",
+      "version_downloads": "/api/v1/crates/serde_cbor/0.3.2/downloads"
+    },
+    "num": "0.3.2", "published_by": null,
+    "readme_path": "/api/v1/crates/serde_cbor/0.3.2/readme",
+    "updated_at": "2017-11-30T02:44:57.642196+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["Pyfisch <pyfisch@gmail.com>"]}, "users": []},
+    "crate": "serde_cbor", "crate_size": null,
+    "created_at": "2016-03-30T11:07:35.772540+00:00",
+    "dependencies": [
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 74774, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 24735
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 74775, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 24735
+      }
+    ],
+    "dl_path": "/api/v1/crates/serde_cbor/0.3.3/download",
+    "downloads": 2582, "features": {"unstable": []}, "id": 24735,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/serde_cbor/0.3.3/authors",
+      "dependencies": "/api/v1/crates/serde_cbor/0.3.3/dependencies",
+      "version_downloads": "/api/v1/crates/serde_cbor/0.3.3/downloads"
+    },
+    "num": "0.3.3", "published_by": null,
+    "readme_path": "/api/v1/crates/serde_cbor/0.3.3/readme",
+    "updated_at": "2017-11-30T03:29:39.226328+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["Pyfisch <pyfisch@gmail.com>"]}, "users": []},
+    "crate": "serde_cbor", "crate_size": null,
+    "created_at": "2016-08-06T11:59:11.344632+00:00",
+    "dependencies": [
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 101476, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 31371
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 101474, "kind": "normal", "optional": false,
+        "req": "^0.8.0", "target": null, "version_id": 31371
+      },
+      {
+        "crate_id": "serde_macros", "default_features": true,
+        "downloads": 0, "features": [], "id": 101475, "kind": "normal",
+        "optional": true, "req": "^0.8.0", "target": null,
+        "version_id": 31371
+      }
+    ],
+    "dl_path": "/api/v1/crates/serde_cbor/0.4.0/download",
+    "downloads": 139682, "features": {"unstable": ["serde_macros"]},
+    "id": 31371, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/serde_cbor/0.4.0/authors",
+      "dependencies": "/api/v1/crates/serde_cbor/0.4.0/dependencies",
+      "version_downloads": "/api/v1/crates/serde_cbor/0.4.0/downloads"
+    },
+    "num": "0.4.0", "published_by": null,
+    "readme_path": "/api/v1/crates/serde_cbor/0.4.0/readme",
+    "updated_at": "2017-11-30T03:43:49.186810+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["Pyfisch <pyfisch@gmail.com>"]}, "users": []},
+    "crate": "serde_cbor", "crate_size": null,
+    "created_at": "2017-01-28T11:21:45.130539+00:00",
+    "dependencies": [
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 157564, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 43574
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 157563, "kind": "normal", "optional": false,
+        "req": "^0.9.0", "target": null, "version_id": 43574
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 157565, "kind": "normal",
+        "optional": true, "req": "^0.9.0", "target": null,
+        "version_id": 43574
+      }
+    ],
+    "dl_path": "/api/v1/crates/serde_cbor/0.5.0/download",
+    "downloads": 383, "features": {"unstable": ["serde_derive"]},
+    "id": 43574, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/serde_cbor/0.5.0/authors",
+      "dependencies": "/api/v1/crates/serde_cbor/0.5.0/dependencies",
+      "version_downloads": "/api/v1/crates/serde_cbor/0.5.0/downloads"
+    },
+    "num": "0.5.0", "published_by": null,
+    "readme_path": "/api/v1/crates/serde_cbor/0.5.0/readme",
+    "updated_at": "2017-11-30T04:13:24.114937+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["Pyfisch <pyfisch@gmail.com>"]}, "users": []},
+    "crate": "serde_cbor", "crate_size": null,
+    "created_at": "2017-01-29T12:11:52.740597+00:00",
+    "dependencies": [
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 157905, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 43671
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 157907, "kind": "normal", "optional": false,
+        "req": "^0.9.0", "target": null, "version_id": 43671
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 157906, "kind": "normal",
+        "optional": true, "req": "^0.9.0", "target": null,
+        "version_id": 43671
+      }
+    ],
+    "dl_path": "/api/v1/crates/serde_cbor/0.5.1/download",
+    "downloads": 365, "features": {"unstable": ["serde_derive"]},
+    "id": 43671, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/serde_cbor/0.5.1/authors",
+      "dependencies": "/api/v1/crates/serde_cbor/0.5.1/dependencies",
+      "version_downloads": "/api/v1/crates/serde_cbor/0.5.1/downloads"
+    },
+    "num": "0.5.1", "published_by": null,
+    "readme_path": "/api/v1/crates/serde_cbor/0.5.1/readme",
+    "updated_at": "2017-11-30T04:13:24.116857+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["Pyfisch <pyfisch@gmail.com>"]}, "users": []},
+    "crate": "serde_cbor", "crate_size": null,
+    "created_at": "2017-02-04T14:20:04.824006+00:00",
+    "dependencies": [
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 163097, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 44577
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 163096, "kind": "normal", "optional": false,
+        "req": "^0.9.0", "target": null, "version_id": 44577
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 163095, "kind": "normal",
+        "optional": true, "req": "^0.9.0", "target": null,
+        "version_id": 44577
+      }
+    ],
+    "dl_path": "/api/v1/crates/serde_cbor/0.5.2/download",
+    "downloads": 8237, "features": {"unstable": ["serde_derive"]},
+    "id": 44577, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/serde_cbor/0.5.2/authors",
+      "dependencies": "/api/v1/crates/serde_cbor/0.5.2/dependencies",
+      "version_downloads": "/api/v1/crates/serde_cbor/0.5.2/downloads"
+    },
+    "num": "0.5.2", "published_by": null,
+    "readme_path": "/api/v1/crates/serde_cbor/0.5.2/readme",
+    "updated_at": "2017-11-30T02:57:35.630990+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["Pyfisch <pyfisch@gmail.com>"]}, "users": []},
+    "crate": "serde_cbor", "crate_size": null,
+    "created_at": "2017-04-23T19:04:42.561601+00:00",
+    "dependencies": [
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 193823, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 51107
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 193821, "kind": "normal", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 51107
+      },
+      {
+        "crate_id": "serde_bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 193822, "kind": "normal", "optional": false,
+        "req": "^0.10.0", "target": null, "version_id": 51107
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 193824, "kind": "dev",
+        "optional": false, "req": "^1.0.0", "target": null,
+        "version_id": 51107
+      }
+    ],
+    "dl_path": "/api/v1/crates/serde_cbor/0.6.0-alpha/download",
+    "downloads": 410, "features": {}, "id": 51107,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/serde_cbor/0.6.0-alpha/authors",
+      "dependencies": "/api/v1/crates/serde_cbor/0.6.0-alpha/dependencies",
+      "version_downloads": "/api/v1/crates/serde_cbor/0.6.0-alpha/downloads"
+    },
+    "num": "0.6.0-alpha", "published_by": null,
+    "readme_path": "/api/v1/crates/serde_cbor/0.6.0-alpha/readme",
+    "updated_at": "2017-11-30T02:44:57.680059+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["Pyfisch <pyfisch@gmail.com>"]}, "users": []},
+    "crate": "serde_cbor", "crate_size": null,
+    "created_at": "2017-05-06T08:52:38.569256+00:00",
+    "dependencies": [
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 200711, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 52425
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 200710, "kind": "normal", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 52425
+      },
+      {
+        "crate_id": "serde_bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 200712, "kind": "normal", "optional": false,
+        "req": "^0.10.0", "target": null, "version_id": 52425
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 200713, "kind": "dev",
+        "optional": false, "req": "^1.0.0", "target": null,
+        "version_id": 52425
+      }
+    ],
+    "dl_path": "/api/v1/crates/serde_cbor/0.6.0/download",
+    "downloads": 15192, "features": {}, "id": 52425,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/serde_cbor/0.6.0/authors",
+      "dependencies": "/api/v1/crates/serde_cbor/0.6.0/dependencies",
+      "version_downloads": "/api/v1/crates/serde_cbor/0.6.0/downloads"
+    },
+    "num": "0.6.0", "published_by": null,
+    "readme_path": "/api/v1/crates/serde_cbor/0.6.0/readme",
+    "updated_at": "2017-11-30T03:43:49.287941+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["Pyfisch <pyfisch@gmail.com>"]}, "users": []},
+    "crate": "serde_cbor", "crate_size": null,
+    "created_at": "2017-07-21T18:25:21.897321+00:00",
+    "dependencies": [
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 241712, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 60298
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 241714, "kind": "normal", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 60298
+      },
+      {
+        "crate_id": "serde_bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 241713, "kind": "normal", "optional": false,
+        "req": "^0.10.0", "target": null, "version_id": 60298
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 241715, "kind": "dev",
+        "optional": false, "req": "^1.0.0", "target": null,
+        "version_id": 60298
+      }
+    ],
+    "dl_path": "/api/v1/crates/serde_cbor/0.6.1/download",
+    "downloads": 166280, "features": {}, "id": 60298,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/serde_cbor/0.6.1/authors",
+      "dependencies": "/api/v1/crates/serde_cbor/0.6.1/dependencies",
+      "version_downloads": "/api/v1/crates/serde_cbor/0.6.1/downloads"
+    },
+    "num": "0.6.1", "published_by": null,
+    "readme_path": "/api/v1/crates/serde_cbor/0.6.1/readme",
+    "updated_at": "2017-11-30T04:20:28.913325+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Pyfisch <pyfisch@gmail.com>",
+          "Steven Fackler <sfackler@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "serde_cbor", "crate_size": null,
+    "created_at": "2017-12-25T23:21:35.166394+00:00",
+    "dependencies": [
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 322837, "kind": "normal", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 75484
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 322838, "kind": "normal", "optional": false,
+        "req": "^1.0.14", "target": null, "version_id": 75484
+      },
+      {
+        "crate_id": "serde_bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 322839, "kind": "dev", "optional": false,
+        "req": "^0.10", "target": null, "version_id": 75484
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 322840, "kind": "dev",
+        "optional": false, "req": "^1.0.14", "target": null,
+        "version_id": 75484
+      }
+    ],
+    "dl_path": "/api/v1/crates/serde_cbor/0.8.0/download",
+    "downloads": 336, "features": {}, "id": 75484,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/serde_cbor/0.8.0/authors",
+      "dependencies": "/api/v1/crates/serde_cbor/0.8.0/dependencies",
+      "version_downloads": "/api/v1/crates/serde_cbor/0.8.0/downloads"
+    },
+    "num": "0.8.0", "published_by": null,
+    "readme_path": "/api/v1/crates/serde_cbor/0.8.0/readme",
+    "updated_at": "2017-12-25T23:21:35.166394+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Pyfisch <pyfisch@gmail.com>",
+          "Steven Fackler <sfackler@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "serde_cbor", "crate_size": null,
+    "created_at": "2017-12-29T19:26:34.531306+00:00",
+    "dependencies": [
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 324684, "kind": "normal", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 75825
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 324685, "kind": "normal", "optional": false,
+        "req": "^1.0.14", "target": null, "version_id": 75825
+      },
+      {
+        "crate_id": "serde_bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 324687, "kind": "dev", "optional": false,
+        "req": "^0.10", "target": null, "version_id": 75825
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 324686, "kind": "dev",
+        "optional": false, "req": "^1.0.14", "target": null,
+        "version_id": 75825
+      }
+    ],
+    "dl_path": "/api/v1/crates/serde_cbor/0.8.1/download",
+    "downloads": 786, "features": {}, "id": 75825,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/serde_cbor/0.8.1/authors",
+      "dependencies": "/api/v1/crates/serde_cbor/0.8.1/dependencies",
+      "version_downloads": "/api/v1/crates/serde_cbor/0.8.1/downloads"
+    },
+    "num": "0.8.1", "published_by": null,
+    "readme_path": "/api/v1/crates/serde_cbor/0.8.1/readme",
+    "updated_at": "2017-12-29T19:26:34.531306+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Pyfisch <pyfisch@gmail.com>",
+          "Steven Fackler <sfackler@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "serde_cbor", "crate_size": null,
+    "created_at": "2018-01-25T23:06:02.513278+00:00",
+    "dependencies": [
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 340318, "kind": "normal", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 78748
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 340319, "kind": "normal", "optional": false,
+        "req": "^1.0.14", "target": null, "version_id": 78748
+      },
+      {
+        "crate_id": "serde_bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 340320, "kind": "dev", "optional": false,
+        "req": "^0.10", "target": null, "version_id": 78748
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 340321, "kind": "dev",
+        "optional": false, "req": "^1.0.14", "target": null,
+        "version_id": 78748
+      }
+    ],
+    "dl_path": "/api/v1/crates/serde_cbor/0.8.2/download",
+    "downloads": 213335, "features": {}, "id": 78748,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/serde_cbor/0.8.2/authors",
+      "dependencies": "/api/v1/crates/serde_cbor/0.8.2/dependencies",
+      "version_downloads": "/api/v1/crates/serde_cbor/0.8.2/downloads"
+    },
+    "num": "0.8.2", "published_by": null,
+    "readme_path": "/api/v1/crates/serde_cbor/0.8.2/readme",
+    "updated_at": "2018-01-25T23:06:02.513278+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Pyfisch <pyfisch@gmail.com>",
+          "Steven Fackler <sfackler@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "serde_cbor", "crate_size": 27565,
+    "created_at": "2018-08-13T20:03:12.282791+00:00",
+    "dependencies": [
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 477867, "kind": "normal", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 103762
+      },
+      {
+        "crate_id": "half", "default_features": true, "downloads": 0,
+        "features": [], "id": 477868, "kind": "normal", "optional": false,
+        "req": "^1.1.2", "target": null, "version_id": 103762
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 477869, "kind": "normal", "optional": false,
+        "req": "^1.0.14", "target": null, "version_id": 103762
+      },
+      {
+        "crate_id": "serde_bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 477870, "kind": "dev", "optional": false,
+        "req": "^0.10", "target": null, "version_id": 103762
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 477871, "kind": "dev",
+        "optional": false, "req": "^1.0.14", "target": null,
+        "version_id": 103762
+      }
+    ],
+    "dl_path": "/api/v1/crates/serde_cbor/0.9.0/download",
+    "downloads": 217800, "features": {}, "id": 103762,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/serde_cbor/0.9.0/authors",
+      "dependencies": "/api/v1/crates/serde_cbor/0.9.0/dependencies",
+      "version_downloads": "/api/v1/crates/serde_cbor/0.9.0/downloads"
+    },
+    "num": "0.9.0", "published_by": null,
+    "readme_path": "/api/v1/crates/serde_cbor/0.9.0/readme",
+    "updated_at": "2018-08-13T20:03:12.282791+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Pyfisch <pyfisch@gmail.com>",
+          "Steven Fackler <sfackler@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "serde_cbor", "crate_size": 39409,
+    "created_at": "2019-07-02T15:36:24.086240+00:00",
+    "dependencies": [
+      {
+        "crate_id": "byteorder", "default_features": false, "downloads": 0,
+        "features": [], "id": 798530, "kind": "normal", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 159890
+      },
+      {
+        "crate_id": "half", "default_features": true, "downloads": 0,
+        "features": [], "id": 798531, "kind": "normal", "optional": false,
+        "req": "^1.2.0", "target": null, "version_id": 159890
+      },
+      {
+        "crate_id": "serde", "default_features": false, "downloads": 0,
+        "features": [], "id": 798532, "kind": "normal", "optional": false,
+        "req": "^1.0.14", "target": null, "version_id": 159890
+      },
+      {
+        "crate_id": "serde_derive", "default_features": false,
+        "downloads": 0, "features": [], "id": 798533, "kind": "dev",
+        "optional": false, "req": "^1.0.14", "target": null,
+        "version_id": 159890
+      }
+    ],
+    "dl_path": "/api/v1/crates/serde_cbor/0.10.0/download",
+    "downloads": 5784,
+    "features": {"default": ["std"], "std": ["serde/std"], "unsealed_read_write": []},
+    "id": 159890, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/serde_cbor/0.10.0/authors",
+      "dependencies": "/api/v1/crates/serde_cbor/0.10.0/dependencies",
+      "version_downloads": "/api/v1/crates/serde_cbor/0.10.0/downloads"
+    },
+    "num": "0.10.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/2781017?v=4",
+      "id": 982, "login": "pyfisch", "name": null,
+      "url": "https://github.com/pyfisch"
+    },
+    "readme_path": "/api/v1/crates/serde_cbor/0.10.0/readme",
+    "updated_at": "2019-07-02T15:36:24.086240+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Pyfisch <pyfisch@gmail.com>",
+          "Steven Fackler <sfackler@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "serde_cbor", "crate_size": 39484,
+    "created_at": "2019-07-11T07:56:20.623559+00:00",
+    "dependencies": [
+      {
+        "crate_id": "byteorder", "default_features": false, "downloads": 0,
+        "features": [], "id": 816694, "kind": "normal", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 162307
+      },
+      {
+        "crate_id": "half", "default_features": true, "downloads": 0,
+        "features": [], "id": 816695, "kind": "normal", "optional": false,
+        "req": "^1.2.0", "target": null, "version_id": 162307
+      },
+      {
+        "crate_id": "serde", "default_features": false, "downloads": 0,
+        "features": [], "id": 816696, "kind": "normal", "optional": false,
+        "req": "^1.0.14", "target": null, "version_id": 162307
+      },
+      {
+        "crate_id": "serde_derive", "default_features": false,
+        "downloads": 0, "features": [], "id": 816697, "kind": "dev",
+        "optional": false, "req": "^1.0.14", "target": null,
+        "version_id": 162307
+      }
+    ],
+    "dl_path": "/api/v1/crates/serde_cbor/0.10.1/download",
+    "downloads": 36342,
+    "features": {"default": ["std"], "std": ["serde/std"], "unsealed_read_write": []},
+    "id": 162307, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/serde_cbor/0.10.1/authors",
+      "dependencies": "/api/v1/crates/serde_cbor/0.10.1/dependencies",
+      "version_downloads": "/api/v1/crates/serde_cbor/0.10.1/downloads"
+    },
+    "num": "0.10.1",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/2781017?v=4",
+      "id": 982, "login": "pyfisch", "name": null,
+      "url": "https://github.com/pyfisch"
+    },
+    "readme_path": "/api/v1/crates/serde_cbor/0.10.1/readme",
+    "updated_at": "2019-07-11T07:56:20.623559+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Pyfisch <pyfisch@gmail.com>",
+          "Steven Fackler <sfackler@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "serde_cbor", "crate_size": 40204,
+    "created_at": "2019-10-03T18:27:12.522080+00:00",
+    "dependencies": [
+      {
+        "crate_id": "byteorder", "default_features": false, "downloads": 0,
+        "features": [], "id": 929804, "kind": "normal", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 180192
+      },
+      {
+        "crate_id": "half", "default_features": true, "downloads": 0,
+        "features": [], "id": 929805, "kind": "normal", "optional": false,
+        "req": "^1.2.0", "target": null, "version_id": 180192
+      },
+      {
+        "crate_id": "serde", "default_features": false, "downloads": 0,
+        "features": [], "id": 929806, "kind": "normal", "optional": false,
+        "req": "^1.0.14", "target": null, "version_id": 180192
+      },
+      {
+        "crate_id": "serde_derive", "default_features": false,
+        "downloads": 0, "features": [], "id": 929807, "kind": "dev",
+        "optional": false, "req": "^1.0.14", "target": null,
+        "version_id": 180192
+      }
+    ],
+    "dl_path": "/api/v1/crates/serde_cbor/0.10.2/download",
+    "downloads": 216607,
+    "features": {
+      "alloc": ["serde/alloc"], "default": ["std"], "std": ["serde/std"],
+      "unsealed_read_write": []
+    },
+    "id": 180192, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/serde_cbor/0.10.2/authors",
+      "dependencies": "/api/v1/crates/serde_cbor/0.10.2/dependencies",
+      "version_downloads": "/api/v1/crates/serde_cbor/0.10.2/downloads"
+    },
+    "num": "0.10.2",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/2781017?v=4",
+      "id": 982, "login": "pyfisch", "name": null,
+      "url": "https://github.com/pyfisch"
+    },
+    "readme_path": "/api/v1/crates/serde_cbor/0.10.2/readme",
+    "updated_at": "2019-10-03T18:27:12.522080+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-01-10T10:36:06.828398+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/2781017?v=4",
+          "id": 982, "login": "pyfisch", "name": null,
+          "url": "https://github.com/pyfisch"
+        }
+      },
+      {
+        "action": "yank", "time": "2020-01-12T16:03:15.846011+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/2781017?v=4",
+          "id": 982, "login": "pyfisch", "name": null,
+          "url": "https://github.com/pyfisch"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Pyfisch <pyfisch@gmail.com>",
+          "Steven Fackler <sfackler@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "serde_cbor", "crate_size": 43924,
+    "created_at": "2020-01-10T10:36:06.828398+00:00",
+    "dependencies": [
+      {
+        "crate_id": "half", "default_features": true, "downloads": 0,
+        "features": [], "id": 1081560, "kind": "normal", "optional": false,
+        "req": "^1.2.0", "target": null, "version_id": 202756
+      },
+      {
+        "crate_id": "serde", "default_features": false, "downloads": 0,
+        "features": [], "id": 1081561, "kind": "normal", "optional": false,
+        "req": "^1.0.14", "target": null, "version_id": 202756
+      },
+      {
+        "crate_id": "serde_derive", "default_features": false,
+        "downloads": 0, "features": [], "id": 1081562, "kind": "dev",
+        "optional": false, "req": "^1.0.14", "target": null,
+        "version_id": 202756
+      }
+    ],
+    "dl_path": "/api/v1/crates/serde_cbor/0.11.0/download",
+    "downloads": 171,
+    "features": {
+      "alloc": ["serde/alloc"], "default": ["std"], "std": ["serde/std"],
+      "tags": [], "unsealed_read_write": []
+    },
+    "id": 202756, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/serde_cbor/0.11.0/authors",
+      "dependencies": "/api/v1/crates/serde_cbor/0.11.0/dependencies",
+      "version_downloads": "/api/v1/crates/serde_cbor/0.11.0/downloads"
+    },
+    "num": "0.11.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/2781017?v=4",
+      "id": 982, "login": "pyfisch", "name": null,
+      "url": "https://github.com/pyfisch"
+    },
+    "readme_path": "/api/v1/crates/serde_cbor/0.11.0/readme",
+    "updated_at": "2020-01-12T16:03:17.517349+00:00", "yanked": true
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-01-12T15:58:59.923880+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/2781017?v=4",
+          "id": 982, "login": "pyfisch", "name": null,
+          "url": "https://github.com/pyfisch"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Pyfisch <pyfisch@gmail.com>",
+          "Steven Fackler <sfackler@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "serde_cbor", "crate_size": 43947,
+    "created_at": "2020-01-12T15:58:59.923880+00:00",
+    "dependencies": [
+      {
+        "crate_id": "half", "default_features": true, "downloads": 0,
+        "features": [], "id": 1084744, "kind": "normal", "optional": false,
+        "req": "^1.2.0", "target": null, "version_id": 203283
+      },
+      {
+        "crate_id": "serde", "default_features": false, "downloads": 0,
+        "features": [], "id": 1084745, "kind": "normal", "optional": false,
+        "req": "^1.0.14", "target": null, "version_id": 203283
+      },
+      {
+        "crate_id": "serde_derive", "default_features": false,
+        "downloads": 0, "features": [], "id": 1084746, "kind": "dev",
+        "optional": false, "req": "^1.0.14", "target": null,
+        "version_id": 203283
+      }
+    ],
+    "dl_path": "/api/v1/crates/serde_cbor/0.11.1/download",
+    "downloads": 843312,
+    "features": {
+      "alloc": ["serde/alloc"], "default": ["std"], "std": ["serde/std"],
+      "tags": [], "unsealed_read_write": []
+    },
+    "id": 203283, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/serde_cbor/0.11.1/authors",
+      "dependencies": "/api/v1/crates/serde_cbor/0.11.1/dependencies",
+      "version_downloads": "/api/v1/crates/serde_cbor/0.11.1/downloads"
+    },
+    "num": "0.11.1",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/2781017?v=4",
+      "id": 982, "login": "pyfisch", "name": null,
+      "url": "https://github.com/pyfisch"
+    },
+    "readme_path": "/api/v1/crates/serde_cbor/0.11.1/readme",
+    "updated_at": "2020-01-12T15:58:59.923880+00:00", "yanked": false
+  }
+]

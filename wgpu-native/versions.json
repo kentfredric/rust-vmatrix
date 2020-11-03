@@ -1,0 +1,2347 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Dzmitry Malyshau <kvark@mozilla.com>",
+          "Joshua Groves <josh@joshgroves.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "wgpu-native", "crate_size": 25590,
+    "created_at": "2019-01-24T15:34:51.970591+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 621894, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 129869
+      },
+      {
+        "crate_id": "gfx-backend-empty", "default_features": true,
+        "downloads": 0, "features": [], "id": 621897, "kind": "normal",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 129869
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 621900, "kind": "normal", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 129869
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 621901, "kind": "normal", "optional": false,
+        "req": "^1.1.0", "target": null, "version_id": 129869
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 621902, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 129869
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 621903, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 129869
+      },
+      {
+        "crate_id": "gfx-backend-dx11", "default_features": true,
+        "downloads": 0, "features": [], "id": 621895, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 129869
+      },
+      {
+        "crate_id": "gfx-backend-dx12", "default_features": true,
+        "downloads": 0, "features": [], "id": 621896, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 129869
+      },
+      {
+        "crate_id": "gfx-backend-metal", "default_features": true,
+        "downloads": 0, "features": [], "id": 621898, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 129869
+      },
+      {
+        "crate_id": "gfx-backend-vulkan", "default_features": true,
+        "downloads": 0, "features": [], "id": 621899, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 129869
+      },
+      {
+        "crate_id": "winit", "default_features": true, "downloads": 0,
+        "features": [], "id": 621904, "kind": "normal", "optional": true,
+        "req": "^0.18", "target": null, "version_id": 129869
+      }
+    ],
+    "dl_path": "/api/v1/crates/wgpu-native/0.1.0/download",
+    "downloads": 197, "features": {"default": [], "remote": []},
+    "id": 129869, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/wgpu-native/0.1.0/authors",
+      "dependencies": "/api/v1/crates/wgpu-native/0.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/wgpu-native/0.1.0/downloads"
+    },
+    "num": "0.1.0", "published_by": null,
+    "readme_path": "/api/v1/crates/wgpu-native/0.1.0/readme",
+    "updated_at": "2019-01-24T15:34:51.970591+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Dzmitry Malyshau <kvark@mozilla.com>",
+          "Joshua Groves <josh@joshgroves.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "wgpu-native", "crate_size": 35762,
+    "created_at": "2019-03-06T15:03:25.461104+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 666171, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 137596
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 666172, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 137596
+      },
+      {
+        "crate_id": "gfx-backend-empty", "default_features": true,
+        "downloads": 0, "features": [], "id": 666175, "kind": "normal",
+        "optional": false, "req": "^0.1.1", "target": null,
+        "version_id": 137596
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 666178, "kind": "normal", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 137596
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 666179, "kind": "normal", "optional": false,
+        "req": "^1.1.0", "target": null, "version_id": 137596
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 666180, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 137596
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 666181, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 137596
+      },
+      {
+        "crate_id": "vec_map", "default_features": true, "downloads": 0,
+        "features": [], "id": 666183, "kind": "normal", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 137596
+      },
+      {
+        "crate_id": "gfx-backend-dx11", "default_features": true,
+        "downloads": 0, "features": [], "id": 666173, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 137596
+      },
+      {
+        "crate_id": "gfx-backend-dx12", "default_features": true,
+        "downloads": 0, "features": [], "id": 666174, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 137596
+      },
+      {
+        "crate_id": "gfx-backend-metal", "default_features": true,
+        "downloads": 0, "features": [], "id": 666176, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 137596
+      },
+      {
+        "crate_id": "gfx-backend-vulkan", "default_features": true,
+        "downloads": 0, "features": [], "id": 666177, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 137596
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["serde_derive"], "id": 666182, "kind": "normal",
+        "optional": true, "req": "^1.0", "target": null,
+        "version_id": 137596
+      },
+      {
+        "crate_id": "winit", "default_features": true, "downloads": 0,
+        "features": [], "id": 666184, "kind": "normal", "optional": true,
+        "req": "^0.18", "target": null, "version_id": 137596
+      }
+    ],
+    "dl_path": "/api/v1/crates/wgpu-native/0.2.0/download",
+    "downloads": 218,
+    "features": {
+      "default": [], "local": ["winit", "gfx-backend-empty/winit"],
+      "metal-auto-capture": ["gfx-backend-metal/auto-capture"],
+      "remote": ["serde"]
+    },
+    "id": 137596, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/wgpu-native/0.2.0/authors",
+      "dependencies": "/api/v1/crates/wgpu-native/0.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/wgpu-native/0.2.0/downloads"
+    },
+    "num": "0.2.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/wgpu-native/0.2.0/readme",
+    "updated_at": "2019-03-06T15:03:25.461104+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Dzmitry Malyshau <kvark@mozilla.com>",
+          "Joshua Groves <josh@joshgroves.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "wgpu-native", "crate_size": 35851,
+    "created_at": "2019-03-19T13:19:02.160792+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 679647, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 140305
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 679648, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 140305
+      },
+      {
+        "crate_id": "gfx-backend-empty", "default_features": true,
+        "downloads": 0, "features": [], "id": 679651, "kind": "normal",
+        "optional": false, "req": "^0.1.1", "target": null,
+        "version_id": 140305
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 679654, "kind": "normal", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 140305
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 679655, "kind": "normal", "optional": false,
+        "req": "^1.1.0", "target": null, "version_id": 140305
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 679656, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 140305
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 679657, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 140305
+      },
+      {
+        "crate_id": "vec_map", "default_features": true, "downloads": 0,
+        "features": [], "id": 679659, "kind": "normal", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 140305
+      },
+      {
+        "crate_id": "gfx-backend-dx11", "default_features": true,
+        "downloads": 0, "features": [], "id": 679649, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 140305
+      },
+      {
+        "crate_id": "gfx-backend-dx12", "default_features": true,
+        "downloads": 0, "features": [], "id": 679650, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 140305
+      },
+      {
+        "crate_id": "gfx-backend-metal", "default_features": true,
+        "downloads": 0, "features": [], "id": 679652, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 140305
+      },
+      {
+        "crate_id": "gfx-backend-vulkan", "default_features": true,
+        "downloads": 0, "features": [], "id": 679653, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 140305
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["serde_derive"], "id": 679658, "kind": "normal",
+        "optional": true, "req": "^1.0", "target": null,
+        "version_id": 140305
+      },
+      {
+        "crate_id": "winit", "default_features": true, "downloads": 0,
+        "features": [], "id": 679660, "kind": "normal", "optional": true,
+        "req": "^0.18", "target": null, "version_id": 140305
+      }
+    ],
+    "dl_path": "/api/v1/crates/wgpu-native/0.2.1/download",
+    "downloads": 249,
+    "features": {
+      "default": [], "local": ["winit", "gfx-backend-empty/winit"],
+      "metal-auto-capture": ["gfx-backend-metal/auto-capture"],
+      "remote": ["serde"]
+    },
+    "id": 140305, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/wgpu-native/0.2.1/authors",
+      "dependencies": "/api/v1/crates/wgpu-native/0.2.1/dependencies",
+      "version_downloads": "/api/v1/crates/wgpu-native/0.2.1/downloads"
+    },
+    "num": "0.2.1",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/wgpu-native/0.2.1/readme",
+    "updated_at": "2019-03-19T13:19:02.160792+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Dzmitry Malyshau <kvark@mozilla.com>",
+          "Joshua Groves <josh@joshgroves.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "wgpu-native", "crate_size": 35852,
+    "created_at": "2019-03-20T13:52:53.562392+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 680555, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 140461
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 680556, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 140461
+      },
+      {
+        "crate_id": "gfx-backend-empty", "default_features": true,
+        "downloads": 0, "features": [], "id": 680559, "kind": "normal",
+        "optional": false, "req": "^0.1.1", "target": null,
+        "version_id": 140461
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 680562, "kind": "normal", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 140461
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 680563, "kind": "normal", "optional": false,
+        "req": "^1.1.0", "target": null, "version_id": 140461
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 680564, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 140461
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 680565, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 140461
+      },
+      {
+        "crate_id": "vec_map", "default_features": true, "downloads": 0,
+        "features": [], "id": 680567, "kind": "normal", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 140461
+      },
+      {
+        "crate_id": "gfx-backend-dx11", "default_features": true,
+        "downloads": 0, "features": [], "id": 680557, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 140461
+      },
+      {
+        "crate_id": "gfx-backend-dx12", "default_features": true,
+        "downloads": 0, "features": [], "id": 680558, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 140461
+      },
+      {
+        "crate_id": "gfx-backend-metal", "default_features": true,
+        "downloads": 0, "features": [], "id": 680560, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 140461
+      },
+      {
+        "crate_id": "gfx-backend-vulkan", "default_features": true,
+        "downloads": 0, "features": [], "id": 680561, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 140461
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["serde_derive"], "id": 680566, "kind": "normal",
+        "optional": true, "req": "^1.0", "target": null,
+        "version_id": 140461
+      },
+      {
+        "crate_id": "winit", "default_features": true, "downloads": 0,
+        "features": [], "id": 680568, "kind": "normal", "optional": true,
+        "req": "^0.18", "target": null, "version_id": 140461
+      }
+    ],
+    "dl_path": "/api/v1/crates/wgpu-native/0.2.2/download",
+    "downloads": 191,
+    "features": {
+      "default": [], "local": ["winit", "gfx-backend-empty/winit"],
+      "metal-auto-capture": ["gfx-backend-metal/auto-capture"],
+      "remote": ["serde"]
+    },
+    "id": 140461, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/wgpu-native/0.2.2/authors",
+      "dependencies": "/api/v1/crates/wgpu-native/0.2.2/dependencies",
+      "version_downloads": "/api/v1/crates/wgpu-native/0.2.2/downloads"
+    },
+    "num": "0.2.2",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/wgpu-native/0.2.2/readme",
+    "updated_at": "2019-03-20T13:52:53.562392+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Dzmitry Malyshau <kvark@mozilla.com>",
+          "Joshua Groves <josh@joshgroves.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "wgpu-native", "crate_size": 36192,
+    "created_at": "2019-03-20T15:27:55.467548+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 680630, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 140476
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 680631, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 140476
+      },
+      {
+        "crate_id": "gfx-backend-empty", "default_features": true,
+        "downloads": 0, "features": [], "id": 680634, "kind": "normal",
+        "optional": false, "req": "^0.1.1", "target": null,
+        "version_id": 140476
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 680637, "kind": "normal", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 140476
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 680638, "kind": "normal", "optional": false,
+        "req": "^1.1.0", "target": null, "version_id": 140476
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 680639, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 140476
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 680640, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 140476
+      },
+      {
+        "crate_id": "vec_map", "default_features": true, "downloads": 0,
+        "features": [], "id": 680642, "kind": "normal", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 140476
+      },
+      {
+        "crate_id": "gfx-backend-dx11", "default_features": true,
+        "downloads": 0, "features": [], "id": 680632, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 140476
+      },
+      {
+        "crate_id": "gfx-backend-dx12", "default_features": true,
+        "downloads": 0, "features": [], "id": 680633, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 140476
+      },
+      {
+        "crate_id": "gfx-backend-metal", "default_features": true,
+        "downloads": 0, "features": [], "id": 680635, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 140476
+      },
+      {
+        "crate_id": "gfx-backend-vulkan", "default_features": true,
+        "downloads": 0, "features": [], "id": 680636, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 140476
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["serde_derive"], "id": 680641, "kind": "normal",
+        "optional": true, "req": "^1.0", "target": null,
+        "version_id": 140476
+      },
+      {
+        "crate_id": "winit", "default_features": true, "downloads": 0,
+        "features": [], "id": 680643, "kind": "normal", "optional": true,
+        "req": "^0.18", "target": null, "version_id": 140476
+      }
+    ],
+    "dl_path": "/api/v1/crates/wgpu-native/0.2.3/download",
+    "downloads": 205,
+    "features": {
+      "default": [], "local": ["winit", "gfx-backend-empty/winit"],
+      "metal-auto-capture": ["gfx-backend-metal/auto-capture"],
+      "remote": ["serde"]
+    },
+    "id": 140476, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/wgpu-native/0.2.3/authors",
+      "dependencies": "/api/v1/crates/wgpu-native/0.2.3/dependencies",
+      "version_downloads": "/api/v1/crates/wgpu-native/0.2.3/downloads"
+    },
+    "num": "0.2.3",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/wgpu-native/0.2.3/readme",
+    "updated_at": "2019-03-20T15:27:55.467548+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Dzmitry Malyshau <kvark@mozilla.com>",
+          "Joshua Groves <josh@joshgroves.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "wgpu-native", "crate_size": 36515,
+    "created_at": "2019-03-20T17:44:13.567667+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 680701, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 140494
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 680702, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 140494
+      },
+      {
+        "crate_id": "gfx-backend-empty", "default_features": true,
+        "downloads": 0, "features": [], "id": 680705, "kind": "normal",
+        "optional": false, "req": "^0.1.1", "target": null,
+        "version_id": 140494
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 680708, "kind": "normal", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 140494
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 680709, "kind": "normal", "optional": false,
+        "req": "^1.1.0", "target": null, "version_id": 140494
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 680710, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 140494
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 680711, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 140494
+      },
+      {
+        "crate_id": "vec_map", "default_features": true, "downloads": 0,
+        "features": [], "id": 680713, "kind": "normal", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 140494
+      },
+      {
+        "crate_id": "gfx-backend-dx11", "default_features": true,
+        "downloads": 0, "features": [], "id": 680703, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 140494
+      },
+      {
+        "crate_id": "gfx-backend-dx12", "default_features": true,
+        "downloads": 0, "features": [], "id": 680704, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 140494
+      },
+      {
+        "crate_id": "gfx-backend-metal", "default_features": true,
+        "downloads": 0, "features": [], "id": 680706, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 140494
+      },
+      {
+        "crate_id": "gfx-backend-vulkan", "default_features": true,
+        "downloads": 0, "features": [], "id": 680707, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 140494
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["serde_derive"], "id": 680712, "kind": "normal",
+        "optional": true, "req": "^1.0", "target": null,
+        "version_id": 140494
+      },
+      {
+        "crate_id": "winit", "default_features": true, "downloads": 0,
+        "features": [], "id": 680714, "kind": "normal", "optional": true,
+        "req": "^0.18", "target": null, "version_id": 140494
+      }
+    ],
+    "dl_path": "/api/v1/crates/wgpu-native/0.2.4/download",
+    "downloads": 288,
+    "features": {
+      "default": [], "local": ["winit", "gfx-backend-empty/winit"],
+      "metal-auto-capture": ["gfx-backend-metal/auto-capture"],
+      "remote": ["serde"]
+    },
+    "id": 140494, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/wgpu-native/0.2.4/authors",
+      "dependencies": "/api/v1/crates/wgpu-native/0.2.4/dependencies",
+      "version_downloads": "/api/v1/crates/wgpu-native/0.2.4/downloads"
+    },
+    "num": "0.2.4",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/wgpu-native/0.2.4/readme",
+    "updated_at": "2019-03-20T17:44:13.567667+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Dzmitry Malyshau <kvark@mozilla.com>",
+          "Joshua Groves <josh@joshgroves.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "wgpu-native", "crate_size": 37751,
+    "created_at": "2019-03-31T19:46:22.165237+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 692224, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 142507
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 692225, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 142507
+      },
+      {
+        "crate_id": "gfx-backend-empty", "default_features": true,
+        "downloads": 0, "features": [], "id": 692228, "kind": "normal",
+        "optional": false, "req": "^0.1.1", "target": null,
+        "version_id": 142507
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 692231, "kind": "normal", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 142507
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 692232, "kind": "normal", "optional": false,
+        "req": "^1.1.0", "target": null, "version_id": 142507
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 692233, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 142507
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 692234, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 142507
+      },
+      {
+        "crate_id": "vec_map", "default_features": true, "downloads": 0,
+        "features": [], "id": 692236, "kind": "normal", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 142507
+      },
+      {
+        "crate_id": "gfx-backend-dx11", "default_features": true,
+        "downloads": 0, "features": [], "id": 692226, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 142507
+      },
+      {
+        "crate_id": "gfx-backend-dx12", "default_features": true,
+        "downloads": 0, "features": [], "id": 692227, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 142507
+      },
+      {
+        "crate_id": "gfx-backend-metal", "default_features": true,
+        "downloads": 0, "features": [], "id": 692229, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 142507
+      },
+      {
+        "crate_id": "gfx-backend-vulkan", "default_features": true,
+        "downloads": 0, "features": [], "id": 692230, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 142507
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["serde_derive"], "id": 692235, "kind": "normal",
+        "optional": true, "req": "^1.0", "target": null,
+        "version_id": 142507
+      },
+      {
+        "crate_id": "winit", "default_features": true, "downloads": 0,
+        "features": [], "id": 692237, "kind": "normal", "optional": true,
+        "req": "^0.18", "target": null, "version_id": 142507
+      }
+    ],
+    "dl_path": "/api/v1/crates/wgpu-native/0.2.5/download",
+    "downloads": 300,
+    "features": {
+      "default": [], "local": ["winit", "gfx-backend-empty/winit"],
+      "metal-auto-capture": ["gfx-backend-metal/auto-capture"],
+      "remote": ["serde"]
+    },
+    "id": 142507, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/wgpu-native/0.2.5/authors",
+      "dependencies": "/api/v1/crates/wgpu-native/0.2.5/dependencies",
+      "version_downloads": "/api/v1/crates/wgpu-native/0.2.5/downloads"
+    },
+    "num": "0.2.5",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/wgpu-native/0.2.5/readme",
+    "updated_at": "2019-03-31T19:46:22.165237+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Dzmitry Malyshau <kvark@mozilla.com>",
+          "Joshua Groves <josh@joshgroves.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "wgpu-native", "crate_size": 37838,
+    "created_at": "2019-04-04T14:06:15.457858+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 696606, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 143167
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 696607, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 143167
+      },
+      {
+        "crate_id": "gfx-backend-empty", "default_features": true,
+        "downloads": 0, "features": [], "id": 696610, "kind": "normal",
+        "optional": false, "req": "^0.1.1", "target": null,
+        "version_id": 143167
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 696613, "kind": "normal", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 143167
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 696614, "kind": "normal", "optional": false,
+        "req": "^1.1.0", "target": null, "version_id": 143167
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 696615, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 143167
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 696616, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 143167
+      },
+      {
+        "crate_id": "vec_map", "default_features": true, "downloads": 0,
+        "features": [], "id": 696618, "kind": "normal", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 143167
+      },
+      {
+        "crate_id": "gfx-backend-dx11", "default_features": true,
+        "downloads": 0, "features": [], "id": 696608, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 143167
+      },
+      {
+        "crate_id": "gfx-backend-dx12", "default_features": true,
+        "downloads": 0, "features": [], "id": 696609, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 143167
+      },
+      {
+        "crate_id": "gfx-backend-metal", "default_features": true,
+        "downloads": 0, "features": [], "id": 696611, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 143167
+      },
+      {
+        "crate_id": "gfx-backend-vulkan", "default_features": true,
+        "downloads": 0, "features": [], "id": 696612, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 143167
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["serde_derive"], "id": 696617, "kind": "normal",
+        "optional": true, "req": "^1.0", "target": null,
+        "version_id": 143167
+      },
+      {
+        "crate_id": "winit", "default_features": true, "downloads": 0,
+        "features": [], "id": 696619, "kind": "normal", "optional": true,
+        "req": "^0.18", "target": null, "version_id": 143167
+      }
+    ],
+    "dl_path": "/api/v1/crates/wgpu-native/0.2.6/download",
+    "downloads": 475,
+    "features": {
+      "default": [], "local": ["winit", "gfx-backend-empty/winit"],
+      "metal-auto-capture": ["gfx-backend-metal/auto-capture"],
+      "remote": ["serde"]
+    },
+    "id": 143167, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/wgpu-native/0.2.6/authors",
+      "dependencies": "/api/v1/crates/wgpu-native/0.2.6/dependencies",
+      "version_downloads": "/api/v1/crates/wgpu-native/0.2.6/downloads"
+    },
+    "num": "0.2.6",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/wgpu-native/0.2.6/readme",
+    "updated_at": "2019-04-04T14:06:15.457858+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Dzmitry Malyshau <kvark@mozilla.com>",
+          "Joshua Groves <josh@joshgroves.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "wgpu-native", "crate_size": 37937,
+    "created_at": "2019-04-30T02:43:41.197673+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 723765, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 147684
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 723766, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 147684
+      },
+      {
+        "crate_id": "gfx-backend-empty", "default_features": true,
+        "downloads": 0, "features": [], "id": 723769, "kind": "normal",
+        "optional": false, "req": "^0.1.1", "target": null,
+        "version_id": 147684
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 723772, "kind": "normal", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 147684
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 723773, "kind": "normal", "optional": false,
+        "req": "^1.1.0", "target": null, "version_id": 147684
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 723774, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 147684
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 723775, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 147684
+      },
+      {
+        "crate_id": "vec_map", "default_features": true, "downloads": 0,
+        "features": [], "id": 723777, "kind": "normal", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 147684
+      },
+      {
+        "crate_id": "gfx-backend-dx11", "default_features": true,
+        "downloads": 0, "features": [], "id": 723767, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 147684
+      },
+      {
+        "crate_id": "gfx-backend-dx12", "default_features": true,
+        "downloads": 0, "features": [], "id": 723768, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 147684
+      },
+      {
+        "crate_id": "gfx-backend-metal", "default_features": true,
+        "downloads": 0, "features": [], "id": 723770, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 147684
+      },
+      {
+        "crate_id": "gfx-backend-vulkan", "default_features": true,
+        "downloads": 0, "features": [], "id": 723771, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 147684
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["serde_derive"], "id": 723776, "kind": "normal",
+        "optional": true, "req": "^1.0", "target": null,
+        "version_id": 147684
+      },
+      {
+        "crate_id": "winit", "default_features": true, "downloads": 0,
+        "features": [], "id": 723778, "kind": "normal", "optional": true,
+        "req": "^0.18", "target": null, "version_id": 147684
+      }
+    ],
+    "dl_path": "/api/v1/crates/wgpu-native/0.2.7/download",
+    "downloads": 1716,
+    "features": {
+      "default": [], "local": ["winit", "gfx-backend-empty/winit"],
+      "metal-auto-capture": ["gfx-backend-metal/auto-capture"],
+      "remote": ["serde"]
+    },
+    "id": 147684, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/wgpu-native/0.2.7/authors",
+      "dependencies": "/api/v1/crates/wgpu-native/0.2.7/dependencies",
+      "version_downloads": "/api/v1/crates/wgpu-native/0.2.7/downloads"
+    },
+    "num": "0.2.7",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/wgpu-native/0.2.7/readme",
+    "updated_at": "2019-04-30T02:43:41.197673+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Dzmitry Malyshau <kvark@mozilla.com>",
+          "Joshua Groves <josh@joshgroves.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "wgpu-native", "crate_size": 55278,
+    "created_at": "2019-08-21T13:33:58.199631+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 872001, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 171013
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 872002, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 171013
+      },
+      {
+        "crate_id": "copyless", "default_features": true, "downloads": 0,
+        "features": [], "id": 872003, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 171013
+      },
+      {
+        "crate_id": "gfx-backend-empty", "default_features": true,
+        "downloads": 0, "features": [], "id": 872006, "kind": "normal",
+        "optional": false, "req": "^0.3.0", "target": null,
+        "version_id": 171013
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 872010, "kind": "normal", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 171013
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 872011, "kind": "normal", "optional": false,
+        "req": "^1.1.0", "target": null, "version_id": 171013
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 872012, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 171013
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 872013, "kind": "normal", "optional": false,
+        "req": "^0.9", "target": null, "version_id": 171013
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 872014, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 171013
+      },
+      {
+        "crate_id": "rendy-descriptor", "default_features": true,
+        "downloads": 0, "features": [], "id": 872015, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 171013
+      },
+      {
+        "crate_id": "rendy-memory", "default_features": true,
+        "downloads": 0, "features": [], "id": 872016, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 171013
+      },
+      {
+        "crate_id": "vec_map", "default_features": true, "downloads": 0,
+        "features": [], "id": 872018, "kind": "normal", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 171013
+      },
+      {
+        "crate_id": "gfx-backend-dx11", "default_features": true,
+        "downloads": 0, "features": [], "id": 872004, "kind": "normal",
+        "optional": true, "req": "^0.3.0", "target": null,
+        "version_id": 171013
+      },
+      {
+        "crate_id": "gfx-backend-dx12", "default_features": true,
+        "downloads": 0, "features": [], "id": 872005, "kind": "normal",
+        "optional": true, "req": "^0.3.0", "target": null,
+        "version_id": 171013
+      },
+      {
+        "crate_id": "gfx-backend-gl", "default_features": true,
+        "downloads": 0, "features": [], "id": 872007, "kind": "normal",
+        "optional": true, "req": "^0.3.0", "target": null,
+        "version_id": 171013
+      },
+      {
+        "crate_id": "gfx-backend-metal", "default_features": true,
+        "downloads": 0, "features": [], "id": 872008, "kind": "normal",
+        "optional": true, "req": "^0.3.0", "target": null,
+        "version_id": 171013
+      },
+      {
+        "crate_id": "gfx-backend-vulkan", "default_features": true,
+        "downloads": 0, "features": ["x11"], "id": 872009, "kind": "normal",
+        "optional": true, "req": "^0.3.0", "target": null,
+        "version_id": 171013
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["serde_derive"], "id": 872017, "kind": "normal",
+        "optional": true, "req": "^1.0", "target": null,
+        "version_id": 171013
+      }
+    ],
+    "dl_path": "/api/v1/crates/wgpu-native/0.3.0/download",
+    "downloads": 160,
+    "features": {
+      "default": [], "glutin": ["gfx-backend-gl/glutin"], "local": [],
+      "metal-auto-capture": ["gfx-backend-metal/auto-capture"],
+      "remote": ["serde"]
+    },
+    "id": 171013, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/wgpu-native/0.3.0/authors",
+      "dependencies": "/api/v1/crates/wgpu-native/0.3.0/dependencies",
+      "version_downloads": "/api/v1/crates/wgpu-native/0.3.0/downloads"
+    },
+    "num": "0.3.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/wgpu-native/0.3.0/readme",
+    "updated_at": "2019-08-21T13:33:58.199631+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Dzmitry Malyshau <kvark@mozilla.com>",
+          "Joshua Groves <josh@joshgroves.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "wgpu-native", "crate_size": 55560,
+    "created_at": "2019-08-22T03:31:37.874580+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 872777, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 171141
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 872778, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 171141
+      },
+      {
+        "crate_id": "copyless", "default_features": true, "downloads": 0,
+        "features": [], "id": 872779, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 171141
+      },
+      {
+        "crate_id": "gfx-backend-empty", "default_features": true,
+        "downloads": 0, "features": [], "id": 872782, "kind": "normal",
+        "optional": false, "req": "^0.3.0", "target": null,
+        "version_id": 171141
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 872786, "kind": "normal", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 171141
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 872787, "kind": "normal", "optional": false,
+        "req": "^1.1.0", "target": null, "version_id": 171141
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 872788, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 171141
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 872789, "kind": "normal", "optional": false,
+        "req": "^0.9", "target": null, "version_id": 171141
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 872790, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 171141
+      },
+      {
+        "crate_id": "rendy-descriptor", "default_features": true,
+        "downloads": 0, "features": [], "id": 872791, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 171141
+      },
+      {
+        "crate_id": "rendy-memory", "default_features": true,
+        "downloads": 0, "features": [], "id": 872792, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 171141
+      },
+      {
+        "crate_id": "vec_map", "default_features": true, "downloads": 0,
+        "features": [], "id": 872794, "kind": "normal", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 171141
+      },
+      {
+        "crate_id": "gfx-backend-dx11", "default_features": true,
+        "downloads": 0, "features": [], "id": 872780, "kind": "normal",
+        "optional": true, "req": "^0.3.0", "target": null,
+        "version_id": 171141
+      },
+      {
+        "crate_id": "gfx-backend-dx12", "default_features": true,
+        "downloads": 0, "features": [], "id": 872781, "kind": "normal",
+        "optional": true, "req": "^0.3.0", "target": null,
+        "version_id": 171141
+      },
+      {
+        "crate_id": "gfx-backend-gl", "default_features": true,
+        "downloads": 0, "features": [], "id": 872783, "kind": "normal",
+        "optional": true, "req": "^0.3.0", "target": null,
+        "version_id": 171141
+      },
+      {
+        "crate_id": "gfx-backend-metal", "default_features": true,
+        "downloads": 0, "features": [], "id": 872784, "kind": "normal",
+        "optional": true, "req": "^0.3.0", "target": null,
+        "version_id": 171141
+      },
+      {
+        "crate_id": "gfx-backend-vulkan", "default_features": true,
+        "downloads": 0, "features": ["x11"], "id": 872785, "kind": "normal",
+        "optional": true, "req": "^0.3.0", "target": null,
+        "version_id": 171141
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["serde_derive"], "id": 872793, "kind": "normal",
+        "optional": true, "req": "^1.0", "target": null,
+        "version_id": 171141
+      }
+    ],
+    "dl_path": "/api/v1/crates/wgpu-native/0.3.1/download",
+    "downloads": 208,
+    "features": {
+      "default": [], "glutin": ["gfx-backend-gl/glutin"], "local": [],
+      "metal-auto-capture": ["gfx-backend-metal/auto-capture"],
+      "remote": ["serde"]
+    },
+    "id": 171141, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/wgpu-native/0.3.1/authors",
+      "dependencies": "/api/v1/crates/wgpu-native/0.3.1/dependencies",
+      "version_downloads": "/api/v1/crates/wgpu-native/0.3.1/downloads"
+    },
+    "num": "0.3.1",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/wgpu-native/0.3.1/readme",
+    "updated_at": "2019-08-22T03:31:37.874580+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Dzmitry Malyshau <kvark@mozilla.com>",
+          "Joshua Groves <josh@joshgroves.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "wgpu-native", "crate_size": 55889,
+    "created_at": "2019-08-22T14:24:47.018768+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 873351, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 171228
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 873352, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 171228
+      },
+      {
+        "crate_id": "copyless", "default_features": true, "downloads": 0,
+        "features": [], "id": 873353, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 171228
+      },
+      {
+        "crate_id": "gfx-backend-empty", "default_features": true,
+        "downloads": 0, "features": [], "id": 873356, "kind": "normal",
+        "optional": false, "req": "^0.3.0", "target": null,
+        "version_id": 171228
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 873360, "kind": "normal", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 171228
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 873361, "kind": "normal", "optional": false,
+        "req": "^1.1.0", "target": null, "version_id": 171228
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 873362, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 171228
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 873363, "kind": "normal", "optional": false,
+        "req": "^0.9", "target": null, "version_id": 171228
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 873364, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 171228
+      },
+      {
+        "crate_id": "rendy-descriptor", "default_features": true,
+        "downloads": 0, "features": [], "id": 873365, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 171228
+      },
+      {
+        "crate_id": "rendy-memory", "default_features": true,
+        "downloads": 0, "features": [], "id": 873366, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 171228
+      },
+      {
+        "crate_id": "vec_map", "default_features": true, "downloads": 0,
+        "features": [], "id": 873368, "kind": "normal", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 171228
+      },
+      {
+        "crate_id": "gfx-backend-dx11", "default_features": true,
+        "downloads": 0, "features": [], "id": 873354, "kind": "normal",
+        "optional": true, "req": "^0.3.0", "target": null,
+        "version_id": 171228
+      },
+      {
+        "crate_id": "gfx-backend-dx12", "default_features": true,
+        "downloads": 0, "features": [], "id": 873355, "kind": "normal",
+        "optional": true, "req": "^0.3.0", "target": null,
+        "version_id": 171228
+      },
+      {
+        "crate_id": "gfx-backend-gl", "default_features": true,
+        "downloads": 0, "features": [], "id": 873357, "kind": "normal",
+        "optional": true, "req": "^0.3.0", "target": null,
+        "version_id": 171228
+      },
+      {
+        "crate_id": "gfx-backend-metal", "default_features": true,
+        "downloads": 0, "features": [], "id": 873358, "kind": "normal",
+        "optional": true, "req": "^0.3.0", "target": null,
+        "version_id": 171228
+      },
+      {
+        "crate_id": "gfx-backend-vulkan", "default_features": true,
+        "downloads": 0, "features": ["x11"], "id": 873359, "kind": "normal",
+        "optional": true, "req": "^0.3.0", "target": null,
+        "version_id": 171228
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["serde_derive"], "id": 873367, "kind": "normal",
+        "optional": true, "req": "^1.0", "target": null,
+        "version_id": 171228
+      }
+    ],
+    "dl_path": "/api/v1/crates/wgpu-native/0.3.2/download",
+    "downloads": 146,
+    "features": {
+      "default": [], "glutin": ["gfx-backend-gl/glutin"], "local": [],
+      "metal-auto-capture": ["gfx-backend-metal/auto-capture"],
+      "remote": ["serde"]
+    },
+    "id": 171228, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/wgpu-native/0.3.2/authors",
+      "dependencies": "/api/v1/crates/wgpu-native/0.3.2/dependencies",
+      "version_downloads": "/api/v1/crates/wgpu-native/0.3.2/downloads"
+    },
+    "num": "0.3.2",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/wgpu-native/0.3.2/readme",
+    "updated_at": "2019-08-22T14:44:03.536414+00:00", "yanked": true
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Dzmitry Malyshau <kvark@mozilla.com>",
+          "Joshua Groves <josh@joshgroves.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "wgpu-native", "crate_size": 55577,
+    "created_at": "2019-08-22T16:09:07.624953+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 873473, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 171242
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 873474, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 171242
+      },
+      {
+        "crate_id": "copyless", "default_features": true, "downloads": 0,
+        "features": [], "id": 873475, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 171242
+      },
+      {
+        "crate_id": "gfx-backend-empty", "default_features": true,
+        "downloads": 0, "features": [], "id": 873478, "kind": "normal",
+        "optional": false, "req": "^0.3.0", "target": null,
+        "version_id": 171242
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 873482, "kind": "normal", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 171242
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 873483, "kind": "normal", "optional": false,
+        "req": "^1.1.0", "target": null, "version_id": 171242
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 873484, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 171242
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 873485, "kind": "normal", "optional": false,
+        "req": "^0.9", "target": null, "version_id": 171242
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 873486, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 171242
+      },
+      {
+        "crate_id": "rendy-descriptor", "default_features": true,
+        "downloads": 0, "features": [], "id": 873487, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 171242
+      },
+      {
+        "crate_id": "rendy-memory", "default_features": true,
+        "downloads": 0, "features": [], "id": 873488, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 171242
+      },
+      {
+        "crate_id": "vec_map", "default_features": true, "downloads": 0,
+        "features": [], "id": 873490, "kind": "normal", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 171242
+      },
+      {
+        "crate_id": "gfx-backend-dx11", "default_features": true,
+        "downloads": 0, "features": [], "id": 873476, "kind": "normal",
+        "optional": true, "req": "^0.3.0", "target": null,
+        "version_id": 171242
+      },
+      {
+        "crate_id": "gfx-backend-dx12", "default_features": true,
+        "downloads": 0, "features": [], "id": 873477, "kind": "normal",
+        "optional": true, "req": "^0.3.0", "target": null,
+        "version_id": 171242
+      },
+      {
+        "crate_id": "gfx-backend-gl", "default_features": true,
+        "downloads": 0, "features": [], "id": 873479, "kind": "normal",
+        "optional": true, "req": "^0.3.0", "target": null,
+        "version_id": 171242
+      },
+      {
+        "crate_id": "gfx-backend-metal", "default_features": true,
+        "downloads": 0, "features": [], "id": 873480, "kind": "normal",
+        "optional": true, "req": "^0.3.0", "target": null,
+        "version_id": 171242
+      },
+      {
+        "crate_id": "gfx-backend-vulkan", "default_features": true,
+        "downloads": 0, "features": ["x11"], "id": 873481, "kind": "normal",
+        "optional": true, "req": "^0.3.0", "target": null,
+        "version_id": 171242
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["serde_derive"], "id": 873489, "kind": "normal",
+        "optional": true, "req": "^1.0", "target": null,
+        "version_id": 171242
+      }
+    ],
+    "dl_path": "/api/v1/crates/wgpu-native/0.3.3/download",
+    "downloads": 2071,
+    "features": {
+      "default": [], "glutin": ["gfx-backend-gl/glutin"], "local": [],
+      "metal-auto-capture": ["gfx-backend-metal/auto-capture"],
+      "remote": ["serde"]
+    },
+    "id": 171242, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/wgpu-native/0.3.3/authors",
+      "dependencies": "/api/v1/crates/wgpu-native/0.3.3/dependencies",
+      "version_downloads": "/api/v1/crates/wgpu-native/0.3.3/downloads"
+    },
+    "num": "0.3.3",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/wgpu-native/0.3.3/readme",
+    "updated_at": "2019-08-22T16:09:07.624953+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Dzmitry Malyshau <kvark@mozilla.com>",
+          "Joshua Groves <josh@joshgroves.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "wgpu-native", "crate_size": 61178,
+    "created_at": "2019-11-04T02:08:34.056799+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 975418, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 186995
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 975419, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 186995
+      },
+      {
+        "crate_id": "copyless", "default_features": true, "downloads": 0,
+        "features": [], "id": 975420, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 186995
+      },
+      {
+        "crate_id": "fxhash", "default_features": true, "downloads": 0,
+        "features": [], "id": 975421, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 186995
+      },
+      {
+        "crate_id": "gfx-backend-dx11", "default_features": true,
+        "downloads": 0, "features": [], "id": 975436, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": "cfg(windows)",
+        "version_id": 186995
+      },
+      {
+        "crate_id": "gfx-backend-dx12", "default_features": true,
+        "downloads": 0, "features": [], "id": 975437, "kind": "normal",
+        "optional": false, "req": "^0.4.1", "target": "cfg(windows)",
+        "version_id": 186995
+      },
+      {
+        "crate_id": "gfx-backend-empty", "default_features": true,
+        "downloads": 0, "features": [], "id": 975422, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 186995
+      },
+      {
+        "crate_id": "gfx-backend-metal", "default_features": true,
+        "downloads": 0, "features": [], "id": 975434, "kind": "normal",
+        "optional": false, "req": "^0.4",
+        "target": "cfg(any(target_os = \"ios\", target_os = \"macos\"))",
+        "version_id": 186995
+      },
+      {
+        "crate_id": "gfx-backend-vulkan", "default_features": true,
+        "downloads": 0, "features": [], "id": 975438, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": "cfg(windows)",
+        "version_id": 186995
+      },
+      {
+        "crate_id": "gfx-backend-vulkan", "default_features": true,
+        "downloads": 0, "features": ["x11"], "id": 975433, "kind": "normal",
+        "optional": false, "req": "^0.4",
+        "target": "cfg(all(unix, not(target_os = \"ios\"), not(target_os = \"macos\")))",
+        "version_id": 186995
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 975423, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 186995
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 975425, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 186995
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 975426, "kind": "normal", "optional": false,
+        "req": "^0.9", "target": null, "version_id": 186995
+      },
+      {
+        "crate_id": "rendy-descriptor", "default_features": true,
+        "downloads": 0, "features": [], "id": 975428, "kind": "normal",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 186995
+      },
+      {
+        "crate_id": "rendy-memory", "default_features": true,
+        "downloads": 0, "features": [], "id": 975429, "kind": "normal",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 186995
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 975431, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 186995
+      },
+      {
+        "crate_id": "vec_map", "default_features": true, "downloads": 0,
+        "features": [], "id": 975432, "kind": "normal", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 186995
+      },
+      {
+        "crate_id": "gfx-backend-vulkan", "default_features": true,
+        "downloads": 0, "features": [], "id": 975435, "kind": "normal",
+        "optional": true, "req": "^0.4",
+        "target": "cfg(any(target_os = \"ios\", target_os = \"macos\"))",
+        "version_id": 186995
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 975424, "kind": "normal", "optional": true,
+        "req": "^1.1.0", "target": null, "version_id": 186995
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 975427, "kind": "normal",
+        "optional": true, "req": "^0.3", "target": null,
+        "version_id": 186995
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["serde_derive"], "id": 975430, "kind": "normal",
+        "optional": true, "req": "^1.0", "target": null,
+        "version_id": 186995
+      }
+    ],
+    "dl_path": "/api/v1/crates/wgpu-native/0.4.0/download",
+    "downloads": 5801,
+    "features": {
+      "default": [], "local": ["lazy_static", "raw-window-handle"],
+      "metal-auto-capture": ["gfx-backend-metal/auto-capture"]
+    },
+    "id": 186995, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/wgpu-native/0.4.0/authors",
+      "dependencies": "/api/v1/crates/wgpu-native/0.4.0/dependencies",
+      "version_downloads": "/api/v1/crates/wgpu-native/0.4.0/downloads"
+    },
+    "num": "0.4.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/wgpu-native/0.4.0/readme",
+    "updated_at": "2019-11-04T02:08:34.056799+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Dzmitry Malyshau <kvark@mozilla.com>",
+          "Joshua Groves <josh@joshgroves.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "wgpu-native", "crate_size": 61076,
+    "created_at": "2019-11-29T03:47:43.237935+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1015916, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 192947
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1015917, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 192947
+      },
+      {
+        "crate_id": "copyless", "default_features": true, "downloads": 0,
+        "features": [], "id": 1015918, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 192947
+      },
+      {
+        "crate_id": "fxhash", "default_features": true, "downloads": 0,
+        "features": [], "id": 1015919, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 192947
+      },
+      {
+        "crate_id": "gfx-backend-dx11", "default_features": true,
+        "downloads": 0, "features": [], "id": 1015934, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": "cfg(windows)",
+        "version_id": 192947
+      },
+      {
+        "crate_id": "gfx-backend-dx12", "default_features": true,
+        "downloads": 0, "features": [], "id": 1015935, "kind": "normal",
+        "optional": false, "req": "^0.4.1", "target": "cfg(windows)",
+        "version_id": 192947
+      },
+      {
+        "crate_id": "gfx-backend-empty", "default_features": true,
+        "downloads": 0, "features": [], "id": 1015920, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 192947
+      },
+      {
+        "crate_id": "gfx-backend-metal", "default_features": true,
+        "downloads": 0, "features": [], "id": 1015932, "kind": "normal",
+        "optional": false, "req": "^0.4",
+        "target": "cfg(any(target_os = \"ios\", target_os = \"macos\"))",
+        "version_id": 192947
+      },
+      {
+        "crate_id": "gfx-backend-vulkan", "default_features": true,
+        "downloads": 0, "features": [], "id": 1015936, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": "cfg(windows)",
+        "version_id": 192947
+      },
+      {
+        "crate_id": "gfx-backend-vulkan", "default_features": true,
+        "downloads": 0, "features": ["x11"], "id": 1015931,
+        "kind": "normal", "optional": false, "req": "^0.4",
+        "target": "cfg(all(unix, not(target_os = \"ios\"), not(target_os = \"macos\")))",
+        "version_id": 192947
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1015921, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 192947
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1015923, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 192947
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 1015924, "kind": "normal", "optional": false,
+        "req": "^0.9", "target": null, "version_id": 192947
+      },
+      {
+        "crate_id": "rendy-descriptor", "default_features": true,
+        "downloads": 0, "features": [], "id": 1015926, "kind": "normal",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 192947
+      },
+      {
+        "crate_id": "rendy-memory", "default_features": true,
+        "downloads": 0, "features": [], "id": 1015927, "kind": "normal",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 192947
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1015929, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 192947
+      },
+      {
+        "crate_id": "vec_map", "default_features": true, "downloads": 0,
+        "features": [], "id": 1015930, "kind": "normal", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 192947
+      },
+      {
+        "crate_id": "gfx-backend-vulkan", "default_features": true,
+        "downloads": 0, "features": [], "id": 1015933, "kind": "normal",
+        "optional": true, "req": "^0.4",
+        "target": "cfg(any(target_os = \"ios\", target_os = \"macos\"))",
+        "version_id": 192947
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1015922, "kind": "normal", "optional": true,
+        "req": "^1.1.0", "target": null, "version_id": 192947
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1015925, "kind": "normal",
+        "optional": true, "req": "^0.3", "target": null,
+        "version_id": 192947
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["serde_derive"], "id": 1015928, "kind": "normal",
+        "optional": true, "req": "^1.0", "target": null,
+        "version_id": 192947
+      }
+    ],
+    "dl_path": "/api/v1/crates/wgpu-native/0.4.1/download",
+    "downloads": 4545,
+    "features": {
+      "default": [], "local": ["lazy_static", "raw-window-handle"],
+      "metal-auto-capture": ["gfx-backend-metal/auto-capture"]
+    },
+    "id": 192947, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/wgpu-native/0.4.1/authors",
+      "dependencies": "/api/v1/crates/wgpu-native/0.4.1/dependencies",
+      "version_downloads": "/api/v1/crates/wgpu-native/0.4.1/downloads"
+    },
+    "num": "0.4.1",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/wgpu-native/0.4.1/readme",
+    "updated_at": "2019-11-29T03:47:43.237935+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2019-12-17T03:16:10.658794+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Dzmitry Malyshau <kvark@mozilla.com>",
+          "Joshua Groves <josh@joshgroves.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "wgpu-native", "crate_size": 61305,
+    "created_at": "2019-12-17T03:16:10.658794+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1042855, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 196885
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1042856, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 196885
+      },
+      {
+        "crate_id": "copyless", "default_features": true, "downloads": 0,
+        "features": [], "id": 1042857, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 196885
+      },
+      {
+        "crate_id": "fxhash", "default_features": true, "downloads": 0,
+        "features": [], "id": 1042858, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 196885
+      },
+      {
+        "crate_id": "gfx-backend-dx11", "default_features": true,
+        "downloads": 0, "features": [], "id": 1042873, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": "cfg(windows)",
+        "version_id": 196885
+      },
+      {
+        "crate_id": "gfx-backend-dx12", "default_features": true,
+        "downloads": 0, "features": [], "id": 1042874, "kind": "normal",
+        "optional": false, "req": "^0.4.1", "target": "cfg(windows)",
+        "version_id": 196885
+      },
+      {
+        "crate_id": "gfx-backend-empty", "default_features": true,
+        "downloads": 0, "features": [], "id": 1042859, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 196885
+      },
+      {
+        "crate_id": "gfx-backend-metal", "default_features": true,
+        "downloads": 0, "features": [], "id": 1042871, "kind": "normal",
+        "optional": false, "req": "^0.4",
+        "target": "cfg(any(target_os = \"ios\", target_os = \"macos\"))",
+        "version_id": 196885
+      },
+      {
+        "crate_id": "gfx-backend-vulkan", "default_features": true,
+        "downloads": 0, "features": [], "id": 1042875, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": "cfg(windows)",
+        "version_id": 196885
+      },
+      {
+        "crate_id": "gfx-backend-vulkan", "default_features": true,
+        "downloads": 0, "features": ["x11"], "id": 1042870,
+        "kind": "normal", "optional": false, "req": "^0.4",
+        "target": "cfg(all(unix, not(target_os = \"ios\"), not(target_os = \"macos\")))",
+        "version_id": 196885
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1042860, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 196885
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1042862, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 196885
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 1042863, "kind": "normal", "optional": false,
+        "req": "^0.9", "target": null, "version_id": 196885
+      },
+      {
+        "crate_id": "rendy-descriptor", "default_features": true,
+        "downloads": 0, "features": [], "id": 1042865, "kind": "normal",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 196885
+      },
+      {
+        "crate_id": "rendy-memory", "default_features": true,
+        "downloads": 0, "features": [], "id": 1042866, "kind": "normal",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 196885
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1042868, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 196885
+      },
+      {
+        "crate_id": "vec_map", "default_features": true, "downloads": 0,
+        "features": [], "id": 1042869, "kind": "normal", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 196885
+      },
+      {
+        "crate_id": "gfx-backend-vulkan", "default_features": true,
+        "downloads": 0, "features": [], "id": 1042872, "kind": "normal",
+        "optional": true, "req": "^0.4",
+        "target": "cfg(any(target_os = \"ios\", target_os = \"macos\"))",
+        "version_id": 196885
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1042861, "kind": "normal", "optional": true,
+        "req": "^1.1.0", "target": null, "version_id": 196885
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1042864, "kind": "normal",
+        "optional": true, "req": "^0.3", "target": null,
+        "version_id": 196885
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["serde_derive"], "id": 1042867, "kind": "normal",
+        "optional": true, "req": "^1.0", "target": null,
+        "version_id": 196885
+      }
+    ],
+    "dl_path": "/api/v1/crates/wgpu-native/0.4.2/download",
+    "downloads": 4232,
+    "features": {
+      "default": [], "local": ["lazy_static", "raw-window-handle"],
+      "metal-auto-capture": ["gfx-backend-metal/auto-capture"]
+    },
+    "id": 196885, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/wgpu-native/0.4.2/authors",
+      "dependencies": "/api/v1/crates/wgpu-native/0.4.2/dependencies",
+      "version_downloads": "/api/v1/crates/wgpu-native/0.4.2/downloads"
+    },
+    "num": "0.4.2",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/wgpu-native/0.4.2/readme",
+    "updated_at": "2019-12-17T03:16:10.658794+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-01-21T19:07:50.326709+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Dzmitry Malyshau <kvark@mozilla.com>",
+          "Joshua Groves <josh@joshgroves.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "wgpu-native", "crate_size": 61373,
+    "created_at": "2020-01-21T19:07:50.326709+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1103125, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 205855
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1103126, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 205855
+      },
+      {
+        "crate_id": "copyless", "default_features": true, "downloads": 0,
+        "features": [], "id": 1103127, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 205855
+      },
+      {
+        "crate_id": "fxhash", "default_features": true, "downloads": 0,
+        "features": [], "id": 1103128, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 205855
+      },
+      {
+        "crate_id": "gfx-backend-dx11", "default_features": true,
+        "downloads": 0, "features": [], "id": 1103143, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": "cfg(windows)",
+        "version_id": 205855
+      },
+      {
+        "crate_id": "gfx-backend-dx12", "default_features": true,
+        "downloads": 0, "features": [], "id": 1103144, "kind": "normal",
+        "optional": false, "req": "^0.4.1", "target": "cfg(windows)",
+        "version_id": 205855
+      },
+      {
+        "crate_id": "gfx-backend-empty", "default_features": true,
+        "downloads": 0, "features": [], "id": 1103129, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 205855
+      },
+      {
+        "crate_id": "gfx-backend-metal", "default_features": true,
+        "downloads": 0, "features": [], "id": 1103141, "kind": "normal",
+        "optional": false, "req": "^0.4",
+        "target": "cfg(any(target_os = \"ios\", target_os = \"macos\"))",
+        "version_id": 205855
+      },
+      {
+        "crate_id": "gfx-backend-vulkan", "default_features": true,
+        "downloads": 0, "features": [], "id": 1103145, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": "cfg(windows)",
+        "version_id": 205855
+      },
+      {
+        "crate_id": "gfx-backend-vulkan", "default_features": true,
+        "downloads": 0, "features": ["x11"], "id": 1103140,
+        "kind": "normal", "optional": false, "req": "^0.4",
+        "target": "cfg(all(unix, not(target_os = \"ios\"), not(target_os = \"macos\")))",
+        "version_id": 205855
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1103130, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 205855
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1103132, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 205855
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 1103133, "kind": "normal", "optional": false,
+        "req": "^0.9", "target": null, "version_id": 205855
+      },
+      {
+        "crate_id": "rendy-descriptor", "default_features": true,
+        "downloads": 0, "features": [], "id": 1103135, "kind": "normal",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 205855
+      },
+      {
+        "crate_id": "rendy-memory", "default_features": true,
+        "downloads": 0, "features": [], "id": 1103136, "kind": "normal",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 205855
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1103138, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 205855
+      },
+      {
+        "crate_id": "vec_map", "default_features": true, "downloads": 0,
+        "features": [], "id": 1103139, "kind": "normal", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 205855
+      },
+      {
+        "crate_id": "gfx-backend-vulkan", "default_features": true,
+        "downloads": 0, "features": [], "id": 1103142, "kind": "normal",
+        "optional": true, "req": "^0.4",
+        "target": "cfg(any(target_os = \"ios\", target_os = \"macos\"))",
+        "version_id": 205855
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1103131, "kind": "normal", "optional": true,
+        "req": "^1.1.0", "target": null, "version_id": 205855
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1103134, "kind": "normal",
+        "optional": true, "req": "^0.3", "target": null,
+        "version_id": 205855
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["serde_derive"], "id": 1103137, "kind": "normal",
+        "optional": true, "req": "^1.0", "target": null,
+        "version_id": 205855
+      }
+    ],
+    "dl_path": "/api/v1/crates/wgpu-native/0.4.3/download",
+    "downloads": 34246,
+    "features": {
+      "default": [], "local": ["lazy_static", "raw-window-handle"],
+      "metal-auto-capture": ["gfx-backend-metal/auto-capture"]
+    },
+    "id": 205855, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/wgpu-native/0.4.3/authors",
+      "dependencies": "/api/v1/crates/wgpu-native/0.4.3/dependencies",
+      "version_downloads": "/api/v1/crates/wgpu-native/0.4.3/downloads"
+    },
+    "num": "0.4.3",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/wgpu-native/0.4.3/readme",
+    "updated_at": "2020-01-21T19:07:50.326709+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-04-06T13:03:54.095727+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Dzmitry Malyshau <kvark@mozilla.com>",
+          "Joshua Groves <josh@joshgroves.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "wgpu-native", "crate_size": 5231,
+    "created_at": "2020-04-06T13:03:54.095727+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1271205, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 228297
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1271207, "kind": "normal", "optional": false,
+        "req": "^1.1", "target": null, "version_id": 228297
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1271208, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 228297
+      },
+      {
+        "crate_id": "objc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1271212, "kind": "normal", "optional": false,
+        "req": "^0.2.7", "target": "cfg(target_os = \"macos\")",
+        "version_id": 228297
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 1271209, "kind": "normal", "optional": false,
+        "req": "^0.10", "target": null, "version_id": 228297
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1271210, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 228297
+      },
+      {
+        "crate_id": "wgpu-core", "default_features": true, "downloads": 0,
+        "features": [], "id": 1271206, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 228297
+      },
+      {
+        "crate_id": "wgpu-types", "default_features": true, "downloads": 0,
+        "features": [], "id": 1271211, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 228297
+      }
+    ],
+    "dl_path": "/api/v1/crates/wgpu-native/0.5.0/download",
+    "downloads": 46412,
+    "features": {"default": [], "vulkan-portability": ["core/gfx-backend-vulkan"]},
+    "id": 228297, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/wgpu-native/0.5.0/authors",
+      "dependencies": "/api/v1/crates/wgpu-native/0.5.0/dependencies",
+      "version_downloads": "/api/v1/crates/wgpu-native/0.5.0/downloads"
+    },
+    "num": "0.5.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/wgpu-native/0.5.0/readme",
+    "updated_at": "2020-04-06T13:03:54.095727+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-07-10T14:19:59.734967+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Dzmitry Malyshau <kvark@mozilla.com>",
+          "Joshua Groves <josh@joshgroves.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "wgpu-native", "crate_size": 5342,
+    "created_at": "2020-07-10T14:19:59.734967+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1514413, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 261086
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1514415, "kind": "normal", "optional": false,
+        "req": "^1.1", "target": null, "version_id": 261086
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1514416, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 261086
+      },
+      {
+        "crate_id": "objc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1514420, "kind": "normal", "optional": false,
+        "req": "^0.2.7", "target": "cfg(target_os = \"macos\")",
+        "version_id": 261086
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 1514417, "kind": "normal", "optional": false,
+        "req": "^0.10", "target": null, "version_id": 261086
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1514418, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 261086
+      },
+      {
+        "crate_id": "wgpu-core", "default_features": true, "downloads": 0,
+        "features": [], "id": 1514414, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 261086
+      },
+      {
+        "crate_id": "wgpu-types", "default_features": true, "downloads": 0,
+        "features": [], "id": 1514419, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 261086
+      }
+    ],
+    "dl_path": "/api/v1/crates/wgpu-native/0.5.1/download",
+    "downloads": 38513,
+    "features": {"default": [], "vulkan-portability": ["core/gfx-backend-vulkan"]},
+    "id": 261086, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/wgpu-native/0.5.1/authors",
+      "dependencies": "/api/v1/crates/wgpu-native/0.5.1/dependencies",
+      "version_downloads": "/api/v1/crates/wgpu-native/0.5.1/downloads"
+    },
+    "num": "0.5.1",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/wgpu-native/0.5.1/readme",
+    "updated_at": "2020-07-10T14:19:59.734967+00:00", "yanked": false
+  }
+]

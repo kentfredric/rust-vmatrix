@@ -1,0 +1,1194 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alex Crichton <alex@alexcrichton.com>",
+          "Carl Lerche <me@carllerche.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "tokio-tls", "crate_size": null,
+    "created_at": "2016-12-21T17:22:41.519410+00:00",
+    "dependencies": [
+      {
+        "crate_id": "advapi32-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 140695, "kind": "dev",
+        "optional": false, "req": "^0.2", "target": "cfg(windows)",
+        "version_id": 40108
+      },
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 140691, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 40108
+      },
+      {
+        "crate_id": "crypt32-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 140696, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 40108
+      },
+      {
+        "crate_id": "env_logger", "default_features": false, "downloads": 0,
+        "features": [], "id": 140690, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 40108
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 140688, "kind": "normal", "optional": false,
+        "req": "^0.1.4", "target": null, "version_id": 40108
+      },
+      {
+        "crate_id": "kernel32-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 140698, "kind": "dev",
+        "optional": false, "req": "^0.2", "target": "cfg(windows)",
+        "version_id": 40108
+      },
+      {
+        "crate_id": "native-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 140689, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 40108
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": [], "id": 140692, "kind": "dev", "optional": false,
+        "req": "^0.9",
+        "target": "cfg(all(not(target_os = \"macos\"), not(windows)))",
+        "version_id": 40108
+      },
+      {
+        "crate_id": "schannel", "default_features": true, "downloads": 0,
+        "features": [], "id": 140697, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": "cfg(windows)", "version_id": 40108
+      },
+      {
+        "crate_id": "security-framework", "default_features": true,
+        "downloads": 0, "features": [], "id": 140693, "kind": "dev",
+        "optional": false, "req": "^0.1",
+        "target": "cfg(target_os = \"macos\")", "version_id": 40108
+      },
+      {
+        "crate_id": "tokio-core", "default_features": true, "downloads": 0,
+        "features": [], "id": 140687, "kind": "normal", "optional": false,
+        "req": "^0.1.1", "target": null, "version_id": 40108
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [], "id": 140694, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 40108
+      }
+    ],
+    "dl_path": "/api/v1/crates/tokio-tls/0.1.0/download",
+    "downloads": 966, "features": {}, "id": 40108,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/tokio-tls/0.1.0/authors",
+      "dependencies": "/api/v1/crates/tokio-tls/0.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/tokio-tls/0.1.0/downloads"
+    },
+    "num": "0.1.0", "published_by": null,
+    "readme_path": "/api/v1/crates/tokio-tls/0.1.0/readme",
+    "updated_at": "2017-11-30T03:45:21.739580+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alex Crichton <alex@alexcrichton.com>",
+          "Carl Lerche <me@carllerche.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "tokio-tls", "crate_size": null,
+    "created_at": "2017-01-24T03:58:25.824785+00:00",
+    "dependencies": [
+      {
+        "crate_id": "advapi32-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 155879, "kind": "dev",
+        "optional": false, "req": "^0.2", "target": "cfg(windows)",
+        "version_id": 43176
+      },
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 155875, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 43176
+      },
+      {
+        "crate_id": "crypt32-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 155882, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 43176
+      },
+      {
+        "crate_id": "env_logger", "default_features": false, "downloads": 0,
+        "features": [], "id": 155876, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 43176
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 155871, "kind": "normal", "optional": false,
+        "req": "^0.1.4", "target": null, "version_id": 43176
+      },
+      {
+        "crate_id": "kernel32-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 155878, "kind": "dev",
+        "optional": false, "req": "^0.2", "target": "cfg(windows)",
+        "version_id": 43176
+      },
+      {
+        "crate_id": "native-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 155873, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 43176
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": [], "id": 155877, "kind": "dev", "optional": false,
+        "req": "^0.9",
+        "target": "cfg(all(not(target_os = \"macos\"), not(windows)))",
+        "version_id": 43176
+      },
+      {
+        "crate_id": "schannel", "default_features": true, "downloads": 0,
+        "features": [], "id": 155881, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": "cfg(windows)", "version_id": 43176
+      },
+      {
+        "crate_id": "security-framework", "default_features": true,
+        "downloads": 0, "features": [], "id": 155883, "kind": "dev",
+        "optional": false, "req": "^0.1",
+        "target": "cfg(target_os = \"macos\")", "version_id": 43176
+      },
+      {
+        "crate_id": "tokio-core", "default_features": true, "downloads": 0,
+        "features": [], "id": 155872, "kind": "normal", "optional": false,
+        "req": "^0.1.1", "target": null, "version_id": 43176
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [], "id": 155880, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 43176
+      },
+      {
+        "crate_id": "tokio-proto", "default_features": true, "downloads": 0,
+        "features": [], "id": 155874, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 43176
+      }
+    ],
+    "dl_path": "/api/v1/crates/tokio-tls/0.1.1/download",
+    "downloads": 3116, "features": {}, "id": 43176,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/tokio-tls/0.1.1/authors",
+      "dependencies": "/api/v1/crates/tokio-tls/0.1.1/dependencies",
+      "version_downloads": "/api/v1/crates/tokio-tls/0.1.1/downloads"
+    },
+    "num": "0.1.1", "published_by": null,
+    "readme_path": "/api/v1/crates/tokio-tls/0.1.1/readme",
+    "updated_at": "2017-11-30T04:14:43.123104+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alex Crichton <alex@alexcrichton.com>",
+          "Carl Lerche <me@carllerche.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "tokio-tls", "crate_size": null,
+    "created_at": "2017-03-15T17:35:38.804836+00:00",
+    "dependencies": [
+      {
+        "crate_id": "advapi32-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 178304, "kind": "dev",
+        "optional": false, "req": "^0.2", "target": "cfg(windows)",
+        "version_id": 47886
+      },
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 178297, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 47886
+      },
+      {
+        "crate_id": "crypt32-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 178305, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 47886
+      },
+      {
+        "crate_id": "env_logger", "default_features": false, "downloads": 0,
+        "features": [], "id": 178298, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 47886
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 178294, "kind": "normal", "optional": false,
+        "req": "^0.1.11", "target": null, "version_id": 47886
+      },
+      {
+        "crate_id": "kernel32-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 178301, "kind": "dev",
+        "optional": false, "req": "^0.2", "target": "cfg(windows)",
+        "version_id": 47886
+      },
+      {
+        "crate_id": "native-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 178295, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 47886
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": [], "id": 178299, "kind": "dev", "optional": false,
+        "req": "^0.9",
+        "target": "cfg(all(not(target_os = \"macos\"), not(windows)))",
+        "version_id": 47886
+      },
+      {
+        "crate_id": "schannel", "default_features": true, "downloads": 0,
+        "features": [], "id": 178302, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": "cfg(windows)", "version_id": 47886
+      },
+      {
+        "crate_id": "security-framework", "default_features": true,
+        "downloads": 0, "features": [], "id": 178300, "kind": "dev",
+        "optional": false, "req": "^0.1",
+        "target": "cfg(target_os = \"macos\")", "version_id": 47886
+      },
+      {
+        "crate_id": "tokio-core", "default_features": true, "downloads": 0,
+        "features": [], "id": 178296, "kind": "normal", "optional": false,
+        "req": "^0.1.6", "target": null, "version_id": 47886
+      },
+      {
+        "crate_id": "tokio-io", "default_features": true, "downloads": 0,
+        "features": [], "id": 178293, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 47886
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [], "id": 178303, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 47886
+      },
+      {
+        "crate_id": "tokio-proto", "default_features": true, "downloads": 0,
+        "features": [], "id": 178292, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 47886
+      }
+    ],
+    "dl_path": "/api/v1/crates/tokio-tls/0.1.2/download",
+    "downloads": 11499, "features": {}, "id": 47886,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/tokio-tls/0.1.2/authors",
+      "dependencies": "/api/v1/crates/tokio-tls/0.1.2/dependencies",
+      "version_downloads": "/api/v1/crates/tokio-tls/0.1.2/downloads"
+    },
+    "num": "0.1.2", "published_by": null,
+    "readme_path": "/api/v1/crates/tokio-tls/0.1.2/readme",
+    "updated_at": "2017-11-30T02:57:16.553465+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alex Crichton <alex@alexcrichton.com>",
+          "Carl Lerche <me@carllerche.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "tokio-tls", "crate_size": null,
+    "created_at": "2017-06-24T16:33:40.719173+00:00",
+    "dependencies": [
+      {
+        "crate_id": "advapi32-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 228740, "kind": "dev",
+        "optional": false, "req": "^0.2", "target": "cfg(windows)",
+        "version_id": 57814
+      },
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 228732, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 57814
+      },
+      {
+        "crate_id": "crypt32-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 228739, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 57814
+      },
+      {
+        "crate_id": "env_logger", "default_features": false, "downloads": 0,
+        "features": [], "id": 228735, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 57814
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 228728, "kind": "normal", "optional": false,
+        "req": "^0.1.11", "target": null, "version_id": 57814
+      },
+      {
+        "crate_id": "hyper", "default_features": true, "downloads": 0,
+        "features": [], "id": 228733, "kind": "dev", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 57814
+      },
+      {
+        "crate_id": "kernel32-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 228742, "kind": "dev",
+        "optional": false, "req": "^0.2", "target": "cfg(windows)",
+        "version_id": 57814
+      },
+      {
+        "crate_id": "native-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 228731, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 57814
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": [], "id": 228737, "kind": "dev", "optional": false,
+        "req": "^0.9",
+        "target": "cfg(all(not(target_os = \"macos\"), not(windows), not(target_os = \"ios\")))",
+        "version_id": 57814
+      },
+      {
+        "crate_id": "schannel", "default_features": true, "downloads": 0,
+        "features": [], "id": 228738, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": "cfg(windows)", "version_id": 57814
+      },
+      {
+        "crate_id": "security-framework", "default_features": true,
+        "downloads": 0, "features": [], "id": 228736, "kind": "dev",
+        "optional": false, "req": "^0.1",
+        "target": "cfg(any(target_os = \"macos\", target_os = \"ios\"))",
+        "version_id": 57814
+      },
+      {
+        "crate_id": "tokio-core", "default_features": true, "downloads": 0,
+        "features": [], "id": 228730, "kind": "normal", "optional": false,
+        "req": "^0.1.6", "target": null, "version_id": 57814
+      },
+      {
+        "crate_id": "tokio-io", "default_features": true, "downloads": 0,
+        "features": [], "id": 228727, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 57814
+      },
+      {
+        "crate_id": "tokio-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 228734, "kind": "dev",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 57814
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [], "id": 228741, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 57814
+      },
+      {
+        "crate_id": "tokio-proto", "default_features": true, "downloads": 0,
+        "features": [], "id": 228729, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 57814
+      }
+    ],
+    "dl_path": "/api/v1/crates/tokio-tls/0.1.3/download",
+    "downloads": 221034, "features": {}, "id": 57814,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/tokio-tls/0.1.3/authors",
+      "dependencies": "/api/v1/crates/tokio-tls/0.1.3/dependencies",
+      "version_downloads": "/api/v1/crates/tokio-tls/0.1.3/downloads"
+    },
+    "num": "0.1.3", "published_by": null,
+    "readme_path": "/api/v1/crates/tokio-tls/0.1.3/readme",
+    "updated_at": "2017-11-30T03:40:18.478854+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alex Crichton <alex@alexcrichton.com>",
+          "Carl Lerche <me@carllerche.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "tokio-tls", "crate_size": null,
+    "created_at": "2018-01-03T16:44:37.256017+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 326882, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 76267
+      },
+      {
+        "crate_id": "env_logger", "default_features": false, "downloads": 0,
+        "features": [], "id": 326883, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 76267
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 326877, "kind": "normal", "optional": false,
+        "req": "^0.1.11", "target": null, "version_id": 76267
+      },
+      {
+        "crate_id": "hyper", "default_features": true, "downloads": 0,
+        "features": [], "id": 326884, "kind": "dev", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 76267
+      },
+      {
+        "crate_id": "native-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 326878, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 76267
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": [], "id": 326886, "kind": "dev", "optional": false,
+        "req": "^0.9",
+        "target": "cfg(all(not(target_os = \"macos\"), not(windows), not(target_os = \"ios\")))",
+        "version_id": 76267
+      },
+      {
+        "crate_id": "schannel", "default_features": true, "downloads": 0,
+        "features": [], "id": 326888, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": "cfg(windows)", "version_id": 76267
+      },
+      {
+        "crate_id": "security-framework", "default_features": true,
+        "downloads": 0, "features": [], "id": 326887, "kind": "dev",
+        "optional": false, "req": "^0.1",
+        "target": "cfg(any(target_os = \"macos\", target_os = \"ios\"))",
+        "version_id": 76267
+      },
+      {
+        "crate_id": "tokio-core", "default_features": true, "downloads": 0,
+        "features": [], "id": 326879, "kind": "normal", "optional": false,
+        "req": "^0.1.6", "target": null, "version_id": 76267
+      },
+      {
+        "crate_id": "tokio-io", "default_features": true, "downloads": 0,
+        "features": [], "id": 326880, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 76267
+      },
+      {
+        "crate_id": "tokio-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 326885, "kind": "dev",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 76267
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "lmcons", "basetsd", "minwinbase", "minwindef", "ntdef",
+          "sysinfoapi", "timezoneapi", "wincrypt", "winerror"
+        ],
+        "id": 326889, "kind": "dev", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 76267
+      },
+      {
+        "crate_id": "tokio-proto", "default_features": true, "downloads": 0,
+        "features": [], "id": 326881, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 76267
+      }
+    ],
+    "dl_path": "/api/v1/crates/tokio-tls/0.1.4/download",
+    "downloads": 536347, "features": {}, "id": 76267,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/tokio-tls/0.1.4/authors",
+      "dependencies": "/api/v1/crates/tokio-tls/0.1.4/dependencies",
+      "version_downloads": "/api/v1/crates/tokio-tls/0.1.4/downloads"
+    },
+    "num": "0.1.4", "published_by": null,
+    "readme_path": "/api/v1/crates/tokio-tls/0.1.4/readme",
+    "updated_at": "2018-01-03T16:44:37.256017+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["Carl Lerche <me@carllerche.com>"]}, "users": []},
+    "crate": "tokio-tls", "crate_size": null,
+    "created_at": "2018-08-08T17:20:28.166463+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 473994, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 103057
+      },
+      {
+        "crate_id": "env_logger", "default_features": false, "downloads": 0,
+        "features": [], "id": 473995, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 103057
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 473991, "kind": "normal", "optional": false,
+        "req": "^0.1.23", "target": null, "version_id": 103057
+      },
+      {
+        "crate_id": "native-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 473992, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 103057
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": [], "id": 473997, "kind": "dev", "optional": false,
+        "req": "^0.10",
+        "target": "cfg(all(not(target_os = \"macos\"), not(windows), not(target_os = \"ios\")))",
+        "version_id": 103057
+      },
+      {
+        "crate_id": "schannel", "default_features": true, "downloads": 0,
+        "features": [], "id": 473999, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": "cfg(windows)", "version_id": 103057
+      },
+      {
+        "crate_id": "security-framework", "default_features": true,
+        "downloads": 0, "features": [], "id": 473998, "kind": "dev",
+        "optional": false, "req": "^0.2",
+        "target": "cfg(any(target_os = \"macos\", target_os = \"ios\"))",
+        "version_id": 103057
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 473996, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 103057
+      },
+      {
+        "crate_id": "tokio-io", "default_features": true, "downloads": 0,
+        "features": [], "id": 473993, "kind": "normal", "optional": false,
+        "req": "^0.1.7", "target": null, "version_id": 103057
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "lmcons", "basetsd", "minwinbase", "minwindef", "ntdef",
+          "sysinfoapi", "timezoneapi", "wincrypt", "winerror"
+        ],
+        "id": 474000, "kind": "dev", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 103057
+      }
+    ],
+    "dl_path": "/api/v1/crates/tokio-tls/0.2.0/download",
+    "downloads": 138645, "features": {}, "id": 103057, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tokio-tls/0.2.0/authors",
+      "dependencies": "/api/v1/crates/tokio-tls/0.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/tokio-tls/0.2.0/downloads"
+    },
+    "num": "0.2.0", "published_by": null,
+    "readme_path": "/api/v1/crates/tokio-tls/0.2.0/readme",
+    "updated_at": "2018-08-08T17:20:28.166463+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["Carl Lerche <me@carllerche.com>"]}, "users": []},
+    "crate": "tokio-tls", "crate_size": 16354,
+    "created_at": "2019-01-07T07:33:12.029738+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 603180, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 126028
+      },
+      {
+        "crate_id": "env_logger", "default_features": false, "downloads": 0,
+        "features": [], "id": 603181, "kind": "dev", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 126028
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 603177, "kind": "normal", "optional": false,
+        "req": "^0.1.23", "target": null, "version_id": 126028
+      },
+      {
+        "crate_id": "native-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 603178, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 126028
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": [], "id": 603183, "kind": "dev", "optional": false,
+        "req": "^0.10",
+        "target": "cfg(all(not(target_os = \"macos\"), not(windows), not(target_os = \"ios\")))",
+        "version_id": 126028
+      },
+      {
+        "crate_id": "schannel", "default_features": true, "downloads": 0,
+        "features": [], "id": 603185, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": "cfg(windows)", "version_id": 126028
+      },
+      {
+        "crate_id": "security-framework", "default_features": true,
+        "downloads": 0, "features": [], "id": 603184, "kind": "dev",
+        "optional": false, "req": "^0.2",
+        "target": "cfg(any(target_os = \"macos\", target_os = \"ios\"))",
+        "version_id": 126028
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 603182, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 126028
+      },
+      {
+        "crate_id": "tokio-io", "default_features": true, "downloads": 0,
+        "features": [], "id": 603179, "kind": "normal", "optional": false,
+        "req": "^0.1.7", "target": null, "version_id": 126028
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "lmcons", "basetsd", "minwinbase", "minwindef", "ntdef",
+          "sysinfoapi", "timezoneapi", "wincrypt", "winerror"
+        ],
+        "id": 603186, "kind": "dev", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 126028
+      }
+    ],
+    "dl_path": "/api/v1/crates/tokio-tls/0.2.1/download",
+    "downloads": 580384, "features": {}, "id": 126028, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tokio-tls/0.2.1/authors",
+      "dependencies": "/api/v1/crates/tokio-tls/0.2.1/dependencies",
+      "version_downloads": "/api/v1/crates/tokio-tls/0.2.1/downloads"
+    },
+    "num": "0.2.1", "published_by": null,
+    "readme_path": "/api/v1/crates/tokio-tls/0.2.1/readme",
+    "updated_at": "2019-01-07T07:33:12.029738+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Tokio Contributors <team@tokio.rs>"]},
+      "users": []
+    },
+    "crate": "tokio-tls", "crate_size": 16929,
+    "created_at": "2019-08-08T20:19:45.800917+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 854015, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 168229
+      },
+      {
+        "crate_id": "env_logger", "default_features": false, "downloads": 0,
+        "features": [], "id": 854016, "kind": "dev", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 168229
+      },
+      {
+        "crate_id": "futures-preview", "default_features": true,
+        "downloads": 0, "features": ["async-await", "nightly"],
+        "id": 854017, "kind": "dev", "optional": false,
+        "req": "=0.3.0-alpha.17", "target": null, "version_id": 168229
+      },
+      {
+        "crate_id": "native-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 854013, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 168229
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": [], "id": 854020, "kind": "dev", "optional": false,
+        "req": "^0.10",
+        "target": "cfg(all(not(target_os = \"macos\"), not(windows), not(target_os = \"ios\")))",
+        "version_id": 168229
+      },
+      {
+        "crate_id": "schannel", "default_features": true, "downloads": 0,
+        "features": [], "id": 854022, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": "cfg(windows)", "version_id": 168229
+      },
+      {
+        "crate_id": "security-framework", "default_features": true,
+        "downloads": 0, "features": [], "id": 854021, "kind": "dev",
+        "optional": false, "req": "^0.2",
+        "target": "cfg(any(target_os = \"macos\", target_os = \"ios\"))",
+        "version_id": 168229
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 854018, "kind": "dev", "optional": false,
+        "req": "=0.2.0-alpha.1", "target": null, "version_id": 168229
+      },
+      {
+        "crate_id": "tokio-io", "default_features": true, "downloads": 0,
+        "features": [], "id": 854014, "kind": "normal", "optional": false,
+        "req": "=0.2.0-alpha.1", "target": null, "version_id": 168229
+      },
+      {
+        "crate_id": "tokio-tcp", "default_features": true, "downloads": 0,
+        "features": ["async-traits"], "id": 854019, "kind": "dev",
+        "optional": false, "req": "=0.2.0-alpha.1", "target": null,
+        "version_id": 168229
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "lmcons", "basetsd", "minwinbase", "minwindef", "ntdef",
+          "sysinfoapi", "timezoneapi", "wincrypt", "winerror"
+        ],
+        "id": 854023, "kind": "dev", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 168229
+      }
+    ],
+    "dl_path": "/api/v1/crates/tokio-tls/0.3.0-alpha.1/download",
+    "downloads": 375, "features": {}, "id": 168229, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tokio-tls/0.3.0-alpha.1/authors",
+      "dependencies": "/api/v1/crates/tokio-tls/0.3.0-alpha.1/dependencies",
+      "version_downloads": "/api/v1/crates/tokio-tls/0.3.0-alpha.1/downloads"
+    },
+    "num": "0.3.0-alpha.1",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/6180?v=4",
+      "id": 10, "login": "carllerche", "name": "Carl Lerche",
+      "url": "https://github.com/carllerche"
+    },
+    "readme_path": "/api/v1/crates/tokio-tls/0.3.0-alpha.1/readme",
+    "updated_at": "2019-08-08T20:19:45.800917+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Tokio Contributors <team@tokio.rs>"]},
+      "users": []
+    },
+    "crate": "tokio-tls", "crate_size": 16518,
+    "created_at": "2019-08-18T07:49:08.437732+00:00",
+    "dependencies": [
+      {
+        "crate_id": "native-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 867403, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 170292
+      },
+      {
+        "crate_id": "tokio-io", "default_features": true, "downloads": 0,
+        "features": [], "id": 867404, "kind": "normal", "optional": false,
+        "req": "=0.2.0-alpha.2", "target": null, "version_id": 170292
+      }
+    ],
+    "dl_path": "/api/v1/crates/tokio-tls/0.3.0-alpha.2/download",
+    "downloads": 564, "features": {}, "id": 170292, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tokio-tls/0.3.0-alpha.2/authors",
+      "dependencies": "/api/v1/crates/tokio-tls/0.3.0-alpha.2/dependencies",
+      "version_downloads": "/api/v1/crates/tokio-tls/0.3.0-alpha.2/downloads"
+    },
+    "num": "0.3.0-alpha.2",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/6180?v=4",
+      "id": 10, "login": "carllerche", "name": "Carl Lerche",
+      "url": "https://github.com/carllerche"
+    },
+    "readme_path": "/api/v1/crates/tokio-tls/0.3.0-alpha.2/readme",
+    "updated_at": "2019-08-18T07:49:08.437732+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Tokio Contributors <team@tokio.rs>"]},
+      "users": []
+    },
+    "crate": "tokio-tls", "crate_size": 17019,
+    "created_at": "2019-08-30T17:21:07.696899+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 884158, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 172898
+      },
+      {
+        "crate_id": "env_logger", "default_features": false, "downloads": 0,
+        "features": [], "id": 884159, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 172898
+      },
+      {
+        "crate_id": "futures-preview", "default_features": true,
+        "downloads": 0, "features": ["async-await", "nightly"],
+        "id": 884160, "kind": "dev", "optional": false,
+        "req": "=0.3.0-alpha.18", "target": null, "version_id": 172898
+      },
+      {
+        "crate_id": "native-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 884156, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 172898
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": [], "id": 884163, "kind": "dev", "optional": false,
+        "req": "^0.10",
+        "target": "cfg(all(not(target_os = \"macos\"), not(windows), not(target_os = \"ios\")))",
+        "version_id": 172898
+      },
+      {
+        "crate_id": "schannel", "default_features": true, "downloads": 0,
+        "features": [], "id": 884165, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": "cfg(windows)", "version_id": 172898
+      },
+      {
+        "crate_id": "security-framework", "default_features": true,
+        "downloads": 0, "features": [], "id": 884164, "kind": "dev",
+        "optional": false, "req": "^0.2",
+        "target": "cfg(any(target_os = \"macos\", target_os = \"ios\"))",
+        "version_id": 172898
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 884161, "kind": "dev", "optional": false,
+        "req": "=0.2.0-alpha.4", "target": null, "version_id": 172898
+      },
+      {
+        "crate_id": "tokio-io", "default_features": true, "downloads": 0,
+        "features": [], "id": 884157, "kind": "normal", "optional": false,
+        "req": "=0.2.0-alpha.4", "target": null, "version_id": 172898
+      },
+      {
+        "crate_id": "tokio-net", "default_features": true, "downloads": 0,
+        "features": ["tcp", "async-traits"], "id": 884162, "kind": "dev",
+        "optional": false, "req": "=0.2.0-alpha.4", "target": null,
+        "version_id": 172898
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "lmcons", "basetsd", "minwinbase", "minwindef", "ntdef",
+          "sysinfoapi", "timezoneapi", "wincrypt", "winerror"
+        ],
+        "id": 884166, "kind": "dev", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 172898
+      }
+    ],
+    "dl_path": "/api/v1/crates/tokio-tls/0.3.0-alpha.4/download",
+    "downloads": 3313, "features": {}, "id": 172898, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tokio-tls/0.3.0-alpha.4/authors",
+      "dependencies": "/api/v1/crates/tokio-tls/0.3.0-alpha.4/dependencies",
+      "version_downloads": "/api/v1/crates/tokio-tls/0.3.0-alpha.4/downloads"
+    },
+    "num": "0.3.0-alpha.4",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/6180?v=4",
+      "id": 10, "login": "carllerche", "name": "Carl Lerche",
+      "url": "https://github.com/carllerche"
+    },
+    "readme_path": "/api/v1/crates/tokio-tls/0.3.0-alpha.4/readme",
+    "updated_at": "2019-08-30T17:21:07.696899+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Tokio Contributors <team@tokio.rs>"]},
+      "users": []
+    },
+    "crate": "tokio-tls", "crate_size": 16946,
+    "created_at": "2019-09-19T20:49:17.390489+00:00",
+    "dependencies": [
+      {
+        "crate_id": "native-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 910265, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 177211
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": [], "id": 910267, "kind": "dev", "optional": false,
+        "req": "^0.10",
+        "target": "cfg(all(not(target_os = \"macos\"), not(windows), not(target_os = \"ios\")))",
+        "version_id": 177211
+      },
+      {
+        "crate_id": "schannel", "default_features": true, "downloads": 0,
+        "features": [], "id": 910269, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": "cfg(windows)", "version_id": 177211
+      },
+      {
+        "crate_id": "security-framework", "default_features": true,
+        "downloads": 0, "features": [], "id": 910268, "kind": "dev",
+        "optional": false, "req": "^0.2",
+        "target": "cfg(any(target_os = \"macos\", target_os = \"ios\"))",
+        "version_id": 177211
+      },
+      {
+        "crate_id": "tokio-io", "default_features": true, "downloads": 0,
+        "features": [], "id": 910266, "kind": "normal", "optional": false,
+        "req": "=0.2.0-alpha.5", "target": null, "version_id": 177211
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "lmcons", "basetsd", "minwinbase", "minwindef", "ntdef",
+          "sysinfoapi", "timezoneapi", "wincrypt", "winerror"
+        ],
+        "id": 910270, "kind": "dev", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 177211
+      }
+    ],
+    "dl_path": "/api/v1/crates/tokio-tls/0.3.0-alpha.5/download",
+    "downloads": 1181, "features": {}, "id": 177211, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tokio-tls/0.3.0-alpha.5/authors",
+      "dependencies": "/api/v1/crates/tokio-tls/0.3.0-alpha.5/dependencies",
+      "version_downloads": "/api/v1/crates/tokio-tls/0.3.0-alpha.5/downloads"
+    },
+    "num": "0.3.0-alpha.5",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/6180?v=4",
+      "id": 10, "login": "carllerche", "name": "Carl Lerche",
+      "url": "https://github.com/carllerche"
+    },
+    "readme_path": "/api/v1/crates/tokio-tls/0.3.0-alpha.5/readme",
+    "updated_at": "2019-09-19T20:49:17.390489+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Tokio Contributors <team@tokio.rs>"]},
+      "users": []
+    },
+    "crate": "tokio-tls", "crate_size": 17071,
+    "created_at": "2019-10-01T00:46:18.707833+00:00",
+    "dependencies": [
+      {
+        "crate_id": "native-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 925205, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 179593
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": [], "id": 925207, "kind": "dev", "optional": false,
+        "req": "^0.10",
+        "target": "cfg(all(not(target_os = \"macos\"), not(windows), not(target_os = \"ios\")))",
+        "version_id": 179593
+      },
+      {
+        "crate_id": "schannel", "default_features": true, "downloads": 0,
+        "features": [], "id": 925209, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": "cfg(windows)", "version_id": 179593
+      },
+      {
+        "crate_id": "security-framework", "default_features": true,
+        "downloads": 0, "features": [], "id": 925208, "kind": "dev",
+        "optional": false, "req": "^0.2",
+        "target": "cfg(any(target_os = \"macos\", target_os = \"ios\"))",
+        "version_id": 179593
+      },
+      {
+        "crate_id": "tokio-io", "default_features": true, "downloads": 0,
+        "features": [], "id": 925206, "kind": "normal", "optional": false,
+        "req": "=0.2.0-alpha.6", "target": null, "version_id": 179593
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "lmcons", "basetsd", "minwinbase", "minwindef", "ntdef",
+          "sysinfoapi", "timezoneapi", "wincrypt", "winerror"
+        ],
+        "id": 925210, "kind": "dev", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 179593
+      }
+    ],
+    "dl_path": "/api/v1/crates/tokio-tls/0.3.0-alpha.6/download",
+    "downloads": 80764, "features": {}, "id": 179593, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tokio-tls/0.3.0-alpha.6/authors",
+      "dependencies": "/api/v1/crates/tokio-tls/0.3.0-alpha.6/dependencies",
+      "version_downloads": "/api/v1/crates/tokio-tls/0.3.0-alpha.6/downloads"
+    },
+    "num": "0.3.0-alpha.6",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/5758045?v=4",
+      "id": 3959, "login": "LucioFranco", "name": "Lucio Franco",
+      "url": "https://github.com/LucioFranco"
+    },
+    "readme_path": "/api/v1/crates/tokio-tls/0.3.0-alpha.6/readme",
+    "updated_at": "2019-10-01T00:46:18.707833+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Tokio Contributors <team@tokio.rs>"]},
+      "users": []
+    },
+    "crate": "tokio-tls", "crate_size": 17274,
+    "created_at": "2019-11-26T17:22:53.918806+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 1012386, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 192371
+      },
+      {
+        "crate_id": "env_logger", "default_features": false, "downloads": 0,
+        "features": [], "id": 1012387, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 192371
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": ["async-await"], "id": 1012388, "kind": "dev",
+        "optional": false, "req": "^0.3.0", "target": null,
+        "version_id": 192371
+      },
+      {
+        "crate_id": "native-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1012384, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 192371
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": [], "id": 1012390, "kind": "dev", "optional": false,
+        "req": "^0.10",
+        "target": "cfg(all(not(target_os = \"macos\"), not(windows), not(target_os = \"ios\")))",
+        "version_id": 192371
+      },
+      {
+        "crate_id": "schannel", "default_features": true, "downloads": 0,
+        "features": [], "id": 1012392, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": "cfg(windows)", "version_id": 192371
+      },
+      {
+        "crate_id": "security-framework", "default_features": true,
+        "downloads": 0, "features": [], "id": 1012391, "kind": "dev",
+        "optional": false, "req": "^0.2",
+        "target": "cfg(any(target_os = \"macos\", target_os = \"ios\"))",
+        "version_id": 192371
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["macros", "stream", "rt-core", "io-util", "net"],
+        "id": 1012389, "kind": "dev", "optional": false, "req": "^0.2.0",
+        "target": null, "version_id": 192371
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 1012385, "kind": "normal", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 192371
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "lmcons", "basetsd", "minwinbase", "minwindef", "ntdef",
+          "sysinfoapi", "timezoneapi", "wincrypt", "winerror"
+        ],
+        "id": 1012393, "kind": "dev", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 192371
+      }
+    ],
+    "dl_path": "/api/v1/crates/tokio-tls/0.3.0/download",
+    "downloads": 952415, "features": {}, "id": 192371, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tokio-tls/0.3.0/authors",
+      "dependencies": "/api/v1/crates/tokio-tls/0.3.0/dependencies",
+      "version_downloads": "/api/v1/crates/tokio-tls/0.3.0/downloads"
+    },
+    "num": "0.3.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/6180?v=4",
+      "id": 10, "login": "carllerche", "name": "Carl Lerche",
+      "url": "https://github.com/carllerche"
+    },
+    "readme_path": "/api/v1/crates/tokio-tls/0.3.0/readme",
+    "updated_at": "2019-11-26T17:22:53.918806+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-05-06T20:15:22.808926+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/5758045?v=4",
+          "id": 3959, "login": "LucioFranco", "name": "Lucio Franco",
+          "url": "https://github.com/LucioFranco"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Tokio Contributors <team@tokio.rs>"]},
+      "users": []
+    },
+    "crate": "tokio-tls", "crate_size": 22517,
+    "created_at": "2020-05-06T20:15:22.808926+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 1346008, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 238527
+      },
+      {
+        "crate_id": "env_logger", "default_features": false, "downloads": 0,
+        "features": [], "id": 1346009, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 238527
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": ["async-await"], "id": 1346010, "kind": "dev",
+        "optional": false, "req": "^0.3.0", "target": null,
+        "version_id": 238527
+      },
+      {
+        "crate_id": "native-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1346006, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 238527
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": [], "id": 1346013, "kind": "dev", "optional": false,
+        "req": "^0.10",
+        "target": "cfg(all(not(target_os = \"macos\"), not(windows), not(target_os = \"ios\")))",
+        "version_id": 238527
+      },
+      {
+        "crate_id": "schannel", "default_features": true, "downloads": 0,
+        "features": [], "id": 1346015, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": "cfg(windows)", "version_id": 238527
+      },
+      {
+        "crate_id": "security-framework", "default_features": true,
+        "downloads": 0, "features": [], "id": 1346014, "kind": "dev",
+        "optional": false, "req": "^0.2",
+        "target": "cfg(any(target_os = \"macos\", target_os = \"ios\"))",
+        "version_id": 238527
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["macros", "stream", "rt-core", "io-util", "net"],
+        "id": 1346011, "kind": "dev", "optional": false, "req": "^0.2.0",
+        "target": null, "version_id": 238527
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 1346007, "kind": "normal", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 238527
+      },
+      {
+        "crate_id": "tokio-util", "default_features": true, "downloads": 0,
+        "features": ["full"], "id": 1346012, "kind": "dev",
+        "optional": false, "req": "^0.3.0", "target": null,
+        "version_id": 238527
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "lmcons", "basetsd", "minwinbase", "minwindef", "ntdef",
+          "sysinfoapi", "timezoneapi", "wincrypt", "winerror"
+        ],
+        "id": 1346016, "kind": "dev", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 238527
+      }
+    ],
+    "dl_path": "/api/v1/crates/tokio-tls/0.3.1/download",
+    "downloads": 1710498, "features": {}, "id": 238527,
+    "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tokio-tls/0.3.1/authors",
+      "dependencies": "/api/v1/crates/tokio-tls/0.3.1/dependencies",
+      "version_downloads": "/api/v1/crates/tokio-tls/0.3.1/downloads"
+    },
+    "num": "0.3.1",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/5758045?v=4",
+      "id": 3959, "login": "LucioFranco", "name": "Lucio Franco",
+      "url": "https://github.com/LucioFranco"
+    },
+    "readme_path": "/api/v1/crates/tokio-tls/0.3.1/readme",
+    "updated_at": "2020-05-06T20:15:22.808926+00:00", "yanked": false
+  }
+]

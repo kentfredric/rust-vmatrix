@@ -1,0 +1,414 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["The Rust-Crypto Project Developers"]},
+      "users": []
+    },
+    "crate": "aes", "crate_size": null,
+    "created_at": "2016-10-06T21:22:19.164040+00:00",
+    "dependencies": [], "dl_path": "/api/v1/crates/aes/0.0.0/download",
+    "downloads": 686, "features": {}, "id": 35309,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/aes/0.0.0/authors",
+      "dependencies": "/api/v1/crates/aes/0.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/aes/0.0.0/downloads"
+    },
+    "num": "0.0.0", "published_by": null,
+    "readme_path": "/api/v1/crates/aes/0.0.0/readme",
+    "updated_at": "2017-11-30T02:37:40.959671+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["RustCrypto Developers"]}, "users": []},
+    "crate": "aes", "crate_size": null,
+    "created_at": "2018-06-22T17:36:48.213178+00:00",
+    "dependencies": [
+      {
+        "crate_id": "aesni", "default_features": true, "downloads": 0,
+        "features": [], "id": 443533, "kind": "normal", "optional": false,
+        "req": "^0.3",
+        "target": "cfg(all(target_feature = \"aes\", any(target_arch = \"x86_64\", target_arch = \"x86\")))",
+        "version_id": 97509
+      },
+      {
+        "crate_id": "aes-soft", "default_features": true, "downloads": 0,
+        "features": [], "id": 443530, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 97509
+      },
+      {
+        "crate_id": "block-cipher-trait", "default_features": true,
+        "downloads": 0, "features": ["dev"], "id": 443532, "kind": "dev",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 97509
+      },
+      {
+        "crate_id": "block-cipher-trait", "default_features": true,
+        "downloads": 0, "features": [], "id": 443531, "kind": "normal",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 97509
+      }
+    ],
+    "dl_path": "/api/v1/crates/aes/0.1.0/download", "downloads": 7616,
+    "features": {"force_soft": []}, "id": 97509,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/aes/0.1.0/authors",
+      "dependencies": "/api/v1/crates/aes/0.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/aes/0.1.0/downloads"
+    },
+    "num": "0.1.0", "published_by": null,
+    "readme_path": "/api/v1/crates/aes/0.1.0/readme",
+    "updated_at": "2018-06-22T17:36:48.213178+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["RustCrypto Developers"]}, "users": []},
+    "crate": "aes", "crate_size": null,
+    "created_at": "2018-07-27T18:35:44.114030+00:00",
+    "dependencies": [
+      {
+        "crate_id": "aesni", "default_features": false, "downloads": 0,
+        "features": [], "id": 465365, "kind": "normal", "optional": false,
+        "req": "^0.4",
+        "target": "cfg(all(target_feature = \"aes\", target_feature = \"sse2\", any(target_arch = \"x86_64\", target_arch = \"x86\")))",
+        "version_id": 101399
+      },
+      {
+        "crate_id": "aes-soft", "default_features": true, "downloads": 0,
+        "features": [], "id": 465366, "kind": "normal", "optional": false,
+        "req": "^0.2",
+        "target": "cfg(not(all(target_feature = \"aes\", target_feature = \"sse2\", any(target_arch = \"x86_64\", target_arch = \"x86\"))))",
+        "version_id": 101399
+      },
+      {
+        "crate_id": "block-cipher-trait", "default_features": true,
+        "downloads": 0, "features": ["dev"], "id": 465364, "kind": "dev",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 101399
+      },
+      {
+        "crate_id": "block-cipher-trait", "default_features": true,
+        "downloads": 0, "features": [], "id": 465363, "kind": "normal",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 101399
+      }
+    ],
+    "dl_path": "/api/v1/crates/aes/0.2.0/download", "downloads": 11204,
+    "features": {}, "id": 101399, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/aes/0.2.0/authors",
+      "dependencies": "/api/v1/crates/aes/0.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/aes/0.2.0/downloads"
+    },
+    "num": "0.2.0", "published_by": null,
+    "readme_path": "/api/v1/crates/aes/0.2.0/readme",
+    "updated_at": "2018-07-27T18:35:44.114030+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["RustCrypto Developers"]}, "users": []},
+    "crate": "aes", "crate_size": 94236,
+    "created_at": "2018-10-03T09:12:07.856723+00:00",
+    "dependencies": [
+      {
+        "crate_id": "aesni", "default_features": false, "downloads": 0,
+        "features": [], "id": 513604, "kind": "normal", "optional": false,
+        "req": "^0.5",
+        "target": "cfg(all(target_feature = \"aes\", target_feature = \"sse2\", any(target_arch = \"x86_64\", target_arch = \"x86\")))",
+        "version_id": 110629
+      },
+      {
+        "crate_id": "aes-soft", "default_features": true, "downloads": 0,
+        "features": [], "id": 513605, "kind": "normal", "optional": false,
+        "req": "^0.3",
+        "target": "cfg(not(all(target_feature = \"aes\", target_feature = \"sse2\", any(target_arch = \"x86_64\", target_arch = \"x86\"))))",
+        "version_id": 110629
+      },
+      {
+        "crate_id": "block-cipher-trait", "default_features": true,
+        "downloads": 0, "features": ["dev"], "id": 513603, "kind": "dev",
+        "optional": false, "req": "^0.6", "target": null,
+        "version_id": 110629
+      },
+      {
+        "crate_id": "block-cipher-trait", "default_features": true,
+        "downloads": 0, "features": [], "id": 513602, "kind": "normal",
+        "optional": false, "req": "^0.6", "target": null,
+        "version_id": 110629
+      }
+    ],
+    "dl_path": "/api/v1/crates/aes/0.3.0/download", "downloads": 437,
+    "features": {}, "id": 110629, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/aes/0.3.0/authors",
+      "dependencies": "/api/v1/crates/aes/0.3.0/dependencies",
+      "version_downloads": "/api/v1/crates/aes/0.3.0/downloads"
+    },
+    "num": "0.3.0", "published_by": null,
+    "readme_path": "/api/v1/crates/aes/0.3.0/readme",
+    "updated_at": "2018-10-03T09:12:07.856723+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["RustCrypto Developers"]}, "users": []},
+    "crate": "aes", "crate_size": 84342,
+    "created_at": "2018-10-04T17:18:43.201718+00:00",
+    "dependencies": [
+      {
+        "crate_id": "aesni", "default_features": false, "downloads": 0,
+        "features": [], "id": 515024, "kind": "normal", "optional": false,
+        "req": "^0.5",
+        "target": "cfg(all(target_feature = \"aes\", target_feature = \"sse2\", any(target_arch = \"x86_64\", target_arch = \"x86\")))",
+        "version_id": 110897
+      },
+      {
+        "crate_id": "aes-soft", "default_features": true, "downloads": 0,
+        "features": [], "id": 515025, "kind": "normal", "optional": false,
+        "req": "^0.3",
+        "target": "cfg(not(all(target_feature = \"aes\", target_feature = \"sse2\", any(target_arch = \"x86_64\", target_arch = \"x86\"))))",
+        "version_id": 110897
+      },
+      {
+        "crate_id": "block-cipher-trait", "default_features": true,
+        "downloads": 0, "features": ["dev"], "id": 515023, "kind": "dev",
+        "optional": false, "req": "^0.6", "target": null,
+        "version_id": 110897
+      },
+      {
+        "crate_id": "block-cipher-trait", "default_features": true,
+        "downloads": 0, "features": [], "id": 515022, "kind": "normal",
+        "optional": false, "req": "^0.6", "target": null,
+        "version_id": 110897
+      }
+    ],
+    "dl_path": "/api/v1/crates/aes/0.3.1/download", "downloads": 556,
+    "features": {}, "id": 110897, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/aes/0.3.1/authors",
+      "dependencies": "/api/v1/crates/aes/0.3.1/dependencies",
+      "version_downloads": "/api/v1/crates/aes/0.3.1/downloads"
+    },
+    "num": "0.3.1", "published_by": null,
+    "readme_path": "/api/v1/crates/aes/0.3.1/readme",
+    "updated_at": "2018-10-04T17:18:43.201718+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["RustCrypto Developers"]}, "users": []},
+    "crate": "aes", "crate_size": 84345,
+    "created_at": "2018-11-01T13:54:19.251841+00:00",
+    "dependencies": [
+      {
+        "crate_id": "aesni", "default_features": false, "downloads": 0,
+        "features": [], "id": 543313, "kind": "normal", "optional": false,
+        "req": "^0.6",
+        "target": "cfg(all(target_feature = \"aes\", target_feature = \"sse2\", any(target_arch = \"x86_64\", target_arch = \"x86\")))",
+        "version_id": 115617
+      },
+      {
+        "crate_id": "aes-soft", "default_features": true, "downloads": 0,
+        "features": [], "id": 543314, "kind": "normal", "optional": false,
+        "req": "^0.3",
+        "target": "cfg(not(all(target_feature = \"aes\", target_feature = \"sse2\", any(target_arch = \"x86_64\", target_arch = \"x86\"))))",
+        "version_id": 115617
+      },
+      {
+        "crate_id": "block-cipher-trait", "default_features": true,
+        "downloads": 0, "features": ["dev"], "id": 543312, "kind": "dev",
+        "optional": false, "req": "^0.6", "target": null,
+        "version_id": 115617
+      },
+      {
+        "crate_id": "block-cipher-trait", "default_features": true,
+        "downloads": 0, "features": [], "id": 543311, "kind": "normal",
+        "optional": false, "req": "^0.6", "target": null,
+        "version_id": 115617
+      }
+    ],
+    "dl_path": "/api/v1/crates/aes/0.3.2/download", "downloads": 748316,
+    "features": {}, "id": 115617, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/aes/0.3.2/authors",
+      "dependencies": "/api/v1/crates/aes/0.3.2/dependencies",
+      "version_downloads": "/api/v1/crates/aes/0.3.2/downloads"
+    },
+    "num": "0.3.2", "published_by": null,
+    "readme_path": "/api/v1/crates/aes/0.3.2/readme",
+    "updated_at": "2018-11-01T13:54:19.251841+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-06-05T18:36:37.265337+00:00",
+        "user": {
+          "avatar": "https://avatars2.githubusercontent.com/u/797?v=4",
+          "id": 267, "login": "tarcieri", "name": "Tony Arcieri",
+          "url": "https://github.com/tarcieri"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["RustCrypto Developers"]}, "users": []},
+    "crate": "aes", "crate_size": 86190,
+    "created_at": "2020-06-05T18:36:37.265337+00:00",
+    "dependencies": [
+      {
+        "crate_id": "aesni", "default_features": false, "downloads": 0,
+        "features": [], "id": 1424440, "kind": "normal", "optional": false,
+        "req": "^0.7",
+        "target": "cfg(all(target_feature = \"aes\", target_feature = \"sse2\", any(target_arch = \"x86_64\", target_arch = \"x86\")))",
+        "version_id": 249203
+      },
+      {
+        "crate_id": "aes-soft", "default_features": true, "downloads": 0,
+        "features": [], "id": 1424441, "kind": "normal", "optional": false,
+        "req": "^0.4",
+        "target": "cfg(not(all(target_feature = \"aes\", target_feature = \"sse2\", any(target_arch = \"x86_64\", target_arch = \"x86\"))))",
+        "version_id": 249203
+      },
+      {
+        "crate_id": "block-cipher", "default_features": true,
+        "downloads": 0, "features": ["dev"], "id": 1424439, "kind": "dev",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 249203
+      },
+      {
+        "crate_id": "block-cipher", "default_features": true,
+        "downloads": 0, "features": [], "id": 1424438, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 249203
+      }
+    ],
+    "dl_path": "/api/v1/crates/aes/0.4.0/download", "downloads": 331212,
+    "features": {}, "id": 249203, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/aes/0.4.0/authors",
+      "dependencies": "/api/v1/crates/aes/0.4.0/dependencies",
+      "version_downloads": "/api/v1/crates/aes/0.4.0/downloads"
+    },
+    "num": "0.4.0",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/797?v=4",
+      "id": 267, "login": "tarcieri", "name": "Tony Arcieri",
+      "url": "https://github.com/tarcieri"
+    },
+    "readme_path": "/api/v1/crates/aes/0.4.0/readme",
+    "updated_at": "2020-06-05T18:36:37.265337+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-08-07T19:25:03.059565+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/329626?v=4",
+          "id": 5059, "login": "newpavlov", "name": "Artyom Pavlov",
+          "url": "https://github.com/newpavlov"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["RustCrypto Developers"]}, "users": []},
+    "crate": "aes", "crate_size": 87133,
+    "created_at": "2020-08-07T19:25:03.059565+00:00",
+    "dependencies": [
+      {
+        "crate_id": "aesni", "default_features": false, "downloads": 0,
+        "features": [], "id": 1584352, "kind": "normal", "optional": false,
+        "req": "^0.8",
+        "target": "cfg(all(target_feature = \"aes\", target_feature = \"sse2\", any(target_arch = \"x86_64\", target_arch = \"x86\")))",
+        "version_id": 270461
+      },
+      {
+        "crate_id": "aes-soft", "default_features": true, "downloads": 0,
+        "features": [], "id": 1584353, "kind": "normal", "optional": false,
+        "req": "^0.5",
+        "target": "cfg(not(all(target_feature = \"aes\", target_feature = \"sse2\", any(target_arch = \"x86_64\", target_arch = \"x86\"))))",
+        "version_id": 270461
+      },
+      {
+        "crate_id": "block-cipher", "default_features": true,
+        "downloads": 0, "features": ["dev"], "id": 1584351, "kind": "dev",
+        "optional": false, "req": "^0.8", "target": null,
+        "version_id": 270461
+      },
+      {
+        "crate_id": "block-cipher", "default_features": true,
+        "downloads": 0, "features": [], "id": 1584350, "kind": "normal",
+        "optional": false, "req": "^0.8", "target": null,
+        "version_id": 270461
+      }
+    ],
+    "dl_path": "/api/v1/crates/aes/0.5.0/download", "downloads": 56408,
+    "features": {}, "id": 270461, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/aes/0.5.0/authors",
+      "dependencies": "/api/v1/crates/aes/0.5.0/dependencies",
+      "version_downloads": "/api/v1/crates/aes/0.5.0/downloads"
+    },
+    "num": "0.5.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/329626?v=4",
+      "id": 5059, "login": "newpavlov", "name": "Artyom Pavlov",
+      "url": "https://github.com/newpavlov"
+    },
+    "readme_path": "/api/v1/crates/aes/0.5.0/readme",
+    "updated_at": "2020-08-07T19:25:03.059565+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-10-16T14:24:34.308389+00:00",
+        "user": {
+          "avatar": "https://avatars2.githubusercontent.com/u/797?v=4",
+          "id": 267, "login": "tarcieri", "name": "Tony Arcieri",
+          "url": "https://github.com/tarcieri"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["RustCrypto Developers"]}, "users": []},
+    "crate": "aes", "crate_size": 86774,
+    "created_at": "2020-10-16T14:24:34.308389+00:00",
+    "dependencies": [
+      {
+        "crate_id": "aesni", "default_features": false, "downloads": 0,
+        "features": [], "id": 1765937, "kind": "normal", "optional": false,
+        "req": "^0.10",
+        "target": "cfg(all(target_feature = \"aes\", target_feature = \"sse2\", any(target_arch = \"x86_64\", target_arch = \"x86\")))",
+        "version_id": 294500
+      },
+      {
+        "crate_id": "aes-soft", "default_features": true, "downloads": 0,
+        "features": [], "id": 1765938, "kind": "normal", "optional": false,
+        "req": "^0.6",
+        "target": "cfg(not(all(target_feature = \"aes\", target_feature = \"sse2\", any(target_arch = \"x86_64\", target_arch = \"x86\"))))",
+        "version_id": 294500
+      },
+      {
+        "crate_id": "cipher", "default_features": true, "downloads": 0,
+        "features": ["dev"], "id": 1765936, "kind": "dev",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 294500
+      },
+      {
+        "crate_id": "cipher", "default_features": true, "downloads": 0,
+        "features": [], "id": 1765935, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 294500
+      }
+    ],
+    "dl_path": "/api/v1/crates/aes/0.6.0/download", "downloads": 5515,
+    "features": {}, "id": 294500, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/aes/0.6.0/authors",
+      "dependencies": "/api/v1/crates/aes/0.6.0/dependencies",
+      "version_downloads": "/api/v1/crates/aes/0.6.0/downloads"
+    },
+    "num": "0.6.0",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/797?v=4",
+      "id": 267, "login": "tarcieri", "name": "Tony Arcieri",
+      "url": "https://github.com/tarcieri"
+    },
+    "readme_path": "/api/v1/crates/aes/0.6.0/readme",
+    "updated_at": "2020-10-16T14:24:34.308389+00:00", "yanked": false
+  }
+]

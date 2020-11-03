@@ -1,0 +1,894 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["MSleepyPanda <m.sleepypanda@gmail.com>"]},
+      "users": []
+    },
+    "crate": "font-loader", "crate_size": null,
+    "created_at": "2016-10-01T16:15:53.148952+00:00",
+    "dependencies": [
+      {
+        "crate_id": "gdi32-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 117421, "kind": "normal", "optional": false,
+        "req": "^0.2.0", "target": "cfg(windows)", "version_id": 34969
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 117420, "kind": "normal", "optional": false,
+        "req": "^0.2.15", "target": null, "version_id": 34969
+      },
+      {
+        "crate_id": "silverknife-fontconfig-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 117424, "kind": "normal",
+        "optional": false, "req": "^0.1.0", "target": "cfg(unix)",
+        "version_id": 34969
+      },
+      {
+        "crate_id": "user32-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 117422, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 34969
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [], "id": 117423, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 34969
+      }
+    ],
+    "dl_path": "/api/v1/crates/font-loader/0.1.0/download",
+    "downloads": 1591, "features": {}, "id": 34969, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/font-loader/0.1.0/authors",
+      "dependencies": "/api/v1/crates/font-loader/0.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/font-loader/0.1.0/downloads"
+    },
+    "num": "0.1.0", "published_by": null,
+    "readme_path": "/api/v1/crates/font-loader/0.1.0/readme",
+    "updated_at": "2017-11-30T04:04:28.242374+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["MSleepyPanda <m.sleepypanda@gmail.com>"]},
+      "users": []
+    },
+    "crate": "font-loader", "crate_size": null,
+    "created_at": "2017-02-01T09:46:29.623981+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 159596, "kind": "normal",
+        "optional": false, "req": "^0.3.0",
+        "target": "cfg(target_os = \"macos\")", "version_id": 44030
+      },
+      {
+        "crate_id": "core-text", "default_features": true, "downloads": 0,
+        "features": [], "id": 159597, "kind": "normal", "optional": false,
+        "req": "^3.0.0", "target": "cfg(target_os = \"macos\")",
+        "version_id": 44030
+      },
+      {
+        "crate_id": "gdi32-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 159598, "kind": "normal", "optional": false,
+        "req": "^0.2.0", "target": "cfg(windows)", "version_id": 44030
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 159595, "kind": "normal", "optional": false,
+        "req": "^0.2.15", "target": null, "version_id": 44030
+      },
+      {
+        "crate_id": "silverknife-fontconfig-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 159601, "kind": "normal",
+        "optional": false, "req": "^0.1.0",
+        "target": "not(any(cfg(windows),cfg(macos)))", "version_id": 44030
+      },
+      {
+        "crate_id": "user32-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 159599, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 44030
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [], "id": 159600, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 44030
+      }
+    ],
+    "dl_path": "/api/v1/crates/font-loader/0.1.2/download",
+    "downloads": 363, "features": {}, "id": 44030, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/font-loader/0.1.2/authors",
+      "dependencies": "/api/v1/crates/font-loader/0.1.2/dependencies",
+      "version_downloads": "/api/v1/crates/font-loader/0.1.2/downloads"
+    },
+    "num": "0.1.2", "published_by": null,
+    "readme_path": "/api/v1/crates/font-loader/0.1.2/readme",
+    "updated_at": "2017-11-30T02:50:43.595608+00:00", "yanked": true
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["MSleepyPanda <m.sleepypanda@gmail.com>"]},
+      "users": []
+    },
+    "crate": "font-loader", "crate_size": null,
+    "created_at": "2017-02-06T03:09:33.421368+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 164820, "kind": "normal",
+        "optional": false, "req": "^0.3.0",
+        "target": "cfg(target_os = \"macos\")", "version_id": 44824
+      },
+      {
+        "crate_id": "core-text", "default_features": true, "downloads": 0,
+        "features": [], "id": 164819, "kind": "normal", "optional": false,
+        "req": "^3.0.0", "target": "cfg(target_os = \"macos\")",
+        "version_id": 44824
+      },
+      {
+        "crate_id": "gdi32-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 164817, "kind": "normal", "optional": false,
+        "req": "^0.2.0", "target": "cfg(windows)", "version_id": 44824
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 164815, "kind": "normal", "optional": false,
+        "req": "^0.2.15", "target": null, "version_id": 44824
+      },
+      {
+        "crate_id": "silverknife-fontconfig-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 164821, "kind": "normal",
+        "optional": false, "req": "^0.1.0",
+        "target": "cfg(all(unix, not(target_os = \"macos\")))",
+        "version_id": 44824
+      },
+      {
+        "crate_id": "user32-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 164816, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 44824
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [], "id": 164818, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 44824
+      }
+    ],
+    "dl_path": "/api/v1/crates/font-loader/0.1.3/download",
+    "downloads": 330, "features": {}, "id": 44824, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/font-loader/0.1.3/authors",
+      "dependencies": "/api/v1/crates/font-loader/0.1.3/dependencies",
+      "version_downloads": "/api/v1/crates/font-loader/0.1.3/downloads"
+    },
+    "num": "0.1.3", "published_by": null,
+    "readme_path": "/api/v1/crates/font-loader/0.1.3/readme",
+    "updated_at": "2017-11-30T02:50:43.597534+00:00", "yanked": true
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["MSleepyPanda <m.sleepypanda@gmail.com>"]},
+      "users": []
+    },
+    "crate": "font-loader", "crate_size": null,
+    "created_at": "2017-02-06T09:32:56.938680+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 164883, "kind": "normal",
+        "optional": false, "req": "^0.3.0",
+        "target": "cfg(target_os = \"macos\")", "version_id": 44840
+      },
+      {
+        "crate_id": "core-text", "default_features": true, "downloads": 0,
+        "features": [], "id": 164884, "kind": "normal", "optional": false,
+        "req": "^3.0.0", "target": "cfg(target_os = \"macos\")",
+        "version_id": 44840
+      },
+      {
+        "crate_id": "gdi32-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 164886, "kind": "normal", "optional": false,
+        "req": "^0.2.0", "target": "cfg(windows)", "version_id": 44840
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 164882, "kind": "normal", "optional": false,
+        "req": "^0.2.15", "target": null, "version_id": 44840
+      },
+      {
+        "crate_id": "silverknife-fontconfig-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 164885, "kind": "normal",
+        "optional": false, "req": "^0.1.0",
+        "target": "cfg(all(unix, not(target_os = \"macos\")))",
+        "version_id": 44840
+      },
+      {
+        "crate_id": "user32-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 164888, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 44840
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [], "id": 164887, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 44840
+      }
+    ],
+    "dl_path": "/api/v1/crates/font-loader/0.1.4/download",
+    "downloads": 4783, "features": {}, "id": 44840, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/font-loader/0.1.4/authors",
+      "dependencies": "/api/v1/crates/font-loader/0.1.4/dependencies",
+      "version_downloads": "/api/v1/crates/font-loader/0.1.4/downloads"
+    },
+    "num": "0.1.4", "published_by": null,
+    "readme_path": "/api/v1/crates/font-loader/0.1.4/readme",
+    "updated_at": "2017-11-30T02:59:00.720272+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["MSleepyPanda <m.sleepypanda@gmail.com>"]},
+      "users": []
+    },
+    "crate": "font-loader", "crate_size": null,
+    "created_at": "2017-04-05T14:24:30.274925+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 185990, "kind": "normal",
+        "optional": false, "req": "^0.3.0",
+        "target": "cfg(target_os = \"macos\")", "version_id": 49545
+      },
+      {
+        "crate_id": "core-text", "default_features": true, "downloads": 0,
+        "features": [], "id": 185989, "kind": "normal", "optional": false,
+        "req": "^4.0.0", "target": "cfg(target_os = \"macos\")",
+        "version_id": 49545
+      },
+      {
+        "crate_id": "gdi32-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 185988, "kind": "normal", "optional": false,
+        "req": "^0.2.0", "target": "cfg(windows)", "version_id": 49545
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 185984, "kind": "normal", "optional": false,
+        "req": "^0.2.15", "target": null, "version_id": 49545
+      },
+      {
+        "crate_id": "silverknife-fontconfig-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 185985, "kind": "normal",
+        "optional": false, "req": "^0.1.0",
+        "target": "cfg(all(unix, not(target_os = \"macos\")))",
+        "version_id": 49545
+      },
+      {
+        "crate_id": "user32-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 185986, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 49545
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [], "id": 185987, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 49545
+      }
+    ],
+    "dl_path": "/api/v1/crates/font-loader/0.2.0/download",
+    "downloads": 6905, "features": {}, "id": 49545, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/font-loader/0.2.0/authors",
+      "dependencies": "/api/v1/crates/font-loader/0.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/font-loader/0.2.0/downloads"
+    },
+    "num": "0.2.0", "published_by": null,
+    "readme_path": "/api/v1/crates/font-loader/0.2.0/readme",
+    "updated_at": "2017-11-30T04:21:07.770778+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["MSleepyPanda <m.sleepypanda@gmail.com>"]},
+      "users": []
+    },
+    "crate": "font-loader", "crate_size": null,
+    "created_at": "2017-06-15T20:40:46.317973+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 224013, "kind": "normal",
+        "optional": false, "req": "^0.3.0",
+        "target": "cfg(target_os = \"macos\")", "version_id": 56852
+      },
+      {
+        "crate_id": "core-text", "default_features": true, "downloads": 0,
+        "features": [], "id": 224012, "kind": "normal", "optional": false,
+        "req": "^5.0.0", "target": "cfg(target_os = \"macos\")",
+        "version_id": 56852
+      },
+      {
+        "crate_id": "gdi32-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 224014, "kind": "normal", "optional": false,
+        "req": "^0.2.0", "target": "cfg(windows)", "version_id": 56852
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 224011, "kind": "normal", "optional": false,
+        "req": "^0.2.15", "target": null, "version_id": 56852
+      },
+      {
+        "crate_id": "servo-fontconfig", "default_features": true,
+        "downloads": 0, "features": [], "id": 224017, "kind": "normal",
+        "optional": false, "req": "^0.4.0",
+        "target": "cfg(all(unix, not(target_os = \"macos\")))",
+        "version_id": 56852
+      },
+      {
+        "crate_id": "user32-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 224015, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 56852
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [], "id": 224016, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 56852
+      }
+    ],
+    "dl_path": "/api/v1/crates/font-loader/0.3.0/download",
+    "downloads": 1120, "features": {}, "id": 56852, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/font-loader/0.3.0/authors",
+      "dependencies": "/api/v1/crates/font-loader/0.3.0/dependencies",
+      "version_downloads": "/api/v1/crates/font-loader/0.3.0/downloads"
+    },
+    "num": "0.3.0", "published_by": null,
+    "readme_path": "/api/v1/crates/font-loader/0.3.0/readme",
+    "updated_at": "2017-11-30T02:33:30.218445+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["MSleepyPanda <m.sleepypanda@gmail.com>"]},
+      "users": []
+    },
+    "crate": "font-loader", "crate_size": null,
+    "created_at": "2017-06-22T17:32:53.175116+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 227854, "kind": "normal",
+        "optional": false, "req": "^0.3",
+        "target": "cfg(target_os = \"macos\")", "version_id": 57628
+      },
+      {
+        "crate_id": "core-text", "default_features": true, "downloads": 0,
+        "features": [], "id": 227853, "kind": "normal", "optional": false,
+        "req": "^6.0", "target": "cfg(target_os = \"macos\")",
+        "version_id": 57628
+      },
+      {
+        "crate_id": "gdi32-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 227852, "kind": "normal", "optional": false,
+        "req": "^0.2.0", "target": "cfg(windows)", "version_id": 57628
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 227848, "kind": "normal", "optional": false,
+        "req": "^0.2.15", "target": null, "version_id": 57628
+      },
+      {
+        "crate_id": "servo-fontconfig", "default_features": true,
+        "downloads": 0, "features": [], "id": 227849, "kind": "normal",
+        "optional": false, "req": "^0.4.0",
+        "target": "cfg(all(unix, not(target_os = \"macos\")))",
+        "version_id": 57628
+      },
+      {
+        "crate_id": "user32-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 227850, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 57628
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [], "id": 227851, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 57628
+      }
+    ],
+    "dl_path": "/api/v1/crates/font-loader/0.3.2/download",
+    "downloads": 10237, "features": {}, "id": 57628, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/font-loader/0.3.2/authors",
+      "dependencies": "/api/v1/crates/font-loader/0.3.2/dependencies",
+      "version_downloads": "/api/v1/crates/font-loader/0.3.2/downloads"
+    },
+    "num": "0.3.2", "published_by": null,
+    "readme_path": "/api/v1/crates/font-loader/0.3.2/readme",
+    "updated_at": "2017-11-30T02:50:17.176565+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["MSleepyPanda <m.sleepypanda@gmail.com>"]},
+      "users": []
+    },
+    "crate": "font-loader", "crate_size": null,
+    "created_at": "2017-09-20T09:50:18.801679+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 270285, "kind": "normal",
+        "optional": false, "req": "^0.4",
+        "target": "cfg(target_os = \"macos\")", "version_id": 65829
+      },
+      {
+        "crate_id": "core-text", "default_features": true, "downloads": 0,
+        "features": [], "id": 270286, "kind": "normal", "optional": false,
+        "req": "^7.0", "target": "cfg(target_os = \"macos\")",
+        "version_id": 65829
+      },
+      {
+        "crate_id": "gdi32-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 270284, "kind": "normal", "optional": false,
+        "req": "^0.2.0", "target": "cfg(windows)", "version_id": 65829
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 270281, "kind": "normal", "optional": false,
+        "req": "^0.2.15", "target": null, "version_id": 65829
+      },
+      {
+        "crate_id": "servo-fontconfig", "default_features": true,
+        "downloads": 0, "features": [], "id": 270287, "kind": "normal",
+        "optional": false, "req": "^0.4.0",
+        "target": "cfg(all(unix, not(target_os = \"macos\")))",
+        "version_id": 65829
+      },
+      {
+        "crate_id": "user32-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 270283, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 65829
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [], "id": 270282, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 65829
+      }
+    ],
+    "dl_path": "/api/v1/crates/font-loader/0.4.2/download",
+    "downloads": 15414, "features": {}, "id": 65829, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/font-loader/0.4.2/authors",
+      "dependencies": "/api/v1/crates/font-loader/0.4.2/dependencies",
+      "version_downloads": "/api/v1/crates/font-loader/0.4.2/downloads"
+    },
+    "num": "0.4.2", "published_by": null,
+    "readme_path": "/api/v1/crates/font-loader/0.4.2/readme",
+    "updated_at": "2017-11-30T03:53:22.288825+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["MSleepyPanda <m.sleepypanda@gmail.com>"]},
+      "users": []
+    },
+    "crate": "font-loader", "crate_size": null,
+    "created_at": "2017-11-20T12:08:47.364520+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 301673, "kind": "normal",
+        "optional": false, "req": "^0.4",
+        "target": "cfg(target_os = \"macos\")", "version_id": 71872
+      },
+      {
+        "crate_id": "core-text", "default_features": true, "downloads": 0,
+        "features": [], "id": 301674, "kind": "normal", "optional": false,
+        "req": "^8.0", "target": "cfg(target_os = \"macos\")",
+        "version_id": 71872
+      },
+      {
+        "crate_id": "gdi32-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 301675, "kind": "normal", "optional": false,
+        "req": "^0.2.0", "target": "cfg(windows)", "version_id": 71872
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 301671, "kind": "normal", "optional": false,
+        "req": "^0.2.15", "target": null, "version_id": 71872
+      },
+      {
+        "crate_id": "servo-fontconfig", "default_features": true,
+        "downloads": 0, "features": [], "id": 301672, "kind": "normal",
+        "optional": false, "req": "^0.4.0",
+        "target": "cfg(all(unix, not(target_os = \"macos\")))",
+        "version_id": 71872
+      },
+      {
+        "crate_id": "user32-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 301676, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 71872
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [], "id": 301677, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 71872
+      }
+    ],
+    "dl_path": "/api/v1/crates/font-loader/0.5.0/download",
+    "downloads": 8820, "features": {}, "id": 71872, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/font-loader/0.5.0/authors",
+      "dependencies": "/api/v1/crates/font-loader/0.5.0/dependencies",
+      "version_downloads": "/api/v1/crates/font-loader/0.5.0/downloads"
+    },
+    "num": "0.5.0", "published_by": null,
+    "readme_path": "/api/v1/crates/font-loader/0.5.0/readme",
+    "updated_at": "2017-11-30T03:00:22.902184+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["MSleepyPanda <m.sleepypanda@gmail.com>"]},
+      "users": []
+    },
+    "crate": "font-loader", "crate_size": null,
+    "created_at": "2018-01-28T22:47:16.796286+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 341919, "kind": "normal",
+        "optional": false, "req": "^0.5",
+        "target": "cfg(target_os = \"macos\")", "version_id": 79078
+      },
+      {
+        "crate_id": "core-text", "default_features": true, "downloads": 0,
+        "features": [], "id": 341920, "kind": "normal", "optional": false,
+        "req": "^9.0", "target": "cfg(target_os = \"macos\")",
+        "version_id": 79078
+      },
+      {
+        "crate_id": "gdi32-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 341921, "kind": "normal", "optional": false,
+        "req": "^0.2.0", "target": "cfg(windows)", "version_id": 79078
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 341917, "kind": "normal", "optional": false,
+        "req": "^0.2.15", "target": null, "version_id": 79078
+      },
+      {
+        "crate_id": "servo-fontconfig", "default_features": true,
+        "downloads": 0, "features": [], "id": 341918, "kind": "normal",
+        "optional": false, "req": "^0.4.0",
+        "target": "cfg(all(unix, not(target_os = \"macos\")))",
+        "version_id": 79078
+      },
+      {
+        "crate_id": "user32-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 341922, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 79078
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [], "id": 341923, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 79078
+      }
+    ],
+    "dl_path": "/api/v1/crates/font-loader/0.6.0/download",
+    "downloads": 19287, "features": {}, "id": 79078, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/font-loader/0.6.0/authors",
+      "dependencies": "/api/v1/crates/font-loader/0.6.0/dependencies",
+      "version_downloads": "/api/v1/crates/font-loader/0.6.0/downloads"
+    },
+    "num": "0.6.0", "published_by": null,
+    "readme_path": "/api/v1/crates/font-loader/0.6.0/readme",
+    "updated_at": "2018-01-28T22:47:16.796286+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["MSleepyPanda <m.sleepypanda@gmail.com>"]},
+      "users": []
+    },
+    "crate": "font-loader", "crate_size": null,
+    "created_at": "2018-05-22T18:37:11.081705+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 422988, "kind": "normal",
+        "optional": false, "req": "^0.6",
+        "target": "cfg(target_os = \"macos\")", "version_id": 93800
+      },
+      {
+        "crate_id": "core-text", "default_features": true, "downloads": 0,
+        "features": [], "id": 422989, "kind": "normal", "optional": false,
+        "req": "^10.0", "target": "cfg(target_os = \"macos\")",
+        "version_id": 93800
+      },
+      {
+        "crate_id": "gdi32-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 422990, "kind": "normal", "optional": false,
+        "req": "^0.2.0", "target": "cfg(windows)", "version_id": 93800
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 422986, "kind": "normal", "optional": false,
+        "req": "^0.2.15", "target": null, "version_id": 93800
+      },
+      {
+        "crate_id": "servo-fontconfig", "default_features": true,
+        "downloads": 0, "features": [], "id": 422987, "kind": "normal",
+        "optional": false, "req": "^0.4.0",
+        "target": "cfg(all(unix, not(target_os = \"macos\")))",
+        "version_id": 93800
+      },
+      {
+        "crate_id": "user32-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 422991, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 93800
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [], "id": 422992, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(windows)", "version_id": 93800
+      }
+    ],
+    "dl_path": "/api/v1/crates/font-loader/0.7.0/download",
+    "downloads": 23695, "features": {}, "id": 93800, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/font-loader/0.7.0/authors",
+      "dependencies": "/api/v1/crates/font-loader/0.7.0/dependencies",
+      "version_downloads": "/api/v1/crates/font-loader/0.7.0/downloads"
+    },
+    "num": "0.7.0", "published_by": null,
+    "readme_path": "/api/v1/crates/font-loader/0.7.0/readme",
+    "updated_at": "2018-05-22T18:37:11.081705+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["MSleepyPanda <m.sleepypanda@gmail.com>"]},
+      "users": []
+    },
+    "crate": "font-loader", "crate_size": 7145,
+    "created_at": "2019-01-14T10:32:15.898389+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 610436, "kind": "normal",
+        "optional": false, "req": "^0.6",
+        "target": "cfg(target_os = \"macos\")", "version_id": 128095
+      },
+      {
+        "crate_id": "core-text", "default_features": true, "downloads": 0,
+        "features": [], "id": 610437, "kind": "normal", "optional": false,
+        "req": "^10.0", "target": "cfg(target_os = \"macos\")",
+        "version_id": 128095
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 610434, "kind": "normal", "optional": false,
+        "req": "^0.2.15", "target": null, "version_id": 128095
+      },
+      {
+        "crate_id": "servo-fontconfig", "default_features": true,
+        "downloads": 0, "features": [], "id": 610435, "kind": "normal",
+        "optional": false, "req": "^0.4.0",
+        "target": "cfg(all(unix, not(target_os = \"macos\")))",
+        "version_id": 128095
+      },
+      {
+        "crate_id": "winapi", "default_features": false, "downloads": 0,
+        "features": ["winuser", "wingdi"], "id": 610438, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": "cfg(windows)",
+        "version_id": 128095
+      }
+    ],
+    "dl_path": "/api/v1/crates/font-loader/0.8.0/download",
+    "downloads": 31139, "features": {}, "id": 128095, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/font-loader/0.8.0/authors",
+      "dependencies": "/api/v1/crates/font-loader/0.8.0/dependencies",
+      "version_downloads": "/api/v1/crates/font-loader/0.8.0/downloads"
+    },
+    "num": "0.8.0", "published_by": null,
+    "readme_path": "/api/v1/crates/font-loader/0.8.0/readme",
+    "updated_at": "2019-01-14T10:32:15.898389+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-04-10T17:52:57.213459+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/20750283?v=4",
+          "id": 4744, "login": "matprec", "name": "Matthias Prechtl",
+          "url": "https://github.com/matprec"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["MSleepyPanda <m.sleepypanda@gmail.com>"]},
+      "users": []
+    },
+    "crate": "font-loader", "crate_size": 8534,
+    "created_at": "2020-04-10T17:52:57.213459+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 1281792, "kind": "normal",
+        "optional": false, "req": "^0.7",
+        "target": "cfg(target_os = \"macos\")", "version_id": 229704
+      },
+      {
+        "crate_id": "core-text", "default_features": true, "downloads": 0,
+        "features": [], "id": 1281793, "kind": "normal", "optional": false,
+        "req": "^15", "target": "cfg(target_os = \"macos\")",
+        "version_id": 229704
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1281790, "kind": "normal", "optional": false,
+        "req": "^0.2.15", "target": null, "version_id": 229704
+      },
+      {
+        "crate_id": "servo-fontconfig", "default_features": true,
+        "downloads": 0, "features": [], "id": 1281791, "kind": "normal",
+        "optional": false, "req": "^0.4.0",
+        "target": "cfg(all(unix, not(target_os = \"macos\")))",
+        "version_id": 229704
+      },
+      {
+        "crate_id": "winapi", "default_features": false, "downloads": 0,
+        "features": ["winuser", "wingdi"], "id": 1281794, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": "cfg(windows)",
+        "version_id": 229704
+      }
+    ],
+    "dl_path": "/api/v1/crates/font-loader/0.9.0/download",
+    "downloads": 1357, "features": {}, "id": 229704, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/font-loader/0.9.0/authors",
+      "dependencies": "/api/v1/crates/font-loader/0.9.0/dependencies",
+      "version_downloads": "/api/v1/crates/font-loader/0.9.0/downloads"
+    },
+    "num": "0.9.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/20750283?v=4",
+      "id": 4744, "login": "matprec", "name": "Matthias Prechtl",
+      "url": "https://github.com/matprec"
+    },
+    "readme_path": "/api/v1/crates/font-loader/0.9.0/readme",
+    "updated_at": "2020-04-10T17:52:57.213459+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-07-14T19:18:47.525529+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/20750283?v=4",
+          "id": 4744, "login": "matprec", "name": "Matthias Prechtl",
+          "url": "https://github.com/matprec"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["MSleepyPanda <m.sleepypanda@gmail.com>"]},
+      "users": []
+    },
+    "crate": "font-loader", "crate_size": 8471,
+    "created_at": "2020-07-14T19:18:47.525529+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 1523501, "kind": "normal",
+        "optional": false, "req": "^0.9",
+        "target": "cfg(target_os = \"macos\")", "version_id": 262399
+      },
+      {
+        "crate_id": "core-text", "default_features": true, "downloads": 0,
+        "features": [], "id": 1523502, "kind": "normal", "optional": false,
+        "req": "^18", "target": "cfg(target_os = \"macos\")",
+        "version_id": 262399
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1523499, "kind": "normal", "optional": false,
+        "req": "^0.2.15", "target": null, "version_id": 262399
+      },
+      {
+        "crate_id": "servo-fontconfig", "default_features": true,
+        "downloads": 0, "features": [], "id": 1523500, "kind": "normal",
+        "optional": false, "req": "^0.5.0",
+        "target": "cfg(all(unix, not(target_os = \"macos\")))",
+        "version_id": 262399
+      },
+      {
+        "crate_id": "winapi", "default_features": false, "downloads": 0,
+        "features": ["winuser", "wingdi"], "id": 1523503, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": "cfg(windows)",
+        "version_id": 262399
+      }
+    ],
+    "dl_path": "/api/v1/crates/font-loader/0.10.0/download",
+    "downloads": 76, "features": {}, "id": 262399, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/font-loader/0.10.0/authors",
+      "dependencies": "/api/v1/crates/font-loader/0.10.0/dependencies",
+      "version_downloads": "/api/v1/crates/font-loader/0.10.0/downloads"
+    },
+    "num": "0.10.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/20750283?v=4",
+      "id": 4744, "login": "matprec", "name": "Matthias Prechtl",
+      "url": "https://github.com/matprec"
+    },
+    "readme_path": "/api/v1/crates/font-loader/0.10.0/readme",
+    "updated_at": "2020-07-14T19:18:47.525529+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-07-22T18:57:30.397175+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/20750283?v=4",
+          "id": 4744, "login": "matprec", "name": "Matthias Prechtl",
+          "url": "https://github.com/matprec"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["MSleepyPanda <m.sleepypanda@gmail.com>"]},
+      "users": []
+    },
+    "crate": "font-loader", "crate_size": 8535,
+    "created_at": "2020-07-22T18:57:30.397175+00:00",
+    "dependencies": [
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 1542564, "kind": "normal",
+        "optional": false, "req": "^0.9",
+        "target": "cfg(target_os = \"macos\")", "version_id": 264995
+      },
+      {
+        "crate_id": "core-text", "default_features": true, "downloads": 0,
+        "features": [], "id": 1542565, "kind": "normal", "optional": false,
+        "req": "^19", "target": "cfg(target_os = \"macos\")",
+        "version_id": 264995
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1542562, "kind": "normal", "optional": false,
+        "req": "^0.2.15", "target": null, "version_id": 264995
+      },
+      {
+        "crate_id": "servo-fontconfig", "default_features": true,
+        "downloads": 0, "features": [], "id": 1542563, "kind": "normal",
+        "optional": false, "req": "^0.5.0",
+        "target": "cfg(all(unix, not(target_os = \"macos\")))",
+        "version_id": 264995
+      },
+      {
+        "crate_id": "winapi", "default_features": false, "downloads": 0,
+        "features": ["winuser", "wingdi"], "id": 1542566, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": "cfg(windows)",
+        "version_id": 264995
+      }
+    ],
+    "dl_path": "/api/v1/crates/font-loader/0.11.0/download",
+    "downloads": 1866, "features": {}, "id": 264995, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/font-loader/0.11.0/authors",
+      "dependencies": "/api/v1/crates/font-loader/0.11.0/dependencies",
+      "version_downloads": "/api/v1/crates/font-loader/0.11.0/downloads"
+    },
+    "num": "0.11.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/20750283?v=4",
+      "id": 4744, "login": "matprec", "name": "Matthias Prechtl",
+      "url": "https://github.com/matprec"
+    },
+    "readme_path": "/api/v1/crates/font-loader/0.11.0/readme",
+    "updated_at": "2020-07-22T18:57:30.397175+00:00", "yanked": false
+  }
+]

@@ -1,0 +1,662 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Andre Bogus <bogusandre@gmail.de>", "Joshua Landau"]},
+      "users": []
+    },
+    "crate": "bytecount", "crate_size": null,
+    "created_at": "2016-09-27T06:50:45.919353+00:00",
+    "dependencies": [
+      {
+        "crate_id": "quickcheck", "default_features": true, "downloads": 0,
+        "features": [], "id": 116349, "kind": "dev", "optional": false,
+        "req": "^0.3.1", "target": null, "version_id": 34742
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 116348, "kind": "dev", "optional": false,
+        "req": "^0.3.14", "target": null, "version_id": 34742
+      }
+    ],
+    "dl_path": "/api/v1/crates/bytecount/0.1.1/download",
+    "downloads": 383, "features": {}, "id": 34742,
+    "license": "Apache-2.0/MIT",
+    "links": {
+      "authors": "/api/v1/crates/bytecount/0.1.1/authors",
+      "dependencies": "/api/v1/crates/bytecount/0.1.1/dependencies",
+      "version_downloads": "/api/v1/crates/bytecount/0.1.1/downloads"
+    },
+    "num": "0.1.1", "published_by": null,
+    "readme_path": "/api/v1/crates/bytecount/0.1.1/readme",
+    "updated_at": "2017-11-30T04:17:07.307233+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Andre Bogus <bogusandre@gmail.de>",
+          "Joshua Landau <joshua@landau.ws>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "bytecount", "crate_size": null,
+    "created_at": "2016-09-27T10:15:55.838896+00:00",
+    "dependencies": [
+      {
+        "crate_id": "quickcheck", "default_features": true, "downloads": 0,
+        "features": [], "id": 116369, "kind": "dev", "optional": false,
+        "req": "^0.3.1", "target": null, "version_id": 34748
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 116368, "kind": "dev", "optional": false,
+        "req": "^0.3.14", "target": null, "version_id": 34748
+      }
+    ],
+    "dl_path": "/api/v1/crates/bytecount/0.1.2/download",
+    "downloads": 423, "features": {}, "id": 34748,
+    "license": "Apache-2.0/MIT",
+    "links": {
+      "authors": "/api/v1/crates/bytecount/0.1.2/authors",
+      "dependencies": "/api/v1/crates/bytecount/0.1.2/dependencies",
+      "version_downloads": "/api/v1/crates/bytecount/0.1.2/downloads"
+    },
+    "num": "0.1.2", "published_by": null,
+    "readme_path": "/api/v1/crates/bytecount/0.1.2/readme",
+    "updated_at": "2017-11-30T04:17:07.322825+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Andre Bogus <bogusandre@gmail.de>",
+          "Joshua Landau <joshua@landau.ws>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "bytecount", "crate_size": null,
+    "created_at": "2016-10-04T21:14:51.705383+00:00",
+    "dependencies": [
+      {
+        "crate_id": "quickcheck", "default_features": true, "downloads": 0,
+        "features": [], "id": 118265, "kind": "dev", "optional": false,
+        "req": "^0.3.1", "target": null, "version_id": 35174
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 118266, "kind": "dev", "optional": false,
+        "req": "^0.3.14", "target": null, "version_id": 35174
+      },
+      {
+        "crate_id": "simd", "default_features": true, "downloads": 0,
+        "features": [], "id": 118264, "kind": "normal", "optional": true,
+        "req": "^0.1.1", "target": null, "version_id": 35174
+      }
+    ],
+    "dl_path": "/api/v1/crates/bytecount/0.1.4/download",
+    "downloads": 14997,
+    "features": {"avx-accel": ["simd-accel"], "simd-accel": ["simd"]},
+    "id": 35174, "license": "Apache-2.0/MIT",
+    "links": {
+      "authors": "/api/v1/crates/bytecount/0.1.4/authors",
+      "dependencies": "/api/v1/crates/bytecount/0.1.4/dependencies",
+      "version_downloads": "/api/v1/crates/bytecount/0.1.4/downloads"
+    },
+    "num": "0.1.4", "published_by": null,
+    "readme_path": "/api/v1/crates/bytecount/0.1.4/readme",
+    "updated_at": "2017-11-30T02:40:56.895052+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Andre Bogus <bogusandre@gmail.de>",
+          "Joshua Landau <joshua@landau.ws>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "bytecount", "crate_size": null,
+    "created_at": "2017-01-05T22:33:39.805160+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bencher", "default_features": true, "downloads": 0,
+        "features": [], "id": 149425, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 41686
+      },
+      {
+        "crate_id": "quickcheck", "default_features": true, "downloads": 0,
+        "features": [], "id": 149427, "kind": "dev", "optional": false,
+        "req": "^0.3.1", "target": null, "version_id": 41686
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 149426, "kind": "dev", "optional": false,
+        "req": "^0.3.14", "target": null, "version_id": 41686
+      },
+      {
+        "crate_id": "simd", "default_features": true, "downloads": 0,
+        "features": [], "id": 149424, "kind": "normal", "optional": true,
+        "req": "^0.1.1", "target": null, "version_id": 41686
+      }
+    ],
+    "dl_path": "/api/v1/crates/bytecount/0.1.5/download",
+    "downloads": 1139,
+    "features": {"avx-accel": ["simd-accel"], "simd-accel": ["simd"]},
+    "id": 41686, "license": "Apache-2.0/MIT",
+    "links": {
+      "authors": "/api/v1/crates/bytecount/0.1.5/authors",
+      "dependencies": "/api/v1/crates/bytecount/0.1.5/dependencies",
+      "version_downloads": "/api/v1/crates/bytecount/0.1.5/downloads"
+    },
+    "num": "0.1.5", "published_by": null,
+    "readme_path": "/api/v1/crates/bytecount/0.1.5/readme",
+    "updated_at": "2017-11-30T04:17:07.342197+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Andre Bogus <bogusandre@gmail.de>",
+          "Joshua Landau <joshua@landau.ws>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "bytecount", "crate_size": null,
+    "created_at": "2017-01-10T22:53:46.529697+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bencher", "default_features": true, "downloads": 0,
+        "features": [], "id": 151028, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 42052
+      },
+      {
+        "crate_id": "quickcheck", "default_features": true, "downloads": 0,
+        "features": [], "id": 151029, "kind": "dev", "optional": false,
+        "req": "^0.3.1", "target": null, "version_id": 42052
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 151030, "kind": "dev", "optional": false,
+        "req": "^0.3.14", "target": null, "version_id": 42052
+      },
+      {
+        "crate_id": "simd", "default_features": true, "downloads": 0,
+        "features": [], "id": 151027, "kind": "normal", "optional": true,
+        "req": "^0.1.1", "target": null, "version_id": 42052
+      }
+    ],
+    "dl_path": "/api/v1/crates/bytecount/0.1.6/download",
+    "downloads": 22443,
+    "features": {"avx-accel": ["simd-accel"], "simd-accel": ["simd"]},
+    "id": 42052, "license": "Apache-2.0/MIT",
+    "links": {
+      "authors": "/api/v1/crates/bytecount/0.1.6/authors",
+      "dependencies": "/api/v1/crates/bytecount/0.1.6/dependencies",
+      "version_downloads": "/api/v1/crates/bytecount/0.1.6/downloads"
+    },
+    "num": "0.1.6", "published_by": null,
+    "readme_path": "/api/v1/crates/bytecount/0.1.6/readme",
+    "updated_at": "2017-11-30T02:41:38.193368+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Andre Bogus <bogusandre@gmail.de>",
+          "Joshua Landau <joshua@landau.ws>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "bytecount", "crate_size": null,
+    "created_at": "2017-07-19T04:36:58.461524+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bencher", "default_features": true, "downloads": 0,
+        "features": [], "id": 240308, "kind": "dev", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 60064
+      },
+      {
+        "crate_id": "quickcheck", "default_features": true, "downloads": 0,
+        "features": [], "id": 240307, "kind": "dev", "optional": false,
+        "req": "^0.4.1", "target": null, "version_id": 60064
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 240306, "kind": "dev", "optional": false,
+        "req": "^0.3.15", "target": null, "version_id": 60064
+      },
+      {
+        "crate_id": "simd", "default_features": true, "downloads": 0,
+        "features": [], "id": 240305, "kind": "normal", "optional": true,
+        "req": "^0.2.0", "target": null, "version_id": 60064
+      }
+    ],
+    "dl_path": "/api/v1/crates/bytecount/0.1.7/download",
+    "downloads": 39352,
+    "features": {"avx-accel": ["simd-accel"], "simd-accel": ["simd"]},
+    "id": 60064, "license": "Apache-2.0/MIT",
+    "links": {
+      "authors": "/api/v1/crates/bytecount/0.1.7/authors",
+      "dependencies": "/api/v1/crates/bytecount/0.1.7/dependencies",
+      "version_downloads": "/api/v1/crates/bytecount/0.1.7/downloads"
+    },
+    "num": "0.1.7", "published_by": null,
+    "readme_path": "/api/v1/crates/bytecount/0.1.7/readme",
+    "updated_at": "2017-11-30T03:08:14.100041+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Andre Bogus <bogusandre@gmail.de>",
+          "Joshua Landau <joshua@landau.ws>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "bytecount", "crate_size": null,
+    "created_at": "2017-08-25T20:16:21.442513+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bencher", "default_features": true, "downloads": 0,
+        "features": [], "id": 258947, "kind": "dev", "optional": false,
+        "req": "^0.1.4", "target": null, "version_id": 63566
+      },
+      {
+        "crate_id": "quickcheck", "default_features": true, "downloads": 0,
+        "features": [], "id": 258945, "kind": "dev", "optional": false,
+        "req": "^0.4.1", "target": null, "version_id": 63566
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 258946, "kind": "dev", "optional": false,
+        "req": "^0.3.16", "target": null, "version_id": 63566
+      },
+      {
+        "crate_id": "simd", "default_features": true, "downloads": 0,
+        "features": [], "id": 258944, "kind": "normal", "optional": true,
+        "req": "^0.2.0", "target": null, "version_id": 63566
+      }
+    ],
+    "dl_path": "/api/v1/crates/bytecount/0.2.0/download",
+    "downloads": 80301,
+    "features": {"avx-accel": ["simd-accel"], "simd-accel": ["simd"]},
+    "id": 63566, "license": "Apache-2.0/MIT",
+    "links": {
+      "authors": "/api/v1/crates/bytecount/0.2.0/authors",
+      "dependencies": "/api/v1/crates/bytecount/0.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/bytecount/0.2.0/downloads"
+    },
+    "num": "0.2.0", "published_by": null,
+    "readme_path": "/api/v1/crates/bytecount/0.2.0/readme",
+    "updated_at": "2017-11-30T04:21:24.798573+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Andre Bogus <bogusandre@gmail.de>",
+          "Joshua Landau <joshua@landau.ws>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "bytecount", "crate_size": null,
+    "created_at": "2018-01-08T18:37:04.968161+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bencher", "default_features": true, "downloads": 0,
+        "features": [], "id": 329553, "kind": "dev", "optional": false,
+        "req": "^0.1.4", "target": null, "version_id": 76792
+      },
+      {
+        "crate_id": "quickcheck", "default_features": true, "downloads": 0,
+        "features": [], "id": 329554, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 76792
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 329555, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 76792
+      },
+      {
+        "crate_id": "simd", "default_features": true, "downloads": 0,
+        "features": [], "id": 329552, "kind": "normal", "optional": true,
+        "req": "^0.2.0", "target": null, "version_id": 76792
+      }
+    ],
+    "dl_path": "/api/v1/crates/bytecount/0.3.0/download",
+    "downloads": 1035,
+    "features": {"avx-accel": ["simd-accel"], "simd-accel": ["simd"]},
+    "id": 76792, "license": "Apache-2.0/MIT",
+    "links": {
+      "authors": "/api/v1/crates/bytecount/0.3.0/authors",
+      "dependencies": "/api/v1/crates/bytecount/0.3.0/dependencies",
+      "version_downloads": "/api/v1/crates/bytecount/0.3.0/downloads"
+    },
+    "num": "0.3.0", "published_by": null,
+    "readme_path": "/api/v1/crates/bytecount/0.3.0/readme",
+    "updated_at": "2018-01-08T18:37:04.968161+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Andre Bogus <bogusandre@gmail.de>",
+          "Joshua Landau <joshua@landau.ws>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "bytecount", "crate_size": null,
+    "created_at": "2018-01-30T20:49:21.249130+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bencher", "default_features": true, "downloads": 0,
+        "features": [], "id": 343036, "kind": "dev", "optional": false,
+        "req": "^0.1.4", "target": null, "version_id": 79268
+      },
+      {
+        "crate_id": "quickcheck", "default_features": true, "downloads": 0,
+        "features": [], "id": 343037, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 79268
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 343038, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 79268
+      },
+      {
+        "crate_id": "simd", "default_features": true, "downloads": 0,
+        "features": [], "id": 343035, "kind": "normal", "optional": true,
+        "req": "^0.2.0", "target": null, "version_id": 79268
+      }
+    ],
+    "dl_path": "/api/v1/crates/bytecount/0.3.1/download",
+    "downloads": 78171,
+    "features": {"avx-accel": ["simd-accel"], "simd-accel": ["simd"]},
+    "id": 79268, "license": "Apache-2.0/MIT",
+    "links": {
+      "authors": "/api/v1/crates/bytecount/0.3.1/authors",
+      "dependencies": "/api/v1/crates/bytecount/0.3.1/dependencies",
+      "version_downloads": "/api/v1/crates/bytecount/0.3.1/downloads"
+    },
+    "num": "0.3.1", "published_by": null,
+    "readme_path": "/api/v1/crates/bytecount/0.3.1/readme",
+    "updated_at": "2018-01-30T20:49:21.249130+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Andre Bogus <bogusandre@gmail.de>",
+          "Joshua Landau <joshua@landau.ws>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "bytecount", "crate_size": null,
+    "created_at": "2018-08-03T23:23:31.225004+00:00",
+    "dependencies": [
+      {
+        "crate_id": "criterion", "default_features": true, "downloads": 0,
+        "features": [], "id": 470426, "kind": "dev", "optional": false,
+        "req": "^0.2.4", "target": null, "version_id": 102324
+      },
+      {
+        "crate_id": "quickcheck", "default_features": true, "downloads": 0,
+        "features": [], "id": 470427, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 102324
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 470428, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 102324
+      },
+      {
+        "crate_id": "simd", "default_features": true, "downloads": 0,
+        "features": [], "id": 470425, "kind": "normal", "optional": true,
+        "req": "^0.2.0", "target": null, "version_id": 102324
+      }
+    ],
+    "dl_path": "/api/v1/crates/bytecount/0.3.2/download",
+    "downloads": 185677,
+    "features": {
+      "avx-accel": ["simd-accel"], "html_report": [],
+      "simd-accel": ["simd"]
+    },
+    "id": 102324, "license": "Apache-2.0/MIT",
+    "links": {
+      "authors": "/api/v1/crates/bytecount/0.3.2/authors",
+      "dependencies": "/api/v1/crates/bytecount/0.3.2/dependencies",
+      "version_downloads": "/api/v1/crates/bytecount/0.3.2/downloads"
+    },
+    "num": "0.3.2", "published_by": null,
+    "readme_path": "/api/v1/crates/bytecount/0.3.2/readme",
+    "updated_at": "2018-08-03T23:23:31.225004+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Andre Bogus <bogusandre@gmail.de>",
+          "Joshua Landau <joshua@landau.ws>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "bytecount", "crate_size": 12588,
+    "created_at": "2018-10-26T19:07:14.023008+00:00",
+    "dependencies": [
+      {
+        "crate_id": "criterion", "default_features": false, "downloads": 0,
+        "features": [], "id": 537625, "kind": "dev", "optional": false,
+        "req": "^0.2.4", "target": null, "version_id": 114646
+      },
+      {
+        "crate_id": "quickcheck", "default_features": true, "downloads": 0,
+        "features": [], "id": 537626, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 114646
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 537627, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 114646
+      },
+      {
+        "crate_id": "packed_simd", "default_features": true, "downloads": 0,
+        "features": [], "id": 537624, "kind": "normal", "optional": true,
+        "req": "^0.3.0", "target": null, "version_id": 114646
+      }
+    ],
+    "dl_path": "/api/v1/crates/bytecount/0.4.0/download",
+    "downloads": 443392,
+    "features": {
+      "generic-simd": ["packed_simd"], "html_report": [],
+      "runtime-dispatch-simd": []
+    },
+    "id": 114646, "license": "Apache-2.0/MIT",
+    "links": {
+      "authors": "/api/v1/crates/bytecount/0.4.0/authors",
+      "dependencies": "/api/v1/crates/bytecount/0.4.0/dependencies",
+      "version_downloads": "/api/v1/crates/bytecount/0.4.0/downloads"
+    },
+    "num": "0.4.0", "published_by": null,
+    "readme_path": "/api/v1/crates/bytecount/0.4.0/readme",
+    "updated_at": "2018-10-26T19:07:14.023008+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Andre Bogus <bogusandre@gmail.de>",
+          "Joshua Landau <joshua@landau.ws>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "bytecount", "crate_size": 11865,
+    "created_at": "2019-01-14T06:36:15.039650+00:00",
+    "dependencies": [
+      {
+        "crate_id": "criterion", "default_features": false, "downloads": 0,
+        "features": [], "id": 610332, "kind": "dev", "optional": false,
+        "req": "^0.2.7", "target": null, "version_id": 128073
+      },
+      {
+        "crate_id": "quickcheck", "default_features": true, "downloads": 0,
+        "features": [], "id": 610333, "kind": "dev", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 128073
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 610334, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 128073
+      },
+      {
+        "crate_id": "packed_simd", "default_features": true, "downloads": 0,
+        "features": [], "id": 610331, "kind": "normal", "optional": true,
+        "req": "^0.3.1", "target": null, "version_id": 128073
+      }
+    ],
+    "dl_path": "/api/v1/crates/bytecount/0.5.0/download",
+    "downloads": 2242,
+    "features": {
+      "generic-simd": ["packed_simd"], "html_report": [],
+      "runtime-dispatch-simd": []
+    },
+    "id": 128073, "license": "Apache-2.0/MIT",
+    "links": {
+      "authors": "/api/v1/crates/bytecount/0.5.0/authors",
+      "dependencies": "/api/v1/crates/bytecount/0.5.0/dependencies",
+      "version_downloads": "/api/v1/crates/bytecount/0.5.0/downloads"
+    },
+    "num": "0.5.0", "published_by": null,
+    "readme_path": "/api/v1/crates/bytecount/0.5.0/readme",
+    "updated_at": "2019-01-14T06:36:15.039650+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Andre Bogus <bogusandre@gmail.de>",
+          "Joshua Landau <joshua@landau.ws>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "bytecount", "crate_size": 11888,
+    "created_at": "2019-02-10T11:51:37.756860+00:00",
+    "dependencies": [
+      {
+        "crate_id": "criterion", "default_features": false, "downloads": 0,
+        "features": [], "id": 639518, "kind": "dev", "optional": false,
+        "req": "^0.2.7", "target": null, "version_id": 132961
+      },
+      {
+        "crate_id": "quickcheck", "default_features": true, "downloads": 0,
+        "features": [], "id": 639519, "kind": "dev", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 132961
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 639520, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 132961
+      },
+      {
+        "crate_id": "packed_simd", "default_features": true, "downloads": 0,
+        "features": [], "id": 639517, "kind": "normal", "optional": true,
+        "req": "^0.3.1", "target": null, "version_id": 132961
+      }
+    ],
+    "dl_path": "/api/v1/crates/bytecount/0.5.1/download",
+    "downloads": 360697,
+    "features": {
+      "generic-simd": ["packed_simd"], "html_report": [],
+      "runtime-dispatch-simd": []
+    },
+    "id": 132961, "license": "Apache-2.0/MIT",
+    "links": {
+      "authors": "/api/v1/crates/bytecount/0.5.1/authors",
+      "dependencies": "/api/v1/crates/bytecount/0.5.1/dependencies",
+      "version_downloads": "/api/v1/crates/bytecount/0.5.1/downloads"
+    },
+    "num": "0.5.1", "published_by": null,
+    "readme_path": "/api/v1/crates/bytecount/0.5.1/readme",
+    "updated_at": "2019-02-10T11:51:37.756860+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Andre Bogus <bogusandre@gmail.de>",
+          "Joshua Landau <joshua@landau.ws>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "bytecount", "crate_size": 11905,
+    "created_at": "2019-08-27T06:24:21.419935+00:00",
+    "dependencies": [
+      {
+        "crate_id": "criterion", "default_features": false, "downloads": 0,
+        "features": [], "id": 879339, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 172136
+      },
+      {
+        "crate_id": "quickcheck", "default_features": true, "downloads": 0,
+        "features": [], "id": 879340, "kind": "dev", "optional": false,
+        "req": "^0.9", "target": null, "version_id": 172136
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 879341, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 172136
+      },
+      {
+        "crate_id": "packed_simd", "default_features": true, "downloads": 0,
+        "features": [], "id": 879338, "kind": "normal", "optional": true,
+        "req": "^0.3.1", "target": null, "version_id": 172136
+      }
+    ],
+    "dl_path": "/api/v1/crates/bytecount/0.6.0/download",
+    "downloads": 694092,
+    "features": {
+      "generic-simd": ["packed_simd"], "html_report": [],
+      "runtime-dispatch-simd": []
+    },
+    "id": 172136, "license": "Apache-2.0/MIT",
+    "links": {
+      "authors": "/api/v1/crates/bytecount/0.6.0/authors",
+      "dependencies": "/api/v1/crates/bytecount/0.6.0/dependencies",
+      "version_downloads": "/api/v1/crates/bytecount/0.6.0/downloads"
+    },
+    "num": "0.6.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/4200835?v=4",
+      "id": 2267, "login": "llogiq", "name": null,
+      "url": "https://github.com/llogiq"
+    },
+    "readme_path": "/api/v1/crates/bytecount/0.6.0/readme",
+    "updated_at": "2019-08-27T06:24:21.419935+00:00", "yanked": false
+  }
+]

@@ -1,0 +1,2924 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Victor Berger <victor.berger@m4x.org>"]},
+      "users": []
+    },
+    "crate": "smithay-client-toolkit", "crate_size": null,
+    "created_at": "2018-04-26T10:58:18.773186+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 403796, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 90346
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 403797, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 90346
+      },
+      {
+        "crate_id": "dlib", "default_features": true, "downloads": 0,
+        "features": [], "id": 403798, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 90346
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 403799, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 90346
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 403800, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 90346
+      },
+      {
+        "crate_id": "tempfile", "default_features": true, "downloads": 0,
+        "features": [], "id": 403801, "kind": "normal", "optional": false,
+        "req": "^3.0", "target": null, "version_id": 90346
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["dlopen"], "id": 403805, "kind": "dev",
+        "optional": false, "req": "^0.20", "target": null,
+        "version_id": 90346
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["cursor"], "id": 403802,
+        "kind": "normal", "optional": false, "req": "^0.20", "target": null,
+        "version_id": 90346
+      },
+      {
+        "crate_id": "wayland-commons", "default_features": true,
+        "downloads": 0, "features": [], "id": 403803, "kind": "normal",
+        "optional": false, "req": "^0.20", "target": null,
+        "version_id": 90346
+      },
+      {
+        "crate_id": "wayland-protocols", "default_features": true,
+        "downloads": 0, "features": ["client", "unstable_protocols"],
+        "id": 403804, "kind": "normal", "optional": false, "req": "^0.20",
+        "target": null, "version_id": 90346
+      }
+    ],
+    "dl_path": "/api/v1/crates/smithay-client-toolkit/0.1.0/download",
+    "downloads": 272, "features": {}, "id": 90346, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/smithay-client-toolkit/0.1.0/authors",
+      "dependencies": "/api/v1/crates/smithay-client-toolkit/0.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/smithay-client-toolkit/0.1.0/downloads"
+    },
+    "num": "0.1.0", "published_by": null,
+    "readme_path": "/api/v1/crates/smithay-client-toolkit/0.1.0/readme",
+    "updated_at": "2018-04-26T10:58:18.773186+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Victor Berger <victor.berger@m4x.org>"]},
+      "users": []
+    },
+    "crate": "smithay-client-toolkit", "crate_size": null,
+    "created_at": "2018-04-29T09:28:26.126837+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 406286, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 90749
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 406287, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 90749
+      },
+      {
+        "crate_id": "dlib", "default_features": true, "downloads": 0,
+        "features": [], "id": 406288, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 90749
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 406289, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 90749
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 406290, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 90749
+      },
+      {
+        "crate_id": "tempfile", "default_features": true, "downloads": 0,
+        "features": [], "id": 406291, "kind": "normal", "optional": false,
+        "req": "^3.0", "target": null, "version_id": 90749
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["dlopen"], "id": 406295, "kind": "dev",
+        "optional": false, "req": "^0.20", "target": null,
+        "version_id": 90749
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["cursor"], "id": 406292,
+        "kind": "normal", "optional": false, "req": "^0.20", "target": null,
+        "version_id": 90749
+      },
+      {
+        "crate_id": "wayland-commons", "default_features": true,
+        "downloads": 0, "features": [], "id": 406293, "kind": "normal",
+        "optional": false, "req": "^0.20", "target": null,
+        "version_id": 90749
+      },
+      {
+        "crate_id": "wayland-protocols", "default_features": true,
+        "downloads": 0, "features": ["client", "unstable_protocols"],
+        "id": 406294, "kind": "normal", "optional": false, "req": "^0.20",
+        "target": null, "version_id": 90749
+      }
+    ],
+    "dl_path": "/api/v1/crates/smithay-client-toolkit/0.2.0/download",
+    "downloads": 287, "features": {}, "id": 90749, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/smithay-client-toolkit/0.2.0/authors",
+      "dependencies": "/api/v1/crates/smithay-client-toolkit/0.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/smithay-client-toolkit/0.2.0/downloads"
+    },
+    "num": "0.2.0", "published_by": null,
+    "readme_path": "/api/v1/crates/smithay-client-toolkit/0.2.0/readme",
+    "updated_at": "2018-04-29T09:28:26.126837+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Victor Berger <victor.berger@m4x.org>"]},
+      "users": []
+    },
+    "crate": "smithay-client-toolkit", "crate_size": null,
+    "created_at": "2018-05-03T18:22:54.355876+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 409020, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 91289
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 409021, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 91289
+      },
+      {
+        "crate_id": "dlib", "default_features": true, "downloads": 0,
+        "features": [], "id": 409022, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 91289
+      },
+      {
+        "crate_id": "image", "default_features": true, "downloads": 0,
+        "features": [], "id": 409029, "kind": "dev", "optional": false,
+        "req": "^0.19", "target": null, "version_id": 91289
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 409023, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 91289
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 409024, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 91289
+      },
+      {
+        "crate_id": "tempfile", "default_features": true, "downloads": 0,
+        "features": [], "id": 409025, "kind": "normal", "optional": false,
+        "req": "^3.0", "target": null, "version_id": 91289
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["dlopen"], "id": 409030, "kind": "dev",
+        "optional": false, "req": "^0.20", "target": null,
+        "version_id": 91289
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["cursor"], "id": 409026,
+        "kind": "normal", "optional": false, "req": "^0.20", "target": null,
+        "version_id": 91289
+      },
+      {
+        "crate_id": "wayland-commons", "default_features": true,
+        "downloads": 0, "features": [], "id": 409027, "kind": "normal",
+        "optional": false, "req": "^0.20", "target": null,
+        "version_id": 91289
+      },
+      {
+        "crate_id": "wayland-protocols", "default_features": true,
+        "downloads": 0, "features": ["client", "unstable_protocols"],
+        "id": 409028, "kind": "normal", "optional": false, "req": "^0.20",
+        "target": null, "version_id": 91289
+      }
+    ],
+    "dl_path": "/api/v1/crates/smithay-client-toolkit/0.2.1/download",
+    "downloads": 4975, "features": {}, "id": 91289, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/smithay-client-toolkit/0.2.1/authors",
+      "dependencies": "/api/v1/crates/smithay-client-toolkit/0.2.1/dependencies",
+      "version_downloads": "/api/v1/crates/smithay-client-toolkit/0.2.1/downloads"
+    },
+    "num": "0.2.1", "published_by": null,
+    "readme_path": "/api/v1/crates/smithay-client-toolkit/0.2.1/readme",
+    "updated_at": "2018-05-03T18:22:54.355876+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Victor Berger <victor.berger@m4x.org>"]},
+      "users": []
+    },
+    "crate": "smithay-client-toolkit", "crate_size": null,
+    "created_at": "2018-06-08T19:08:26.012421+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 434698, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 95881
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 434699, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 95881
+      },
+      {
+        "crate_id": "dlib", "default_features": true, "downloads": 0,
+        "features": [], "id": 434700, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 95881
+      },
+      {
+        "crate_id": "image", "default_features": true, "downloads": 0,
+        "features": [], "id": 434708, "kind": "dev", "optional": false,
+        "req": "^0.19", "target": null, "version_id": 95881
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 434701, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 95881
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 434702, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 95881
+      },
+      {
+        "crate_id": "nix", "default_features": true, "downloads": 0,
+        "features": [], "id": 434703, "kind": "normal", "optional": false,
+        "req": "^0.10", "target": null, "version_id": 95881
+      },
+      {
+        "crate_id": "tempfile", "default_features": true, "downloads": 0,
+        "features": [], "id": 434704, "kind": "normal", "optional": false,
+        "req": "^3.0", "target": null, "version_id": 95881
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["dlopen"], "id": 434709, "kind": "dev",
+        "optional": false, "req": "^0.20.5", "target": null,
+        "version_id": 95881
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["cursor"], "id": 434705,
+        "kind": "normal", "optional": false, "req": "^0.20.7",
+        "target": null, "version_id": 95881
+      },
+      {
+        "crate_id": "wayland-commons", "default_features": true,
+        "downloads": 0, "features": [], "id": 434706, "kind": "normal",
+        "optional": false, "req": "^0.20.7", "target": null,
+        "version_id": 95881
+      },
+      {
+        "crate_id": "wayland-protocols", "default_features": true,
+        "downloads": 0, "features": ["client", "unstable_protocols"],
+        "id": 434707, "kind": "normal", "optional": false, "req": "^0.20.7",
+        "target": null, "version_id": 95881
+      }
+    ],
+    "dl_path": "/api/v1/crates/smithay-client-toolkit/0.2.2/download",
+    "downloads": 1317, "features": {}, "id": 95881, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/smithay-client-toolkit/0.2.2/authors",
+      "dependencies": "/api/v1/crates/smithay-client-toolkit/0.2.2/dependencies",
+      "version_downloads": "/api/v1/crates/smithay-client-toolkit/0.2.2/downloads"
+    },
+    "num": "0.2.2", "published_by": null,
+    "readme_path": "/api/v1/crates/smithay-client-toolkit/0.2.2/readme",
+    "updated_at": "2018-06-08T19:08:26.012421+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Victor Berger <victor.berger@m4x.org>"]},
+      "users": []
+    },
+    "crate": "smithay-client-toolkit", "crate_size": null,
+    "created_at": "2018-06-13T20:55:55.259626+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 437832, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 96472
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 437833, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 96472
+      },
+      {
+        "crate_id": "dlib", "default_features": true, "downloads": 0,
+        "features": [], "id": 437834, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 96472
+      },
+      {
+        "crate_id": "image", "default_features": true, "downloads": 0,
+        "features": [], "id": 437842, "kind": "dev", "optional": false,
+        "req": "^0.19", "target": null, "version_id": 96472
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 437835, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 96472
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 437836, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 96472
+      },
+      {
+        "crate_id": "nix", "default_features": true, "downloads": 0,
+        "features": [], "id": 437837, "kind": "normal", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 96472
+      },
+      {
+        "crate_id": "tempfile", "default_features": true, "downloads": 0,
+        "features": [], "id": 437838, "kind": "normal", "optional": false,
+        "req": "^3.0", "target": null, "version_id": 96472
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["dlopen"], "id": 437843, "kind": "dev",
+        "optional": false, "req": "^0.20.5", "target": null,
+        "version_id": 96472
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["cursor"], "id": 437839,
+        "kind": "normal", "optional": false, "req": "^0.20.7",
+        "target": null, "version_id": 96472
+      },
+      {
+        "crate_id": "wayland-commons", "default_features": true,
+        "downloads": 0, "features": [], "id": 437840, "kind": "normal",
+        "optional": false, "req": "^0.20.7", "target": null,
+        "version_id": 96472
+      },
+      {
+        "crate_id": "wayland-protocols", "default_features": true,
+        "downloads": 0, "features": ["client", "unstable_protocols"],
+        "id": 437841, "kind": "normal", "optional": false, "req": "^0.20.7",
+        "target": null, "version_id": 96472
+      }
+    ],
+    "dl_path": "/api/v1/crates/smithay-client-toolkit/0.2.3/download",
+    "downloads": 6430, "features": {}, "id": 96472, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/smithay-client-toolkit/0.2.3/authors",
+      "dependencies": "/api/v1/crates/smithay-client-toolkit/0.2.3/dependencies",
+      "version_downloads": "/api/v1/crates/smithay-client-toolkit/0.2.3/downloads"
+    },
+    "num": "0.2.3", "published_by": null,
+    "readme_path": "/api/v1/crates/smithay-client-toolkit/0.2.3/readme",
+    "updated_at": "2018-06-13T20:55:55.259626+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Victor Berger <victor.berger@m4x.org>"]},
+      "users": []
+    },
+    "crate": "smithay-client-toolkit", "crate_size": null,
+    "created_at": "2018-06-26T15:21:01.082620+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 446129, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 97905
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 446130, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 97905
+      },
+      {
+        "crate_id": "dlib", "default_features": true, "downloads": 0,
+        "features": [], "id": 446131, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 97905
+      },
+      {
+        "crate_id": "image", "default_features": true, "downloads": 0,
+        "features": [], "id": 446139, "kind": "dev", "optional": false,
+        "req": "^0.19", "target": null, "version_id": 97905
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 446132, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 97905
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 446133, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 97905
+      },
+      {
+        "crate_id": "nix", "default_features": true, "downloads": 0,
+        "features": [], "id": 446134, "kind": "normal", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 97905
+      },
+      {
+        "crate_id": "tempfile", "default_features": true, "downloads": 0,
+        "features": [], "id": 446135, "kind": "normal", "optional": false,
+        "req": "^3.0", "target": null, "version_id": 97905
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["dlopen"], "id": 446140, "kind": "dev",
+        "optional": false, "req": "^0.20.7", "target": null,
+        "version_id": 97905
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["cursor"], "id": 446136,
+        "kind": "normal", "optional": false, "req": "^0.20.7",
+        "target": null, "version_id": 97905
+      },
+      {
+        "crate_id": "wayland-commons", "default_features": true,
+        "downloads": 0, "features": [], "id": 446137, "kind": "normal",
+        "optional": false, "req": "^0.20.7", "target": null,
+        "version_id": 97905
+      },
+      {
+        "crate_id": "wayland-protocols", "default_features": true,
+        "downloads": 0, "features": ["client", "unstable_protocols"],
+        "id": 446138, "kind": "normal", "optional": false, "req": "^0.20.7",
+        "target": null, "version_id": 97905
+      }
+    ],
+    "dl_path": "/api/v1/crates/smithay-client-toolkit/0.2.4/download",
+    "downloads": 11789, "features": {}, "id": 97905, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/smithay-client-toolkit/0.2.4/authors",
+      "dependencies": "/api/v1/crates/smithay-client-toolkit/0.2.4/dependencies",
+      "version_downloads": "/api/v1/crates/smithay-client-toolkit/0.2.4/downloads"
+    },
+    "num": "0.2.4", "published_by": null,
+    "readme_path": "/api/v1/crates/smithay-client-toolkit/0.2.4/readme",
+    "updated_at": "2018-06-26T15:21:01.082620+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Victor Berger <victor.berger@m4x.org>"]},
+      "users": []
+    },
+    "crate": "smithay-client-toolkit", "crate_size": null,
+    "created_at": "2018-07-10T06:58:35.689341+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 454086, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 99273
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 454087, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 99273
+      },
+      {
+        "crate_id": "dlib", "default_features": true, "downloads": 0,
+        "features": [], "id": 454088, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 99273
+      },
+      {
+        "crate_id": "image", "default_features": true, "downloads": 0,
+        "features": [], "id": 454096, "kind": "dev", "optional": false,
+        "req": "^0.19", "target": null, "version_id": 99273
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 454089, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 99273
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 454090, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 99273
+      },
+      {
+        "crate_id": "nix", "default_features": true, "downloads": 0,
+        "features": [], "id": 454091, "kind": "normal", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 99273
+      },
+      {
+        "crate_id": "tempfile", "default_features": true, "downloads": 0,
+        "features": [], "id": 454092, "kind": "normal", "optional": false,
+        "req": "^3.0", "target": null, "version_id": 99273
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["dlopen"], "id": 454097, "kind": "dev",
+        "optional": false, "req": "^0.20.7", "target": null,
+        "version_id": 99273
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["cursor"], "id": 454093,
+        "kind": "normal", "optional": false, "req": "^0.20.7",
+        "target": null, "version_id": 99273
+      },
+      {
+        "crate_id": "wayland-commons", "default_features": true,
+        "downloads": 0, "features": [], "id": 454094, "kind": "normal",
+        "optional": false, "req": "^0.20.7", "target": null,
+        "version_id": 99273
+      },
+      {
+        "crate_id": "wayland-protocols", "default_features": true,
+        "downloads": 0, "features": ["client", "unstable_protocols"],
+        "id": 454095, "kind": "normal", "optional": false, "req": "^0.20.7",
+        "target": null, "version_id": 99273
+      }
+    ],
+    "dl_path": "/api/v1/crates/smithay-client-toolkit/0.2.5/download",
+    "downloads": 933, "features": {}, "id": 99273, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/smithay-client-toolkit/0.2.5/authors",
+      "dependencies": "/api/v1/crates/smithay-client-toolkit/0.2.5/dependencies",
+      "version_downloads": "/api/v1/crates/smithay-client-toolkit/0.2.5/downloads"
+    },
+    "num": "0.2.5", "published_by": null,
+    "readme_path": "/api/v1/crates/smithay-client-toolkit/0.2.5/readme",
+    "updated_at": "2018-07-10T06:58:35.689341+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Victor Berger <victor.berger@m4x.org>"]},
+      "users": []
+    },
+    "crate": "smithay-client-toolkit", "crate_size": null,
+    "created_at": "2018-07-14T07:17:57.830798+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 456496, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 99743
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 456497, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 99743
+      },
+      {
+        "crate_id": "dlib", "default_features": true, "downloads": 0,
+        "features": [], "id": 456498, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 99743
+      },
+      {
+        "crate_id": "image", "default_features": true, "downloads": 0,
+        "features": [], "id": 456506, "kind": "dev", "optional": false,
+        "req": "^0.19", "target": null, "version_id": 99743
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 456499, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 99743
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 456500, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 99743
+      },
+      {
+        "crate_id": "nix", "default_features": true, "downloads": 0,
+        "features": [], "id": 456501, "kind": "normal", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 99743
+      },
+      {
+        "crate_id": "tempfile", "default_features": true, "downloads": 0,
+        "features": [], "id": 456502, "kind": "normal", "optional": false,
+        "req": "^3.0", "target": null, "version_id": 99743
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["dlopen"], "id": 456507, "kind": "dev",
+        "optional": false, "req": "^0.20.7", "target": null,
+        "version_id": 99743
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["cursor"], "id": 456503,
+        "kind": "normal", "optional": false, "req": "^0.20.7",
+        "target": null, "version_id": 99743
+      },
+      {
+        "crate_id": "wayland-commons", "default_features": true,
+        "downloads": 0, "features": [], "id": 456504, "kind": "normal",
+        "optional": false, "req": "^0.20.7", "target": null,
+        "version_id": 99743
+      },
+      {
+        "crate_id": "wayland-protocols", "default_features": true,
+        "downloads": 0, "features": ["client", "unstable_protocols"],
+        "id": 456505, "kind": "normal", "optional": false, "req": "^0.20.7",
+        "target": null, "version_id": 99743
+      }
+    ],
+    "dl_path": "/api/v1/crates/smithay-client-toolkit/0.2.6/download",
+    "downloads": 67207, "features": {}, "id": 99743, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/smithay-client-toolkit/0.2.6/authors",
+      "dependencies": "/api/v1/crates/smithay-client-toolkit/0.2.6/dependencies",
+      "version_downloads": "/api/v1/crates/smithay-client-toolkit/0.2.6/downloads"
+    },
+    "num": "0.2.6", "published_by": null,
+    "readme_path": "/api/v1/crates/smithay-client-toolkit/0.2.6/readme",
+    "updated_at": "2018-07-14T07:17:57.830798+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Victor Berger <victor.berger@m4x.org>"]},
+      "users": []
+    },
+    "crate": "smithay-client-toolkit", "crate_size": 86969,
+    "created_at": "2018-08-17T15:18:54.346601+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 480718, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 104302
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 480727, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 104302
+      },
+      {
+        "crate_id": "dlib", "default_features": true, "downloads": 0,
+        "features": [], "id": 480719, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 104302
+      },
+      {
+        "crate_id": "image", "default_features": true, "downloads": 0,
+        "features": [], "id": 480728, "kind": "dev", "optional": false,
+        "req": "^0.19", "target": null, "version_id": 104302
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 480720, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 104302
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 480721, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 104302
+      },
+      {
+        "crate_id": "nix", "default_features": true, "downloads": 0,
+        "features": [], "id": 480722, "kind": "normal", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 104302
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 480723, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 104302
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["dlopen"], "id": 480729, "kind": "dev",
+        "optional": false, "req": "^0.20.11", "target": null,
+        "version_id": 104302
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["cursor"], "id": 480724,
+        "kind": "normal", "optional": false, "req": "^0.20.11",
+        "target": null, "version_id": 104302
+      },
+      {
+        "crate_id": "wayland-commons", "default_features": true,
+        "downloads": 0, "features": [], "id": 480725, "kind": "normal",
+        "optional": false, "req": "^0.20.11", "target": null,
+        "version_id": 104302
+      },
+      {
+        "crate_id": "wayland-protocols", "default_features": true,
+        "downloads": 0, "features": ["client", "unstable_protocols"],
+        "id": 480726, "kind": "normal", "optional": false,
+        "req": "^0.20.11", "target": null, "version_id": 104302
+      }
+    ],
+    "dl_path": "/api/v1/crates/smithay-client-toolkit/0.3.0/download",
+    "downloads": 20380, "features": {}, "id": 104302, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/smithay-client-toolkit/0.3.0/authors",
+      "dependencies": "/api/v1/crates/smithay-client-toolkit/0.3.0/dependencies",
+      "version_downloads": "/api/v1/crates/smithay-client-toolkit/0.3.0/downloads"
+    },
+    "num": "0.3.0", "published_by": null,
+    "readme_path": "/api/v1/crates/smithay-client-toolkit/0.3.0/readme",
+    "updated_at": "2018-08-17T15:18:54.346601+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Victor Berger <victor.berger@m4x.org>"]},
+      "users": []
+    },
+    "crate": "smithay-client-toolkit", "crate_size": 93433,
+    "created_at": "2018-10-09T07:41:17.584186+00:00",
+    "dependencies": [
+      {
+        "crate_id": "andrew", "default_features": true, "downloads": 0,
+        "features": [], "id": 518396, "kind": "normal", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 111551
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 518397, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 111551
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 518406, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 111551
+      },
+      {
+        "crate_id": "dlib", "default_features": true, "downloads": 0,
+        "features": [], "id": 518398, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 111551
+      },
+      {
+        "crate_id": "image", "default_features": true, "downloads": 0,
+        "features": [], "id": 518407, "kind": "dev", "optional": false,
+        "req": "^0.19", "target": null, "version_id": 111551
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 518399, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 111551
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 518400, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 111551
+      },
+      {
+        "crate_id": "nix", "default_features": true, "downloads": 0,
+        "features": [], "id": 518401, "kind": "normal", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 111551
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 518402, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 111551
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["dlopen"], "id": 518408, "kind": "dev",
+        "optional": false, "req": "^0.21", "target": null,
+        "version_id": 111551
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["cursor"], "id": 518403,
+        "kind": "normal", "optional": false, "req": "^0.21", "target": null,
+        "version_id": 111551
+      },
+      {
+        "crate_id": "wayland-commons", "default_features": true,
+        "downloads": 0, "features": [], "id": 518404, "kind": "normal",
+        "optional": false, "req": "^0.21", "target": null,
+        "version_id": 111551
+      },
+      {
+        "crate_id": "wayland-protocols", "default_features": true,
+        "downloads": 0, "features": ["native_client", "unstable_protocols"],
+        "id": 518405, "kind": "normal", "optional": false, "req": "^0.21",
+        "target": null, "version_id": 111551
+      }
+    ],
+    "dl_path": "/api/v1/crates/smithay-client-toolkit/0.4.0/download",
+    "downloads": 532, "features": {}, "id": 111551, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/smithay-client-toolkit/0.4.0/authors",
+      "dependencies": "/api/v1/crates/smithay-client-toolkit/0.4.0/dependencies",
+      "version_downloads": "/api/v1/crates/smithay-client-toolkit/0.4.0/downloads"
+    },
+    "num": "0.4.0", "published_by": null,
+    "readme_path": "/api/v1/crates/smithay-client-toolkit/0.4.0/readme",
+    "updated_at": "2018-10-09T07:41:17.584186+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Victor Berger <victor.berger@m4x.org>"]},
+      "users": []
+    },
+    "crate": "smithay-client-toolkit", "crate_size": 93737,
+    "created_at": "2018-11-06T14:02:51.145074+00:00",
+    "dependencies": [
+      {
+        "crate_id": "andrew", "default_features": true, "downloads": 0,
+        "features": [], "id": 547895, "kind": "normal", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 116475
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 547896, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 116475
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 547905, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 116475
+      },
+      {
+        "crate_id": "dlib", "default_features": true, "downloads": 0,
+        "features": [], "id": 547897, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 116475
+      },
+      {
+        "crate_id": "image", "default_features": true, "downloads": 0,
+        "features": [], "id": 547906, "kind": "dev", "optional": false,
+        "req": "^0.19", "target": null, "version_id": 116475
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 547898, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 116475
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 547899, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 116475
+      },
+      {
+        "crate_id": "nix", "default_features": true, "downloads": 0,
+        "features": [], "id": 547900, "kind": "normal", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 116475
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 547901, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 116475
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["dlopen"], "id": 547907, "kind": "dev",
+        "optional": false, "req": "^0.21", "target": null,
+        "version_id": 116475
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["cursor"], "id": 547902,
+        "kind": "normal", "optional": false, "req": "^0.21", "target": null,
+        "version_id": 116475
+      },
+      {
+        "crate_id": "wayland-commons", "default_features": true,
+        "downloads": 0, "features": [], "id": 547903, "kind": "normal",
+        "optional": false, "req": "^0.21", "target": null,
+        "version_id": 116475
+      },
+      {
+        "crate_id": "wayland-protocols", "default_features": true,
+        "downloads": 0, "features": ["native_client", "unstable_protocols"],
+        "id": 547904, "kind": "normal", "optional": false, "req": "^0.21",
+        "target": null, "version_id": 116475
+      }
+    ],
+    "dl_path": "/api/v1/crates/smithay-client-toolkit/0.4.1/download",
+    "downloads": 3341, "features": {}, "id": 116475, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/smithay-client-toolkit/0.4.1/authors",
+      "dependencies": "/api/v1/crates/smithay-client-toolkit/0.4.1/dependencies",
+      "version_downloads": "/api/v1/crates/smithay-client-toolkit/0.4.1/downloads"
+    },
+    "num": "0.4.1", "published_by": null,
+    "readme_path": "/api/v1/crates/smithay-client-toolkit/0.4.1/readme",
+    "updated_at": "2018-11-06T14:02:51.145074+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Victor Berger <victor.berger@m4x.org>"]},
+      "users": []
+    },
+    "crate": "smithay-client-toolkit", "crate_size": 93925,
+    "created_at": "2018-11-14T22:17:52.926384+00:00",
+    "dependencies": [
+      {
+        "crate_id": "andrew", "default_features": true, "downloads": 0,
+        "features": [], "id": 555984, "kind": "normal", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 117890
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 555985, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 117890
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 555994, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 117890
+      },
+      {
+        "crate_id": "dlib", "default_features": true, "downloads": 0,
+        "features": [], "id": 555986, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 117890
+      },
+      {
+        "crate_id": "image", "default_features": true, "downloads": 0,
+        "features": [], "id": 555995, "kind": "dev", "optional": false,
+        "req": "^0.19", "target": null, "version_id": 117890
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 555987, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 117890
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 555988, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 117890
+      },
+      {
+        "crate_id": "nix", "default_features": true, "downloads": 0,
+        "features": [], "id": 555989, "kind": "normal", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 117890
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 555990, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 117890
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["dlopen"], "id": 555996, "kind": "dev",
+        "optional": false, "req": "^0.21", "target": null,
+        "version_id": 117890
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["cursor"], "id": 555991,
+        "kind": "normal", "optional": false, "req": "^0.21", "target": null,
+        "version_id": 117890
+      },
+      {
+        "crate_id": "wayland-commons", "default_features": true,
+        "downloads": 0, "features": [], "id": 555992, "kind": "normal",
+        "optional": false, "req": "^0.21", "target": null,
+        "version_id": 117890
+      },
+      {
+        "crate_id": "wayland-protocols", "default_features": true,
+        "downloads": 0, "features": ["native_client", "unstable_protocols"],
+        "id": 555993, "kind": "normal", "optional": false, "req": "^0.21",
+        "target": null, "version_id": 117890
+      }
+    ],
+    "dl_path": "/api/v1/crates/smithay-client-toolkit/0.4.2/download",
+    "downloads": 13984, "features": {}, "id": 117890, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/smithay-client-toolkit/0.4.2/authors",
+      "dependencies": "/api/v1/crates/smithay-client-toolkit/0.4.2/dependencies",
+      "version_downloads": "/api/v1/crates/smithay-client-toolkit/0.4.2/downloads"
+    },
+    "num": "0.4.2", "published_by": null,
+    "readme_path": "/api/v1/crates/smithay-client-toolkit/0.4.2/readme",
+    "updated_at": "2018-11-14T22:17:52.926384+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Victor Berger <victor.berger@m4x.org>"]},
+      "users": []
+    },
+    "crate": "smithay-client-toolkit", "crate_size": 95564,
+    "created_at": "2018-12-03T14:33:10.547594+00:00",
+    "dependencies": [
+      {
+        "crate_id": "andrew", "default_features": true, "downloads": 0,
+        "features": [], "id": 571496, "kind": "normal", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 120592
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 571497, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 120592
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 571506, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 120592
+      },
+      {
+        "crate_id": "dlib", "default_features": true, "downloads": 0,
+        "features": [], "id": 571498, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 120592
+      },
+      {
+        "crate_id": "image", "default_features": true, "downloads": 0,
+        "features": [], "id": 571507, "kind": "dev", "optional": false,
+        "req": "^0.20", "target": null, "version_id": 120592
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 571499, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 120592
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 571500, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 120592
+      },
+      {
+        "crate_id": "nix", "default_features": true, "downloads": 0,
+        "features": [], "id": 571501, "kind": "normal", "optional": false,
+        "req": "^0.12", "target": null, "version_id": 120592
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 571502, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 120592
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["dlopen"], "id": 571508, "kind": "dev",
+        "optional": false, "req": "^0.21", "target": null,
+        "version_id": 120592
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["cursor"], "id": 571503,
+        "kind": "normal", "optional": false, "req": "^0.21", "target": null,
+        "version_id": 120592
+      },
+      {
+        "crate_id": "wayland-commons", "default_features": true,
+        "downloads": 0, "features": [], "id": 571504, "kind": "normal",
+        "optional": false, "req": "^0.21", "target": null,
+        "version_id": 120592
+      },
+      {
+        "crate_id": "wayland-protocols", "default_features": true,
+        "downloads": 0, "features": ["native_client", "unstable_protocols"],
+        "id": 571505, "kind": "normal", "optional": false, "req": "^0.21",
+        "target": null, "version_id": 120592
+      }
+    ],
+    "dl_path": "/api/v1/crates/smithay-client-toolkit/0.4.3/download",
+    "downloads": 8494, "features": {}, "id": 120592, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/smithay-client-toolkit/0.4.3/authors",
+      "dependencies": "/api/v1/crates/smithay-client-toolkit/0.4.3/dependencies",
+      "version_downloads": "/api/v1/crates/smithay-client-toolkit/0.4.3/downloads"
+    },
+    "num": "0.4.3", "published_by": null,
+    "readme_path": "/api/v1/crates/smithay-client-toolkit/0.4.3/readme",
+    "updated_at": "2018-12-03T14:33:10.547594+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Victor Berger <victor.berger@m4x.org>"]},
+      "users": []
+    },
+    "crate": "smithay-client-toolkit", "crate_size": 96861,
+    "created_at": "2018-12-27T20:04:39.747563+00:00",
+    "dependencies": [
+      {
+        "crate_id": "andrew", "default_features": true, "downloads": 0,
+        "features": [], "id": 594316, "kind": "normal", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 124359
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 594317, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 124359
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 594326, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 124359
+      },
+      {
+        "crate_id": "dlib", "default_features": true, "downloads": 0,
+        "features": [], "id": 594318, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 124359
+      },
+      {
+        "crate_id": "image", "default_features": true, "downloads": 0,
+        "features": [], "id": 594327, "kind": "dev", "optional": false,
+        "req": "^0.20", "target": null, "version_id": 124359
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 594319, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 124359
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 594320, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 124359
+      },
+      {
+        "crate_id": "nix", "default_features": true, "downloads": 0,
+        "features": [], "id": 594321, "kind": "normal", "optional": false,
+        "req": "^0.12", "target": null, "version_id": 124359
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 594322, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 124359
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["dlopen"], "id": 594328, "kind": "dev",
+        "optional": false, "req": "^0.21", "target": null,
+        "version_id": 124359
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["cursor"], "id": 594323,
+        "kind": "normal", "optional": false, "req": "^0.21", "target": null,
+        "version_id": 124359
+      },
+      {
+        "crate_id": "wayland-commons", "default_features": true,
+        "downloads": 0, "features": [], "id": 594324, "kind": "normal",
+        "optional": false, "req": "^0.21", "target": null,
+        "version_id": 124359
+      },
+      {
+        "crate_id": "wayland-protocols", "default_features": true,
+        "downloads": 0, "features": ["native_client", "unstable_protocols"],
+        "id": 594325, "kind": "normal", "optional": false, "req": "^0.21",
+        "target": null, "version_id": 124359
+      }
+    ],
+    "dl_path": "/api/v1/crates/smithay-client-toolkit/0.4.4/download",
+    "downloads": 27561, "features": {}, "id": 124359, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/smithay-client-toolkit/0.4.4/authors",
+      "dependencies": "/api/v1/crates/smithay-client-toolkit/0.4.4/dependencies",
+      "version_downloads": "/api/v1/crates/smithay-client-toolkit/0.4.4/downloads"
+    },
+    "num": "0.4.4", "published_by": null,
+    "readme_path": "/api/v1/crates/smithay-client-toolkit/0.4.4/readme",
+    "updated_at": "2018-12-27T20:04:39.747563+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Victor Berger <victor.berger@m4x.org>"]},
+      "users": []
+    },
+    "crate": "smithay-client-toolkit", "crate_size": 94096,
+    "created_at": "2019-03-05T23:05:31.006130+00:00",
+    "dependencies": [
+      {
+        "crate_id": "andrew", "default_features": true, "downloads": 0,
+        "features": [], "id": 665436, "kind": "normal", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 137482
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 665437, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 137482
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 665445, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 137482
+      },
+      {
+        "crate_id": "dlib", "default_features": true, "downloads": 0,
+        "features": [], "id": 665438, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 137482
+      },
+      {
+        "crate_id": "image", "default_features": true, "downloads": 0,
+        "features": [], "id": 665446, "kind": "dev", "optional": false,
+        "req": "^0.20", "target": null, "version_id": 137482
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 665439, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 137482
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 665440, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 137482
+      },
+      {
+        "crate_id": "nix", "default_features": true, "downloads": 0,
+        "features": [], "id": 665441, "kind": "normal", "optional": false,
+        "req": "^0.13", "target": null, "version_id": 137482
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["dlopen"], "id": 665447, "kind": "dev",
+        "optional": false, "req": "^0.21", "target": null,
+        "version_id": 137482
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["cursor"], "id": 665442,
+        "kind": "normal", "optional": false, "req": "^0.21", "target": null,
+        "version_id": 137482
+      },
+      {
+        "crate_id": "wayland-commons", "default_features": true,
+        "downloads": 0, "features": [], "id": 665443, "kind": "normal",
+        "optional": false, "req": "^0.21", "target": null,
+        "version_id": 137482
+      },
+      {
+        "crate_id": "wayland-protocols", "default_features": true,
+        "downloads": 0, "features": ["native_client", "unstable_protocols"],
+        "id": 665444, "kind": "normal", "optional": false, "req": "^0.21",
+        "target": null, "version_id": 137482
+      }
+    ],
+    "dl_path": "/api/v1/crates/smithay-client-toolkit/0.4.5/download",
+    "downloads": 56242, "features": {}, "id": 137482, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/smithay-client-toolkit/0.4.5/authors",
+      "dependencies": "/api/v1/crates/smithay-client-toolkit/0.4.5/dependencies",
+      "version_downloads": "/api/v1/crates/smithay-client-toolkit/0.4.5/downloads"
+    },
+    "num": "0.4.5",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/3009227?v=4",
+      "id": 1557, "login": "vberger", "name": "Victor Berger",
+      "url": "https://github.com/vberger"
+    },
+    "readme_path": "/api/v1/crates/smithay-client-toolkit/0.4.5/readme",
+    "updated_at": "2019-03-05T23:05:31.006130+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Victor Berger <victor.berger@m4x.org>"]},
+      "users": []
+    },
+    "crate": "smithay-client-toolkit", "crate_size": 94029,
+    "created_at": "2019-06-15T09:09:57.114648+00:00",
+    "dependencies": [
+      {
+        "crate_id": "andrew", "default_features": true, "downloads": 0,
+        "features": [], "id": 776794, "kind": "normal", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 156559
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 776795, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 156559
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 776803, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 156559
+      },
+      {
+        "crate_id": "dlib", "default_features": true, "downloads": 0,
+        "features": [], "id": 776796, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 156559
+      },
+      {
+        "crate_id": "image", "default_features": true, "downloads": 0,
+        "features": [], "id": 776804, "kind": "dev", "optional": false,
+        "req": "^0.20", "target": null, "version_id": 156559
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 776797, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 156559
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 776798, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 156559
+      },
+      {
+        "crate_id": "nix", "default_features": true, "downloads": 0,
+        "features": [], "id": 776799, "kind": "normal", "optional": false,
+        "req": "^0.14.1", "target": null, "version_id": 156559
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["dlopen"], "id": 776805, "kind": "dev",
+        "optional": false, "req": "^0.21", "target": null,
+        "version_id": 156559
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["cursor"], "id": 776800,
+        "kind": "normal", "optional": false, "req": "^0.21", "target": null,
+        "version_id": 156559
+      },
+      {
+        "crate_id": "wayland-commons", "default_features": true,
+        "downloads": 0, "features": [], "id": 776801, "kind": "normal",
+        "optional": false, "req": "^0.21", "target": null,
+        "version_id": 156559
+      },
+      {
+        "crate_id": "wayland-protocols", "default_features": true,
+        "downloads": 0, "features": ["native_client", "unstable_protocols"],
+        "id": 776802, "kind": "normal", "optional": false, "req": "^0.21",
+        "target": null, "version_id": 156559
+      }
+    ],
+    "dl_path": "/api/v1/crates/smithay-client-toolkit/0.4.6/download",
+    "downloads": 276544, "features": {}, "id": 156559, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/smithay-client-toolkit/0.4.6/authors",
+      "dependencies": "/api/v1/crates/smithay-client-toolkit/0.4.6/dependencies",
+      "version_downloads": "/api/v1/crates/smithay-client-toolkit/0.4.6/downloads"
+    },
+    "num": "0.4.6",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/3009227?v=4",
+      "id": 1557, "login": "vberger", "name": "Victor Berger",
+      "url": "https://github.com/vberger"
+    },
+    "readme_path": "/api/v1/crates/smithay-client-toolkit/0.4.6/readme",
+    "updated_at": "2019-06-15T09:09:57.114648+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Victor Berger <victor.berger@m4x.org>"]},
+      "users": []
+    },
+    "crate": "smithay-client-toolkit", "crate_size": 93027,
+    "created_at": "2019-02-05T18:40:31.249403+00:00",
+    "dependencies": [
+      {
+        "crate_id": "andrew", "default_features": true, "downloads": 0,
+        "features": [], "id": 635047, "kind": "normal", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 132138
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 635048, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 132138
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 635056, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 132138
+      },
+      {
+        "crate_id": "dlib", "default_features": true, "downloads": 0,
+        "features": [], "id": 635049, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 132138
+      },
+      {
+        "crate_id": "image", "default_features": true, "downloads": 0,
+        "features": [], "id": 635057, "kind": "dev", "optional": false,
+        "req": "^0.21", "target": null, "version_id": 132138
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 635050, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 132138
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 635051, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 132138
+      },
+      {
+        "crate_id": "nix", "default_features": true, "downloads": 0,
+        "features": [], "id": 635052, "kind": "normal", "optional": false,
+        "req": "^0.13", "target": null, "version_id": 132138
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["dlopen"], "id": 635058, "kind": "dev",
+        "optional": false, "req": "^0.22", "target": null,
+        "version_id": 132138
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["cursor"], "id": 635053,
+        "kind": "normal", "optional": false, "req": "^0.22", "target": null,
+        "version_id": 132138
+      },
+      {
+        "crate_id": "wayland-commons", "default_features": true,
+        "downloads": 0, "features": [], "id": 635054, "kind": "normal",
+        "optional": false, "req": "^0.22", "target": null,
+        "version_id": 132138
+      },
+      {
+        "crate_id": "wayland-protocols", "default_features": true,
+        "downloads": 0, "features": ["native_client", "unstable_protocols"],
+        "id": 635055, "kind": "normal", "optional": false, "req": "^0.22",
+        "target": null, "version_id": 132138
+      }
+    ],
+    "dl_path": "/api/v1/crates/smithay-client-toolkit/0.5.0/download",
+    "downloads": 5153, "features": {}, "id": 132138, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/smithay-client-toolkit/0.5.0/authors",
+      "dependencies": "/api/v1/crates/smithay-client-toolkit/0.5.0/dependencies",
+      "version_downloads": "/api/v1/crates/smithay-client-toolkit/0.5.0/downloads"
+    },
+    "num": "0.5.0", "published_by": null,
+    "readme_path": "/api/v1/crates/smithay-client-toolkit/0.5.0/readme",
+    "updated_at": "2019-02-05T18:40:31.249403+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Victor Berger <victor.berger@m4x.org>"]},
+      "users": []
+    },
+    "crate": "smithay-client-toolkit", "crate_size": 92948,
+    "created_at": "2019-02-18T13:58:58.875337+00:00",
+    "dependencies": [
+      {
+        "crate_id": "andrew", "default_features": true, "downloads": 0,
+        "features": [], "id": 648387, "kind": "normal", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 134483
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 648388, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 134483
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 648395, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 134483
+      },
+      {
+        "crate_id": "dlib", "default_features": true, "downloads": 0,
+        "features": [], "id": 648389, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 134483
+      },
+      {
+        "crate_id": "image", "default_features": true, "downloads": 0,
+        "features": [], "id": 648396, "kind": "dev", "optional": false,
+        "req": "^0.21", "target": null, "version_id": 134483
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 648390, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 134483
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 648391, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 134483
+      },
+      {
+        "crate_id": "nix", "default_features": true, "downloads": 0,
+        "features": [], "id": 648392, "kind": "normal", "optional": false,
+        "req": "^0.13", "target": null, "version_id": 134483
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["dlopen"], "id": 648397, "kind": "dev",
+        "optional": false, "req": "^0.23", "target": null,
+        "version_id": 134483
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["cursor"], "id": 648393,
+        "kind": "normal", "optional": false, "req": "^0.23", "target": null,
+        "version_id": 134483
+      },
+      {
+        "crate_id": "wayland-protocols", "default_features": true,
+        "downloads": 0, "features": ["client", "unstable_protocols"],
+        "id": 648394, "kind": "normal", "optional": false, "req": "^0.23",
+        "target": null, "version_id": 134483
+      }
+    ],
+    "dl_path": "/api/v1/crates/smithay-client-toolkit/0.6.0/download",
+    "downloads": 230, "features": {}, "id": 134483, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/smithay-client-toolkit/0.6.0/authors",
+      "dependencies": "/api/v1/crates/smithay-client-toolkit/0.6.0/dependencies",
+      "version_downloads": "/api/v1/crates/smithay-client-toolkit/0.6.0/downloads"
+    },
+    "num": "0.6.0", "published_by": null,
+    "readme_path": "/api/v1/crates/smithay-client-toolkit/0.6.0/readme",
+    "updated_at": "2019-02-18T13:58:58.875337+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Victor Berger <victor.berger@m4x.org>"]},
+      "users": []
+    },
+    "crate": "smithay-client-toolkit", "crate_size": 94502,
+    "created_at": "2019-04-07T18:13:36.144334+00:00",
+    "dependencies": [
+      {
+        "crate_id": "andrew", "default_features": true, "downloads": 0,
+        "features": [], "id": 699395, "kind": "normal", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 143626
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 699396, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 143626
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 699403, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 143626
+      },
+      {
+        "crate_id": "dlib", "default_features": true, "downloads": 0,
+        "features": [], "id": 699397, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 143626
+      },
+      {
+        "crate_id": "image", "default_features": true, "downloads": 0,
+        "features": [], "id": 699404, "kind": "dev", "optional": false,
+        "req": "^0.21", "target": null, "version_id": 143626
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 699398, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 143626
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 699399, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 143626
+      },
+      {
+        "crate_id": "nix", "default_features": true, "downloads": 0,
+        "features": [], "id": 699400, "kind": "normal", "optional": false,
+        "req": "^0.13", "target": null, "version_id": 143626
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["dlopen"], "id": 699405, "kind": "dev",
+        "optional": false, "req": "^0.23", "target": null,
+        "version_id": 143626
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["cursor"], "id": 699401,
+        "kind": "normal", "optional": false, "req": "^0.23", "target": null,
+        "version_id": 143626
+      },
+      {
+        "crate_id": "wayland-protocols", "default_features": true,
+        "downloads": 0, "features": ["client", "unstable_protocols"],
+        "id": 699402, "kind": "normal", "optional": false, "req": "^0.23",
+        "target": null, "version_id": 143626
+      }
+    ],
+    "dl_path": "/api/v1/crates/smithay-client-toolkit/0.6.1/download",
+    "downloads": 778, "features": {}, "id": 143626, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/smithay-client-toolkit/0.6.1/authors",
+      "dependencies": "/api/v1/crates/smithay-client-toolkit/0.6.1/dependencies",
+      "version_downloads": "/api/v1/crates/smithay-client-toolkit/0.6.1/downloads"
+    },
+    "num": "0.6.1",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/3009227?v=4",
+      "id": 1557, "login": "vberger", "name": "Victor Berger",
+      "url": "https://github.com/vberger"
+    },
+    "readme_path": "/api/v1/crates/smithay-client-toolkit/0.6.1/readme",
+    "updated_at": "2019-04-07T18:13:36.144334+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Victor Berger <victor.berger@m4x.org>"]},
+      "users": []
+    },
+    "crate": "smithay-client-toolkit", "crate_size": 94410,
+    "created_at": "2019-06-13T20:49:33.644494+00:00",
+    "dependencies": [
+      {
+        "crate_id": "andrew", "default_features": true, "downloads": 0,
+        "features": [], "id": 774594, "kind": "normal", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 156238
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 774595, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 156238
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 774602, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 156238
+      },
+      {
+        "crate_id": "dlib", "default_features": true, "downloads": 0,
+        "features": [], "id": 774596, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 156238
+      },
+      {
+        "crate_id": "image", "default_features": true, "downloads": 0,
+        "features": [], "id": 774603, "kind": "dev", "optional": false,
+        "req": "^0.21", "target": null, "version_id": 156238
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 774597, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 156238
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 774598, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 156238
+      },
+      {
+        "crate_id": "nix", "default_features": true, "downloads": 0,
+        "features": [], "id": 774599, "kind": "normal", "optional": false,
+        "req": "^0.14.1", "target": null, "version_id": 156238
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["dlopen"], "id": 774604, "kind": "dev",
+        "optional": false, "req": "^0.23", "target": null,
+        "version_id": 156238
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["cursor"], "id": 774600,
+        "kind": "normal", "optional": false, "req": "^0.23", "target": null,
+        "version_id": 156238
+      },
+      {
+        "crate_id": "wayland-protocols", "default_features": true,
+        "downloads": 0, "features": ["client", "unstable_protocols"],
+        "id": 774601, "kind": "normal", "optional": false, "req": "^0.23",
+        "target": null, "version_id": 156238
+      }
+    ],
+    "dl_path": "/api/v1/crates/smithay-client-toolkit/0.6.2/download",
+    "downloads": 4390, "features": {}, "id": 156238, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/smithay-client-toolkit/0.6.2/authors",
+      "dependencies": "/api/v1/crates/smithay-client-toolkit/0.6.2/dependencies",
+      "version_downloads": "/api/v1/crates/smithay-client-toolkit/0.6.2/downloads"
+    },
+    "num": "0.6.2",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/3009227?v=4",
+      "id": 1557, "login": "vberger", "name": "Victor Berger",
+      "url": "https://github.com/vberger"
+    },
+    "readme_path": "/api/v1/crates/smithay-client-toolkit/0.6.2/readme",
+    "updated_at": "2019-06-13T20:49:33.644494+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Victor Berger <victor.berger@m4x.org>"]},
+      "users": []
+    },
+    "crate": "smithay-client-toolkit", "crate_size": 94612,
+    "created_at": "2019-06-29T13:46:16.191403+00:00",
+    "dependencies": [
+      {
+        "crate_id": "andrew", "default_features": true, "downloads": 0,
+        "features": [], "id": 793936, "kind": "normal", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 159186
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 793937, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 159186
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 793944, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 159186
+      },
+      {
+        "crate_id": "dlib", "default_features": true, "downloads": 0,
+        "features": [], "id": 793938, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 159186
+      },
+      {
+        "crate_id": "image", "default_features": true, "downloads": 0,
+        "features": [], "id": 793945, "kind": "dev", "optional": false,
+        "req": "^0.21", "target": null, "version_id": 159186
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 793939, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 159186
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 793940, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 159186
+      },
+      {
+        "crate_id": "nix", "default_features": true, "downloads": 0,
+        "features": [], "id": 793941, "kind": "normal", "optional": false,
+        "req": "^0.14.1", "target": null, "version_id": 159186
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["dlopen"], "id": 793946, "kind": "dev",
+        "optional": false, "req": "^0.23", "target": null,
+        "version_id": 159186
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["cursor"], "id": 793942,
+        "kind": "normal", "optional": false, "req": "^0.23", "target": null,
+        "version_id": 159186
+      },
+      {
+        "crate_id": "wayland-protocols", "default_features": true,
+        "downloads": 0, "features": ["client", "unstable_protocols"],
+        "id": 793943, "kind": "normal", "optional": false, "req": "^0.23",
+        "target": null, "version_id": 159186
+      }
+    ],
+    "dl_path": "/api/v1/crates/smithay-client-toolkit/0.6.3/download",
+    "downloads": 13767, "features": {}, "id": 159186, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/smithay-client-toolkit/0.6.3/authors",
+      "dependencies": "/api/v1/crates/smithay-client-toolkit/0.6.3/dependencies",
+      "version_downloads": "/api/v1/crates/smithay-client-toolkit/0.6.3/downloads"
+    },
+    "num": "0.6.3",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/3009227?v=4",
+      "id": 1557, "login": "vberger", "name": "Victor Berger",
+      "url": "https://github.com/vberger"
+    },
+    "readme_path": "/api/v1/crates/smithay-client-toolkit/0.6.3/readme",
+    "updated_at": "2019-06-29T13:46:16.191403+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Victor Berger <victor.berger@m4x.org>"]},
+      "users": []
+    },
+    "crate": "smithay-client-toolkit", "crate_size": 99677,
+    "created_at": "2019-08-27T21:50:03.634670+00:00",
+    "dependencies": [
+      {
+        "crate_id": "andrew", "default_features": true, "downloads": 0,
+        "features": [], "id": 880651, "kind": "normal", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 172307
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 880652, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 172307
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 880659, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 172307
+      },
+      {
+        "crate_id": "dlib", "default_features": true, "downloads": 0,
+        "features": [], "id": 880653, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 172307
+      },
+      {
+        "crate_id": "image", "default_features": true, "downloads": 0,
+        "features": [], "id": 880660, "kind": "dev", "optional": false,
+        "req": "^0.21", "target": null, "version_id": 172307
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 880654, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 172307
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 880655, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 172307
+      },
+      {
+        "crate_id": "nix", "default_features": true, "downloads": 0,
+        "features": [], "id": 880656, "kind": "normal", "optional": false,
+        "req": "^0.14.1", "target": null, "version_id": 172307
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["dlopen"], "id": 880661, "kind": "dev",
+        "optional": false, "req": "^0.23", "target": null,
+        "version_id": 172307
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["cursor"], "id": 880657,
+        "kind": "normal", "optional": false, "req": "^0.23", "target": null,
+        "version_id": 172307
+      },
+      {
+        "crate_id": "wayland-protocols", "default_features": true,
+        "downloads": 0, "features": ["client", "unstable_protocols"],
+        "id": 880658, "kind": "normal", "optional": false, "req": "^0.23",
+        "target": null, "version_id": 172307
+      }
+    ],
+    "dl_path": "/api/v1/crates/smithay-client-toolkit/0.6.4/download",
+    "downloads": 66699, "features": {}, "id": 172307, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/smithay-client-toolkit/0.6.4/authors",
+      "dependencies": "/api/v1/crates/smithay-client-toolkit/0.6.4/dependencies",
+      "version_downloads": "/api/v1/crates/smithay-client-toolkit/0.6.4/downloads"
+    },
+    "num": "0.6.4",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/3009227?v=4",
+      "id": 1557, "login": "vberger", "name": "Victor Berger",
+      "url": "https://github.com/vberger"
+    },
+    "readme_path": "/api/v1/crates/smithay-client-toolkit/0.6.4/readme",
+    "updated_at": "2019-08-27T21:50:03.634670+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-02-07T12:33:06.094009+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/3009227?v=4",
+          "id": 1557, "login": "vberger", "name": "Victor Berger",
+          "url": "https://github.com/vberger"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Victor Berger <victor.berger@m4x.org>"]},
+      "users": []
+    },
+    "crate": "smithay-client-toolkit", "crate_size": 102325,
+    "created_at": "2020-02-07T12:33:06.094009+00:00",
+    "dependencies": [
+      {
+        "crate_id": "andrew", "default_features": true, "downloads": 0,
+        "features": [], "id": 1134998, "kind": "normal", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 210203
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1134999, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 210203
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1135006, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 210203
+      },
+      {
+        "crate_id": "dlib", "default_features": true, "downloads": 0,
+        "features": [], "id": 1135000, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 210203
+      },
+      {
+        "crate_id": "image", "default_features": true, "downloads": 0,
+        "features": [], "id": 1135007, "kind": "dev", "optional": false,
+        "req": "^0.21", "target": null, "version_id": 210203
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1135001, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 210203
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1135002, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 210203
+      },
+      {
+        "crate_id": "nix", "default_features": true, "downloads": 0,
+        "features": [], "id": 1135003, "kind": "normal", "optional": false,
+        "req": "^0.14.1", "target": null, "version_id": 210203
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["dlopen"], "id": 1135008,
+        "kind": "dev", "optional": false, "req": "^0.23", "target": null,
+        "version_id": 210203
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["cursor"], "id": 1135004,
+        "kind": "normal", "optional": false, "req": "^0.23", "target": null,
+        "version_id": 210203
+      },
+      {
+        "crate_id": "wayland-protocols", "default_features": true,
+        "downloads": 0, "features": ["client", "unstable_protocols"],
+        "id": 1135005, "kind": "normal", "optional": false, "req": "^0.23",
+        "target": null, "version_id": 210203
+      }
+    ],
+    "dl_path": "/api/v1/crates/smithay-client-toolkit/0.6.5/download",
+    "downloads": 1527, "features": {}, "id": 210203, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/smithay-client-toolkit/0.6.5/authors",
+      "dependencies": "/api/v1/crates/smithay-client-toolkit/0.6.5/dependencies",
+      "version_downloads": "/api/v1/crates/smithay-client-toolkit/0.6.5/downloads"
+    },
+    "num": "0.6.5",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/3009227?v=4",
+      "id": 1557, "login": "vberger", "name": "Victor Berger",
+      "url": "https://github.com/vberger"
+    },
+    "readme_path": "/api/v1/crates/smithay-client-toolkit/0.6.5/readme",
+    "updated_at": "2020-02-07T12:33:06.094009+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-02-11T10:27:05.590555+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/3009227?v=4",
+          "id": 1557, "login": "vberger", "name": "Victor Berger",
+          "url": "https://github.com/vberger"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Victor Berger <victor.berger@m4x.org>"]},
+      "users": []
+    },
+    "crate": "smithay-client-toolkit", "crate_size": 102563,
+    "created_at": "2020-02-11T10:27:05.590555+00:00",
+    "dependencies": [
+      {
+        "crate_id": "andrew", "default_features": true, "downloads": 0,
+        "features": [], "id": 1145831, "kind": "normal", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 211570
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1145832, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 211570
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1145839, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 211570
+      },
+      {
+        "crate_id": "dlib", "default_features": true, "downloads": 0,
+        "features": [], "id": 1145833, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 211570
+      },
+      {
+        "crate_id": "image", "default_features": true, "downloads": 0,
+        "features": [], "id": 1145840, "kind": "dev", "optional": false,
+        "req": "^0.21", "target": null, "version_id": 211570
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1145834, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 211570
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1145835, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 211570
+      },
+      {
+        "crate_id": "nix", "default_features": true, "downloads": 0,
+        "features": [], "id": 1145836, "kind": "normal", "optional": false,
+        "req": "^0.14.1", "target": null, "version_id": 211570
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["dlopen"], "id": 1145841,
+        "kind": "dev", "optional": false, "req": "^0.23", "target": null,
+        "version_id": 211570
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["cursor"], "id": 1145837,
+        "kind": "normal", "optional": false, "req": "^0.23", "target": null,
+        "version_id": 211570
+      },
+      {
+        "crate_id": "wayland-protocols", "default_features": true,
+        "downloads": 0, "features": ["client", "unstable_protocols"],
+        "id": 1145838, "kind": "normal", "optional": false, "req": "^0.23",
+        "target": null, "version_id": 211570
+      }
+    ],
+    "dl_path": "/api/v1/crates/smithay-client-toolkit/0.6.6/download",
+    "downloads": 207161, "features": {}, "id": 211570, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/smithay-client-toolkit/0.6.6/authors",
+      "dependencies": "/api/v1/crates/smithay-client-toolkit/0.6.6/dependencies",
+      "version_downloads": "/api/v1/crates/smithay-client-toolkit/0.6.6/downloads"
+    },
+    "num": "0.6.6",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/3009227?v=4",
+      "id": 1557, "login": "vberger", "name": "Victor Berger",
+      "url": "https://github.com/vberger"
+    },
+    "readme_path": "/api/v1/crates/smithay-client-toolkit/0.6.6/readme",
+    "updated_at": "2020-02-11T10:27:05.590555+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-02-07T15:09:45.487698+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/3009227?v=4",
+          "id": 1557, "login": "vberger", "name": "Victor Berger",
+          "url": "https://github.com/vberger"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Victor Berger <victor.berger@m4x.org>"]},
+      "users": []
+    },
+    "crate": "smithay-client-toolkit", "crate_size": 118010,
+    "created_at": "2020-02-07T15:09:45.487698+00:00",
+    "dependencies": [
+      {
+        "crate_id": "andrew", "default_features": true, "downloads": 0,
+        "features": [], "id": 1135440, "kind": "normal", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 210255
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1135441, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 210255
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1135442, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 210255
+      },
+      {
+        "crate_id": "calloop", "default_features": true, "downloads": 0,
+        "features": [], "id": 1135443, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 210255
+      },
+      {
+        "crate_id": "dlib", "default_features": true, "downloads": 0,
+        "features": [], "id": 1135444, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 210255
+      },
+      {
+        "crate_id": "image", "default_features": true, "downloads": 0,
+        "features": [], "id": 1135452, "kind": "dev", "optional": false,
+        "req": "^0.22", "target": null, "version_id": 210255
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1135445, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 210255
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1135446, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 210255
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1135447, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 210255
+      },
+      {
+        "crate_id": "nix", "default_features": true, "downloads": 0,
+        "features": [], "id": 1135448, "kind": "normal", "optional": false,
+        "req": "^0.17", "target": null, "version_id": 210255
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["dlopen"], "id": 1135453,
+        "kind": "dev", "optional": false, "req": "^0.25", "target": null,
+        "version_id": 210255
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": [], "id": 1135449, "kind": "normal",
+        "optional": false, "req": "^0.25", "target": null,
+        "version_id": 210255
+      },
+      {
+        "crate_id": "wayland-cursor", "default_features": true,
+        "downloads": 0, "features": [], "id": 1135450, "kind": "normal",
+        "optional": false, "req": "^0.25", "target": null,
+        "version_id": 210255
+      },
+      {
+        "crate_id": "wayland-protocols", "default_features": true,
+        "downloads": 0, "features": ["client", "unstable_protocols"],
+        "id": 1135451, "kind": "normal", "optional": false, "req": "^0.25",
+        "target": null, "version_id": 210255
+      }
+    ],
+    "dl_path": "/api/v1/crates/smithay-client-toolkit/0.7.0/download",
+    "downloads": 94, "features": {}, "id": 210255, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/smithay-client-toolkit/0.7.0/authors",
+      "dependencies": "/api/v1/crates/smithay-client-toolkit/0.7.0/dependencies",
+      "version_downloads": "/api/v1/crates/smithay-client-toolkit/0.7.0/downloads"
+    },
+    "num": "0.7.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/3009227?v=4",
+      "id": 1557, "login": "vberger", "name": "Victor Berger",
+      "url": "https://github.com/vberger"
+    },
+    "readme_path": "/api/v1/crates/smithay-client-toolkit/0.7.0/readme",
+    "updated_at": "2020-02-07T15:09:45.487698+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-02-27T22:11:57.263643+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/3009227?v=4",
+          "id": 1557, "login": "vberger", "name": "Victor Berger",
+          "url": "https://github.com/vberger"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Victor Berger <victor.berger@m4x.org>"]},
+      "users": []
+    },
+    "crate": "smithay-client-toolkit", "crate_size": 120548,
+    "created_at": "2020-02-27T22:11:57.263643+00:00",
+    "dependencies": [
+      {
+        "crate_id": "andrew", "default_features": true, "downloads": 0,
+        "features": [], "id": 1181150, "kind": "normal", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 216283
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1181151, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 216283
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1181152, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 216283
+      },
+      {
+        "crate_id": "calloop", "default_features": true, "downloads": 0,
+        "features": [], "id": 1181153, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 216283
+      },
+      {
+        "crate_id": "dlib", "default_features": true, "downloads": 0,
+        "features": [], "id": 1181154, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 216283
+      },
+      {
+        "crate_id": "image", "default_features": true, "downloads": 0,
+        "features": [], "id": 1181162, "kind": "dev", "optional": false,
+        "req": "^0.22", "target": null, "version_id": 216283
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1181155, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 216283
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1181156, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 216283
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1181157, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 216283
+      },
+      {
+        "crate_id": "nix", "default_features": true, "downloads": 0,
+        "features": [], "id": 1181158, "kind": "normal", "optional": false,
+        "req": "^0.17", "target": null, "version_id": 216283
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["dlopen"], "id": 1181163,
+        "kind": "dev", "optional": false, "req": "^0.25", "target": null,
+        "version_id": 216283
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": [], "id": 1181159, "kind": "normal",
+        "optional": false, "req": "^0.25", "target": null,
+        "version_id": 216283
+      },
+      {
+        "crate_id": "wayland-cursor", "default_features": true,
+        "downloads": 0, "features": [], "id": 1181160, "kind": "normal",
+        "optional": false, "req": "^0.25", "target": null,
+        "version_id": 216283
+      },
+      {
+        "crate_id": "wayland-protocols", "default_features": true,
+        "downloads": 0, "features": ["client", "unstable_protocols"],
+        "id": 1181161, "kind": "normal", "optional": false, "req": "^0.25",
+        "target": null, "version_id": 216283
+      }
+    ],
+    "dl_path": "/api/v1/crates/smithay-client-toolkit/0.8.0/download",
+    "downloads": 606, "features": {}, "id": 216283, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/smithay-client-toolkit/0.8.0/authors",
+      "dependencies": "/api/v1/crates/smithay-client-toolkit/0.8.0/dependencies",
+      "version_downloads": "/api/v1/crates/smithay-client-toolkit/0.8.0/downloads"
+    },
+    "num": "0.8.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/3009227?v=4",
+      "id": 1557, "login": "vberger", "name": "Victor Berger",
+      "url": "https://github.com/vberger"
+    },
+    "readme_path": "/api/v1/crates/smithay-client-toolkit/0.8.0/readme",
+    "updated_at": "2020-02-27T22:11:57.263643+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-04-09T09:21:47.946875+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/3009227?v=4",
+          "id": 1557, "login": "vberger", "name": "Victor Berger",
+          "url": "https://github.com/vberger"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Victor Berger <victor.berger@m4x.org>"]},
+      "users": []
+    },
+    "crate": "smithay-client-toolkit", "crate_size": 123272,
+    "created_at": "2020-04-09T09:21:47.946875+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1278284, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 229243
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1278285, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 229243
+      },
+      {
+        "crate_id": "dlib", "default_features": true, "downloads": 0,
+        "features": [], "id": 1278287, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 229243
+      },
+      {
+        "crate_id": "image", "default_features": true, "downloads": 0,
+        "features": [], "id": 1278295, "kind": "dev", "optional": false,
+        "req": "^0.22", "target": null, "version_id": 229243
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1278288, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 229243
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1278289, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 229243
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1278290, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 229243
+      },
+      {
+        "crate_id": "nix", "default_features": true, "downloads": 0,
+        "features": [], "id": 1278291, "kind": "normal", "optional": false,
+        "req": "^0.17", "target": null, "version_id": 229243
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["dlopen"], "id": 1278296,
+        "kind": "dev", "optional": false, "req": "^0.25", "target": null,
+        "version_id": 229243
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": [], "id": 1278292, "kind": "normal",
+        "optional": false, "req": "^0.25", "target": null,
+        "version_id": 229243
+      },
+      {
+        "crate_id": "wayland-cursor", "default_features": true,
+        "downloads": 0, "features": [], "id": 1278293, "kind": "normal",
+        "optional": false, "req": "^0.25", "target": null,
+        "version_id": 229243
+      },
+      {
+        "crate_id": "wayland-protocols", "default_features": true,
+        "downloads": 0, "features": ["client", "unstable_protocols"],
+        "id": 1278294, "kind": "normal", "optional": false, "req": "^0.25",
+        "target": null, "version_id": 229243
+      },
+      {
+        "crate_id": "andrew", "default_features": true, "downloads": 0,
+        "features": [], "id": 1278283, "kind": "normal", "optional": true,
+        "req": "^0.2.0", "target": null, "version_id": 229243
+      },
+      {
+        "crate_id": "calloop", "default_features": true, "downloads": 0,
+        "features": [], "id": 1278286, "kind": "normal", "optional": true,
+        "req": "^0.5", "target": null, "version_id": 229243
+      }
+    ],
+    "dl_path": "/api/v1/crates/smithay-client-toolkit/0.8.1/download",
+    "downloads": 111,
+    "features": {"default": ["frames", "calloop"], "frames": ["andrew"]},
+    "id": 229243, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/smithay-client-toolkit/0.8.1/authors",
+      "dependencies": "/api/v1/crates/smithay-client-toolkit/0.8.1/dependencies",
+      "version_downloads": "/api/v1/crates/smithay-client-toolkit/0.8.1/downloads"
+    },
+    "num": "0.8.1",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/3009227?v=4",
+      "id": 1557, "login": "vberger", "name": "Victor Berger",
+      "url": "https://github.com/vberger"
+    },
+    "readme_path": "/api/v1/crates/smithay-client-toolkit/0.8.1/readme",
+    "updated_at": "2020-04-09T09:21:47.946875+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-04-22T15:56:45.614527+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/3009227?v=4",
+          "id": 1557, "login": "vberger", "name": "Victor Berger",
+          "url": "https://github.com/vberger"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Victor Berger <victor.berger@m4x.org>"]},
+      "users": []
+    },
+    "crate": "smithay-client-toolkit", "crate_size": 122297,
+    "created_at": "2020-04-22T15:56:45.614527+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1311816, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 233797
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1311817, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 233797
+      },
+      {
+        "crate_id": "dlib", "default_features": true, "downloads": 0,
+        "features": [], "id": 1311819, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 233797
+      },
+      {
+        "crate_id": "image", "default_features": true, "downloads": 0,
+        "features": [], "id": 1311827, "kind": "dev", "optional": false,
+        "req": "^0.23", "target": null, "version_id": 233797
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1311820, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 233797
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1311821, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 233797
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1311822, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 233797
+      },
+      {
+        "crate_id": "nix", "default_features": true, "downloads": 0,
+        "features": [], "id": 1311823, "kind": "normal", "optional": false,
+        "req": "^0.17", "target": null, "version_id": 233797
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["dlopen"], "id": 1311828,
+        "kind": "dev", "optional": false, "req": "^0.26", "target": null,
+        "version_id": 233797
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": [], "id": 1311824, "kind": "normal",
+        "optional": false, "req": "^0.26", "target": null,
+        "version_id": 233797
+      },
+      {
+        "crate_id": "wayland-cursor", "default_features": true,
+        "downloads": 0, "features": [], "id": 1311825, "kind": "normal",
+        "optional": false, "req": "^0.26.3", "target": null,
+        "version_id": 233797
+      },
+      {
+        "crate_id": "wayland-protocols", "default_features": true,
+        "downloads": 0, "features": ["client", "unstable_protocols"],
+        "id": 1311826, "kind": "normal", "optional": false, "req": "^0.26",
+        "target": null, "version_id": 233797
+      },
+      {
+        "crate_id": "andrew", "default_features": true, "downloads": 0,
+        "features": [], "id": 1311815, "kind": "normal", "optional": true,
+        "req": "^0.2.0", "target": null, "version_id": 233797
+      },
+      {
+        "crate_id": "calloop", "default_features": true, "downloads": 0,
+        "features": [], "id": 1311818, "kind": "normal", "optional": true,
+        "req": "^0.6.1", "target": null, "version_id": 233797
+      }
+    ],
+    "dl_path": "/api/v1/crates/smithay-client-toolkit/0.9.0/download",
+    "downloads": 235,
+    "features": {"default": ["frames", "calloop"], "frames": ["andrew"]},
+    "id": 233797, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/smithay-client-toolkit/0.9.0/authors",
+      "dependencies": "/api/v1/crates/smithay-client-toolkit/0.9.0/dependencies",
+      "version_downloads": "/api/v1/crates/smithay-client-toolkit/0.9.0/downloads"
+    },
+    "num": "0.9.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/3009227?v=4",
+      "id": 1557, "login": "vberger", "name": "Victor Berger",
+      "url": "https://github.com/vberger"
+    },
+    "readme_path": "/api/v1/crates/smithay-client-toolkit/0.9.0/readme",
+    "updated_at": "2020-04-22T15:56:45.614527+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-05-03T09:31:37.253778+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/3009227?v=4",
+          "id": 1557, "login": "vberger", "name": "Victor Berger",
+          "url": "https://github.com/vberger"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Victor Berger <victor.berger@m4x.org>"]},
+      "users": []
+    },
+    "crate": "smithay-client-toolkit", "crate_size": 128628,
+    "created_at": "2020-05-03T09:31:37.253778+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1337142, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 237340
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1337143, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 237340
+      },
+      {
+        "crate_id": "dlib", "default_features": true, "downloads": 0,
+        "features": [], "id": 1337145, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 237340
+      },
+      {
+        "crate_id": "image", "default_features": true, "downloads": 0,
+        "features": [], "id": 1337153, "kind": "dev", "optional": false,
+        "req": "^0.23", "target": null, "version_id": 237340
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1337146, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 237340
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1337147, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 237340
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1337148, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 237340
+      },
+      {
+        "crate_id": "nix", "default_features": true, "downloads": 0,
+        "features": [], "id": 1337149, "kind": "normal", "optional": false,
+        "req": "^0.17", "target": null, "version_id": 237340
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": ["dlopen"], "id": 1337154,
+        "kind": "dev", "optional": false, "req": "^0.26", "target": null,
+        "version_id": 237340
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": [], "id": 1337150, "kind": "normal",
+        "optional": false, "req": "^0.26", "target": null,
+        "version_id": 237340
+      },
+      {
+        "crate_id": "wayland-cursor", "default_features": true,
+        "downloads": 0, "features": [], "id": 1337151, "kind": "normal",
+        "optional": false, "req": "^0.26.3", "target": null,
+        "version_id": 237340
+      },
+      {
+        "crate_id": "wayland-protocols", "default_features": true,
+        "downloads": 0, "features": ["client", "unstable_protocols"],
+        "id": 1337152, "kind": "normal", "optional": false, "req": "^0.26",
+        "target": null, "version_id": 237340
+      },
+      {
+        "crate_id": "andrew", "default_features": true, "downloads": 0,
+        "features": [], "id": 1337141, "kind": "normal", "optional": true,
+        "req": "^0.2.0", "target": null, "version_id": 237340
+      },
+      {
+        "crate_id": "calloop", "default_features": true, "downloads": 0,
+        "features": [], "id": 1337144, "kind": "normal", "optional": true,
+        "req": "^0.6.1", "target": null, "version_id": 237340
+      }
+    ],
+    "dl_path": "/api/v1/crates/smithay-client-toolkit/0.9.1/download",
+    "downloads": 8457,
+    "features": {"default": ["frames", "calloop"], "frames": ["andrew"]},
+    "id": 237340, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/smithay-client-toolkit/0.9.1/authors",
+      "dependencies": "/api/v1/crates/smithay-client-toolkit/0.9.1/dependencies",
+      "version_downloads": "/api/v1/crates/smithay-client-toolkit/0.9.1/downloads"
+    },
+    "num": "0.9.1",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/3009227?v=4",
+      "id": 1557, "login": "vberger", "name": "Victor Berger",
+      "url": "https://github.com/vberger"
+    },
+    "readme_path": "/api/v1/crates/smithay-client-toolkit/0.9.1/readme",
+    "updated_at": "2020-05-03T09:31:37.253778+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-07-10T18:32:05.995228+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/3009227?v=4",
+          "id": 1557, "login": "vberger", "name": "Victor Berger",
+          "url": "https://github.com/vberger"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Victor Berger <victor.berger@m4x.org>"]},
+      "users": []
+    },
+    "crate": "smithay-client-toolkit", "crate_size": 127492,
+    "created_at": "2020-07-10T18:32:05.995228+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1515340, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 261196
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1515341, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 261196
+      },
+      {
+        "crate_id": "dlib", "default_features": true, "downloads": 0,
+        "features": [], "id": 1515343, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 261196
+      },
+      {
+        "crate_id": "image", "default_features": true, "downloads": 0,
+        "features": [], "id": 1515351, "kind": "dev", "optional": false,
+        "req": "^0.23", "target": null, "version_id": 261196
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1515344, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 261196
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1515345, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 261196
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1515346, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 261196
+      },
+      {
+        "crate_id": "nix", "default_features": true, "downloads": 0,
+        "features": [], "id": 1515347, "kind": "normal", "optional": false,
+        "req": "^0.17", "target": null, "version_id": 261196
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": [], "id": 1515348, "kind": "normal",
+        "optional": false, "req": "^0.27", "target": null,
+        "version_id": 261196
+      },
+      {
+        "crate_id": "wayland-cursor", "default_features": true,
+        "downloads": 0, "features": [], "id": 1515349, "kind": "normal",
+        "optional": false, "req": "^0.27", "target": null,
+        "version_id": 261196
+      },
+      {
+        "crate_id": "wayland-protocols", "default_features": true,
+        "downloads": 0, "features": ["client", "unstable_protocols"],
+        "id": 1515350, "kind": "normal", "optional": false, "req": "^0.27",
+        "target": null, "version_id": 261196
+      },
+      {
+        "crate_id": "andrew", "default_features": true, "downloads": 0,
+        "features": [], "id": 1515339, "kind": "normal", "optional": true,
+        "req": "^0.3.0", "target": null, "version_id": 261196
+      },
+      {
+        "crate_id": "calloop", "default_features": true, "downloads": 0,
+        "features": [], "id": 1515342, "kind": "normal", "optional": true,
+        "req": "^0.6.1", "target": null, "version_id": 261196
+      }
+    ],
+    "dl_path": "/api/v1/crates/smithay-client-toolkit/0.10.0/download",
+    "downloads": 15345,
+    "features": {"default": ["frames", "calloop"], "frames": ["andrew"]},
+    "id": 261196, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/smithay-client-toolkit/0.10.0/authors",
+      "dependencies": "/api/v1/crates/smithay-client-toolkit/0.10.0/dependencies",
+      "version_downloads": "/api/v1/crates/smithay-client-toolkit/0.10.0/downloads"
+    },
+    "num": "0.10.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/3009227?v=4",
+      "id": 1557, "login": "vberger", "name": "Victor Berger",
+      "url": "https://github.com/vberger"
+    },
+    "readme_path": "/api/v1/crates/smithay-client-toolkit/0.10.0/readme",
+    "updated_at": "2020-07-10T18:32:05.995228+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-08-30T16:23:27.513941+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/3009227?v=4",
+          "id": 1557, "login": "vberger", "name": "Victor Berger",
+          "url": "https://github.com/vberger"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Victor Berger <victor.berger@m4x.org>"]},
+      "users": []
+    },
+    "crate": "smithay-client-toolkit", "crate_size": 130281,
+    "created_at": "2020-08-30T16:23:27.513941+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1643537, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 278303
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1643538, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 278303
+      },
+      {
+        "crate_id": "dlib", "default_features": true, "downloads": 0,
+        "features": [], "id": 1643540, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 278303
+      },
+      {
+        "crate_id": "image", "default_features": true, "downloads": 0,
+        "features": [], "id": 1643548, "kind": "dev", "optional": false,
+        "req": "^0.23", "target": null, "version_id": 278303
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1643541, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 278303
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1643542, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 278303
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1643543, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 278303
+      },
+      {
+        "crate_id": "nix", "default_features": true, "downloads": 0,
+        "features": [], "id": 1643544, "kind": "normal", "optional": false,
+        "req": "^0.18", "target": null, "version_id": 278303
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": [], "id": 1643545, "kind": "normal",
+        "optional": false, "req": "^0.27", "target": null,
+        "version_id": 278303
+      },
+      {
+        "crate_id": "wayland-cursor", "default_features": true,
+        "downloads": 0, "features": [], "id": 1643546, "kind": "normal",
+        "optional": false, "req": "^0.27", "target": null,
+        "version_id": 278303
+      },
+      {
+        "crate_id": "wayland-protocols", "default_features": true,
+        "downloads": 0, "features": ["client", "unstable_protocols"],
+        "id": 1643547, "kind": "normal", "optional": false, "req": "^0.27",
+        "target": null, "version_id": 278303
+      },
+      {
+        "crate_id": "andrew", "default_features": true, "downloads": 0,
+        "features": [], "id": 1643536, "kind": "normal", "optional": true,
+        "req": "^0.3.0", "target": null, "version_id": 278303
+      },
+      {
+        "crate_id": "calloop", "default_features": true, "downloads": 0,
+        "features": [], "id": 1643539, "kind": "normal", "optional": true,
+        "req": "^0.6.1", "target": null, "version_id": 278303
+      }
+    ],
+    "dl_path": "/api/v1/crates/smithay-client-toolkit/0.11.0/download",
+    "downloads": 12940,
+    "features": {"default": ["frames", "calloop"], "frames": ["andrew"]},
+    "id": 278303, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/smithay-client-toolkit/0.11.0/authors",
+      "dependencies": "/api/v1/crates/smithay-client-toolkit/0.11.0/dependencies",
+      "version_downloads": "/api/v1/crates/smithay-client-toolkit/0.11.0/downloads"
+    },
+    "num": "0.11.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/3009227?v=4",
+      "id": 1557, "login": "vberger", "name": "Victor Berger",
+      "url": "https://github.com/vberger"
+    },
+    "readme_path": "/api/v1/crates/smithay-client-toolkit/0.11.0/readme",
+    "updated_at": "2020-08-30T16:23:27.513941+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-09-30T12:31:35.452570+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/3009227?v=4",
+          "id": 1557, "login": "vberger", "name": "Victor Berger",
+          "url": "https://github.com/vberger"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Victor Berger <victor.berger@m4x.org>"]},
+      "users": []
+    },
+    "crate": "smithay-client-toolkit", "crate_size": 130640,
+    "created_at": "2020-09-30T12:31:35.452570+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1725510, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 288959
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1725511, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 288959
+      },
+      {
+        "crate_id": "dlib", "default_features": true, "downloads": 0,
+        "features": [], "id": 1725513, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 288959
+      },
+      {
+        "crate_id": "image", "default_features": true, "downloads": 0,
+        "features": [], "id": 1725521, "kind": "dev", "optional": false,
+        "req": "^0.23", "target": null, "version_id": 288959
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1725514, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 288959
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1725515, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 288959
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1725516, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 288959
+      },
+      {
+        "crate_id": "nix", "default_features": true, "downloads": 0,
+        "features": [], "id": 1725517, "kind": "normal", "optional": false,
+        "req": "^0.18", "target": null, "version_id": 288959
+      },
+      {
+        "crate_id": "wayland-client", "default_features": true,
+        "downloads": 0, "features": [], "id": 1725518, "kind": "normal",
+        "optional": false, "req": "^0.28", "target": null,
+        "version_id": 288959
+      },
+      {
+        "crate_id": "wayland-cursor", "default_features": true,
+        "downloads": 0, "features": [], "id": 1725519, "kind": "normal",
+        "optional": false, "req": "^0.28", "target": null,
+        "version_id": 288959
+      },
+      {
+        "crate_id": "wayland-protocols", "default_features": true,
+        "downloads": 0, "features": ["client", "unstable_protocols"],
+        "id": 1725520, "kind": "normal", "optional": false, "req": "^0.28",
+        "target": null, "version_id": 288959
+      },
+      {
+        "crate_id": "andrew", "default_features": true, "downloads": 0,
+        "features": [], "id": 1725509, "kind": "normal", "optional": true,
+        "req": "^0.3.0", "target": null, "version_id": 288959
+      },
+      {
+        "crate_id": "calloop", "default_features": true, "downloads": 0,
+        "features": [], "id": 1725512, "kind": "normal", "optional": true,
+        "req": "^0.6.1", "target": null, "version_id": 288959
+      }
+    ],
+    "dl_path": "/api/v1/crates/smithay-client-toolkit/0.12.0/download",
+    "downloads": 22730,
+    "features": {"default": ["frames", "calloop"], "frames": ["andrew"]},
+    "id": 288959, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/smithay-client-toolkit/0.12.0/authors",
+      "dependencies": "/api/v1/crates/smithay-client-toolkit/0.12.0/dependencies",
+      "version_downloads": "/api/v1/crates/smithay-client-toolkit/0.12.0/downloads"
+    },
+    "num": "0.12.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/3009227?v=4",
+      "id": 1557, "login": "vberger", "name": "Victor Berger",
+      "url": "https://github.com/vberger"
+    },
+    "readme_path": "/api/v1/crates/smithay-client-toolkit/0.12.0/readme",
+    "updated_at": "2020-09-30T12:31:35.452570+00:00", "yanked": false
+  }
+]

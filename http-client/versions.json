@@ -1,0 +1,1464 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["."]}, "users": []},
+    "crate": "http-client", "crate_size": 818,
+    "created_at": "2019-03-29T16:25:14.750392+00:00",
+    "dependencies": [],
+    "dl_path": "/api/v1/crates/http-client/0.0.0/download",
+    "downloads": 184, "features": {}, "id": 142125,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/http-client/0.0.0/authors",
+      "dependencies": "/api/v1/crates/http-client/0.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/http-client/0.0.0/downloads"
+    },
+    "num": "0.0.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+      "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+      "url": "https://github.com/yoshuawuyts"
+    },
+    "readme_path": "/api/v1/crates/http-client/0.0.0/readme",
+    "updated_at": "2019-03-29T16:25:14.750392+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]},
+      "users": []
+    },
+    "crate": "http-client", "crate_size": 13089,
+    "created_at": "2019-11-19T16:31:31.338110+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures-preview", "default_features": true,
+        "downloads": 0, "features": ["compat"], "id": 1001264,
+        "kind": "normal", "optional": false, "req": "^0.3.0-alpha.19",
+        "target": null, "version_id": 190704
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1001265, "kind": "normal", "optional": false,
+        "req": "^0.1.19", "target": null, "version_id": 190704
+      },
+      {
+        "crate_id": "isahc", "default_features": false, "downloads": 0,
+        "features": ["http2"], "id": 1001266, "kind": "normal",
+        "optional": true, "req": "^0.7",
+        "target": "cfg(not(target_arch = \"wasm32\"))",
+        "version_id": 190704
+      },
+      {
+        "crate_id": "js-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1001267, "kind": "normal", "optional": true,
+        "req": "^0.3.25", "target": "cfg(target_arch = \"wasm32\")",
+        "version_id": 190704
+      },
+      {
+        "crate_id": "wasm-bindgen", "default_features": true,
+        "downloads": 0, "features": [], "id": 1001268, "kind": "normal",
+        "optional": true, "req": "^0.2.48",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 190704
+      },
+      {
+        "crate_id": "wasm-bindgen-futures", "default_features": true,
+        "downloads": 0, "features": ["futures_0_3"], "id": 1001269,
+        "kind": "normal", "optional": true, "req": "^0.3.25",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 190704
+      },
+      {
+        "crate_id": "web-sys", "default_features": true, "downloads": 0,
+        "features": [
+          "AbortSignal", "Headers", "ObserverCallback", "ReferrerPolicy",
+          "Request", "RequestCache", "RequestCredentials", "RequestInit",
+          "RequestMode", "RequestRedirect", "Response", "Window"
+        ],
+        "id": 1001270, "kind": "normal", "optional": true, "req": "^0.3.25",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 190704
+      }
+    ],
+    "dl_path": "/api/v1/crates/http-client/1.0.0/download",
+    "downloads": 467,
+    "features": {
+      "curl_client": ["isahc"], "docs": ["native_client"],
+      "native_client": ["curl_client", "wasm_client"],
+      "wasm_client": ["js-sys", "web-sys", "wasm-bindgen", "wasm-bindgen-futures"]
+    },
+    "id": 190704, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/http-client/1.0.0/authors",
+      "dependencies": "/api/v1/crates/http-client/1.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/http-client/1.0.0/downloads"
+    },
+    "num": "1.0.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+      "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+      "url": "https://github.com/yoshuawuyts"
+    },
+    "readme_path": "/api/v1/crates/http-client/1.0.0/readme",
+    "updated_at": "2019-11-19T16:31:31.338110+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2019-12-17T16:23:48.991421+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+          "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+          "url": "https://github.com/yoshuawuyts"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]},
+      "users": []
+    },
+    "crate": "http-client", "crate_size": 13020,
+    "created_at": "2019-12-17T16:23:48.991421+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": ["compat", "io-compat"], "id": 1043666,
+        "kind": "normal", "optional": false, "req": "^0.3.1",
+        "target": null, "version_id": 196994
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1043667, "kind": "normal", "optional": false,
+        "req": "^0.1.19", "target": null, "version_id": 196994
+      },
+      {
+        "crate_id": "isahc", "default_features": false, "downloads": 0,
+        "features": ["http2"], "id": 1043668, "kind": "normal",
+        "optional": true, "req": "^0.8",
+        "target": "cfg(not(target_arch = \"wasm32\"))",
+        "version_id": 196994
+      },
+      {
+        "crate_id": "js-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1043669, "kind": "normal", "optional": true,
+        "req": "^0.3.25", "target": "cfg(target_arch = \"wasm32\")",
+        "version_id": 196994
+      },
+      {
+        "crate_id": "wasm-bindgen", "default_features": true,
+        "downloads": 0, "features": [], "id": 1043670, "kind": "normal",
+        "optional": true, "req": "^0.2.48",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 196994
+      },
+      {
+        "crate_id": "wasm-bindgen-futures", "default_features": true,
+        "downloads": 0, "features": [], "id": 1043671, "kind": "normal",
+        "optional": true, "req": "^0.4.5",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 196994
+      },
+      {
+        "crate_id": "web-sys", "default_features": true, "downloads": 0,
+        "features": [
+          "AbortSignal", "Headers", "ObserverCallback", "ReferrerPolicy",
+          "Request", "RequestCache", "RequestCredentials", "RequestInit",
+          "RequestMode", "RequestRedirect", "Response", "Window"
+        ],
+        "id": 1043672, "kind": "normal", "optional": true, "req": "^0.3.25",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 196994
+      }
+    ],
+    "dl_path": "/api/v1/crates/http-client/1.1.0/download",
+    "downloads": 94,
+    "features": {
+      "curl_client": ["isahc"], "docs": ["native_client"],
+      "native_client": ["curl_client", "wasm_client"],
+      "wasm_client": ["js-sys", "web-sys", "wasm-bindgen", "wasm-bindgen-futures"]
+    },
+    "id": 196994, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/http-client/1.1.0/authors",
+      "dependencies": "/api/v1/crates/http-client/1.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/http-client/1.1.0/downloads"
+    },
+    "num": "1.1.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+      "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+      "url": "https://github.com/yoshuawuyts"
+    },
+    "readme_path": "/api/v1/crates/http-client/1.1.0/readme",
+    "updated_at": "2019-12-17T16:23:48.991421+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2019-12-17T16:25:38.909028+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+          "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+          "url": "https://github.com/yoshuawuyts"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]},
+      "users": []
+    },
+    "crate": "http-client", "crate_size": 13100,
+    "created_at": "2019-12-17T16:25:38.909028+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": ["compat", "io-compat"], "id": 1043673,
+        "kind": "normal", "optional": false, "req": "^0.3.1",
+        "target": null, "version_id": 196995
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1043674, "kind": "normal", "optional": false,
+        "req": "^0.1.19", "target": null, "version_id": 196995
+      },
+      {
+        "crate_id": "isahc", "default_features": false, "downloads": 0,
+        "features": ["http2"], "id": 1043675, "kind": "normal",
+        "optional": true, "req": "^0.8",
+        "target": "cfg(not(target_arch = \"wasm32\"))",
+        "version_id": 196995
+      },
+      {
+        "crate_id": "js-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1043676, "kind": "normal", "optional": true,
+        "req": "^0.3.25", "target": "cfg(target_arch = \"wasm32\")",
+        "version_id": 196995
+      },
+      {
+        "crate_id": "wasm-bindgen", "default_features": true,
+        "downloads": 0, "features": [], "id": 1043677, "kind": "normal",
+        "optional": true, "req": "^0.2.48",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 196995
+      },
+      {
+        "crate_id": "wasm-bindgen-futures", "default_features": true,
+        "downloads": 0, "features": [], "id": 1043678, "kind": "normal",
+        "optional": true, "req": "^0.4.5",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 196995
+      },
+      {
+        "crate_id": "web-sys", "default_features": true, "downloads": 0,
+        "features": [
+          "AbortSignal", "Headers", "ObserverCallback", "ReferrerPolicy",
+          "Request", "RequestCache", "RequestCredentials", "RequestInit",
+          "RequestMode", "RequestRedirect", "Response", "Window"
+        ],
+        "id": 1043679, "kind": "normal", "optional": true, "req": "^0.3.25",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 196995
+      }
+    ],
+    "dl_path": "/api/v1/crates/http-client/1.1.1/download",
+    "downloads": 44854,
+    "features": {
+      "curl_client": ["isahc"], "docs": ["native_client"],
+      "native_client": ["curl_client", "wasm_client"],
+      "wasm_client": ["js-sys", "web-sys", "wasm-bindgen", "wasm-bindgen-futures"]
+    },
+    "id": 196995, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/http-client/1.1.1/authors",
+      "dependencies": "/api/v1/crates/http-client/1.1.1/dependencies",
+      "version_downloads": "/api/v1/crates/http-client/1.1.1/downloads"
+    },
+    "num": "1.1.1",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+      "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+      "url": "https://github.com/yoshuawuyts"
+    },
+    "readme_path": "/api/v1/crates/http-client/1.1.1/readme",
+    "updated_at": "2019-12-17T16:25:38.909028+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-04-17T14:55:42.676698+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+          "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+          "url": "https://github.com/yoshuawuyts"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "dignifiedquire <me@dignifiedquire.com>",
+          "Yoshua Wuyts <yoshuawuyts@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "http-client", "crate_size": 13594,
+    "created_at": "2020-04-17T14:55:42.676698+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": ["compat", "io-compat"], "id": 1300683,
+        "kind": "normal", "optional": false, "req": "^0.3.1",
+        "target": null, "version_id": 232211
+      },
+      {
+        "crate_id": "http-types", "default_features": true, "downloads": 0,
+        "features": ["hyperium_http"], "id": 1300684, "kind": "normal",
+        "optional": false, "req": "^1.0.1", "target": null,
+        "version_id": 232211
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1300685, "kind": "normal", "optional": false,
+        "req": "^0.4.7", "target": null, "version_id": 232211
+      },
+      {
+        "crate_id": "async-h1", "default_features": true, "downloads": 0,
+        "features": [], "id": 1300680, "kind": "normal", "optional": true,
+        "req": "^1.0.0", "target": null, "version_id": 232211
+      },
+      {
+        "crate_id": "async-native-tls", "default_features": true,
+        "downloads": 0, "features": [], "id": 1300681, "kind": "normal",
+        "optional": true, "req": "^0.3.1", "target": null,
+        "version_id": 232211
+      },
+      {
+        "crate_id": "async-std", "default_features": false, "downloads": 0,
+        "features": [], "id": 1300682, "kind": "normal", "optional": true,
+        "req": "^1.4.0", "target": null, "version_id": 232211
+      },
+      {
+        "crate_id": "isahc", "default_features": false, "downloads": 0,
+        "features": ["http2"], "id": 1300686, "kind": "normal",
+        "optional": true, "req": "^0.9",
+        "target": "cfg(not(target_arch = \"wasm32\"))",
+        "version_id": 232211
+      },
+      {
+        "crate_id": "js-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1300687, "kind": "normal", "optional": true,
+        "req": "^0.3.25", "target": "cfg(target_arch = \"wasm32\")",
+        "version_id": 232211
+      },
+      {
+        "crate_id": "wasm-bindgen", "default_features": true,
+        "downloads": 0, "features": [], "id": 1300688, "kind": "normal",
+        "optional": true, "req": "^0.2.48",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 232211
+      },
+      {
+        "crate_id": "wasm-bindgen-futures", "default_features": true,
+        "downloads": 0, "features": [], "id": 1300689, "kind": "normal",
+        "optional": true, "req": "^0.4.5",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 232211
+      },
+      {
+        "crate_id": "web-sys", "default_features": true, "downloads": 0,
+        "features": [
+          "AbortSignal", "Headers", "ObserverCallback", "ReferrerPolicy",
+          "Request", "RequestCache", "RequestCredentials", "RequestInit",
+          "RequestMode", "RequestRedirect", "Response", "Window"
+        ],
+        "id": 1300690, "kind": "normal", "optional": true, "req": "^0.3.25",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 232211
+      }
+    ],
+    "dl_path": "/api/v1/crates/http-client/2.0.0/download",
+    "downloads": 24016,
+    "features": {
+      "curl_client": ["isahc", "async-std"], "default": ["h1_client"],
+      "docs": ["h1_client"],
+      "h1_client": ["async-h1", "async-std", "async-native-tls"],
+      "native_client": ["curl_client", "wasm_client"],
+      "wasm_client": ["js-sys", "web-sys", "wasm-bindgen", "wasm-bindgen-futures"]
+    },
+    "id": 232211, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/http-client/2.0.0/authors",
+      "dependencies": "/api/v1/crates/http-client/2.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/http-client/2.0.0/downloads"
+    },
+    "num": "2.0.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+      "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+      "url": "https://github.com/yoshuawuyts"
+    },
+    "readme_path": "/api/v1/crates/http-client/2.0.0/readme",
+    "updated_at": "2020-04-17T14:55:42.676698+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-05-29T16:07:24.467936+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+          "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+          "url": "https://github.com/yoshuawuyts"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "dignifiedquire <me@dignifiedquire.com>",
+          "Yoshua Wuyts <yoshuawuyts@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "http-client", "crate_size": 14184,
+    "created_at": "2020-05-29T16:07:24.467936+00:00",
+    "dependencies": [
+      {
+        "crate_id": "async-std", "default_features": true, "downloads": 0,
+        "features": ["unstable", "attributes"], "id": 1406920,
+        "kind": "dev", "optional": false, "req": "^1.6.0", "target": null,
+        "version_id": 246736
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1406917, "kind": "normal", "optional": false,
+        "req": "^0.3.1", "target": null, "version_id": 246736
+      },
+      {
+        "crate_id": "http-types", "default_features": true, "downloads": 0,
+        "features": [], "id": 1406918, "kind": "normal", "optional": false,
+        "req": "^2.0.1", "target": null, "version_id": 246736
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1406919, "kind": "normal", "optional": false,
+        "req": "^0.4.7", "target": null, "version_id": 246736
+      },
+      {
+        "crate_id": "portpicker", "default_features": true, "downloads": 0,
+        "features": [], "id": 1406921, "kind": "dev", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 246736
+      },
+      {
+        "crate_id": "tide", "default_features": true, "downloads": 0,
+        "features": [], "id": 1406922, "kind": "dev", "optional": false,
+        "req": "^0.9.0", "target": null, "version_id": 246736
+      },
+      {
+        "crate_id": "async-h1", "default_features": true, "downloads": 0,
+        "features": [], "id": 1406914, "kind": "normal", "optional": true,
+        "req": "^2.0.0", "target": null, "version_id": 246736
+      },
+      {
+        "crate_id": "async-native-tls", "default_features": true,
+        "downloads": 0, "features": [], "id": 1406915, "kind": "normal",
+        "optional": true, "req": "^0.3.1", "target": null,
+        "version_id": 246736
+      },
+      {
+        "crate_id": "async-std", "default_features": false, "downloads": 0,
+        "features": [], "id": 1406916, "kind": "normal", "optional": true,
+        "req": "^1.6.0", "target": null, "version_id": 246736
+      },
+      {
+        "crate_id": "isahc", "default_features": false, "downloads": 0,
+        "features": ["http2"], "id": 1406923, "kind": "normal",
+        "optional": true, "req": "^0.9",
+        "target": "cfg(not(target_arch = \"wasm32\"))",
+        "version_id": 246736
+      },
+      {
+        "crate_id": "js-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1406924, "kind": "normal", "optional": true,
+        "req": "^0.3.25", "target": "cfg(target_arch = \"wasm32\")",
+        "version_id": 246736
+      },
+      {
+        "crate_id": "wasm-bindgen", "default_features": true,
+        "downloads": 0, "features": [], "id": 1406925, "kind": "normal",
+        "optional": true, "req": "^0.2.48",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 246736
+      },
+      {
+        "crate_id": "wasm-bindgen-futures", "default_features": true,
+        "downloads": 0, "features": [], "id": 1406926, "kind": "normal",
+        "optional": true, "req": "^0.4.5",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 246736
+      },
+      {
+        "crate_id": "web-sys", "default_features": true, "downloads": 0,
+        "features": [
+          "AbortSignal", "Headers", "ObserverCallback", "ReferrerPolicy",
+          "Request", "RequestCache", "RequestCredentials", "RequestInit",
+          "RequestMode", "RequestRedirect", "Response", "Window"
+        ],
+        "id": 1406927, "kind": "normal", "optional": true, "req": "^0.3.25",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 246736
+      }
+    ],
+    "dl_path": "/api/v1/crates/http-client/3.0.0/download",
+    "downloads": 31027,
+    "features": {
+      "curl_client": ["isahc", "async-std"], "default": ["h1_client"],
+      "docs": ["h1_client"],
+      "h1_client": ["async-h1", "async-std", "async-native-tls"],
+      "native_client": ["curl_client", "wasm_client"],
+      "wasm_client": ["js-sys", "web-sys", "wasm-bindgen", "wasm-bindgen-futures"]
+    },
+    "id": 246736, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/http-client/3.0.0/authors",
+      "dependencies": "/api/v1/crates/http-client/3.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/http-client/3.0.0/downloads"
+    },
+    "num": "3.0.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+      "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+      "url": "https://github.com/yoshuawuyts"
+    },
+    "readme_path": "/api/v1/crates/http-client/3.0.0/readme",
+    "updated_at": "2020-05-29T16:07:24.467936+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-07-09T19:22:44.994776+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/1093990?v=4",
+          "id": 76725, "login": "Fishrock123", "name": "Jeremiah Senkpiel",
+          "url": "https://github.com/Fishrock123"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "dignifiedquire <me@dignifiedquire.com>",
+          "Yoshua Wuyts <yoshuawuyts@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "http-client", "crate_size": 14100,
+    "created_at": "2020-07-09T19:22:44.994776+00:00",
+    "dependencies": [
+      {
+        "crate_id": "async-std", "default_features": true, "downloads": 0,
+        "features": ["unstable", "attributes"], "id": 1508744,
+        "kind": "dev", "optional": false, "req": "^1.6.0", "target": null,
+        "version_id": 260441
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1508741, "kind": "normal", "optional": false,
+        "req": "^0.3.1", "target": null, "version_id": 260441
+      },
+      {
+        "crate_id": "http-types", "default_features": true, "downloads": 0,
+        "features": [], "id": 1508742, "kind": "normal", "optional": false,
+        "req": "^2.0.1", "target": null, "version_id": 260441
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1508743, "kind": "normal", "optional": false,
+        "req": "^0.4.7", "target": null, "version_id": 260441
+      },
+      {
+        "crate_id": "portpicker", "default_features": true, "downloads": 0,
+        "features": [], "id": 1508745, "kind": "dev", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 260441
+      },
+      {
+        "crate_id": "tide", "default_features": true, "downloads": 0,
+        "features": [], "id": 1508746, "kind": "dev", "optional": false,
+        "req": "^0.9.0", "target": null, "version_id": 260441
+      },
+      {
+        "crate_id": "async-h1", "default_features": true, "downloads": 0,
+        "features": [], "id": 1508738, "kind": "normal", "optional": true,
+        "req": "^2.0.0", "target": null, "version_id": 260441
+      },
+      {
+        "crate_id": "async-native-tls", "default_features": true,
+        "downloads": 0, "features": [], "id": 1508739, "kind": "normal",
+        "optional": true, "req": "^0.3.1", "target": null,
+        "version_id": 260441
+      },
+      {
+        "crate_id": "async-std", "default_features": false, "downloads": 0,
+        "features": [], "id": 1508740, "kind": "normal", "optional": true,
+        "req": "^1.6.0", "target": null, "version_id": 260441
+      },
+      {
+        "crate_id": "isahc", "default_features": false, "downloads": 0,
+        "features": ["http2"], "id": 1508747, "kind": "normal",
+        "optional": true, "req": "^0.9",
+        "target": "cfg(not(target_arch = \"wasm32\"))",
+        "version_id": 260441
+      },
+      {
+        "crate_id": "js-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1508748, "kind": "normal", "optional": true,
+        "req": "^0.3.25", "target": "cfg(target_arch = \"wasm32\")",
+        "version_id": 260441
+      },
+      {
+        "crate_id": "wasm-bindgen", "default_features": true,
+        "downloads": 0, "features": [], "id": 1508749, "kind": "normal",
+        "optional": true, "req": "^0.2.48",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 260441
+      },
+      {
+        "crate_id": "wasm-bindgen-futures", "default_features": true,
+        "downloads": 0, "features": [], "id": 1508750, "kind": "normal",
+        "optional": true, "req": "^0.4.5",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 260441
+      },
+      {
+        "crate_id": "web-sys", "default_features": true, "downloads": 0,
+        "features": [
+          "AbortSignal", "Headers", "ObserverCallback", "ReferrerPolicy",
+          "Request", "RequestCache", "RequestCredentials", "RequestInit",
+          "RequestMode", "RequestRedirect", "Response", "Window"
+        ],
+        "id": 1508751, "kind": "normal", "optional": true, "req": "^0.3.25",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 260441
+      }
+    ],
+    "dl_path": "/api/v1/crates/http-client/4.0.0/download",
+    "downloads": 9239,
+    "features": {
+      "curl_client": ["isahc", "async-std"], "default": ["h1_client"],
+      "docs": ["h1_client"],
+      "h1_client": ["async-h1", "async-std", "async-native-tls"],
+      "native_client": ["curl_client", "wasm_client"],
+      "wasm_client": ["js-sys", "web-sys", "wasm-bindgen", "wasm-bindgen-futures"]
+    },
+    "id": 260441, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/http-client/4.0.0/authors",
+      "dependencies": "/api/v1/crates/http-client/4.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/http-client/4.0.0/downloads"
+    },
+    "num": "4.0.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/1093990?v=4",
+      "id": 76725, "login": "Fishrock123", "name": "Jeremiah Senkpiel",
+      "url": "https://github.com/Fishrock123"
+    },
+    "readme_path": "/api/v1/crates/http-client/4.0.0/readme",
+    "updated_at": "2020-07-09T19:22:44.994776+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-09-18T17:36:49.629576+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/1093990?v=4",
+          "id": 76725, "login": "Fishrock123", "name": "Jeremiah Senkpiel",
+          "url": "https://github.com/Fishrock123"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "dignifiedquire <me@dignifiedquire.com>",
+          "Yoshua Wuyts <yoshuawuyts@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "http-client", "crate_size": 16770,
+    "created_at": "2020-09-18T17:36:49.629576+00:00",
+    "dependencies": [
+      {
+        "crate_id": "async-std", "default_features": true, "downloads": 0,
+        "features": ["unstable", "attributes"], "id": 1695818,
+        "kind": "dev", "optional": false, "req": "^1.6.0", "target": null,
+        "version_id": 284990
+      },
+      {
+        "crate_id": "async-trait", "default_features": true, "downloads": 0,
+        "features": [], "id": 1695813, "kind": "normal", "optional": false,
+        "req": "^0.1.37", "target": null, "version_id": 284990
+      },
+      {
+        "crate_id": "http-types", "default_features": true, "downloads": 0,
+        "features": [], "id": 1695814, "kind": "normal", "optional": false,
+        "req": "^2.3.0", "target": null, "version_id": 284990
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1695817, "kind": "normal", "optional": false,
+        "req": "^0.4.7", "target": null, "version_id": 284990
+      },
+      {
+        "crate_id": "portpicker", "default_features": true, "downloads": 0,
+        "features": [], "id": 1695819, "kind": "dev", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 284990
+      },
+      {
+        "crate_id": "tide", "default_features": true, "downloads": 0,
+        "features": [], "id": 1695820, "kind": "dev", "optional": false,
+        "req": "^0.9.0", "target": null, "version_id": 284990
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["macros"], "id": 1695821, "kind": "dev",
+        "optional": false, "req": "^0.2.21", "target": null,
+        "version_id": 284990
+      },
+      {
+        "crate_id": "async-h1", "default_features": true, "downloads": 0,
+        "features": [], "id": 1695810, "kind": "normal", "optional": true,
+        "req": "^2.0.0", "target": null, "version_id": 284990
+      },
+      {
+        "crate_id": "async-native-tls", "default_features": true,
+        "downloads": 0, "features": [], "id": 1695811, "kind": "normal",
+        "optional": true, "req": "^0.3.1", "target": null,
+        "version_id": 284990
+      },
+      {
+        "crate_id": "async-std", "default_features": false, "downloads": 0,
+        "features": [], "id": 1695812, "kind": "normal", "optional": true,
+        "req": "^1.6.0", "target": null, "version_id": 284990
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1695823, "kind": "normal", "optional": true,
+        "req": "^0.3.1", "target": "cfg(target_arch = \"wasm32\")",
+        "version_id": 284990
+      },
+      {
+        "crate_id": "hyper", "default_features": true, "downloads": 0,
+        "features": ["tcp"], "id": 1695815, "kind": "normal",
+        "optional": true, "req": "^0.13.6", "target": null,
+        "version_id": 284990
+      },
+      {
+        "crate_id": "hyper-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1695816, "kind": "normal", "optional": true,
+        "req": "^0.4.3", "target": null, "version_id": 284990
+      },
+      {
+        "crate_id": "isahc", "default_features": false, "downloads": 0,
+        "features": ["http2"], "id": 1695822, "kind": "normal",
+        "optional": true, "req": "^0.9",
+        "target": "cfg(not(target_arch = \"wasm32\"))",
+        "version_id": 284990
+      },
+      {
+        "crate_id": "js-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1695824, "kind": "normal", "optional": true,
+        "req": "^0.3.25", "target": "cfg(target_arch = \"wasm32\")",
+        "version_id": 284990
+      },
+      {
+        "crate_id": "wasm-bindgen", "default_features": true,
+        "downloads": 0, "features": [], "id": 1695825, "kind": "normal",
+        "optional": true, "req": "^0.2.48",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 284990
+      },
+      {
+        "crate_id": "wasm-bindgen-futures", "default_features": true,
+        "downloads": 0, "features": [], "id": 1695826, "kind": "normal",
+        "optional": true, "req": "^0.4.5",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 284990
+      },
+      {
+        "crate_id": "web-sys", "default_features": true, "downloads": 0,
+        "features": [
+          "AbortSignal", "Headers", "ObserverCallback", "ReferrerPolicy",
+          "Request", "RequestCache", "RequestCredentials", "RequestInit",
+          "RequestMode", "RequestRedirect", "Response", "Window"
+        ],
+        "id": 1695827, "kind": "normal", "optional": true, "req": "^0.3.25",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 284990
+      }
+    ],
+    "dl_path": "/api/v1/crates/http-client/5.0.0/download",
+    "downloads": 119,
+    "features": {
+      "curl_client": ["isahc", "async-std"], "default": ["h1_client"],
+      "docs": ["h1_client"],
+      "h1_client": ["async-h1", "async-std", "async-native-tls"],
+      "hyper_client": ["hyper", "hyper-tls", "http-types/hyperium_http"],
+      "native_client": ["curl_client", "wasm_client"],
+      "wasm_client": [
+        "js-sys", "web-sys", "wasm-bindgen", "wasm-bindgen-futures",
+        "futures"
+      ]
+    },
+    "id": 284990, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/http-client/5.0.0/authors",
+      "dependencies": "/api/v1/crates/http-client/5.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/http-client/5.0.0/downloads"
+    },
+    "num": "5.0.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/1093990?v=4",
+      "id": 76725, "login": "Fishrock123", "name": "Jeremiah Senkpiel",
+      "url": "https://github.com/Fishrock123"
+    },
+    "readme_path": "/api/v1/crates/http-client/5.0.0/readme",
+    "updated_at": "2020-09-18T17:36:49.629576+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-09-18T22:46:39.181923+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/1093990?v=4",
+          "id": 76725, "login": "Fishrock123", "name": "Jeremiah Senkpiel",
+          "url": "https://github.com/Fishrock123"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "dignifiedquire <me@dignifiedquire.com>",
+          "Yoshua Wuyts <yoshuawuyts@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "http-client", "crate_size": 16993,
+    "created_at": "2020-09-18T22:46:39.181923+00:00",
+    "dependencies": [
+      {
+        "crate_id": "async-std", "default_features": true, "downloads": 0,
+        "features": ["unstable", "attributes"], "id": 1696399,
+        "kind": "dev", "optional": false, "req": "^1.6.0", "target": null,
+        "version_id": 285074
+      },
+      {
+        "crate_id": "async-trait", "default_features": true, "downloads": 0,
+        "features": [], "id": 1696393, "kind": "normal", "optional": false,
+        "req": "^0.1.37", "target": null, "version_id": 285074
+      },
+      {
+        "crate_id": "http-types", "default_features": true, "downloads": 0,
+        "features": [], "id": 1696395, "kind": "normal", "optional": false,
+        "req": "^2.3.0", "target": null, "version_id": 285074
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1696398, "kind": "normal", "optional": false,
+        "req": "^0.4.7", "target": null, "version_id": 285074
+      },
+      {
+        "crate_id": "portpicker", "default_features": true, "downloads": 0,
+        "features": [], "id": 1696400, "kind": "dev", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 285074
+      },
+      {
+        "crate_id": "tide", "default_features": true, "downloads": 0,
+        "features": [], "id": 1696401, "kind": "dev", "optional": false,
+        "req": "^0.9.0", "target": null, "version_id": 285074
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["macros"], "id": 1696402, "kind": "dev",
+        "optional": false, "req": "^0.2.21", "target": null,
+        "version_id": 285074
+      },
+      {
+        "crate_id": "async-h1", "default_features": true, "downloads": 0,
+        "features": [], "id": 1696390, "kind": "normal", "optional": true,
+        "req": "^2.0.0", "target": null, "version_id": 285074
+      },
+      {
+        "crate_id": "async-native-tls", "default_features": true,
+        "downloads": 0, "features": [], "id": 1696391, "kind": "normal",
+        "optional": true, "req": "^0.3.1", "target": null,
+        "version_id": 285074
+      },
+      {
+        "crate_id": "async-std", "default_features": false, "downloads": 0,
+        "features": [], "id": 1696392, "kind": "normal", "optional": true,
+        "req": "^1.6.0", "target": null, "version_id": 285074
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1696404, "kind": "normal", "optional": true,
+        "req": "^0.3.1", "target": "cfg(target_arch = \"wasm32\")",
+        "version_id": 285074
+      },
+      {
+        "crate_id": "futures-util", "default_features": true,
+        "downloads": 0, "features": [], "id": 1696394, "kind": "normal",
+        "optional": true, "req": "^0.3.5", "target": null,
+        "version_id": 285074
+      },
+      {
+        "crate_id": "hyper", "default_features": true, "downloads": 0,
+        "features": ["tcp"], "id": 1696396, "kind": "normal",
+        "optional": true, "req": "^0.13.6", "target": null,
+        "version_id": 285074
+      },
+      {
+        "crate_id": "hyper-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1696397, "kind": "normal", "optional": true,
+        "req": "^0.4.3", "target": null, "version_id": 285074
+      },
+      {
+        "crate_id": "isahc", "default_features": false, "downloads": 0,
+        "features": ["http2"], "id": 1696403, "kind": "normal",
+        "optional": true, "req": "^0.9",
+        "target": "cfg(not(target_arch = \"wasm32\"))",
+        "version_id": 285074
+      },
+      {
+        "crate_id": "js-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1696405, "kind": "normal", "optional": true,
+        "req": "^0.3.25", "target": "cfg(target_arch = \"wasm32\")",
+        "version_id": 285074
+      },
+      {
+        "crate_id": "wasm-bindgen", "default_features": true,
+        "downloads": 0, "features": [], "id": 1696406, "kind": "normal",
+        "optional": true, "req": "^0.2.48",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 285074
+      },
+      {
+        "crate_id": "wasm-bindgen-futures", "default_features": true,
+        "downloads": 0, "features": [], "id": 1696407, "kind": "normal",
+        "optional": true, "req": "^0.4.5",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 285074
+      },
+      {
+        "crate_id": "web-sys", "default_features": true, "downloads": 0,
+        "features": [
+          "AbortSignal", "Headers", "ObserverCallback", "ReferrerPolicy",
+          "Request", "RequestCache", "RequestCredentials", "RequestInit",
+          "RequestMode", "RequestRedirect", "Response", "Window"
+        ],
+        "id": 1696408, "kind": "normal", "optional": true, "req": "^0.3.25",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 285074
+      }
+    ],
+    "dl_path": "/api/v1/crates/http-client/5.0.1/download",
+    "downloads": 283,
+    "features": {
+      "curl_client": ["isahc", "async-std"], "default": ["h1_client"],
+      "docs": ["h1_client"],
+      "h1_client": ["async-h1", "async-std", "async-native-tls"],
+      "hyper_client": ["hyper", "hyper-tls", "http-types/hyperium_http", "futures-util"],
+      "native_client": ["curl_client", "wasm_client"],
+      "wasm_client": [
+        "js-sys", "web-sys", "wasm-bindgen", "wasm-bindgen-futures",
+        "futures"
+      ]
+    },
+    "id": 285074, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/http-client/5.0.1/authors",
+      "dependencies": "/api/v1/crates/http-client/5.0.1/dependencies",
+      "version_downloads": "/api/v1/crates/http-client/5.0.1/downloads"
+    },
+    "num": "5.0.1",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/1093990?v=4",
+      "id": 76725, "login": "Fishrock123", "name": "Jeremiah Senkpiel",
+      "url": "https://github.com/Fishrock123"
+    },
+    "readme_path": "/api/v1/crates/http-client/5.0.1/readme",
+    "updated_at": "2020-09-18T22:46:39.181923+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-09-25T20:14:55.764170+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/1093990?v=4",
+          "id": 76725, "login": "Fishrock123", "name": "Jeremiah Senkpiel",
+          "url": "https://github.com/Fishrock123"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "dignifiedquire <me@dignifiedquire.com>",
+          "Yoshua Wuyts <yoshuawuyts@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "http-client", "crate_size": 16886,
+    "created_at": "2020-09-25T20:14:55.764170+00:00",
+    "dependencies": [
+      {
+        "crate_id": "async-std", "default_features": true, "downloads": 0,
+        "features": ["unstable", "attributes"], "id": 1715007,
+        "kind": "dev", "optional": false, "req": "^1.6.0", "target": null,
+        "version_id": 287513
+      },
+      {
+        "crate_id": "async-trait", "default_features": true, "downloads": 0,
+        "features": [], "id": 1715001, "kind": "normal", "optional": false,
+        "req": "^0.1.37", "target": null, "version_id": 287513
+      },
+      {
+        "crate_id": "http-types", "default_features": true, "downloads": 0,
+        "features": [], "id": 1715003, "kind": "normal", "optional": false,
+        "req": "^2.3.0", "target": null, "version_id": 287513
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1715006, "kind": "normal", "optional": false,
+        "req": "^0.4.7", "target": null, "version_id": 287513
+      },
+      {
+        "crate_id": "portpicker", "default_features": true, "downloads": 0,
+        "features": [], "id": 1715008, "kind": "dev", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 287513
+      },
+      {
+        "crate_id": "tide", "default_features": true, "downloads": 0,
+        "features": [], "id": 1715009, "kind": "dev", "optional": false,
+        "req": "^0.9.0", "target": null, "version_id": 287513
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["macros"], "id": 1715010, "kind": "dev",
+        "optional": false, "req": "^0.2.21", "target": null,
+        "version_id": 287513
+      },
+      {
+        "crate_id": "async-h1", "default_features": true, "downloads": 0,
+        "features": [], "id": 1714998, "kind": "normal", "optional": true,
+        "req": "^2.0.0", "target": null, "version_id": 287513
+      },
+      {
+        "crate_id": "async-native-tls", "default_features": true,
+        "downloads": 0, "features": [], "id": 1714999, "kind": "normal",
+        "optional": true, "req": "^0.3.1", "target": null,
+        "version_id": 287513
+      },
+      {
+        "crate_id": "async-std", "default_features": false, "downloads": 0,
+        "features": [], "id": 1715000, "kind": "normal", "optional": true,
+        "req": "^1.6.0", "target": null, "version_id": 287513
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1715012, "kind": "normal", "optional": true,
+        "req": "^0.3.1", "target": "cfg(target_arch = \"wasm32\")",
+        "version_id": 287513
+      },
+      {
+        "crate_id": "futures-util", "default_features": true,
+        "downloads": 0, "features": [], "id": 1715002, "kind": "normal",
+        "optional": true, "req": "^0.3.5", "target": null,
+        "version_id": 287513
+      },
+      {
+        "crate_id": "hyper", "default_features": true, "downloads": 0,
+        "features": ["tcp"], "id": 1715004, "kind": "normal",
+        "optional": true, "req": "^0.13.6", "target": null,
+        "version_id": 287513
+      },
+      {
+        "crate_id": "hyper-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1715005, "kind": "normal", "optional": true,
+        "req": "^0.4.3", "target": null, "version_id": 287513
+      },
+      {
+        "crate_id": "isahc", "default_features": false, "downloads": 0,
+        "features": ["http2"], "id": 1715011, "kind": "normal",
+        "optional": true, "req": "^0.9",
+        "target": "cfg(not(target_arch = \"wasm32\"))",
+        "version_id": 287513
+      },
+      {
+        "crate_id": "js-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1715013, "kind": "normal", "optional": true,
+        "req": "^0.3.25", "target": "cfg(target_arch = \"wasm32\")",
+        "version_id": 287513
+      },
+      {
+        "crate_id": "wasm-bindgen", "default_features": true,
+        "downloads": 0, "features": [], "id": 1715014, "kind": "normal",
+        "optional": true, "req": "^0.2.48",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 287513
+      },
+      {
+        "crate_id": "wasm-bindgen-futures", "default_features": true,
+        "downloads": 0, "features": [], "id": 1715015, "kind": "normal",
+        "optional": true, "req": "^0.4.5",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 287513
+      },
+      {
+        "crate_id": "web-sys", "default_features": true, "downloads": 0,
+        "features": [
+          "AbortSignal", "Headers", "ObserverCallback", "ReferrerPolicy",
+          "Request", "RequestCache", "RequestCredentials", "RequestInit",
+          "RequestMode", "RequestRedirect", "Response", "Window"
+        ],
+        "id": 1715016, "kind": "normal", "optional": true, "req": "^0.3.25",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 287513
+      }
+    ],
+    "dl_path": "/api/v1/crates/http-client/6.0.0/download",
+    "downloads": 10441,
+    "features": {
+      "curl_client": ["isahc", "async-std"], "default": ["h1_client"],
+      "docs": ["h1_client"],
+      "h1_client": ["async-h1", "async-std", "async-native-tls"],
+      "hyper_client": ["hyper", "hyper-tls", "http-types/hyperium_http", "futures-util"],
+      "native_client": ["curl_client", "wasm_client"],
+      "wasm_client": [
+        "js-sys", "web-sys", "wasm-bindgen", "wasm-bindgen-futures",
+        "futures"
+      ]
+    },
+    "id": 287513, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/http-client/6.0.0/authors",
+      "dependencies": "/api/v1/crates/http-client/6.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/http-client/6.0.0/downloads"
+    },
+    "num": "6.0.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/1093990?v=4",
+      "id": 76725, "login": "Fishrock123", "name": "Jeremiah Senkpiel",
+      "url": "https://github.com/Fishrock123"
+    },
+    "readme_path": "/api/v1/crates/http-client/6.0.0/readme",
+    "updated_at": "2020-09-25T20:14:55.764170+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-10-09T22:43:28.167689+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/1093990?v=4",
+          "id": 76725, "login": "Fishrock123", "name": "Jeremiah Senkpiel",
+          "url": "https://github.com/Fishrock123"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "dignifiedquire <me@dignifiedquire.com>",
+          "Jeremiah Senkpiel <fishrock123@rocketmail.com>",
+          "Yoshua Wuyts <yoshuawuyts@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "http-client", "crate_size": 16954,
+    "created_at": "2020-10-09T22:43:28.167689+00:00",
+    "dependencies": [
+      {
+        "crate_id": "async-std", "default_features": true, "downloads": 0,
+        "features": ["unstable", "attributes"], "id": 1747271,
+        "kind": "dev", "optional": false, "req": "^1.6.0", "target": null,
+        "version_id": 291872
+      },
+      {
+        "crate_id": "async-trait", "default_features": true, "downloads": 0,
+        "features": [], "id": 1747265, "kind": "normal", "optional": false,
+        "req": "^0.1.37", "target": null, "version_id": 291872
+      },
+      {
+        "crate_id": "http-types", "default_features": true, "downloads": 0,
+        "features": [], "id": 1747267, "kind": "normal", "optional": false,
+        "req": "^2.3.0", "target": null, "version_id": 291872
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1747270, "kind": "normal", "optional": false,
+        "req": "^0.4.7", "target": null, "version_id": 291872
+      },
+      {
+        "crate_id": "portpicker", "default_features": true, "downloads": 0,
+        "features": [], "id": 1747272, "kind": "dev", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 291872
+      },
+      {
+        "crate_id": "tide", "default_features": true, "downloads": 0,
+        "features": [], "id": 1747273, "kind": "dev", "optional": false,
+        "req": "^0.13.0", "target": null, "version_id": 291872
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["macros"], "id": 1747274, "kind": "dev",
+        "optional": false, "req": "^0.2.21", "target": null,
+        "version_id": 291872
+      },
+      {
+        "crate_id": "async-h1", "default_features": true, "downloads": 0,
+        "features": [], "id": 1747262, "kind": "normal", "optional": true,
+        "req": "^2.0.0", "target": null, "version_id": 291872
+      },
+      {
+        "crate_id": "async-native-tls", "default_features": true,
+        "downloads": 0, "features": [], "id": 1747263, "kind": "normal",
+        "optional": true, "req": "^0.3.1", "target": null,
+        "version_id": 291872
+      },
+      {
+        "crate_id": "async-std", "default_features": false, "downloads": 0,
+        "features": [], "id": 1747264, "kind": "normal", "optional": true,
+        "req": "^1.6.0", "target": null, "version_id": 291872
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1747276, "kind": "normal", "optional": true,
+        "req": "^0.3.1", "target": "cfg(target_arch = \"wasm32\")",
+        "version_id": 291872
+      },
+      {
+        "crate_id": "futures-util", "default_features": true,
+        "downloads": 0, "features": [], "id": 1747266, "kind": "normal",
+        "optional": true, "req": "^0.3.5", "target": null,
+        "version_id": 291872
+      },
+      {
+        "crate_id": "hyper", "default_features": true, "downloads": 0,
+        "features": ["tcp"], "id": 1747268, "kind": "normal",
+        "optional": true, "req": "^0.13.6", "target": null,
+        "version_id": 291872
+      },
+      {
+        "crate_id": "hyper-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1747269, "kind": "normal", "optional": true,
+        "req": "^0.4.3", "target": null, "version_id": 291872
+      },
+      {
+        "crate_id": "isahc", "default_features": false, "downloads": 0,
+        "features": ["http2"], "id": 1747275, "kind": "normal",
+        "optional": true, "req": "^0.9",
+        "target": "cfg(not(target_arch = \"wasm32\"))",
+        "version_id": 291872
+      },
+      {
+        "crate_id": "js-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1747277, "kind": "normal", "optional": true,
+        "req": "^0.3.25", "target": "cfg(target_arch = \"wasm32\")",
+        "version_id": 291872
+      },
+      {
+        "crate_id": "wasm-bindgen", "default_features": true,
+        "downloads": 0, "features": [], "id": 1747278, "kind": "normal",
+        "optional": true, "req": "^0.2.48",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 291872
+      },
+      {
+        "crate_id": "wasm-bindgen-futures", "default_features": true,
+        "downloads": 0, "features": [], "id": 1747279, "kind": "normal",
+        "optional": true, "req": "^0.4.5",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 291872
+      },
+      {
+        "crate_id": "web-sys", "default_features": true, "downloads": 0,
+        "features": [
+          "AbortSignal", "Headers", "ObserverCallback", "ReferrerPolicy",
+          "Request", "RequestCache", "RequestCredentials", "RequestInit",
+          "RequestMode", "RequestRedirect", "Response", "Window"
+        ],
+        "id": 1747280, "kind": "normal", "optional": true, "req": "^0.3.25",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 291872
+      }
+    ],
+    "dl_path": "/api/v1/crates/http-client/6.1.0/download",
+    "downloads": 7509,
+    "features": {
+      "curl_client": ["isahc", "async-std"], "default": ["h1_client"],
+      "docs": ["h1_client"],
+      "h1_client": ["async-h1", "async-std", "async-native-tls"],
+      "hyper_client": ["hyper", "hyper-tls", "http-types/hyperium_http", "futures-util"],
+      "native_client": ["curl_client", "wasm_client"],
+      "wasm_client": [
+        "js-sys", "web-sys", "wasm-bindgen", "wasm-bindgen-futures",
+        "futures"
+      ]
+    },
+    "id": 291872, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/http-client/6.1.0/authors",
+      "dependencies": "/api/v1/crates/http-client/6.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/http-client/6.1.0/downloads"
+    },
+    "num": "6.1.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/1093990?v=4",
+      "id": 76725, "login": "Fishrock123", "name": "Jeremiah Senkpiel",
+      "url": "https://github.com/Fishrock123"
+    },
+    "readme_path": "/api/v1/crates/http-client/6.1.0/readme",
+    "updated_at": "2020-10-09T22:43:28.167689+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-10-26T17:21:49.361926+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/1093990?v=4",
+          "id": 76725, "login": "Fishrock123", "name": "Jeremiah Senkpiel",
+          "url": "https://github.com/Fishrock123"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "dignifiedquire <me@dignifiedquire.com>",
+          "Jeremiah Senkpiel <fishrock123@rocketmail.com>",
+          "Yoshua Wuyts <yoshuawuyts@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "http-client", "crate_size": 17004,
+    "created_at": "2020-10-26T17:21:49.361926+00:00",
+    "dependencies": [
+      {
+        "crate_id": "async-std", "default_features": true, "downloads": 0,
+        "features": ["unstable", "attributes"], "id": 1796468,
+        "kind": "dev", "optional": false, "req": "^1.6.0", "target": null,
+        "version_id": 299191
+      },
+      {
+        "crate_id": "async-trait", "default_features": true, "downloads": 0,
+        "features": [], "id": 1796462, "kind": "normal", "optional": false,
+        "req": "^0.1.37", "target": null, "version_id": 299191
+      },
+      {
+        "crate_id": "http-types", "default_features": true, "downloads": 0,
+        "features": [], "id": 1796464, "kind": "normal", "optional": false,
+        "req": "^2.3.0", "target": null, "version_id": 299191
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1796467, "kind": "normal", "optional": false,
+        "req": "^0.4.7", "target": null, "version_id": 299191
+      },
+      {
+        "crate_id": "portpicker", "default_features": true, "downloads": 0,
+        "features": [], "id": 1796469, "kind": "dev", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 299191
+      },
+      {
+        "crate_id": "tide", "default_features": true, "downloads": 0,
+        "features": [], "id": 1796470, "kind": "dev", "optional": false,
+        "req": "^0.13.0", "target": null, "version_id": 299191
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["macros"], "id": 1796471, "kind": "dev",
+        "optional": false, "req": "^0.2.21", "target": null,
+        "version_id": 299191
+      },
+      {
+        "crate_id": "async-h1", "default_features": true, "downloads": 0,
+        "features": [], "id": 1796459, "kind": "normal", "optional": true,
+        "req": "^2.0.0", "target": null, "version_id": 299191
+      },
+      {
+        "crate_id": "async-native-tls", "default_features": true,
+        "downloads": 0, "features": [], "id": 1796460, "kind": "normal",
+        "optional": true, "req": "^0.3.1", "target": null,
+        "version_id": 299191
+      },
+      {
+        "crate_id": "async-std", "default_features": false, "downloads": 0,
+        "features": [], "id": 1796461, "kind": "normal", "optional": true,
+        "req": "^1.6.0", "target": null, "version_id": 299191
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1796473, "kind": "normal", "optional": true,
+        "req": "^0.3.1", "target": "cfg(target_arch = \"wasm32\")",
+        "version_id": 299191
+      },
+      {
+        "crate_id": "futures-util", "default_features": true,
+        "downloads": 0, "features": [], "id": 1796463, "kind": "normal",
+        "optional": true, "req": "^0.3.5", "target": null,
+        "version_id": 299191
+      },
+      {
+        "crate_id": "hyper", "default_features": true, "downloads": 0,
+        "features": ["tcp"], "id": 1796465, "kind": "normal",
+        "optional": true, "req": "^0.13.6", "target": null,
+        "version_id": 299191
+      },
+      {
+        "crate_id": "hyper-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1796466, "kind": "normal", "optional": true,
+        "req": "^0.4.3", "target": null, "version_id": 299191
+      },
+      {
+        "crate_id": "isahc", "default_features": false, "downloads": 0,
+        "features": ["http2"], "id": 1796472, "kind": "normal",
+        "optional": true, "req": "^0.9",
+        "target": "cfg(not(target_arch = \"wasm32\"))",
+        "version_id": 299191
+      },
+      {
+        "crate_id": "js-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1796474, "kind": "normal", "optional": true,
+        "req": "^0.3.25", "target": "cfg(target_arch = \"wasm32\")",
+        "version_id": 299191
+      },
+      {
+        "crate_id": "wasm-bindgen", "default_features": true,
+        "downloads": 0, "features": [], "id": 1796475, "kind": "normal",
+        "optional": true, "req": "^0.2.48",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 299191
+      },
+      {
+        "crate_id": "wasm-bindgen-futures", "default_features": true,
+        "downloads": 0, "features": [], "id": 1796476, "kind": "normal",
+        "optional": true, "req": "^0.4.5",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 299191
+      },
+      {
+        "crate_id": "web-sys", "default_features": true, "downloads": 0,
+        "features": [
+          "AbortSignal", "Headers", "ObserverCallback", "ReferrerPolicy",
+          "Request", "RequestCache", "RequestCredentials", "RequestInit",
+          "RequestMode", "RequestRedirect", "Response", "Window"
+        ],
+        "id": 1796477, "kind": "normal", "optional": true, "req": "^0.3.25",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 299191
+      }
+    ],
+    "dl_path": "/api/v1/crates/http-client/6.2.0/download",
+    "downloads": 1974,
+    "features": {
+      "curl_client": ["isahc", "async-std"], "default": ["h1_client"],
+      "docs": ["h1_client"],
+      "h1_client": ["async-h1", "async-std", "async-native-tls"],
+      "hyper_client": ["hyper", "hyper-tls", "http-types/hyperium_http", "futures-util"],
+      "native_client": ["curl_client", "wasm_client"],
+      "wasm_client": [
+        "js-sys", "web-sys", "wasm-bindgen", "wasm-bindgen-futures",
+        "futures"
+      ]
+    },
+    "id": 299191, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/http-client/6.2.0/authors",
+      "dependencies": "/api/v1/crates/http-client/6.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/http-client/6.2.0/downloads"
+    },
+    "num": "6.2.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/1093990?v=4",
+      "id": 76725, "login": "Fishrock123", "name": "Jeremiah Senkpiel",
+      "url": "https://github.com/Fishrock123"
+    },
+    "readme_path": "/api/v1/crates/http-client/6.2.0/readme",
+    "updated_at": "2020-10-26T17:21:49.361926+00:00", "yanked": false
+  }
+]

@@ -1,0 +1,2387 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Nikolay Kim <fafhrd91@gmail.com>"]},
+      "users": []
+    },
+    "crate": "actix-files", "crate_size": 13995,
+    "created_at": "2019-03-28T20:40:12.661985+00:00",
+    "dependencies": [
+      {
+        "crate_id": "actix-http", "default_features": true, "downloads": 0,
+        "features": [], "id": 689086, "kind": "normal", "optional": false,
+        "req": "^0.1.0-alpha.1", "target": null, "version_id": 141968
+      },
+      {
+        "crate_id": "actix-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 689087, "kind": "normal",
+        "optional": false, "req": "^0.3.3", "target": null,
+        "version_id": 141968
+      },
+      {
+        "crate_id": "actix-web", "default_features": true, "downloads": 0,
+        "features": ["ssl"], "id": 689098, "kind": "dev", "optional": false,
+        "req": "^1.0.0-alpha.1", "target": null, "version_id": 141968
+      },
+      {
+        "crate_id": "actix-web", "default_features": true, "downloads": 0,
+        "features": [], "id": 689088, "kind": "normal", "optional": false,
+        "req": "^1.0.0-alpha.1", "target": null, "version_id": 141968
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 689089, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 141968
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 689090, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 141968
+      },
+      {
+        "crate_id": "derive_more", "default_features": true, "downloads": 0,
+        "features": [], "id": 689091, "kind": "normal", "optional": false,
+        "req": "^0.14", "target": null, "version_id": 141968
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 689092, "kind": "normal", "optional": false,
+        "req": "^0.1.25", "target": null, "version_id": 141968
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 689093, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 141968
+      },
+      {
+        "crate_id": "mime", "default_features": true, "downloads": 0,
+        "features": [], "id": 689094, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 141968
+      },
+      {
+        "crate_id": "mime_guess", "default_features": true, "downloads": 0,
+        "features": [], "id": 689095, "kind": "normal", "optional": false,
+        "req": "^2.0.0-alpha", "target": null, "version_id": 141968
+      },
+      {
+        "crate_id": "percent-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 689096, "kind": "normal",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 141968
+      },
+      {
+        "crate_id": "v_htmlescape", "default_features": true,
+        "downloads": 0, "features": [], "id": 689097, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 141968
+      }
+    ],
+    "dl_path": "/api/v1/crates/actix-files/0.1.0-alpha.1/download",
+    "downloads": 383, "features": {}, "id": 141968,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/actix-files/0.1.0-alpha.1/authors",
+      "dependencies": "/api/v1/crates/actix-files/0.1.0-alpha.1/dependencies",
+      "version_downloads": "/api/v1/crates/actix-files/0.1.0-alpha.1/downloads"
+    },
+    "num": "0.1.0-alpha.1",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/598990?v=4",
+      "id": 7201, "login": "fafhrd91", "name": "Nikolay Kim",
+      "url": "https://github.com/fafhrd91"
+    },
+    "readme_path": "/api/v1/crates/actix-files/0.1.0-alpha.1/readme",
+    "updated_at": "2019-03-28T20:40:12.661985+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Nikolay Kim <fafhrd91@gmail.com>"]},
+      "users": []
+    },
+    "crate": "actix-files", "crate_size": 14469,
+    "created_at": "2019-04-03T04:47:08.105865+00:00",
+    "dependencies": [
+      {
+        "crate_id": "actix-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 695021, "kind": "normal",
+        "optional": false, "req": "^0.3.4", "target": null,
+        "version_id": 142904
+      },
+      {
+        "crate_id": "actix-web", "default_features": true, "downloads": 0,
+        "features": ["ssl"], "id": 695032, "kind": "dev", "optional": false,
+        "req": "^1.0.0-alpha.3", "target": null, "version_id": 142904
+      },
+      {
+        "crate_id": "actix-web", "default_features": true, "downloads": 0,
+        "features": [], "id": 695022, "kind": "normal", "optional": false,
+        "req": "^1.0.0-alpha.3", "target": null, "version_id": 142904
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 695023, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 142904
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 695024, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 142904
+      },
+      {
+        "crate_id": "derive_more", "default_features": true, "downloads": 0,
+        "features": [], "id": 695025, "kind": "normal", "optional": false,
+        "req": "^0.14", "target": null, "version_id": 142904
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 695026, "kind": "normal", "optional": false,
+        "req": "^0.1.25", "target": null, "version_id": 142904
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 695027, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 142904
+      },
+      {
+        "crate_id": "mime", "default_features": true, "downloads": 0,
+        "features": [], "id": 695028, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 142904
+      },
+      {
+        "crate_id": "mime_guess", "default_features": true, "downloads": 0,
+        "features": [], "id": 695029, "kind": "normal", "optional": false,
+        "req": "^2.0.0-alpha", "target": null, "version_id": 142904
+      },
+      {
+        "crate_id": "percent-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 695030, "kind": "normal",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 142904
+      },
+      {
+        "crate_id": "v_htmlescape", "default_features": true,
+        "downloads": 0, "features": [], "id": 695031, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 142904
+      }
+    ],
+    "dl_path": "/api/v1/crates/actix-files/0.1.0-alpha.2/download",
+    "downloads": 374, "features": {}, "id": 142904,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/actix-files/0.1.0-alpha.2/authors",
+      "dependencies": "/api/v1/crates/actix-files/0.1.0-alpha.2/dependencies",
+      "version_downloads": "/api/v1/crates/actix-files/0.1.0-alpha.2/downloads"
+    },
+    "num": "0.1.0-alpha.2",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/598990?v=4",
+      "id": 7201, "login": "fafhrd91", "name": "Nikolay Kim",
+      "url": "https://github.com/fafhrd91"
+    },
+    "readme_path": "/api/v1/crates/actix-files/0.1.0-alpha.2/readme",
+    "updated_at": "2019-04-03T04:47:08.105865+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Nikolay Kim <fafhrd91@gmail.com>"]},
+      "users": []
+    },
+    "crate": "actix-files", "crate_size": 14485,
+    "created_at": "2019-04-08T06:27:57.954682+00:00",
+    "dependencies": [
+      {
+        "crate_id": "actix-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 699953, "kind": "normal",
+        "optional": false, "req": "^0.3.4", "target": null,
+        "version_id": 143689
+      },
+      {
+        "crate_id": "actix-web", "default_features": true, "downloads": 0,
+        "features": ["ssl"], "id": 699964, "kind": "dev", "optional": false,
+        "req": "^1.0.0-alpha.4", "target": null, "version_id": 143689
+      },
+      {
+        "crate_id": "actix-web", "default_features": true, "downloads": 0,
+        "features": [], "id": 699954, "kind": "normal", "optional": false,
+        "req": "^1.0.0-alpha.4", "target": null, "version_id": 143689
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 699955, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 143689
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 699956, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 143689
+      },
+      {
+        "crate_id": "derive_more", "default_features": true, "downloads": 0,
+        "features": [], "id": 699957, "kind": "normal", "optional": false,
+        "req": "^0.14", "target": null, "version_id": 143689
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 699958, "kind": "normal", "optional": false,
+        "req": "^0.1.25", "target": null, "version_id": 143689
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 699959, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 143689
+      },
+      {
+        "crate_id": "mime", "default_features": true, "downloads": 0,
+        "features": [], "id": 699960, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 143689
+      },
+      {
+        "crate_id": "mime_guess", "default_features": true, "downloads": 0,
+        "features": [], "id": 699961, "kind": "normal", "optional": false,
+        "req": "^2.0.0-alpha", "target": null, "version_id": 143689
+      },
+      {
+        "crate_id": "percent-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 699962, "kind": "normal",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 143689
+      },
+      {
+        "crate_id": "v_htmlescape", "default_features": true,
+        "downloads": 0, "features": [], "id": 699963, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 143689
+      }
+    ],
+    "dl_path": "/api/v1/crates/actix-files/0.1.0-alpha.4/download",
+    "downloads": 421, "features": {}, "id": 143689,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/actix-files/0.1.0-alpha.4/authors",
+      "dependencies": "/api/v1/crates/actix-files/0.1.0-alpha.4/dependencies",
+      "version_downloads": "/api/v1/crates/actix-files/0.1.0-alpha.4/downloads"
+    },
+    "num": "0.1.0-alpha.4",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/598990?v=4",
+      "id": 7201, "login": "fafhrd91", "name": "Nikolay Kim",
+      "url": "https://github.com/fafhrd91"
+    },
+    "readme_path": "/api/v1/crates/actix-files/0.1.0-alpha.4/readme",
+    "updated_at": "2019-04-08T06:27:57.954682+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Nikolay Kim <fafhrd91@gmail.com>"]},
+      "users": []
+    },
+    "crate": "actix-files", "crate_size": 14450,
+    "created_at": "2019-04-14T15:02:02.416487+00:00",
+    "dependencies": [
+      {
+        "crate_id": "actix-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 706755, "kind": "normal",
+        "optional": false, "req": "^0.3.4", "target": null,
+        "version_id": 144836
+      },
+      {
+        "crate_id": "actix-web", "default_features": true, "downloads": 0,
+        "features": ["ssl"], "id": 706766, "kind": "dev", "optional": false,
+        "req": "^1.0.0-alpha.6", "target": null, "version_id": 144836
+      },
+      {
+        "crate_id": "actix-web", "default_features": true, "downloads": 0,
+        "features": [], "id": 706756, "kind": "normal", "optional": false,
+        "req": "^1.0.0-alpha.6", "target": null, "version_id": 144836
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 706757, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 144836
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 706758, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 144836
+      },
+      {
+        "crate_id": "derive_more", "default_features": true, "downloads": 0,
+        "features": [], "id": 706759, "kind": "normal", "optional": false,
+        "req": "^0.14", "target": null, "version_id": 144836
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 706760, "kind": "normal", "optional": false,
+        "req": "^0.1.25", "target": null, "version_id": 144836
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 706761, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 144836
+      },
+      {
+        "crate_id": "mime", "default_features": true, "downloads": 0,
+        "features": [], "id": 706762, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 144836
+      },
+      {
+        "crate_id": "mime_guess", "default_features": true, "downloads": 0,
+        "features": [], "id": 706763, "kind": "normal", "optional": false,
+        "req": "^2.0.0-alpha", "target": null, "version_id": 144836
+      },
+      {
+        "crate_id": "percent-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 706764, "kind": "normal",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 144836
+      },
+      {
+        "crate_id": "v_htmlescape", "default_features": true,
+        "downloads": 0, "features": [], "id": 706765, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 144836
+      }
+    ],
+    "dl_path": "/api/v1/crates/actix-files/0.1.0-alpha.6/download",
+    "downloads": 598, "features": {}, "id": 144836,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/actix-files/0.1.0-alpha.6/authors",
+      "dependencies": "/api/v1/crates/actix-files/0.1.0-alpha.6/dependencies",
+      "version_downloads": "/api/v1/crates/actix-files/0.1.0-alpha.6/downloads"
+    },
+    "num": "0.1.0-alpha.6",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/598990?v=4",
+      "id": 7201, "login": "fafhrd91", "name": "Nikolay Kim",
+      "url": "https://github.com/fafhrd91"
+    },
+    "readme_path": "/api/v1/crates/actix-files/0.1.0-alpha.6/readme",
+    "updated_at": "2019-04-14T15:02:02.416487+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Nikolay Kim <fafhrd91@gmail.com>"]},
+      "users": []
+    },
+    "crate": "actix-files", "crate_size": 14601,
+    "created_at": "2019-05-12T18:03:06.001715+00:00",
+    "dependencies": [
+      {
+        "crate_id": "actix-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 736268, "kind": "normal",
+        "optional": false, "req": "^0.4.0", "target": null,
+        "version_id": 150014
+      },
+      {
+        "crate_id": "actix-web", "default_features": true, "downloads": 0,
+        "features": ["ssl"], "id": 736279, "kind": "dev", "optional": false,
+        "req": "^1.0.0-beta.4", "target": null, "version_id": 150014
+      },
+      {
+        "crate_id": "actix-web", "default_features": true, "downloads": 0,
+        "features": [], "id": 736269, "kind": "normal", "optional": false,
+        "req": "^1.0.0-beta.4", "target": null, "version_id": 150014
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 736270, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 150014
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 736271, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 150014
+      },
+      {
+        "crate_id": "derive_more", "default_features": true, "downloads": 0,
+        "features": [], "id": 736272, "kind": "normal", "optional": false,
+        "req": "^0.14", "target": null, "version_id": 150014
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 736273, "kind": "normal", "optional": false,
+        "req": "^0.1.25", "target": null, "version_id": 150014
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 736274, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 150014
+      },
+      {
+        "crate_id": "mime", "default_features": true, "downloads": 0,
+        "features": [], "id": 736275, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 150014
+      },
+      {
+        "crate_id": "mime_guess", "default_features": true, "downloads": 0,
+        "features": [], "id": 736276, "kind": "normal", "optional": false,
+        "req": "^2.0.0-alpha", "target": null, "version_id": 150014
+      },
+      {
+        "crate_id": "percent-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 736277, "kind": "normal",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 150014
+      },
+      {
+        "crate_id": "v_htmlescape", "default_features": true,
+        "downloads": 0, "features": [], "id": 736278, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 150014
+      }
+    ],
+    "dl_path": "/api/v1/crates/actix-files/0.1.0-beta.4/download",
+    "downloads": 1908, "features": {}, "id": 150014,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/actix-files/0.1.0-beta.4/authors",
+      "dependencies": "/api/v1/crates/actix-files/0.1.0-beta.4/dependencies",
+      "version_downloads": "/api/v1/crates/actix-files/0.1.0-beta.4/downloads"
+    },
+    "num": "0.1.0-beta.4",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/598990?v=4",
+      "id": 7201, "login": "fafhrd91", "name": "Nikolay Kim",
+      "url": "https://github.com/fafhrd91"
+    },
+    "readme_path": "/api/v1/crates/actix-files/0.1.0-beta.4/readme",
+    "updated_at": "2019-05-12T18:03:06.001715+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Nikolay Kim <fafhrd91@gmail.com>"]},
+      "users": []
+    },
+    "crate": "actix-files", "crate_size": 14504,
+    "created_at": "2019-04-21T04:15:38.200562+00:00",
+    "dependencies": [
+      {
+        "crate_id": "actix-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 713839, "kind": "normal",
+        "optional": false, "req": "^0.3.4", "target": null,
+        "version_id": 146028
+      },
+      {
+        "crate_id": "actix-web", "default_features": true, "downloads": 0,
+        "features": ["ssl"], "id": 713850, "kind": "dev", "optional": false,
+        "req": "^1.0.0-beta.1", "target": null, "version_id": 146028
+      },
+      {
+        "crate_id": "actix-web", "default_features": true, "downloads": 0,
+        "features": [], "id": 713840, "kind": "normal", "optional": false,
+        "req": "^1.0.0-beta.1", "target": null, "version_id": 146028
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 713841, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 146028
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 713842, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 146028
+      },
+      {
+        "crate_id": "derive_more", "default_features": true, "downloads": 0,
+        "features": [], "id": 713843, "kind": "normal", "optional": false,
+        "req": "^0.14", "target": null, "version_id": 146028
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 713844, "kind": "normal", "optional": false,
+        "req": "^0.1.25", "target": null, "version_id": 146028
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 713845, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 146028
+      },
+      {
+        "crate_id": "mime", "default_features": true, "downloads": 0,
+        "features": [], "id": 713846, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 146028
+      },
+      {
+        "crate_id": "mime_guess", "default_features": true, "downloads": 0,
+        "features": [], "id": 713847, "kind": "normal", "optional": false,
+        "req": "^2.0.0-alpha", "target": null, "version_id": 146028
+      },
+      {
+        "crate_id": "percent-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 713848, "kind": "normal",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 146028
+      },
+      {
+        "crate_id": "v_htmlescape", "default_features": true,
+        "downloads": 0, "features": [], "id": 713849, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 146028
+      }
+    ],
+    "dl_path": "/api/v1/crates/actix-files/0.1.0-betsa.1/download",
+    "downloads": 2095, "features": {}, "id": 146028,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/actix-files/0.1.0-betsa.1/authors",
+      "dependencies": "/api/v1/crates/actix-files/0.1.0-betsa.1/dependencies",
+      "version_downloads": "/api/v1/crates/actix-files/0.1.0-betsa.1/downloads"
+    },
+    "num": "0.1.0-betsa.1",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/598990?v=4",
+      "id": 7201, "login": "fafhrd91", "name": "Nikolay Kim",
+      "url": "https://github.com/fafhrd91"
+    },
+    "readme_path": "/api/v1/crates/actix-files/0.1.0-betsa.1/readme",
+    "updated_at": "2019-05-13T01:51:24.441688+00:00", "yanked": true
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Nikolay Kim <fafhrd91@gmail.com>"]},
+      "users": []
+    },
+    "crate": "actix-files", "crate_size": 14830,
+    "created_at": "2019-05-25T09:07:22.840697+00:00",
+    "dependencies": [
+      {
+        "crate_id": "actix-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 752757, "kind": "normal",
+        "optional": false, "req": "^0.4.0", "target": null,
+        "version_id": 152733
+      },
+      {
+        "crate_id": "actix-web", "default_features": true, "downloads": 0,
+        "features": ["ssl"], "id": 752768, "kind": "dev", "optional": false,
+        "req": "^1.0.0-rc", "target": null, "version_id": 152733
+      },
+      {
+        "crate_id": "actix-web", "default_features": true, "downloads": 0,
+        "features": [], "id": 752758, "kind": "normal", "optional": false,
+        "req": "^1.0.0-rc", "target": null, "version_id": 152733
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 752759, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 152733
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 752760, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 152733
+      },
+      {
+        "crate_id": "derive_more", "default_features": true, "downloads": 0,
+        "features": [], "id": 752761, "kind": "normal", "optional": false,
+        "req": "^0.14", "target": null, "version_id": 152733
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 752762, "kind": "normal", "optional": false,
+        "req": "^0.1.25", "target": null, "version_id": 152733
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 752763, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 152733
+      },
+      {
+        "crate_id": "mime", "default_features": true, "downloads": 0,
+        "features": [], "id": 752764, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 152733
+      },
+      {
+        "crate_id": "mime_guess", "default_features": true, "downloads": 0,
+        "features": [], "id": 752765, "kind": "normal", "optional": false,
+        "req": "^2.0.0-alpha", "target": null, "version_id": 152733
+      },
+      {
+        "crate_id": "percent-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 752766, "kind": "normal",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 152733
+      },
+      {
+        "crate_id": "v_htmlescape", "default_features": true,
+        "downloads": 0, "features": [], "id": 752767, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 152733
+      }
+    ],
+    "dl_path": "/api/v1/crates/actix-files/0.1.0/download",
+    "downloads": 1104, "features": {}, "id": 152733,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/actix-files/0.1.0/authors",
+      "dependencies": "/api/v1/crates/actix-files/0.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/actix-files/0.1.0/downloads"
+    },
+    "num": "0.1.0",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/598990?v=4",
+      "id": 7201, "login": "fafhrd91", "name": "Nikolay Kim",
+      "url": "https://github.com/fafhrd91"
+    },
+    "readme_path": "/api/v1/crates/actix-files/0.1.0/readme",
+    "updated_at": "2019-05-25T09:07:22.840697+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Nikolay Kim <fafhrd91@gmail.com>"]},
+      "users": []
+    },
+    "crate": "actix-files", "crate_size": 19333,
+    "created_at": "2019-06-02T07:12:08.691044+00:00",
+    "dependencies": [
+      {
+        "crate_id": "actix-http", "default_features": true, "downloads": 0,
+        "features": [], "id": 760803, "kind": "normal", "optional": false,
+        "req": "^0.2.3", "target": null, "version_id": 154053
+      },
+      {
+        "crate_id": "actix-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 760804, "kind": "normal",
+        "optional": false, "req": "^0.4.0", "target": null,
+        "version_id": 154053
+      },
+      {
+        "crate_id": "actix-web", "default_features": true, "downloads": 0,
+        "features": ["ssl"], "id": 760815, "kind": "dev", "optional": false,
+        "req": "^1.0.0-rc", "target": null, "version_id": 154053
+      },
+      {
+        "crate_id": "actix-web", "default_features": true, "downloads": 0,
+        "features": [], "id": 760805, "kind": "normal", "optional": false,
+        "req": "^1.0.0-rc", "target": null, "version_id": 154053
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 760806, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 154053
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 760807, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 154053
+      },
+      {
+        "crate_id": "derive_more", "default_features": true, "downloads": 0,
+        "features": [], "id": 760808, "kind": "normal", "optional": false,
+        "req": "^0.14", "target": null, "version_id": 154053
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 760809, "kind": "normal", "optional": false,
+        "req": "^0.1.25", "target": null, "version_id": 154053
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 760810, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 154053
+      },
+      {
+        "crate_id": "mime", "default_features": true, "downloads": 0,
+        "features": [], "id": 760811, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 154053
+      },
+      {
+        "crate_id": "mime_guess", "default_features": true, "downloads": 0,
+        "features": [], "id": 760812, "kind": "normal", "optional": false,
+        "req": "^2.0.0-alpha", "target": null, "version_id": 154053
+      },
+      {
+        "crate_id": "percent-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 760813, "kind": "normal",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 154053
+      },
+      {
+        "crate_id": "v_htmlescape", "default_features": true,
+        "downloads": 0, "features": [], "id": 760814, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 154053
+      }
+    ],
+    "dl_path": "/api/v1/crates/actix-files/0.1.1/download",
+    "downloads": 4198, "features": {}, "id": 154053,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/actix-files/0.1.1/authors",
+      "dependencies": "/api/v1/crates/actix-files/0.1.1/dependencies",
+      "version_downloads": "/api/v1/crates/actix-files/0.1.1/downloads"
+    },
+    "num": "0.1.1",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/598990?v=4",
+      "id": 7201, "login": "fafhrd91", "name": "Nikolay Kim",
+      "url": "https://github.com/fafhrd91"
+    },
+    "readme_path": "/api/v1/crates/actix-files/0.1.1/readme",
+    "updated_at": "2019-06-02T07:12:08.691044+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Nikolay Kim <fafhrd91@gmail.com>"]},
+      "users": []
+    },
+    "crate": "actix-files", "crate_size": 19439,
+    "created_at": "2019-06-13T09:29:51.491830+00:00",
+    "dependencies": [
+      {
+        "crate_id": "actix-http", "default_features": true, "downloads": 0,
+        "features": [], "id": 773994, "kind": "normal", "optional": false,
+        "req": "^0.2.3", "target": null, "version_id": 156152
+      },
+      {
+        "crate_id": "actix-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 773995, "kind": "normal",
+        "optional": false, "req": "^0.4.0", "target": null,
+        "version_id": 156152
+      },
+      {
+        "crate_id": "actix-web", "default_features": true, "downloads": 0,
+        "features": ["ssl"], "id": 774006, "kind": "dev", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 156152
+      },
+      {
+        "crate_id": "actix-web", "default_features": false, "downloads": 0,
+        "features": [], "id": 773996, "kind": "normal", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 156152
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 773997, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 156152
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 773998, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 156152
+      },
+      {
+        "crate_id": "derive_more", "default_features": true, "downloads": 0,
+        "features": [], "id": 773999, "kind": "normal", "optional": false,
+        "req": "^0.14", "target": null, "version_id": 156152
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 774000, "kind": "normal", "optional": false,
+        "req": "^0.1.25", "target": null, "version_id": 156152
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 774001, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 156152
+      },
+      {
+        "crate_id": "mime", "default_features": true, "downloads": 0,
+        "features": [], "id": 774002, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 156152
+      },
+      {
+        "crate_id": "mime_guess", "default_features": true, "downloads": 0,
+        "features": [], "id": 774003, "kind": "normal", "optional": false,
+        "req": "^2.0.0-alpha", "target": null, "version_id": 156152
+      },
+      {
+        "crate_id": "percent-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 774004, "kind": "normal",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 156152
+      },
+      {
+        "crate_id": "v_htmlescape", "default_features": true,
+        "downloads": 0, "features": [], "id": 774005, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 156152
+      }
+    ],
+    "dl_path": "/api/v1/crates/actix-files/0.1.2/download",
+    "downloads": 4508, "features": {}, "id": 156152,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/actix-files/0.1.2/authors",
+      "dependencies": "/api/v1/crates/actix-files/0.1.2/dependencies",
+      "version_downloads": "/api/v1/crates/actix-files/0.1.2/downloads"
+    },
+    "num": "0.1.2",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/598990?v=4",
+      "id": 7201, "login": "fafhrd91", "name": "Nikolay Kim",
+      "url": "https://github.com/fafhrd91"
+    },
+    "readme_path": "/api/v1/crates/actix-files/0.1.2/readme",
+    "updated_at": "2019-06-13T09:29:51.491830+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Nikolay Kim <fafhrd91@gmail.com>"]},
+      "users": []
+    },
+    "crate": "actix-files", "crate_size": 19518,
+    "created_at": "2019-06-28T05:44:56.586318+00:00",
+    "dependencies": [
+      {
+        "crate_id": "actix-http", "default_features": true, "downloads": 0,
+        "features": [], "id": 792244, "kind": "normal", "optional": false,
+        "req": "^0.2.4", "target": null, "version_id": 158913
+      },
+      {
+        "crate_id": "actix-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 792245, "kind": "normal",
+        "optional": false, "req": "^0.4.1", "target": null,
+        "version_id": 158913
+      },
+      {
+        "crate_id": "actix-web", "default_features": true, "downloads": 0,
+        "features": ["ssl"], "id": 792256, "kind": "dev", "optional": false,
+        "req": "^1.0.2", "target": null, "version_id": 158913
+      },
+      {
+        "crate_id": "actix-web", "default_features": false, "downloads": 0,
+        "features": [], "id": 792246, "kind": "normal", "optional": false,
+        "req": "^1.0.2", "target": null, "version_id": 158913
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 792247, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 158913
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 792248, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 158913
+      },
+      {
+        "crate_id": "derive_more", "default_features": true, "downloads": 0,
+        "features": [], "id": 792249, "kind": "normal", "optional": false,
+        "req": "^0.15.0", "target": null, "version_id": 158913
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 792250, "kind": "normal", "optional": false,
+        "req": "^0.1.25", "target": null, "version_id": 158913
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 792251, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 158913
+      },
+      {
+        "crate_id": "mime", "default_features": true, "downloads": 0,
+        "features": [], "id": 792252, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 158913
+      },
+      {
+        "crate_id": "mime_guess", "default_features": true, "downloads": 0,
+        "features": [], "id": 792253, "kind": "normal", "optional": false,
+        "req": "^2.0.0-alpha", "target": null, "version_id": 158913
+      },
+      {
+        "crate_id": "percent-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 792254, "kind": "normal",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 158913
+      },
+      {
+        "crate_id": "v_htmlescape", "default_features": true,
+        "downloads": 0, "features": [], "id": 792255, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 158913
+      }
+    ],
+    "dl_path": "/api/v1/crates/actix-files/0.1.3/download",
+    "downloads": 5839, "features": {}, "id": 158913,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/actix-files/0.1.3/authors",
+      "dependencies": "/api/v1/crates/actix-files/0.1.3/dependencies",
+      "version_downloads": "/api/v1/crates/actix-files/0.1.3/downloads"
+    },
+    "num": "0.1.3",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/598990?v=4",
+      "id": 7201, "login": "fafhrd91", "name": "Nikolay Kim",
+      "url": "https://github.com/fafhrd91"
+    },
+    "readme_path": "/api/v1/crates/actix-files/0.1.3/readme",
+    "updated_at": "2019-06-28T05:44:56.586318+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Nikolay Kim <fafhrd91@gmail.com>"]},
+      "users": []
+    },
+    "crate": "actix-files", "crate_size": 19787,
+    "created_at": "2019-07-20T05:49:36.955273+00:00",
+    "dependencies": [
+      {
+        "crate_id": "actix-http", "default_features": true, "downloads": 0,
+        "features": [], "id": 828663, "kind": "normal", "optional": false,
+        "req": "^0.2.4", "target": null, "version_id": 164045
+      },
+      {
+        "crate_id": "actix-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 828664, "kind": "normal",
+        "optional": false, "req": "^0.4.1", "target": null,
+        "version_id": 164045
+      },
+      {
+        "crate_id": "actix-web", "default_features": true, "downloads": 0,
+        "features": ["ssl"], "id": 828675, "kind": "dev", "optional": false,
+        "req": "^1.0.2", "target": null, "version_id": 164045
+      },
+      {
+        "crate_id": "actix-web", "default_features": false, "downloads": 0,
+        "features": [], "id": 828665, "kind": "normal", "optional": false,
+        "req": "^1.0.2", "target": null, "version_id": 164045
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 828666, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 164045
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 828667, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 164045
+      },
+      {
+        "crate_id": "derive_more", "default_features": true, "downloads": 0,
+        "features": [], "id": 828668, "kind": "normal", "optional": false,
+        "req": "^0.15.0", "target": null, "version_id": 164045
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 828669, "kind": "normal", "optional": false,
+        "req": "^0.1.25", "target": null, "version_id": 164045
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 828670, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 164045
+      },
+      {
+        "crate_id": "mime", "default_features": true, "downloads": 0,
+        "features": [], "id": 828671, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 164045
+      },
+      {
+        "crate_id": "mime_guess", "default_features": true, "downloads": 0,
+        "features": [], "id": 828672, "kind": "normal", "optional": false,
+        "req": "^2.0.0-alpha", "target": null, "version_id": 164045
+      },
+      {
+        "crate_id": "percent-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 828673, "kind": "normal",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 164045
+      },
+      {
+        "crate_id": "v_htmlescape", "default_features": true,
+        "downloads": 0, "features": [], "id": 828674, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 164045
+      }
+    ],
+    "dl_path": "/api/v1/crates/actix-files/0.1.4/download",
+    "downloads": 25407, "features": {}, "id": 164045,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/actix-files/0.1.4/authors",
+      "dependencies": "/api/v1/crates/actix-files/0.1.4/dependencies",
+      "version_downloads": "/api/v1/crates/actix-files/0.1.4/downloads"
+    },
+    "num": "0.1.4",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/598990?v=4",
+      "id": 7201, "login": "fafhrd91", "name": "Nikolay Kim",
+      "url": "https://github.com/fafhrd91"
+    },
+    "readme_path": "/api/v1/crates/actix-files/0.1.4/readme",
+    "updated_at": "2019-07-20T05:49:36.955273+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Nikolay Kim <fafhrd91@gmail.com>"]},
+      "users": []
+    },
+    "crate": "actix-files", "crate_size": 20086,
+    "created_at": "2019-10-08T04:15:30.292703+00:00",
+    "dependencies": [
+      {
+        "crate_id": "actix-http", "default_features": true, "downloads": 0,
+        "features": [], "id": 934702, "kind": "normal", "optional": false,
+        "req": "^0.2.9", "target": null, "version_id": 181032
+      },
+      {
+        "crate_id": "actix-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 934703, "kind": "normal",
+        "optional": false, "req": "^0.4.1", "target": null,
+        "version_id": 181032
+      },
+      {
+        "crate_id": "actix-web", "default_features": true, "downloads": 0,
+        "features": ["ssl"], "id": 934714, "kind": "dev", "optional": false,
+        "req": "^1.0.8", "target": null, "version_id": 181032
+      },
+      {
+        "crate_id": "actix-web", "default_features": false, "downloads": 0,
+        "features": [], "id": 934704, "kind": "normal", "optional": false,
+        "req": "^1.0.8", "target": null, "version_id": 181032
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 934705, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 181032
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 934706, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 181032
+      },
+      {
+        "crate_id": "derive_more", "default_features": true, "downloads": 0,
+        "features": [], "id": 934707, "kind": "normal", "optional": false,
+        "req": "^0.15.0", "target": null, "version_id": 181032
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 934708, "kind": "normal", "optional": false,
+        "req": "^0.1.25", "target": null, "version_id": 181032
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 934709, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 181032
+      },
+      {
+        "crate_id": "mime", "default_features": true, "downloads": 0,
+        "features": [], "id": 934710, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 181032
+      },
+      {
+        "crate_id": "mime_guess", "default_features": true, "downloads": 0,
+        "features": [], "id": 934711, "kind": "normal", "optional": false,
+        "req": "^2.0.1", "target": null, "version_id": 181032
+      },
+      {
+        "crate_id": "percent-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 934712, "kind": "normal",
+        "optional": false, "req": "^2.1", "target": null,
+        "version_id": 181032
+      },
+      {
+        "crate_id": "v_htmlescape", "default_features": true,
+        "downloads": 0, "features": [], "id": 934713, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 181032
+      }
+    ],
+    "dl_path": "/api/v1/crates/actix-files/0.1.5/download",
+    "downloads": 3565, "features": {}, "id": 181032,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/actix-files/0.1.5/authors",
+      "dependencies": "/api/v1/crates/actix-files/0.1.5/dependencies",
+      "version_downloads": "/api/v1/crates/actix-files/0.1.5/downloads"
+    },
+    "num": "0.1.5",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/598990?v=4",
+      "id": 7201, "login": "fafhrd91", "name": "Nikolay Kim",
+      "url": "https://github.com/fafhrd91"
+    },
+    "readme_path": "/api/v1/crates/actix-files/0.1.5/readme",
+    "updated_at": "2019-10-08T04:15:30.292703+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Nikolay Kim <fafhrd91@gmail.com>"]},
+      "users": []
+    },
+    "crate": "actix-files", "crate_size": 20372,
+    "created_at": "2019-10-14T15:28:32.125128+00:00",
+    "dependencies": [
+      {
+        "crate_id": "actix-http", "default_features": true, "downloads": 0,
+        "features": [], "id": 944934, "kind": "normal", "optional": false,
+        "req": "^0.2.9", "target": null, "version_id": 182586
+      },
+      {
+        "crate_id": "actix-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 944935, "kind": "normal",
+        "optional": false, "req": "^0.4.1", "target": null,
+        "version_id": 182586
+      },
+      {
+        "crate_id": "actix-web", "default_features": true, "downloads": 0,
+        "features": ["ssl"], "id": 944946, "kind": "dev", "optional": false,
+        "req": "^1.0.8", "target": null, "version_id": 182586
+      },
+      {
+        "crate_id": "actix-web", "default_features": false, "downloads": 0,
+        "features": [], "id": 944936, "kind": "normal", "optional": false,
+        "req": "^1.0.8", "target": null, "version_id": 182586
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 944937, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 182586
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 944938, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 182586
+      },
+      {
+        "crate_id": "derive_more", "default_features": true, "downloads": 0,
+        "features": [], "id": 944939, "kind": "normal", "optional": false,
+        "req": "^0.15.0", "target": null, "version_id": 182586
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 944940, "kind": "normal", "optional": false,
+        "req": "^0.1.25", "target": null, "version_id": 182586
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 944941, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 182586
+      },
+      {
+        "crate_id": "mime", "default_features": true, "downloads": 0,
+        "features": [], "id": 944942, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 182586
+      },
+      {
+        "crate_id": "mime_guess", "default_features": true, "downloads": 0,
+        "features": [], "id": 944943, "kind": "normal", "optional": false,
+        "req": "^2.0.1", "target": null, "version_id": 182586
+      },
+      {
+        "crate_id": "percent-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 944944, "kind": "normal",
+        "optional": false, "req": "^2.1", "target": null,
+        "version_id": 182586
+      },
+      {
+        "crate_id": "v_htmlescape", "default_features": true,
+        "downloads": 0, "features": [], "id": 944945, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 182586
+      }
+    ],
+    "dl_path": "/api/v1/crates/actix-files/0.1.6/download",
+    "downloads": 10597, "features": {}, "id": 182586,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/actix-files/0.1.6/authors",
+      "dependencies": "/api/v1/crates/actix-files/0.1.6/dependencies",
+      "version_downloads": "/api/v1/crates/actix-files/0.1.6/downloads"
+    },
+    "num": "0.1.6",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/598990?v=4",
+      "id": 7201, "login": "fafhrd91", "name": "Nikolay Kim",
+      "url": "https://github.com/fafhrd91"
+    },
+    "readme_path": "/api/v1/crates/actix-files/0.1.6/readme",
+    "updated_at": "2019-10-14T15:28:32.125128+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Nikolay Kim <fafhrd91@gmail.com>"]},
+      "users": []
+    },
+    "crate": "actix-files", "crate_size": 20628,
+    "created_at": "2019-11-06T19:28:50.456624+00:00",
+    "dependencies": [
+      {
+        "crate_id": "actix-http", "default_features": true, "downloads": 0,
+        "features": [], "id": 981568, "kind": "normal", "optional": false,
+        "req": "^0.2.11", "target": null, "version_id": 187756
+      },
+      {
+        "crate_id": "actix-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 981569, "kind": "normal",
+        "optional": false, "req": "^0.4.1", "target": null,
+        "version_id": 187756
+      },
+      {
+        "crate_id": "actix-web", "default_features": true, "downloads": 0,
+        "features": ["ssl"], "id": 981580, "kind": "dev", "optional": false,
+        "req": "^1.0.8", "target": null, "version_id": 187756
+      },
+      {
+        "crate_id": "actix-web", "default_features": false, "downloads": 0,
+        "features": [], "id": 981570, "kind": "normal", "optional": false,
+        "req": "^1.0.8", "target": null, "version_id": 187756
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 981571, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 187756
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 981572, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 187756
+      },
+      {
+        "crate_id": "derive_more", "default_features": true, "downloads": 0,
+        "features": [], "id": 981573, "kind": "normal", "optional": false,
+        "req": "^0.15.0", "target": null, "version_id": 187756
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 981574, "kind": "normal", "optional": false,
+        "req": "^0.1.25", "target": null, "version_id": 187756
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 981575, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 187756
+      },
+      {
+        "crate_id": "mime", "default_features": true, "downloads": 0,
+        "features": [], "id": 981576, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 187756
+      },
+      {
+        "crate_id": "mime_guess", "default_features": true, "downloads": 0,
+        "features": [], "id": 981577, "kind": "normal", "optional": false,
+        "req": "^2.0.1", "target": null, "version_id": 187756
+      },
+      {
+        "crate_id": "percent-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 981578, "kind": "normal",
+        "optional": false, "req": "^2.1", "target": null,
+        "version_id": 187756
+      },
+      {
+        "crate_id": "v_htmlescape", "default_features": true,
+        "downloads": 0, "features": [], "id": 981579, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 187756
+      }
+    ],
+    "dl_path": "/api/v1/crates/actix-files/0.1.7/download",
+    "downloads": 25726, "features": {}, "id": 187756,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/actix-files/0.1.7/authors",
+      "dependencies": "/api/v1/crates/actix-files/0.1.7/dependencies",
+      "version_downloads": "/api/v1/crates/actix-files/0.1.7/downloads"
+    },
+    "num": "0.1.7",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/598990?v=4",
+      "id": 7201, "login": "fafhrd91", "name": "Nikolay Kim",
+      "url": "https://github.com/fafhrd91"
+    },
+    "readme_path": "/api/v1/crates/actix-files/0.1.7/readme",
+    "updated_at": "2019-11-06T19:28:50.456624+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Nikolay Kim <fafhrd91@gmail.com>"]},
+      "users": []
+    },
+    "crate": "actix-files", "crate_size": 20720,
+    "created_at": "2019-11-22T07:12:28.101156+00:00",
+    "dependencies": [
+      {
+        "crate_id": "actix-http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1006457, "kind": "normal", "optional": false,
+        "req": "^0.3.0-alpha.1", "target": null, "version_id": 191478
+      },
+      {
+        "crate_id": "actix-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 1006458, "kind": "normal",
+        "optional": false, "req": "^1.0.0-alpha.1", "target": null,
+        "version_id": 191478
+      },
+      {
+        "crate_id": "actix-web", "default_features": true, "downloads": 0,
+        "features": ["openssl"], "id": 1006469, "kind": "dev",
+        "optional": false, "req": "^2.0.0-alpha.1", "target": null,
+        "version_id": 191478
+      },
+      {
+        "crate_id": "actix-web", "default_features": false, "downloads": 0,
+        "features": [], "id": 1006459, "kind": "normal", "optional": false,
+        "req": "^2.0.0-alpha.1", "target": null, "version_id": 191478
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1006460, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 191478
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1006461, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 191478
+      },
+      {
+        "crate_id": "derive_more", "default_features": true, "downloads": 0,
+        "features": [], "id": 1006462, "kind": "normal", "optional": false,
+        "req": "^0.15.0", "target": null, "version_id": 191478
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1006463, "kind": "normal", "optional": false,
+        "req": "^0.3.1", "target": null, "version_id": 191478
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1006464, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 191478
+      },
+      {
+        "crate_id": "mime", "default_features": true, "downloads": 0,
+        "features": [], "id": 1006465, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 191478
+      },
+      {
+        "crate_id": "mime_guess", "default_features": true, "downloads": 0,
+        "features": [], "id": 1006466, "kind": "normal", "optional": false,
+        "req": "^2.0.1", "target": null, "version_id": 191478
+      },
+      {
+        "crate_id": "percent-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1006467, "kind": "normal",
+        "optional": false, "req": "^2.1", "target": null,
+        "version_id": 191478
+      },
+      {
+        "crate_id": "v_htmlescape", "default_features": true,
+        "downloads": 0, "features": [], "id": 1006468, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 191478
+      }
+    ],
+    "dl_path": "/api/v1/crates/actix-files/0.2.0-alpha.1/download",
+    "downloads": 477, "features": {}, "id": 191478,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/actix-files/0.2.0-alpha.1/authors",
+      "dependencies": "/api/v1/crates/actix-files/0.2.0-alpha.1/dependencies",
+      "version_downloads": "/api/v1/crates/actix-files/0.2.0-alpha.1/downloads"
+    },
+    "num": "0.2.0-alpha.1",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/598990?v=4",
+      "id": 7201, "login": "fafhrd91", "name": "Nikolay Kim",
+      "url": "https://github.com/fafhrd91"
+    },
+    "readme_path": "/api/v1/crates/actix-files/0.2.0-alpha.1/readme",
+    "updated_at": "2019-11-22T07:12:28.101156+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Nikolay Kim <fafhrd91@gmail.com>"]},
+      "users": []
+    },
+    "crate": "actix-files", "crate_size": 20826,
+    "created_at": "2019-12-03T10:37:03.781971+00:00",
+    "dependencies": [
+      {
+        "crate_id": "actix-http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1020924, "kind": "normal", "optional": false,
+        "req": "^0.3.0-alpha.2", "target": null, "version_id": 193664
+      },
+      {
+        "crate_id": "actix-rt", "default_features": true, "downloads": 0,
+        "features": [], "id": 1020936, "kind": "dev", "optional": false,
+        "req": "^1.0.0-alpha.2", "target": null, "version_id": 193664
+      },
+      {
+        "crate_id": "actix-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 1020925, "kind": "normal",
+        "optional": false, "req": "^1.0.0-alpha.2", "target": null,
+        "version_id": 193664
+      },
+      {
+        "crate_id": "actix-web", "default_features": true, "downloads": 0,
+        "features": ["openssl"], "id": 1020937, "kind": "dev",
+        "optional": false, "req": "^2.0.0-alpha.2", "target": null,
+        "version_id": 193664
+      },
+      {
+        "crate_id": "actix-web", "default_features": false, "downloads": 0,
+        "features": [], "id": 1020926, "kind": "normal", "optional": false,
+        "req": "^2.0.0-alpha.2", "target": null, "version_id": 193664
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1020927, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 193664
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1020928, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 193664
+      },
+      {
+        "crate_id": "derive_more", "default_features": true, "downloads": 0,
+        "features": [], "id": 1020929, "kind": "normal", "optional": false,
+        "req": "^0.99.2", "target": null, "version_id": 193664
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1020930, "kind": "normal", "optional": false,
+        "req": "^0.3.1", "target": null, "version_id": 193664
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1020931, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 193664
+      },
+      {
+        "crate_id": "mime", "default_features": true, "downloads": 0,
+        "features": [], "id": 1020932, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 193664
+      },
+      {
+        "crate_id": "mime_guess", "default_features": true, "downloads": 0,
+        "features": [], "id": 1020933, "kind": "normal", "optional": false,
+        "req": "^2.0.1", "target": null, "version_id": 193664
+      },
+      {
+        "crate_id": "percent-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1020934, "kind": "normal",
+        "optional": false, "req": "^2.1", "target": null,
+        "version_id": 193664
+      },
+      {
+        "crate_id": "v_htmlescape", "default_features": true,
+        "downloads": 0, "features": [], "id": 1020935, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 193664
+      }
+    ],
+    "dl_path": "/api/v1/crates/actix-files/0.2.0-alpha.2/download",
+    "downloads": 400, "features": {}, "id": 193664,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/actix-files/0.2.0-alpha.2/authors",
+      "dependencies": "/api/v1/crates/actix-files/0.2.0-alpha.2/dependencies",
+      "version_downloads": "/api/v1/crates/actix-files/0.2.0-alpha.2/downloads"
+    },
+    "num": "0.2.0-alpha.2",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/598990?v=4",
+      "id": 7201, "login": "fafhrd91", "name": "Nikolay Kim",
+      "url": "https://github.com/fafhrd91"
+    },
+    "readme_path": "/api/v1/crates/actix-files/0.2.0-alpha.2/readme",
+    "updated_at": "2019-12-03T10:37:03.781971+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2019-12-07T06:57:01.214734+00:00",
+        "user": {
+          "avatar": "https://avatars2.githubusercontent.com/u/598990?v=4",
+          "id": 7201, "login": "fafhrd91", "name": "Nikolay Kim",
+          "url": "https://github.com/fafhrd91"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Nikolay Kim <fafhrd91@gmail.com>"]},
+      "users": []
+    },
+    "crate": "actix-files", "crate_size": 20726,
+    "created_at": "2019-12-07T06:57:01.214734+00:00",
+    "dependencies": [
+      {
+        "crate_id": "actix-http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1026562, "kind": "normal", "optional": false,
+        "req": "^1.0.0-alpha.3", "target": null, "version_id": 194440
+      },
+      {
+        "crate_id": "actix-rt", "default_features": true, "downloads": 0,
+        "features": [], "id": 1026574, "kind": "dev", "optional": false,
+        "req": "^1.0.0-alpha.3", "target": null, "version_id": 194440
+      },
+      {
+        "crate_id": "actix-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 1026563, "kind": "normal",
+        "optional": false, "req": "^1.0.0-alpha.3", "target": null,
+        "version_id": 194440
+      },
+      {
+        "crate_id": "actix-web", "default_features": true, "downloads": 0,
+        "features": ["openssl"], "id": 1026575, "kind": "dev",
+        "optional": false, "req": "^2.0.0-alpha.3", "target": null,
+        "version_id": 194440
+      },
+      {
+        "crate_id": "actix-web", "default_features": false, "downloads": 0,
+        "features": [], "id": 1026564, "kind": "normal", "optional": false,
+        "req": "^2.0.0-alpha.3", "target": null, "version_id": 194440
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1026565, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 194440
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1026566, "kind": "normal", "optional": false,
+        "req": "^0.5.2", "target": null, "version_id": 194440
+      },
+      {
+        "crate_id": "derive_more", "default_features": true, "downloads": 0,
+        "features": [], "id": 1026567, "kind": "normal", "optional": false,
+        "req": "^0.99.2", "target": null, "version_id": 194440
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1026568, "kind": "normal", "optional": false,
+        "req": "^0.3.1", "target": null, "version_id": 194440
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1026569, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 194440
+      },
+      {
+        "crate_id": "mime", "default_features": true, "downloads": 0,
+        "features": [], "id": 1026570, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 194440
+      },
+      {
+        "crate_id": "mime_guess", "default_features": true, "downloads": 0,
+        "features": [], "id": 1026571, "kind": "normal", "optional": false,
+        "req": "^2.0.1", "target": null, "version_id": 194440
+      },
+      {
+        "crate_id": "percent-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1026572, "kind": "normal",
+        "optional": false, "req": "^2.1", "target": null,
+        "version_id": 194440
+      },
+      {
+        "crate_id": "v_htmlescape", "default_features": true,
+        "downloads": 0, "features": [], "id": 1026573, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 194440
+      }
+    ],
+    "dl_path": "/api/v1/crates/actix-files/0.2.0-alpha.3/download",
+    "downloads": 1274, "features": {}, "id": 194440,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/actix-files/0.2.0-alpha.3/authors",
+      "dependencies": "/api/v1/crates/actix-files/0.2.0-alpha.3/dependencies",
+      "version_downloads": "/api/v1/crates/actix-files/0.2.0-alpha.3/downloads"
+    },
+    "num": "0.2.0-alpha.3",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/598990?v=4",
+      "id": 7201, "login": "fafhrd91", "name": "Nikolay Kim",
+      "url": "https://github.com/fafhrd91"
+    },
+    "readme_path": "/api/v1/crates/actix-files/0.2.0-alpha.3/readme",
+    "updated_at": "2019-12-07T06:57:01.214734+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2019-12-20T15:45:09.177239+00:00",
+        "user": {
+          "avatar": "https://avatars2.githubusercontent.com/u/598990?v=4",
+          "id": 7201, "login": "fafhrd91", "name": "Nikolay Kim",
+          "url": "https://github.com/fafhrd91"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Nikolay Kim <fafhrd91@gmail.com>"]},
+      "users": []
+    },
+    "crate": "actix-files", "crate_size": 20854,
+    "created_at": "2019-12-20T15:45:09.177239+00:00",
+    "dependencies": [
+      {
+        "crate_id": "actix-http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1049358, "kind": "normal", "optional": false,
+        "req": "^1.0.1", "target": null, "version_id": 197771
+      },
+      {
+        "crate_id": "actix-rt", "default_features": true, "downloads": 0,
+        "features": [], "id": 1049370, "kind": "dev", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 197771
+      },
+      {
+        "crate_id": "actix-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 1049359, "kind": "normal",
+        "optional": false, "req": "^1.0.0", "target": null,
+        "version_id": 197771
+      },
+      {
+        "crate_id": "actix-web", "default_features": true, "downloads": 0,
+        "features": ["openssl"], "id": 1049371, "kind": "dev",
+        "optional": false, "req": "^2.0.0-rc", "target": null,
+        "version_id": 197771
+      },
+      {
+        "crate_id": "actix-web", "default_features": false, "downloads": 0,
+        "features": [], "id": 1049360, "kind": "normal", "optional": false,
+        "req": "^2.0.0-rc", "target": null, "version_id": 197771
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1049361, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 197771
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1049362, "kind": "normal", "optional": false,
+        "req": "^0.5.3", "target": null, "version_id": 197771
+      },
+      {
+        "crate_id": "derive_more", "default_features": true, "downloads": 0,
+        "features": [], "id": 1049363, "kind": "normal", "optional": false,
+        "req": "^0.99.2", "target": null, "version_id": 197771
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1049364, "kind": "normal", "optional": false,
+        "req": "^0.3.1", "target": null, "version_id": 197771
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1049365, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 197771
+      },
+      {
+        "crate_id": "mime", "default_features": true, "downloads": 0,
+        "features": [], "id": 1049366, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 197771
+      },
+      {
+        "crate_id": "mime_guess", "default_features": true, "downloads": 0,
+        "features": [], "id": 1049367, "kind": "normal", "optional": false,
+        "req": "^2.0.1", "target": null, "version_id": 197771
+      },
+      {
+        "crate_id": "percent-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1049368, "kind": "normal",
+        "optional": false, "req": "^2.1", "target": null,
+        "version_id": 197771
+      },
+      {
+        "crate_id": "v_htmlescape", "default_features": true,
+        "downloads": 0, "features": [], "id": 1049369, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 197771
+      }
+    ],
+    "dl_path": "/api/v1/crates/actix-files/0.2.0/download",
+    "downloads": 271, "features": {}, "id": 197771,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/actix-files/0.2.0/authors",
+      "dependencies": "/api/v1/crates/actix-files/0.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/actix-files/0.2.0/downloads"
+    },
+    "num": "0.2.0",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/598990?v=4",
+      "id": 7201, "login": "fafhrd91", "name": "Nikolay Kim",
+      "url": "https://github.com/fafhrd91"
+    },
+    "readme_path": "/api/v1/crates/actix-files/0.2.0/readme",
+    "updated_at": "2019-12-20T15:45:09.177239+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2019-12-22T07:49:28.036193+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/25030997?v=4",
+          "id": 51017, "login": "JohnTitor", "name": "Yuki Okushi",
+          "url": "https://github.com/JohnTitor"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Nikolay Kim <fafhrd91@gmail.com>"]},
+      "users": []
+    },
+    "crate": "actix-files", "crate_size": 16630,
+    "created_at": "2019-12-22T07:49:28.036193+00:00",
+    "dependencies": [
+      {
+        "crate_id": "actix-http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1051329, "kind": "normal", "optional": false,
+        "req": "^1.0.1", "target": null, "version_id": 198111
+      },
+      {
+        "crate_id": "actix-rt", "default_features": true, "downloads": 0,
+        "features": [], "id": 1051341, "kind": "dev", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 198111
+      },
+      {
+        "crate_id": "actix-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 1051330, "kind": "normal",
+        "optional": false, "req": "^1.0.0", "target": null,
+        "version_id": 198111
+      },
+      {
+        "crate_id": "actix-web", "default_features": true, "downloads": 0,
+        "features": ["openssl"], "id": 1051342, "kind": "dev",
+        "optional": false, "req": "^2.0.0-rc", "target": null,
+        "version_id": 198111
+      },
+      {
+        "crate_id": "actix-web", "default_features": false, "downloads": 0,
+        "features": [], "id": 1051331, "kind": "normal", "optional": false,
+        "req": "^2.0.0-rc", "target": null, "version_id": 198111
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1051332, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 198111
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1051333, "kind": "normal", "optional": false,
+        "req": "^0.5.3", "target": null, "version_id": 198111
+      },
+      {
+        "crate_id": "derive_more", "default_features": true, "downloads": 0,
+        "features": [], "id": 1051334, "kind": "normal", "optional": false,
+        "req": "^0.99.2", "target": null, "version_id": 198111
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1051335, "kind": "normal", "optional": false,
+        "req": "^0.3.1", "target": null, "version_id": 198111
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1051336, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 198111
+      },
+      {
+        "crate_id": "mime", "default_features": true, "downloads": 0,
+        "features": [], "id": 1051337, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 198111
+      },
+      {
+        "crate_id": "mime_guess", "default_features": true, "downloads": 0,
+        "features": [], "id": 1051338, "kind": "normal", "optional": false,
+        "req": "^2.0.1", "target": null, "version_id": 198111
+      },
+      {
+        "crate_id": "percent-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1051339, "kind": "normal",
+        "optional": false, "req": "^2.1", "target": null,
+        "version_id": 198111
+      },
+      {
+        "crate_id": "v_htmlescape", "default_features": true,
+        "downloads": 0, "features": [], "id": 1051340, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 198111
+      }
+    ],
+    "dl_path": "/api/v1/crates/actix-files/0.2.1/download",
+    "downloads": 56970, "features": {}, "id": 198111,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/actix-files/0.2.1/authors",
+      "dependencies": "/api/v1/crates/actix-files/0.2.1/dependencies",
+      "version_downloads": "/api/v1/crates/actix-files/0.2.1/downloads"
+    },
+    "num": "0.2.1",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/25030997?v=4",
+      "id": 51017, "login": "JohnTitor", "name": "Yuki Okushi",
+      "url": "https://github.com/JohnTitor"
+    },
+    "readme_path": "/api/v1/crates/actix-files/0.2.1/readme",
+    "updated_at": "2019-12-22T07:49:28.036193+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-05-26T15:38:55.974887+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/25030997?v=4",
+          "id": 51017, "login": "JohnTitor", "name": "Yuki Okushi",
+          "url": "https://github.com/JohnTitor"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Nikolay Kim <fafhrd91@gmail.com>"]},
+      "users": []
+    },
+    "crate": "actix-files", "crate_size": 20956,
+    "created_at": "2020-05-26T15:38:55.974887+00:00",
+    "dependencies": [
+      {
+        "crate_id": "actix-http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1398211, "kind": "normal", "optional": false,
+        "req": "^1.0.1", "target": null, "version_id": 245682
+      },
+      {
+        "crate_id": "actix-rt", "default_features": true, "downloads": 0,
+        "features": [], "id": 1398224, "kind": "dev", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 245682
+      },
+      {
+        "crate_id": "actix-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 1398212, "kind": "normal",
+        "optional": false, "req": "^1.0.1", "target": null,
+        "version_id": 245682
+      },
+      {
+        "crate_id": "actix-web", "default_features": true, "downloads": 0,
+        "features": ["openssl"], "id": 1398225, "kind": "dev",
+        "optional": false, "req": "^2.0.0", "target": null,
+        "version_id": 245682
+      },
+      {
+        "crate_id": "actix-web", "default_features": false, "downloads": 0,
+        "features": [], "id": 1398213, "kind": "normal", "optional": false,
+        "req": "^2.0.0", "target": null, "version_id": 245682
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1398214, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 245682
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1398215, "kind": "normal", "optional": false,
+        "req": "^0.5.3", "target": null, "version_id": 245682
+      },
+      {
+        "crate_id": "derive_more", "default_features": true, "downloads": 0,
+        "features": [], "id": 1398216, "kind": "normal", "optional": false,
+        "req": "^0.99.2", "target": null, "version_id": 245682
+      },
+      {
+        "crate_id": "futures-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 1398217, "kind": "normal",
+        "optional": false, "req": "^0.3.5", "target": null,
+        "version_id": 245682
+      },
+      {
+        "crate_id": "futures-util", "default_features": false,
+        "downloads": 0, "features": [], "id": 1398218, "kind": "normal",
+        "optional": false, "req": "^0.3.5", "target": null,
+        "version_id": 245682
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1398219, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 245682
+      },
+      {
+        "crate_id": "mime", "default_features": true, "downloads": 0,
+        "features": [], "id": 1398220, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 245682
+      },
+      {
+        "crate_id": "mime_guess", "default_features": true, "downloads": 0,
+        "features": [], "id": 1398221, "kind": "normal", "optional": false,
+        "req": "^2.0.1", "target": null, "version_id": 245682
+      },
+      {
+        "crate_id": "percent-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1398222, "kind": "normal",
+        "optional": false, "req": "^2.1", "target": null,
+        "version_id": 245682
+      },
+      {
+        "crate_id": "v_htmlescape", "default_features": true,
+        "downloads": 0, "features": [], "id": 1398223, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 245682
+      }
+    ],
+    "dl_path": "/api/v1/crates/actix-files/0.2.2/download",
+    "downloads": 52903, "features": {}, "id": 245682,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/actix-files/0.2.2/authors",
+      "dependencies": "/api/v1/crates/actix-files/0.2.2/dependencies",
+      "version_downloads": "/api/v1/crates/actix-files/0.2.2/downloads"
+    },
+    "num": "0.2.2",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/25030997?v=4",
+      "id": 51017, "login": "JohnTitor", "name": "Yuki Okushi",
+      "url": "https://github.com/JohnTitor"
+    },
+    "readme_path": "/api/v1/crates/actix-files/0.2.2/readme",
+    "updated_at": "2020-05-26T15:38:55.974887+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-05-24T02:55:00.219482+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/25030997?v=4",
+          "id": 51017, "login": "JohnTitor", "name": "Yuki Okushi",
+          "url": "https://github.com/JohnTitor"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Nikolay Kim <fafhrd91@gmail.com>"]},
+      "users": []
+    },
+    "crate": "actix-files", "crate_size": 21010,
+    "created_at": "2020-05-24T02:55:00.219482+00:00",
+    "dependencies": [
+      {
+        "crate_id": "actix-http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1389867, "kind": "normal", "optional": false,
+        "req": "^2.0.0-alpha.4", "target": null, "version_id": 244593
+      },
+      {
+        "crate_id": "actix-rt", "default_features": true, "downloads": 0,
+        "features": [], "id": 1389880, "kind": "dev", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 244593
+      },
+      {
+        "crate_id": "actix-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 1389868, "kind": "normal",
+        "optional": false, "req": "^1.0.1", "target": null,
+        "version_id": 244593
+      },
+      {
+        "crate_id": "actix-web", "default_features": true, "downloads": 0,
+        "features": ["openssl"], "id": 1389881, "kind": "dev",
+        "optional": false, "req": "^3.0.0-alpha.3", "target": null,
+        "version_id": 244593
+      },
+      {
+        "crate_id": "actix-web", "default_features": false, "downloads": 0,
+        "features": [], "id": 1389869, "kind": "normal", "optional": false,
+        "req": "^3.0.0-alpha.3", "target": null, "version_id": 244593
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1389870, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 244593
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1389871, "kind": "normal", "optional": false,
+        "req": "^0.5.3", "target": null, "version_id": 244593
+      },
+      {
+        "crate_id": "derive_more", "default_features": true, "downloads": 0,
+        "features": [], "id": 1389872, "kind": "normal", "optional": false,
+        "req": "^0.99.2", "target": null, "version_id": 244593
+      },
+      {
+        "crate_id": "futures-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 1389873, "kind": "normal",
+        "optional": false, "req": "^0.3.5", "target": null,
+        "version_id": 244593
+      },
+      {
+        "crate_id": "futures-util", "default_features": false,
+        "downloads": 0, "features": [], "id": 1389874, "kind": "normal",
+        "optional": false, "req": "^0.3.5", "target": null,
+        "version_id": 244593
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1389875, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 244593
+      },
+      {
+        "crate_id": "mime", "default_features": true, "downloads": 0,
+        "features": [], "id": 1389876, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 244593
+      },
+      {
+        "crate_id": "mime_guess", "default_features": true, "downloads": 0,
+        "features": [], "id": 1389877, "kind": "normal", "optional": false,
+        "req": "^2.0.1", "target": null, "version_id": 244593
+      },
+      {
+        "crate_id": "percent-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1389878, "kind": "normal",
+        "optional": false, "req": "^2.1", "target": null,
+        "version_id": 244593
+      },
+      {
+        "crate_id": "v_htmlescape", "default_features": true,
+        "downloads": 0, "features": [], "id": 1389879, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 244593
+      }
+    ],
+    "dl_path": "/api/v1/crates/actix-files/0.3.0-alpha.1/download",
+    "downloads": 4021, "features": {}, "id": 244593,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/actix-files/0.3.0-alpha.1/authors",
+      "dependencies": "/api/v1/crates/actix-files/0.3.0-alpha.1/dependencies",
+      "version_downloads": "/api/v1/crates/actix-files/0.3.0-alpha.1/downloads"
+    },
+    "num": "0.3.0-alpha.1",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/25030997?v=4",
+      "id": 51017, "login": "JohnTitor", "name": "Yuki Okushi",
+      "url": "https://github.com/JohnTitor"
+    },
+    "readme_path": "/api/v1/crates/actix-files/0.3.0-alpha.1/readme",
+    "updated_at": "2020-05-24T02:55:00.219482+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-07-16T10:47:49.270624+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/3316789?v=4",
+          "id": 56903, "login": "robjtede", "name": "Rob Ede",
+          "url": "https://github.com/robjtede"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Nikolay Kim <fafhrd91@gmail.com>"]},
+      "users": []
+    },
+    "crate": "actix-files", "crate_size": 21037,
+    "created_at": "2020-07-16T10:47:49.270624+00:00",
+    "dependencies": [
+      {
+        "crate_id": "actix-http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1527365, "kind": "normal", "optional": false,
+        "req": "^2.0.0-beta.1", "target": null, "version_id": 262878
+      },
+      {
+        "crate_id": "actix-rt", "default_features": true, "downloads": 0,
+        "features": [], "id": 1527378, "kind": "dev", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 262878
+      },
+      {
+        "crate_id": "actix-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 1527366, "kind": "normal",
+        "optional": false, "req": "^1.0.1", "target": null,
+        "version_id": 262878
+      },
+      {
+        "crate_id": "actix-web", "default_features": true, "downloads": 0,
+        "features": ["openssl"], "id": 1527379, "kind": "dev",
+        "optional": false, "req": "^3.0.0-beta.1", "target": null,
+        "version_id": 262878
+      },
+      {
+        "crate_id": "actix-web", "default_features": false, "downloads": 0,
+        "features": [], "id": 1527367, "kind": "normal", "optional": false,
+        "req": "^3.0.0-beta.1", "target": null, "version_id": 262878
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1527368, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 262878
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1527369, "kind": "normal", "optional": false,
+        "req": "^0.5.3", "target": null, "version_id": 262878
+      },
+      {
+        "crate_id": "derive_more", "default_features": true, "downloads": 0,
+        "features": [], "id": 1527370, "kind": "normal", "optional": false,
+        "req": "^0.99.2", "target": null, "version_id": 262878
+      },
+      {
+        "crate_id": "futures-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 1527371, "kind": "normal",
+        "optional": false, "req": "^0.3.5", "target": null,
+        "version_id": 262878
+      },
+      {
+        "crate_id": "futures-util", "default_features": false,
+        "downloads": 0, "features": [], "id": 1527372, "kind": "normal",
+        "optional": false, "req": "^0.3.5", "target": null,
+        "version_id": 262878
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1527373, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 262878
+      },
+      {
+        "crate_id": "mime", "default_features": true, "downloads": 0,
+        "features": [], "id": 1527374, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 262878
+      },
+      {
+        "crate_id": "mime_guess", "default_features": true, "downloads": 0,
+        "features": [], "id": 1527375, "kind": "normal", "optional": false,
+        "req": "^2.0.1", "target": null, "version_id": 262878
+      },
+      {
+        "crate_id": "percent-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1527376, "kind": "normal",
+        "optional": false, "req": "^2.1", "target": null,
+        "version_id": 262878
+      },
+      {
+        "crate_id": "v_htmlescape", "default_features": true,
+        "downloads": 0, "features": [], "id": 1527377, "kind": "normal",
+        "optional": false, "req": "^0.10", "target": null,
+        "version_id": 262878
+      }
+    ],
+    "dl_path": "/api/v1/crates/actix-files/0.3.0-beta.1/download",
+    "downloads": 3092, "features": {}, "id": 262878,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/actix-files/0.3.0-beta.1/authors",
+      "dependencies": "/api/v1/crates/actix-files/0.3.0-beta.1/dependencies",
+      "version_downloads": "/api/v1/crates/actix-files/0.3.0-beta.1/downloads"
+    },
+    "num": "0.3.0-beta.1",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/3316789?v=4",
+      "id": 56903, "login": "robjtede", "name": "Rob Ede",
+      "url": "https://github.com/robjtede"
+    },
+    "readme_path": "/api/v1/crates/actix-files/0.3.0-beta.1/readme",
+    "updated_at": "2020-07-16T10:47:49.270624+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-09-11T13:06:04.472765+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/3316789?v=4",
+          "id": 56903, "login": "robjtede", "name": "Rob Ede",
+          "url": "https://github.com/robjtede"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Nikolay Kim <fafhrd91@gmail.com>"]},
+      "users": []
+    },
+    "crate": "actix-files", "crate_size": 20890,
+    "created_at": "2020-09-11T13:06:04.472765+00:00",
+    "dependencies": [
+      {
+        "crate_id": "actix-http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1675874, "kind": "normal", "optional": false,
+        "req": "^2.0.0", "target": null, "version_id": 282372
+      },
+      {
+        "crate_id": "actix-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 1675875, "kind": "normal",
+        "optional": false, "req": "^1.0.6", "target": null,
+        "version_id": 282372
+      },
+      {
+        "crate_id": "actix-web", "default_features": false, "downloads": 0,
+        "features": [], "id": 1675876, "kind": "normal", "optional": false,
+        "req": "^3.0.0", "target": null, "version_id": 282372
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1675877, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 282372
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1675878, "kind": "normal", "optional": false,
+        "req": "^0.5.3", "target": null, "version_id": 282372
+      },
+      {
+        "crate_id": "derive_more", "default_features": true, "downloads": 0,
+        "features": [], "id": 1675879, "kind": "normal", "optional": false,
+        "req": "^0.99.2", "target": null, "version_id": 282372
+      },
+      {
+        "crate_id": "futures-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 1675880, "kind": "normal",
+        "optional": false, "req": "^0.3.5", "target": null,
+        "version_id": 282372
+      },
+      {
+        "crate_id": "futures-util", "default_features": false,
+        "downloads": 0, "features": [], "id": 1675881, "kind": "normal",
+        "optional": false, "req": "^0.3.5", "target": null,
+        "version_id": 282372
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1675882, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 282372
+      },
+      {
+        "crate_id": "mime", "default_features": true, "downloads": 0,
+        "features": [], "id": 1675883, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 282372
+      },
+      {
+        "crate_id": "mime_guess", "default_features": true, "downloads": 0,
+        "features": [], "id": 1675884, "kind": "normal", "optional": false,
+        "req": "^2.0.1", "target": null, "version_id": 282372
+      },
+      {
+        "crate_id": "percent-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1675885, "kind": "normal",
+        "optional": false, "req": "^2.1", "target": null,
+        "version_id": 282372
+      },
+      {
+        "crate_id": "v_htmlescape", "default_features": true,
+        "downloads": 0, "features": [], "id": 1675886, "kind": "normal",
+        "optional": false, "req": "^0.10", "target": null,
+        "version_id": 282372
+      }
+    ],
+    "dl_path": "/api/v1/crates/actix-files/0.3.0/download",
+    "downloads": 18430, "features": {}, "id": 282372,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/actix-files/0.3.0/authors",
+      "dependencies": "/api/v1/crates/actix-files/0.3.0/dependencies",
+      "version_downloads": "/api/v1/crates/actix-files/0.3.0/downloads"
+    },
+    "num": "0.3.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/3316789?v=4",
+      "id": 56903, "login": "robjtede", "name": "Rob Ede",
+      "url": "https://github.com/robjtede"
+    },
+    "readme_path": "/api/v1/crates/actix-files/0.3.0/readme",
+    "updated_at": "2020-09-11T13:06:04.472765+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-10-06T21:11:35.177745+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/3316789?v=4",
+          "id": 56903, "login": "robjtede", "name": "Rob Ede",
+          "url": "https://github.com/robjtede"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Nikolay Kim <fafhrd91@gmail.com>"]},
+      "users": []
+    },
+    "crate": "actix-files", "crate_size": 22944,
+    "created_at": "2020-10-06T21:11:35.177745+00:00",
+    "dependencies": [
+      {
+        "crate_id": "actix-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 1740222, "kind": "normal",
+        "optional": false, "req": "^1.0.6", "target": null,
+        "version_id": 290875
+      },
+      {
+        "crate_id": "actix-web", "default_features": false, "downloads": 0,
+        "features": [], "id": 1740223, "kind": "normal", "optional": false,
+        "req": "^3.0.0", "target": null, "version_id": 290875
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1740224, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 290875
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1740225, "kind": "normal", "optional": false,
+        "req": "^0.5.3", "target": null, "version_id": 290875
+      },
+      {
+        "crate_id": "derive_more", "default_features": true, "downloads": 0,
+        "features": [], "id": 1740226, "kind": "normal", "optional": false,
+        "req": "^0.99.2", "target": null, "version_id": 290875
+      },
+      {
+        "crate_id": "futures-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 1740227, "kind": "normal",
+        "optional": false, "req": "^0.3.5", "target": null,
+        "version_id": 290875
+      },
+      {
+        "crate_id": "futures-util", "default_features": false,
+        "downloads": 0, "features": [], "id": 1740228, "kind": "normal",
+        "optional": false, "req": "^0.3.5", "target": null,
+        "version_id": 290875
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1740229, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 290875
+      },
+      {
+        "crate_id": "mime", "default_features": true, "downloads": 0,
+        "features": [], "id": 1740230, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 290875
+      },
+      {
+        "crate_id": "mime_guess", "default_features": true, "downloads": 0,
+        "features": [], "id": 1740231, "kind": "normal", "optional": false,
+        "req": "^2.0.1", "target": null, "version_id": 290875
+      },
+      {
+        "crate_id": "percent-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1740232, "kind": "normal",
+        "optional": false, "req": "^2.1", "target": null,
+        "version_id": 290875
+      },
+      {
+        "crate_id": "v_htmlescape", "default_features": true,
+        "downloads": 0, "features": [], "id": 1740233, "kind": "normal",
+        "optional": false, "req": "^0.10", "target": null,
+        "version_id": 290875
+      }
+    ],
+    "dl_path": "/api/v1/crates/actix-files/0.4.0/download",
+    "downloads": 11126, "features": {}, "id": 290875,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/actix-files/0.4.0/authors",
+      "dependencies": "/api/v1/crates/actix-files/0.4.0/dependencies",
+      "version_downloads": "/api/v1/crates/actix-files/0.4.0/downloads"
+    },
+    "num": "0.4.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/3316789?v=4",
+      "id": 56903, "login": "robjtede", "name": "Rob Ede",
+      "url": "https://github.com/robjtede"
+    },
+    "readme_path": "/api/v1/crates/actix-files/0.4.0/readme",
+    "updated_at": "2020-10-06T21:11:35.177745+00:00", "yanked": false
+  }
+]

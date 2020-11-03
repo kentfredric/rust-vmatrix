@@ -1,0 +1,3367 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Simon Sapin <simon.sapin@exyr.org>"]},
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2014-12-29T15:42:13.442385+00:00",
+    "dependencies": [],
+    "dl_path": "/api/v1/crates/selectors/0.0.1/download",
+    "downloads": 736, "features": {}, "id": 1775, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.0.1/authors",
+      "dependencies": "/api/v1/crates/selectors/0.0.1/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.0.1/downloads"
+    },
+    "num": "0.0.1", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.0.1/readme",
+    "updated_at": "2017-11-30T03:21:29.298260+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Simon Sapin <simon.sapin@exyr.org>"]},
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2015-10-20T10:46:15.507524+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 44959, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 17003
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 44955, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 17003
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 44958, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 17003
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 44951, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 17003
+      },
+      {
+        "crate_id": "quickersort", "default_features": true, "downloads": 0,
+        "features": [], "id": 44952, "kind": "normal", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 17003
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 44961, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 17003
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 44954, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 17003
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 44957, "kind": "normal",
+        "optional": false, "req": "^0.1.13", "target": null,
+        "version_id": 17003
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 44956, "kind": "normal",
+        "optional": true, "req": "^0.1.1", "target": null,
+        "version_id": 17003
+      },
+      {
+        "crate_id": "heapsize_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 44960, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 17003
+      },
+      {
+        "crate_id": "string_cache_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 44953, "kind": "normal",
+        "optional": true, "req": "^0.1.7", "target": null,
+        "version_id": 17003
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.1.1/download",
+    "downloads": 392,
+    "features": {
+      "heap_size": ["string_cache/heap_size", "heapsize", "heapsize_plugin"],
+      "unstable": ["string_cache_plugin", "string_cache/unstable"]
+    },
+    "id": 17003, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.1.1/authors",
+      "dependencies": "/api/v1/crates/selectors/0.1.1/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.1.1/downloads"
+    },
+    "num": "0.1.1", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.1.1/readme",
+    "updated_at": "2017-11-30T02:30:20.234321+00:00", "yanked": true
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Simon Sapin <simon.sapin@exyr.org>"]},
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2015-10-28T04:08:45.388823+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 46020, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 17325
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 46021, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 17325
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 46019, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 17325
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 46015, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 17325
+      },
+      {
+        "crate_id": "quickersort", "default_features": true, "downloads": 0,
+        "features": [], "id": 46023, "kind": "normal", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 17325
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 46024, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 17325
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 46018, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 17325
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 46017, "kind": "normal",
+        "optional": false, "req": "^0.1.13", "target": null,
+        "version_id": 17325
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 46014, "kind": "normal",
+        "optional": true, "req": "^0.1.1", "target": null,
+        "version_id": 17325
+      },
+      {
+        "crate_id": "heapsize_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 46022, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 17325
+      },
+      {
+        "crate_id": "string_cache_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 46016, "kind": "normal",
+        "optional": true, "req": "^0.1.7", "target": null,
+        "version_id": 17325
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.2.0/download",
+    "downloads": 456,
+    "features": {
+      "heap_size": ["string_cache/heap_size", "heapsize", "heapsize_plugin"],
+      "unstable": ["string_cache_plugin", "string_cache/unstable"]
+    },
+    "id": 17325, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.2.0/authors",
+      "dependencies": "/api/v1/crates/selectors/0.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.2.0/downloads"
+    },
+    "num": "0.2.0", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.2.0/readme",
+    "updated_at": "2017-11-30T03:30:18.563870+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Simon Sapin <simon.sapin@exyr.org>"]},
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2015-11-05T07:50:35.967345+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 47364, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 17661
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 47365, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 17661
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 47360, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 17661
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 47359, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 17661
+      },
+      {
+        "crate_id": "quickersort", "default_features": true, "downloads": 0,
+        "features": [], "id": 47363, "kind": "normal", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 17661
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 47366, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 17661
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 47357, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 17661
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 47358, "kind": "normal",
+        "optional": false, "req": "^0.1.13", "target": null,
+        "version_id": 17661
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 47361, "kind": "normal",
+        "optional": true, "req": "^0.1.1", "target": null,
+        "version_id": 17661
+      },
+      {
+        "crate_id": "heapsize_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 47356, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 17661
+      },
+      {
+        "crate_id": "string_cache_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 47362, "kind": "normal",
+        "optional": true, "req": "^0.1.7", "target": null,
+        "version_id": 17661
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.2.1/download",
+    "downloads": 1948,
+    "features": {
+      "heap_size": ["string_cache/heap_size", "heapsize", "heapsize_plugin"],
+      "unstable": ["string_cache_plugin", "string_cache/unstable"]
+    },
+    "id": 17661, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.2.1/authors",
+      "dependencies": "/api/v1/crates/selectors/0.2.1/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.2.1/downloads"
+    },
+    "num": "0.2.1", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.2.1/readme",
+    "updated_at": "2017-11-30T03:38:30.023208+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alan Jeffrey <ajeffrey@mozilla.com>",
+          "Simon Sapin <simon.sapin@exyr.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2015-11-23T21:23:17.271827+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 50227, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 18460
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 50230, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 18460
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 50224, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 18460
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 50225, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 18460
+      },
+      {
+        "crate_id": "quickersort", "default_features": true, "downloads": 0,
+        "features": [], "id": 50226, "kind": "normal", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 18460
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 50232, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 18460
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 50231, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 18460
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 50223, "kind": "normal",
+        "optional": false, "req": "^0.2.0", "target": null,
+        "version_id": 18460
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 50228, "kind": "normal",
+        "optional": true, "req": "^0.1.1", "target": null,
+        "version_id": 18460
+      },
+      {
+        "crate_id": "heapsize_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 50229, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 18460
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.2.2/download",
+    "downloads": 5741,
+    "features": {
+      "heap_size": ["string_cache/heap_size", "heapsize", "heapsize_plugin"],
+      "unstable": ["string_cache/unstable"]
+    },
+    "id": 18460, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.2.2/authors",
+      "dependencies": "/api/v1/crates/selectors/0.2.2/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.2.2/downloads"
+    },
+    "num": "0.2.2", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.2.2/readme",
+    "updated_at": "2017-11-30T03:46:55.110799+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alan Jeffrey <ajeffrey@mozilla.com>",
+          "Simon Sapin <simon.sapin@exyr.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2016-01-19T13:13:11.704434+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 59700, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 20997
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 59698, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 20997
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 59696, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 20997
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 59693, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 20997
+      },
+      {
+        "crate_id": "quickersort", "default_features": true, "downloads": 0,
+        "features": [], "id": 59694, "kind": "normal", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 20997
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 59702, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 20997
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 59701, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 20997
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 59697, "kind": "normal",
+        "optional": false, "req": "^0.2.0", "target": null,
+        "version_id": 20997
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 59699, "kind": "normal",
+        "optional": true, "req": "^0.1.1", "target": null,
+        "version_id": 20997
+      },
+      {
+        "crate_id": "heapsize_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 59695, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 20997
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.2.3/download",
+    "downloads": 3603,
+    "features": {
+      "heap_size": ["string_cache/heap_size", "heapsize", "heapsize_plugin"],
+      "unstable": ["string_cache/unstable"]
+    },
+    "id": 20997, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.2.3/authors",
+      "dependencies": "/api/v1/crates/selectors/0.2.3/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.2.3/downloads"
+    },
+    "num": "0.2.3", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.2.3/readme",
+    "updated_at": "2017-11-30T03:14:11.403774+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alan Jeffrey <ajeffrey@mozilla.com>",
+          "Simon Sapin <simon.sapin@exyr.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2016-01-28T12:52:11.778340+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 61239, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 21431
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 61234, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 21431
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 61231, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 21431
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 61237, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 21431
+      },
+      {
+        "crate_id": "quickersort", "default_features": true, "downloads": 0,
+        "features": [], "id": 61232, "kind": "normal", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 21431
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 61240, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 21431
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 61236, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 21431
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 61233, "kind": "normal",
+        "optional": false, "req": "^0.2.0", "target": null,
+        "version_id": 21431
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 61238, "kind": "normal",
+        "optional": true, "req": "^0.1.1", "target": null,
+        "version_id": 21431
+      },
+      {
+        "crate_id": "heapsize_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 61235, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 21431
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.3.0/download",
+    "downloads": 409,
+    "features": {
+      "heap_size": ["string_cache/heap_size", "heapsize", "heapsize_plugin"],
+      "unstable": ["string_cache/unstable"]
+    },
+    "id": 21431, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.3.0/authors",
+      "dependencies": "/api/v1/crates/selectors/0.3.0/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.3.0/downloads"
+    },
+    "num": "0.3.0", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.3.0/readme",
+    "updated_at": "2017-11-30T02:40:02.701930+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alan Jeffrey <ajeffrey@mozilla.com>",
+          "Simon Sapin <simon.sapin@exyr.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2016-01-28T23:22:20.103792+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 61440, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 21450
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 61444, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 21450
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 61439, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 21450
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 61441, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 21450
+      },
+      {
+        "crate_id": "quickersort", "default_features": true, "downloads": 0,
+        "features": [], "id": 61438, "kind": "normal", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 21450
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 61445, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 21450
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 61442, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 21450
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 61436, "kind": "normal",
+        "optional": false, "req": "^0.2.0", "target": null,
+        "version_id": 21450
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 61443, "kind": "normal",
+        "optional": true, "req": "^0.1.1", "target": null,
+        "version_id": 21450
+      },
+      {
+        "crate_id": "heapsize_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 61437, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 21450
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.4.0/download",
+    "downloads": 417,
+    "features": {
+      "heap_size": ["string_cache/heap_size", "heapsize", "heapsize_plugin"],
+      "unstable": ["string_cache/unstable"]
+    },
+    "id": 21450, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.4.0/authors",
+      "dependencies": "/api/v1/crates/selectors/0.4.0/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.4.0/downloads"
+    },
+    "num": "0.4.0", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.4.0/readme",
+    "updated_at": "2017-11-30T03:19:16.345592+00:00", "yanked": true
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alan Jeffrey <ajeffrey@mozilla.com>",
+          "Simon Sapin <simon.sapin@exyr.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2016-02-02T13:44:35.814226+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 63132, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 21755
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 63129, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 21755
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 63131, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 21755
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 63136, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 21755
+      },
+      {
+        "crate_id": "quickersort", "default_features": true, "downloads": 0,
+        "features": [], "id": 63133, "kind": "normal", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 21755
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 63137, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 21755
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 63128, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 21755
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 63130, "kind": "normal",
+        "optional": false, "req": "^0.2.0", "target": null,
+        "version_id": 21755
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 63135, "kind": "normal",
+        "optional": true, "req": ">=0.1.1, <0.3", "target": null,
+        "version_id": 21755
+      },
+      {
+        "crate_id": "heapsize_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 63134, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 21755
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.4.1/download",
+    "downloads": 1519,
+    "features": {
+      "heap_size": ["string_cache/heap_size", "heapsize", "heapsize_plugin"],
+      "unstable": ["string_cache/unstable"]
+    },
+    "id": 21755, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.4.1/authors",
+      "dependencies": "/api/v1/crates/selectors/0.4.1/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.4.1/downloads"
+    },
+    "num": "0.4.1", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.4.1/readme",
+    "updated_at": "2017-11-30T02:34:23.119170+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alan Jeffrey <ajeffrey@mozilla.com>",
+          "Simon Sapin <simon.sapin@exyr.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2016-02-10T15:49:22.130355+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 64728, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 22160
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 64723, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 22160
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 64722, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 22160
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 64727, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 22160
+      },
+      {
+        "crate_id": "quickersort", "default_features": true, "downloads": 0,
+        "features": [], "id": 64726, "kind": "normal", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 22160
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 64731, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 22160
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 64724, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 22160
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 64730, "kind": "normal",
+        "optional": false, "req": "^0.2.9", "target": null,
+        "version_id": 22160
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 64729, "kind": "normal",
+        "optional": true, "req": ">=0.1.1, <0.4", "target": null,
+        "version_id": 22160
+      },
+      {
+        "crate_id": "heapsize_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 64725, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 22160
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.4.2/download",
+    "downloads": 663,
+    "features": {
+      "heap_size": ["string_cache/heap_size", "heapsize", "heapsize_plugin"],
+      "unstable": ["string_cache/unstable"]
+    },
+    "id": 22160, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.4.2/authors",
+      "dependencies": "/api/v1/crates/selectors/0.4.2/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.4.2/downloads"
+    },
+    "num": "0.4.2", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.4.2/readme",
+    "updated_at": "2017-11-30T03:38:46.317683+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alan Jeffrey <ajeffrey@mozilla.com>",
+          "Simon Sapin <simon.sapin@exyr.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2016-02-11T07:35:24.363480+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 64931, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 22201
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 64930, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 22201
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 64935, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 22201
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 64929, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 22201
+      },
+      {
+        "crate_id": "quickersort", "default_features": true, "downloads": 0,
+        "features": [], "id": 64933, "kind": "normal", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 22201
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 64936, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 22201
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 64934, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 22201
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 64928, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 22201
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 64927, "kind": "normal",
+        "optional": true, "req": ">=0.1.1, <0.4", "target": null,
+        "version_id": 22201
+      },
+      {
+        "crate_id": "heapsize_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 64932, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 22201
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.5.0/download",
+    "downloads": 1681,
+    "features": {
+      "heap_size": ["string_cache/heap_size", "heapsize", "heapsize_plugin"],
+      "unstable": ["string_cache/unstable"]
+    },
+    "id": 22201, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.5.0/authors",
+      "dependencies": "/api/v1/crates/selectors/0.5.0/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.5.0/downloads"
+    },
+    "num": "0.5.0", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.5.0/readme",
+    "updated_at": "2017-11-30T03:39:46.750825+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alan Jeffrey <ajeffrey@mozilla.com>",
+          "Simon Sapin <simon.sapin@exyr.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2016-02-23T23:15:07.874778+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 66931, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 22850
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 66936, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 22850
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 66932, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 22850
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 66930, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 22850
+      },
+      {
+        "crate_id": "quickersort", "default_features": true, "downloads": 0,
+        "features": [], "id": 66928, "kind": "normal", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 22850
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 66937, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 22850
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 66934, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 22850
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 66933, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 22850
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 66929, "kind": "normal",
+        "optional": true, "req": ">=0.1.1, <0.4", "target": null,
+        "version_id": 22850
+      },
+      {
+        "crate_id": "heapsize_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 66935, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 22850
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.5.1/download",
+    "downloads": 5642,
+    "features": {
+      "heap_size": ["string_cache/heap_size", "heapsize", "heapsize_plugin"],
+      "unstable": ["string_cache/unstable"]
+    },
+    "id": 22850, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.5.1/authors",
+      "dependencies": "/api/v1/crates/selectors/0.5.1/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.5.1/downloads"
+    },
+    "num": "0.5.1", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.5.1/readme",
+    "updated_at": "2017-11-30T02:44:53.469549+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alan Jeffrey <ajeffrey@mozilla.com>",
+          "Simon Sapin <simon.sapin@exyr.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2016-03-15T15:41:16.086414+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 71388, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 23941
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 71386, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 23941
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 71389, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 23941
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 71385, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 23941
+      },
+      {
+        "crate_id": "quickersort", "default_features": true, "downloads": 0,
+        "features": [], "id": 71392, "kind": "normal", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 23941
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 71394, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 23941
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 71393, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 23941
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 71391, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 23941
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 71387, "kind": "normal",
+        "optional": true, "req": ">=0.1.1, <0.4", "target": null,
+        "version_id": 23941
+      },
+      {
+        "crate_id": "heapsize_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 71390, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 23941
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.5.2/download",
+    "downloads": 5158,
+    "features": {
+      "heap_size": ["string_cache/heap_size", "heapsize", "heapsize_plugin"],
+      "unstable": ["string_cache/unstable"]
+    },
+    "id": 23941, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.5.2/authors",
+      "dependencies": "/api/v1/crates/selectors/0.5.2/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.5.2/downloads"
+    },
+    "num": "0.5.2", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.5.2/readme",
+    "updated_at": "2017-11-30T02:28:28.691253+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alan Jeffrey <ajeffrey@mozilla.com>",
+          "Simon Sapin <simon.sapin@exyr.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2016-04-12T08:29:03.862373+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 78139, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 25506
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 78145, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 25506
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 78143, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 25506
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 78147, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 25506
+      },
+      {
+        "crate_id": "quickersort", "default_features": true, "downloads": 0,
+        "features": [], "id": 78144, "kind": "normal", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 25506
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 78148, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 25506
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 78141, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 25506
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 78146, "kind": "normal",
+        "optional": false, "req": "^0.2.13", "target": null,
+        "version_id": 25506
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 78140, "kind": "normal",
+        "optional": true, "req": ">=0.1.1, <0.4", "target": null,
+        "version_id": 25506
+      },
+      {
+        "crate_id": "heapsize_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 78142, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 25506
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.5.3/download",
+    "downloads": 1352,
+    "features": {
+      "heap_size": ["string_cache/heap_size", "heapsize", "heapsize_plugin"],
+      "unstable": ["string_cache/unstable"]
+    },
+    "id": 25506, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.5.3/authors",
+      "dependencies": "/api/v1/crates/selectors/0.5.3/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.5.3/downloads"
+    },
+    "num": "0.5.3", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.5.3/readme",
+    "updated_at": "2017-11-30T03:38:47.894900+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alan Jeffrey <ajeffrey@mozilla.com>",
+          "Simon Sapin <simon.sapin@exyr.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2016-04-26T13:51:50.513218+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 81119, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 26168
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 81120, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 26168
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 81122, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 26168
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 81124, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 26168
+      },
+      {
+        "crate_id": "quickersort", "default_features": true, "downloads": 0,
+        "features": [], "id": 81121, "kind": "normal", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 26168
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 81128, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 26168
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 81126, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 26168
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 81123, "kind": "normal",
+        "optional": false, "req": "^0.2.13", "target": null,
+        "version_id": 26168
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 81127, "kind": "normal",
+        "optional": true, "req": ">=0.1.1, <0.4", "target": null,
+        "version_id": 26168
+      },
+      {
+        "crate_id": "heapsize_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 81125, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 26168
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.5.4/download",
+    "downloads": 453,
+    "features": {
+      "heap_size": ["string_cache/heap_size", "heapsize", "heapsize_plugin"],
+      "unstable": ["string_cache/unstable"]
+    },
+    "id": 26168, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.5.4/authors",
+      "dependencies": "/api/v1/crates/selectors/0.5.4/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.5.4/downloads"
+    },
+    "num": "0.5.4", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.5.4/readme",
+    "updated_at": "2017-11-30T03:44:41.083772+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alan Jeffrey <ajeffrey@mozilla.com>",
+          "Simon Sapin <simon.sapin@exyr.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2016-04-28T13:00:22.455273+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 81485, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 26264
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 81481, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 26264
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 81487, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 26264
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 81484, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 26264
+      },
+      {
+        "crate_id": "quickersort", "default_features": true, "downloads": 0,
+        "features": [], "id": 81480, "kind": "normal", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 26264
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 81489, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 26264
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 81482, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 26264
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 81488, "kind": "normal",
+        "optional": false, "req": "^0.2.13", "target": null,
+        "version_id": 26264
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 81483, "kind": "normal",
+        "optional": true, "req": ">=0.1.1, <0.4", "target": null,
+        "version_id": 26264
+      },
+      {
+        "crate_id": "heapsize_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 81486, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 26264
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.5.5/download",
+    "downloads": 596,
+    "features": {
+      "heap_size": ["string_cache/heap_size", "heapsize", "heapsize_plugin"],
+      "unstable": ["string_cache/unstable"]
+    },
+    "id": 26264, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.5.5/authors",
+      "dependencies": "/api/v1/crates/selectors/0.5.5/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.5.5/downloads"
+    },
+    "num": "0.5.5", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.5.5/readme",
+    "updated_at": "2017-11-30T02:30:46.004335+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alan Jeffrey <ajeffrey@mozilla.com>",
+          "Simon Sapin <simon.sapin@exyr.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2016-04-29T18:41:06.022590+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 81851, "kind": "normal", "optional": false,
+        "req": ">=0.5.0, <0.7", "target": null, "version_id": 26335
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 81848, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 26335
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 81845, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 26335
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 81844, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 26335
+      },
+      {
+        "crate_id": "quickersort", "default_features": true, "downloads": 0,
+        "features": [], "id": 81846, "kind": "normal", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 26335
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 81852, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 26335
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 81847, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 26335
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 81850, "kind": "normal",
+        "optional": false, "req": "^0.2.13", "target": null,
+        "version_id": 26335
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 81849, "kind": "normal",
+        "optional": true, "req": ">=0.1.1, <0.4", "target": null,
+        "version_id": 26335
+      },
+      {
+        "crate_id": "heapsize_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 81843, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 26335
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.5.6/download",
+    "downloads": 818,
+    "features": {
+      "heap_size": ["string_cache/heap_size", "heapsize", "heapsize_plugin"],
+      "unstable": ["string_cache/unstable"]
+    },
+    "id": 26335, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.5.6/authors",
+      "dependencies": "/api/v1/crates/selectors/0.5.6/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.5.6/downloads"
+    },
+    "num": "0.5.6", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.5.6/readme",
+    "updated_at": "2017-11-30T03:56:22.812223+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alan Jeffrey <ajeffrey@mozilla.com>",
+          "Simon Sapin <simon.sapin@exyr.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2016-05-02T22:43:33.751686+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 82471, "kind": "normal", "optional": false,
+        "req": ">=0.5.0, <0.7", "target": null, "version_id": 26491
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 82472, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 26491
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 82467, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 26491
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 82470, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 26491
+      },
+      {
+        "crate_id": "quickersort", "default_features": true, "downloads": 0,
+        "features": [], "id": 82475, "kind": "normal", "optional": false,
+        "req": "^2.0.0", "target": null, "version_id": 26491
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 82476, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 26491
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 82474, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 26491
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 82468, "kind": "normal",
+        "optional": false, "req": "^0.2.13", "target": null,
+        "version_id": 26491
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 82473, "kind": "normal",
+        "optional": true, "req": ">=0.1.1, <0.4", "target": null,
+        "version_id": 26491
+      },
+      {
+        "crate_id": "heapsize_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 82469, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 26491
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.5.7/download",
+    "downloads": 1741,
+    "features": {
+      "heap_size": ["string_cache/heap_size", "heapsize", "heapsize_plugin"],
+      "unstable": ["string_cache/unstable"]
+    },
+    "id": 26491, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.5.7/authors",
+      "dependencies": "/api/v1/crates/selectors/0.5.7/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.5.7/downloads"
+    },
+    "num": "0.5.7", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.5.7/readme",
+    "updated_at": "2017-11-30T03:56:22.815802+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alan Jeffrey <ajeffrey@mozilla.com>",
+          "Simon Sapin <simon.sapin@exyr.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2016-05-09T15:22:55.138884+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 83676, "kind": "normal", "optional": false,
+        "req": ">=0.5.0, <0.7", "target": null, "version_id": 26805
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 83671, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 26805
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 83678, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 26805
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 83675, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 26805
+      },
+      {
+        "crate_id": "quickersort", "default_features": true, "downloads": 0,
+        "features": [], "id": 83677, "kind": "normal", "optional": false,
+        "req": "^2.0.0", "target": null, "version_id": 26805
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 83679, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 26805
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 83670, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 26805
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 83673, "kind": "normal",
+        "optional": false, "req": "^0.2.13", "target": null,
+        "version_id": 26805
+      },
+      {
+        "crate_id": "gecko_atom", "default_features": true, "downloads": 0,
+        "features": [], "id": 83672, "kind": "normal", "optional": true,
+        "req": "^1.0.0", "target": null, "version_id": 26805
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 83669, "kind": "normal",
+        "optional": true, "req": ">=0.1.1, <0.4", "target": null,
+        "version_id": 26805
+      },
+      {
+        "crate_id": "heapsize_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 83674, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 26805
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.5.8/download",
+    "downloads": 1053,
+    "features": {
+      "heap_size": ["string_cache/heap_size", "heapsize", "heapsize_plugin"],
+      "unstable": ["string_cache/unstable"]
+    },
+    "id": 26805, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.5.8/authors",
+      "dependencies": "/api/v1/crates/selectors/0.5.8/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.5.8/downloads"
+    },
+    "num": "0.5.8", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.5.8/readme",
+    "updated_at": "2017-11-30T03:56:22.826979+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alan Jeffrey <ajeffrey@mozilla.com>",
+          "Simon Sapin <simon.sapin@exyr.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2016-05-15T13:00:54.933511+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 85043, "kind": "normal", "optional": false,
+        "req": ">=0.5.0, <0.8", "target": null, "version_id": 27144
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 85044, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 27144
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 85038, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 27144
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 85037, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 27144
+      },
+      {
+        "crate_id": "quickersort", "default_features": true, "downloads": 0,
+        "features": [], "id": 85041, "kind": "normal", "optional": false,
+        "req": "^2.0.0", "target": null, "version_id": 27144
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 85047, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 27144
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 85045, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 27144
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 85046, "kind": "normal",
+        "optional": false, "req": "^0.2.13", "target": null,
+        "version_id": 27144
+      },
+      {
+        "crate_id": "gecko_atom", "default_features": true, "downloads": 0,
+        "features": [], "id": 85039, "kind": "normal", "optional": true,
+        "req": "^1.0.0", "target": null, "version_id": 27144
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 85042, "kind": "normal",
+        "optional": true, "req": ">=0.1.1, <0.4", "target": null,
+        "version_id": 27144
+      },
+      {
+        "crate_id": "heapsize_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 85040, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 27144
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.5.9/download",
+    "downloads": 6235,
+    "features": {
+      "heap_size": ["string_cache/heap_size", "heapsize", "heapsize_plugin"],
+      "unstable": ["string_cache/unstable"]
+    },
+    "id": 27144, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.5.9/authors",
+      "dependencies": "/api/v1/crates/selectors/0.5.9/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.5.9/downloads"
+    },
+    "num": "0.5.9", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.5.9/readme",
+    "updated_at": "2017-11-30T03:30:18.569824+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alan Jeffrey <ajeffrey@mozilla.com>",
+          "Simon Sapin <simon.sapin@exyr.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2016-05-18T06:22:21.736570+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 85991, "kind": "normal", "optional": false,
+        "req": ">=0.5.0, <0.8", "target": null, "version_id": 27310
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 85988, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 27310
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 85990, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 27310
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 85992, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 27310
+      },
+      {
+        "crate_id": "quickersort", "default_features": true, "downloads": 0,
+        "features": [], "id": 85985, "kind": "normal", "optional": false,
+        "req": "^2.0.0", "target": null, "version_id": 27310
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 85994, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 27310
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 85989, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 27310
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 85987, "kind": "normal",
+        "optional": false, "req": "^0.2.16", "target": null,
+        "version_id": 27310
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 85993, "kind": "normal",
+        "optional": true, "req": ">=0.1.1, <0.4", "target": null,
+        "version_id": 27310
+      },
+      {
+        "crate_id": "heapsize_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 85986, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 27310
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.5.10/download",
+    "downloads": 405,
+    "features": {
+      "heap_size": ["string_cache/heap_size", "heapsize", "heapsize_plugin"],
+      "unstable": ["string_cache/unstable"]
+    },
+    "id": 27310, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.5.10/authors",
+      "dependencies": "/api/v1/crates/selectors/0.5.10/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.5.10/downloads"
+    },
+    "num": "0.5.10", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.5.10/readme",
+    "updated_at": "2017-11-30T03:56:22.831043+00:00", "yanked": true
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alan Jeffrey <ajeffrey@mozilla.com>",
+          "Simon Sapin <simon.sapin@exyr.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2016-05-18T09:21:28.959566+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 86018, "kind": "normal", "optional": false,
+        "req": ">=0.5.0, <0.8", "target": null, "version_id": 27314
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 86017, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 27314
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 86012, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 27314
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 86013, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 27314
+      },
+      {
+        "crate_id": "quickersort", "default_features": true, "downloads": 0,
+        "features": [], "id": 86011, "kind": "normal", "optional": false,
+        "req": "^2.0.0", "target": null, "version_id": 27314
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 86019, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 27314
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 86014, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 27314
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 86016, "kind": "normal",
+        "optional": false, "req": "^0.2.16", "target": null,
+        "version_id": 27314
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 86015, "kind": "normal",
+        "optional": true, "req": ">=0.1.1, <0.4", "target": null,
+        "version_id": 27314
+      },
+      {
+        "crate_id": "heapsize_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 86010, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 27314
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.6.0/download",
+    "downloads": 4477,
+    "features": {
+      "heap_size": ["string_cache/heap_size", "heapsize", "heapsize_plugin"],
+      "unstable": ["string_cache/unstable"]
+    },
+    "id": 27314, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.6.0/authors",
+      "dependencies": "/api/v1/crates/selectors/0.6.0/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.6.0/downloads"
+    },
+    "num": "0.6.0", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.6.0/readme",
+    "updated_at": "2017-11-30T02:57:45.672494+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alan Jeffrey <ajeffrey@mozilla.com>",
+          "Simon Sapin <simon.sapin@exyr.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2016-07-04T23:18:52.778415+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 94221, "kind": "normal", "optional": false,
+        "req": ">=0.5.0, <0.8", "target": null, "version_id": 29587
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 94225, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 29587
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 94218, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 29587
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 94224, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 29587
+      },
+      {
+        "crate_id": "quickersort", "default_features": true, "downloads": 0,
+        "features": [], "id": 94220, "kind": "normal", "optional": false,
+        "req": "^2.0.0", "target": null, "version_id": 29587
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 94226, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 29587
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 94223, "kind": "normal",
+        "optional": false, "req": "^0.2.16", "target": null,
+        "version_id": 29587
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 94219, "kind": "normal",
+        "optional": true, "req": ">=0.1.1, <0.4", "target": null,
+        "version_id": 29587
+      },
+      {
+        "crate_id": "heapsize_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 94222, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 29587
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.7.0/download",
+    "downloads": 2469,
+    "features": {
+      "gecko": [],
+      "heap_size": ["string_cache/heap_size", "heapsize", "heapsize_plugin"],
+      "unstable": ["string_cache/unstable"]
+    },
+    "id": 29587, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.7.0/authors",
+      "dependencies": "/api/v1/crates/selectors/0.7.0/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.7.0/downloads"
+    },
+    "num": "0.7.0", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.7.0/readme",
+    "updated_at": "2017-11-30T03:21:50.831808+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alan Jeffrey <ajeffrey@mozilla.com>",
+          "Simon Sapin <simon.sapin@exyr.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2016-07-23T19:35:15.575211+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 98692, "kind": "normal", "optional": false,
+        "req": ">=0.5.0, <0.8", "target": null, "version_id": 30635
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 98696, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 30635
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 98693, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 30635
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 98695, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 30635
+      },
+      {
+        "crate_id": "quickersort", "default_features": true, "downloads": 0,
+        "features": [], "id": 98694, "kind": "normal", "optional": false,
+        "req": "^2.0.0", "target": null, "version_id": 30635
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 98697, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 30635
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 98691, "kind": "normal",
+        "optional": false, "req": "^0.2.16", "target": null,
+        "version_id": 30635
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 98689, "kind": "normal",
+        "optional": true, "req": ">=0.1.1, <0.4", "target": null,
+        "version_id": 30635
+      },
+      {
+        "crate_id": "heapsize_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 98690, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 30635
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.8.0/download",
+    "downloads": 446,
+    "features": {
+      "heap_size": ["string_cache/heap_size", "heapsize", "heapsize_plugin"],
+      "unstable": ["string_cache/unstable"]
+    },
+    "id": 30635, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.8.0/authors",
+      "dependencies": "/api/v1/crates/selectors/0.8.0/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.8.0/downloads"
+    },
+    "num": "0.8.0", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.8.0/readme",
+    "updated_at": "2017-11-30T03:56:24.184753+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alan Jeffrey <ajeffrey@mozilla.com>",
+          "Simon Sapin <simon.sapin@exyr.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2016-08-09T12:46:09.262415+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 102007, "kind": "normal", "optional": false,
+        "req": ">=0.5.0, <0.8", "target": null, "version_id": 31501
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 102004, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 31501
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 102005, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 31501
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 102000, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 31501
+      },
+      {
+        "crate_id": "quickersort", "default_features": true, "downloads": 0,
+        "features": [], "id": 101999, "kind": "normal", "optional": false,
+        "req": "^2.0.0", "target": null, "version_id": 31501
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 102003, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 31501
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 102002, "kind": "normal",
+        "optional": false, "req": "^0.2.16", "target": null,
+        "version_id": 31501
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 102006, "kind": "normal",
+        "optional": true, "req": ">=0.1.1, <0.4", "target": null,
+        "version_id": 31501
+      },
+      {
+        "crate_id": "heapsize_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 102001, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 31501
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.8.1/download",
+    "downloads": 419,
+    "features": {
+      "heap_size": ["string_cache/heap_size", "heapsize", "heapsize_plugin"],
+      "unstable": ["string_cache/unstable"]
+    },
+    "id": 31501, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.8.1/authors",
+      "dependencies": "/api/v1/crates/selectors/0.8.1/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.8.1/downloads"
+    },
+    "num": "0.8.1", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.8.1/readme",
+    "updated_at": "2017-11-30T03:13:40.825037+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alan Jeffrey <ajeffrey@mozilla.com>",
+          "Simon Sapin <simon.sapin@exyr.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2016-08-09T15:19:40.468853+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 102015, "kind": "normal", "optional": false,
+        "req": ">=0.5.0, <0.8", "target": null, "version_id": 31509
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 102020, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 31509
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 102023, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 31509
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 102019, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 31509
+      },
+      {
+        "crate_id": "quickersort", "default_features": true, "downloads": 0,
+        "features": [], "id": 102022, "kind": "normal", "optional": false,
+        "req": "^2.0.0", "target": null, "version_id": 31509
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 102021, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 31509
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 102017, "kind": "normal",
+        "optional": false, "req": "^0.2.16", "target": null,
+        "version_id": 31509
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 102016, "kind": "normal",
+        "optional": true, "req": ">=0.1.1, <0.4", "target": null,
+        "version_id": 31509
+      },
+      {
+        "crate_id": "heapsize_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 102018, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 31509
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.8.2/download",
+    "downloads": 1113,
+    "features": {
+      "heap_size": ["string_cache/heap_size", "heapsize", "heapsize_plugin"],
+      "unstable": ["string_cache/unstable"]
+    },
+    "id": 31509, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.8.2/authors",
+      "dependencies": "/api/v1/crates/selectors/0.8.2/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.8.2/downloads"
+    },
+    "num": "0.8.2", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.8.2/readme",
+    "updated_at": "2017-11-30T03:38:46.361361+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alan Jeffrey <ajeffrey@mozilla.com>",
+          "Simon Sapin <simon.sapin@exyr.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2016-08-10T17:51:37.996446+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 102277, "kind": "normal", "optional": false,
+        "req": ">=0.5.0, <0.8", "target": null, "version_id": 31564
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 102282, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 31564
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 102276, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 31564
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 102275, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 31564
+      },
+      {
+        "crate_id": "quickersort", "default_features": true, "downloads": 0,
+        "features": [], "id": 102278, "kind": "normal", "optional": false,
+        "req": "^2.0.0", "target": null, "version_id": 31564
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 102280, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 31564
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 102281, "kind": "normal",
+        "optional": false, "req": "^0.2.16", "target": null,
+        "version_id": 31564
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 102279, "kind": "normal",
+        "optional": true, "req": ">=0.1.1, <0.4", "target": null,
+        "version_id": 31564
+      },
+      {
+        "crate_id": "heapsize_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 102283, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 31564
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.9.0/download",
+    "downloads": 931,
+    "features": {
+      "heap_size": ["string_cache/heap_size", "heapsize", "heapsize_plugin"],
+      "unstable": ["string_cache/unstable"]
+    },
+    "id": 31564, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.9.0/authors",
+      "dependencies": "/api/v1/crates/selectors/0.9.0/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.9.0/downloads"
+    },
+    "num": "0.9.0", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.9.0/readme",
+    "updated_at": "2017-11-30T03:27:47.857571+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alan Jeffrey <ajeffrey@mozilla.com>",
+          "Simon Sapin <simon.sapin@exyr.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2016-08-16T22:30:09.536226+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 103547, "kind": "normal", "optional": false,
+        "req": ">=0.5.0, <0.8", "target": null, "version_id": 31858
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 103549, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 31858
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 103541, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 31858
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 103543, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 31858
+      },
+      {
+        "crate_id": "quickersort", "default_features": true, "downloads": 0,
+        "features": [], "id": 103546, "kind": "normal", "optional": false,
+        "req": "^2.0.0", "target": null, "version_id": 31858
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 103542, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 31858
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 103548, "kind": "normal",
+        "optional": false, "req": "^0.2.16", "target": null,
+        "version_id": 31858
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 103544, "kind": "normal",
+        "optional": true, "req": ">=0.1.1, <0.4", "target": null,
+        "version_id": 31858
+      },
+      {
+        "crate_id": "heapsize_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 103545, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 31858
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.10.0/download",
+    "downloads": 428,
+    "features": {
+      "heap_size": ["string_cache/heap_size", "heapsize", "heapsize_plugin"],
+      "unstable": ["string_cache/unstable"]
+    },
+    "id": 31858, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.10.0/authors",
+      "dependencies": "/api/v1/crates/selectors/0.10.0/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.10.0/downloads"
+    },
+    "num": "0.10.0", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.10.0/readme",
+    "updated_at": "2017-11-30T03:21:34.882714+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alan Jeffrey <ajeffrey@mozilla.com>",
+          "Simon Sapin <simon.sapin@exyr.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2016-08-18T11:51:29.771404+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 103974, "kind": "normal", "optional": false,
+        "req": ">=0.5.0, <0.8", "target": null, "version_id": 31970
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 103976, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 31970
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 103969, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 31970
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 103970, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 31970
+      },
+      {
+        "crate_id": "quickersort", "default_features": true, "downloads": 0,
+        "features": [], "id": 103971, "kind": "normal", "optional": false,
+        "req": "^2.0.0", "target": null, "version_id": 31970
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 103968, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 31970
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 103972, "kind": "normal",
+        "optional": false, "req": "^0.2.16", "target": null,
+        "version_id": 31970
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 103975, "kind": "normal",
+        "optional": true, "req": ">=0.1.1, <0.4", "target": null,
+        "version_id": 31970
+      },
+      {
+        "crate_id": "heapsize_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 103973, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 31970
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.10.1/download",
+    "downloads": 583,
+    "features": {
+      "heap_size": ["string_cache/heap_size", "heapsize", "heapsize_plugin"],
+      "unstable": ["string_cache/unstable"]
+    },
+    "id": 31970, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.10.1/authors",
+      "dependencies": "/api/v1/crates/selectors/0.10.1/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.10.1/downloads"
+    },
+    "num": "0.10.1", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.10.1/readme",
+    "updated_at": "2017-11-30T03:21:36.973512+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alan Jeffrey <ajeffrey@mozilla.com>",
+          "Simon Sapin <simon.sapin@exyr.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2016-08-19T21:01:39.614773+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 104545, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 32088
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 104540, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 32088
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 104541, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 32088
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 104542, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 32088
+      },
+      {
+        "crate_id": "quickersort", "default_features": true, "downloads": 0,
+        "features": [], "id": 104547, "kind": "normal", "optional": false,
+        "req": "^2.0.0", "target": null, "version_id": 32088
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 104544, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 32088
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 104548, "kind": "normal",
+        "optional": false, "req": "^0.2.16", "target": null,
+        "version_id": 32088
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 104546, "kind": "normal",
+        "optional": true, "req": "^0.3", "target": null,
+        "version_id": 32088
+      },
+      {
+        "crate_id": "heapsize_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 104543, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 32088
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.11.0/download",
+    "downloads": 992,
+    "features": {
+      "heap_size": ["string_cache/heap_size", "heapsize", "heapsize_plugin"],
+      "unstable": ["string_cache/unstable"]
+    },
+    "id": 32088, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.11.0/authors",
+      "dependencies": "/api/v1/crates/selectors/0.11.0/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.11.0/downloads"
+    },
+    "num": "0.11.0", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.11.0/readme",
+    "updated_at": "2017-11-30T03:38:32.302135+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alan Jeffrey <ajeffrey@mozilla.com>",
+          "Simon Sapin <simon.sapin@exyr.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2016-08-28T21:09:08.933594+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 106783, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 32669
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 106777, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 32669
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 106778, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 32669
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 106782, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 32669
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 106781, "kind": "normal",
+        "optional": false, "req": "^0.2.16", "target": null,
+        "version_id": 32669
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 106780, "kind": "normal",
+        "optional": true, "req": "^0.3", "target": null,
+        "version_id": 32669
+      },
+      {
+        "crate_id": "heapsize_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 106779, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 32669
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.12.0/download",
+    "downloads": 2724,
+    "features": {
+      "heap_size": ["string_cache/heap_size", "heapsize", "heapsize_plugin"],
+      "unstable": ["string_cache/unstable"]
+    },
+    "id": 32669, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.12.0/authors",
+      "dependencies": "/api/v1/crates/selectors/0.12.0/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.12.0/downloads"
+    },
+    "num": "0.12.0", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.12.0/readme",
+    "updated_at": "2017-11-30T03:46:26.066936+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alan Jeffrey <ajeffrey@mozilla.com>",
+          "Simon Sapin <simon.sapin@exyr.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2016-08-31T22:47:41.786766+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 107718, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 32861
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 107721, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 32861
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 107716, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 32861
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 107720, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 32861
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 107715, "kind": "normal",
+        "optional": false, "req": "^0.2.16", "target": null,
+        "version_id": 32861
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 107717, "kind": "normal",
+        "optional": true, "req": "^0.3", "target": null,
+        "version_id": 32861
+      },
+      {
+        "crate_id": "heapsize_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 107719, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 32861
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.13.0/download",
+    "downloads": 1013,
+    "features": {
+      "heap_size": ["string_cache/heap_size", "heapsize", "heapsize_plugin"],
+      "unstable": ["string_cache/unstable"]
+    },
+    "id": 32861, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.13.0/authors",
+      "dependencies": "/api/v1/crates/selectors/0.13.0/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.13.0/downloads"
+    },
+    "num": "0.13.0", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.13.0/readme",
+    "updated_at": "2017-11-30T02:46:08.016903+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alan Jeffrey <ajeffrey@mozilla.com>",
+          "Simon Sapin <simon.sapin@exyr.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2016-09-07T01:54:11.257487+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 109154, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 33231
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 109153, "kind": "normal", "optional": false,
+        "req": ">=0.6, <0.8", "target": null, "version_id": 33231
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 109151, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 33231
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 109156, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 33231
+      },
+      {
+        "crate_id": "string_cache", "default_features": true,
+        "downloads": 0, "features": [], "id": 109157, "kind": "normal",
+        "optional": false, "req": "^0.2.16", "target": null,
+        "version_id": 33231
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 109155, "kind": "normal",
+        "optional": true, "req": "^0.3", "target": null,
+        "version_id": 33231
+      },
+      {
+        "crate_id": "heapsize_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 109152, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 33231
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.13.1/download",
+    "downloads": 2650,
+    "features": {
+      "heap_size": ["string_cache/heap_size", "heapsize", "heapsize_plugin"],
+      "unstable": ["string_cache/unstable"]
+    },
+    "id": 33231, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.13.1/authors",
+      "dependencies": "/api/v1/crates/selectors/0.13.1/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.13.1/downloads"
+    },
+    "num": "0.13.1", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.13.1/readme",
+    "updated_at": "2017-11-30T02:40:45.621070+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alan Jeffrey <ajeffrey@mozilla.com>",
+          "Simon Sapin <simon.sapin@exyr.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2016-10-27T07:31:11.122125+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 126036, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 36761
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 126038, "kind": "normal", "optional": false,
+        "req": ">=0.6, <0.8", "target": null, "version_id": 36761
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 126035, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 36761
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 126039, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 36761
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 126040, "kind": "normal",
+        "optional": true, "req": "^0.3", "target": null,
+        "version_id": 36761
+      },
+      {
+        "crate_id": "heapsize_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 126037, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 36761
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.14.0/download",
+    "downloads": 3798,
+    "features": {"heap_size": ["heapsize", "heapsize_plugin"]},
+    "id": 36761, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.14.0/authors",
+      "dependencies": "/api/v1/crates/selectors/0.14.0/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.14.0/downloads"
+    },
+    "num": "0.14.0", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.14.0/readme",
+    "updated_at": "2017-11-30T03:15:42.025915+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alan Jeffrey <ajeffrey@mozilla.com>",
+          "Simon Sapin <simon.sapin@exyr.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2016-11-22T13:38:29.313045+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 132659, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 38295
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 132660, "kind": "normal", "optional": false,
+        "req": ">=0.6, <0.8", "target": null, "version_id": 38295
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 132657, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 38295
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 132658, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 38295
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 132655, "kind": "normal",
+        "optional": true, "req": "^0.3", "target": null,
+        "version_id": 38295
+      },
+      {
+        "crate_id": "heapsize_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 132656, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 38295
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.15.0/download",
+    "downloads": 3132,
+    "features": {"heap_size": ["heapsize", "heapsize_plugin"]},
+    "id": 38295, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.15.0/authors",
+      "dependencies": "/api/v1/crates/selectors/0.15.0/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.15.0/downloads"
+    },
+    "num": "0.15.0", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.15.0/readme",
+    "updated_at": "2017-11-30T04:20:51.002364+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alan Jeffrey <ajeffrey@mozilla.com>",
+          "Simon Sapin <simon.sapin@exyr.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2017-01-20T15:38:50.064576+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 154249, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 42785
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 154246, "kind": "normal", "optional": false,
+        "req": ">=0.6, <0.8", "target": null, "version_id": 42785
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 154248, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 42785
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 154247, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 42785
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 154244, "kind": "normal",
+        "optional": true, "req": "^0.3", "target": null,
+        "version_id": 42785
+      },
+      {
+        "crate_id": "heapsize_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 154245, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 42785
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.15.1/download",
+    "downloads": 1866,
+    "features": {"heap_size": ["heapsize", "heapsize_plugin"]},
+    "id": 42785, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.15.1/authors",
+      "dependencies": "/api/v1/crates/selectors/0.15.1/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.15.1/downloads"
+    },
+    "num": "0.15.1", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.15.1/readme",
+    "updated_at": "2017-11-30T02:28:57.549828+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alan Jeffrey <ajeffrey@mozilla.com>",
+          "Simon Sapin <simon.sapin@exyr.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2017-02-03T00:36:51.421304+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 161746, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 44330
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 161747, "kind": "normal", "optional": false,
+        "req": ">=0.6, <0.8", "target": null, "version_id": 44330
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 161749, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 44330
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 161748, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 44330
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 161744, "kind": "normal",
+        "optional": true, "req": "^0.3", "target": null,
+        "version_id": 44330
+      },
+      {
+        "crate_id": "heapsize_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 161745, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 44330
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.15.2/download",
+    "downloads": 1401,
+    "features": {"heap_size": ["heapsize", "heapsize_plugin"]},
+    "id": 44330, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.15.2/authors",
+      "dependencies": "/api/v1/crates/selectors/0.15.2/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.15.2/downloads"
+    },
+    "num": "0.15.2", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.15.2/readme",
+    "updated_at": "2017-11-30T02:25:59.765103+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alan Jeffrey <ajeffrey@mozilla.com>",
+          "Simon Sapin <simon.sapin@exyr.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2017-02-06T12:56:22.234308+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 164936, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 44852
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 164938, "kind": "normal", "optional": false,
+        "req": ">=0.6, <0.8", "target": null, "version_id": 44852
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 164933, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 44852
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 164934, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 44852
+      },
+      {
+        "crate_id": "heapsize", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 164937, "kind": "normal",
+        "optional": true, "req": "^0.3", "target": null,
+        "version_id": 44852
+      },
+      {
+        "crate_id": "heapsize_plugin", "default_features": true,
+        "downloads": 0, "features": [], "id": 164935, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 44852
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.16.0/download",
+    "downloads": 373,
+    "features": {"heap_size": ["heapsize", "heapsize_plugin"]},
+    "id": 44852, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.16.0/authors",
+      "dependencies": "/api/v1/crates/selectors/0.16.0/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.16.0/downloads"
+    },
+    "num": "0.16.0", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.16.0/readme",
+    "updated_at": "2017-11-30T02:46:19.856237+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alan Jeffrey <ajeffrey@mozilla.com>",
+          "Simon Sapin <simon.sapin@exyr.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2017-02-06T21:11:22.809589+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 165089, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 44885
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 165090, "kind": "normal", "optional": false,
+        "req": ">=0.6, <0.8", "target": null, "version_id": 44885
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 165087, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 44885
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 165088, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 44885
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.17.0/download",
+    "downloads": 658, "features": {}, "id": 44885, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.17.0/authors",
+      "dependencies": "/api/v1/crates/selectors/0.17.0/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.17.0/downloads"
+    },
+    "num": "0.17.0", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.17.0/readme",
+    "updated_at": "2017-11-30T03:58:33.243976+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alan Jeffrey <ajeffrey@mozilla.com>",
+          "Simon Sapin <simon.sapin@exyr.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2017-05-22T12:36:13.003781+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 209071, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 54046
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 209077, "kind": "normal", "optional": false,
+        "req": "^0.13.3", "target": null, "version_id": 54046
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 209075, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 54046
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 209072, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 54046
+      },
+      {
+        "crate_id": "phf", "default_features": true, "downloads": 0,
+        "features": [], "id": 209074, "kind": "normal", "optional": false,
+        "req": "^0.7.18", "target": null, "version_id": 54046
+      },
+      {
+        "crate_id": "phf_codegen", "default_features": true, "downloads": 0,
+        "features": [], "id": 209078, "kind": "build", "optional": false,
+        "req": "^0.7.18", "target": null, "version_id": 54046
+      },
+      {
+        "crate_id": "precomputed-hash", "default_features": true,
+        "downloads": 0, "features": [], "id": 209073, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 54046
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 209076, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 54046
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.18.0/download",
+    "downloads": 127520, "features": {"gecko_like_types": []},
+    "id": 54046, "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.18.0/authors",
+      "dependencies": "/api/v1/crates/selectors/0.18.0/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.18.0/downloads"
+    },
+    "num": "0.18.0", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.18.0/readme",
+    "updated_at": "2017-11-30T03:06:12.093215+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["The Servo Project Developers"]}, "users": []},
+    "crate": "selectors", "crate_size": null,
+    "created_at": "2018-01-12T23:14:24.726232+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 332125, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 77266
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 332126, "kind": "normal", "optional": false,
+        "req": "^0.23.0", "target": null, "version_id": 77266
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 332127, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 77266
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 332128, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 77266
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 332129, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 77266
+      },
+      {
+        "crate_id": "phf", "default_features": true, "downloads": 0,
+        "features": [], "id": 332130, "kind": "normal", "optional": false,
+        "req": "^0.7.18", "target": null, "version_id": 77266
+      },
+      {
+        "crate_id": "phf_codegen", "default_features": true, "downloads": 0,
+        "features": [], "id": 332134, "kind": "build", "optional": false,
+        "req": "^0.7.18", "target": null, "version_id": 77266
+      },
+      {
+        "crate_id": "precomputed-hash", "default_features": true,
+        "downloads": 0, "features": [], "id": 332131, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 77266
+      },
+      {
+        "crate_id": "servo_arc", "default_features": true, "downloads": 0,
+        "features": [], "id": 332132, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 77266
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 332133, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 77266
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.19.0/download",
+    "downloads": 6350, "features": {"bench": []}, "id": 77266,
+    "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.19.0/authors",
+      "dependencies": "/api/v1/crates/selectors/0.19.0/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.19.0/downloads"
+    },
+    "num": "0.19.0", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.19.0/readme",
+    "updated_at": "2018-01-12T23:14:24.726232+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["The Servo Project Developers"]}, "users": []},
+    "crate": "selectors", "crate_size": 42397,
+    "created_at": "2018-08-23T15:25:35.523457+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 484694, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 105066
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 484695, "kind": "normal", "optional": false,
+        "req": "^0.24.0", "target": null, "version_id": 105066
+      },
+      {
+        "crate_id": "fxhash", "default_features": true, "downloads": 0,
+        "features": [], "id": 484696, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 105066
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 484697, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 105066
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 484698, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 105066
+      },
+      {
+        "crate_id": "phf", "default_features": true, "downloads": 0,
+        "features": [], "id": 484699, "kind": "normal", "optional": false,
+        "req": "^0.7.18", "target": null, "version_id": 105066
+      },
+      {
+        "crate_id": "phf_codegen", "default_features": true, "downloads": 0,
+        "features": [], "id": 484704, "kind": "build", "optional": false,
+        "req": "^0.7.18", "target": null, "version_id": 105066
+      },
+      {
+        "crate_id": "precomputed-hash", "default_features": true,
+        "downloads": 0, "features": [], "id": 484700, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 105066
+      },
+      {
+        "crate_id": "servo_arc", "default_features": true, "downloads": 0,
+        "features": [], "id": 484701, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 105066
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 484702, "kind": "normal", "optional": false,
+        "req": "^0.6.2", "target": null, "version_id": 105066
+      },
+      {
+        "crate_id": "thin-slice", "default_features": true, "downloads": 0,
+        "features": [], "id": 484703, "kind": "normal", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 105066
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.20.0/download",
+    "downloads": 12895, "features": {"bench": []}, "id": 105066,
+    "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.20.0/authors",
+      "dependencies": "/api/v1/crates/selectors/0.20.0/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.20.0/downloads"
+    },
+    "num": "0.20.0", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.20.0/readme",
+    "updated_at": "2018-08-23T15:25:35.523457+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["The Servo Project Developers"]}, "users": []},
+    "crate": "selectors", "crate_size": 43099,
+    "created_at": "2018-12-31T00:02:34.353638+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 596783, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 124789
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 596784, "kind": "normal", "optional": false,
+        "req": "^0.25", "target": null, "version_id": 124789
+      },
+      {
+        "crate_id": "fxhash", "default_features": true, "downloads": 0,
+        "features": [], "id": 596785, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 124789
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 596786, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 124789
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 596787, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 124789
+      },
+      {
+        "crate_id": "phf", "default_features": true, "downloads": 0,
+        "features": [], "id": 596788, "kind": "normal", "optional": false,
+        "req": "^0.7.18", "target": null, "version_id": 124789
+      },
+      {
+        "crate_id": "phf_codegen", "default_features": true, "downloads": 0,
+        "features": [], "id": 596793, "kind": "build", "optional": false,
+        "req": "^0.7.18", "target": null, "version_id": 124789
+      },
+      {
+        "crate_id": "precomputed-hash", "default_features": true,
+        "downloads": 0, "features": [], "id": 596789, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 124789
+      },
+      {
+        "crate_id": "servo_arc", "default_features": true, "downloads": 0,
+        "features": [], "id": 596790, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 124789
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 596791, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 124789
+      },
+      {
+        "crate_id": "thin-slice", "default_features": true, "downloads": 0,
+        "features": [], "id": 596792, "kind": "normal", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 124789
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.21.0/download",
+    "downloads": 98365, "features": {"bench": []}, "id": 124789,
+    "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.21.0/authors",
+      "dependencies": "/api/v1/crates/selectors/0.21.0/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.21.0/downloads"
+    },
+    "num": "0.21.0", "published_by": null,
+    "readme_path": "/api/v1/crates/selectors/0.21.0/readme",
+    "updated_at": "2018-12-31T00:02:34.353638+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2019-12-19T01:47:10.531427+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/1323194?v=4",
+          "id": 3788, "login": "emilio", "name": "Emilio Cobos Ãlvarez",
+          "url": "https://github.com/emilio"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Servo Project Developers"]}, "users": []},
+    "crate": "selectors", "crate_size": 44199,
+    "created_at": "2019-12-19T01:47:10.531427+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1046095, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 197358
+      },
+      {
+        "crate_id": "cssparser", "default_features": true, "downloads": 0,
+        "features": [], "id": 1046096, "kind": "normal", "optional": false,
+        "req": "^0.27", "target": null, "version_id": 197358
+      },
+      {
+        "crate_id": "derive_more", "default_features": true, "downloads": 0,
+        "features": [], "id": 1046097, "kind": "normal", "optional": false,
+        "req": "^0.99", "target": null, "version_id": 197358
+      },
+      {
+        "crate_id": "fxhash", "default_features": true, "downloads": 0,
+        "features": [], "id": 1046098, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 197358
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1046099, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 197358
+      },
+      {
+        "crate_id": "matches", "default_features": true, "downloads": 0,
+        "features": [], "id": 1046100, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 197358
+      },
+      {
+        "crate_id": "phf", "default_features": true, "downloads": 0,
+        "features": [], "id": 1046101, "kind": "normal", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 197358
+      },
+      {
+        "crate_id": "phf_codegen", "default_features": true, "downloads": 0,
+        "features": [], "id": 1046106, "kind": "build", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 197358
+      },
+      {
+        "crate_id": "precomputed-hash", "default_features": true,
+        "downloads": 0, "features": [], "id": 1046102, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 197358
+      },
+      {
+        "crate_id": "servo_arc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1046103, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 197358
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1046104, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 197358
+      },
+      {
+        "crate_id": "thin-slice", "default_features": true, "downloads": 0,
+        "features": [], "id": 1046105, "kind": "normal", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 197358
+      }
+    ],
+    "dl_path": "/api/v1/crates/selectors/0.22.0/download",
+    "downloads": 66894, "features": {"bench": []}, "id": 197358,
+    "license": "MPL-2.0",
+    "links": {
+      "authors": "/api/v1/crates/selectors/0.22.0/authors",
+      "dependencies": "/api/v1/crates/selectors/0.22.0/dependencies",
+      "version_downloads": "/api/v1/crates/selectors/0.22.0/downloads"
+    },
+    "num": "0.22.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/1323194?v=4",
+      "id": 3788, "login": "emilio", "name": "Emilio Cobos Ãlvarez",
+      "url": "https://github.com/emilio"
+    },
+    "readme_path": "/api/v1/crates/selectors/0.22.0/readme",
+    "updated_at": "2019-12-19T01:47:10.531427+00:00", "yanked": false
+  }
+]

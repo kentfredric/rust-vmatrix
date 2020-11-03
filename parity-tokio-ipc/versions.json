@@ -1,0 +1,573 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["NikVolf <nikvolf@gmail.com>"]}, "users": []},
+    "crate": "parity-tokio-ipc", "crate_size": 11543,
+    "created_at": "2018-09-26T10:27:54.070702+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 508307, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 109681
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 508308, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 109681
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 508309, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 109681
+      },
+      {
+        "crate_id": "mio-named-pipes", "default_features": true,
+        "downloads": 0, "features": [], "id": 508310, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 109681
+      },
+      {
+        "crate_id": "miow", "default_features": true, "downloads": 0,
+        "features": [], "id": 508311, "kind": "normal", "optional": false,
+        "req": "~0.3.2", "target": null, "version_id": 109681
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 508312, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 109681
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 508313, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 109681
+      },
+      {
+        "crate_id": "tokio-named-pipes", "default_features": true,
+        "downloads": 0, "features": [], "id": 508314, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 109681
+      },
+      {
+        "crate_id": "tokio-uds", "default_features": true, "downloads": 0,
+        "features": [], "id": 508315, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 109681
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "winbase", "winnt", "accctrl", "aclapi", "securitybaseapi",
+          "minwinbase", "winbase"
+        ],
+        "id": 508316, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 109681
+      }
+    ],
+    "dl_path": "/api/v1/crates/parity-tokio-ipc/0.1.0/download",
+    "downloads": 26409, "features": {}, "id": 109681,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/parity-tokio-ipc/0.1.0/authors",
+      "dependencies": "/api/v1/crates/parity-tokio-ipc/0.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/parity-tokio-ipc/0.1.0/downloads"
+    },
+    "num": "0.1.0", "published_by": null,
+    "readme_path": "/api/v1/crates/parity-tokio-ipc/0.1.0/readme",
+    "updated_at": "2018-09-26T10:27:54.070702+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["NikVolf <nikvolf@gmail.com>"]}, "users": []},
+    "crate": "parity-tokio-ipc", "crate_size": 12329,
+    "created_at": "2019-07-24T06:28:39.984496+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 833723, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 164870
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 833724, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 164870
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 833725, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 164870
+      },
+      {
+        "crate_id": "mio-named-pipes", "default_features": true,
+        "downloads": 0, "features": [], "id": 833726, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 164870
+      },
+      {
+        "crate_id": "miow", "default_features": true, "downloads": 0,
+        "features": [], "id": 833727, "kind": "normal", "optional": false,
+        "req": "^0.3.3", "target": null, "version_id": 164870
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 833728, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 164870
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 833729, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 164870
+      },
+      {
+        "crate_id": "tokio-named-pipes", "default_features": true,
+        "downloads": 0, "features": [], "id": 833730, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 164870
+      },
+      {
+        "crate_id": "tokio-uds", "default_features": true, "downloads": 0,
+        "features": [], "id": 833731, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 164870
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "winbase", "winnt", "accctrl", "aclapi", "securitybaseapi",
+          "minwinbase", "winbase"
+        ],
+        "id": 833732, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 164870
+      }
+    ],
+    "dl_path": "/api/v1/crates/parity-tokio-ipc/0.2.0/download",
+    "downloads": 243145, "features": {}, "id": 164870,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/parity-tokio-ipc/0.2.0/authors",
+      "dependencies": "/api/v1/crates/parity-tokio-ipc/0.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/parity-tokio-ipc/0.2.0/downloads"
+    },
+    "num": "0.2.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/3186518?v=4",
+      "id": 5444, "login": "NikVolf", "name": "Nikolay Volf",
+      "url": "https://github.com/NikVolf"
+    },
+    "readme_path": "/api/v1/crates/parity-tokio-ipc/0.2.0/readme",
+    "updated_at": "2019-07-24T06:28:39.984496+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["NikVolf <nikvolf@gmail.com>"]}, "users": []},
+    "crate": "parity-tokio-ipc", "crate_size": 12956,
+    "created_at": "2019-11-18T14:46:35.986727+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 999994, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 190463
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 999995, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 190463
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 999996, "kind": "normal", "optional": false,
+        "req": "^0.2.65", "target": null, "version_id": 190463
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 999997, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 190463
+      },
+      {
+        "crate_id": "mio-named-pipes", "default_features": true,
+        "downloads": 0, "features": [], "id": 999998, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 190463
+      },
+      {
+        "crate_id": "miow", "default_features": true, "downloads": 0,
+        "features": [], "id": 999999, "kind": "normal", "optional": false,
+        "req": "^0.3.3", "target": null, "version_id": 190463
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1000000, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 190463
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 1000001, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 190463
+      },
+      {
+        "crate_id": "tokio-named-pipes", "default_features": true,
+        "downloads": 0, "features": [], "id": 1000002, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 190463
+      },
+      {
+        "crate_id": "tokio-uds", "default_features": true, "downloads": 0,
+        "features": [], "id": 1000003, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 190463
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "winbase", "winnt", "accctrl", "aclapi", "securitybaseapi",
+          "minwinbase", "winbase"
+        ],
+        "id": 1000004, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 190463
+      }
+    ],
+    "dl_path": "/api/v1/crates/parity-tokio-ipc/0.3.0/download",
+    "downloads": 409, "features": {}, "id": 190463,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/parity-tokio-ipc/0.3.0/authors",
+      "dependencies": "/api/v1/crates/parity-tokio-ipc/0.3.0/dependencies",
+      "version_downloads": "/api/v1/crates/parity-tokio-ipc/0.3.0/downloads"
+    },
+    "num": "0.3.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/3186518?v=4",
+      "id": 5444, "login": "NikVolf", "name": "Nikolay Volf",
+      "url": "https://github.com/NikVolf"
+    },
+    "readme_path": "/api/v1/crates/parity-tokio-ipc/0.3.0/readme",
+    "updated_at": "2019-11-18T14:46:35.986727+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["NikVolf <nikvolf@gmail.com>"]}, "users": []},
+    "crate": "parity-tokio-ipc", "crate_size": 12932,
+    "created_at": "2019-12-03T12:29:43.406932+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1021067, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 193677
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1021068, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 193677
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1021069, "kind": "normal", "optional": false,
+        "req": "^0.2.65", "target": null, "version_id": 193677
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1021070, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 193677
+      },
+      {
+        "crate_id": "mio-named-pipes", "default_features": true,
+        "downloads": 0, "features": [], "id": 1021071, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 193677
+      },
+      {
+        "crate_id": "miow", "default_features": true, "downloads": 0,
+        "features": [], "id": 1021072, "kind": "normal", "optional": false,
+        "req": "^0.3.3", "target": null, "version_id": 193677
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1021073, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 193677
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 1021074, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 193677
+      },
+      {
+        "crate_id": "tokio-named-pipes", "default_features": true,
+        "downloads": 0, "features": [], "id": 1021075, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 193677
+      },
+      {
+        "crate_id": "tokio-uds", "default_features": true, "downloads": 0,
+        "features": [], "id": 1021076, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 193677
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "winbase", "winnt", "accctrl", "aclapi", "securitybaseapi",
+          "minwinbase", "winbase"
+        ],
+        "id": 1021077, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 193677
+      }
+    ],
+    "dl_path": "/api/v1/crates/parity-tokio-ipc/0.4.0/download",
+    "downloads": 91385, "features": {}, "id": 193677,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/parity-tokio-ipc/0.4.0/authors",
+      "dependencies": "/api/v1/crates/parity-tokio-ipc/0.4.0/dependencies",
+      "version_downloads": "/api/v1/crates/parity-tokio-ipc/0.4.0/downloads"
+    },
+    "num": "0.4.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/3186518?v=4",
+      "id": 5444, "login": "NikVolf", "name": "Nikolay Volf",
+      "url": "https://github.com/NikVolf"
+    },
+    "readme_path": "/api/v1/crates/parity-tokio-ipc/0.4.0/readme",
+    "updated_at": "2019-12-03T12:29:43.406932+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2019-12-17T15:47:22.571275+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/3186518?v=4",
+          "id": 5444, "login": "NikVolf", "name": "Nikolay Volf",
+          "url": "https://github.com/NikVolf"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["NikVolf <nikvolf@gmail.com>"]}, "users": []},
+    "crate": "parity-tokio-ipc", "crate_size": 17568,
+    "created_at": "2019-12-17T15:47:22.571275+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1043613, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 196986
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1043614, "kind": "normal", "optional": false,
+        "req": "^0.2.65", "target": null, "version_id": 196986
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1043615, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 196986
+      },
+      {
+        "crate_id": "mio-named-pipes", "default_features": true,
+        "downloads": 0, "features": [], "id": 1043616, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 196986
+      },
+      {
+        "crate_id": "miow", "default_features": true, "downloads": 0,
+        "features": [], "id": 1043617, "kind": "normal", "optional": false,
+        "req": "^0.3.3", "target": null, "version_id": 196986
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1043618, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 196986
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [
+          "io-driver", "io-util", "uds", "stream", "rt-core", "macros",
+          "time"
+        ],
+        "id": 1043619, "kind": "normal", "optional": false, "req": "^0.2",
+        "target": null, "version_id": 196986
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "winbase", "winnt", "accctrl", "aclapi", "securitybaseapi",
+          "minwinbase", "winbase"
+        ],
+        "id": 1043620, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 196986
+      }
+    ],
+    "dl_path": "/api/v1/crates/parity-tokio-ipc/0.5.0/download",
+    "downloads": 82, "features": {}, "id": 196986,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/parity-tokio-ipc/0.5.0/authors",
+      "dependencies": "/api/v1/crates/parity-tokio-ipc/0.5.0/dependencies",
+      "version_downloads": "/api/v1/crates/parity-tokio-ipc/0.5.0/downloads"
+    },
+    "num": "0.5.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/3186518?v=4",
+      "id": 5444, "login": "NikVolf", "name": "Nikolay Volf",
+      "url": "https://github.com/NikVolf"
+    },
+    "readme_path": "/api/v1/crates/parity-tokio-ipc/0.5.0/readme",
+    "updated_at": "2019-12-17T15:47:22.571275+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-01-04T14:03:08.040872+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/3186518?v=4",
+          "id": 5444, "login": "NikVolf", "name": "Nikolay Volf",
+          "url": "https://github.com/NikVolf"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["NikVolf <nikvolf@gmail.com>"]}, "users": []},
+    "crate": "parity-tokio-ipc", "crate_size": 17579,
+    "created_at": "2020-01-04T14:03:08.040872+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1069546, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 201039
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1069547, "kind": "normal", "optional": false,
+        "req": "^0.2.65", "target": null, "version_id": 201039
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1069548, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 201039
+      },
+      {
+        "crate_id": "mio-named-pipes", "default_features": true,
+        "downloads": 0, "features": [], "id": 1069549, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 201039
+      },
+      {
+        "crate_id": "miow", "default_features": true, "downloads": 0,
+        "features": [], "id": 1069550, "kind": "normal", "optional": false,
+        "req": "^0.3.3", "target": null, "version_id": 201039
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1069551, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 201039
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [
+          "io-driver", "io-util", "uds", "stream", "rt-core", "macros",
+          "time"
+        ],
+        "id": 1069552, "kind": "normal", "optional": false, "req": "^0.2",
+        "target": null, "version_id": 201039
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "winbase", "winnt", "accctrl", "aclapi", "securitybaseapi",
+          "minwinbase", "winbase"
+        ],
+        "id": 1069553, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 201039
+      }
+    ],
+    "dl_path": "/api/v1/crates/parity-tokio-ipc/0.6.0/download",
+    "downloads": 93, "features": {}, "id": 201039,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/parity-tokio-ipc/0.6.0/authors",
+      "dependencies": "/api/v1/crates/parity-tokio-ipc/0.6.0/dependencies",
+      "version_downloads": "/api/v1/crates/parity-tokio-ipc/0.6.0/downloads"
+    },
+    "num": "0.6.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/3186518?v=4",
+      "id": 5444, "login": "NikVolf", "name": "Nikolay Volf",
+      "url": "https://github.com/NikVolf"
+    },
+    "readme_path": "/api/v1/crates/parity-tokio-ipc/0.6.0/readme",
+    "updated_at": "2020-01-04T14:03:08.040872+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-01-04T14:11:45.578832+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/3186518?v=4",
+          "id": 5444, "login": "NikVolf", "name": "Nikolay Volf",
+          "url": "https://github.com/NikVolf"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["NikVolf <nikvolf@gmail.com>"]}, "users": []},
+    "crate": "parity-tokio-ipc", "crate_size": 17557,
+    "created_at": "2020-01-04T14:11:45.578832+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1069554, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 201040
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1069555, "kind": "normal", "optional": false,
+        "req": "^0.2.65", "target": null, "version_id": 201040
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1069556, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 201040
+      },
+      {
+        "crate_id": "mio-named-pipes", "default_features": true,
+        "downloads": 0, "features": [], "id": 1069557, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 201040
+      },
+      {
+        "crate_id": "miow", "default_features": true, "downloads": 0,
+        "features": [], "id": 1069558, "kind": "normal", "optional": false,
+        "req": "^0.3.3", "target": null, "version_id": 201040
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1069559, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 201040
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [
+          "io-driver", "io-util", "uds", "stream", "rt-core", "macros",
+          "time"
+        ],
+        "id": 1069560, "kind": "normal", "optional": false, "req": "^0.2",
+        "target": null, "version_id": 201040
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "winbase", "winnt", "accctrl", "aclapi", "securitybaseapi",
+          "minwinbase", "winbase"
+        ],
+        "id": 1069561, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 201040
+      }
+    ],
+    "dl_path": "/api/v1/crates/parity-tokio-ipc/0.7.0/download",
+    "downloads": 20016, "features": {}, "id": 201040,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/parity-tokio-ipc/0.7.0/authors",
+      "dependencies": "/api/v1/crates/parity-tokio-ipc/0.7.0/dependencies",
+      "version_downloads": "/api/v1/crates/parity-tokio-ipc/0.7.0/downloads"
+    },
+    "num": "0.7.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/3186518?v=4",
+      "id": 5444, "login": "NikVolf", "name": "Nikolay Volf",
+      "url": "https://github.com/NikVolf"
+    },
+    "readme_path": "/api/v1/crates/parity-tokio-ipc/0.7.0/readme",
+    "updated_at": "2020-01-04T14:11:45.578832+00:00", "yanked": false
+  }
+]

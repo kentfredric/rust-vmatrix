@@ -1,0 +1,2088 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["Servo developers"]}, "users": []},
+    "crate": "font-kit", "crate_size": null,
+    "created_at": "2018-07-24T16:19:49.805040+00:00",
+    "dependencies": [],
+    "dl_path": "/api/v1/crates/font-kit/0.0.0/download",
+    "downloads": 281, "features": {}, "id": 101036, "license": "WTFPL",
+    "links": {
+      "authors": "/api/v1/crates/font-kit/0.0.0/authors",
+      "dependencies": "/api/v1/crates/font-kit/0.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/font-kit/0.0.0/downloads"
+    },
+    "num": "0.0.0", "published_by": null,
+    "readme_path": "/api/v1/crates/font-kit/0.0.0/readme",
+    "updated_at": "2018-07-24T16:19:49.805040+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Patrick Walton <pcwalton@mimiga.net>"]},
+      "users": []
+    },
+    "crate": "font-kit", "crate_size": 1278781,
+    "created_at": "2018-09-19T18:53:25.533584+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 504100, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 108892
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 504101, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 108892
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 504102, "kind": "normal", "optional": false,
+        "req": "^1.2", "target": null, "version_id": 108892
+      },
+      {
+        "crate_id": "clap", "default_features": true, "downloads": 0,
+        "features": [], "id": 504116, "kind": "dev", "optional": false,
+        "req": "^2.32", "target": null, "version_id": 108892
+      },
+      {
+        "crate_id": "cocoa", "default_features": true, "downloads": 0,
+        "features": [], "id": 504124, "kind": "normal", "optional": false,
+        "req": "^0.18", "target": "cfg(target_os = \"macos\")",
+        "version_id": 108892
+      },
+      {
+        "crate_id": "colored", "default_features": true, "downloads": 0,
+        "features": [], "id": 504117, "kind": "dev", "optional": false,
+        "req": "^1.6", "target": null, "version_id": 108892
+      },
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 504125, "kind": "normal",
+        "optional": false, "req": "^0.6",
+        "target": "cfg(target_os = \"macos\")", "version_id": 108892
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 504126, "kind": "normal",
+        "optional": false, "req": "^0.17.1",
+        "target": "cfg(target_os = \"macos\")", "version_id": 108892
+      },
+      {
+        "crate_id": "core-text", "default_features": true, "downloads": 0,
+        "features": [], "id": 504127, "kind": "normal", "optional": false,
+        "req": "^13.0", "target": "cfg(target_os = \"macos\")",
+        "version_id": 108892
+      },
+      {
+        "crate_id": "dirs", "default_features": true, "downloads": 0,
+        "features": [], "id": 504103, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 108892
+      },
+      {
+        "crate_id": "dwrote", "default_features": true, "downloads": 0,
+        "features": [], "id": 504122, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": "cfg(target_family = \"windows\")",
+        "version_id": 108892
+      },
+      {
+        "crate_id": "euclid", "default_features": true, "downloads": 0,
+        "features": [], "id": 504104, "kind": "normal", "optional": false,
+        "req": "^0.19", "target": null, "version_id": 108892
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 504105, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 108892
+      },
+      {
+        "crate_id": "float-ord", "default_features": true, "downloads": 0,
+        "features": [], "id": 504106, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 108892
+      },
+      {
+        "crate_id": "freetype", "default_features": true, "downloads": 0,
+        "features": [], "id": 504120, "kind": "normal", "optional": false,
+        "req": "^0.4.1",
+        "target": "cfg(not(any(target_family = \"windows\", target_os = \"macos\")))",
+        "version_id": 108892
+      },
+      {
+        "crate_id": "itertools", "default_features": true, "downloads": 0,
+        "features": [], "id": 504108, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 108892
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 504109, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 108892
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 504110, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 108892
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 504111, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 108892
+      },
+      {
+        "crate_id": "lyon_path", "default_features": true, "downloads": 0,
+        "features": [], "id": 504112, "kind": "normal", "optional": false,
+        "req": "^0.12", "target": null, "version_id": 108892
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 504113, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 108892
+      },
+      {
+        "crate_id": "pbr", "default_features": true, "downloads": 0,
+        "features": [], "id": 504118, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 108892
+      },
+      {
+        "crate_id": "prettytable-rs", "default_features": true,
+        "downloads": 0, "features": [], "id": 504119, "kind": "dev",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 108892
+      },
+      {
+        "crate_id": "servo-fontconfig", "default_features": true,
+        "downloads": 0, "features": [], "id": 504121, "kind": "normal",
+        "optional": false, "req": "^0.4",
+        "target": "cfg(not(any(target_family = \"windows\", target_os = \"macos\")))",
+        "version_id": 108892
+      },
+      {
+        "crate_id": "walkdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 504115, "kind": "normal", "optional": false,
+        "req": "^2.1", "target": null, "version_id": 108892
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["minwindef", "winbase"], "id": 504123,
+        "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(target_family = \"windows\")", "version_id": 108892
+      },
+      {
+        "crate_id": "freetype", "default_features": true, "downloads": 0,
+        "features": [], "id": 504107, "kind": "normal", "optional": true,
+        "req": "^0.4.1", "target": null, "version_id": 108892
+      },
+      {
+        "crate_id": "servo-fontconfig", "default_features": true,
+        "downloads": 0, "features": [], "id": 504114, "kind": "normal",
+        "optional": true, "req": "^0.4", "target": null,
+        "version_id": 108892
+      }
+    ],
+    "dl_path": "/api/v1/crates/font-kit/0.1.0/download",
+    "downloads": 36401,
+    "features": {
+      "loader-freetype": ["freetype"],
+      "loader-freetype-default": ["loader-freetype"],
+      "source-fontconfig": ["servo-fontconfig"],
+      "source-fontconfig-default": ["source-fontconfig"]
+    },
+    "id": 108892, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/font-kit/0.1.0/authors",
+      "dependencies": "/api/v1/crates/font-kit/0.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/font-kit/0.1.0/downloads"
+    },
+    "num": "0.1.0", "published_by": null,
+    "readme_path": "/api/v1/crates/font-kit/0.1.0/readme",
+    "updated_at": "2018-09-19T18:53:25.533584+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Patrick Walton <pcwalton@mimiga.net>"]},
+      "users": []
+    },
+    "crate": "font-kit", "crate_size": 54529,
+    "created_at": "2019-05-28T03:11:51.747285+00:00",
+    "dependencies": [
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 755384, "kind": "normal", "optional": false,
+        "req": "^1.2", "target": null, "version_id": 153199
+      },
+      {
+        "crate_id": "clap", "default_features": true, "downloads": 0,
+        "features": [], "id": 755393, "kind": "dev", "optional": false,
+        "req": "^2.32", "target": null, "version_id": 153199
+      },
+      {
+        "crate_id": "colored", "default_features": true, "downloads": 0,
+        "features": [], "id": 755394, "kind": "dev", "optional": false,
+        "req": "^1.6", "target": null, "version_id": 153199
+      },
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 755404, "kind": "normal",
+        "optional": false, "req": "^0.6",
+        "target": "cfg(target_os = \"macos\")", "version_id": 153199
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 755405, "kind": "normal",
+        "optional": false, "req": "^0.17.1",
+        "target": "cfg(target_os = \"macos\")", "version_id": 153199
+      },
+      {
+        "crate_id": "core-text", "default_features": true, "downloads": 0,
+        "features": [], "id": 755406, "kind": "normal", "optional": false,
+        "req": "^13.2", "target": "cfg(target_os = \"macos\")",
+        "version_id": 153199
+      },
+      {
+        "crate_id": "dirs", "default_features": true, "downloads": 0,
+        "features": [], "id": 755399, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": "cfg(not(target_arch = \"wasm32\"))",
+        "version_id": 153199
+      },
+      {
+        "crate_id": "dwrote", "default_features": false, "downloads": 0,
+        "features": [], "id": 755402, "kind": "normal", "optional": false,
+        "req": "^0.9.0", "target": "cfg(target_family = \"windows\")",
+        "version_id": 153199
+      },
+      {
+        "crate_id": "euclid", "default_features": true, "downloads": 0,
+        "features": [], "id": 755385, "kind": "normal", "optional": false,
+        "req": "^0.19", "target": null, "version_id": 153199
+      },
+      {
+        "crate_id": "float-ord", "default_features": true, "downloads": 0,
+        "features": [], "id": 755386, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 153199
+      },
+      {
+        "crate_id": "freetype", "default_features": true, "downloads": 0,
+        "features": [], "id": 755397, "kind": "normal", "optional": false,
+        "req": "^0.4.1",
+        "target": "cfg(not(any(target_family = \"windows\", target_os = \"macos\")))",
+        "version_id": 153199
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 755388, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 153199
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 755389, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 153199
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 755390, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 153199
+      },
+      {
+        "crate_id": "lyon_path", "default_features": true, "downloads": 0,
+        "features": [], "id": 755391, "kind": "normal", "optional": false,
+        "req": "^0.12", "target": null, "version_id": 153199
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 755400, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": "cfg(not(target_arch = \"wasm32\"))",
+        "version_id": 153199
+      },
+      {
+        "crate_id": "pbr", "default_features": true, "downloads": 0,
+        "features": [], "id": 755395, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 153199
+      },
+      {
+        "crate_id": "prettytable-rs", "default_features": true,
+        "downloads": 0, "features": [], "id": 755396, "kind": "dev",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 153199
+      },
+      {
+        "crate_id": "servo-fontconfig", "default_features": true,
+        "downloads": 0, "features": [], "id": 755398, "kind": "normal",
+        "optional": false, "req": "^0.4",
+        "target": "cfg(not(any(target_family = \"windows\", target_os = \"macos\", target_arch = \"wasm32\")))",
+        "version_id": 153199
+      },
+      {
+        "crate_id": "walkdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 755401, "kind": "normal", "optional": false,
+        "req": "^2.1", "target": "cfg(not(target_arch = \"wasm32\"))",
+        "version_id": 153199
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["minwindef", "winbase"], "id": 755403,
+        "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(target_family = \"windows\")", "version_id": 153199
+      },
+      {
+        "crate_id": "freetype", "default_features": true, "downloads": 0,
+        "features": [], "id": 755387, "kind": "normal", "optional": true,
+        "req": "^0.4.1", "target": null, "version_id": 153199
+      },
+      {
+        "crate_id": "servo-fontconfig", "default_features": true,
+        "downloads": 0, "features": [], "id": 755392, "kind": "normal",
+        "optional": true, "req": "^0.4", "target": null,
+        "version_id": 153199
+      }
+    ],
+    "dl_path": "/api/v1/crates/font-kit/0.2.0/download",
+    "downloads": 1828,
+    "features": {
+      "loader-freetype": ["freetype"],
+      "loader-freetype-default": ["loader-freetype"],
+      "source-fontconfig": ["servo-fontconfig"],
+      "source-fontconfig-default": ["source-fontconfig"]
+    },
+    "id": 153199, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/font-kit/0.2.0/authors",
+      "dependencies": "/api/v1/crates/font-kit/0.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/font-kit/0.2.0/downloads"
+    },
+    "num": "0.2.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/157897?v=4",
+      "id": 2258, "login": "pcwalton", "name": "Patrick Walton",
+      "url": "https://github.com/pcwalton"
+    },
+    "readme_path": "/api/v1/crates/font-kit/0.2.0/readme",
+    "updated_at": "2019-05-28T03:11:51.747285+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Patrick Walton <pcwalton@mimiga.net>"]},
+      "users": []
+    },
+    "crate": "font-kit", "crate_size": 56895,
+    "created_at": "2019-06-10T21:45:28.371429+00:00",
+    "dependencies": [
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 771220, "kind": "normal", "optional": false,
+        "req": "^1.2", "target": null, "version_id": 155704
+      },
+      {
+        "crate_id": "clap", "default_features": true, "downloads": 0,
+        "features": [], "id": 771229, "kind": "dev", "optional": false,
+        "req": "^2.32", "target": null, "version_id": 155704
+      },
+      {
+        "crate_id": "colored", "default_features": true, "downloads": 0,
+        "features": [], "id": 771230, "kind": "dev", "optional": false,
+        "req": "^1.6", "target": null, "version_id": 155704
+      },
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 771240, "kind": "normal",
+        "optional": false, "req": "^0.6",
+        "target": "cfg(target_os = \"macos\")", "version_id": 155704
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 771241, "kind": "normal",
+        "optional": false, "req": "^0.17.1",
+        "target": "cfg(target_os = \"macos\")", "version_id": 155704
+      },
+      {
+        "crate_id": "core-text", "default_features": true, "downloads": 0,
+        "features": [], "id": 771242, "kind": "normal", "optional": false,
+        "req": "^13.2", "target": "cfg(target_os = \"macos\")",
+        "version_id": 155704
+      },
+      {
+        "crate_id": "dirs", "default_features": true, "downloads": 0,
+        "features": [], "id": 771233, "kind": "normal", "optional": false,
+        "req": "^1.0",
+        "target": "cfg(not(any(target_arch = \"wasm32\", target_family = \"windows\", target_os = \"android\")))",
+        "version_id": 155704
+      },
+      {
+        "crate_id": "dwrote", "default_features": false, "downloads": 0,
+        "features": [], "id": 771238, "kind": "normal", "optional": false,
+        "req": "^0.9", "target": "cfg(target_family = \"windows\")",
+        "version_id": 155704
+      },
+      {
+        "crate_id": "euclid", "default_features": true, "downloads": 0,
+        "features": [], "id": 771221, "kind": "normal", "optional": false,
+        "req": "^0.19", "target": null, "version_id": 155704
+      },
+      {
+        "crate_id": "float-ord", "default_features": true, "downloads": 0,
+        "features": [], "id": 771222, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 155704
+      },
+      {
+        "crate_id": "freetype", "default_features": true, "downloads": 0,
+        "features": [], "id": 771234, "kind": "normal", "optional": false,
+        "req": "^0.4.1",
+        "target": "cfg(not(any(target_family = \"windows\", target_os = \"macos\")))",
+        "version_id": 155704
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 771224, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 155704
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 771225, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 155704
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 771226, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 155704
+      },
+      {
+        "crate_id": "lyon_path", "default_features": true, "downloads": 0,
+        "features": [], "id": 771227, "kind": "normal", "optional": false,
+        "req": "^0.12", "target": null, "version_id": 155704
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 771236, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": "cfg(not(target_arch = \"wasm32\"))",
+        "version_id": 155704
+      },
+      {
+        "crate_id": "pbr", "default_features": true, "downloads": 0,
+        "features": [], "id": 771231, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 155704
+      },
+      {
+        "crate_id": "prettytable-rs", "default_features": true,
+        "downloads": 0, "features": [], "id": 771232, "kind": "dev",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 155704
+      },
+      {
+        "crate_id": "servo-fontconfig", "default_features": true,
+        "downloads": 0, "features": [], "id": 771235, "kind": "normal",
+        "optional": false, "req": "^0.4",
+        "target": "cfg(not(any(target_family = \"windows\", target_os = \"macos\", target_arch = \"wasm32\")))",
+        "version_id": 155704
+      },
+      {
+        "crate_id": "walkdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 771237, "kind": "normal", "optional": false,
+        "req": "^2.1", "target": "cfg(not(target_arch = \"wasm32\"))",
+        "version_id": 155704
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["minwindef", "winbase"], "id": 771239,
+        "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(target_family = \"windows\")", "version_id": 155704
+      },
+      {
+        "crate_id": "freetype", "default_features": true, "downloads": 0,
+        "features": [], "id": 771223, "kind": "normal", "optional": true,
+        "req": "^0.4.1", "target": null, "version_id": 155704
+      },
+      {
+        "crate_id": "servo-fontconfig", "default_features": true,
+        "downloads": 0, "features": [], "id": 771228, "kind": "normal",
+        "optional": true, "req": "^0.4", "target": null,
+        "version_id": 155704
+      }
+    ],
+    "dl_path": "/api/v1/crates/font-kit/0.3.1/download",
+    "downloads": 743,
+    "features": {
+      "loader-freetype": ["freetype"],
+      "loader-freetype-default": ["loader-freetype"],
+      "source-fontconfig": ["servo-fontconfig"],
+      "source-fontconfig-default": ["source-fontconfig"]
+    },
+    "id": 155704, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/font-kit/0.3.1/authors",
+      "dependencies": "/api/v1/crates/font-kit/0.3.1/dependencies",
+      "version_downloads": "/api/v1/crates/font-kit/0.3.1/downloads"
+    },
+    "num": "0.3.1",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/157897?v=4",
+      "id": 2258, "login": "pcwalton", "name": "Patrick Walton",
+      "url": "https://github.com/pcwalton"
+    },
+    "readme_path": "/api/v1/crates/font-kit/0.3.1/readme",
+    "updated_at": "2019-06-10T21:45:28.371429+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Patrick Walton <pcwalton@mimiga.net>"]},
+      "users": []
+    },
+    "crate": "font-kit", "crate_size": 57500,
+    "created_at": "2019-07-23T11:47:54.023119+00:00",
+    "dependencies": [
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 832247, "kind": "normal", "optional": false,
+        "req": "^1.2", "target": null, "version_id": 164648
+      },
+      {
+        "crate_id": "clap", "default_features": true, "downloads": 0,
+        "features": [], "id": 832256, "kind": "dev", "optional": false,
+        "req": "^2.32", "target": null, "version_id": 164648
+      },
+      {
+        "crate_id": "colored", "default_features": true, "downloads": 0,
+        "features": [], "id": 832257, "kind": "dev", "optional": false,
+        "req": "^1.6", "target": null, "version_id": 164648
+      },
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 832267, "kind": "normal",
+        "optional": false, "req": "^0.6",
+        "target": "cfg(target_os = \"macos\")", "version_id": 164648
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 832268, "kind": "normal",
+        "optional": false, "req": "^0.17.1",
+        "target": "cfg(target_os = \"macos\")", "version_id": 164648
+      },
+      {
+        "crate_id": "core-text", "default_features": true, "downloads": 0,
+        "features": [], "id": 832269, "kind": "normal", "optional": false,
+        "req": "^13.2", "target": "cfg(target_os = \"macos\")",
+        "version_id": 164648
+      },
+      {
+        "crate_id": "dirs", "default_features": true, "downloads": 0,
+        "features": [], "id": 832260, "kind": "normal", "optional": false,
+        "req": "^1.0",
+        "target": "cfg(not(any(target_arch = \"wasm32\", target_family = \"windows\", target_os = \"android\")))",
+        "version_id": 164648
+      },
+      {
+        "crate_id": "dwrote", "default_features": false, "downloads": 0,
+        "features": [], "id": 832265, "kind": "normal", "optional": false,
+        "req": "^0.9", "target": "cfg(target_family = \"windows\")",
+        "version_id": 164648
+      },
+      {
+        "crate_id": "euclid", "default_features": true, "downloads": 0,
+        "features": [], "id": 832248, "kind": "normal", "optional": false,
+        "req": "^0.20", "target": null, "version_id": 164648
+      },
+      {
+        "crate_id": "float-ord", "default_features": true, "downloads": 0,
+        "features": [], "id": 832249, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 164648
+      },
+      {
+        "crate_id": "freetype", "default_features": true, "downloads": 0,
+        "features": [], "id": 832261, "kind": "normal", "optional": false,
+        "req": "^0.4.1",
+        "target": "cfg(not(any(target_family = \"windows\", target_os = \"macos\")))",
+        "version_id": 164648
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 832251, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 164648
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 832252, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 164648
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 832253, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 164648
+      },
+      {
+        "crate_id": "lyon_path", "default_features": true, "downloads": 0,
+        "features": [], "id": 832254, "kind": "normal", "optional": false,
+        "req": "^0.14", "target": null, "version_id": 164648
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 832263, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": "cfg(not(target_arch = \"wasm32\"))",
+        "version_id": 164648
+      },
+      {
+        "crate_id": "pbr", "default_features": true, "downloads": 0,
+        "features": [], "id": 832258, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 164648
+      },
+      {
+        "crate_id": "prettytable-rs", "default_features": true,
+        "downloads": 0, "features": [], "id": 832259, "kind": "dev",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 164648
+      },
+      {
+        "crate_id": "servo-fontconfig", "default_features": true,
+        "downloads": 0, "features": [], "id": 832262, "kind": "normal",
+        "optional": false, "req": "^0.4",
+        "target": "cfg(not(any(target_family = \"windows\", target_os = \"macos\", target_arch = \"wasm32\")))",
+        "version_id": 164648
+      },
+      {
+        "crate_id": "walkdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 832264, "kind": "normal", "optional": false,
+        "req": "^2.1", "target": "cfg(not(target_arch = \"wasm32\"))",
+        "version_id": 164648
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["minwindef", "winbase"], "id": 832266,
+        "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(target_family = \"windows\")", "version_id": 164648
+      },
+      {
+        "crate_id": "freetype", "default_features": true, "downloads": 0,
+        "features": [], "id": 832250, "kind": "normal", "optional": true,
+        "req": "^0.4.1", "target": null, "version_id": 164648
+      },
+      {
+        "crate_id": "servo-fontconfig", "default_features": true,
+        "downloads": 0, "features": [], "id": 832255, "kind": "normal",
+        "optional": true, "req": "^0.4", "target": null,
+        "version_id": 164648
+      }
+    ],
+    "dl_path": "/api/v1/crates/font-kit/0.4.0/download",
+    "downloads": 65318,
+    "features": {
+      "loader-freetype": ["freetype"],
+      "loader-freetype-default": ["loader-freetype"],
+      "source-fontconfig": ["servo-fontconfig"],
+      "source-fontconfig-default": ["source-fontconfig"]
+    },
+    "id": 164648, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/font-kit/0.4.0/authors",
+      "dependencies": "/api/v1/crates/font-kit/0.4.0/dependencies",
+      "version_downloads": "/api/v1/crates/font-kit/0.4.0/downloads"
+    },
+    "num": "0.4.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/1323194?v=4",
+      "id": 3788, "login": "emilio", "name": "Emilio Cobos Ãlvarez",
+      "url": "https://github.com/emilio"
+    },
+    "readme_path": "/api/v1/crates/font-kit/0.4.0/readme",
+    "updated_at": "2019-07-23T11:47:54.023119+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2019-12-07T00:37:21.458007+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/157897?v=4",
+          "id": 2258, "login": "pcwalton", "name": "Patrick Walton",
+          "url": "https://github.com/pcwalton"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Patrick Walton <pcwalton@mimiga.net>"]},
+      "users": []
+    },
+    "crate": "font-kit", "crate_size": 66119,
+    "created_at": "2019-12-07T00:37:21.458007+00:00",
+    "dependencies": [
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1026067, "kind": "normal", "optional": false,
+        "req": "^1.2", "target": null, "version_id": 194384
+      },
+      {
+        "crate_id": "clap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1026076, "kind": "dev", "optional": false,
+        "req": "^2.32", "target": null, "version_id": 194384
+      },
+      {
+        "crate_id": "colored", "default_features": true, "downloads": 0,
+        "features": [], "id": 1026077, "kind": "dev", "optional": false,
+        "req": "^1.6", "target": null, "version_id": 194384
+      },
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 1026080, "kind": "normal",
+        "optional": false, "req": "^0.7",
+        "target": "cfg(any(target_os = \"macos\", target_os = \"ios\"))",
+        "version_id": 194384
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 1026081, "kind": "normal",
+        "optional": false, "req": "^0.19",
+        "target": "cfg(any(target_os = \"macos\", target_os = \"ios\"))",
+        "version_id": 194384
+      },
+      {
+        "crate_id": "core-text", "default_features": true, "downloads": 0,
+        "features": [], "id": 1026082, "kind": "normal", "optional": false,
+        "req": "^15",
+        "target": "cfg(any(target_os = \"macos\", target_os = \"ios\"))",
+        "version_id": 194384
+      },
+      {
+        "crate_id": "dirs", "default_features": true, "downloads": 0,
+        "features": [], "id": 1026083, "kind": "normal", "optional": false,
+        "req": "^2.0",
+        "target": "cfg(not(any(target_arch = \"wasm32\", target_family = \"windows\", target_os = \"android\")))",
+        "version_id": 194384
+      },
+      {
+        "crate_id": "dwrote", "default_features": false, "downloads": 0,
+        "features": [], "id": 1026087, "kind": "normal", "optional": false,
+        "req": "^0.9", "target": "cfg(target_family = \"windows\")",
+        "version_id": 194384
+      },
+      {
+        "crate_id": "euclid", "default_features": true, "downloads": 0,
+        "features": [], "id": 1026068, "kind": "normal", "optional": false,
+        "req": "^0.20", "target": null, "version_id": 194384
+      },
+      {
+        "crate_id": "float-ord", "default_features": true, "downloads": 0,
+        "features": [], "id": 1026069, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 194384
+      },
+      {
+        "crate_id": "freetype", "default_features": true, "downloads": 0,
+        "features": [], "id": 1026084, "kind": "normal", "optional": false,
+        "req": "^0.4.1",
+        "target": "cfg(not(any(target_family = \"windows\", target_os = \"macos\", target_os = \"ios\")))",
+        "version_id": 194384
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1026071, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 194384
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1026072, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 194384
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1026073, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 194384
+      },
+      {
+        "crate_id": "lyon_path", "default_features": true, "downloads": 0,
+        "features": [], "id": 1026074, "kind": "normal", "optional": false,
+        "req": "^0.14", "target": null, "version_id": 194384
+      },
+      {
+        "crate_id": "pbr", "default_features": true, "downloads": 0,
+        "features": [], "id": 1026078, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 194384
+      },
+      {
+        "crate_id": "prettytable-rs", "default_features": true,
+        "downloads": 0, "features": [], "id": 1026079, "kind": "dev",
+        "optional": false, "req": "^0.8", "target": null,
+        "version_id": 194384
+      },
+      {
+        "crate_id": "servo-fontconfig", "default_features": true,
+        "downloads": 0, "features": [], "id": 1026085, "kind": "normal",
+        "optional": false, "req": "^0.4",
+        "target": "cfg(not(any(target_family = \"windows\", target_os = \"macos\", target_os = \"ios\", target_arch = \"wasm32\")))",
+        "version_id": 194384
+      },
+      {
+        "crate_id": "walkdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 1026086, "kind": "normal", "optional": false,
+        "req": "^2.1", "target": "cfg(not(target_arch = \"wasm32\"))",
+        "version_id": 194384
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["dwrite", "minwindef", "sysinfoapi", "winbase", "winnt"],
+        "id": 1026088, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(target_family = \"windows\")", "version_id": 194384
+      },
+      {
+        "crate_id": "freetype", "default_features": true, "downloads": 0,
+        "features": [], "id": 1026070, "kind": "normal", "optional": true,
+        "req": "^0.4.1", "target": null, "version_id": 194384
+      },
+      {
+        "crate_id": "servo-fontconfig", "default_features": true,
+        "downloads": 0, "features": [], "id": 1026075, "kind": "normal",
+        "optional": true, "req": "^0.4", "target": null,
+        "version_id": 194384
+      }
+    ],
+    "dl_path": "/api/v1/crates/font-kit/0.5.0/download",
+    "downloads": 62928,
+    "features": {
+      "loader-freetype": ["freetype"],
+      "loader-freetype-default": ["loader-freetype"],
+      "source-fontconfig": ["servo-fontconfig"],
+      "source-fontconfig-default": ["source-fontconfig"]
+    },
+    "id": 194384, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/font-kit/0.5.0/authors",
+      "dependencies": "/api/v1/crates/font-kit/0.5.0/dependencies",
+      "version_downloads": "/api/v1/crates/font-kit/0.5.0/downloads"
+    },
+    "num": "0.5.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/157897?v=4",
+      "id": 2258, "login": "pcwalton", "name": "Patrick Walton",
+      "url": "https://github.com/pcwalton"
+    },
+    "readme_path": "/api/v1/crates/font-kit/0.5.0/readme",
+    "updated_at": "2019-12-07T00:37:21.458007+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-04-14T20:54:01.242869+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/157897?v=4",
+          "id": 2258, "login": "pcwalton", "name": "Patrick Walton",
+          "url": "https://github.com/pcwalton"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Patrick Walton <pcwalton@mimiga.net>"]},
+      "users": []
+    },
+    "crate": "font-kit", "crate_size": 69266,
+    "created_at": "2020-04-14T20:54:01.242869+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1295224, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 231434
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1295225, "kind": "normal", "optional": false,
+        "req": "^1.2", "target": null, "version_id": 231434
+      },
+      {
+        "crate_id": "clap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1295234, "kind": "dev", "optional": false,
+        "req": "^2.32", "target": null, "version_id": 231434
+      },
+      {
+        "crate_id": "colored", "default_features": true, "downloads": 0,
+        "features": [], "id": 1295235, "kind": "dev", "optional": false,
+        "req": "^1.6", "target": null, "version_id": 231434
+      },
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 1295238, "kind": "normal",
+        "optional": false, "req": "^0.7",
+        "target": "cfg(any(target_os = \"macos\", target_os = \"ios\"))",
+        "version_id": 231434
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 1295239, "kind": "normal",
+        "optional": false, "req": "^0.19",
+        "target": "cfg(any(target_os = \"macos\", target_os = \"ios\"))",
+        "version_id": 231434
+      },
+      {
+        "crate_id": "core-text", "default_features": true, "downloads": 0,
+        "features": [], "id": 1295240, "kind": "normal", "optional": false,
+        "req": "^15",
+        "target": "cfg(any(target_os = \"macos\", target_os = \"ios\"))",
+        "version_id": 231434
+      },
+      {
+        "crate_id": "dirs", "default_features": true, "downloads": 0,
+        "features": [], "id": 1295241, "kind": "normal", "optional": false,
+        "req": "^2.0",
+        "target": "cfg(not(any(target_arch = \"wasm32\", target_family = \"windows\", target_os = \"android\")))",
+        "version_id": 231434
+      },
+      {
+        "crate_id": "dwrote", "default_features": false, "downloads": 0,
+        "features": [], "id": 1295245, "kind": "normal", "optional": false,
+        "req": "^0.10", "target": "cfg(target_family = \"windows\")",
+        "version_id": 231434
+      },
+      {
+        "crate_id": "float-ord", "default_features": true, "downloads": 0,
+        "features": [], "id": 1295226, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 231434
+      },
+      {
+        "crate_id": "freetype", "default_features": true, "downloads": 0,
+        "features": [], "id": 1295242, "kind": "normal", "optional": false,
+        "req": "^0.4.1",
+        "target": "cfg(not(any(target_family = \"windows\", target_os = \"macos\", target_os = \"ios\")))",
+        "version_id": 231434
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1295228, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 231434
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1295229, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 231434
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1295230, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 231434
+      },
+      {
+        "crate_id": "pathfinder_geometry", "default_features": true,
+        "downloads": 0, "features": [], "id": 1295231, "kind": "normal",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 231434
+      },
+      {
+        "crate_id": "pathfinder_simd", "default_features": true,
+        "downloads": 0, "features": [], "id": 1295232, "kind": "normal",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 231434
+      },
+      {
+        "crate_id": "pbr", "default_features": true, "downloads": 0,
+        "features": [], "id": 1295236, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 231434
+      },
+      {
+        "crate_id": "prettytable-rs", "default_features": true,
+        "downloads": 0, "features": [], "id": 1295237, "kind": "dev",
+        "optional": false, "req": "^0.8", "target": null,
+        "version_id": 231434
+      },
+      {
+        "crate_id": "servo-fontconfig", "default_features": true,
+        "downloads": 0, "features": [], "id": 1295243, "kind": "normal",
+        "optional": false, "req": "^0.4",
+        "target": "cfg(not(any(target_family = \"windows\", target_os = \"macos\", target_os = \"ios\", target_arch = \"wasm32\")))",
+        "version_id": 231434
+      },
+      {
+        "crate_id": "walkdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 1295244, "kind": "normal", "optional": false,
+        "req": "^2.1", "target": "cfg(not(target_arch = \"wasm32\"))",
+        "version_id": 231434
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["dwrite", "minwindef", "sysinfoapi", "winbase", "winnt"],
+        "id": 1295246, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(target_family = \"windows\")", "version_id": 231434
+      },
+      {
+        "crate_id": "freetype", "default_features": true, "downloads": 0,
+        "features": [], "id": 1295227, "kind": "normal", "optional": true,
+        "req": "^0.4.1", "target": null, "version_id": 231434
+      },
+      {
+        "crate_id": "servo-fontconfig", "default_features": true,
+        "downloads": 0, "features": [], "id": 1295233, "kind": "normal",
+        "optional": true, "req": "^0.5", "target": null,
+        "version_id": 231434
+      }
+    ],
+    "dl_path": "/api/v1/crates/font-kit/0.6.0/download",
+    "downloads": 23877,
+    "features": {
+      "default": ["source"], "loader-freetype": ["freetype"],
+      "loader-freetype-default": ["loader-freetype"], "source": [],
+      "source-fontconfig": ["servo-fontconfig"],
+      "source-fontconfig-default": ["source-fontconfig"]
+    },
+    "id": 231434, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/font-kit/0.6.0/authors",
+      "dependencies": "/api/v1/crates/font-kit/0.6.0/dependencies",
+      "version_downloads": "/api/v1/crates/font-kit/0.6.0/downloads"
+    },
+    "num": "0.6.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/157897?v=4",
+      "id": 2258, "login": "pcwalton", "name": "Patrick Walton",
+      "url": "https://github.com/pcwalton"
+    },
+    "readme_path": "/api/v1/crates/font-kit/0.6.0/readme",
+    "updated_at": "2020-04-14T20:54:01.242869+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-05-12T21:53:45.009841+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/27658?v=4",
+          "id": 2396, "login": "jdm", "name": "Josh Matthews",
+          "url": "https://github.com/jdm"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Patrick Walton <pcwalton@mimiga.net>"]},
+      "users": []
+    },
+    "crate": "font-kit", "crate_size": 68117,
+    "created_at": "2020-05-12T21:53:45.009841+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1361833, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 240759
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1361834, "kind": "normal", "optional": false,
+        "req": "^1.2", "target": null, "version_id": 240759
+      },
+      {
+        "crate_id": "clap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1361843, "kind": "dev", "optional": false,
+        "req": "^2.32", "target": null, "version_id": 240759
+      },
+      {
+        "crate_id": "colored", "default_features": true, "downloads": 0,
+        "features": [], "id": 1361844, "kind": "dev", "optional": false,
+        "req": "^1.6", "target": null, "version_id": 240759
+      },
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 1361847, "kind": "normal",
+        "optional": false, "req": "^0.7",
+        "target": "cfg(any(target_os = \"macos\", target_os = \"ios\"))",
+        "version_id": 240759
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 1361848, "kind": "normal",
+        "optional": false, "req": "^0.19",
+        "target": "cfg(any(target_os = \"macos\", target_os = \"ios\"))",
+        "version_id": 240759
+      },
+      {
+        "crate_id": "core-text", "default_features": true, "downloads": 0,
+        "features": [], "id": 1361849, "kind": "normal", "optional": false,
+        "req": "^15",
+        "target": "cfg(any(target_os = \"macos\", target_os = \"ios\"))",
+        "version_id": 240759
+      },
+      {
+        "crate_id": "dirs", "default_features": true, "downloads": 0,
+        "features": [], "id": 1361850, "kind": "normal", "optional": false,
+        "req": "^2.0",
+        "target": "cfg(not(any(target_arch = \"wasm32\", target_family = \"windows\", target_os = \"android\")))",
+        "version_id": 240759
+      },
+      {
+        "crate_id": "dwrote", "default_features": false, "downloads": 0,
+        "features": [], "id": 1361854, "kind": "normal", "optional": false,
+        "req": "^0.11", "target": "cfg(target_family = \"windows\")",
+        "version_id": 240759
+      },
+      {
+        "crate_id": "float-ord", "default_features": true, "downloads": 0,
+        "features": [], "id": 1361835, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 240759
+      },
+      {
+        "crate_id": "freetype", "default_features": true, "downloads": 0,
+        "features": [], "id": 1361851, "kind": "normal", "optional": false,
+        "req": "^0.4.1",
+        "target": "cfg(not(any(target_family = \"windows\", target_os = \"macos\", target_os = \"ios\")))",
+        "version_id": 240759
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1361837, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 240759
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1361838, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 240759
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1361839, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 240759
+      },
+      {
+        "crate_id": "pathfinder_geometry", "default_features": true,
+        "downloads": 0, "features": [], "id": 1361840, "kind": "normal",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 240759
+      },
+      {
+        "crate_id": "pathfinder_simd", "default_features": true,
+        "downloads": 0, "features": [], "id": 1361841, "kind": "normal",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 240759
+      },
+      {
+        "crate_id": "pbr", "default_features": true, "downloads": 0,
+        "features": [], "id": 1361845, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 240759
+      },
+      {
+        "crate_id": "prettytable-rs", "default_features": true,
+        "downloads": 0, "features": [], "id": 1361846, "kind": "dev",
+        "optional": false, "req": "^0.8", "target": null,
+        "version_id": 240759
+      },
+      {
+        "crate_id": "servo-fontconfig", "default_features": true,
+        "downloads": 0, "features": [], "id": 1361852, "kind": "normal",
+        "optional": false, "req": "^0.4",
+        "target": "cfg(not(any(target_family = \"windows\", target_os = \"macos\", target_os = \"ios\", target_arch = \"wasm32\")))",
+        "version_id": 240759
+      },
+      {
+        "crate_id": "walkdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 1361853, "kind": "normal", "optional": false,
+        "req": "^2.1", "target": "cfg(not(target_arch = \"wasm32\"))",
+        "version_id": 240759
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["dwrite", "minwindef", "sysinfoapi", "winbase", "winnt"],
+        "id": 1361855, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(target_family = \"windows\")", "version_id": 240759
+      },
+      {
+        "crate_id": "freetype", "default_features": true, "downloads": 0,
+        "features": [], "id": 1361836, "kind": "normal", "optional": true,
+        "req": "^0.4.1", "target": null, "version_id": 240759
+      },
+      {
+        "crate_id": "servo-fontconfig", "default_features": true,
+        "downloads": 0, "features": [], "id": 1361842, "kind": "normal",
+        "optional": true, "req": "^0.5", "target": null,
+        "version_id": 240759
+      }
+    ],
+    "dl_path": "/api/v1/crates/font-kit/0.7.0/download",
+    "downloads": 4928,
+    "features": {
+      "default": ["source"], "loader-freetype": ["freetype"],
+      "loader-freetype-default": ["loader-freetype"], "source": [],
+      "source-fontconfig": ["servo-fontconfig"],
+      "source-fontconfig-default": ["source-fontconfig"]
+    },
+    "id": 240759, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/font-kit/0.7.0/authors",
+      "dependencies": "/api/v1/crates/font-kit/0.7.0/dependencies",
+      "version_downloads": "/api/v1/crates/font-kit/0.7.0/downloads"
+    },
+    "num": "0.7.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/27658?v=4",
+      "id": 2396, "login": "jdm", "name": "Josh Matthews",
+      "url": "https://github.com/jdm"
+    },
+    "readme_path": "/api/v1/crates/font-kit/0.7.0/readme",
+    "updated_at": "2020-05-12T21:53:45.009841+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-05-30T19:47:55.700936+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/27658?v=4",
+          "id": 2396, "login": "jdm", "name": "Josh Matthews",
+          "url": "https://github.com/jdm"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Patrick Walton <pcwalton@mimiga.net>"]},
+      "users": []
+    },
+    "crate": "font-kit", "crate_size": 70637,
+    "created_at": "2020-05-30T19:47:55.700936+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1409230, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 247058
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1409231, "kind": "normal", "optional": false,
+        "req": "^1.2", "target": null, "version_id": 247058
+      },
+      {
+        "crate_id": "clap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1409240, "kind": "dev", "optional": false,
+        "req": "^2.32", "target": null, "version_id": 247058
+      },
+      {
+        "crate_id": "colored", "default_features": true, "downloads": 0,
+        "features": [], "id": 1409241, "kind": "dev", "optional": false,
+        "req": "^1.6", "target": null, "version_id": 247058
+      },
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 1409244, "kind": "normal",
+        "optional": false, "req": "^0.7",
+        "target": "cfg(any(target_os = \"macos\", target_os = \"ios\"))",
+        "version_id": 247058
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 1409245, "kind": "normal",
+        "optional": false, "req": "^0.19",
+        "target": "cfg(any(target_os = \"macos\", target_os = \"ios\"))",
+        "version_id": 247058
+      },
+      {
+        "crate_id": "core-text", "default_features": true, "downloads": 0,
+        "features": [], "id": 1409246, "kind": "normal", "optional": false,
+        "req": "^15",
+        "target": "cfg(any(target_os = \"macos\", target_os = \"ios\"))",
+        "version_id": 247058
+      },
+      {
+        "crate_id": "dirs", "default_features": true, "downloads": 0,
+        "features": [], "id": 1409247, "kind": "normal", "optional": false,
+        "req": "^2.0",
+        "target": "cfg(not(any(target_arch = \"wasm32\", target_family = \"windows\", target_os = \"android\")))",
+        "version_id": 247058
+      },
+      {
+        "crate_id": "dwrote", "default_features": false, "downloads": 0,
+        "features": [], "id": 1409251, "kind": "normal", "optional": false,
+        "req": "^0.11", "target": "cfg(target_family = \"windows\")",
+        "version_id": 247058
+      },
+      {
+        "crate_id": "float-ord", "default_features": true, "downloads": 0,
+        "features": [], "id": 1409232, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 247058
+      },
+      {
+        "crate_id": "freetype", "default_features": true, "downloads": 0,
+        "features": [], "id": 1409248, "kind": "normal", "optional": false,
+        "req": "^0.4.1",
+        "target": "cfg(not(any(target_family = \"windows\", target_os = \"macos\", target_os = \"ios\")))",
+        "version_id": 247058
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1409234, "kind": "normal", "optional": false,
+        "req": "^1.1", "target": null, "version_id": 247058
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1409235, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 247058
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1409236, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 247058
+      },
+      {
+        "crate_id": "pathfinder_geometry", "default_features": true,
+        "downloads": 0, "features": [], "id": 1409237, "kind": "normal",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 247058
+      },
+      {
+        "crate_id": "pathfinder_simd", "default_features": true,
+        "downloads": 0, "features": [], "id": 1409238, "kind": "normal",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 247058
+      },
+      {
+        "crate_id": "pbr", "default_features": true, "downloads": 0,
+        "features": [], "id": 1409242, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 247058
+      },
+      {
+        "crate_id": "prettytable-rs", "default_features": true,
+        "downloads": 0, "features": [], "id": 1409243, "kind": "dev",
+        "optional": false, "req": "^0.8", "target": null,
+        "version_id": 247058
+      },
+      {
+        "crate_id": "servo-fontconfig", "default_features": true,
+        "downloads": 0, "features": [], "id": 1409249, "kind": "normal",
+        "optional": false, "req": "^0.4",
+        "target": "cfg(not(any(target_family = \"windows\", target_os = \"macos\", target_os = \"ios\", target_arch = \"wasm32\")))",
+        "version_id": 247058
+      },
+      {
+        "crate_id": "walkdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 1409250, "kind": "normal", "optional": false,
+        "req": "^2.1", "target": "cfg(not(target_arch = \"wasm32\"))",
+        "version_id": 247058
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["dwrite", "minwindef", "sysinfoapi", "winbase", "winnt"],
+        "id": 1409252, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(target_family = \"windows\")", "version_id": 247058
+      },
+      {
+        "crate_id": "freetype", "default_features": true, "downloads": 0,
+        "features": [], "id": 1409233, "kind": "normal", "optional": true,
+        "req": "^0.4.1", "target": null, "version_id": 247058
+      },
+      {
+        "crate_id": "servo-fontconfig", "default_features": true,
+        "downloads": 0, "features": [], "id": 1409239, "kind": "normal",
+        "optional": true, "req": "^0.5", "target": null,
+        "version_id": 247058
+      }
+    ],
+    "dl_path": "/api/v1/crates/font-kit/0.7.1/download",
+    "downloads": 26549,
+    "features": {
+      "default": ["source"], "loader-freetype": ["freetype"],
+      "loader-freetype-default": ["loader-freetype"], "source": [],
+      "source-fontconfig": ["servo-fontconfig"],
+      "source-fontconfig-default": ["source-fontconfig"]
+    },
+    "id": 247058, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/font-kit/0.7.1/authors",
+      "dependencies": "/api/v1/crates/font-kit/0.7.1/dependencies",
+      "version_downloads": "/api/v1/crates/font-kit/0.7.1/downloads"
+    },
+    "num": "0.7.1",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/27658?v=4",
+      "id": 2396, "login": "jdm", "name": "Josh Matthews",
+      "url": "https://github.com/jdm"
+    },
+    "readme_path": "/api/v1/crates/font-kit/0.7.1/readme",
+    "updated_at": "2020-05-30T19:47:55.700936+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-06-03T22:07:30.271442+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/27658?v=4",
+          "id": 2396, "login": "jdm", "name": "Josh Matthews",
+          "url": "https://github.com/jdm"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Patrick Walton <pcwalton@mimiga.net>"]},
+      "users": []
+    },
+    "crate": "font-kit", "crate_size": 68342,
+    "created_at": "2020-06-03T22:07:30.271442+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1420842, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 248653
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1420843, "kind": "normal", "optional": false,
+        "req": "^1.2", "target": null, "version_id": 248653
+      },
+      {
+        "crate_id": "clap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1420852, "kind": "dev", "optional": false,
+        "req": "^2.32", "target": null, "version_id": 248653
+      },
+      {
+        "crate_id": "colored", "default_features": true, "downloads": 0,
+        "features": [], "id": 1420853, "kind": "dev", "optional": false,
+        "req": "^1.6", "target": null, "version_id": 248653
+      },
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 1420856, "kind": "normal",
+        "optional": false, "req": "^0.7",
+        "target": "cfg(any(target_os = \"macos\", target_os = \"ios\"))",
+        "version_id": 248653
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 1420857, "kind": "normal",
+        "optional": false, "req": "^0.19",
+        "target": "cfg(any(target_os = \"macos\", target_os = \"ios\"))",
+        "version_id": 248653
+      },
+      {
+        "crate_id": "core-text", "default_features": true, "downloads": 0,
+        "features": [], "id": 1420858, "kind": "normal", "optional": false,
+        "req": "^15",
+        "target": "cfg(any(target_os = \"macos\", target_os = \"ios\"))",
+        "version_id": 248653
+      },
+      {
+        "crate_id": "dirs", "default_features": true, "downloads": 0,
+        "features": [], "id": 1420859, "kind": "normal", "optional": false,
+        "req": "^2.0",
+        "target": "cfg(not(any(target_arch = \"wasm32\", target_family = \"windows\", target_os = \"android\")))",
+        "version_id": 248653
+      },
+      {
+        "crate_id": "dwrote", "default_features": false, "downloads": 0,
+        "features": [], "id": 1420863, "kind": "normal", "optional": false,
+        "req": "^0.11", "target": "cfg(target_family = \"windows\")",
+        "version_id": 248653
+      },
+      {
+        "crate_id": "float-ord", "default_features": true, "downloads": 0,
+        "features": [], "id": 1420844, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 248653
+      },
+      {
+        "crate_id": "freetype", "default_features": true, "downloads": 0,
+        "features": [], "id": 1420860, "kind": "normal", "optional": false,
+        "req": "^0.4.1",
+        "target": "cfg(not(any(target_family = \"windows\", target_os = \"macos\", target_os = \"ios\")))",
+        "version_id": 248653
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1420846, "kind": "normal", "optional": false,
+        "req": "^1.1", "target": null, "version_id": 248653
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1420847, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 248653
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1420848, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 248653
+      },
+      {
+        "crate_id": "pathfinder_geometry", "default_features": true,
+        "downloads": 0, "features": [], "id": 1420849, "kind": "normal",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 248653
+      },
+      {
+        "crate_id": "pathfinder_simd", "default_features": true,
+        "downloads": 0, "features": [], "id": 1420850, "kind": "normal",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 248653
+      },
+      {
+        "crate_id": "pbr", "default_features": true, "downloads": 0,
+        "features": [], "id": 1420854, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 248653
+      },
+      {
+        "crate_id": "prettytable-rs", "default_features": true,
+        "downloads": 0, "features": [], "id": 1420855, "kind": "dev",
+        "optional": false, "req": "^0.8", "target": null,
+        "version_id": 248653
+      },
+      {
+        "crate_id": "servo-fontconfig", "default_features": true,
+        "downloads": 0, "features": [], "id": 1420861, "kind": "normal",
+        "optional": false, "req": "^0.4",
+        "target": "cfg(not(any(target_family = \"windows\", target_os = \"macos\", target_os = \"ios\", target_arch = \"wasm32\")))",
+        "version_id": 248653
+      },
+      {
+        "crate_id": "walkdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 1420862, "kind": "normal", "optional": false,
+        "req": "^2.1", "target": "cfg(not(target_arch = \"wasm32\"))",
+        "version_id": 248653
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["dwrite", "minwindef", "sysinfoapi", "winbase", "winnt"],
+        "id": 1420864, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(target_family = \"windows\")", "version_id": 248653
+      },
+      {
+        "crate_id": "freetype", "default_features": true, "downloads": 0,
+        "features": [], "id": 1420845, "kind": "normal", "optional": true,
+        "req": "^0.5.1", "target": null, "version_id": 248653
+      },
+      {
+        "crate_id": "servo-fontconfig", "default_features": true,
+        "downloads": 0, "features": [], "id": 1420851, "kind": "normal",
+        "optional": true, "req": "^0.5", "target": null,
+        "version_id": 248653
+      }
+    ],
+    "dl_path": "/api/v1/crates/font-kit/0.8.0/download",
+    "downloads": 560,
+    "features": {
+      "default": ["source"], "loader-freetype": ["freetype"],
+      "loader-freetype-default": ["loader-freetype"], "source": [],
+      "source-fontconfig": ["servo-fontconfig"],
+      "source-fontconfig-default": ["source-fontconfig"]
+    },
+    "id": 248653, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/font-kit/0.8.0/authors",
+      "dependencies": "/api/v1/crates/font-kit/0.8.0/dependencies",
+      "version_downloads": "/api/v1/crates/font-kit/0.8.0/downloads"
+    },
+    "num": "0.8.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/27658?v=4",
+      "id": 2396, "login": "jdm", "name": "Josh Matthews",
+      "url": "https://github.com/jdm"
+    },
+    "readme_path": "/api/v1/crates/font-kit/0.8.0/readme",
+    "updated_at": "2020-06-03T22:07:30.271442+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-06-17T00:30:04.376271+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/27658?v=4",
+          "id": 2396, "login": "jdm", "name": "Josh Matthews",
+          "url": "https://github.com/jdm"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Patrick Walton <pcwalton@mimiga.net>"]},
+      "users": []
+    },
+    "crate": "font-kit", "crate_size": 70436,
+    "created_at": "2020-06-17T00:30:04.376271+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1452620, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 253083
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1452621, "kind": "normal", "optional": false,
+        "req": "^1.2", "target": null, "version_id": 253083
+      },
+      {
+        "crate_id": "clap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1452630, "kind": "dev", "optional": false,
+        "req": "^2.32", "target": null, "version_id": 253083
+      },
+      {
+        "crate_id": "colored", "default_features": true, "downloads": 0,
+        "features": [], "id": 1452631, "kind": "dev", "optional": false,
+        "req": "^1.6", "target": null, "version_id": 253083
+      },
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 1452634, "kind": "normal",
+        "optional": false, "req": "^0.7",
+        "target": "cfg(any(target_os = \"macos\", target_os = \"ios\"))",
+        "version_id": 253083
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 1452635, "kind": "normal",
+        "optional": false, "req": "^0.19",
+        "target": "cfg(any(target_os = \"macos\", target_os = \"ios\"))",
+        "version_id": 253083
+      },
+      {
+        "crate_id": "core-text", "default_features": true, "downloads": 0,
+        "features": [], "id": 1452636, "kind": "normal", "optional": false,
+        "req": "^15",
+        "target": "cfg(any(target_os = \"macos\", target_os = \"ios\"))",
+        "version_id": 253083
+      },
+      {
+        "crate_id": "dirs", "default_features": true, "downloads": 0,
+        "features": [], "id": 1452637, "kind": "normal", "optional": false,
+        "req": "^2.0",
+        "target": "cfg(not(any(target_arch = \"wasm32\", target_family = \"windows\", target_os = \"android\")))",
+        "version_id": 253083
+      },
+      {
+        "crate_id": "dwrote", "default_features": false, "downloads": 0,
+        "features": [], "id": 1452641, "kind": "normal", "optional": false,
+        "req": "^0.11", "target": "cfg(target_family = \"windows\")",
+        "version_id": 253083
+      },
+      {
+        "crate_id": "float-ord", "default_features": true, "downloads": 0,
+        "features": [], "id": 1452622, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 253083
+      },
+      {
+        "crate_id": "freetype", "default_features": true, "downloads": 0,
+        "features": [], "id": 1452638, "kind": "normal", "optional": false,
+        "req": "^0.5.1",
+        "target": "cfg(not(any(target_family = \"windows\", target_os = \"macos\", target_os = \"ios\")))",
+        "version_id": 253083
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1452624, "kind": "normal", "optional": false,
+        "req": "^1.1", "target": null, "version_id": 253083
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1452625, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 253083
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1452626, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 253083
+      },
+      {
+        "crate_id": "pathfinder_geometry", "default_features": true,
+        "downloads": 0, "features": [], "id": 1452627, "kind": "normal",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 253083
+      },
+      {
+        "crate_id": "pathfinder_simd", "default_features": true,
+        "downloads": 0, "features": [], "id": 1452628, "kind": "normal",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 253083
+      },
+      {
+        "crate_id": "pbr", "default_features": true, "downloads": 0,
+        "features": [], "id": 1452632, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 253083
+      },
+      {
+        "crate_id": "prettytable-rs", "default_features": true,
+        "downloads": 0, "features": [], "id": 1452633, "kind": "dev",
+        "optional": false, "req": "^0.8", "target": null,
+        "version_id": 253083
+      },
+      {
+        "crate_id": "servo-fontconfig", "default_features": true,
+        "downloads": 0, "features": [], "id": 1452639, "kind": "normal",
+        "optional": false, "req": "^0.5",
+        "target": "cfg(not(any(target_family = \"windows\", target_os = \"macos\", target_os = \"ios\", target_arch = \"wasm32\")))",
+        "version_id": 253083
+      },
+      {
+        "crate_id": "walkdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 1452640, "kind": "normal", "optional": false,
+        "req": "^2.1", "target": "cfg(not(target_arch = \"wasm32\"))",
+        "version_id": 253083
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["dwrite", "minwindef", "sysinfoapi", "winbase", "winnt"],
+        "id": 1452642, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(target_family = \"windows\")", "version_id": 253083
+      },
+      {
+        "crate_id": "freetype", "default_features": true, "downloads": 0,
+        "features": [], "id": 1452623, "kind": "normal", "optional": true,
+        "req": "^0.5.1", "target": null, "version_id": 253083
+      },
+      {
+        "crate_id": "servo-fontconfig", "default_features": true,
+        "downloads": 0, "features": [], "id": 1452629, "kind": "normal",
+        "optional": true, "req": "^0.5", "target": null,
+        "version_id": 253083
+      }
+    ],
+    "dl_path": "/api/v1/crates/font-kit/0.9.0/download",
+    "downloads": 161,
+    "features": {
+      "default": ["source"], "loader-freetype": ["freetype"],
+      "loader-freetype-default": ["loader-freetype"], "source": [],
+      "source-fontconfig": ["servo-fontconfig"],
+      "source-fontconfig-default": ["source-fontconfig"]
+    },
+    "id": 253083, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/font-kit/0.9.0/authors",
+      "dependencies": "/api/v1/crates/font-kit/0.9.0/dependencies",
+      "version_downloads": "/api/v1/crates/font-kit/0.9.0/downloads"
+    },
+    "num": "0.9.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/27658?v=4",
+      "id": 2396, "login": "jdm", "name": "Josh Matthews",
+      "url": "https://github.com/jdm"
+    },
+    "readme_path": "/api/v1/crates/font-kit/0.9.0/readme",
+    "updated_at": "2020-06-17T00:30:04.376271+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-07-10T13:44:59.956598+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/27658?v=4",
+          "id": 2396, "login": "jdm", "name": "Josh Matthews",
+          "url": "https://github.com/jdm"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Patrick Walton <pcwalton@mimiga.net>"]},
+      "users": []
+    },
+    "crate": "font-kit", "crate_size": 70556,
+    "created_at": "2020-07-10T13:44:59.956598+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1514332, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 261073
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1514333, "kind": "normal", "optional": false,
+        "req": "^1.2", "target": null, "version_id": 261073
+      },
+      {
+        "crate_id": "clap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1514342, "kind": "dev", "optional": false,
+        "req": "^2.32", "target": null, "version_id": 261073
+      },
+      {
+        "crate_id": "colored", "default_features": true, "downloads": 0,
+        "features": [], "id": 1514343, "kind": "dev", "optional": false,
+        "req": "^1.6", "target": null, "version_id": 261073
+      },
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 1514346, "kind": "normal",
+        "optional": false, "req": "^0.7",
+        "target": "cfg(any(target_os = \"macos\", target_os = \"ios\"))",
+        "version_id": 261073
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 1514347, "kind": "normal",
+        "optional": false, "req": "^0.19",
+        "target": "cfg(any(target_os = \"macos\", target_os = \"ios\"))",
+        "version_id": 261073
+      },
+      {
+        "crate_id": "core-text", "default_features": true, "downloads": 0,
+        "features": [], "id": 1514348, "kind": "normal", "optional": false,
+        "req": "^15",
+        "target": "cfg(any(target_os = \"macos\", target_os = \"ios\"))",
+        "version_id": 261073
+      },
+      {
+        "crate_id": "dirs", "default_features": true, "downloads": 0,
+        "features": [], "id": 1514349, "kind": "normal", "optional": false,
+        "req": "^2.0",
+        "target": "cfg(not(any(target_arch = \"wasm32\", target_family = \"windows\", target_os = \"android\")))",
+        "version_id": 261073
+      },
+      {
+        "crate_id": "dwrote", "default_features": false, "downloads": 0,
+        "features": [], "id": 1514353, "kind": "normal", "optional": false,
+        "req": "^0.11", "target": "cfg(target_family = \"windows\")",
+        "version_id": 261073
+      },
+      {
+        "crate_id": "float-ord", "default_features": true, "downloads": 0,
+        "features": [], "id": 1514334, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 261073
+      },
+      {
+        "crate_id": "freetype", "default_features": true, "downloads": 0,
+        "features": [], "id": 1514350, "kind": "normal", "optional": false,
+        "req": "^0.5.1",
+        "target": "cfg(not(any(target_family = \"windows\", target_os = \"macos\", target_os = \"ios\")))",
+        "version_id": 261073
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1514336, "kind": "normal", "optional": false,
+        "req": "^1.1", "target": null, "version_id": 261073
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1514337, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 261073
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1514338, "kind": "normal", "optional": false,
+        "req": "^0.4.4", "target": null, "version_id": 261073
+      },
+      {
+        "crate_id": "pathfinder_geometry", "default_features": true,
+        "downloads": 0, "features": [], "id": 1514339, "kind": "normal",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 261073
+      },
+      {
+        "crate_id": "pathfinder_simd", "default_features": true,
+        "downloads": 0, "features": [], "id": 1514340, "kind": "normal",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 261073
+      },
+      {
+        "crate_id": "pbr", "default_features": true, "downloads": 0,
+        "features": [], "id": 1514344, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 261073
+      },
+      {
+        "crate_id": "prettytable-rs", "default_features": true,
+        "downloads": 0, "features": [], "id": 1514345, "kind": "dev",
+        "optional": false, "req": "^0.8", "target": null,
+        "version_id": 261073
+      },
+      {
+        "crate_id": "servo-fontconfig", "default_features": true,
+        "downloads": 0, "features": [], "id": 1514351, "kind": "normal",
+        "optional": false, "req": "^0.5",
+        "target": "cfg(not(any(target_family = \"windows\", target_os = \"macos\", target_os = \"ios\", target_arch = \"wasm32\")))",
+        "version_id": 261073
+      },
+      {
+        "crate_id": "walkdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 1514352, "kind": "normal", "optional": false,
+        "req": "^2.1", "target": "cfg(not(target_arch = \"wasm32\"))",
+        "version_id": 261073
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["dwrite", "minwindef", "sysinfoapi", "winbase", "winnt"],
+        "id": 1514354, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(target_family = \"windows\")", "version_id": 261073
+      },
+      {
+        "crate_id": "freetype", "default_features": true, "downloads": 0,
+        "features": [], "id": 1514335, "kind": "normal", "optional": true,
+        "req": "^0.5.1", "target": null, "version_id": 261073
+      },
+      {
+        "crate_id": "servo-fontconfig", "default_features": true,
+        "downloads": 0, "features": [], "id": 1514341, "kind": "normal",
+        "optional": true, "req": "^0.5", "target": null,
+        "version_id": 261073
+      }
+    ],
+    "dl_path": "/api/v1/crates/font-kit/0.9.1/download",
+    "downloads": 355,
+    "features": {
+      "default": ["source"], "loader-freetype": ["freetype"],
+      "loader-freetype-default": ["loader-freetype"], "source": [],
+      "source-fontconfig": ["servo-fontconfig"],
+      "source-fontconfig-default": ["source-fontconfig"]
+    },
+    "id": 261073, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/font-kit/0.9.1/authors",
+      "dependencies": "/api/v1/crates/font-kit/0.9.1/dependencies",
+      "version_downloads": "/api/v1/crates/font-kit/0.9.1/downloads"
+    },
+    "num": "0.9.1",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/27658?v=4",
+      "id": 2396, "login": "jdm", "name": "Josh Matthews",
+      "url": "https://github.com/jdm"
+    },
+    "readme_path": "/api/v1/crates/font-kit/0.9.1/readme",
+    "updated_at": "2020-07-10T13:44:59.956598+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-07-28T00:08:33.440713+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/27658?v=4",
+          "id": 2396, "login": "jdm", "name": "Josh Matthews",
+          "url": "https://github.com/jdm"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Patrick Walton <pcwalton@mimiga.net>"]},
+      "users": []
+    },
+    "crate": "font-kit", "crate_size": 70804,
+    "created_at": "2020-07-28T00:08:33.440713+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1557702, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 266947
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1557703, "kind": "normal", "optional": false,
+        "req": "^1.2", "target": null, "version_id": 266947
+      },
+      {
+        "crate_id": "clap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1557712, "kind": "dev", "optional": false,
+        "req": "^2.32", "target": null, "version_id": 266947
+      },
+      {
+        "crate_id": "colored", "default_features": true, "downloads": 0,
+        "features": [], "id": 1557713, "kind": "dev", "optional": false,
+        "req": "^1.6", "target": null, "version_id": 266947
+      },
+      {
+        "crate_id": "core-foundation", "default_features": true,
+        "downloads": 0, "features": [], "id": 1557716, "kind": "normal",
+        "optional": false, "req": "^0.9",
+        "target": "cfg(any(target_os = \"macos\", target_os = \"ios\"))",
+        "version_id": 266947
+      },
+      {
+        "crate_id": "core-graphics", "default_features": true,
+        "downloads": 0, "features": [], "id": 1557717, "kind": "normal",
+        "optional": false, "req": "^0.22",
+        "target": "cfg(any(target_os = \"macos\", target_os = \"ios\"))",
+        "version_id": 266947
+      },
+      {
+        "crate_id": "core-text", "default_features": true, "downloads": 0,
+        "features": [], "id": 1557718, "kind": "normal", "optional": false,
+        "req": "^19",
+        "target": "cfg(any(target_os = \"macos\", target_os = \"ios\"))",
+        "version_id": 266947
+      },
+      {
+        "crate_id": "dirs", "default_features": true, "downloads": 0,
+        "features": [], "id": 1557719, "kind": "normal", "optional": false,
+        "req": "^2.0",
+        "target": "cfg(not(any(target_arch = \"wasm32\", target_family = \"windows\", target_os = \"android\")))",
+        "version_id": 266947
+      },
+      {
+        "crate_id": "dwrote", "default_features": false, "downloads": 0,
+        "features": [], "id": 1557723, "kind": "normal", "optional": false,
+        "req": "^0.11", "target": "cfg(target_family = \"windows\")",
+        "version_id": 266947
+      },
+      {
+        "crate_id": "float-ord", "default_features": true, "downloads": 0,
+        "features": [], "id": 1557704, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 266947
+      },
+      {
+        "crate_id": "freetype", "default_features": true, "downloads": 0,
+        "features": [], "id": 1557720, "kind": "normal", "optional": false,
+        "req": "^0.7",
+        "target": "cfg(not(any(target_family = \"windows\", target_os = \"macos\", target_os = \"ios\")))",
+        "version_id": 266947
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1557706, "kind": "normal", "optional": false,
+        "req": "^1.1", "target": null, "version_id": 266947
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1557707, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 266947
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1557708, "kind": "normal", "optional": false,
+        "req": "^0.4.4", "target": null, "version_id": 266947
+      },
+      {
+        "crate_id": "pathfinder_geometry", "default_features": true,
+        "downloads": 0, "features": [], "id": 1557709, "kind": "normal",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 266947
+      },
+      {
+        "crate_id": "pathfinder_simd", "default_features": true,
+        "downloads": 0, "features": [], "id": 1557710, "kind": "normal",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 266947
+      },
+      {
+        "crate_id": "pbr", "default_features": true, "downloads": 0,
+        "features": [], "id": 1557714, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 266947
+      },
+      {
+        "crate_id": "prettytable-rs", "default_features": true,
+        "downloads": 0, "features": [], "id": 1557715, "kind": "dev",
+        "optional": false, "req": "^0.8", "target": null,
+        "version_id": 266947
+      },
+      {
+        "crate_id": "servo-fontconfig", "default_features": true,
+        "downloads": 0, "features": [], "id": 1557721, "kind": "normal",
+        "optional": false, "req": "^0.5",
+        "target": "cfg(not(any(target_family = \"windows\", target_os = \"macos\", target_os = \"ios\", target_arch = \"wasm32\")))",
+        "version_id": 266947
+      },
+      {
+        "crate_id": "walkdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 1557722, "kind": "normal", "optional": false,
+        "req": "^2.1", "target": "cfg(not(target_arch = \"wasm32\"))",
+        "version_id": 266947
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["dwrite", "minwindef", "sysinfoapi", "winbase", "winnt"],
+        "id": 1557724, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(target_family = \"windows\")", "version_id": 266947
+      },
+      {
+        "crate_id": "freetype", "default_features": true, "downloads": 0,
+        "features": [], "id": 1557705, "kind": "normal", "optional": true,
+        "req": "^0.7", "target": null, "version_id": 266947
+      },
+      {
+        "crate_id": "servo-fontconfig", "default_features": true,
+        "downloads": 0, "features": [], "id": 1557711, "kind": "normal",
+        "optional": true, "req": "^0.5", "target": null,
+        "version_id": 266947
+      }
+    ],
+    "dl_path": "/api/v1/crates/font-kit/0.10.0/download",
+    "downloads": 4215,
+    "features": {
+      "default": ["source"], "loader-freetype": ["freetype"],
+      "loader-freetype-default": ["loader-freetype"], "source": [],
+      "source-fontconfig": ["servo-fontconfig"],
+      "source-fontconfig-default": ["source-fontconfig"]
+    },
+    "id": 266947, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/font-kit/0.10.0/authors",
+      "dependencies": "/api/v1/crates/font-kit/0.10.0/dependencies",
+      "version_downloads": "/api/v1/crates/font-kit/0.10.0/downloads"
+    },
+    "num": "0.10.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/27658?v=4",
+      "id": 2396, "login": "jdm", "name": "Josh Matthews",
+      "url": "https://github.com/jdm"
+    },
+    "readme_path": "/api/v1/crates/font-kit/0.10.0/readme",
+    "updated_at": "2020-07-28T00:08:33.440713+00:00", "yanked": false
+  }
+]

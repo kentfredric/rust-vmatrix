@@ -1,0 +1,400 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["The Rand Project Developers"]}, "users": []},
+    "crate": "rand_os", "crate_size": 17915,
+    "created_at": "2019-01-04T11:31:17.691682+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cloudabi", "default_features": true, "downloads": 0,
+        "features": [], "id": 600386, "kind": "normal", "optional": false,
+        "req": "^0.0.3", "target": "cfg(target_os = \"cloudabi\")",
+        "version_id": 125511
+      },
+      {
+        "crate_id": "fuchsia-zircon", "default_features": true,
+        "downloads": 0, "features": [], "id": 600387, "kind": "normal",
+        "optional": false, "req": "^0.3.2",
+        "target": "cfg(target_os = \"fuchsia\")", "version_id": 125511
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 600388, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(unix)", "version_id": 125511
+      },
+      {
+        "crate_id": "rand_core", "default_features": false, "downloads": 0,
+        "features": [], "id": 600385, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 125511
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["minwindef", "ntsecapi", "profileapi", "winnt"],
+        "id": 600389, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 125511
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 600384, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 125511
+      },
+      {
+        "crate_id": "stdweb", "default_features": true, "downloads": 0,
+        "features": [], "id": 600390, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": "wasm32-unknown-unknown",
+        "version_id": 125511
+      },
+      {
+        "crate_id": "wasm-bindgen", "default_features": true,
+        "downloads": 0, "features": [], "id": 600391, "kind": "normal",
+        "optional": true, "req": "^0.2.12",
+        "target": "wasm32-unknown-unknown", "version_id": 125511
+      }
+    ],
+    "dl_path": "/api/v1/crates/rand_os/0.1.0/download",
+    "downloads": 78026, "features": {}, "id": 125511,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/rand_os/0.1.0/authors",
+      "dependencies": "/api/v1/crates/rand_os/0.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/rand_os/0.1.0/downloads"
+    },
+    "num": "0.1.0", "published_by": null,
+    "readme_path": "/api/v1/crates/rand_os/0.1.0/readme",
+    "updated_at": "2019-01-04T11:31:17.691682+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["The Rand Project Developers"]}, "users": []},
+    "crate": "rand_os", "crate_size": 18553,
+    "created_at": "2019-01-08T17:40:27.568900+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cloudabi", "default_features": true, "downloads": 0,
+        "features": [], "id": 605045, "kind": "normal", "optional": false,
+        "req": "^0.0.3", "target": "cfg(target_os = \"cloudabi\")",
+        "version_id": 127211
+      },
+      {
+        "crate_id": "fuchsia-zircon", "default_features": true,
+        "downloads": 0, "features": [], "id": 605046, "kind": "normal",
+        "optional": false, "req": "^0.3.2",
+        "target": "cfg(target_os = \"fuchsia\")", "version_id": 127211
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 605047, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(unix)", "version_id": 127211
+      },
+      {
+        "crate_id": "rand_core", "default_features": false, "downloads": 0,
+        "features": [], "id": 605043, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 127211
+      },
+      {
+        "crate_id": "rdrand", "default_features": true, "downloads": 0,
+        "features": [], "id": 605044, "kind": "normal", "optional": false,
+        "req": "^0.4.0", "target": "cfg(target_env = \"sgx\")",
+        "version_id": 127211
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["minwindef", "ntsecapi", "winnt"], "id": 605048,
+        "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 127211
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 605042, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 127211
+      },
+      {
+        "crate_id": "stdweb", "default_features": true, "downloads": 0,
+        "features": [], "id": 605049, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": "wasm32-unknown-unknown",
+        "version_id": 127211
+      },
+      {
+        "crate_id": "wasm-bindgen", "default_features": true,
+        "downloads": 0, "features": [], "id": 605050, "kind": "normal",
+        "optional": true, "req": "^0.2.12",
+        "target": "wasm32-unknown-unknown", "version_id": 127211
+      }
+    ],
+    "dl_path": "/api/v1/crates/rand_os/0.1.1/download",
+    "downloads": 307971, "features": {}, "id": 127211,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/rand_os/0.1.1/authors",
+      "dependencies": "/api/v1/crates/rand_os/0.1.1/dependencies",
+      "version_downloads": "/api/v1/crates/rand_os/0.1.1/downloads"
+    },
+    "num": "0.1.1", "published_by": null,
+    "readme_path": "/api/v1/crates/rand_os/0.1.1/readme",
+    "updated_at": "2019-01-08T17:40:27.568900+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["The Rand Project Developers"]}, "users": []},
+    "crate": "rand_os", "crate_size": 18359,
+    "created_at": "2019-01-29T10:18:08.142282+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cloudabi", "default_features": true, "downloads": 0,
+        "features": [], "id": 626522, "kind": "normal", "optional": false,
+        "req": "^0.0.3", "target": "cfg(target_os = \"cloudabi\")",
+        "version_id": 130678
+      },
+      {
+        "crate_id": "fuchsia-cprng", "default_features": true,
+        "downloads": 0, "features": [], "id": 626523, "kind": "normal",
+        "optional": false, "req": "^0.1.0",
+        "target": "cfg(target_os = \"fuchsia\")", "version_id": 130678
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 626524, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(unix)", "version_id": 130678
+      },
+      {
+        "crate_id": "rand_core", "default_features": true, "downloads": 0,
+        "features": ["std"], "id": 626520, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 130678
+      },
+      {
+        "crate_id": "rdrand", "default_features": true, "downloads": 0,
+        "features": [], "id": 626521, "kind": "normal", "optional": false,
+        "req": "^0.4.0", "target": "cfg(target_env = \"sgx\")",
+        "version_id": 130678
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["minwindef", "ntsecapi", "winnt"], "id": 626525,
+        "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 130678
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 626519, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 130678
+      },
+      {
+        "crate_id": "stdweb", "default_features": true, "downloads": 0,
+        "features": [], "id": 626526, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": "wasm32-unknown-unknown",
+        "version_id": 130678
+      },
+      {
+        "crate_id": "wasm-bindgen", "default_features": true,
+        "downloads": 0, "features": [], "id": 626527, "kind": "normal",
+        "optional": true, "req": "^0.2.12",
+        "target": "wasm32-unknown-unknown", "version_id": 130678
+      }
+    ],
+    "dl_path": "/api/v1/crates/rand_os/0.1.2/download",
+    "downloads": 526917, "features": {}, "id": 130678,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/rand_os/0.1.2/authors",
+      "dependencies": "/api/v1/crates/rand_os/0.1.2/dependencies",
+      "version_downloads": "/api/v1/crates/rand_os/0.1.2/downloads"
+    },
+    "num": "0.1.2", "published_by": null,
+    "readme_path": "/api/v1/crates/rand_os/0.1.2/readme",
+    "updated_at": "2019-01-29T10:18:08.142282+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["The Rand Project Developers"]}, "users": []},
+    "crate": "rand_os", "crate_size": 18965,
+    "created_at": "2019-03-05T08:06:51.089362+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cloudabi", "default_features": true, "downloads": 0,
+        "features": [], "id": 664591, "kind": "normal", "optional": false,
+        "req": "^0.0.3", "target": "cfg(target_os = \"cloudabi\")",
+        "version_id": 137346
+      },
+      {
+        "crate_id": "fuchsia-cprng", "default_features": true,
+        "downloads": 0, "features": [], "id": 664592, "kind": "normal",
+        "optional": false, "req": "^0.1.0",
+        "target": "cfg(target_os = \"fuchsia\")", "version_id": 137346
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 664593, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(unix)", "version_id": 137346
+      },
+      {
+        "crate_id": "rand_core", "default_features": true, "downloads": 0,
+        "features": ["std"], "id": 664589, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 137346
+      },
+      {
+        "crate_id": "rdrand", "default_features": true, "downloads": 0,
+        "features": [], "id": 664590, "kind": "normal", "optional": false,
+        "req": "^0.4.0", "target": "cfg(target_env = \"sgx\")",
+        "version_id": 137346
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["minwindef", "ntsecapi", "winnt"], "id": 664594,
+        "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 137346
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 664588, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 137346
+      },
+      {
+        "crate_id": "stdweb", "default_features": true, "downloads": 0,
+        "features": [], "id": 664595, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": "wasm32-unknown-unknown",
+        "version_id": 137346
+      },
+      {
+        "crate_id": "wasm-bindgen", "default_features": true,
+        "downloads": 0, "features": [], "id": 664596, "kind": "normal",
+        "optional": true, "req": "^0.2.12",
+        "target": "wasm32-unknown-unknown", "version_id": 137346
+      }
+    ],
+    "dl_path": "/api/v1/crates/rand_os/0.1.3/download",
+    "downloads": 8454315, "features": {}, "id": 137346,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/rand_os/0.1.3/authors",
+      "dependencies": "/api/v1/crates/rand_os/0.1.3/dependencies",
+      "version_downloads": "/api/v1/crates/rand_os/0.1.3/downloads"
+    },
+    "num": "0.1.3",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/134893?v=4",
+      "id": 1234, "login": "dhardy", "name": "Diggory Hardy",
+      "url": "https://github.com/dhardy"
+    },
+    "readme_path": "/api/v1/crates/rand_os/0.1.3/readme",
+    "updated_at": "2019-03-05T08:06:51.089362+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["The Rand Project Developers"]}, "users": []},
+    "crate": "rand_os", "crate_size": 7809,
+    "created_at": "2019-06-06T15:53:05.389315+00:00",
+    "dependencies": [
+      {
+        "crate_id": "getrandom", "default_features": true, "downloads": 0,
+        "features": [], "id": 766747, "kind": "normal", "optional": false,
+        "req": "^0.1.1", "target": null, "version_id": 154958
+      },
+      {
+        "crate_id": "rand_core", "default_features": true, "downloads": 0,
+        "features": ["std"], "id": 766748, "kind": "normal",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 154958
+      }
+    ],
+    "dl_path": "/api/v1/crates/rand_os/0.2.0/download",
+    "downloads": 1658,
+    "features": {
+      "log": ["getrandom/log"], "stdweb": ["getrandom/stdweb"],
+      "wasm-bindgen": ["getrandom/wasm-bindgen"]
+    },
+    "id": 154958, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/rand_os/0.2.0/authors",
+      "dependencies": "/api/v1/crates/rand_os/0.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/rand_os/0.2.0/downloads"
+    },
+    "num": "0.2.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/134893?v=4",
+      "id": 1234, "login": "dhardy", "name": "Diggory Hardy",
+      "url": "https://github.com/dhardy"
+    },
+    "readme_path": "/api/v1/crates/rand_os/0.2.0/readme",
+    "updated_at": "2019-06-11T10:16:40.176354+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["The Rand Project Developers"]}, "users": []},
+    "crate": "rand_os", "crate_size": 7859,
+    "created_at": "2019-08-08T10:56:15.931444+00:00",
+    "dependencies": [
+      {
+        "crate_id": "getrandom", "default_features": true, "downloads": 0,
+        "features": [], "id": 853194, "kind": "normal", "optional": false,
+        "req": "^0.1.1", "target": null, "version_id": 168102
+      },
+      {
+        "crate_id": "rand_core", "default_features": true, "downloads": 0,
+        "features": ["getrandom"], "id": 853195, "kind": "normal",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 168102
+      }
+    ],
+    "dl_path": "/api/v1/crates/rand_os/0.2.1/download",
+    "downloads": 7752,
+    "features": {
+      "log": ["getrandom/log"], "stdweb": ["getrandom/stdweb"],
+      "wasm-bindgen": ["getrandom/wasm-bindgen"]
+    },
+    "id": 168102, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/rand_os/0.2.1/authors",
+      "dependencies": "/api/v1/crates/rand_os/0.2.1/dependencies",
+      "version_downloads": "/api/v1/crates/rand_os/0.2.1/downloads"
+    },
+    "num": "0.2.1",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/134893?v=4",
+      "id": 1234, "login": "dhardy", "name": "Diggory Hardy",
+      "url": "https://github.com/dhardy"
+    },
+    "readme_path": "/api/v1/crates/rand_os/0.2.1/readme",
+    "updated_at": "2019-08-08T10:56:15.931444+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {"meta": {"names": ["The Rand Project Developers"]}, "users": []},
+    "crate": "rand_os", "crate_size": 7975,
+    "created_at": "2019-08-28T14:24:22.432373+00:00",
+    "dependencies": [
+      {
+        "crate_id": "getrandom", "default_features": true, "downloads": 0,
+        "features": [], "id": 881309, "kind": "normal", "optional": false,
+        "req": "^0.1.1", "target": null, "version_id": 172422
+      },
+      {
+        "crate_id": "rand_core", "default_features": true, "downloads": 0,
+        "features": ["getrandom"], "id": 881310, "kind": "normal",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 172422
+      }
+    ],
+    "dl_path": "/api/v1/crates/rand_os/0.2.2/download",
+    "downloads": 435664,
+    "features": {
+      "log": ["getrandom/log"], "stdweb": ["getrandom/stdweb"],
+      "wasm-bindgen": ["getrandom/wasm-bindgen"]
+    },
+    "id": 172422, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/rand_os/0.2.2/authors",
+      "dependencies": "/api/v1/crates/rand_os/0.2.2/dependencies",
+      "version_downloads": "/api/v1/crates/rand_os/0.2.2/downloads"
+    },
+    "num": "0.2.2",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/134893?v=4",
+      "id": 1234, "login": "dhardy", "name": "Diggory Hardy",
+      "url": "https://github.com/dhardy"
+    },
+    "readme_path": "/api/v1/crates/rand_os/0.2.2/readme",
+    "updated_at": "2019-08-28T14:24:22.432373+00:00", "yanked": false
+  }
+]

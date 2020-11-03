@@ -1,0 +1,2022 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": ["Allen Bui <fairingrey@gmail.com>", "Wim Looman <wim@nemo157.com>"]
+      },
+      "users": []
+    },
+    "crate": "async-compression", "crate_size": 15112,
+    "created_at": "2019-05-14T17:10:23.835669+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 738614, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.16", "target": null,
+        "version_id": 150435
+      },
+      {
+        "crate_id": "futures-test-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 738618, "kind": "dev",
+        "optional": false, "req": "^0.3.0-alpha.16", "target": null,
+        "version_id": 150435
+      },
+      {
+        "crate_id": "pin-project", "default_features": true, "downloads": 0,
+        "features": [], "id": 738616, "kind": "normal", "optional": false,
+        "req": "^0.3.2", "target": null, "version_id": 150435
+      },
+      {
+        "crate_id": "pin-utils", "default_features": true, "downloads": 0,
+        "features": [], "id": 738619, "kind": "dev", "optional": false,
+        "req": "^0.1.0-alpha.4", "target": null, "version_id": 150435
+      },
+      {
+        "crate_id": "proptest", "default_features": true, "downloads": 0,
+        "features": [], "id": 738620, "kind": "dev", "optional": false,
+        "req": "^0.9.3", "target": null, "version_id": 150435
+      },
+      {
+        "crate_id": "proptest-derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 738621, "kind": "dev",
+        "optional": false, "req": "^0.1.1", "target": null,
+        "version_id": 150435
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 738622, "kind": "dev", "optional": false,
+        "req": "^0.6.5", "target": null, "version_id": 150435
+      },
+      {
+        "crate_id": "brotli2", "default_features": true, "downloads": 0,
+        "features": [], "id": 738611, "kind": "normal", "optional": true,
+        "req": "^0.3.2", "target": null, "version_id": 150435
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 738612, "kind": "normal", "optional": true,
+        "req": "^0.4.12", "target": null, "version_id": 150435
+      },
+      {
+        "crate_id": "flate2", "default_features": true, "downloads": 0,
+        "features": [], "id": 738613, "kind": "normal", "optional": true,
+        "req": "^1.0.7", "target": null, "version_id": 150435
+      },
+      {
+        "crate_id": "zstd", "default_features": false, "downloads": 0,
+        "features": [], "id": 738615, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 150435
+      },
+      {
+        "crate_id": "zstd-safe", "default_features": false, "downloads": 0,
+        "features": [], "id": 738617, "kind": "normal", "optional": true,
+        "req": "^1.4", "target": null, "version_id": 150435
+      }
+    ],
+    "dl_path": "/api/v1/crates/async-compression/0.1.0-alpha.1/download",
+    "downloads": 1272,
+    "features": {
+      "brotli": ["brotli2"], "bufread": [],
+      "default": ["bufread", "stream", "brotli", "deflate", "gzip", "zlib", "zstd"],
+      "deflate": ["flate2"], "gzip": ["flate2"], "stream": ["bytes"],
+      "zlib": ["flate2"], "zstd": ["libzstd", "zstd-safe"]
+    },
+    "id": 150435, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/async-compression/0.1.0-alpha.1/authors",
+      "dependencies": "/api/v1/crates/async-compression/0.1.0-alpha.1/dependencies",
+      "version_downloads": "/api/v1/crates/async-compression/0.1.0-alpha.1/downloads"
+    },
+    "num": "0.1.0-alpha.1",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/81079?v=4",
+      "id": 782, "login": "Nemo157", "name": "Nemo157",
+      "url": "https://github.com/Nemo157"
+    },
+    "readme_path": "/api/v1/crates/async-compression/0.1.0-alpha.1/readme",
+    "updated_at": "2019-05-14T17:10:23.835669+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": ["Allen Bui <fairingrey@gmail.com>", "Wim Looman <wim@nemo157.com>"]
+      },
+      "users": []
+    },
+    "crate": "async-compression", "crate_size": 16217,
+    "created_at": "2019-08-16T18:17:43.342733+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 864999, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.18", "target": null,
+        "version_id": 169945
+      },
+      {
+        "crate_id": "futures-test-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 865003, "kind": "dev",
+        "optional": false, "req": "^0.3.0-alpha.18", "target": null,
+        "version_id": 169945
+      },
+      {
+        "crate_id": "pin-project", "default_features": true, "downloads": 0,
+        "features": [], "id": 865001, "kind": "normal", "optional": false,
+        "req": "^0.3.2", "target": null, "version_id": 169945
+      },
+      {
+        "crate_id": "pin-utils", "default_features": true, "downloads": 0,
+        "features": [], "id": 865004, "kind": "dev", "optional": false,
+        "req": "^0.1.0-alpha.4", "target": null, "version_id": 169945
+      },
+      {
+        "crate_id": "proptest", "default_features": true, "downloads": 0,
+        "features": [], "id": 865005, "kind": "dev", "optional": false,
+        "req": "^0.9.3", "target": null, "version_id": 169945
+      },
+      {
+        "crate_id": "proptest-derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 865006, "kind": "dev",
+        "optional": false, "req": "^0.1.1", "target": null,
+        "version_id": 169945
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 865007, "kind": "dev", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 169945
+      },
+      {
+        "crate_id": "brotli2", "default_features": true, "downloads": 0,
+        "features": [], "id": 864996, "kind": "normal", "optional": true,
+        "req": "^0.3.2", "target": null, "version_id": 169945
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 864997, "kind": "normal", "optional": true,
+        "req": "^0.4.12", "target": null, "version_id": 169945
+      },
+      {
+        "crate_id": "flate2", "default_features": true, "downloads": 0,
+        "features": [], "id": 864998, "kind": "normal", "optional": true,
+        "req": "^1.0.7", "target": null, "version_id": 169945
+      },
+      {
+        "crate_id": "zstd", "default_features": false, "downloads": 0,
+        "features": [], "id": 865000, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 169945
+      },
+      {
+        "crate_id": "zstd-safe", "default_features": false, "downloads": 0,
+        "features": [], "id": 865002, "kind": "normal", "optional": true,
+        "req": "^1.4", "target": null, "version_id": 169945
+      }
+    ],
+    "dl_path": "/api/v1/crates/async-compression/0.1.0-alpha.2/download",
+    "downloads": 124,
+    "features": {
+      "brotli": ["brotli2"], "bufread": [],
+      "default": ["bufread", "stream", "brotli", "deflate", "gzip", "zlib", "zstd"],
+      "deflate": ["flate2"], "gzip": ["flate2"], "stream": ["bytes"],
+      "zlib": ["flate2"], "zstd": ["libzstd", "zstd-safe"]
+    },
+    "id": 169945, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/async-compression/0.1.0-alpha.2/authors",
+      "dependencies": "/api/v1/crates/async-compression/0.1.0-alpha.2/dependencies",
+      "version_downloads": "/api/v1/crates/async-compression/0.1.0-alpha.2/downloads"
+    },
+    "num": "0.1.0-alpha.2",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/81079?v=4",
+      "id": 782, "login": "Nemo157", "name": "Nemo157",
+      "url": "https://github.com/Nemo157"
+    },
+    "readme_path": "/api/v1/crates/async-compression/0.1.0-alpha.2/readme",
+    "updated_at": "2019-08-16T18:17:43.342733+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": ["Allen Bui <fairingrey@gmail.com>", "Wim Looman <wim@nemo157.com>"]
+      },
+      "users": []
+    },
+    "crate": "async-compression", "crate_size": 16221,
+    "created_at": "2019-08-16T19:59:43.115456+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 865234, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.18", "target": null,
+        "version_id": 169974
+      },
+      {
+        "crate_id": "futures-test-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 865238, "kind": "dev",
+        "optional": false, "req": "^0.3.0-alpha.18", "target": null,
+        "version_id": 169974
+      },
+      {
+        "crate_id": "pin-project", "default_features": true, "downloads": 0,
+        "features": [], "id": 865236, "kind": "normal", "optional": false,
+        "req": "^0.3.2", "target": null, "version_id": 169974
+      },
+      {
+        "crate_id": "pin-utils", "default_features": true, "downloads": 0,
+        "features": [], "id": 865239, "kind": "dev", "optional": false,
+        "req": "^0.1.0-alpha.4", "target": null, "version_id": 169974
+      },
+      {
+        "crate_id": "proptest", "default_features": true, "downloads": 0,
+        "features": [], "id": 865240, "kind": "dev", "optional": false,
+        "req": "^0.9.3", "target": null, "version_id": 169974
+      },
+      {
+        "crate_id": "proptest-derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 865241, "kind": "dev",
+        "optional": false, "req": "^0.1.1", "target": null,
+        "version_id": 169974
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 865242, "kind": "dev", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 169974
+      },
+      {
+        "crate_id": "brotli2", "default_features": true, "downloads": 0,
+        "features": [], "id": 865231, "kind": "normal", "optional": true,
+        "req": "^0.3.2", "target": null, "version_id": 169974
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 865232, "kind": "normal", "optional": true,
+        "req": "^0.4.12", "target": null, "version_id": 169974
+      },
+      {
+        "crate_id": "flate2", "default_features": true, "downloads": 0,
+        "features": [], "id": 865233, "kind": "normal", "optional": true,
+        "req": "^1.0.7", "target": null, "version_id": 169974
+      },
+      {
+        "crate_id": "zstd", "default_features": false, "downloads": 0,
+        "features": [], "id": 865235, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 169974
+      },
+      {
+        "crate_id": "zstd-safe", "default_features": false, "downloads": 0,
+        "features": [], "id": 865237, "kind": "normal", "optional": true,
+        "req": "^1.4", "target": null, "version_id": 169974
+      }
+    ],
+    "dl_path": "/api/v1/crates/async-compression/0.1.0-alpha.3/download",
+    "downloads": 308,
+    "features": {
+      "brotli": ["brotli2"], "bufread": [],
+      "default": ["bufread", "stream", "brotli", "deflate", "gzip", "zlib", "zstd"],
+      "deflate": ["flate2"], "gzip": ["flate2"], "stream": ["bytes"],
+      "zlib": ["flate2"], "zstd": ["libzstd", "zstd-safe"]
+    },
+    "id": 169974, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/async-compression/0.1.0-alpha.3/authors",
+      "dependencies": "/api/v1/crates/async-compression/0.1.0-alpha.3/dependencies",
+      "version_downloads": "/api/v1/crates/async-compression/0.1.0-alpha.3/downloads"
+    },
+    "num": "0.1.0-alpha.3",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/81079?v=4",
+      "id": 782, "login": "Nemo157", "name": "Nemo157",
+      "url": "https://github.com/Nemo157"
+    },
+    "readme_path": "/api/v1/crates/async-compression/0.1.0-alpha.3/readme",
+    "updated_at": "2019-08-16T19:59:43.115456+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": ["Allen Bui <fairingrey@gmail.com>", "Wim Looman <wim@nemo157.com>"]
+      },
+      "users": []
+    },
+    "crate": "async-compression", "crate_size": 16881,
+    "created_at": "2019-09-04T17:51:17.516477+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 890078, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.18", "target": null,
+        "version_id": 173945
+      },
+      {
+        "crate_id": "futures-test-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 890082, "kind": "dev",
+        "optional": false, "req": "^0.3.0-alpha.18", "target": null,
+        "version_id": 173945
+      },
+      {
+        "crate_id": "pin-project", "default_features": true, "downloads": 0,
+        "features": [], "id": 890080, "kind": "normal", "optional": false,
+        "req": "^0.3.2", "target": null, "version_id": 173945
+      },
+      {
+        "crate_id": "pin-utils", "default_features": true, "downloads": 0,
+        "features": [], "id": 890083, "kind": "dev", "optional": false,
+        "req": "^0.1.0-alpha.4", "target": null, "version_id": 173945
+      },
+      {
+        "crate_id": "proptest", "default_features": true, "downloads": 0,
+        "features": [], "id": 890084, "kind": "dev", "optional": false,
+        "req": "^0.9.3", "target": null, "version_id": 173945
+      },
+      {
+        "crate_id": "proptest-derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 890085, "kind": "dev",
+        "optional": false, "req": "^0.1.1", "target": null,
+        "version_id": 173945
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 890086, "kind": "dev", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 173945
+      },
+      {
+        "crate_id": "brotli2", "default_features": true, "downloads": 0,
+        "features": [], "id": 890075, "kind": "normal", "optional": true,
+        "req": "^0.3.2", "target": null, "version_id": 173945
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 890076, "kind": "normal", "optional": true,
+        "req": "^0.4.12", "target": null, "version_id": 173945
+      },
+      {
+        "crate_id": "flate2", "default_features": true, "downloads": 0,
+        "features": [], "id": 890077, "kind": "normal", "optional": true,
+        "req": "^1.0.7", "target": null, "version_id": 173945
+      },
+      {
+        "crate_id": "zstd", "default_features": false, "downloads": 0,
+        "features": [], "id": 890079, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 173945
+      },
+      {
+        "crate_id": "zstd-safe", "default_features": false, "downloads": 0,
+        "features": [], "id": 890081, "kind": "normal", "optional": true,
+        "req": "^1.4", "target": null, "version_id": 173945
+      }
+    ],
+    "dl_path": "/api/v1/crates/async-compression/0.1.0-alpha.4/download",
+    "downloads": 993,
+    "features": {
+      "brotli": ["brotli2"], "bufread": [],
+      "default": ["bufread", "stream", "brotli", "deflate", "gzip", "zlib", "zstd"],
+      "deflate": ["flate2"], "gzip": ["flate2"], "stream": ["bytes"],
+      "zlib": ["flate2"], "zstd": ["libzstd", "zstd-safe"]
+    },
+    "id": 173945, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/async-compression/0.1.0-alpha.4/authors",
+      "dependencies": "/api/v1/crates/async-compression/0.1.0-alpha.4/dependencies",
+      "version_downloads": "/api/v1/crates/async-compression/0.1.0-alpha.4/downloads"
+    },
+    "num": "0.1.0-alpha.4",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/81079?v=4",
+      "id": 782, "login": "Nemo157", "name": "Nemo157",
+      "url": "https://github.com/Nemo157"
+    },
+    "readme_path": "/api/v1/crates/async-compression/0.1.0-alpha.4/readme",
+    "updated_at": "2019-09-04T17:51:17.516477+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": ["Allen Bui <fairingrey@gmail.com>", "Wim Looman <wim@nemo157.com>"]
+      },
+      "users": []
+    },
+    "crate": "async-compression", "crate_size": 20850,
+    "created_at": "2019-09-16T17:29:02.481753+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 906250, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.18", "target": null,
+        "version_id": 176528
+      },
+      {
+        "crate_id": "futures-test-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 906254, "kind": "dev",
+        "optional": false, "req": "^0.3.0-alpha.18", "target": null,
+        "version_id": 176528
+      },
+      {
+        "crate_id": "pin-project", "default_features": true, "downloads": 0,
+        "features": [], "id": 906252, "kind": "normal", "optional": false,
+        "req": "^0.3.2", "target": null, "version_id": 176528
+      },
+      {
+        "crate_id": "pin-utils", "default_features": true, "downloads": 0,
+        "features": [], "id": 906255, "kind": "dev", "optional": false,
+        "req": "^0.1.0-alpha.4", "target": null, "version_id": 176528
+      },
+      {
+        "crate_id": "proptest", "default_features": true, "downloads": 0,
+        "features": [], "id": 906256, "kind": "dev", "optional": false,
+        "req": "^0.9.3", "target": null, "version_id": 176528
+      },
+      {
+        "crate_id": "proptest-derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 906257, "kind": "dev",
+        "optional": false, "req": "^0.1.1", "target": null,
+        "version_id": 176528
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 906258, "kind": "dev", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 176528
+      },
+      {
+        "crate_id": "brotli2", "default_features": true, "downloads": 0,
+        "features": [], "id": 906247, "kind": "normal", "optional": true,
+        "req": "^0.3.2", "target": null, "version_id": 176528
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 906248, "kind": "normal", "optional": true,
+        "req": "^0.4.12", "target": null, "version_id": 176528
+      },
+      {
+        "crate_id": "flate2", "default_features": true, "downloads": 0,
+        "features": [], "id": 906249, "kind": "normal", "optional": true,
+        "req": "^1.0.7", "target": null, "version_id": 176528
+      },
+      {
+        "crate_id": "zstd", "default_features": false, "downloads": 0,
+        "features": [], "id": 906251, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 176528
+      },
+      {
+        "crate_id": "zstd-safe", "default_features": false, "downloads": 0,
+        "features": [], "id": 906253, "kind": "normal", "optional": true,
+        "req": "^1.4", "target": null, "version_id": 176528
+      }
+    ],
+    "dl_path": "/api/v1/crates/async-compression/0.1.0-alpha.5/download",
+    "downloads": 1217,
+    "features": {
+      "brotli": ["brotli2"], "bufread": [],
+      "default": ["bufread", "stream", "brotli", "deflate", "gzip", "zlib", "zstd"],
+      "deflate": ["flate2"], "gzip": ["flate2"], "stream": ["bytes"],
+      "zlib": ["flate2"], "zstd": ["libzstd", "zstd-safe"]
+    },
+    "id": 176528, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/async-compression/0.1.0-alpha.5/authors",
+      "dependencies": "/api/v1/crates/async-compression/0.1.0-alpha.5/dependencies",
+      "version_downloads": "/api/v1/crates/async-compression/0.1.0-alpha.5/downloads"
+    },
+    "num": "0.1.0-alpha.5",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/81079?v=4",
+      "id": 782, "login": "Nemo157", "name": "Nemo157",
+      "url": "https://github.com/Nemo157"
+    },
+    "readme_path": "/api/v1/crates/async-compression/0.1.0-alpha.5/readme",
+    "updated_at": "2019-09-16T17:29:02.481753+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": ["Allen Bui <fairingrey@gmail.com>", "Wim Looman <wim@nemo157.com>"]
+      },
+      "users": []
+    },
+    "crate": "async-compression", "crate_size": 29848,
+    "created_at": "2019-10-13T12:10:07.702699+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures-core-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 943003, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.19", "target": null,
+        "version_id": 182296
+      },
+      {
+        "crate_id": "futures-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 943009, "kind": "dev",
+        "optional": false, "req": "^0.3.0-alpha.19", "target": null,
+        "version_id": 182296
+      },
+      {
+        "crate_id": "futures-test-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 943010, "kind": "dev",
+        "optional": false, "req": "^0.3.0-alpha.19", "target": null,
+        "version_id": 182296
+      },
+      {
+        "crate_id": "memchr", "default_features": true, "downloads": 0,
+        "features": [], "id": 943006, "kind": "normal", "optional": false,
+        "req": "^2.2.1", "target": null, "version_id": 182296
+      },
+      {
+        "crate_id": "ntest", "default_features": true, "downloads": 0,
+        "features": [], "id": 943011, "kind": "dev", "optional": false,
+        "req": "^0.3.3", "target": null, "version_id": 182296
+      },
+      {
+        "crate_id": "pin-project", "default_features": true, "downloads": 0,
+        "features": [], "id": 943007, "kind": "normal", "optional": false,
+        "req": "^0.4.1", "target": null, "version_id": 182296
+      },
+      {
+        "crate_id": "pin-utils", "default_features": true, "downloads": 0,
+        "features": [], "id": 943012, "kind": "dev", "optional": false,
+        "req": "^0.1.0-alpha.4", "target": null, "version_id": 182296
+      },
+      {
+        "crate_id": "proptest", "default_features": true, "downloads": 0,
+        "features": [], "id": 943013, "kind": "dev", "optional": false,
+        "req": "^0.9.4", "target": null, "version_id": 182296
+      },
+      {
+        "crate_id": "proptest-derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 943014, "kind": "dev",
+        "optional": false, "req": "^0.1.2", "target": null,
+        "version_id": 182296
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 943015, "kind": "dev", "optional": false,
+        "req": "^0.7.2", "target": null, "version_id": 182296
+      },
+      {
+        "crate_id": "timebomb", "default_features": true, "downloads": 0,
+        "features": [], "id": 943016, "kind": "dev", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 182296
+      },
+      {
+        "crate_id": "brotli2", "default_features": true, "downloads": 0,
+        "features": [], "id": 942999, "kind": "normal", "optional": true,
+        "req": "^0.3.2", "target": null, "version_id": 182296
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 943000, "kind": "normal", "optional": true,
+        "req": "^0.4.12", "target": null, "version_id": 182296
+      },
+      {
+        "crate_id": "bzip2", "default_features": true, "downloads": 0,
+        "features": [], "id": 943001, "kind": "normal", "optional": true,
+        "req": "^0.3.3", "target": null, "version_id": 182296
+      },
+      {
+        "crate_id": "flate2", "default_features": true, "downloads": 0,
+        "features": [], "id": 943002, "kind": "normal", "optional": true,
+        "req": "^1.0.11", "target": null, "version_id": 182296
+      },
+      {
+        "crate_id": "futures-io-preview", "default_features": false,
+        "downloads": 0, "features": ["std"], "id": 943004, "kind": "normal",
+        "optional": true, "req": "^0.3.0-alpha.19", "target": null,
+        "version_id": 182296
+      },
+      {
+        "crate_id": "zstd", "default_features": false, "downloads": 0,
+        "features": [], "id": 943005, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 182296
+      },
+      {
+        "crate_id": "zstd-safe", "default_features": false, "downloads": 0,
+        "features": [], "id": 943008, "kind": "normal", "optional": true,
+        "req": "^1.4.13", "target": null, "version_id": 182296
+      }
+    ],
+    "dl_path": "/api/v1/crates/async-compression/0.1.0-alpha.6/download",
+    "downloads": 154,
+    "features": {
+      "brotli": ["brotli2"], "bufread": ["futures-io-preview"],
+      "bzip": ["bzip2"],
+      "default": [
+        "bufread", "stream", "write", "brotli", "bzip", "deflate", "gzip",
+        "zlib", "zstd"
+      ],
+      "deflate": ["flate2"], "gzip": ["flate2"], "stream": ["bytes"],
+      "write": ["futures-io-preview"], "zlib": ["flate2"],
+      "zstd": ["libzstd", "zstd-safe"]
+    },
+    "id": 182296, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/async-compression/0.1.0-alpha.6/authors",
+      "dependencies": "/api/v1/crates/async-compression/0.1.0-alpha.6/dependencies",
+      "version_downloads": "/api/v1/crates/async-compression/0.1.0-alpha.6/downloads"
+    },
+    "num": "0.1.0-alpha.6",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/81079?v=4",
+      "id": 782, "login": "Nemo157", "name": "Nemo157",
+      "url": "https://github.com/Nemo157"
+    },
+    "readme_path": "/api/v1/crates/async-compression/0.1.0-alpha.6/readme",
+    "updated_at": "2019-10-13T12:10:07.702699+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": ["Allen Bui <fairingrey@gmail.com>", "Wim Looman <wim@nemo157.com>"]
+      },
+      "users": []
+    },
+    "crate": "async-compression", "crate_size": 29789,
+    "created_at": "2019-10-15T17:47:55.193937+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures-core-preview", "default_features": false,
+        "downloads": 0, "features": [], "id": 946514, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.19", "target": null,
+        "version_id": 182830
+      },
+      {
+        "crate_id": "futures-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 946520, "kind": "dev",
+        "optional": false, "req": "^0.3.0-alpha.19", "target": null,
+        "version_id": 182830
+      },
+      {
+        "crate_id": "futures-test-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 946521, "kind": "dev",
+        "optional": false, "req": "^0.3.0-alpha.19", "target": null,
+        "version_id": 182830
+      },
+      {
+        "crate_id": "memchr", "default_features": true, "downloads": 0,
+        "features": [], "id": 946517, "kind": "normal", "optional": false,
+        "req": "^2.2.1", "target": null, "version_id": 182830
+      },
+      {
+        "crate_id": "ntest", "default_features": true, "downloads": 0,
+        "features": [], "id": 946522, "kind": "dev", "optional": false,
+        "req": "^0.3.3", "target": null, "version_id": 182830
+      },
+      {
+        "crate_id": "pin-project", "default_features": true, "downloads": 0,
+        "features": [], "id": 946518, "kind": "normal", "optional": false,
+        "req": "^0.4.3", "target": null, "version_id": 182830
+      },
+      {
+        "crate_id": "pin-utils", "default_features": true, "downloads": 0,
+        "features": [], "id": 946523, "kind": "dev", "optional": false,
+        "req": "^0.1.0-alpha.4", "target": null, "version_id": 182830
+      },
+      {
+        "crate_id": "proptest", "default_features": true, "downloads": 0,
+        "features": [], "id": 946524, "kind": "dev", "optional": false,
+        "req": "^0.9.4", "target": null, "version_id": 182830
+      },
+      {
+        "crate_id": "proptest-derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 946525, "kind": "dev",
+        "optional": false, "req": "^0.1.2", "target": null,
+        "version_id": 182830
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 946526, "kind": "dev", "optional": false,
+        "req": "^0.7.2", "target": null, "version_id": 182830
+      },
+      {
+        "crate_id": "timebomb", "default_features": true, "downloads": 0,
+        "features": [], "id": 946527, "kind": "dev", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 182830
+      },
+      {
+        "crate_id": "brotli2", "default_features": true, "downloads": 0,
+        "features": [], "id": 946510, "kind": "normal", "optional": true,
+        "req": "^0.3.2", "target": null, "version_id": 182830
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 946511, "kind": "normal", "optional": true,
+        "req": "^0.4.12", "target": null, "version_id": 182830
+      },
+      {
+        "crate_id": "bzip2", "default_features": true, "downloads": 0,
+        "features": [], "id": 946512, "kind": "normal", "optional": true,
+        "req": "^0.3.3", "target": null, "version_id": 182830
+      },
+      {
+        "crate_id": "flate2", "default_features": true, "downloads": 0,
+        "features": [], "id": 946513, "kind": "normal", "optional": true,
+        "req": "^1.0.11", "target": null, "version_id": 182830
+      },
+      {
+        "crate_id": "futures-io-preview", "default_features": false,
+        "downloads": 0, "features": ["std"], "id": 946515, "kind": "normal",
+        "optional": true, "req": "^0.3.0-alpha.19", "target": null,
+        "version_id": 182830
+      },
+      {
+        "crate_id": "zstd", "default_features": false, "downloads": 0,
+        "features": [], "id": 946516, "kind": "normal", "optional": true,
+        "req": "^0.5.0", "target": null, "version_id": 182830
+      },
+      {
+        "crate_id": "zstd-safe", "default_features": false, "downloads": 0,
+        "features": [], "id": 946519, "kind": "normal", "optional": true,
+        "req": "^2.0.0", "target": null, "version_id": 182830
+      }
+    ],
+    "dl_path": "/api/v1/crates/async-compression/0.1.0-alpha.7/download",
+    "downloads": 7936,
+    "features": {
+      "brotli": ["brotli2"], "bufread": ["futures-io-preview"],
+      "bzip": ["bzip2"],
+      "default": [
+        "bufread", "stream", "write", "brotli", "bzip", "deflate", "gzip",
+        "zlib", "zstd"
+      ],
+      "deflate": ["flate2"], "gzip": ["flate2"], "stream": ["bytes"],
+      "write": ["futures-io-preview"], "zlib": ["flate2"],
+      "zstd": ["libzstd", "zstd-safe"]
+    },
+    "id": 182830, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/async-compression/0.1.0-alpha.7/authors",
+      "dependencies": "/api/v1/crates/async-compression/0.1.0-alpha.7/dependencies",
+      "version_downloads": "/api/v1/crates/async-compression/0.1.0-alpha.7/downloads"
+    },
+    "num": "0.1.0-alpha.7",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/81079?v=4",
+      "id": 782, "login": "Nemo157", "name": "Nemo157",
+      "url": "https://github.com/Nemo157"
+    },
+    "readme_path": "/api/v1/crates/async-compression/0.1.0-alpha.7/readme",
+    "updated_at": "2019-10-15T17:47:55.193937+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": ["Allen Bui <fairingrey@gmail.com>", "Wim Looman <wim@nemo157.com>"]
+      },
+      "users": []
+    },
+    "crate": "async-compression", "crate_size": 28285,
+    "created_at": "2019-11-06T22:58:45.153367+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 982112, "kind": "dev", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 187846
+      },
+      {
+        "crate_id": "futures-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 982106, "kind": "normal",
+        "optional": false, "req": "^0.3.0", "target": null,
+        "version_id": 187846
+      },
+      {
+        "crate_id": "futures-test", "default_features": true,
+        "downloads": 0, "features": [], "id": 982113, "kind": "dev",
+        "optional": false, "req": "^0.3.0", "target": null,
+        "version_id": 187846
+      },
+      {
+        "crate_id": "memchr", "default_features": true, "downloads": 0,
+        "features": [], "id": 982109, "kind": "normal", "optional": false,
+        "req": "^2.2.1", "target": null, "version_id": 187846
+      },
+      {
+        "crate_id": "ntest", "default_features": true, "downloads": 0,
+        "features": [], "id": 982114, "kind": "dev", "optional": false,
+        "req": "^0.3.3", "target": null, "version_id": 187846
+      },
+      {
+        "crate_id": "pin-project", "default_features": true, "downloads": 0,
+        "features": [], "id": 982110, "kind": "normal", "optional": false,
+        "req": "^0.4.3", "target": null, "version_id": 187846
+      },
+      {
+        "crate_id": "proptest", "default_features": true, "downloads": 0,
+        "features": [], "id": 982115, "kind": "dev", "optional": false,
+        "req": "^0.9.4", "target": null, "version_id": 187846
+      },
+      {
+        "crate_id": "proptest-derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 982116, "kind": "dev",
+        "optional": false, "req": "^0.1.2", "target": null,
+        "version_id": 187846
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 982117, "kind": "dev", "optional": false,
+        "req": "^0.7.2", "target": null, "version_id": 187846
+      },
+      {
+        "crate_id": "timebomb", "default_features": true, "downloads": 0,
+        "features": [], "id": 982118, "kind": "dev", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 187846
+      },
+      {
+        "crate_id": "brotli2", "default_features": true, "downloads": 0,
+        "features": [], "id": 982102, "kind": "normal", "optional": true,
+        "req": "^0.3.2", "target": null, "version_id": 187846
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 982103, "kind": "normal", "optional": true,
+        "req": "^0.4.12", "target": null, "version_id": 187846
+      },
+      {
+        "crate_id": "bzip2", "default_features": true, "downloads": 0,
+        "features": [], "id": 982104, "kind": "normal", "optional": true,
+        "req": "^0.3.3", "target": null, "version_id": 187846
+      },
+      {
+        "crate_id": "flate2", "default_features": true, "downloads": 0,
+        "features": [], "id": 982105, "kind": "normal", "optional": true,
+        "req": "^1.0.11", "target": null, "version_id": 187846
+      },
+      {
+        "crate_id": "futures-io", "default_features": false, "downloads": 0,
+        "features": ["std"], "id": 982107, "kind": "normal",
+        "optional": true, "req": "^0.3.0", "target": null,
+        "version_id": 187846
+      },
+      {
+        "crate_id": "zstd", "default_features": false, "downloads": 0,
+        "features": [], "id": 982108, "kind": "normal", "optional": true,
+        "req": "^0.5.0", "target": null, "version_id": 187846
+      },
+      {
+        "crate_id": "zstd-safe", "default_features": false, "downloads": 0,
+        "features": [], "id": 982111, "kind": "normal", "optional": true,
+        "req": "^2.0.0", "target": null, "version_id": 187846
+      }
+    ],
+    "dl_path": "/api/v1/crates/async-compression/0.1.0/download",
+    "downloads": 517,
+    "features": {
+      "all": ["all-implementations", "all-algorithms"],
+      "all-algorithms": ["brotli", "bzip", "deflate", "gzip", "zlib", "zstd"],
+      "all-implementations": ["bufread", "write", "stream"],
+      "brotli": ["brotli2"], "bufread": ["futures-io"], "bzip": ["bzip2"],
+      "default": [], "deflate": ["flate2"], "gzip": ["flate2"],
+      "stream": ["bytes"], "write": ["futures-io"], "zlib": ["flate2"],
+      "zstd": ["libzstd", "zstd-safe"]
+    },
+    "id": 187846, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/async-compression/0.1.0/authors",
+      "dependencies": "/api/v1/crates/async-compression/0.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/async-compression/0.1.0/downloads"
+    },
+    "num": "0.1.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/81079?v=4",
+      "id": 782, "login": "Nemo157", "name": "Nemo157",
+      "url": "https://github.com/Nemo157"
+    },
+    "readme_path": "/api/v1/crates/async-compression/0.1.0/readme",
+    "updated_at": "2019-11-06T22:58:45.153367+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2019-12-09T15:30:15.266616+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/81079?v=4",
+          "id": 782, "login": "Nemo157", "name": "Nemo157",
+          "url": "https://github.com/Nemo157"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": ["Allen Bui <fairingrey@gmail.com>", "Wim Looman <wim@nemo157.com>"]
+      },
+      "users": []
+    },
+    "crate": "async-compression", "crate_size": 27605,
+    "created_at": "2019-12-09T15:30:15.266616+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1032898, "kind": "dev", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 195254
+      },
+      {
+        "crate_id": "futures-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 1032892, "kind": "normal",
+        "optional": false, "req": "^0.3.0", "target": null,
+        "version_id": 195254
+      },
+      {
+        "crate_id": "futures-test", "default_features": true,
+        "downloads": 0, "features": [], "id": 1032899, "kind": "dev",
+        "optional": false, "req": "^0.3.0", "target": null,
+        "version_id": 195254
+      },
+      {
+        "crate_id": "memchr", "default_features": true, "downloads": 0,
+        "features": [], "id": 1032895, "kind": "normal", "optional": false,
+        "req": "^2.2.1", "target": null, "version_id": 195254
+      },
+      {
+        "crate_id": "ntest", "default_features": true, "downloads": 0,
+        "features": [], "id": 1032900, "kind": "dev", "optional": false,
+        "req": "^0.3.3", "target": null, "version_id": 195254
+      },
+      {
+        "crate_id": "pin-project-lite", "default_features": true,
+        "downloads": 0, "features": [], "id": 1032896, "kind": "normal",
+        "optional": false, "req": "^0.1.1", "target": null,
+        "version_id": 195254
+      },
+      {
+        "crate_id": "proptest", "default_features": true, "downloads": 0,
+        "features": [], "id": 1032901, "kind": "dev", "optional": false,
+        "req": "^0.9.4", "target": null, "version_id": 195254
+      },
+      {
+        "crate_id": "proptest-derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 1032902, "kind": "dev",
+        "optional": false, "req": "^0.1.2", "target": null,
+        "version_id": 195254
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1032903, "kind": "dev", "optional": false,
+        "req": "^0.7.2", "target": null, "version_id": 195254
+      },
+      {
+        "crate_id": "timebomb", "default_features": true, "downloads": 0,
+        "features": [], "id": 1032904, "kind": "dev", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 195254
+      },
+      {
+        "crate_id": "brotli2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1032888, "kind": "normal", "optional": true,
+        "req": "^0.3.2", "target": null, "version_id": 195254
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1032889, "kind": "normal", "optional": true,
+        "req": "^0.4.12", "target": null, "version_id": 195254
+      },
+      {
+        "crate_id": "bzip2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1032890, "kind": "normal", "optional": true,
+        "req": "^0.3.3", "target": null, "version_id": 195254
+      },
+      {
+        "crate_id": "flate2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1032891, "kind": "normal", "optional": true,
+        "req": "^1.0.11", "target": null, "version_id": 195254
+      },
+      {
+        "crate_id": "futures-io", "default_features": false, "downloads": 0,
+        "features": ["std"], "id": 1032893, "kind": "normal",
+        "optional": true, "req": "^0.3.0", "target": null,
+        "version_id": 195254
+      },
+      {
+        "crate_id": "zstd", "default_features": false, "downloads": 0,
+        "features": [], "id": 1032894, "kind": "normal", "optional": true,
+        "req": "^0.5.0", "target": null, "version_id": 195254
+      },
+      {
+        "crate_id": "zstd-safe", "default_features": false, "downloads": 0,
+        "features": [], "id": 1032897, "kind": "normal", "optional": true,
+        "req": "^2.0.0", "target": null, "version_id": 195254
+      }
+    ],
+    "dl_path": "/api/v1/crates/async-compression/0.1.1/download",
+    "downloads": 131,
+    "features": {
+      "all": ["all-implementations", "all-algorithms"],
+      "all-algorithms": ["brotli", "bzip2", "deflate", "gzip", "zlib", "zstd"],
+      "all-implementations": ["futures-bufread", "futures-write", "stream"],
+      "brotli": ["brotli2"], "bufread": ["futures-bufread"],
+      "bzip": ["bzip2"], "default": [], "deflate": ["flate2"],
+      "futures-bufread": ["futures-io"], "futures-write": ["futures-io"],
+      "gzip": ["flate2"], "stream": ["bytes"], "write": ["futures-write"],
+      "zlib": ["flate2"], "zstd": ["libzstd", "zstd-safe"]
+    },
+    "id": 195254, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/async-compression/0.1.1/authors",
+      "dependencies": "/api/v1/crates/async-compression/0.1.1/dependencies",
+      "version_downloads": "/api/v1/crates/async-compression/0.1.1/downloads"
+    },
+    "num": "0.1.1",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/81079?v=4",
+      "id": 782, "login": "Nemo157", "name": "Nemo157",
+      "url": "https://github.com/Nemo157"
+    },
+    "readme_path": "/api/v1/crates/async-compression/0.1.1/readme",
+    "updated_at": "2019-12-09T15:30:15.266616+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2019-12-09T16:22:32.199431+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/81079?v=4",
+          "id": 782, "login": "Nemo157", "name": "Nemo157",
+          "url": "https://github.com/Nemo157"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": ["Allen Bui <fairingrey@gmail.com>", "Wim Looman <wim@nemo157.com>"]
+      },
+      "users": []
+    },
+    "crate": "async-compression", "crate_size": 27387,
+    "created_at": "2019-12-09T16:22:32.199431+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1033059, "kind": "dev", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 195265
+      },
+      {
+        "crate_id": "futures-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 1033053, "kind": "normal",
+        "optional": false, "req": "^0.3.0", "target": null,
+        "version_id": 195265
+      },
+      {
+        "crate_id": "futures-test", "default_features": true,
+        "downloads": 0, "features": [], "id": 1033060, "kind": "dev",
+        "optional": false, "req": "^0.3.0", "target": null,
+        "version_id": 195265
+      },
+      {
+        "crate_id": "memchr", "default_features": true, "downloads": 0,
+        "features": [], "id": 1033056, "kind": "normal", "optional": false,
+        "req": "^2.2.1", "target": null, "version_id": 195265
+      },
+      {
+        "crate_id": "ntest", "default_features": true, "downloads": 0,
+        "features": [], "id": 1033061, "kind": "dev", "optional": false,
+        "req": "^0.3.3", "target": null, "version_id": 195265
+      },
+      {
+        "crate_id": "pin-project-lite", "default_features": true,
+        "downloads": 0, "features": [], "id": 1033057, "kind": "normal",
+        "optional": false, "req": "^0.1.1", "target": null,
+        "version_id": 195265
+      },
+      {
+        "crate_id": "proptest", "default_features": true, "downloads": 0,
+        "features": [], "id": 1033062, "kind": "dev", "optional": false,
+        "req": "^0.9.4", "target": null, "version_id": 195265
+      },
+      {
+        "crate_id": "proptest-derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 1033063, "kind": "dev",
+        "optional": false, "req": "^0.1.2", "target": null,
+        "version_id": 195265
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1033064, "kind": "dev", "optional": false,
+        "req": "^0.7.2", "target": null, "version_id": 195265
+      },
+      {
+        "crate_id": "timebomb", "default_features": true, "downloads": 0,
+        "features": [], "id": 1033065, "kind": "dev", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 195265
+      },
+      {
+        "crate_id": "brotli2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1033049, "kind": "normal", "optional": true,
+        "req": "^0.3.2", "target": null, "version_id": 195265
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1033050, "kind": "normal", "optional": true,
+        "req": "^0.5.0", "target": null, "version_id": 195265
+      },
+      {
+        "crate_id": "bzip2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1033051, "kind": "normal", "optional": true,
+        "req": "^0.3.3", "target": null, "version_id": 195265
+      },
+      {
+        "crate_id": "flate2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1033052, "kind": "normal", "optional": true,
+        "req": "^1.0.11", "target": null, "version_id": 195265
+      },
+      {
+        "crate_id": "futures-io", "default_features": false, "downloads": 0,
+        "features": ["std"], "id": 1033054, "kind": "normal",
+        "optional": true, "req": "^0.3.0", "target": null,
+        "version_id": 195265
+      },
+      {
+        "crate_id": "zstd", "default_features": false, "downloads": 0,
+        "features": [], "id": 1033055, "kind": "normal", "optional": true,
+        "req": "^0.5.0", "target": null, "version_id": 195265
+      },
+      {
+        "crate_id": "zstd-safe", "default_features": false, "downloads": 0,
+        "features": [], "id": 1033058, "kind": "normal", "optional": true,
+        "req": "^2.0.0", "target": null, "version_id": 195265
+      }
+    ],
+    "dl_path": "/api/v1/crates/async-compression/0.2.0/download",
+    "downloads": 52854,
+    "features": {
+      "all": ["all-implementations", "all-algorithms"],
+      "all-algorithms": ["brotli", "bzip2", "deflate", "gzip", "zlib", "zstd"],
+      "all-implementations": ["futures-bufread", "futures-write", "stream"],
+      "brotli": ["brotli2"], "default": [], "deflate": ["flate2"],
+      "futures-bufread": ["futures-io"], "futures-write": ["futures-io"],
+      "gzip": ["flate2"], "stream": ["bytes"], "zlib": ["flate2"],
+      "zstd": ["libzstd", "zstd-safe"]
+    },
+    "id": 195265, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/async-compression/0.2.0/authors",
+      "dependencies": "/api/v1/crates/async-compression/0.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/async-compression/0.2.0/downloads"
+    },
+    "num": "0.2.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/81079?v=4",
+      "id": 782, "login": "Nemo157", "name": "Nemo157",
+      "url": "https://github.com/Nemo157"
+    },
+    "readme_path": "/api/v1/crates/async-compression/0.2.0/readme",
+    "updated_at": "2019-12-09T16:22:32.199431+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-02-11T19:57:58.041034+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/81079?v=4",
+          "id": 782, "login": "Nemo157", "name": "Nemo157",
+          "url": "https://github.com/Nemo157"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": ["Allen Bui <fairingrey@gmail.com>", "Wim Looman <wim@nemo157.com>"]
+      },
+      "users": []
+    },
+    "crate": "async-compression", "crate_size": 27667,
+    "created_at": "2020-02-11T19:57:58.041034+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1146605, "kind": "dev", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 211673
+      },
+      {
+        "crate_id": "futures-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 1146599, "kind": "normal",
+        "optional": false, "req": "^0.3.0", "target": null,
+        "version_id": 211673
+      },
+      {
+        "crate_id": "futures-test", "default_features": true,
+        "downloads": 0, "features": [], "id": 1146606, "kind": "dev",
+        "optional": false, "req": "^0.3.0", "target": null,
+        "version_id": 211673
+      },
+      {
+        "crate_id": "memchr", "default_features": true, "downloads": 0,
+        "features": [], "id": 1146602, "kind": "normal", "optional": false,
+        "req": "^2.2.1", "target": null, "version_id": 211673
+      },
+      {
+        "crate_id": "ntest", "default_features": true, "downloads": 0,
+        "features": [], "id": 1146607, "kind": "dev", "optional": false,
+        "req": "^0.3.3", "target": null, "version_id": 211673
+      },
+      {
+        "crate_id": "pin-project-lite", "default_features": true,
+        "downloads": 0, "features": [], "id": 1146603, "kind": "normal",
+        "optional": false, "req": "^0.1.1", "target": null,
+        "version_id": 211673
+      },
+      {
+        "crate_id": "proptest", "default_features": true, "downloads": 0,
+        "features": [], "id": 1146608, "kind": "dev", "optional": false,
+        "req": "^0.9.4", "target": null, "version_id": 211673
+      },
+      {
+        "crate_id": "proptest-derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 1146609, "kind": "dev",
+        "optional": false, "req": "^0.1.2", "target": null,
+        "version_id": 211673
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1146610, "kind": "dev", "optional": false,
+        "req": "^0.7.2", "target": null, "version_id": 211673
+      },
+      {
+        "crate_id": "timebomb", "default_features": true, "downloads": 0,
+        "features": [], "id": 1146611, "kind": "dev", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 211673
+      },
+      {
+        "crate_id": "brotli", "default_features": true, "downloads": 0,
+        "features": [], "id": 1146595, "kind": "normal", "optional": true,
+        "req": "^3.3.0", "target": null, "version_id": 211673
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1146596, "kind": "normal", "optional": true,
+        "req": "^0.5.0", "target": null, "version_id": 211673
+      },
+      {
+        "crate_id": "bzip2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1146597, "kind": "normal", "optional": true,
+        "req": "^0.3.3", "target": null, "version_id": 211673
+      },
+      {
+        "crate_id": "flate2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1146598, "kind": "normal", "optional": true,
+        "req": "^1.0.11", "target": null, "version_id": 211673
+      },
+      {
+        "crate_id": "futures-io", "default_features": false, "downloads": 0,
+        "features": ["std"], "id": 1146600, "kind": "normal",
+        "optional": true, "req": "^0.3.0", "target": null,
+        "version_id": 211673
+      },
+      {
+        "crate_id": "zstd", "default_features": false, "downloads": 0,
+        "features": [], "id": 1146601, "kind": "normal", "optional": true,
+        "req": "^0.5.0", "target": null, "version_id": 211673
+      },
+      {
+        "crate_id": "zstd-safe", "default_features": false, "downloads": 0,
+        "features": [], "id": 1146604, "kind": "normal", "optional": true,
+        "req": "^2.0.0", "target": null, "version_id": 211673
+      }
+    ],
+    "dl_path": "/api/v1/crates/async-compression/0.3.0/download",
+    "downloads": 11567,
+    "features": {
+      "all": ["all-implementations", "all-algorithms"],
+      "all-algorithms": ["brotli", "bzip2", "deflate", "gzip", "zlib", "zstd"],
+      "all-implementations": ["futures-bufread", "futures-write", "stream"],
+      "default": [], "deflate": ["flate2"],
+      "futures-bufread": ["futures-io"], "futures-write": ["futures-io"],
+      "gzip": ["flate2"], "stream": ["bytes"], "zlib": ["flate2"],
+      "zstd": ["libzstd", "zstd-safe"]
+    },
+    "id": 211673, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/async-compression/0.3.0/authors",
+      "dependencies": "/api/v1/crates/async-compression/0.3.0/dependencies",
+      "version_downloads": "/api/v1/crates/async-compression/0.3.0/downloads"
+    },
+    "num": "0.3.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/81079?v=4",
+      "id": 782, "login": "Nemo157", "name": "Nemo157",
+      "url": "https://github.com/Nemo157"
+    },
+    "readme_path": "/api/v1/crates/async-compression/0.3.0/readme",
+    "updated_at": "2020-02-11T19:57:58.041034+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-02-24T20:11:07.380170+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/81079?v=4",
+          "id": 782, "login": "Nemo157", "name": "Nemo157",
+          "url": "https://github.com/Nemo157"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": ["Allen Bui <fairingrey@gmail.com>", "Wim Looman <wim@nemo157.com>"]
+      },
+      "users": []
+    },
+    "crate": "async-compression", "crate_size": 27925,
+    "created_at": "2020-02-24T20:11:07.380170+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1172807, "kind": "dev", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 215218
+      },
+      {
+        "crate_id": "futures-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 1172801, "kind": "normal",
+        "optional": false, "req": "^0.3.0", "target": null,
+        "version_id": 215218
+      },
+      {
+        "crate_id": "futures-test", "default_features": true,
+        "downloads": 0, "features": [], "id": 1172808, "kind": "dev",
+        "optional": false, "req": "^0.3.0", "target": null,
+        "version_id": 215218
+      },
+      {
+        "crate_id": "memchr", "default_features": true, "downloads": 0,
+        "features": [], "id": 1172804, "kind": "normal", "optional": false,
+        "req": "^2.2.1", "target": null, "version_id": 215218
+      },
+      {
+        "crate_id": "ntest", "default_features": true, "downloads": 0,
+        "features": [], "id": 1172809, "kind": "dev", "optional": false,
+        "req": "^0.3.3", "target": null, "version_id": 215218
+      },
+      {
+        "crate_id": "pin-project-lite", "default_features": true,
+        "downloads": 0, "features": [], "id": 1172805, "kind": "normal",
+        "optional": false, "req": "^0.1.1", "target": null,
+        "version_id": 215218
+      },
+      {
+        "crate_id": "proptest", "default_features": true, "downloads": 0,
+        "features": [], "id": 1172810, "kind": "dev", "optional": false,
+        "req": "^0.9.4", "target": null, "version_id": 215218
+      },
+      {
+        "crate_id": "proptest-derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 1172811, "kind": "dev",
+        "optional": false, "req": "^0.1.2", "target": null,
+        "version_id": 215218
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1172812, "kind": "dev", "optional": false,
+        "req": "^0.7.2", "target": null, "version_id": 215218
+      },
+      {
+        "crate_id": "timebomb", "default_features": true, "downloads": 0,
+        "features": [], "id": 1172813, "kind": "dev", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 215218
+      },
+      {
+        "crate_id": "brotli", "default_features": true, "downloads": 0,
+        "features": [], "id": 1172797, "kind": "normal", "optional": true,
+        "req": "^3.3.0", "target": null, "version_id": 215218
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1172798, "kind": "normal", "optional": true,
+        "req": "^0.5.0", "target": null, "version_id": 215218
+      },
+      {
+        "crate_id": "bzip2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1172799, "kind": "normal", "optional": true,
+        "req": "^0.3.3", "target": null, "version_id": 215218
+      },
+      {
+        "crate_id": "flate2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1172800, "kind": "normal", "optional": true,
+        "req": "^1.0.11", "target": null, "version_id": 215218
+      },
+      {
+        "crate_id": "futures-io", "default_features": false, "downloads": 0,
+        "features": ["std"], "id": 1172802, "kind": "normal",
+        "optional": true, "req": "^0.3.0", "target": null,
+        "version_id": 215218
+      },
+      {
+        "crate_id": "zstd", "default_features": false, "downloads": 0,
+        "features": [], "id": 1172803, "kind": "normal", "optional": true,
+        "req": "^0.5.0", "target": null, "version_id": 215218
+      },
+      {
+        "crate_id": "zstd-safe", "default_features": false, "downloads": 0,
+        "features": [], "id": 1172806, "kind": "normal", "optional": true,
+        "req": "^2.0.0", "target": null, "version_id": 215218
+      }
+    ],
+    "dl_path": "/api/v1/crates/async-compression/0.3.1/download",
+    "downloads": 113728,
+    "features": {
+      "all": ["all-implementations", "all-algorithms"],
+      "all-algorithms": ["brotli", "bzip2", "deflate", "gzip", "zlib", "zstd"],
+      "all-implementations": ["futures-bufread", "futures-write", "stream"],
+      "default": [], "deflate": ["flate2"],
+      "futures-bufread": ["futures-io"], "futures-write": ["futures-io"],
+      "gzip": ["flate2"], "stream": ["bytes"], "zlib": ["flate2"],
+      "zstd": ["libzstd", "zstd-safe"]
+    },
+    "id": 215218, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/async-compression/0.3.1/authors",
+      "dependencies": "/api/v1/crates/async-compression/0.3.1/dependencies",
+      "version_downloads": "/api/v1/crates/async-compression/0.3.1/downloads"
+    },
+    "num": "0.3.1",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/81079?v=4",
+      "id": 782, "login": "Nemo157", "name": "Nemo157",
+      "url": "https://github.com/Nemo157"
+    },
+    "readme_path": "/api/v1/crates/async-compression/0.3.1/readme",
+    "updated_at": "2020-02-24T20:11:07.380170+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-03-30T10:45:51.143136+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/81079?v=4",
+          "id": 782, "login": "Nemo157", "name": "Nemo157",
+          "url": "https://github.com/Nemo157"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": ["Allen Bui <fairingrey@gmail.com>", "Wim Looman <wim@nemo157.com>"]
+      },
+      "users": []
+    },
+    "crate": "async-compression", "crate_size": 29668,
+    "created_at": "2020-03-30T10:45:51.143136+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1253904, "kind": "dev", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 225970
+      },
+      {
+        "crate_id": "futures-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 1253897, "kind": "normal",
+        "optional": false, "req": "^0.3.0", "target": null,
+        "version_id": 225970
+      },
+      {
+        "crate_id": "futures-test", "default_features": true,
+        "downloads": 0, "features": [], "id": 1253905, "kind": "dev",
+        "optional": false, "req": "^0.3.0", "target": null,
+        "version_id": 225970
+      },
+      {
+        "crate_id": "memchr", "default_features": true, "downloads": 0,
+        "features": [], "id": 1253900, "kind": "normal", "optional": false,
+        "req": "^2.2.1", "target": null, "version_id": 225970
+      },
+      {
+        "crate_id": "ntest", "default_features": true, "downloads": 0,
+        "features": [], "id": 1253906, "kind": "dev", "optional": false,
+        "req": "^0.3.3", "target": null, "version_id": 225970
+      },
+      {
+        "crate_id": "pin-project-lite", "default_features": true,
+        "downloads": 0, "features": [], "id": 1253901, "kind": "normal",
+        "optional": false, "req": "^0.1.1", "target": null,
+        "version_id": 225970
+      },
+      {
+        "crate_id": "proptest", "default_features": true, "downloads": 0,
+        "features": [], "id": 1253907, "kind": "dev", "optional": false,
+        "req": "^0.9.4", "target": null, "version_id": 225970
+      },
+      {
+        "crate_id": "proptest-derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 1253908, "kind": "dev",
+        "optional": false, "req": "^0.1.2", "target": null,
+        "version_id": 225970
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1253909, "kind": "dev", "optional": false,
+        "req": "^0.7.2", "target": null, "version_id": 225970
+      },
+      {
+        "crate_id": "timebomb", "default_features": true, "downloads": 0,
+        "features": [], "id": 1253910, "kind": "dev", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 225970
+      },
+      {
+        "crate_id": "brotli", "default_features": true, "downloads": 0,
+        "features": [], "id": 1253893, "kind": "normal", "optional": true,
+        "req": "^3.3.0", "target": null, "version_id": 225970
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1253894, "kind": "normal", "optional": true,
+        "req": "^0.5.0", "target": null, "version_id": 225970
+      },
+      {
+        "crate_id": "bzip2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1253895, "kind": "normal", "optional": true,
+        "req": "^0.3.3", "target": null, "version_id": 225970
+      },
+      {
+        "crate_id": "flate2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1253896, "kind": "normal", "optional": true,
+        "req": "^1.0.11", "target": null, "version_id": 225970
+      },
+      {
+        "crate_id": "futures-io", "default_features": false, "downloads": 0,
+        "features": ["std"], "id": 1253898, "kind": "normal",
+        "optional": true, "req": "^0.3.0", "target": null,
+        "version_id": 225970
+      },
+      {
+        "crate_id": "xz2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1253902, "kind": "normal", "optional": true,
+        "req": "^0.1.6", "target": null, "version_id": 225970
+      },
+      {
+        "crate_id": "zstd", "default_features": false, "downloads": 0,
+        "features": [], "id": 1253899, "kind": "normal", "optional": true,
+        "req": "^0.5.0", "target": null, "version_id": 225970
+      },
+      {
+        "crate_id": "zstd-safe", "default_features": false, "downloads": 0,
+        "features": [], "id": 1253903, "kind": "normal", "optional": true,
+        "req": "^2.0.0", "target": null, "version_id": 225970
+      }
+    ],
+    "dl_path": "/api/v1/crates/async-compression/0.3.2/download",
+    "downloads": 27310,
+    "features": {
+      "all": ["all-implementations", "all-algorithms"],
+      "all-algorithms": ["brotli", "bzip2", "deflate", "gzip", "lzma", "xz", "zlib", "zstd"],
+      "all-implementations": ["futures-bufread", "futures-write", "stream"],
+      "default": [], "deflate": ["flate2"],
+      "futures-bufread": ["futures-io"], "futures-write": ["futures-io"],
+      "gzip": ["flate2"], "lzma": ["xz2"], "stream": ["bytes"],
+      "xz": ["xz2"], "zlib": ["flate2"], "zstd": ["libzstd", "zstd-safe"]
+    },
+    "id": 225970, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/async-compression/0.3.2/authors",
+      "dependencies": "/api/v1/crates/async-compression/0.3.2/dependencies",
+      "version_downloads": "/api/v1/crates/async-compression/0.3.2/downloads"
+    },
+    "num": "0.3.2",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/81079?v=4",
+      "id": 782, "login": "Nemo157", "name": "Nemo157",
+      "url": "https://github.com/Nemo157"
+    },
+    "readme_path": "/api/v1/crates/async-compression/0.3.2/readme",
+    "updated_at": "2020-03-30T10:45:51.143136+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-05-05T11:16:50.044538+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/81079?v=4",
+          "id": 782, "login": "Nemo157", "name": "Nemo157",
+          "url": "https://github.com/Nemo157"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": ["Allen Bui <fairingrey@gmail.com>", "Wim Looman <wim@nemo157.com>"]
+      },
+      "users": []
+    },
+    "crate": "async-compression", "crate_size": 31751,
+    "created_at": "2020-05-05T11:16:50.044538+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1341703, "kind": "dev", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 237976
+      },
+      {
+        "crate_id": "futures-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 1341696, "kind": "normal",
+        "optional": false, "req": "^0.3.0", "target": null,
+        "version_id": 237976
+      },
+      {
+        "crate_id": "futures-test", "default_features": true,
+        "downloads": 0, "features": [], "id": 1341704, "kind": "dev",
+        "optional": false, "req": "^0.3.0", "target": null,
+        "version_id": 237976
+      },
+      {
+        "crate_id": "memchr", "default_features": true, "downloads": 0,
+        "features": [], "id": 1341699, "kind": "normal", "optional": false,
+        "req": "^2.2.1", "target": null, "version_id": 237976
+      },
+      {
+        "crate_id": "ntest", "default_features": true, "downloads": 0,
+        "features": [], "id": 1341705, "kind": "dev", "optional": false,
+        "req": "^0.3.3", "target": null, "version_id": 237976
+      },
+      {
+        "crate_id": "pin-project-lite", "default_features": true,
+        "downloads": 0, "features": [], "id": 1341700, "kind": "normal",
+        "optional": false, "req": "^0.1.1", "target": null,
+        "version_id": 237976
+      },
+      {
+        "crate_id": "proptest", "default_features": true, "downloads": 0,
+        "features": [], "id": 1341706, "kind": "dev", "optional": false,
+        "req": "^0.9.4", "target": null, "version_id": 237976
+      },
+      {
+        "crate_id": "proptest-derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 1341707, "kind": "dev",
+        "optional": false, "req": "^0.1.2", "target": null,
+        "version_id": 237976
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1341708, "kind": "dev", "optional": false,
+        "req": "^0.7.2", "target": null, "version_id": 237976
+      },
+      {
+        "crate_id": "timebomb", "default_features": true, "downloads": 0,
+        "features": [], "id": 1341709, "kind": "dev", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 237976
+      },
+      {
+        "crate_id": "brotli", "default_features": true, "downloads": 0,
+        "features": [], "id": 1341692, "kind": "normal", "optional": true,
+        "req": "^3.3.0", "target": null, "version_id": 237976
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1341693, "kind": "normal", "optional": true,
+        "req": "^0.5.0", "target": null, "version_id": 237976
+      },
+      {
+        "crate_id": "bzip2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1341694, "kind": "normal", "optional": true,
+        "req": "^0.3.3", "target": null, "version_id": 237976
+      },
+      {
+        "crate_id": "flate2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1341695, "kind": "normal", "optional": true,
+        "req": "^1.0.11", "target": null, "version_id": 237976
+      },
+      {
+        "crate_id": "futures-io", "default_features": false, "downloads": 0,
+        "features": ["std"], "id": 1341697, "kind": "normal",
+        "optional": true, "req": "^0.3.0", "target": null,
+        "version_id": 237976
+      },
+      {
+        "crate_id": "xz2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1341701, "kind": "normal", "optional": true,
+        "req": "^0.1.6", "target": null, "version_id": 237976
+      },
+      {
+        "crate_id": "zstd", "default_features": false, "downloads": 0,
+        "features": [], "id": 1341698, "kind": "normal", "optional": true,
+        "req": "^0.5.0", "target": null, "version_id": 237976
+      },
+      {
+        "crate_id": "zstd-safe", "default_features": false, "downloads": 0,
+        "features": [], "id": 1341702, "kind": "normal", "optional": true,
+        "req": "^2.0.0", "target": null, "version_id": 237976
+      }
+    ],
+    "dl_path": "/api/v1/crates/async-compression/0.3.3/download",
+    "downloads": 12507,
+    "features": {
+      "all": ["all-implementations", "all-algorithms"],
+      "all-algorithms": ["brotli", "bzip2", "deflate", "gzip", "lzma", "xz", "zlib", "zstd"],
+      "all-implementations": ["futures-bufread", "futures-write", "stream"],
+      "default": [], "deflate": ["flate2"],
+      "futures-bufread": ["futures-io"], "futures-write": ["futures-io"],
+      "gzip": ["flate2"], "lzma": ["xz2"], "stream": ["bytes"],
+      "xz": ["xz2"], "zlib": ["flate2"], "zstd": ["libzstd", "zstd-safe"]
+    },
+    "id": 237976, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/async-compression/0.3.3/authors",
+      "dependencies": "/api/v1/crates/async-compression/0.3.3/dependencies",
+      "version_downloads": "/api/v1/crates/async-compression/0.3.3/downloads"
+    },
+    "num": "0.3.3",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/81079?v=4",
+      "id": 782, "login": "Nemo157", "name": "Nemo157",
+      "url": "https://github.com/Nemo157"
+    },
+    "readme_path": "/api/v1/crates/async-compression/0.3.3/readme",
+    "updated_at": "2020-05-05T11:16:50.044538+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-05-15T16:33:08.886995+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/81079?v=4",
+          "id": 782, "login": "Nemo157", "name": "Nemo157",
+          "url": "https://github.com/Nemo157"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": ["Allen Bui <fairingrey@gmail.com>", "Wim Looman <wim@nemo157.com>"]
+      },
+      "users": []
+    },
+    "crate": "async-compression", "crate_size": 32329,
+    "created_at": "2020-05-15T16:33:08.886995+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1368918, "kind": "dev", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 241719
+      },
+      {
+        "crate_id": "futures-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 1368911, "kind": "normal",
+        "optional": false, "req": "^0.3.0", "target": null,
+        "version_id": 241719
+      },
+      {
+        "crate_id": "futures-test", "default_features": true,
+        "downloads": 0, "features": [], "id": 1368919, "kind": "dev",
+        "optional": false, "req": "^0.3.0", "target": null,
+        "version_id": 241719
+      },
+      {
+        "crate_id": "memchr", "default_features": true, "downloads": 0,
+        "features": [], "id": 1368914, "kind": "normal", "optional": false,
+        "req": "^2.2.1", "target": null, "version_id": 241719
+      },
+      {
+        "crate_id": "ntest", "default_features": true, "downloads": 0,
+        "features": [], "id": 1368920, "kind": "dev", "optional": false,
+        "req": "^0.3.3", "target": null, "version_id": 241719
+      },
+      {
+        "crate_id": "pin-project-lite", "default_features": true,
+        "downloads": 0, "features": [], "id": 1368915, "kind": "normal",
+        "optional": false, "req": "^0.1.1", "target": null,
+        "version_id": 241719
+      },
+      {
+        "crate_id": "proptest", "default_features": true, "downloads": 0,
+        "features": [], "id": 1368921, "kind": "dev", "optional": false,
+        "req": "^0.9.4", "target": null, "version_id": 241719
+      },
+      {
+        "crate_id": "proptest-derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 1368922, "kind": "dev",
+        "optional": false, "req": "^0.1.2", "target": null,
+        "version_id": 241719
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1368923, "kind": "dev", "optional": false,
+        "req": "^0.7.2", "target": null, "version_id": 241719
+      },
+      {
+        "crate_id": "timebomb", "default_features": true, "downloads": 0,
+        "features": [], "id": 1368924, "kind": "dev", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 241719
+      },
+      {
+        "crate_id": "brotli", "default_features": true, "downloads": 0,
+        "features": [], "id": 1368907, "kind": "normal", "optional": true,
+        "req": "^3.3.0", "target": null, "version_id": 241719
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1368908, "kind": "normal", "optional": true,
+        "req": "^0.5.0", "target": null, "version_id": 241719
+      },
+      {
+        "crate_id": "bzip2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1368909, "kind": "normal", "optional": true,
+        "req": "^0.3.3", "target": null, "version_id": 241719
+      },
+      {
+        "crate_id": "flate2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1368910, "kind": "normal", "optional": true,
+        "req": "^1.0.11", "target": null, "version_id": 241719
+      },
+      {
+        "crate_id": "futures-io", "default_features": false, "downloads": 0,
+        "features": ["std"], "id": 1368912, "kind": "normal",
+        "optional": true, "req": "^0.3.0", "target": null,
+        "version_id": 241719
+      },
+      {
+        "crate_id": "xz2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1368916, "kind": "normal", "optional": true,
+        "req": "^0.1.6", "target": null, "version_id": 241719
+      },
+      {
+        "crate_id": "zstd", "default_features": false, "downloads": 0,
+        "features": [], "id": 1368913, "kind": "normal", "optional": true,
+        "req": "^0.5.0", "target": null, "version_id": 241719
+      },
+      {
+        "crate_id": "zstd-safe", "default_features": false, "downloads": 0,
+        "features": [], "id": 1368917, "kind": "normal", "optional": true,
+        "req": "^2.0.0", "target": null, "version_id": 241719
+      }
+    ],
+    "dl_path": "/api/v1/crates/async-compression/0.3.4/download",
+    "downloads": 72239,
+    "features": {
+      "all": ["all-implementations", "all-algorithms"],
+      "all-algorithms": ["brotli", "bzip2", "deflate", "gzip", "lzma", "xz", "zlib", "zstd"],
+      "all-implementations": ["futures-bufread", "futures-write", "stream"],
+      "default": [], "deflate": ["flate2"],
+      "futures-bufread": ["futures-io"], "futures-write": ["futures-io"],
+      "gzip": ["flate2"], "lzma": ["xz2"], "stream": ["bytes"],
+      "xz": ["xz2"], "zlib": ["flate2"], "zstd": ["libzstd", "zstd-safe"]
+    },
+    "id": 241719, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/async-compression/0.3.4/authors",
+      "dependencies": "/api/v1/crates/async-compression/0.3.4/dependencies",
+      "version_downloads": "/api/v1/crates/async-compression/0.3.4/downloads"
+    },
+    "num": "0.3.4",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/81079?v=4",
+      "id": 782, "login": "Nemo157", "name": "Nemo157",
+      "url": "https://github.com/Nemo157"
+    },
+    "readme_path": "/api/v1/crates/async-compression/0.3.4/readme",
+    "updated_at": "2020-05-15T16:33:08.886995+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-06-28T13:47:19.361391+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/81079?v=4",
+          "id": 782, "login": "Nemo157", "name": "Nemo157",
+          "url": "https://github.com/Nemo157"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": ["Allen Bui <fairingrey@gmail.com>", "Wim Looman <wim@nemo157.com>"]
+      },
+      "users": []
+    },
+    "crate": "async-compression", "crate_size": 39371,
+    "created_at": "2020-06-28T13:47:19.361391+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1481510, "kind": "dev", "optional": false,
+        "req": "^0.5.0", "target": null, "version_id": 256956
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1481511, "kind": "dev", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 256956
+      },
+      {
+        "crate_id": "futures-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 1481502, "kind": "normal",
+        "optional": false, "req": "^0.3.0", "target": null,
+        "version_id": 256956
+      },
+      {
+        "crate_id": "futures-test", "default_features": true,
+        "downloads": 0, "features": [], "id": 1481512, "kind": "dev",
+        "optional": false, "req": "^0.3.0", "target": null,
+        "version_id": 256956
+      },
+      {
+        "crate_id": "memchr", "default_features": true, "downloads": 0,
+        "features": [], "id": 1481505, "kind": "normal", "optional": false,
+        "req": "^2.2.1", "target": null, "version_id": 256956
+      },
+      {
+        "crate_id": "ntest", "default_features": true, "downloads": 0,
+        "features": [], "id": 1481513, "kind": "dev", "optional": false,
+        "req": "^0.3.3", "target": null, "version_id": 256956
+      },
+      {
+        "crate_id": "pin-project-lite", "default_features": true,
+        "downloads": 0, "features": [], "id": 1481506, "kind": "normal",
+        "optional": false, "req": "^0.1.1", "target": null,
+        "version_id": 256956
+      },
+      {
+        "crate_id": "proptest", "default_features": true, "downloads": 0,
+        "features": [], "id": 1481514, "kind": "dev", "optional": false,
+        "req": "^0.9.4", "target": null, "version_id": 256956
+      },
+      {
+        "crate_id": "proptest-derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 1481515, "kind": "dev",
+        "optional": false, "req": "^0.1.2", "target": null,
+        "version_id": 256956
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1481516, "kind": "dev", "optional": false,
+        "req": "^0.7.2", "target": null, "version_id": 256956
+      },
+      {
+        "crate_id": "timebomb", "default_features": true, "downloads": 0,
+        "features": [], "id": 1481517, "kind": "dev", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 256956
+      },
+      {
+        "crate_id": "tokio", "default_features": false, "downloads": 0,
+        "features": ["io-util", "stream"], "id": 1481518, "kind": "dev",
+        "optional": false, "req": "^0.2.21", "target": null,
+        "version_id": 256956
+      },
+      {
+        "crate_id": "brotli", "default_features": true, "downloads": 0,
+        "features": [], "id": 1481498, "kind": "normal", "optional": true,
+        "req": "^3.3.0", "target": null, "version_id": 256956
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1481499, "kind": "normal", "optional": true,
+        "req": "^0.5.0", "target": null, "version_id": 256956
+      },
+      {
+        "crate_id": "bzip2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1481500, "kind": "normal", "optional": true,
+        "req": "^0.3.3", "target": null, "version_id": 256956
+      },
+      {
+        "crate_id": "flate2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1481501, "kind": "normal", "optional": true,
+        "req": "^1.0.11", "target": null, "version_id": 256956
+      },
+      {
+        "crate_id": "futures-io", "default_features": false, "downloads": 0,
+        "features": ["std"], "id": 1481503, "kind": "normal",
+        "optional": true, "req": "^0.3.0", "target": null,
+        "version_id": 256956
+      },
+      {
+        "crate_id": "tokio", "default_features": false, "downloads": 0,
+        "features": [], "id": 1481507, "kind": "normal", "optional": true,
+        "req": "^0.2.21", "target": null, "version_id": 256956
+      },
+      {
+        "crate_id": "xz2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1481508, "kind": "normal", "optional": true,
+        "req": "^0.1.6", "target": null, "version_id": 256956
+      },
+      {
+        "crate_id": "zstd", "default_features": false, "downloads": 0,
+        "features": [], "id": 1481504, "kind": "normal", "optional": true,
+        "req": "^0.5.0", "target": null, "version_id": 256956
+      },
+      {
+        "crate_id": "zstd-safe", "default_features": false, "downloads": 0,
+        "features": [], "id": 1481509, "kind": "normal", "optional": true,
+        "req": "^2.0.0", "target": null, "version_id": 256956
+      }
+    ],
+    "dl_path": "/api/v1/crates/async-compression/0.3.5/download",
+    "downloads": 251198,
+    "features": {
+      "all": ["all-implementations", "all-algorithms"],
+      "all-algorithms": ["brotli", "bzip2", "deflate", "gzip", "lzma", "xz", "zlib", "zstd"],
+      "all-implementations": ["futures-io", "stream", "tokio-02"],
+      "default": [], "deflate": ["flate2"],
+      "futures-bufread": ["futures-io"], "futures-write": ["futures-io"],
+      "gzip": ["flate2"], "lzma": ["xz2"], "stream": ["bytes"],
+      "xz": ["xz2"], "zlib": ["flate2"], "zstd": ["libzstd", "zstd-safe"]
+    },
+    "id": 256956, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/async-compression/0.3.5/authors",
+      "dependencies": "/api/v1/crates/async-compression/0.3.5/dependencies",
+      "version_downloads": "/api/v1/crates/async-compression/0.3.5/downloads"
+    },
+    "num": "0.3.5",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/81079?v=4",
+      "id": 782, "login": "Nemo157", "name": "Nemo157",
+      "url": "https://github.com/Nemo157"
+    },
+    "readme_path": "/api/v1/crates/async-compression/0.3.5/readme",
+    "updated_at": "2020-06-28T13:47:19.361391+00:00", "yanked": false
+  }
+]

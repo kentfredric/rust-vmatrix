@@ -1,0 +1,723 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Steven Fackler <sfackler@gmail.com>"]},
+      "users": []
+    },
+    "crate": "postgres-shared", "crate_size": null,
+    "created_at": "2016-12-26T21:47:10.012045+00:00",
+    "dependencies": [
+      {
+        "crate_id": "fallible-iterator", "default_features": true,
+        "downloads": 0, "features": [], "id": 144262, "kind": "normal",
+        "optional": false, "req": "^0.1.3", "target": null,
+        "version_id": 40690
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 144256, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 40690
+      },
+      {
+        "crate_id": "phf", "default_features": true, "downloads": 0,
+        "features": [], "id": 144260, "kind": "normal", "optional": false,
+        "req": "=0.7.20", "target": null, "version_id": 40690
+      },
+      {
+        "crate_id": "postgres-protocol", "default_features": true,
+        "downloads": 0, "features": [], "id": 144259, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 40690
+      },
+      {
+        "crate_id": "bit-vec", "default_features": true, "downloads": 0,
+        "features": [], "id": 144254, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 40690
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 144261, "kind": "normal", "optional": true,
+        "req": "^0.2.14", "target": null, "version_id": 40690
+      },
+      {
+        "crate_id": "eui48", "default_features": true, "downloads": 0,
+        "features": [], "id": 144258, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 40690
+      },
+      {
+        "crate_id": "rustc-serialize", "default_features": true,
+        "downloads": 0, "features": [], "id": 144255, "kind": "normal",
+        "optional": true, "req": "^0.3", "target": null,
+        "version_id": 40690
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 144263, "kind": "normal", "optional": true,
+        "req": ">=0.6, <0.9", "target": null, "version_id": 40690
+      },
+      {
+        "crate_id": "time", "default_features": true, "downloads": 0,
+        "features": [], "id": 144257, "kind": "normal", "optional": true,
+        "req": "^0.1.14", "target": null, "version_id": 40690
+      },
+      {
+        "crate_id": "uuid", "default_features": true, "downloads": 0,
+        "features": [], "id": 144264, "kind": "normal", "optional": true,
+        "req": ">=0.1, <0.4", "target": null, "version_id": 40690
+      }
+    ],
+    "dl_path": "/api/v1/crates/postgres-shared/0.1.0/download",
+    "downloads": 2195,
+    "features": {
+      "with-bit-vec": ["bit-vec"], "with-chrono": ["chrono"],
+      "with-eui48": ["eui48"],
+      "with-rustc-serialize": ["rustc-serialize"],
+      "with-serde_json": ["serde_json"], "with-time": ["time"],
+      "with-uuid": ["uuid"]
+    },
+    "id": 40690, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/postgres-shared/0.1.0/authors",
+      "dependencies": "/api/v1/crates/postgres-shared/0.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/postgres-shared/0.1.0/downloads"
+    },
+    "num": "0.1.0", "published_by": null,
+    "readme_path": "/api/v1/crates/postgres-shared/0.1.0/readme",
+    "updated_at": "2017-11-30T02:52:48.672305+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Steven Fackler <sfackler@gmail.com>"]},
+      "users": []
+    },
+    "crate": "postgres-shared", "crate_size": null,
+    "created_at": "2017-02-04T23:34:53.968625+00:00",
+    "dependencies": [
+      {
+        "crate_id": "fallible-iterator", "default_features": true,
+        "downloads": 0, "features": [], "id": 164429, "kind": "normal",
+        "optional": false, "req": "^0.1.3", "target": null,
+        "version_id": 44727
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 164431, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 44727
+      },
+      {
+        "crate_id": "phf", "default_features": true, "downloads": 0,
+        "features": [], "id": 164433, "kind": "normal", "optional": false,
+        "req": "=0.7.21", "target": null, "version_id": 44727
+      },
+      {
+        "crate_id": "postgres-protocol", "default_features": true,
+        "downloads": 0, "features": [], "id": 164423, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 44727
+      },
+      {
+        "crate_id": "bit-vec", "default_features": true, "downloads": 0,
+        "features": [], "id": 164430, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 44727
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 164427, "kind": "normal", "optional": true,
+        "req": "^0.2.14", "target": null, "version_id": 44727
+      },
+      {
+        "crate_id": "eui48", "default_features": true, "downloads": 0,
+        "features": [], "id": 164428, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 44727
+      },
+      {
+        "crate_id": "rustc-serialize", "default_features": true,
+        "downloads": 0, "features": [], "id": 164432, "kind": "normal",
+        "optional": true, "req": "^0.3", "target": null,
+        "version_id": 44727
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 164425, "kind": "normal", "optional": true,
+        "req": ">=0.6, <0.10", "target": null, "version_id": 44727
+      },
+      {
+        "crate_id": "time", "default_features": true, "downloads": 0,
+        "features": [], "id": 164424, "kind": "normal", "optional": true,
+        "req": "^0.1.14", "target": null, "version_id": 44727
+      },
+      {
+        "crate_id": "uuid", "default_features": true, "downloads": 0,
+        "features": [], "id": 164426, "kind": "normal", "optional": true,
+        "req": ">=0.1, <0.5", "target": null, "version_id": 44727
+      }
+    ],
+    "dl_path": "/api/v1/crates/postgres-shared/0.1.1/download",
+    "downloads": 6456,
+    "features": {
+      "with-bit-vec": ["bit-vec"], "with-chrono": ["chrono"],
+      "with-eui48": ["eui48"],
+      "with-rustc-serialize": ["rustc-serialize"],
+      "with-serde_json": ["serde_json"], "with-time": ["time"],
+      "with-uuid": ["uuid"]
+    },
+    "id": 44727, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/postgres-shared/0.1.1/authors",
+      "dependencies": "/api/v1/crates/postgres-shared/0.1.1/dependencies",
+      "version_downloads": "/api/v1/crates/postgres-shared/0.1.1/downloads"
+    },
+    "num": "0.1.1", "published_by": null,
+    "readme_path": "/api/v1/crates/postgres-shared/0.1.1/readme",
+    "updated_at": "2017-11-30T02:31:05.666140+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Steven Fackler <sfackler@gmail.com>"]},
+      "users": []
+    },
+    "crate": "postgres-shared", "crate_size": null,
+    "created_at": "2017-02-21T05:28:58.735148+00:00",
+    "dependencies": [
+      {
+        "crate_id": "fallible-iterator", "default_features": true,
+        "downloads": 0, "features": [], "id": 170103, "kind": "normal",
+        "optional": false, "req": "^0.1.3", "target": null,
+        "version_id": 46000
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 170108, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 46000
+      },
+      {
+        "crate_id": "phf", "default_features": true, "downloads": 0,
+        "features": [], "id": 170110, "kind": "normal", "optional": false,
+        "req": "=0.7.21", "target": null, "version_id": 46000
+      },
+      {
+        "crate_id": "postgres-protocol", "default_features": true,
+        "downloads": 0, "features": [], "id": 170106, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 46000
+      },
+      {
+        "crate_id": "bit-vec", "default_features": true, "downloads": 0,
+        "features": [], "id": 170104, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 46000
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 170107, "kind": "normal", "optional": true,
+        "req": "^0.3", "target": null, "version_id": 46000
+      },
+      {
+        "crate_id": "eui48", "default_features": true, "downloads": 0,
+        "features": [], "id": 170109, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 46000
+      },
+      {
+        "crate_id": "rustc-serialize", "default_features": true,
+        "downloads": 0, "features": [], "id": 170113, "kind": "normal",
+        "optional": true, "req": "^0.3", "target": null,
+        "version_id": 46000
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 170112, "kind": "normal", "optional": true,
+        "req": "^0.9", "target": null, "version_id": 46000
+      },
+      {
+        "crate_id": "time", "default_features": true, "downloads": 0,
+        "features": [], "id": 170111, "kind": "normal", "optional": true,
+        "req": "^0.1.14", "target": null, "version_id": 46000
+      },
+      {
+        "crate_id": "uuid", "default_features": true, "downloads": 0,
+        "features": [], "id": 170105, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 46000
+      }
+    ],
+    "dl_path": "/api/v1/crates/postgres-shared/0.2.0/download",
+    "downloads": 6534,
+    "features": {
+      "with-bit-vec": ["bit-vec"], "with-chrono": ["chrono"],
+      "with-eui48": ["eui48"],
+      "with-rustc-serialize": ["rustc-serialize"],
+      "with-serde_json": ["serde_json"], "with-time": ["time"],
+      "with-uuid": ["uuid"]
+    },
+    "id": 46000, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/postgres-shared/0.2.0/authors",
+      "dependencies": "/api/v1/crates/postgres-shared/0.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/postgres-shared/0.2.0/downloads"
+    },
+    "num": "0.2.0", "published_by": null,
+    "readme_path": "/api/v1/crates/postgres-shared/0.2.0/readme",
+    "updated_at": "2017-11-30T03:11:23.734505+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Steven Fackler <sfackler@gmail.com>"]},
+      "users": []
+    },
+    "crate": "postgres-shared", "crate_size": null,
+    "created_at": "2017-05-02T15:52:04.830521+00:00",
+    "dependencies": [
+      {
+        "crate_id": "fallible-iterator", "default_features": true,
+        "downloads": 0, "features": [], "id": 198380, "kind": "normal",
+        "optional": false, "req": "^0.1.3", "target": null,
+        "version_id": 52000
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 198371, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 52000
+      },
+      {
+        "crate_id": "phf", "default_features": true, "downloads": 0,
+        "features": [], "id": 198379, "kind": "normal", "optional": false,
+        "req": "=0.7.21", "target": null, "version_id": 52000
+      },
+      {
+        "crate_id": "postgres-protocol", "default_features": true,
+        "downloads": 0, "features": [], "id": 198377, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 52000
+      },
+      {
+        "crate_id": "bit-vec", "default_features": true, "downloads": 0,
+        "features": [], "id": 198373, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 52000
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 198376, "kind": "normal", "optional": true,
+        "req": "^0.3", "target": null, "version_id": 52000
+      },
+      {
+        "crate_id": "eui48", "default_features": true, "downloads": 0,
+        "features": [], "id": 198375, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 52000
+      },
+      {
+        "crate_id": "geo", "default_features": true, "downloads": 0,
+        "features": [], "id": 198370, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 52000
+      },
+      {
+        "crate_id": "rustc-serialize", "default_features": true,
+        "downloads": 0, "features": [], "id": 198374, "kind": "normal",
+        "optional": true, "req": "^0.3", "target": null,
+        "version_id": 52000
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 198372, "kind": "normal", "optional": true,
+        "req": ">=0.9, <2.0", "target": null, "version_id": 52000
+      },
+      {
+        "crate_id": "time", "default_features": true, "downloads": 0,
+        "features": [], "id": 198378, "kind": "normal", "optional": true,
+        "req": "^0.1.14", "target": null, "version_id": 52000
+      },
+      {
+        "crate_id": "uuid", "default_features": true, "downloads": 0,
+        "features": [], "id": 198369, "kind": "normal", "optional": true,
+        "req": ">=0.4, <0.6", "target": null, "version_id": 52000
+      }
+    ],
+    "dl_path": "/api/v1/crates/postgres-shared/0.2.1/download",
+    "downloads": 3021,
+    "features": {
+      "with-bit-vec": ["bit-vec"], "with-chrono": ["chrono"],
+      "with-eui48": ["eui48"], "with-geo": ["geo"],
+      "with-rustc-serialize": ["rustc-serialize"],
+      "with-serde_json": ["serde_json"], "with-time": ["time"],
+      "with-uuid": ["uuid"]
+    },
+    "id": 52000, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/postgres-shared/0.2.1/authors",
+      "dependencies": "/api/v1/crates/postgres-shared/0.2.1/dependencies",
+      "version_downloads": "/api/v1/crates/postgres-shared/0.2.1/downloads"
+    },
+    "num": "0.2.1", "published_by": null,
+    "readme_path": "/api/v1/crates/postgres-shared/0.2.1/readme",
+    "updated_at": "2017-11-30T02:28:23.725969+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Steven Fackler <sfackler@gmail.com>"]},
+      "users": []
+    },
+    "crate": "postgres-shared", "crate_size": null,
+    "created_at": "2017-06-11T20:07:47.437750+00:00",
+    "dependencies": [
+      {
+        "crate_id": "fallible-iterator", "default_features": true,
+        "downloads": 0, "features": [], "id": 221808, "kind": "normal",
+        "optional": false, "req": "^0.1.3", "target": null,
+        "version_id": 56440
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 221802, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 56440
+      },
+      {
+        "crate_id": "phf", "default_features": true, "downloads": 0,
+        "features": [], "id": 221809, "kind": "normal", "optional": false,
+        "req": "=0.7.21", "target": null, "version_id": 56440
+      },
+      {
+        "crate_id": "postgres-protocol", "default_features": true,
+        "downloads": 0, "features": [], "id": 221801, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 56440
+      },
+      {
+        "crate_id": "bit-vec", "default_features": true, "downloads": 0,
+        "features": [], "id": 221806, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 56440
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 221805, "kind": "normal", "optional": true,
+        "req": "^0.3", "target": null, "version_id": 56440
+      },
+      {
+        "crate_id": "eui48", "default_features": true, "downloads": 0,
+        "features": [], "id": 221803, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 56440
+      },
+      {
+        "crate_id": "geo", "default_features": true, "downloads": 0,
+        "features": [], "id": 221804, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 56440
+      },
+      {
+        "crate_id": "rustc-serialize", "default_features": true,
+        "downloads": 0, "features": [], "id": 221810, "kind": "normal",
+        "optional": true, "req": "^0.3", "target": null,
+        "version_id": 56440
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 221807, "kind": "normal", "optional": true,
+        "req": ">=0.9, <2.0", "target": null, "version_id": 56440
+      },
+      {
+        "crate_id": "time", "default_features": true, "downloads": 0,
+        "features": [], "id": 221811, "kind": "normal", "optional": true,
+        "req": "^0.1.14", "target": null, "version_id": 56440
+      },
+      {
+        "crate_id": "uuid", "default_features": true, "downloads": 0,
+        "features": [], "id": 221812, "kind": "normal", "optional": true,
+        "req": ">=0.4, <0.6", "target": null, "version_id": 56440
+      }
+    ],
+    "dl_path": "/api/v1/crates/postgres-shared/0.3.0/download",
+    "downloads": 8479,
+    "features": {
+      "with-bit-vec": ["bit-vec"], "with-chrono": ["chrono"],
+      "with-eui48": ["eui48"], "with-geo": ["geo"],
+      "with-rustc-serialize": ["rustc-serialize"],
+      "with-serde_json": ["serde_json"], "with-time": ["time"],
+      "with-uuid": ["uuid"]
+    },
+    "id": 56440, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/postgres-shared/0.3.0/authors",
+      "dependencies": "/api/v1/crates/postgres-shared/0.3.0/dependencies",
+      "version_downloads": "/api/v1/crates/postgres-shared/0.3.0/downloads"
+    },
+    "num": "0.3.0", "published_by": null,
+    "readme_path": "/api/v1/crates/postgres-shared/0.3.0/readme",
+    "updated_at": "2017-11-30T03:10:59.812995+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Steven Fackler <sfackler@gmail.com>"]},
+      "users": []
+    },
+    "crate": "postgres-shared", "crate_size": null,
+    "created_at": "2017-07-23T19:44:24.757967+00:00",
+    "dependencies": [
+      {
+        "crate_id": "fallible-iterator", "default_features": true,
+        "downloads": 0, "features": [], "id": 242541, "kind": "normal",
+        "optional": false, "req": "^0.1.3", "target": null,
+        "version_id": 60479
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 242539, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 60479
+      },
+      {
+        "crate_id": "phf", "default_features": true, "downloads": 0,
+        "features": [], "id": 242544, "kind": "normal", "optional": false,
+        "req": "=0.7.21", "target": null, "version_id": 60479
+      },
+      {
+        "crate_id": "postgres-protocol", "default_features": true,
+        "downloads": 0, "features": [], "id": 242536, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 60479
+      },
+      {
+        "crate_id": "bit-vec", "default_features": true, "downloads": 0,
+        "features": [], "id": 242537, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 60479
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 242542, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 60479
+      },
+      {
+        "crate_id": "eui48", "default_features": true, "downloads": 0,
+        "features": [], "id": 242543, "kind": "normal", "optional": true,
+        "req": "^0.3", "target": null, "version_id": 60479
+      },
+      {
+        "crate_id": "geo", "default_features": true, "downloads": 0,
+        "features": [], "id": 242534, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 60479
+      },
+      {
+        "crate_id": "rustc-serialize", "default_features": true,
+        "downloads": 0, "features": [], "id": 242538, "kind": "normal",
+        "optional": true, "req": "^0.3", "target": null,
+        "version_id": 60479
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 242540, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 60479
+      },
+      {
+        "crate_id": "time", "default_features": true, "downloads": 0,
+        "features": [], "id": 242533, "kind": "normal", "optional": true,
+        "req": "^0.1.14", "target": null, "version_id": 60479
+      },
+      {
+        "crate_id": "uuid", "default_features": true, "downloads": 0,
+        "features": [], "id": 242535, "kind": "normal", "optional": true,
+        "req": "^0.5", "target": null, "version_id": 60479
+      }
+    ],
+    "dl_path": "/api/v1/crates/postgres-shared/0.4.0/download",
+    "downloads": 16552,
+    "features": {
+      "with-bit-vec": ["bit-vec"], "with-chrono": ["chrono"],
+      "with-eui48": ["eui48"], "with-geo": ["geo"],
+      "with-rustc-serialize": ["rustc-serialize"],
+      "with-serde_json": ["serde_json"], "with-time": ["time"],
+      "with-uuid": ["uuid"]
+    },
+    "id": 60479, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/postgres-shared/0.4.0/authors",
+      "dependencies": "/api/v1/crates/postgres-shared/0.4.0/dependencies",
+      "version_downloads": "/api/v1/crates/postgres-shared/0.4.0/downloads"
+    },
+    "num": "0.4.0", "published_by": null,
+    "readme_path": "/api/v1/crates/postgres-shared/0.4.0/readme",
+    "updated_at": "2017-11-30T03:00:17.085946+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Steven Fackler <sfackler@gmail.com>"]},
+      "users": []
+    },
+    "crate": "postgres-shared", "crate_size": null,
+    "created_at": "2018-02-12T01:18:12.605671+00:00",
+    "dependencies": [
+      {
+        "crate_id": "fallible-iterator", "default_features": true,
+        "downloads": 0, "features": [], "id": 351500, "kind": "normal",
+        "optional": false, "req": "^0.1.3", "target": null,
+        "version_id": 80789
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 351502, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 80789
+      },
+      {
+        "crate_id": "phf", "default_features": true, "downloads": 0,
+        "features": [], "id": 351503, "kind": "normal", "optional": false,
+        "req": "=0.7.21", "target": null, "version_id": 80789
+      },
+      {
+        "crate_id": "postgres-protocol", "default_features": true,
+        "downloads": 0, "features": [], "id": 351504, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 80789
+      },
+      {
+        "crate_id": "bit-vec", "default_features": true, "downloads": 0,
+        "features": [], "id": 351497, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 80789
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 351498, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 80789
+      },
+      {
+        "crate_id": "eui48", "default_features": true, "downloads": 0,
+        "features": [], "id": 351499, "kind": "normal", "optional": true,
+        "req": "^0.3", "target": null, "version_id": 80789
+      },
+      {
+        "crate_id": "geo", "default_features": true, "downloads": 0,
+        "features": [], "id": 351501, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 80789
+      },
+      {
+        "crate_id": "rustc-serialize", "default_features": true,
+        "downloads": 0, "features": [], "id": 351505, "kind": "normal",
+        "optional": true, "req": "^0.3", "target": null,
+        "version_id": 80789
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 351506, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 80789
+      },
+      {
+        "crate_id": "time", "default_features": true, "downloads": 0,
+        "features": [], "id": 351507, "kind": "normal", "optional": true,
+        "req": "^0.1.14", "target": null, "version_id": 80789
+      },
+      {
+        "crate_id": "uuid", "default_features": true, "downloads": 0,
+        "features": [], "id": 351508, "kind": "normal", "optional": true,
+        "req": "^0.5", "target": null, "version_id": 80789
+      }
+    ],
+    "dl_path": "/api/v1/crates/postgres-shared/0.4.1/download",
+    "downloads": 43074,
+    "features": {
+      "with-bit-vec": ["bit-vec"], "with-chrono": ["chrono"],
+      "with-eui48": ["eui48"], "with-geo": ["geo"],
+      "with-rustc-serialize": ["rustc-serialize"],
+      "with-serde_json": ["serde_json"], "with-time": ["time"],
+      "with-uuid": ["uuid"]
+    },
+    "id": 80789, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/postgres-shared/0.4.1/authors",
+      "dependencies": "/api/v1/crates/postgres-shared/0.4.1/dependencies",
+      "version_downloads": "/api/v1/crates/postgres-shared/0.4.1/downloads"
+    },
+    "num": "0.4.1", "published_by": null,
+    "readme_path": "/api/v1/crates/postgres-shared/0.4.1/readme",
+    "updated_at": "2018-02-12T01:18:12.605671+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Steven Fackler <sfackler@gmail.com>"]},
+      "users": []
+    },
+    "crate": "postgres-shared", "crate_size": 32801,
+    "created_at": "2018-08-23T05:36:39.816015+00:00",
+    "dependencies": [
+      {
+        "crate_id": "fallible-iterator", "default_features": true,
+        "downloads": 0, "features": [], "id": 484331, "kind": "normal",
+        "optional": false, "req": "^0.1.3", "target": null,
+        "version_id": 105002
+      },
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 484333, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 105002
+      },
+      {
+        "crate_id": "phf", "default_features": true, "downloads": 0,
+        "features": [], "id": 484334, "kind": "normal", "optional": false,
+        "req": "^0.7.22", "target": null, "version_id": 105002
+      },
+      {
+        "crate_id": "postgres-protocol", "default_features": true,
+        "downloads": 0, "features": [], "id": 484335, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 105002
+      },
+      {
+        "crate_id": "bit-vec", "default_features": true, "downloads": 0,
+        "features": [], "id": 484328, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 105002
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 484329, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 105002
+      },
+      {
+        "crate_id": "eui48", "default_features": true, "downloads": 0,
+        "features": [], "id": 484330, "kind": "normal", "optional": true,
+        "req": "^0.3", "target": null, "version_id": 105002
+      },
+      {
+        "crate_id": "geo", "default_features": true, "downloads": 0,
+        "features": [], "id": 484332, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 105002
+      },
+      {
+        "crate_id": "rustc-serialize", "default_features": true,
+        "downloads": 0, "features": [], "id": 484336, "kind": "normal",
+        "optional": true, "req": "^0.3", "target": null,
+        "version_id": 105002
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 484337, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 105002
+      },
+      {
+        "crate_id": "time", "default_features": true, "downloads": 0,
+        "features": [], "id": 484338, "kind": "normal", "optional": true,
+        "req": "^0.1.14", "target": null, "version_id": 105002
+      },
+      {
+        "crate_id": "uuid", "default_features": true, "downloads": 0,
+        "features": [], "id": 484339, "kind": "normal", "optional": true,
+        "req": "^0.5", "target": null, "version_id": 105002
+      }
+    ],
+    "dl_path": "/api/v1/crates/postgres-shared/0.4.2/download",
+    "downloads": 324256,
+    "features": {
+      "with-bit-vec": ["bit-vec"], "with-chrono": ["chrono"],
+      "with-eui48": ["eui48"], "with-geo": ["geo"],
+      "with-rustc-serialize": ["rustc-serialize"],
+      "with-serde_json": ["serde_json"], "with-time": ["time"],
+      "with-uuid": ["uuid"]
+    },
+    "id": 105002, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/postgres-shared/0.4.2/authors",
+      "dependencies": "/api/v1/crates/postgres-shared/0.4.2/dependencies",
+      "version_downloads": "/api/v1/crates/postgres-shared/0.4.2/downloads"
+    },
+    "num": "0.4.2", "published_by": null,
+    "readme_path": "/api/v1/crates/postgres-shared/0.4.2/readme",
+    "updated_at": "2018-08-23T05:36:39.816015+00:00", "yanked": false
+  }
+]

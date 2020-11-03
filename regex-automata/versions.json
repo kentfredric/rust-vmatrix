@@ -1,0 +1,761 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Andrew Gallant <jamslam@gmail.com>"]},
+      "users": []
+    },
+    "crate": "regex-automata", "crate_size": 880,
+    "created_at": "2019-01-02T22:11:41.647566+00:00",
+    "dependencies": [],
+    "dl_path": "/api/v1/crates/regex-automata/0.0.1/download",
+    "downloads": 178, "features": {}, "id": 125228,
+    "license": "Unlicense/MIT",
+    "links": {
+      "authors": "/api/v1/crates/regex-automata/0.0.1/authors",
+      "dependencies": "/api/v1/crates/regex-automata/0.0.1/dependencies",
+      "version_downloads": "/api/v1/crates/regex-automata/0.0.1/downloads"
+    },
+    "num": "0.0.1", "published_by": null,
+    "readme_path": "/api/v1/crates/regex-automata/0.0.1/readme",
+    "updated_at": "2019-01-02T22:11:41.647566+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Andrew Gallant <jamslam@gmail.com>"]},
+      "users": []
+    },
+    "crate": "regex-automata", "crate_size": 90867,
+    "created_at": "2019-01-04T02:46:13.085213+00:00",
+    "dependencies": [
+      {
+        "crate_id": "byteorder", "default_features": false, "downloads": 0,
+        "features": [], "id": 600112, "kind": "normal", "optional": false,
+        "req": "^1.2.7", "target": null, "version_id": 125446
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 600115, "kind": "dev", "optional": false,
+        "req": "^1.2.0", "target": null, "version_id": 125446
+      },
+      {
+        "crate_id": "regex", "default_features": true, "downloads": 0,
+        "features": [], "id": 600116, "kind": "dev", "optional": false,
+        "req": "^1.1", "target": null, "version_id": 125446
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 600117, "kind": "dev", "optional": false,
+        "req": "^1.0.82", "target": null, "version_id": 125446
+      },
+      {
+        "crate_id": "serde_bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 600118, "kind": "dev", "optional": false,
+        "req": "^0.10.4", "target": null, "version_id": 125446
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 600119, "kind": "dev",
+        "optional": false, "req": "^1.0.82", "target": null,
+        "version_id": 125446
+      },
+      {
+        "crate_id": "toml", "default_features": true, "downloads": 0,
+        "features": [], "id": 600120, "kind": "dev", "optional": false,
+        "req": "^0.4.10", "target": null, "version_id": 125446
+      },
+      {
+        "crate_id": "regex-syntax", "default_features": true,
+        "downloads": 0, "features": [], "id": 600113, "kind": "normal",
+        "optional": true, "req": "^0.6.4", "target": null,
+        "version_id": 125446
+      },
+      {
+        "crate_id": "utf8-ranges", "default_features": true, "downloads": 0,
+        "features": [], "id": 600114, "kind": "normal", "optional": true,
+        "req": "^1", "target": null, "version_id": 125446
+      }
+    ],
+    "dl_path": "/api/v1/crates/regex-automata/0.1.0/download",
+    "downloads": 171,
+    "features": {"default": ["std"], "std": ["regex-syntax", "utf8-ranges"]},
+    "id": 125446, "license": "Unlicense/MIT",
+    "links": {
+      "authors": "/api/v1/crates/regex-automata/0.1.0/authors",
+      "dependencies": "/api/v1/crates/regex-automata/0.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/regex-automata/0.1.0/downloads"
+    },
+    "num": "0.1.0", "published_by": null,
+    "readme_path": "/api/v1/crates/regex-automata/0.1.0/readme",
+    "updated_at": "2019-01-04T02:46:13.085213+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Andrew Gallant <jamslam@gmail.com>"]},
+      "users": []
+    },
+    "crate": "regex-automata", "crate_size": 90867,
+    "created_at": "2019-01-04T02:47:00.162702+00:00",
+    "dependencies": [
+      {
+        "crate_id": "byteorder", "default_features": false, "downloads": 0,
+        "features": [], "id": 600121, "kind": "normal", "optional": false,
+        "req": "^1.2.7", "target": null, "version_id": 125447
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 600124, "kind": "dev", "optional": false,
+        "req": "^1.2.0", "target": null, "version_id": 125447
+      },
+      {
+        "crate_id": "regex", "default_features": true, "downloads": 0,
+        "features": [], "id": 600125, "kind": "dev", "optional": false,
+        "req": "^1.1", "target": null, "version_id": 125447
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 600126, "kind": "dev", "optional": false,
+        "req": "^1.0.82", "target": null, "version_id": 125447
+      },
+      {
+        "crate_id": "serde_bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 600127, "kind": "dev", "optional": false,
+        "req": "^0.10.4", "target": null, "version_id": 125447
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 600128, "kind": "dev",
+        "optional": false, "req": "^1.0.82", "target": null,
+        "version_id": 125447
+      },
+      {
+        "crate_id": "toml", "default_features": true, "downloads": 0,
+        "features": [], "id": 600129, "kind": "dev", "optional": false,
+        "req": "^0.4.10", "target": null, "version_id": 125447
+      },
+      {
+        "crate_id": "regex-syntax", "default_features": true,
+        "downloads": 0, "features": [], "id": 600122, "kind": "normal",
+        "optional": true, "req": "^0.6.4", "target": null,
+        "version_id": 125447
+      },
+      {
+        "crate_id": "utf8-ranges", "default_features": true, "downloads": 0,
+        "features": [], "id": 600123, "kind": "normal", "optional": true,
+        "req": "^1", "target": null, "version_id": 125447
+      }
+    ],
+    "dl_path": "/api/v1/crates/regex-automata/0.1.1/download",
+    "downloads": 208,
+    "features": {"default": ["std"], "std": ["regex-syntax", "utf8-ranges"]},
+    "id": 125447, "license": "Unlicense/MIT",
+    "links": {
+      "authors": "/api/v1/crates/regex-automata/0.1.1/authors",
+      "dependencies": "/api/v1/crates/regex-automata/0.1.1/dependencies",
+      "version_downloads": "/api/v1/crates/regex-automata/0.1.1/downloads"
+    },
+    "num": "0.1.1", "published_by": null,
+    "readme_path": "/api/v1/crates/regex-automata/0.1.1/readme",
+    "updated_at": "2019-01-04T02:47:00.162702+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Andrew Gallant <jamslam@gmail.com>"]},
+      "users": []
+    },
+    "crate": "regex-automata", "crate_size": 90944,
+    "created_at": "2019-01-04T02:53:10.406894+00:00",
+    "dependencies": [
+      {
+        "crate_id": "byteorder", "default_features": false, "downloads": 0,
+        "features": [], "id": 600130, "kind": "normal", "optional": false,
+        "req": "^1.2.7", "target": null, "version_id": 125448
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 600133, "kind": "dev", "optional": false,
+        "req": "^1.2.0", "target": null, "version_id": 125448
+      },
+      {
+        "crate_id": "regex", "default_features": true, "downloads": 0,
+        "features": [], "id": 600134, "kind": "dev", "optional": false,
+        "req": "^1.1", "target": null, "version_id": 125448
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 600135, "kind": "dev", "optional": false,
+        "req": "^1.0.82", "target": null, "version_id": 125448
+      },
+      {
+        "crate_id": "serde_bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 600136, "kind": "dev", "optional": false,
+        "req": "^0.10.4", "target": null, "version_id": 125448
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 600137, "kind": "dev",
+        "optional": false, "req": "^1.0.82", "target": null,
+        "version_id": 125448
+      },
+      {
+        "crate_id": "toml", "default_features": true, "downloads": 0,
+        "features": [], "id": 600138, "kind": "dev", "optional": false,
+        "req": "^0.4.10", "target": null, "version_id": 125448
+      },
+      {
+        "crate_id": "regex-syntax", "default_features": true,
+        "downloads": 0, "features": [], "id": 600131, "kind": "normal",
+        "optional": true, "req": "^0.6.4", "target": null,
+        "version_id": 125448
+      },
+      {
+        "crate_id": "utf8-ranges", "default_features": true, "downloads": 0,
+        "features": [], "id": 600132, "kind": "normal", "optional": true,
+        "req": "^1", "target": null, "version_id": 125448
+      }
+    ],
+    "dl_path": "/api/v1/crates/regex-automata/0.1.2/download",
+    "downloads": 249,
+    "features": {"default": ["std"], "std": ["regex-syntax", "utf8-ranges"]},
+    "id": 125448, "license": "Unlicense/MIT",
+    "links": {
+      "authors": "/api/v1/crates/regex-automata/0.1.2/authors",
+      "dependencies": "/api/v1/crates/regex-automata/0.1.2/dependencies",
+      "version_downloads": "/api/v1/crates/regex-automata/0.1.2/downloads"
+    },
+    "num": "0.1.2", "published_by": null,
+    "readme_path": "/api/v1/crates/regex-automata/0.1.2/readme",
+    "updated_at": "2019-01-04T02:53:10.406894+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Andrew Gallant <jamslam@gmail.com>"]},
+      "users": []
+    },
+    "crate": "regex-automata", "crate_size": 92123,
+    "created_at": "2019-01-06T16:15:18.478015+00:00",
+    "dependencies": [
+      {
+        "crate_id": "byteorder", "default_features": false, "downloads": 0,
+        "features": [], "id": 602497, "kind": "normal", "optional": false,
+        "req": "^1.2.7", "target": null, "version_id": 125913
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 602500, "kind": "dev", "optional": false,
+        "req": "^1.2.0", "target": null, "version_id": 125913
+      },
+      {
+        "crate_id": "regex", "default_features": true, "downloads": 0,
+        "features": [], "id": 602501, "kind": "dev", "optional": false,
+        "req": "^1.1", "target": null, "version_id": 125913
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 602502, "kind": "dev", "optional": false,
+        "req": "^1.0.82", "target": null, "version_id": 125913
+      },
+      {
+        "crate_id": "serde_bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 602503, "kind": "dev", "optional": false,
+        "req": "^0.10.4", "target": null, "version_id": 125913
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 602504, "kind": "dev",
+        "optional": false, "req": "^1.0.82", "target": null,
+        "version_id": 125913
+      },
+      {
+        "crate_id": "toml", "default_features": true, "downloads": 0,
+        "features": [], "id": 602505, "kind": "dev", "optional": false,
+        "req": "^0.4.10", "target": null, "version_id": 125913
+      },
+      {
+        "crate_id": "regex-syntax", "default_features": true,
+        "downloads": 0, "features": [], "id": 602498, "kind": "normal",
+        "optional": true, "req": "^0.6.4", "target": null,
+        "version_id": 125913
+      },
+      {
+        "crate_id": "utf8-ranges", "default_features": true, "downloads": 0,
+        "features": [], "id": 602499, "kind": "normal", "optional": true,
+        "req": "^1", "target": null, "version_id": 125913
+      }
+    ],
+    "dl_path": "/api/v1/crates/regex-automata/0.1.3/download",
+    "downloads": 220,
+    "features": {"default": ["std"], "std": ["regex-syntax", "utf8-ranges"]},
+    "id": 125913, "license": "Unlicense/MIT",
+    "links": {
+      "authors": "/api/v1/crates/regex-automata/0.1.3/authors",
+      "dependencies": "/api/v1/crates/regex-automata/0.1.3/dependencies",
+      "version_downloads": "/api/v1/crates/regex-automata/0.1.3/downloads"
+    },
+    "num": "0.1.3", "published_by": null,
+    "readme_path": "/api/v1/crates/regex-automata/0.1.3/readme",
+    "updated_at": "2019-01-06T16:15:18.478015+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Andrew Gallant <jamslam@gmail.com>"]},
+      "users": []
+    },
+    "crate": "regex-automata", "crate_size": 92134,
+    "created_at": "2019-01-10T01:27:26.590694+00:00",
+    "dependencies": [
+      {
+        "crate_id": "byteorder", "default_features": false, "downloads": 0,
+        "features": [], "id": 606199, "kind": "normal", "optional": false,
+        "req": "^1.2.7", "target": null, "version_id": 127415
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 606202, "kind": "dev", "optional": false,
+        "req": "^1.2.0", "target": null, "version_id": 127415
+      },
+      {
+        "crate_id": "regex", "default_features": true, "downloads": 0,
+        "features": [], "id": 606203, "kind": "dev", "optional": false,
+        "req": "^1.1", "target": null, "version_id": 127415
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 606204, "kind": "dev", "optional": false,
+        "req": "^1.0.82", "target": null, "version_id": 127415
+      },
+      {
+        "crate_id": "serde_bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 606205, "kind": "dev", "optional": false,
+        "req": "^0.10.4", "target": null, "version_id": 127415
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 606206, "kind": "dev",
+        "optional": false, "req": "^1.0.82", "target": null,
+        "version_id": 127415
+      },
+      {
+        "crate_id": "toml", "default_features": true, "downloads": 0,
+        "features": [], "id": 606207, "kind": "dev", "optional": false,
+        "req": "^0.4.10", "target": null, "version_id": 127415
+      },
+      {
+        "crate_id": "regex-syntax", "default_features": true,
+        "downloads": 0, "features": [], "id": 606200, "kind": "normal",
+        "optional": true, "req": "^0.6.4", "target": null,
+        "version_id": 127415
+      },
+      {
+        "crate_id": "utf8-ranges", "default_features": true, "downloads": 0,
+        "features": [], "id": 606201, "kind": "normal", "optional": true,
+        "req": "^1", "target": null, "version_id": 127415
+      }
+    ],
+    "dl_path": "/api/v1/crates/regex-automata/0.1.4/download",
+    "downloads": 161,
+    "features": {"default": ["std"], "std": ["regex-syntax", "utf8-ranges"]},
+    "id": 127415, "license": "Unlicense/MIT",
+    "links": {
+      "authors": "/api/v1/crates/regex-automata/0.1.4/authors",
+      "dependencies": "/api/v1/crates/regex-automata/0.1.4/dependencies",
+      "version_downloads": "/api/v1/crates/regex-automata/0.1.4/downloads"
+    },
+    "num": "0.1.4", "published_by": null,
+    "readme_path": "/api/v1/crates/regex-automata/0.1.4/readme",
+    "updated_at": "2019-01-10T01:29:02.706291+00:00", "yanked": true
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Andrew Gallant <jamslam@gmail.com>"]},
+      "users": []
+    },
+    "crate": "regex-automata", "crate_size": 92132,
+    "created_at": "2019-01-10T01:29:41.365354+00:00",
+    "dependencies": [
+      {
+        "crate_id": "byteorder", "default_features": false, "downloads": 0,
+        "features": [], "id": 606208, "kind": "normal", "optional": false,
+        "req": "^1.2.7", "target": null, "version_id": 127416
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 606211, "kind": "dev", "optional": false,
+        "req": "^1.2.0", "target": null, "version_id": 127416
+      },
+      {
+        "crate_id": "regex", "default_features": true, "downloads": 0,
+        "features": [], "id": 606212, "kind": "dev", "optional": false,
+        "req": "^1.1", "target": null, "version_id": 127416
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 606213, "kind": "dev", "optional": false,
+        "req": "^1.0.82", "target": null, "version_id": 127416
+      },
+      {
+        "crate_id": "serde_bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 606214, "kind": "dev", "optional": false,
+        "req": "^0.10.4", "target": null, "version_id": 127416
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 606215, "kind": "dev",
+        "optional": false, "req": "^1.0.82", "target": null,
+        "version_id": 127416
+      },
+      {
+        "crate_id": "toml", "default_features": true, "downloads": 0,
+        "features": [], "id": 606216, "kind": "dev", "optional": false,
+        "req": "^0.4.10", "target": null, "version_id": 127416
+      },
+      {
+        "crate_id": "regex-syntax", "default_features": true,
+        "downloads": 0, "features": [], "id": 606209, "kind": "normal",
+        "optional": true, "req": "^0.6.4", "target": null,
+        "version_id": 127416
+      },
+      {
+        "crate_id": "utf8-ranges", "default_features": true, "downloads": 0,
+        "features": [], "id": 606210, "kind": "normal", "optional": true,
+        "req": "^1", "target": null, "version_id": 127416
+      }
+    ],
+    "dl_path": "/api/v1/crates/regex-automata/0.1.5/download",
+    "downloads": 1154,
+    "features": {"default": ["std"], "std": ["regex-syntax", "utf8-ranges"]},
+    "id": 127416, "license": "Unlicense/MIT",
+    "links": {
+      "authors": "/api/v1/crates/regex-automata/0.1.5/authors",
+      "dependencies": "/api/v1/crates/regex-automata/0.1.5/dependencies",
+      "version_downloads": "/api/v1/crates/regex-automata/0.1.5/downloads"
+    },
+    "num": "0.1.5", "published_by": null,
+    "readme_path": "/api/v1/crates/regex-automata/0.1.5/readme",
+    "updated_at": "2019-01-10T01:29:41.365354+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Andrew Gallant <jamslam@gmail.com>"]},
+      "users": []
+    },
+    "crate": "regex-automata", "crate_size": 92110,
+    "created_at": "2019-02-25T22:08:38.877296+00:00",
+    "dependencies": [
+      {
+        "crate_id": "byteorder", "default_features": false, "downloads": 0,
+        "features": [], "id": 656512, "kind": "normal", "optional": false,
+        "req": "^1.2.7", "target": null, "version_id": 135937
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 656515, "kind": "dev", "optional": false,
+        "req": "^1.2.0", "target": null, "version_id": 135937
+      },
+      {
+        "crate_id": "regex", "default_features": true, "downloads": 0,
+        "features": [], "id": 656516, "kind": "dev", "optional": false,
+        "req": "^1.1", "target": null, "version_id": 135937
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 656517, "kind": "dev", "optional": false,
+        "req": "^1.0.82", "target": null, "version_id": 135937
+      },
+      {
+        "crate_id": "serde_bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 656518, "kind": "dev", "optional": false,
+        "req": "^0.10.4", "target": null, "version_id": 135937
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 656519, "kind": "dev",
+        "optional": false, "req": "^1.0.82", "target": null,
+        "version_id": 135937
+      },
+      {
+        "crate_id": "toml", "default_features": true, "downloads": 0,
+        "features": [], "id": 656520, "kind": "dev", "optional": false,
+        "req": "^0.4.10", "target": null, "version_id": 135937
+      },
+      {
+        "crate_id": "regex-syntax", "default_features": true,
+        "downloads": 0, "features": [], "id": 656513, "kind": "normal",
+        "optional": true, "req": "^0.6.4", "target": null,
+        "version_id": 135937
+      },
+      {
+        "crate_id": "utf8-ranges", "default_features": true, "downloads": 0,
+        "features": [], "id": 656514, "kind": "normal", "optional": true,
+        "req": "^1", "target": null, "version_id": 135937
+      }
+    ],
+    "dl_path": "/api/v1/crates/regex-automata/0.1.6/download",
+    "downloads": 14315,
+    "features": {"default": ["std"], "std": ["regex-syntax", "utf8-ranges"]},
+    "id": 135937, "license": "Unlicense/MIT",
+    "links": {
+      "authors": "/api/v1/crates/regex-automata/0.1.6/authors",
+      "dependencies": "/api/v1/crates/regex-automata/0.1.6/dependencies",
+      "version_downloads": "/api/v1/crates/regex-automata/0.1.6/downloads"
+    },
+    "num": "0.1.6",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/456674?v=4",
+      "id": 189, "login": "BurntSushi", "name": "Andrew Gallant",
+      "url": "https://github.com/BurntSushi"
+    },
+    "readme_path": "/api/v1/crates/regex-automata/0.1.6/readme",
+    "updated_at": "2019-02-25T22:08:38.877296+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Andrew Gallant <jamslam@gmail.com>"]},
+      "users": []
+    },
+    "crate": "regex-automata", "crate_size": 92106,
+    "created_at": "2019-06-09T12:37:35.441931+00:00",
+    "dependencies": [
+      {
+        "crate_id": "byteorder", "default_features": false, "downloads": 0,
+        "features": [], "id": 769501, "kind": "normal", "optional": false,
+        "req": "^1.2.7", "target": null, "version_id": 155413
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 769504, "kind": "dev", "optional": false,
+        "req": "^1.2.0", "target": null, "version_id": 155413
+      },
+      {
+        "crate_id": "regex", "default_features": true, "downloads": 0,
+        "features": [], "id": 769505, "kind": "dev", "optional": false,
+        "req": "^1.1", "target": null, "version_id": 155413
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 769506, "kind": "dev", "optional": false,
+        "req": "^1.0.82", "target": null, "version_id": 155413
+      },
+      {
+        "crate_id": "serde_bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 769507, "kind": "dev", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 155413
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 769508, "kind": "dev",
+        "optional": false, "req": "^1.0.82", "target": null,
+        "version_id": 155413
+      },
+      {
+        "crate_id": "toml", "default_features": true, "downloads": 0,
+        "features": [], "id": 769509, "kind": "dev", "optional": false,
+        "req": "^0.4.10", "target": null, "version_id": 155413
+      },
+      {
+        "crate_id": "regex-syntax", "default_features": true,
+        "downloads": 0, "features": [], "id": 769502, "kind": "normal",
+        "optional": true, "req": "^0.6.4", "target": null,
+        "version_id": 155413
+      },
+      {
+        "crate_id": "utf8-ranges", "default_features": true, "downloads": 0,
+        "features": [], "id": 769503, "kind": "normal", "optional": true,
+        "req": "^1", "target": null, "version_id": 155413
+      }
+    ],
+    "dl_path": "/api/v1/crates/regex-automata/0.1.7/download",
+    "downloads": 248305,
+    "features": {"default": ["std"], "std": ["regex-syntax", "utf8-ranges"]},
+    "id": 155413, "license": "Unlicense/MIT",
+    "links": {
+      "authors": "/api/v1/crates/regex-automata/0.1.7/authors",
+      "dependencies": "/api/v1/crates/regex-automata/0.1.7/dependencies",
+      "version_downloads": "/api/v1/crates/regex-automata/0.1.7/downloads"
+    },
+    "num": "0.1.7",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/456674?v=4",
+      "id": 189, "login": "BurntSushi", "name": "Andrew Gallant",
+      "url": "https://github.com/BurntSushi"
+    },
+    "readme_path": "/api/v1/crates/regex-automata/0.1.7/readme",
+    "updated_at": "2019-06-09T12:37:35.441931+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Andrew Gallant <jamslam@gmail.com>"]},
+      "users": []
+    },
+    "crate": "regex-automata", "crate_size": 92234,
+    "created_at": "2019-07-21T15:16:18.794708+00:00",
+    "dependencies": [
+      {
+        "crate_id": "byteorder", "default_features": false, "downloads": 0,
+        "features": [], "id": 830098, "kind": "normal", "optional": false,
+        "req": "^1.2.7", "target": null, "version_id": 164304
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 830101, "kind": "dev", "optional": false,
+        "req": "^1.2.0", "target": null, "version_id": 164304
+      },
+      {
+        "crate_id": "regex", "default_features": true, "downloads": 0,
+        "features": [], "id": 830102, "kind": "dev", "optional": false,
+        "req": "^1.1", "target": null, "version_id": 164304
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 830103, "kind": "dev", "optional": false,
+        "req": "^1.0.82", "target": null, "version_id": 164304
+      },
+      {
+        "crate_id": "serde_bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 830104, "kind": "dev", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 164304
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 830105, "kind": "dev",
+        "optional": false, "req": "^1.0.82", "target": null,
+        "version_id": 164304
+      },
+      {
+        "crate_id": "toml", "default_features": true, "downloads": 0,
+        "features": [], "id": 830106, "kind": "dev", "optional": false,
+        "req": "^0.4.10", "target": null, "version_id": 164304
+      },
+      {
+        "crate_id": "regex-syntax", "default_features": true,
+        "downloads": 0, "features": [], "id": 830099, "kind": "normal",
+        "optional": true, "req": "^0.6.4", "target": null,
+        "version_id": 164304
+      },
+      {
+        "crate_id": "utf8-ranges", "default_features": true, "downloads": 0,
+        "features": [], "id": 830100, "kind": "normal", "optional": true,
+        "req": "^1", "target": null, "version_id": 164304
+      }
+    ],
+    "dl_path": "/api/v1/crates/regex-automata/0.1.8/download",
+    "downloads": 1760840,
+    "features": {"default": ["std"], "std": ["regex-syntax", "utf8-ranges"]},
+    "id": 164304, "license": "Unlicense/MIT",
+    "links": {
+      "authors": "/api/v1/crates/regex-automata/0.1.8/authors",
+      "dependencies": "/api/v1/crates/regex-automata/0.1.8/dependencies",
+      "version_downloads": "/api/v1/crates/regex-automata/0.1.8/downloads"
+    },
+    "num": "0.1.8",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/456674?v=4",
+      "id": 189, "login": "BurntSushi", "name": "Andrew Gallant",
+      "url": "https://github.com/BurntSushi"
+    },
+    "readme_path": "/api/v1/crates/regex-automata/0.1.8/readme",
+    "updated_at": "2019-07-21T15:16:18.794708+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-03-09T00:15:24.254957+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/456674?v=4",
+          "id": 189, "login": "BurntSushi", "name": "Andrew Gallant",
+          "url": "https://github.com/BurntSushi"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Andrew Gallant <jamslam@gmail.com>"]},
+      "users": []
+    },
+    "crate": "regex-automata", "crate_size": 114560,
+    "created_at": "2020-03-09T00:15:24.254957+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bstr", "default_features": false, "downloads": 0,
+        "features": ["std"], "id": 1205749, "kind": "dev",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 219302
+      },
+      {
+        "crate_id": "byteorder", "default_features": false, "downloads": 0,
+        "features": [], "id": 1205746, "kind": "normal", "optional": false,
+        "req": "^1.2.7", "target": null, "version_id": 219302
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1205750, "kind": "dev", "optional": false,
+        "req": "^1.2.0", "target": null, "version_id": 219302
+      },
+      {
+        "crate_id": "regex", "default_features": true, "downloads": 0,
+        "features": [], "id": 1205751, "kind": "dev", "optional": false,
+        "req": "^1.1", "target": null, "version_id": 219302
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 1205752, "kind": "dev", "optional": false,
+        "req": "^1.0.82", "target": null, "version_id": 219302
+      },
+      {
+        "crate_id": "serde_bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1205753, "kind": "dev", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 219302
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 1205754, "kind": "dev",
+        "optional": false, "req": "^1.0.82", "target": null,
+        "version_id": 219302
+      },
+      {
+        "crate_id": "toml", "default_features": true, "downloads": 0,
+        "features": [], "id": 1205755, "kind": "dev", "optional": false,
+        "req": "^0.4.10", "target": null, "version_id": 219302
+      },
+      {
+        "crate_id": "fst", "default_features": true, "downloads": 0,
+        "features": [], "id": 1205747, "kind": "normal", "optional": true,
+        "req": "^0.4.0", "target": null, "version_id": 219302
+      },
+      {
+        "crate_id": "regex-syntax", "default_features": true,
+        "downloads": 0, "features": [], "id": 1205748, "kind": "normal",
+        "optional": true, "req": "^0.6.16", "target": null,
+        "version_id": 219302
+      }
+    ],
+    "dl_path": "/api/v1/crates/regex-automata/0.1.9/download",
+    "downloads": 2689165,
+    "features": {
+      "default": ["std"], "std": ["regex-syntax"],
+      "transducer": ["std", "fst"]
+    },
+    "id": 219302, "license": "Unlicense/MIT",
+    "links": {
+      "authors": "/api/v1/crates/regex-automata/0.1.9/authors",
+      "dependencies": "/api/v1/crates/regex-automata/0.1.9/dependencies",
+      "version_downloads": "/api/v1/crates/regex-automata/0.1.9/downloads"
+    },
+    "num": "0.1.9",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/456674?v=4",
+      "id": 189, "login": "BurntSushi", "name": "Andrew Gallant",
+      "url": "https://github.com/BurntSushi"
+    },
+    "readme_path": "/api/v1/crates/regex-automata/0.1.9/readme",
+    "updated_at": "2020-03-09T00:15:24.254957+00:00", "yanked": false
+  }
+]

@@ -1,0 +1,4457 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": null,
+    "created_at": "2017-12-02T00:03:11.881535+00:00",
+    "dependencies": [
+      {
+        "crate_id": "error-chain", "default_features": true, "downloads": 0,
+        "features": [], "id": 307609, "kind": "normal", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 72922
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 307612, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 72922
+      },
+      {
+        "crate_id": "owning_ref", "default_features": true, "downloads": 0,
+        "features": [], "id": 307613, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 72922
+      },
+      {
+        "crate_id": "gimli", "default_features": true, "downloads": 0,
+        "features": [], "id": 307610, "kind": "normal", "optional": true,
+        "req": "^0.15", "target": null, "version_id": 72922
+      },
+      {
+        "crate_id": "goblin", "default_features": true, "downloads": 0,
+        "features": [], "id": 307611, "kind": "normal", "optional": true,
+        "req": "^0.0", "target": null, "version_id": 72922
+      },
+      {
+        "crate_id": "scroll", "default_features": true, "downloads": 0,
+        "features": [], "id": 307614, "kind": "normal", "optional": true,
+        "req": "^0.7", "target": null, "version_id": 72922
+      },
+      {
+        "crate_id": "sourcemap", "default_features": true, "downloads": 0,
+        "features": [], "id": 307615, "kind": "normal", "optional": true,
+        "req": "^2.2", "target": null, "version_id": 72922
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/1.1.5/download",
+    "downloads": 300,
+    "features": {
+      "default": [], "with_dwarf": ["gimli"],
+      "with_objects": ["goblin", "scroll"],
+      "with_sourcemaps": ["sourcemap"]
+    },
+    "id": 72922, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/1.1.5/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/1.1.5/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/1.1.5/downloads"
+    },
+    "num": "1.1.5", "published_by": null,
+    "readme_path": "/api/v1/crates/symbolic-common/1.1.5/readme",
+    "updated_at": "2017-12-02T00:03:11.881535+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": null,
+    "created_at": "2017-12-21T17:16:47.905895+00:00",
+    "dependencies": [
+      {
+        "crate_id": "error-chain", "default_features": true, "downloads": 0,
+        "features": [], "id": 320562, "kind": "normal", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 75070
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 320565, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 75070
+      },
+      {
+        "crate_id": "owning_ref", "default_features": true, "downloads": 0,
+        "features": [], "id": 320566, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 75070
+      },
+      {
+        "crate_id": "gimli", "default_features": true, "downloads": 0,
+        "features": [], "id": 320563, "kind": "normal", "optional": true,
+        "req": "^0.15", "target": null, "version_id": 75070
+      },
+      {
+        "crate_id": "goblin", "default_features": true, "downloads": 0,
+        "features": [], "id": 320564, "kind": "normal", "optional": true,
+        "req": "^0.0", "target": null, "version_id": 75070
+      },
+      {
+        "crate_id": "scroll", "default_features": true, "downloads": 0,
+        "features": [], "id": 320567, "kind": "normal", "optional": true,
+        "req": "^0.8", "target": null, "version_id": 75070
+      },
+      {
+        "crate_id": "sourcemap", "default_features": true, "downloads": 0,
+        "features": [], "id": 320568, "kind": "normal", "optional": true,
+        "req": "^2.2", "target": null, "version_id": 75070
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/2.0.0/download",
+    "downloads": 345,
+    "features": {
+      "default": [], "with_dwarf": ["gimli"],
+      "with_objects": ["goblin", "scroll"],
+      "with_sourcemaps": ["sourcemap"]
+    },
+    "id": 75070, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/2.0.0/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/2.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/2.0.0/downloads"
+    },
+    "num": "2.0.0", "published_by": null,
+    "readme_path": "/api/v1/crates/symbolic-common/2.0.0/readme",
+    "updated_at": "2017-12-21T17:16:47.905895+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": null,
+    "created_at": "2017-12-29T18:35:13.590502+00:00",
+    "dependencies": [
+      {
+        "crate_id": "error-chain", "default_features": true, "downloads": 0,
+        "features": [], "id": 324607, "kind": "normal", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 75811
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 324610, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 75811
+      },
+      {
+        "crate_id": "owning_ref", "default_features": true, "downloads": 0,
+        "features": [], "id": 324611, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 75811
+      },
+      {
+        "crate_id": "gimli", "default_features": true, "downloads": 0,
+        "features": [], "id": 324608, "kind": "normal", "optional": true,
+        "req": "^0.15", "target": null, "version_id": 75811
+      },
+      {
+        "crate_id": "goblin", "default_features": true, "downloads": 0,
+        "features": [], "id": 324609, "kind": "normal", "optional": true,
+        "req": "^0.0", "target": null, "version_id": 75811
+      },
+      {
+        "crate_id": "scroll", "default_features": true, "downloads": 0,
+        "features": [], "id": 324612, "kind": "normal", "optional": true,
+        "req": "^0.8", "target": null, "version_id": 75811
+      },
+      {
+        "crate_id": "sourcemap", "default_features": true, "downloads": 0,
+        "features": [], "id": 324613, "kind": "normal", "optional": true,
+        "req": "^2.2", "target": null, "version_id": 75811
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/2.0.1/download",
+    "downloads": 265,
+    "features": {
+      "default": [], "with_dwarf": ["gimli"],
+      "with_objects": ["goblin", "scroll"],
+      "with_sourcemaps": ["sourcemap"]
+    },
+    "id": 75811, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/2.0.1/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/2.0.1/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/2.0.1/downloads"
+    },
+    "num": "2.0.1", "published_by": null,
+    "readme_path": "/api/v1/crates/symbolic-common/2.0.1/readme",
+    "updated_at": "2017-12-29T18:35:13.590502+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": null,
+    "created_at": "2018-01-02T13:54:01.847028+00:00",
+    "dependencies": [
+      {
+        "crate_id": "error-chain", "default_features": true, "downloads": 0,
+        "features": [], "id": 326092, "kind": "normal", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 76129
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 326095, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 76129
+      },
+      {
+        "crate_id": "owning_ref", "default_features": true, "downloads": 0,
+        "features": [], "id": 326096, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 76129
+      },
+      {
+        "crate_id": "gimli", "default_features": true, "downloads": 0,
+        "features": [], "id": 326093, "kind": "normal", "optional": true,
+        "req": "^0.15", "target": null, "version_id": 76129
+      },
+      {
+        "crate_id": "goblin", "default_features": true, "downloads": 0,
+        "features": [], "id": 326094, "kind": "normal", "optional": true,
+        "req": "^0.0", "target": null, "version_id": 76129
+      },
+      {
+        "crate_id": "scroll", "default_features": true, "downloads": 0,
+        "features": [], "id": 326097, "kind": "normal", "optional": true,
+        "req": "^0.8", "target": null, "version_id": 76129
+      },
+      {
+        "crate_id": "sourcemap", "default_features": true, "downloads": 0,
+        "features": [], "id": 326098, "kind": "normal", "optional": true,
+        "req": "^2.2", "target": null, "version_id": 76129
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/2.0.2/download",
+    "downloads": 259,
+    "features": {
+      "default": [], "with_dwarf": ["gimli"],
+      "with_objects": ["goblin", "scroll"],
+      "with_sourcemaps": ["sourcemap"]
+    },
+    "id": 76129, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/2.0.2/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/2.0.2/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/2.0.2/downloads"
+    },
+    "num": "2.0.2", "published_by": null,
+    "readme_path": "/api/v1/crates/symbolic-common/2.0.2/readme",
+    "updated_at": "2018-01-02T13:54:01.847028+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": null,
+    "created_at": "2018-01-09T08:43:40.069523+00:00",
+    "dependencies": [
+      {
+        "crate_id": "error-chain", "default_features": true, "downloads": 0,
+        "features": [], "id": 329858, "kind": "normal", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 76861
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 329861, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 76861
+      },
+      {
+        "crate_id": "owning_ref", "default_features": true, "downloads": 0,
+        "features": [], "id": 329862, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 76861
+      },
+      {
+        "crate_id": "gimli", "default_features": true, "downloads": 0,
+        "features": [], "id": 329859, "kind": "normal", "optional": true,
+        "req": "^0.15", "target": null, "version_id": 76861
+      },
+      {
+        "crate_id": "goblin", "default_features": true, "downloads": 0,
+        "features": [], "id": 329860, "kind": "normal", "optional": true,
+        "req": "^0.0", "target": null, "version_id": 76861
+      },
+      {
+        "crate_id": "scroll", "default_features": true, "downloads": 0,
+        "features": [], "id": 329863, "kind": "normal", "optional": true,
+        "req": "^0.8", "target": null, "version_id": 76861
+      },
+      {
+        "crate_id": "sourcemap", "default_features": true, "downloads": 0,
+        "features": [], "id": 329864, "kind": "normal", "optional": true,
+        "req": "^2.2", "target": null, "version_id": 76861
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/2.0.3/download",
+    "downloads": 304,
+    "features": {
+      "default": [], "with_dwarf": ["gimli"],
+      "with_objects": ["goblin", "scroll"],
+      "with_sourcemaps": ["sourcemap"]
+    },
+    "id": 76861, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/2.0.3/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/2.0.3/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/2.0.3/downloads"
+    },
+    "num": "2.0.3", "published_by": null,
+    "readme_path": "/api/v1/crates/symbolic-common/2.0.3/readme",
+    "updated_at": "2018-01-09T08:43:40.069523+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": null,
+    "created_at": "2018-01-22T08:28:44.367489+00:00",
+    "dependencies": [
+      {
+        "crate_id": "error-chain", "default_features": true, "downloads": 0,
+        "features": [], "id": 337300, "kind": "normal", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 78282
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 337303, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 78282
+      },
+      {
+        "crate_id": "owning_ref", "default_features": true, "downloads": 0,
+        "features": [], "id": 337304, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 78282
+      },
+      {
+        "crate_id": "gimli", "default_features": true, "downloads": 0,
+        "features": [], "id": 337301, "kind": "normal", "optional": true,
+        "req": "^0.15", "target": null, "version_id": 78282
+      },
+      {
+        "crate_id": "goblin", "default_features": true, "downloads": 0,
+        "features": [], "id": 337302, "kind": "normal", "optional": true,
+        "req": "^0.0", "target": null, "version_id": 78282
+      },
+      {
+        "crate_id": "scroll", "default_features": true, "downloads": 0,
+        "features": [], "id": 337305, "kind": "normal", "optional": true,
+        "req": "^0.8", "target": null, "version_id": 78282
+      },
+      {
+        "crate_id": "sourcemap", "default_features": true, "downloads": 0,
+        "features": [], "id": 337306, "kind": "normal", "optional": true,
+        "req": "^2.2", "target": null, "version_id": 78282
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/2.0.4/download",
+    "downloads": 315,
+    "features": {
+      "default": [], "with_dwarf": ["gimli"],
+      "with_objects": ["goblin", "scroll"],
+      "with_sourcemaps": ["sourcemap"]
+    },
+    "id": 78282, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/2.0.4/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/2.0.4/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/2.0.4/downloads"
+    },
+    "num": "2.0.4", "published_by": null,
+    "readme_path": "/api/v1/crates/symbolic-common/2.0.4/readme",
+    "updated_at": "2018-01-22T08:28:44.367489+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": null,
+    "created_at": "2018-02-01T09:40:07.155016+00:00",
+    "dependencies": [
+      {
+        "crate_id": "error-chain", "default_features": true, "downloads": 0,
+        "features": [], "id": 344053, "kind": "normal", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 79438
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 344056, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 79438
+      },
+      {
+        "crate_id": "owning_ref", "default_features": true, "downloads": 0,
+        "features": [], "id": 344057, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 79438
+      },
+      {
+        "crate_id": "gimli", "default_features": true, "downloads": 0,
+        "features": [], "id": 344054, "kind": "normal", "optional": true,
+        "req": "^0.15", "target": null, "version_id": 79438
+      },
+      {
+        "crate_id": "goblin", "default_features": true, "downloads": 0,
+        "features": [], "id": 344055, "kind": "normal", "optional": true,
+        "req": "^0.0", "target": null, "version_id": 79438
+      },
+      {
+        "crate_id": "scroll", "default_features": true, "downloads": 0,
+        "features": [], "id": 344058, "kind": "normal", "optional": true,
+        "req": "^0.8", "target": null, "version_id": 79438
+      },
+      {
+        "crate_id": "sourcemap", "default_features": true, "downloads": 0,
+        "features": [], "id": 344059, "kind": "normal", "optional": true,
+        "req": "^2.2", "target": null, "version_id": 79438
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/2.0.5/download",
+    "downloads": 301,
+    "features": {
+      "default": [], "with_dwarf": ["gimli"],
+      "with_objects": ["goblin", "scroll"],
+      "with_sourcemaps": ["sourcemap"]
+    },
+    "id": 79438, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/2.0.5/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/2.0.5/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/2.0.5/downloads"
+    },
+    "num": "2.0.5", "published_by": null,
+    "readme_path": "/api/v1/crates/symbolic-common/2.0.5/readme",
+    "updated_at": "2018-02-01T09:40:07.155016+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": null,
+    "created_at": "2018-02-10T11:31:50.534280+00:00",
+    "dependencies": [
+      {
+        "crate_id": "error-chain", "default_features": true, "downloads": 0,
+        "features": [], "id": 350119, "kind": "normal", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 80524
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 350122, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 80524
+      },
+      {
+        "crate_id": "owning_ref", "default_features": true, "downloads": 0,
+        "features": [], "id": 350123, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 80524
+      },
+      {
+        "crate_id": "gimli", "default_features": true, "downloads": 0,
+        "features": [], "id": 350120, "kind": "normal", "optional": true,
+        "req": "^0.15", "target": null, "version_id": 80524
+      },
+      {
+        "crate_id": "goblin", "default_features": true, "downloads": 0,
+        "features": [], "id": 350121, "kind": "normal", "optional": true,
+        "req": "^0.0", "target": null, "version_id": 80524
+      },
+      {
+        "crate_id": "scroll", "default_features": true, "downloads": 0,
+        "features": [], "id": 350124, "kind": "normal", "optional": true,
+        "req": "^0.8", "target": null, "version_id": 80524
+      },
+      {
+        "crate_id": "sourcemap", "default_features": true, "downloads": 0,
+        "features": [], "id": 350125, "kind": "normal", "optional": true,
+        "req": "^2.2", "target": null, "version_id": 80524
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/2.0.6/download",
+    "downloads": 298,
+    "features": {
+      "default": [], "with_dwarf": ["gimli"],
+      "with_objects": ["goblin", "scroll"],
+      "with_sourcemaps": ["sourcemap"]
+    },
+    "id": 80524, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/2.0.6/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/2.0.6/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/2.0.6/downloads"
+    },
+    "num": "2.0.6", "published_by": null,
+    "readme_path": "/api/v1/crates/symbolic-common/2.0.6/readme",
+    "updated_at": "2018-02-10T11:31:50.534280+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": null,
+    "created_at": "2018-02-20T12:33:14.278789+00:00",
+    "dependencies": [
+      {
+        "crate_id": "error-chain", "default_features": true, "downloads": 0,
+        "features": [], "id": 356725, "kind": "normal", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 81829
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 356728, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 81829
+      },
+      {
+        "crate_id": "owning_ref", "default_features": true, "downloads": 0,
+        "features": [], "id": 356729, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 81829
+      },
+      {
+        "crate_id": "gimli", "default_features": true, "downloads": 0,
+        "features": [], "id": 356726, "kind": "normal", "optional": true,
+        "req": "^0.15", "target": null, "version_id": 81829
+      },
+      {
+        "crate_id": "goblin", "default_features": true, "downloads": 0,
+        "features": [], "id": 356727, "kind": "normal", "optional": true,
+        "req": "^0.0.14", "target": null, "version_id": 81829
+      },
+      {
+        "crate_id": "scroll", "default_features": true, "downloads": 0,
+        "features": [], "id": 356730, "kind": "normal", "optional": true,
+        "req": "^0.8", "target": null, "version_id": 81829
+      },
+      {
+        "crate_id": "sourcemap", "default_features": true, "downloads": 0,
+        "features": [], "id": 356731, "kind": "normal", "optional": true,
+        "req": "^2.2", "target": null, "version_id": 81829
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/2.0.7/download",
+    "downloads": 369,
+    "features": {
+      "default": [], "with_dwarf": ["gimli"],
+      "with_objects": ["goblin", "scroll"],
+      "with_sourcemaps": ["sourcemap"]
+    },
+    "id": 81829, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/2.0.7/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/2.0.7/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/2.0.7/downloads"
+    },
+    "num": "2.0.7", "published_by": null,
+    "readme_path": "/api/v1/crates/symbolic-common/2.0.7/readme",
+    "updated_at": "2018-02-20T12:33:14.278789+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": null,
+    "created_at": "2018-03-26T15:07:39.162970+00:00",
+    "dependencies": [
+      {
+        "crate_id": "error-chain", "default_features": true, "downloads": 0,
+        "features": [], "id": 382331, "kind": "normal", "optional": false,
+        "req": "^0.11.0", "target": null, "version_id": 86465
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 382334, "kind": "normal", "optional": false,
+        "req": "^0.6.2", "target": null, "version_id": 86465
+      },
+      {
+        "crate_id": "owning_ref", "default_features": true, "downloads": 0,
+        "features": [], "id": 382335, "kind": "normal", "optional": false,
+        "req": "^0.3.3", "target": null, "version_id": 86465
+      },
+      {
+        "crate_id": "gimli", "default_features": true, "downloads": 0,
+        "features": [], "id": 382332, "kind": "normal", "optional": true,
+        "req": "^0.15.0", "target": null, "version_id": 86465
+      },
+      {
+        "crate_id": "goblin", "default_features": true, "downloads": 0,
+        "features": [], "id": 382333, "kind": "normal", "optional": true,
+        "req": "^0.0.14", "target": null, "version_id": 86465
+      },
+      {
+        "crate_id": "scroll", "default_features": true, "downloads": 0,
+        "features": [], "id": 382336, "kind": "normal", "optional": true,
+        "req": "^0.8.0", "target": null, "version_id": 86465
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 382337, "kind": "normal", "optional": true,
+        "req": "^1.0.33", "target": null, "version_id": 86465
+      },
+      {
+        "crate_id": "serde_plain", "default_features": true, "downloads": 0,
+        "features": [], "id": 382338, "kind": "normal", "optional": true,
+        "req": "^0.3.0", "target": null, "version_id": 86465
+      },
+      {
+        "crate_id": "sourcemap", "default_features": true, "downloads": 0,
+        "features": [], "id": 382339, "kind": "normal", "optional": true,
+        "req": "^2.2.0", "target": null, "version_id": 86465
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/3.0.0/download",
+    "downloads": 254,
+    "features": {
+      "default": [], "with_dwarf": ["gimli"],
+      "with_objects": ["goblin", "scroll"],
+      "with_serde": ["serde", "serde_plain"],
+      "with_sourcemaps": ["sourcemap"]
+    },
+    "id": 86465, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/3.0.0/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/3.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/3.0.0/downloads"
+    },
+    "num": "3.0.0", "published_by": null,
+    "readme_path": "/api/v1/crates/symbolic-common/3.0.0/readme",
+    "updated_at": "2018-03-26T15:07:39.162970+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": null,
+    "created_at": "2018-03-26T20:59:51.361565+00:00",
+    "dependencies": [
+      {
+        "crate_id": "error-chain", "default_features": true, "downloads": 0,
+        "features": [], "id": 382519, "kind": "normal", "optional": false,
+        "req": "^0.11.0", "target": null, "version_id": 86489
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 382522, "kind": "normal", "optional": false,
+        "req": "^0.6.2", "target": null, "version_id": 86489
+      },
+      {
+        "crate_id": "owning_ref", "default_features": true, "downloads": 0,
+        "features": [], "id": 382523, "kind": "normal", "optional": false,
+        "req": "^0.3.3", "target": null, "version_id": 86489
+      },
+      {
+        "crate_id": "gimli", "default_features": true, "downloads": 0,
+        "features": [], "id": 382520, "kind": "normal", "optional": true,
+        "req": "^0.15.0", "target": null, "version_id": 86489
+      },
+      {
+        "crate_id": "goblin", "default_features": true, "downloads": 0,
+        "features": [], "id": 382521, "kind": "normal", "optional": true,
+        "req": "^0.0.14", "target": null, "version_id": 86489
+      },
+      {
+        "crate_id": "scroll", "default_features": true, "downloads": 0,
+        "features": [], "id": 382524, "kind": "normal", "optional": true,
+        "req": "^0.8.0", "target": null, "version_id": 86489
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 382525, "kind": "normal", "optional": true,
+        "req": "^1.0.33", "target": null, "version_id": 86489
+      },
+      {
+        "crate_id": "serde_plain", "default_features": true, "downloads": 0,
+        "features": [], "id": 382526, "kind": "normal", "optional": true,
+        "req": "^0.3.0", "target": null, "version_id": 86489
+      },
+      {
+        "crate_id": "sourcemap", "default_features": true, "downloads": 0,
+        "features": [], "id": 382527, "kind": "normal", "optional": true,
+        "req": "^2.2.0", "target": null, "version_id": 86489
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/3.0.1/download",
+    "downloads": 333,
+    "features": {
+      "default": [], "with_dwarf": ["gimli"],
+      "with_objects": ["goblin", "scroll"],
+      "with_serde": ["serde", "serde_plain"],
+      "with_sourcemaps": ["sourcemap"]
+    },
+    "id": 86489, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/3.0.1/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/3.0.1/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/3.0.1/downloads"
+    },
+    "num": "3.0.1", "published_by": null,
+    "readme_path": "/api/v1/crates/symbolic-common/3.0.1/readme",
+    "updated_at": "2018-03-26T20:59:51.361565+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": null,
+    "created_at": "2018-04-12T11:29:52.805833+00:00",
+    "dependencies": [
+      {
+        "crate_id": "error-chain", "default_features": true, "downloads": 0,
+        "features": [], "id": 394307, "kind": "normal", "optional": false,
+        "req": "^0.11.0", "target": null, "version_id": 88643
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 394310, "kind": "normal", "optional": false,
+        "req": "^0.6.2", "target": null, "version_id": 88643
+      },
+      {
+        "crate_id": "owning_ref", "default_features": true, "downloads": 0,
+        "features": [], "id": 394311, "kind": "normal", "optional": false,
+        "req": "^0.3.3", "target": null, "version_id": 88643
+      },
+      {
+        "crate_id": "gimli", "default_features": true, "downloads": 0,
+        "features": [], "id": 394308, "kind": "normal", "optional": true,
+        "req": "^0.15.0", "target": null, "version_id": 88643
+      },
+      {
+        "crate_id": "goblin", "default_features": true, "downloads": 0,
+        "features": [], "id": 394309, "kind": "normal", "optional": true,
+        "req": "^0.0.14", "target": null, "version_id": 88643
+      },
+      {
+        "crate_id": "scroll", "default_features": true, "downloads": 0,
+        "features": [], "id": 394312, "kind": "normal", "optional": true,
+        "req": "^0.8.0", "target": null, "version_id": 88643
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 394313, "kind": "normal", "optional": true,
+        "req": "^1.0.33", "target": null, "version_id": 88643
+      },
+      {
+        "crate_id": "serde_plain", "default_features": true, "downloads": 0,
+        "features": [], "id": 394314, "kind": "normal", "optional": true,
+        "req": "^0.3.0", "target": null, "version_id": 88643
+      },
+      {
+        "crate_id": "sourcemap", "default_features": true, "downloads": 0,
+        "features": [], "id": 394315, "kind": "normal", "optional": true,
+        "req": "^2.2.0", "target": null, "version_id": 88643
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/4.0.0/download",
+    "downloads": 301,
+    "features": {
+      "default": [], "with_dwarf": ["gimli"],
+      "with_objects": ["goblin", "scroll"],
+      "with_serde": ["serde", "serde_plain"],
+      "with_sourcemaps": ["sourcemap"]
+    },
+    "id": 88643, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/4.0.0/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/4.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/4.0.0/downloads"
+    },
+    "num": "4.0.0", "published_by": null,
+    "readme_path": "/api/v1/crates/symbolic-common/4.0.0/readme",
+    "updated_at": "2018-04-12T11:29:52.805833+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": null,
+    "created_at": "2018-04-24T08:20:33.473065+00:00",
+    "dependencies": [
+      {
+        "crate_id": "error-chain", "default_features": true, "downloads": 0,
+        "features": [], "id": 402312, "kind": "normal", "optional": false,
+        "req": "^0.11.0", "target": null, "version_id": 90120
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 402313, "kind": "normal", "optional": false,
+        "req": "^0.1.1", "target": null, "version_id": 90120
+      },
+      {
+        "crate_id": "failure_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 402314, "kind": "normal",
+        "optional": false, "req": "^0.1.1", "target": null,
+        "version_id": 90120
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 402317, "kind": "normal", "optional": false,
+        "req": "^0.6.2", "target": null, "version_id": 90120
+      },
+      {
+        "crate_id": "owning_ref", "default_features": true, "downloads": 0,
+        "features": [], "id": 402318, "kind": "normal", "optional": false,
+        "req": "^0.3.3", "target": null, "version_id": 90120
+      },
+      {
+        "crate_id": "gimli", "default_features": true, "downloads": 0,
+        "features": [], "id": 402315, "kind": "normal", "optional": true,
+        "req": "^0.15.0", "target": null, "version_id": 90120
+      },
+      {
+        "crate_id": "goblin", "default_features": true, "downloads": 0,
+        "features": [], "id": 402316, "kind": "normal", "optional": true,
+        "req": "^0.0.15", "target": null, "version_id": 90120
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 402319, "kind": "normal", "optional": true,
+        "req": "^1.0.42", "target": null, "version_id": 90120
+      },
+      {
+        "crate_id": "serde_plain", "default_features": true, "downloads": 0,
+        "features": [], "id": 402320, "kind": "normal", "optional": true,
+        "req": "^0.3.0", "target": null, "version_id": 90120
+      },
+      {
+        "crate_id": "sourcemap", "default_features": true, "downloads": 0,
+        "features": [], "id": 402321, "kind": "normal", "optional": true,
+        "req": "^2.2.0", "target": null, "version_id": 90120
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/5.0.0/download",
+    "downloads": 240,
+    "features": {
+      "default": [], "with_dwarf": ["gimli"], "with_objects": ["goblin"],
+      "with_serde": ["serde", "serde_plain"],
+      "with_sourcemaps": ["sourcemap"]
+    },
+    "id": 90120, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/5.0.0/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/5.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/5.0.0/downloads"
+    },
+    "num": "5.0.0", "published_by": null,
+    "readme_path": "/api/v1/crates/symbolic-common/5.0.0/readme",
+    "updated_at": "2018-04-24T08:20:33.473065+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": null,
+    "created_at": "2018-04-24T09:03:25.520424+00:00",
+    "dependencies": [
+      {
+        "crate_id": "error-chain", "default_features": true, "downloads": 0,
+        "features": [], "id": 402411, "kind": "normal", "optional": false,
+        "req": "^0.11.0", "target": null, "version_id": 90133
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 402412, "kind": "normal", "optional": false,
+        "req": "^0.1.1", "target": null, "version_id": 90133
+      },
+      {
+        "crate_id": "failure_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 402413, "kind": "normal",
+        "optional": false, "req": "^0.1.1", "target": null,
+        "version_id": 90133
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 402416, "kind": "normal", "optional": false,
+        "req": "^0.6.2", "target": null, "version_id": 90133
+      },
+      {
+        "crate_id": "owning_ref", "default_features": true, "downloads": 0,
+        "features": [], "id": 402417, "kind": "normal", "optional": false,
+        "req": "^0.3.3", "target": null, "version_id": 90133
+      },
+      {
+        "crate_id": "gimli", "default_features": true, "downloads": 0,
+        "features": [], "id": 402414, "kind": "normal", "optional": true,
+        "req": "^0.15.0", "target": null, "version_id": 90133
+      },
+      {
+        "crate_id": "goblin", "default_features": true, "downloads": 0,
+        "features": [], "id": 402415, "kind": "normal", "optional": true,
+        "req": "^0.0.15", "target": null, "version_id": 90133
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 402418, "kind": "normal", "optional": true,
+        "req": "^1.0.42", "target": null, "version_id": 90133
+      },
+      {
+        "crate_id": "serde_plain", "default_features": true, "downloads": 0,
+        "features": [], "id": 402419, "kind": "normal", "optional": true,
+        "req": "^0.3.0", "target": null, "version_id": 90133
+      },
+      {
+        "crate_id": "sourcemap", "default_features": true, "downloads": 0,
+        "features": [], "id": 402420, "kind": "normal", "optional": true,
+        "req": "^2.2.0", "target": null, "version_id": 90133
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/5.0.1/download",
+    "downloads": 387,
+    "features": {
+      "default": [], "with_dwarf": ["gimli"], "with_objects": ["goblin"],
+      "with_serde": ["serde", "serde_plain"],
+      "with_sourcemaps": ["sourcemap"]
+    },
+    "id": 90133, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/5.0.1/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/5.0.1/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/5.0.1/downloads"
+    },
+    "num": "5.0.1", "published_by": null,
+    "readme_path": "/api/v1/crates/symbolic-common/5.0.1/readme",
+    "updated_at": "2018-04-24T09:03:25.520424+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": null,
+    "created_at": "2018-05-30T06:30:41.298373+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 427827, "kind": "normal", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 94713
+      },
+      {
+        "crate_id": "error-chain", "default_features": true, "downloads": 0,
+        "features": [], "id": 427828, "kind": "normal", "optional": false,
+        "req": "^0.11.0", "target": null, "version_id": 94713
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 427829, "kind": "normal", "optional": false,
+        "req": "^0.1.1", "target": null, "version_id": 94713
+      },
+      {
+        "crate_id": "failure_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 427830, "kind": "normal",
+        "optional": false, "req": "^0.1.1", "target": null,
+        "version_id": 94713
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 427833, "kind": "normal", "optional": false,
+        "req": "^0.6.2", "target": null, "version_id": 94713
+      },
+      {
+        "crate_id": "owning_ref", "default_features": true, "downloads": 0,
+        "features": [], "id": 427834, "kind": "normal", "optional": false,
+        "req": "^0.3.3", "target": null, "version_id": 94713
+      },
+      {
+        "crate_id": "gimli", "default_features": true, "downloads": 0,
+        "features": [], "id": 427831, "kind": "normal", "optional": true,
+        "req": "^0.15.0", "target": null, "version_id": 94713
+      },
+      {
+        "crate_id": "goblin", "default_features": true, "downloads": 0,
+        "features": [], "id": 427832, "kind": "normal", "optional": true,
+        "req": "^0.0.15", "target": null, "version_id": 94713
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 427835, "kind": "normal", "optional": true,
+        "req": "^1.0.50", "target": null, "version_id": 94713
+      },
+      {
+        "crate_id": "serde_plain", "default_features": true, "downloads": 0,
+        "features": [], "id": 427836, "kind": "normal", "optional": true,
+        "req": "^0.3.0", "target": null, "version_id": 94713
+      },
+      {
+        "crate_id": "sourcemap", "default_features": true, "downloads": 0,
+        "features": [], "id": 427837, "kind": "normal", "optional": true,
+        "req": "^2.2.0", "target": null, "version_id": 94713
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/5.0.2/download",
+    "downloads": 324,
+    "features": {
+      "default": [], "with_dwarf": ["gimli"], "with_objects": ["goblin"],
+      "with_serde": ["serde", "serde_plain", "debugid/with_serde"],
+      "with_sourcemaps": ["sourcemap"]
+    },
+    "id": 94713, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/5.0.2/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/5.0.2/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/5.0.2/downloads"
+    },
+    "num": "5.0.2", "published_by": null,
+    "readme_path": "/api/v1/crates/symbolic-common/5.0.2/readme",
+    "updated_at": "2018-05-30T06:30:41.298373+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": null,
+    "created_at": "2018-07-30T12:07:30.269845+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 466681, "kind": "normal", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 101673
+      },
+      {
+        "crate_id": "error-chain", "default_features": true, "downloads": 0,
+        "features": [], "id": 466682, "kind": "normal", "optional": false,
+        "req": "^0.11.0", "target": null, "version_id": 101673
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 466683, "kind": "normal", "optional": false,
+        "req": "^0.1.1", "target": null, "version_id": 101673
+      },
+      {
+        "crate_id": "failure_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 466684, "kind": "normal",
+        "optional": false, "req": "^0.1.1", "target": null,
+        "version_id": 101673
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 466687, "kind": "normal", "optional": false,
+        "req": "^0.6.2", "target": null, "version_id": 101673
+      },
+      {
+        "crate_id": "owning_ref", "default_features": true, "downloads": 0,
+        "features": [], "id": 466688, "kind": "normal", "optional": false,
+        "req": "^0.3.3", "target": null, "version_id": 101673
+      },
+      {
+        "crate_id": "gimli", "default_features": true, "downloads": 0,
+        "features": [], "id": 466685, "kind": "normal", "optional": true,
+        "req": "^0.15.0", "target": null, "version_id": 101673
+      },
+      {
+        "crate_id": "goblin", "default_features": true, "downloads": 0,
+        "features": [], "id": 466686, "kind": "normal", "optional": true,
+        "req": "^0.0.15", "target": null, "version_id": 101673
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 466689, "kind": "normal", "optional": true,
+        "req": "^1.0.50", "target": null, "version_id": 101673
+      },
+      {
+        "crate_id": "serde_plain", "default_features": true, "downloads": 0,
+        "features": [], "id": 466690, "kind": "normal", "optional": true,
+        "req": "^0.3.0", "target": null, "version_id": 101673
+      },
+      {
+        "crate_id": "sourcemap", "default_features": true, "downloads": 0,
+        "features": [], "id": 466691, "kind": "normal", "optional": true,
+        "req": "^2.2.0", "target": null, "version_id": 101673
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/5.1.0/download",
+    "downloads": 290,
+    "features": {
+      "default": [], "with_dwarf": ["gimli"], "with_objects": ["goblin"],
+      "with_serde": ["serde", "serde_plain", "debugid/with_serde"],
+      "with_sourcemaps": ["sourcemap"]
+    },
+    "id": 101673, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/5.1.0/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/5.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/5.1.0/downloads"
+    },
+    "num": "5.1.0", "published_by": null,
+    "readme_path": "/api/v1/crates/symbolic-common/5.1.0/readme",
+    "updated_at": "2018-07-30T12:07:30.269845+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 8177,
+    "created_at": "2018-08-29T08:25:38.748609+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 488875, "kind": "normal", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 105946
+      },
+      {
+        "crate_id": "error-chain", "default_features": true, "downloads": 0,
+        "features": [], "id": 488876, "kind": "normal", "optional": false,
+        "req": "^0.11.0", "target": null, "version_id": 105946
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 488877, "kind": "normal", "optional": false,
+        "req": "^0.1.1", "target": null, "version_id": 105946
+      },
+      {
+        "crate_id": "failure_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 488878, "kind": "normal",
+        "optional": false, "req": "^0.1.1", "target": null,
+        "version_id": 105946
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 488881, "kind": "normal", "optional": false,
+        "req": "^0.6.2", "target": null, "version_id": 105946
+      },
+      {
+        "crate_id": "owning_ref", "default_features": true, "downloads": 0,
+        "features": [], "id": 488882, "kind": "normal", "optional": false,
+        "req": "^0.3.3", "target": null, "version_id": 105946
+      },
+      {
+        "crate_id": "gimli", "default_features": true, "downloads": 0,
+        "features": [], "id": 488879, "kind": "normal", "optional": true,
+        "req": "^0.15.0", "target": null, "version_id": 105946
+      },
+      {
+        "crate_id": "goblin", "default_features": true, "downloads": 0,
+        "features": [], "id": 488880, "kind": "normal", "optional": true,
+        "req": "^0.0.15", "target": null, "version_id": 105946
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 488883, "kind": "normal", "optional": true,
+        "req": "^1.0.50", "target": null, "version_id": 105946
+      },
+      {
+        "crate_id": "serde_plain", "default_features": true, "downloads": 0,
+        "features": [], "id": 488884, "kind": "normal", "optional": true,
+        "req": "^0.3.0", "target": null, "version_id": 105946
+      },
+      {
+        "crate_id": "sourcemap", "default_features": true, "downloads": 0,
+        "features": [], "id": 488885, "kind": "normal", "optional": true,
+        "req": "^2.2.0", "target": null, "version_id": 105946
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/5.1.1/download",
+    "downloads": 217,
+    "features": {
+      "default": [], "with_dwarf": ["gimli"], "with_objects": ["goblin"],
+      "with_serde": ["serde", "serde_plain", "debugid/with_serde"],
+      "with_sourcemaps": ["sourcemap"]
+    },
+    "id": 105946, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/5.1.1/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/5.1.1/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/5.1.1/downloads"
+    },
+    "num": "5.1.1", "published_by": null,
+    "readme_path": "/api/v1/crates/symbolic-common/5.1.1/readme",
+    "updated_at": "2018-08-29T08:25:38.748609+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 8171,
+    "created_at": "2018-08-29T19:46:20.064020+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 489209, "kind": "normal", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 106000
+      },
+      {
+        "crate_id": "error-chain", "default_features": true, "downloads": 0,
+        "features": [], "id": 489210, "kind": "normal", "optional": false,
+        "req": "^0.11.0", "target": null, "version_id": 106000
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 489211, "kind": "normal", "optional": false,
+        "req": "^0.1.1", "target": null, "version_id": 106000
+      },
+      {
+        "crate_id": "failure_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 489212, "kind": "normal",
+        "optional": false, "req": "^0.1.1", "target": null,
+        "version_id": 106000
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 489215, "kind": "normal", "optional": false,
+        "req": "^0.6.2", "target": null, "version_id": 106000
+      },
+      {
+        "crate_id": "owning_ref", "default_features": true, "downloads": 0,
+        "features": [], "id": 489216, "kind": "normal", "optional": false,
+        "req": "^0.3.3", "target": null, "version_id": 106000
+      },
+      {
+        "crate_id": "gimli", "default_features": true, "downloads": 0,
+        "features": [], "id": 489213, "kind": "normal", "optional": true,
+        "req": "^0.15.0", "target": null, "version_id": 106000
+      },
+      {
+        "crate_id": "goblin", "default_features": true, "downloads": 0,
+        "features": [], "id": 489214, "kind": "normal", "optional": true,
+        "req": "^0.0.15", "target": null, "version_id": 106000
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 489217, "kind": "normal", "optional": true,
+        "req": "^1.0.50", "target": null, "version_id": 106000
+      },
+      {
+        "crate_id": "serde_plain", "default_features": true, "downloads": 0,
+        "features": [], "id": 489218, "kind": "normal", "optional": true,
+        "req": "^0.3.0", "target": null, "version_id": 106000
+      },
+      {
+        "crate_id": "sourcemap", "default_features": true, "downloads": 0,
+        "features": [], "id": 489219, "kind": "normal", "optional": true,
+        "req": "^2.2.0", "target": null, "version_id": 106000
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/5.1.2/download",
+    "downloads": 251,
+    "features": {
+      "default": [], "with_dwarf": ["gimli"], "with_objects": ["goblin"],
+      "with_serde": ["serde", "serde_plain", "debugid/with_serde"],
+      "with_sourcemaps": ["sourcemap"]
+    },
+    "id": 106000, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/5.1.2/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/5.1.2/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/5.1.2/downloads"
+    },
+    "num": "5.1.2", "published_by": null,
+    "readme_path": "/api/v1/crates/symbolic-common/5.1.2/readme",
+    "updated_at": "2018-08-29T19:46:20.064020+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 8171,
+    "created_at": "2018-09-25T13:14:12.416131+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 507729, "kind": "normal", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 109574
+      },
+      {
+        "crate_id": "error-chain", "default_features": true, "downloads": 0,
+        "features": [], "id": 507730, "kind": "normal", "optional": false,
+        "req": "^0.12.0", "target": null, "version_id": 109574
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 507731, "kind": "normal", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 109574
+      },
+      {
+        "crate_id": "failure_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 507732, "kind": "normal",
+        "optional": false, "req": "^0.1.2", "target": null,
+        "version_id": 109574
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 507735, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 109574
+      },
+      {
+        "crate_id": "owning_ref", "default_features": true, "downloads": 0,
+        "features": [], "id": 507736, "kind": "normal", "optional": false,
+        "req": "^0.4.0", "target": null, "version_id": 109574
+      },
+      {
+        "crate_id": "gimli", "default_features": true, "downloads": 0,
+        "features": [], "id": 507733, "kind": "normal", "optional": true,
+        "req": "^0.16.1", "target": null, "version_id": 109574
+      },
+      {
+        "crate_id": "goblin", "default_features": true, "downloads": 0,
+        "features": [], "id": 507734, "kind": "normal", "optional": true,
+        "req": "^0.0.17", "target": null, "version_id": 109574
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 507737, "kind": "normal", "optional": true,
+        "req": "^1.0.79", "target": null, "version_id": 109574
+      },
+      {
+        "crate_id": "serde_plain", "default_features": true, "downloads": 0,
+        "features": [], "id": 507738, "kind": "normal", "optional": true,
+        "req": "^0.3.0", "target": null, "version_id": 109574
+      },
+      {
+        "crate_id": "sourcemap", "default_features": true, "downloads": 0,
+        "features": [], "id": 507739, "kind": "normal", "optional": true,
+        "req": "^2.2.1", "target": null, "version_id": 109574
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/5.2.0/download",
+    "downloads": 244,
+    "features": {
+      "default": [], "with_dwarf": ["gimli"], "with_objects": ["goblin"],
+      "with_serde": ["serde", "serde_plain", "debugid/with_serde"],
+      "with_sourcemaps": ["sourcemap"]
+    },
+    "id": 109574, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/5.2.0/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/5.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/5.2.0/downloads"
+    },
+    "num": "5.2.0", "published_by": null,
+    "readme_path": "/api/v1/crates/symbolic-common/5.2.0/readme",
+    "updated_at": "2018-09-25T13:14:12.416131+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 8243,
+    "created_at": "2018-09-29T18:00:40.395134+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 510802, "kind": "normal", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 110113
+      },
+      {
+        "crate_id": "error-chain", "default_features": true, "downloads": 0,
+        "features": [], "id": 510803, "kind": "normal", "optional": false,
+        "req": "^0.12.0", "target": null, "version_id": 110113
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 510804, "kind": "normal", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 110113
+      },
+      {
+        "crate_id": "failure_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 510805, "kind": "normal",
+        "optional": false, "req": "^0.1.2", "target": null,
+        "version_id": 110113
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 510808, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 110113
+      },
+      {
+        "crate_id": "owning_ref", "default_features": true, "downloads": 0,
+        "features": [], "id": 510809, "kind": "normal", "optional": false,
+        "req": "^0.4.0", "target": null, "version_id": 110113
+      },
+      {
+        "crate_id": "gimli", "default_features": true, "downloads": 0,
+        "features": [], "id": 510806, "kind": "normal", "optional": true,
+        "req": "^0.16.1", "target": null, "version_id": 110113
+      },
+      {
+        "crate_id": "goblin", "default_features": true, "downloads": 0,
+        "features": [], "id": 510807, "kind": "normal", "optional": true,
+        "req": "^0.0.17", "target": null, "version_id": 110113
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 510810, "kind": "normal", "optional": true,
+        "req": "^1.0.79", "target": null, "version_id": 110113
+      },
+      {
+        "crate_id": "serde_plain", "default_features": true, "downloads": 0,
+        "features": [], "id": 510811, "kind": "normal", "optional": true,
+        "req": "^0.3.0", "target": null, "version_id": 110113
+      },
+      {
+        "crate_id": "sourcemap", "default_features": true, "downloads": 0,
+        "features": [], "id": 510812, "kind": "normal", "optional": true,
+        "req": "^2.2.1", "target": null, "version_id": 110113
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/5.3.0/download",
+    "downloads": 219,
+    "features": {
+      "default": [], "with_dwarf": ["gimli"], "with_objects": ["goblin"],
+      "with_serde": ["serde", "serde_plain", "debugid/with_serde"],
+      "with_sourcemaps": ["sourcemap"]
+    },
+    "id": 110113, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/5.3.0/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/5.3.0/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/5.3.0/downloads"
+    },
+    "num": "5.3.0", "published_by": null,
+    "readme_path": "/api/v1/crates/symbolic-common/5.3.0/readme",
+    "updated_at": "2018-09-29T18:00:40.395134+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 8325,
+    "created_at": "2018-10-17T13:32:26.689994+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 529943, "kind": "normal", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 113359
+      },
+      {
+        "crate_id": "error-chain", "default_features": true, "downloads": 0,
+        "features": [], "id": 529944, "kind": "normal", "optional": false,
+        "req": "^0.12.0", "target": null, "version_id": 113359
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 529945, "kind": "normal", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 113359
+      },
+      {
+        "crate_id": "failure_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 529946, "kind": "normal",
+        "optional": false, "req": "^0.1.2", "target": null,
+        "version_id": 113359
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 529949, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 113359
+      },
+      {
+        "crate_id": "owning_ref", "default_features": true, "downloads": 0,
+        "features": [], "id": 529950, "kind": "normal", "optional": false,
+        "req": "^0.4.0", "target": null, "version_id": 113359
+      },
+      {
+        "crate_id": "gimli", "default_features": true, "downloads": 0,
+        "features": [], "id": 529947, "kind": "normal", "optional": true,
+        "req": "^0.16.1", "target": null, "version_id": 113359
+      },
+      {
+        "crate_id": "goblin", "default_features": true, "downloads": 0,
+        "features": [], "id": 529948, "kind": "normal", "optional": true,
+        "req": "^0.0.17", "target": null, "version_id": 113359
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 529951, "kind": "normal", "optional": true,
+        "req": "^1.0.79", "target": null, "version_id": 113359
+      },
+      {
+        "crate_id": "serde_plain", "default_features": true, "downloads": 0,
+        "features": [], "id": 529952, "kind": "normal", "optional": true,
+        "req": "^0.3.0", "target": null, "version_id": 113359
+      },
+      {
+        "crate_id": "sourcemap", "default_features": true, "downloads": 0,
+        "features": [], "id": 529953, "kind": "normal", "optional": true,
+        "req": "^2.2.1", "target": null, "version_id": 113359
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/5.4.0/download",
+    "downloads": 213,
+    "features": {
+      "default": [], "with_dwarf": ["gimli"], "with_objects": ["goblin"],
+      "with_serde": ["serde", "serde_plain", "debugid/with_serde"],
+      "with_sourcemaps": ["sourcemap"]
+    },
+    "id": 113359, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/5.4.0/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/5.4.0/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/5.4.0/downloads"
+    },
+    "num": "5.4.0", "published_by": null,
+    "readme_path": "/api/v1/crates/symbolic-common/5.4.0/readme",
+    "updated_at": "2018-10-17T13:32:26.689994+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 8331,
+    "created_at": "2018-10-18T14:50:55.530924+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 530944, "kind": "normal", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 113481
+      },
+      {
+        "crate_id": "error-chain", "default_features": true, "downloads": 0,
+        "features": [], "id": 530945, "kind": "normal", "optional": false,
+        "req": "^0.12.0", "target": null, "version_id": 113481
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 530946, "kind": "normal", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 113481
+      },
+      {
+        "crate_id": "failure_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 530947, "kind": "normal",
+        "optional": false, "req": "^0.1.2", "target": null,
+        "version_id": 113481
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 530950, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 113481
+      },
+      {
+        "crate_id": "owning_ref", "default_features": true, "downloads": 0,
+        "features": [], "id": 530951, "kind": "normal", "optional": false,
+        "req": "^0.4.0", "target": null, "version_id": 113481
+      },
+      {
+        "crate_id": "gimli", "default_features": true, "downloads": 0,
+        "features": [], "id": 530948, "kind": "normal", "optional": true,
+        "req": "^0.16.1", "target": null, "version_id": 113481
+      },
+      {
+        "crate_id": "goblin", "default_features": true, "downloads": 0,
+        "features": [], "id": 530949, "kind": "normal", "optional": true,
+        "req": "^0.0.17", "target": null, "version_id": 113481
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 530952, "kind": "normal", "optional": true,
+        "req": "^1.0.79", "target": null, "version_id": 113481
+      },
+      {
+        "crate_id": "serde_plain", "default_features": true, "downloads": 0,
+        "features": [], "id": 530953, "kind": "normal", "optional": true,
+        "req": "^0.3.0", "target": null, "version_id": 113481
+      },
+      {
+        "crate_id": "sourcemap", "default_features": true, "downloads": 0,
+        "features": [], "id": 530954, "kind": "normal", "optional": true,
+        "req": "^2.2.1", "target": null, "version_id": 113481
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/5.5.0/download",
+    "downloads": 245,
+    "features": {
+      "default": [], "with_dwarf": ["gimli"], "with_objects": ["goblin"],
+      "with_serde": ["serde", "serde_plain", "debugid/with_serde"],
+      "with_sourcemaps": ["sourcemap"]
+    },
+    "id": 113481, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/5.5.0/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/5.5.0/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/5.5.0/downloads"
+    },
+    "num": "5.5.0", "published_by": null,
+    "readme_path": "/api/v1/crates/symbolic-common/5.5.0/readme",
+    "updated_at": "2018-10-18T14:50:55.530924+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 8330,
+    "created_at": "2018-10-23T06:34:53.959722+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 534285, "kind": "normal", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 114087
+      },
+      {
+        "crate_id": "error-chain", "default_features": true, "downloads": 0,
+        "features": [], "id": 534286, "kind": "normal", "optional": false,
+        "req": "^0.12.0", "target": null, "version_id": 114087
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 534287, "kind": "normal", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 114087
+      },
+      {
+        "crate_id": "failure_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 534288, "kind": "normal",
+        "optional": false, "req": "^0.1.2", "target": null,
+        "version_id": 114087
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 534291, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 114087
+      },
+      {
+        "crate_id": "owning_ref", "default_features": true, "downloads": 0,
+        "features": [], "id": 534292, "kind": "normal", "optional": false,
+        "req": "^0.4.0", "target": null, "version_id": 114087
+      },
+      {
+        "crate_id": "gimli", "default_features": true, "downloads": 0,
+        "features": [], "id": 534289, "kind": "normal", "optional": true,
+        "req": "^0.16.1", "target": null, "version_id": 114087
+      },
+      {
+        "crate_id": "goblin", "default_features": true, "downloads": 0,
+        "features": [], "id": 534290, "kind": "normal", "optional": true,
+        "req": "^0.0.17", "target": null, "version_id": 114087
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 534293, "kind": "normal", "optional": true,
+        "req": "^1.0.79", "target": null, "version_id": 114087
+      },
+      {
+        "crate_id": "serde_plain", "default_features": true, "downloads": 0,
+        "features": [], "id": 534294, "kind": "normal", "optional": true,
+        "req": "^0.3.0", "target": null, "version_id": 114087
+      },
+      {
+        "crate_id": "sourcemap", "default_features": true, "downloads": 0,
+        "features": [], "id": 534295, "kind": "normal", "optional": true,
+        "req": "^2.2.1", "target": null, "version_id": 114087
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/5.5.1/download",
+    "downloads": 199,
+    "features": {
+      "default": [], "with_dwarf": ["gimli"], "with_objects": ["goblin"],
+      "with_serde": ["serde", "serde_plain", "debugid/with_serde"],
+      "with_sourcemaps": ["sourcemap"]
+    },
+    "id": 114087, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/5.5.1/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/5.5.1/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/5.5.1/downloads"
+    },
+    "num": "5.5.1", "published_by": null,
+    "readme_path": "/api/v1/crates/symbolic-common/5.5.1/readme",
+    "updated_at": "2018-10-23T06:34:53.959722+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 8760,
+    "created_at": "2018-10-24T12:55:45.013963+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 535513, "kind": "normal", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 114316
+      },
+      {
+        "crate_id": "error-chain", "default_features": true, "downloads": 0,
+        "features": [], "id": 535514, "kind": "normal", "optional": false,
+        "req": "^0.12.0", "target": null, "version_id": 114316
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 535515, "kind": "normal", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 114316
+      },
+      {
+        "crate_id": "failure_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 535516, "kind": "normal",
+        "optional": false, "req": "^0.1.2", "target": null,
+        "version_id": 114316
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 535519, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 114316
+      },
+      {
+        "crate_id": "owning_ref", "default_features": true, "downloads": 0,
+        "features": [], "id": 535520, "kind": "normal", "optional": false,
+        "req": "^0.4.0", "target": null, "version_id": 114316
+      },
+      {
+        "crate_id": "gimli", "default_features": true, "downloads": 0,
+        "features": [], "id": 535517, "kind": "normal", "optional": true,
+        "req": "^0.16.1", "target": null, "version_id": 114316
+      },
+      {
+        "crate_id": "goblin", "default_features": true, "downloads": 0,
+        "features": [], "id": 535518, "kind": "normal", "optional": true,
+        "req": "^0.0.17", "target": null, "version_id": 114316
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 535521, "kind": "normal", "optional": true,
+        "req": "^1.0.79", "target": null, "version_id": 114316
+      },
+      {
+        "crate_id": "serde_plain", "default_features": true, "downloads": 0,
+        "features": [], "id": 535522, "kind": "normal", "optional": true,
+        "req": "^0.3.0", "target": null, "version_id": 114316
+      },
+      {
+        "crate_id": "sourcemap", "default_features": true, "downloads": 0,
+        "features": [], "id": 535523, "kind": "normal", "optional": true,
+        "req": "^2.2.1", "target": null, "version_id": 114316
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/5.5.2/download",
+    "downloads": 197,
+    "features": {
+      "default": [], "with_dwarf": ["gimli"], "with_objects": ["goblin"],
+      "with_serde": ["serde", "serde_plain", "debugid/with_serde"],
+      "with_sourcemaps": ["sourcemap"]
+    },
+    "id": 114316, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/5.5.2/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/5.5.2/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/5.5.2/downloads"
+    },
+    "num": "5.5.2", "published_by": null,
+    "readme_path": "/api/v1/crates/symbolic-common/5.5.2/readme",
+    "updated_at": "2018-10-24T12:55:45.013963+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 8761,
+    "created_at": "2018-10-29T14:14:49.456962+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 539897, "kind": "normal", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 115070
+      },
+      {
+        "crate_id": "error-chain", "default_features": true, "downloads": 0,
+        "features": [], "id": 539898, "kind": "normal", "optional": false,
+        "req": "^0.12.0", "target": null, "version_id": 115070
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 539899, "kind": "normal", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 115070
+      },
+      {
+        "crate_id": "failure_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 539900, "kind": "normal",
+        "optional": false, "req": "^0.1.2", "target": null,
+        "version_id": 115070
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 539903, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 115070
+      },
+      {
+        "crate_id": "owning_ref", "default_features": true, "downloads": 0,
+        "features": [], "id": 539904, "kind": "normal", "optional": false,
+        "req": "^0.4.0", "target": null, "version_id": 115070
+      },
+      {
+        "crate_id": "gimli", "default_features": true, "downloads": 0,
+        "features": [], "id": 539901, "kind": "normal", "optional": true,
+        "req": "^0.16.1", "target": null, "version_id": 115070
+      },
+      {
+        "crate_id": "goblin", "default_features": true, "downloads": 0,
+        "features": [], "id": 539902, "kind": "normal", "optional": true,
+        "req": "^0.0.17", "target": null, "version_id": 115070
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 539905, "kind": "normal", "optional": true,
+        "req": "^1.0.79", "target": null, "version_id": 115070
+      },
+      {
+        "crate_id": "serde_plain", "default_features": true, "downloads": 0,
+        "features": [], "id": 539906, "kind": "normal", "optional": true,
+        "req": "^0.3.0", "target": null, "version_id": 115070
+      },
+      {
+        "crate_id": "sourcemap", "default_features": true, "downloads": 0,
+        "features": [], "id": 539907, "kind": "normal", "optional": true,
+        "req": "^2.2.1", "target": null, "version_id": 115070
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/5.5.3/download",
+    "downloads": 200,
+    "features": {
+      "default": [], "with_dwarf": ["gimli"], "with_objects": ["goblin"],
+      "with_serde": ["serde", "serde_plain", "debugid/with_serde"],
+      "with_sourcemaps": ["sourcemap"]
+    },
+    "id": 115070, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/5.5.3/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/5.5.3/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/5.5.3/downloads"
+    },
+    "num": "5.5.3", "published_by": null,
+    "readme_path": "/api/v1/crates/symbolic-common/5.5.3/readme",
+    "updated_at": "2018-10-29T14:14:49.456962+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 8869,
+    "created_at": "2018-11-05T09:12:30.429286+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 546794, "kind": "normal", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 116291
+      },
+      {
+        "crate_id": "error-chain", "default_features": true, "downloads": 0,
+        "features": [], "id": 546795, "kind": "normal", "optional": false,
+        "req": "^0.12.0", "target": null, "version_id": 116291
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 546796, "kind": "normal", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 116291
+      },
+      {
+        "crate_id": "failure_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 546797, "kind": "normal",
+        "optional": false, "req": "^0.1.2", "target": null,
+        "version_id": 116291
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 546800, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 116291
+      },
+      {
+        "crate_id": "owning_ref", "default_features": true, "downloads": 0,
+        "features": [], "id": 546801, "kind": "normal", "optional": false,
+        "req": "^0.4.0", "target": null, "version_id": 116291
+      },
+      {
+        "crate_id": "gimli", "default_features": true, "downloads": 0,
+        "features": [], "id": 546798, "kind": "normal", "optional": true,
+        "req": "^0.16.1", "target": null, "version_id": 116291
+      },
+      {
+        "crate_id": "goblin", "default_features": true, "downloads": 0,
+        "features": [], "id": 546799, "kind": "normal", "optional": true,
+        "req": "^0.0.17", "target": null, "version_id": 116291
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 546802, "kind": "normal", "optional": true,
+        "req": "^1.0.79", "target": null, "version_id": 116291
+      },
+      {
+        "crate_id": "serde_plain", "default_features": true, "downloads": 0,
+        "features": [], "id": 546803, "kind": "normal", "optional": true,
+        "req": "^0.3.0", "target": null, "version_id": 116291
+      },
+      {
+        "crate_id": "sourcemap", "default_features": true, "downloads": 0,
+        "features": [], "id": 546804, "kind": "normal", "optional": true,
+        "req": "^2.2.1", "target": null, "version_id": 116291
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/5.5.4/download",
+    "downloads": 262,
+    "features": {
+      "default": [], "with_dwarf": ["gimli"], "with_objects": ["goblin"],
+      "with_serde": ["serde", "serde_plain", "debugid/with_serde"],
+      "with_sourcemaps": ["sourcemap"]
+    },
+    "id": 116291, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/5.5.4/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/5.5.4/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/5.5.4/downloads"
+    },
+    "num": "5.5.4", "published_by": null,
+    "readme_path": "/api/v1/crates/symbolic-common/5.5.4/readme",
+    "updated_at": "2018-11-05T09:12:30.429286+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 8874,
+    "created_at": "2018-11-06T14:09:50.557256+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 547919, "kind": "normal", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 116478
+      },
+      {
+        "crate_id": "error-chain", "default_features": true, "downloads": 0,
+        "features": [], "id": 547920, "kind": "normal", "optional": false,
+        "req": "^0.12.0", "target": null, "version_id": 116478
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 547921, "kind": "normal", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 116478
+      },
+      {
+        "crate_id": "failure_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 547922, "kind": "normal",
+        "optional": false, "req": "^0.1.2", "target": null,
+        "version_id": 116478
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 547925, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 116478
+      },
+      {
+        "crate_id": "owning_ref", "default_features": true, "downloads": 0,
+        "features": [], "id": 547926, "kind": "normal", "optional": false,
+        "req": "^0.4.0", "target": null, "version_id": 116478
+      },
+      {
+        "crate_id": "gimli", "default_features": true, "downloads": 0,
+        "features": [], "id": 547923, "kind": "normal", "optional": true,
+        "req": "^0.16.1", "target": null, "version_id": 116478
+      },
+      {
+        "crate_id": "goblin", "default_features": true, "downloads": 0,
+        "features": [], "id": 547924, "kind": "normal", "optional": true,
+        "req": "^0.0.17", "target": null, "version_id": 116478
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 547927, "kind": "normal", "optional": true,
+        "req": "^1.0.79", "target": null, "version_id": 116478
+      },
+      {
+        "crate_id": "serde_plain", "default_features": true, "downloads": 0,
+        "features": [], "id": 547928, "kind": "normal", "optional": true,
+        "req": "^0.3.0", "target": null, "version_id": 116478
+      },
+      {
+        "crate_id": "sourcemap", "default_features": true, "downloads": 0,
+        "features": [], "id": 547929, "kind": "normal", "optional": true,
+        "req": "^2.2.1", "target": null, "version_id": 116478
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/5.5.5/download",
+    "downloads": 201,
+    "features": {
+      "default": [], "with_dwarf": ["gimli"], "with_objects": ["goblin"],
+      "with_serde": ["serde", "serde_plain", "debugid/with_serde"],
+      "with_sourcemaps": ["sourcemap"]
+    },
+    "id": 116478, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/5.5.5/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/5.5.5/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/5.5.5/downloads"
+    },
+    "num": "5.5.5", "published_by": null,
+    "readme_path": "/api/v1/crates/symbolic-common/5.5.5/readme",
+    "updated_at": "2018-11-06T14:09:50.557256+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 8874,
+    "created_at": "2018-11-08T14:16:27.549228+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 549848, "kind": "normal", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 116816
+      },
+      {
+        "crate_id": "error-chain", "default_features": true, "downloads": 0,
+        "features": [], "id": 549849, "kind": "normal", "optional": false,
+        "req": "^0.12.0", "target": null, "version_id": 116816
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 549850, "kind": "normal", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 116816
+      },
+      {
+        "crate_id": "failure_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 549851, "kind": "normal",
+        "optional": false, "req": "^0.1.2", "target": null,
+        "version_id": 116816
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 549854, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 116816
+      },
+      {
+        "crate_id": "owning_ref", "default_features": true, "downloads": 0,
+        "features": [], "id": 549855, "kind": "normal", "optional": false,
+        "req": "^0.4.0", "target": null, "version_id": 116816
+      },
+      {
+        "crate_id": "gimli", "default_features": true, "downloads": 0,
+        "features": [], "id": 549852, "kind": "normal", "optional": true,
+        "req": "^0.16.1", "target": null, "version_id": 116816
+      },
+      {
+        "crate_id": "goblin", "default_features": true, "downloads": 0,
+        "features": [], "id": 549853, "kind": "normal", "optional": true,
+        "req": "^0.0.17", "target": null, "version_id": 116816
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 549856, "kind": "normal", "optional": true,
+        "req": "^1.0.79", "target": null, "version_id": 116816
+      },
+      {
+        "crate_id": "serde_plain", "default_features": true, "downloads": 0,
+        "features": [], "id": 549857, "kind": "normal", "optional": true,
+        "req": "^0.3.0", "target": null, "version_id": 116816
+      },
+      {
+        "crate_id": "sourcemap", "default_features": true, "downloads": 0,
+        "features": [], "id": 549858, "kind": "normal", "optional": true,
+        "req": "^2.2.1", "target": null, "version_id": 116816
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/5.5.6/download",
+    "downloads": 218,
+    "features": {
+      "default": [], "with_dwarf": ["gimli"], "with_objects": ["goblin"],
+      "with_serde": ["serde", "serde_plain", "debugid/with_serde"],
+      "with_sourcemaps": ["sourcemap"]
+    },
+    "id": 116816, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/5.5.6/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/5.5.6/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/5.5.6/downloads"
+    },
+    "num": "5.5.6", "published_by": null,
+    "readme_path": "/api/v1/crates/symbolic-common/5.5.6/readme",
+    "updated_at": "2018-11-08T14:16:27.549228+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 8872,
+    "created_at": "2018-11-16T13:19:19.823613+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 557475, "kind": "normal", "optional": false,
+        "req": "^0.3.1", "target": null, "version_id": 118149
+      },
+      {
+        "crate_id": "error-chain", "default_features": true, "downloads": 0,
+        "features": [], "id": 557476, "kind": "normal", "optional": false,
+        "req": "^0.12.0", "target": null, "version_id": 118149
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 557477, "kind": "normal", "optional": false,
+        "req": "^0.1.3", "target": null, "version_id": 118149
+      },
+      {
+        "crate_id": "failure_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 557478, "kind": "normal",
+        "optional": false, "req": "^0.1.3", "target": null,
+        "version_id": 118149
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 557481, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 118149
+      },
+      {
+        "crate_id": "owning_ref", "default_features": true, "downloads": 0,
+        "features": [], "id": 557482, "kind": "normal", "optional": false,
+        "req": "^0.4.0", "target": null, "version_id": 118149
+      },
+      {
+        "crate_id": "gimli", "default_features": true, "downloads": 0,
+        "features": [], "id": 557479, "kind": "normal", "optional": true,
+        "req": "^0.16.1", "target": null, "version_id": 118149
+      },
+      {
+        "crate_id": "goblin", "default_features": true, "downloads": 0,
+        "features": [], "id": 557480, "kind": "normal", "optional": true,
+        "req": "^0.0.19", "target": null, "version_id": 118149
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 557483, "kind": "normal", "optional": true,
+        "req": "^1.0.80", "target": null, "version_id": 118149
+      },
+      {
+        "crate_id": "serde_plain", "default_features": true, "downloads": 0,
+        "features": [], "id": 557484, "kind": "normal", "optional": true,
+        "req": "^0.3.0", "target": null, "version_id": 118149
+      },
+      {
+        "crate_id": "sourcemap", "default_features": true, "downloads": 0,
+        "features": [], "id": 557485, "kind": "normal", "optional": true,
+        "req": "^2.2.1", "target": null, "version_id": 118149
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/5.7.0/download",
+    "downloads": 224,
+    "features": {
+      "default": [], "with_dwarf": ["gimli"], "with_objects": ["goblin"],
+      "with_serde": ["serde", "serde_plain", "debugid/with_serde"],
+      "with_sourcemaps": ["sourcemap"]
+    },
+    "id": 118149, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/5.7.0/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/5.7.0/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/5.7.0/downloads"
+    },
+    "num": "5.7.0", "published_by": null,
+    "readme_path": "/api/v1/crates/symbolic-common/5.7.0/readme",
+    "updated_at": "2018-11-16T13:19:19.823613+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 8871,
+    "created_at": "2018-11-28T20:12:07.216037+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 568323, "kind": "normal", "optional": false,
+        "req": "^0.3.1", "target": null, "version_id": 119980
+      },
+      {
+        "crate_id": "error-chain", "default_features": true, "downloads": 0,
+        "features": [], "id": 568324, "kind": "normal", "optional": false,
+        "req": "^0.12.0", "target": null, "version_id": 119980
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 568325, "kind": "normal", "optional": false,
+        "req": "^0.1.3", "target": null, "version_id": 119980
+      },
+      {
+        "crate_id": "failure_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 568326, "kind": "normal",
+        "optional": false, "req": "^0.1.3", "target": null,
+        "version_id": 119980
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 568329, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 119980
+      },
+      {
+        "crate_id": "owning_ref", "default_features": true, "downloads": 0,
+        "features": [], "id": 568330, "kind": "normal", "optional": false,
+        "req": "^0.4.0", "target": null, "version_id": 119980
+      },
+      {
+        "crate_id": "gimli", "default_features": true, "downloads": 0,
+        "features": [], "id": 568327, "kind": "normal", "optional": true,
+        "req": "^0.16.1", "target": null, "version_id": 119980
+      },
+      {
+        "crate_id": "goblin", "default_features": true, "downloads": 0,
+        "features": [], "id": 568328, "kind": "normal", "optional": true,
+        "req": "^0.0.19", "target": null, "version_id": 119980
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 568331, "kind": "normal", "optional": true,
+        "req": "^1.0.80", "target": null, "version_id": 119980
+      },
+      {
+        "crate_id": "serde_plain", "default_features": true, "downloads": 0,
+        "features": [], "id": 568332, "kind": "normal", "optional": true,
+        "req": "^0.3.0", "target": null, "version_id": 119980
+      },
+      {
+        "crate_id": "sourcemap", "default_features": true, "downloads": 0,
+        "features": [], "id": 568333, "kind": "normal", "optional": true,
+        "req": "^2.2.1", "target": null, "version_id": 119980
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/5.7.1/download",
+    "downloads": 197,
+    "features": {
+      "default": [], "with_dwarf": ["gimli"], "with_objects": ["goblin"],
+      "with_serde": ["serde", "serde_plain", "debugid/with_serde"],
+      "with_sourcemaps": ["sourcemap"]
+    },
+    "id": 119980, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/5.7.1/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/5.7.1/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/5.7.1/downloads"
+    },
+    "num": "5.7.1", "published_by": null,
+    "readme_path": "/api/v1/crates/symbolic-common/5.7.1/readme",
+    "updated_at": "2018-11-28T20:12:07.216037+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 8875,
+    "created_at": "2018-12-04T13:20:51.510506+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 572350, "kind": "normal", "optional": false,
+        "req": "^0.3.1", "target": null, "version_id": 120729
+      },
+      {
+        "crate_id": "error-chain", "default_features": true, "downloads": 0,
+        "features": [], "id": 572351, "kind": "normal", "optional": false,
+        "req": "^0.12.0", "target": null, "version_id": 120729
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 572352, "kind": "normal", "optional": false,
+        "req": "^0.1.3", "target": null, "version_id": 120729
+      },
+      {
+        "crate_id": "failure_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 572353, "kind": "normal",
+        "optional": false, "req": "^0.1.3", "target": null,
+        "version_id": 120729
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 572356, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 120729
+      },
+      {
+        "crate_id": "owning_ref", "default_features": true, "downloads": 0,
+        "features": [], "id": 572357, "kind": "normal", "optional": false,
+        "req": "^0.4.0", "target": null, "version_id": 120729
+      },
+      {
+        "crate_id": "gimli", "default_features": true, "downloads": 0,
+        "features": [], "id": 572354, "kind": "normal", "optional": true,
+        "req": "^0.16.1", "target": null, "version_id": 120729
+      },
+      {
+        "crate_id": "goblin", "default_features": true, "downloads": 0,
+        "features": [], "id": 572355, "kind": "normal", "optional": true,
+        "req": "^0.0.19", "target": null, "version_id": 120729
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 572358, "kind": "normal", "optional": true,
+        "req": "^1.0.80", "target": null, "version_id": 120729
+      },
+      {
+        "crate_id": "serde_plain", "default_features": true, "downloads": 0,
+        "features": [], "id": 572359, "kind": "normal", "optional": true,
+        "req": "^0.3.0", "target": null, "version_id": 120729
+      },
+      {
+        "crate_id": "sourcemap", "default_features": true, "downloads": 0,
+        "features": [], "id": 572360, "kind": "normal", "optional": true,
+        "req": "^2.2.1", "target": null, "version_id": 120729
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/5.7.2/download",
+    "downloads": 279,
+    "features": {
+      "default": [], "with_dwarf": ["gimli"], "with_objects": ["goblin"],
+      "with_serde": ["serde", "serde_plain", "debugid/with_serde"],
+      "with_sourcemaps": ["sourcemap"]
+    },
+    "id": 120729, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/5.7.2/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/5.7.2/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/5.7.2/downloads"
+    },
+    "num": "5.7.2", "published_by": null,
+    "readme_path": "/api/v1/crates/symbolic-common/5.7.2/readme",
+    "updated_at": "2018-12-04T13:20:51.510506+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 8813,
+    "created_at": "2018-12-13T22:34:02.059959+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 582081, "kind": "normal", "optional": false,
+        "req": "^0.3.1", "target": null, "version_id": 122314
+      },
+      {
+        "crate_id": "error-chain", "default_features": true, "downloads": 0,
+        "features": [], "id": 582082, "kind": "normal", "optional": false,
+        "req": "^0.12.0", "target": null, "version_id": 122314
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 582083, "kind": "normal", "optional": false,
+        "req": "^0.1.3", "target": null, "version_id": 122314
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 582086, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 122314
+      },
+      {
+        "crate_id": "owning_ref", "default_features": true, "downloads": 0,
+        "features": [], "id": 582087, "kind": "normal", "optional": false,
+        "req": "^0.4.0", "target": null, "version_id": 122314
+      },
+      {
+        "crate_id": "gimli", "default_features": true, "downloads": 0,
+        "features": [], "id": 582084, "kind": "normal", "optional": true,
+        "req": "^0.16.1", "target": null, "version_id": 122314
+      },
+      {
+        "crate_id": "goblin", "default_features": true, "downloads": 0,
+        "features": [], "id": 582085, "kind": "normal", "optional": true,
+        "req": "^0.0.19", "target": null, "version_id": 122314
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 582088, "kind": "normal", "optional": true,
+        "req": "^1.0.80", "target": null, "version_id": 122314
+      },
+      {
+        "crate_id": "serde_plain", "default_features": true, "downloads": 0,
+        "features": [], "id": 582089, "kind": "normal", "optional": true,
+        "req": "^0.3.0", "target": null, "version_id": 122314
+      },
+      {
+        "crate_id": "sourcemap", "default_features": true, "downloads": 0,
+        "features": [], "id": 582090, "kind": "normal", "optional": true,
+        "req": "^2.2.1", "target": null, "version_id": 122314
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/5.7.3/download",
+    "downloads": 185,
+    "features": {
+      "default": [], "with_dwarf": ["gimli"], "with_objects": ["goblin"],
+      "with_serde": ["serde", "serde_plain", "debugid/with_serde"],
+      "with_sourcemaps": ["sourcemap"]
+    },
+    "id": 122314, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/5.7.3/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/5.7.3/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/5.7.3/downloads"
+    },
+    "num": "5.7.3", "published_by": null,
+    "readme_path": "/api/v1/crates/symbolic-common/5.7.3/readme",
+    "updated_at": "2018-12-13T22:34:02.059959+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 8814,
+    "created_at": "2018-12-14T17:05:45.895366+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 582815, "kind": "normal", "optional": false,
+        "req": "^0.3.1", "target": null, "version_id": 122408
+      },
+      {
+        "crate_id": "error-chain", "default_features": true, "downloads": 0,
+        "features": [], "id": 582816, "kind": "normal", "optional": false,
+        "req": "^0.12.0", "target": null, "version_id": 122408
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 582817, "kind": "normal", "optional": false,
+        "req": "^0.1.3", "target": null, "version_id": 122408
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 582820, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 122408
+      },
+      {
+        "crate_id": "owning_ref", "default_features": true, "downloads": 0,
+        "features": [], "id": 582821, "kind": "normal", "optional": false,
+        "req": "^0.4.0", "target": null, "version_id": 122408
+      },
+      {
+        "crate_id": "gimli", "default_features": true, "downloads": 0,
+        "features": [], "id": 582818, "kind": "normal", "optional": true,
+        "req": "^0.16.1", "target": null, "version_id": 122408
+      },
+      {
+        "crate_id": "goblin", "default_features": true, "downloads": 0,
+        "features": [], "id": 582819, "kind": "normal", "optional": true,
+        "req": "^0.0.19", "target": null, "version_id": 122408
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 582822, "kind": "normal", "optional": true,
+        "req": "^1.0.80", "target": null, "version_id": 122408
+      },
+      {
+        "crate_id": "serde_plain", "default_features": true, "downloads": 0,
+        "features": [], "id": 582823, "kind": "normal", "optional": true,
+        "req": "^0.3.0", "target": null, "version_id": 122408
+      },
+      {
+        "crate_id": "sourcemap", "default_features": true, "downloads": 0,
+        "features": [], "id": 582824, "kind": "normal", "optional": true,
+        "req": "^2.2.1", "target": null, "version_id": 122408
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/5.7.4/download",
+    "downloads": 273,
+    "features": {
+      "default": [], "with_dwarf": ["gimli"], "with_objects": ["goblin"],
+      "with_serde": ["serde", "serde_plain", "debugid/with_serde"],
+      "with_sourcemaps": ["sourcemap"]
+    },
+    "id": 122408, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/5.7.4/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/5.7.4/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/5.7.4/downloads"
+    },
+    "num": "5.7.4", "published_by": null,
+    "readme_path": "/api/v1/crates/symbolic-common/5.7.4/readme",
+    "updated_at": "2018-12-14T17:05:45.895366+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 8812,
+    "created_at": "2018-12-19T11:10:13.461416+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 587090, "kind": "normal", "optional": false,
+        "req": "^0.3.1", "target": null, "version_id": 123115
+      },
+      {
+        "crate_id": "error-chain", "default_features": true, "downloads": 0,
+        "features": [], "id": 587091, "kind": "normal", "optional": false,
+        "req": "^0.12.0", "target": null, "version_id": 123115
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 587092, "kind": "normal", "optional": false,
+        "req": "^0.1.3", "target": null, "version_id": 123115
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 587095, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 123115
+      },
+      {
+        "crate_id": "owning_ref", "default_features": true, "downloads": 0,
+        "features": [], "id": 587096, "kind": "normal", "optional": false,
+        "req": "^0.4.0", "target": null, "version_id": 123115
+      },
+      {
+        "crate_id": "gimli", "default_features": true, "downloads": 0,
+        "features": [], "id": 587093, "kind": "normal", "optional": true,
+        "req": "^0.16.1", "target": null, "version_id": 123115
+      },
+      {
+        "crate_id": "goblin", "default_features": true, "downloads": 0,
+        "features": [], "id": 587094, "kind": "normal", "optional": true,
+        "req": "^0.0.19", "target": null, "version_id": 123115
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 587097, "kind": "normal", "optional": true,
+        "req": "^1.0.80", "target": null, "version_id": 123115
+      },
+      {
+        "crate_id": "serde_plain", "default_features": true, "downloads": 0,
+        "features": [], "id": 587098, "kind": "normal", "optional": true,
+        "req": "^0.3.0", "target": null, "version_id": 123115
+      },
+      {
+        "crate_id": "sourcemap", "default_features": true, "downloads": 0,
+        "features": [], "id": 587099, "kind": "normal", "optional": true,
+        "req": "^2.2.1", "target": null, "version_id": 123115
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/5.7.5/download",
+    "downloads": 182,
+    "features": {
+      "default": [], "with_dwarf": ["gimli"], "with_objects": ["goblin"],
+      "with_serde": ["serde", "serde_plain", "debugid/with_serde"],
+      "with_sourcemaps": ["sourcemap"]
+    },
+    "id": 123115, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/5.7.5/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/5.7.5/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/5.7.5/downloads"
+    },
+    "num": "5.7.5", "published_by": null,
+    "readme_path": "/api/v1/crates/symbolic-common/5.7.5/readme",
+    "updated_at": "2018-12-19T11:10:13.461416+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 8813,
+    "created_at": "2018-12-19T13:59:46.418832+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 587294, "kind": "normal", "optional": false,
+        "req": "^0.3.1", "target": null, "version_id": 123146
+      },
+      {
+        "crate_id": "error-chain", "default_features": true, "downloads": 0,
+        "features": [], "id": 587295, "kind": "normal", "optional": false,
+        "req": "^0.12.0", "target": null, "version_id": 123146
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 587296, "kind": "normal", "optional": false,
+        "req": "^0.1.3", "target": null, "version_id": 123146
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 587299, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 123146
+      },
+      {
+        "crate_id": "owning_ref", "default_features": true, "downloads": 0,
+        "features": [], "id": 587300, "kind": "normal", "optional": false,
+        "req": "^0.4.0", "target": null, "version_id": 123146
+      },
+      {
+        "crate_id": "gimli", "default_features": true, "downloads": 0,
+        "features": [], "id": 587297, "kind": "normal", "optional": true,
+        "req": "^0.16.1", "target": null, "version_id": 123146
+      },
+      {
+        "crate_id": "goblin", "default_features": true, "downloads": 0,
+        "features": [], "id": 587298, "kind": "normal", "optional": true,
+        "req": "^0.0.19", "target": null, "version_id": 123146
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 587301, "kind": "normal", "optional": true,
+        "req": "^1.0.80", "target": null, "version_id": 123146
+      },
+      {
+        "crate_id": "serde_plain", "default_features": true, "downloads": 0,
+        "features": [], "id": 587302, "kind": "normal", "optional": true,
+        "req": "^0.3.0", "target": null, "version_id": 123146
+      },
+      {
+        "crate_id": "sourcemap", "default_features": true, "downloads": 0,
+        "features": [], "id": 587303, "kind": "normal", "optional": true,
+        "req": "^2.2.1", "target": null, "version_id": 123146
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/5.7.6/download",
+    "downloads": 206,
+    "features": {
+      "default": [], "with_dwarf": ["gimli"], "with_objects": ["goblin"],
+      "with_serde": ["serde", "serde_plain", "debugid/with_serde"],
+      "with_sourcemaps": ["sourcemap"]
+    },
+    "id": 123146, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/5.7.6/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/5.7.6/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/5.7.6/downloads"
+    },
+    "num": "5.7.6", "published_by": null,
+    "readme_path": "/api/v1/crates/symbolic-common/5.7.6/readme",
+    "updated_at": "2018-12-19T13:59:46.418832+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 8814,
+    "created_at": "2019-01-04T19:17:12.712969+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 600650, "kind": "normal", "optional": false,
+        "req": "^0.3.1", "target": null, "version_id": 125564
+      },
+      {
+        "crate_id": "error-chain", "default_features": true, "downloads": 0,
+        "features": [], "id": 600651, "kind": "normal", "optional": false,
+        "req": "^0.12.0", "target": null, "version_id": 125564
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 600652, "kind": "normal", "optional": false,
+        "req": "^0.1.3", "target": null, "version_id": 125564
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 600655, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 125564
+      },
+      {
+        "crate_id": "owning_ref", "default_features": true, "downloads": 0,
+        "features": [], "id": 600656, "kind": "normal", "optional": false,
+        "req": "^0.4.0", "target": null, "version_id": 125564
+      },
+      {
+        "crate_id": "gimli", "default_features": true, "downloads": 0,
+        "features": [], "id": 600653, "kind": "normal", "optional": true,
+        "req": "^0.16.1", "target": null, "version_id": 125564
+      },
+      {
+        "crate_id": "goblin", "default_features": true, "downloads": 0,
+        "features": [], "id": 600654, "kind": "normal", "optional": true,
+        "req": "^0.0.19", "target": null, "version_id": 125564
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 600657, "kind": "normal", "optional": true,
+        "req": "^1.0.80", "target": null, "version_id": 125564
+      },
+      {
+        "crate_id": "serde_plain", "default_features": true, "downloads": 0,
+        "features": [], "id": 600658, "kind": "normal", "optional": true,
+        "req": "^0.3.0", "target": null, "version_id": 125564
+      },
+      {
+        "crate_id": "sourcemap", "default_features": true, "downloads": 0,
+        "features": [], "id": 600659, "kind": "normal", "optional": true,
+        "req": "^2.2.1", "target": null, "version_id": 125564
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/5.7.7/download",
+    "downloads": 177,
+    "features": {
+      "default": [], "with_dwarf": ["gimli"], "with_objects": ["goblin"],
+      "with_serde": ["serde", "serde_plain", "debugid/with_serde"],
+      "with_sourcemaps": ["sourcemap"]
+    },
+    "id": 125564, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/5.7.7/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/5.7.7/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/5.7.7/downloads"
+    },
+    "num": "5.7.7", "published_by": null,
+    "readme_path": "/api/v1/crates/symbolic-common/5.7.7/readme",
+    "updated_at": "2019-01-04T19:17:12.712969+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 8814,
+    "created_at": "2019-01-08T19:52:11.336906+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 605146, "kind": "normal", "optional": false,
+        "req": "^0.3.1", "target": null, "version_id": 127231
+      },
+      {
+        "crate_id": "error-chain", "default_features": true, "downloads": 0,
+        "features": [], "id": 605147, "kind": "normal", "optional": false,
+        "req": "^0.12.0", "target": null, "version_id": 127231
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 605148, "kind": "normal", "optional": false,
+        "req": "^0.1.3", "target": null, "version_id": 127231
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 605151, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 127231
+      },
+      {
+        "crate_id": "owning_ref", "default_features": true, "downloads": 0,
+        "features": [], "id": 605152, "kind": "normal", "optional": false,
+        "req": "^0.4.0", "target": null, "version_id": 127231
+      },
+      {
+        "crate_id": "gimli", "default_features": true, "downloads": 0,
+        "features": [], "id": 605149, "kind": "normal", "optional": true,
+        "req": "^0.16.1", "target": null, "version_id": 127231
+      },
+      {
+        "crate_id": "goblin", "default_features": true, "downloads": 0,
+        "features": [], "id": 605150, "kind": "normal", "optional": true,
+        "req": "^0.0.19", "target": null, "version_id": 127231
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 605153, "kind": "normal", "optional": true,
+        "req": "^1.0.80", "target": null, "version_id": 127231
+      },
+      {
+        "crate_id": "serde_plain", "default_features": true, "downloads": 0,
+        "features": [], "id": 605154, "kind": "normal", "optional": true,
+        "req": "^0.3.0", "target": null, "version_id": 127231
+      },
+      {
+        "crate_id": "sourcemap", "default_features": true, "downloads": 0,
+        "features": [], "id": 605155, "kind": "normal", "optional": true,
+        "req": "^2.2.1", "target": null, "version_id": 127231
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/5.7.8/download",
+    "downloads": 285,
+    "features": {
+      "default": [], "with_dwarf": ["gimli"], "with_objects": ["goblin"],
+      "with_serde": ["serde", "serde_plain", "debugid/with_serde"],
+      "with_sourcemaps": ["sourcemap"]
+    },
+    "id": 127231, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/5.7.8/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/5.7.8/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/5.7.8/downloads"
+    },
+    "num": "5.7.8", "published_by": null,
+    "readme_path": "/api/v1/crates/symbolic-common/5.7.8/readme",
+    "updated_at": "2019-01-08T19:52:11.336906+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 13904,
+    "created_at": "2019-03-14T08:22:25.071215+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 673788, "kind": "normal", "optional": false,
+        "req": "^0.5.0", "target": null, "version_id": 138827
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 673789, "kind": "normal", "optional": false,
+        "req": "^0.1.5", "target": null, "version_id": 138827
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 673790, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 138827
+      },
+      {
+        "crate_id": "stable_deref_trait", "default_features": true,
+        "downloads": 0, "features": [], "id": 673792, "kind": "normal",
+        "optional": false, "req": "^1.1.1", "target": null,
+        "version_id": 138827
+      },
+      {
+        "crate_id": "uuid", "default_features": true, "downloads": 0,
+        "features": [], "id": 673793, "kind": "normal", "optional": false,
+        "req": "^0.7.2", "target": null, "version_id": 138827
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 673791, "kind": "normal", "optional": true,
+        "req": "^1.0.88", "target": null, "version_id": 138827
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/6.0.0/download",
+    "downloads": 158,
+    "features": {"default": [], "serde": ["serde_", "debugid/serde"]},
+    "id": 138827, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/6.0.0/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/6.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/6.0.0/downloads"
+    },
+    "num": "6.0.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/10587625?v=4",
+      "id": 12434, "login": "getsentry-bot", "name": "Sentry Bot",
+      "url": "https://github.com/getsentry-bot"
+    },
+    "readme_path": "/api/v1/crates/symbolic-common/6.0.0/readme",
+    "updated_at": "2019-03-14T08:22:25.071215+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 57,
+    "created_at": "2019-03-14T10:53:36.798526+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 673917, "kind": "normal", "optional": false,
+        "req": "^0.5.0", "target": null, "version_id": 138852
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 673918, "kind": "normal", "optional": false,
+        "req": "^0.1.5", "target": null, "version_id": 138852
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 673919, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 138852
+      },
+      {
+        "crate_id": "stable_deref_trait", "default_features": true,
+        "downloads": 0, "features": [], "id": 673921, "kind": "normal",
+        "optional": false, "req": "^1.1.1", "target": null,
+        "version_id": 138852
+      },
+      {
+        "crate_id": "uuid", "default_features": true, "downloads": 0,
+        "features": [], "id": 673922, "kind": "normal", "optional": false,
+        "req": "^0.7.2", "target": null, "version_id": 138852
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 673920, "kind": "normal", "optional": true,
+        "req": "^1.0.88", "target": null, "version_id": 138852
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/6.0.1/download",
+    "downloads": 339,
+    "features": {"default": [], "serde": ["serde_", "debugid/serde"]},
+    "id": 138852, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/6.0.1/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/6.0.1/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/6.0.1/downloads"
+    },
+    "num": "6.0.1",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/10587625?v=4",
+      "id": 12434, "login": "getsentry-bot", "name": "Sentry Bot",
+      "url": "https://github.com/getsentry-bot"
+    },
+    "readme_path": "/api/v1/crates/symbolic-common/6.0.1/readme",
+    "updated_at": "2019-03-14T11:28:02.046399+00:00", "yanked": true
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 57,
+    "created_at": "2019-03-14T11:49:36.612645+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 673965, "kind": "normal", "optional": false,
+        "req": "^0.5.0", "target": null, "version_id": 138859
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 673966, "kind": "normal", "optional": false,
+        "req": "^0.1.5", "target": null, "version_id": 138859
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 673967, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 138859
+      },
+      {
+        "crate_id": "stable_deref_trait", "default_features": true,
+        "downloads": 0, "features": [], "id": 673969, "kind": "normal",
+        "optional": false, "req": "^1.1.1", "target": null,
+        "version_id": 138859
+      },
+      {
+        "crate_id": "uuid", "default_features": true, "downloads": 0,
+        "features": [], "id": 673970, "kind": "normal", "optional": false,
+        "req": "^0.7.2", "target": null, "version_id": 138859
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 673968, "kind": "normal", "optional": true,
+        "req": "^1.0.88", "target": null, "version_id": 138859
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/6.0.2/download",
+    "downloads": 332,
+    "features": {"default": [], "serde": ["serde_", "debugid/serde"]},
+    "id": 138859, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/6.0.2/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/6.0.2/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/6.0.2/downloads"
+    },
+    "num": "6.0.2",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/10587625?v=4",
+      "id": 12434, "login": "getsentry-bot", "name": "Sentry Bot",
+      "url": "https://github.com/getsentry-bot"
+    },
+    "readme_path": "/api/v1/crates/symbolic-common/6.0.2/readme",
+    "updated_at": "2019-03-14T13:56:31.132841+00:00", "yanked": true
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 13910,
+    "created_at": "2019-03-14T13:54:39.758929+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 674067, "kind": "normal", "optional": false,
+        "req": "^0.5.0", "target": null, "version_id": 138882
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 674068, "kind": "normal", "optional": false,
+        "req": "^0.1.5", "target": null, "version_id": 138882
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 674069, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 138882
+      },
+      {
+        "crate_id": "stable_deref_trait", "default_features": true,
+        "downloads": 0, "features": [], "id": 674071, "kind": "normal",
+        "optional": false, "req": "^1.1.1", "target": null,
+        "version_id": 138882
+      },
+      {
+        "crate_id": "uuid", "default_features": true, "downloads": 0,
+        "features": [], "id": 674072, "kind": "normal", "optional": false,
+        "req": "^0.7.2", "target": null, "version_id": 138882
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 674070, "kind": "normal", "optional": true,
+        "req": "^1.0.88", "target": null, "version_id": 138882
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/6.0.3/download",
+    "downloads": 219,
+    "features": {"default": [], "serde": ["serde_", "debugid/serde"]},
+    "id": 138882, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/6.0.3/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/6.0.3/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/6.0.3/downloads"
+    },
+    "num": "6.0.3",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/10587625?v=4",
+      "id": 12434, "login": "getsentry-bot", "name": "Sentry Bot",
+      "url": "https://github.com/getsentry-bot"
+    },
+    "readme_path": "/api/v1/crates/symbolic-common/6.0.3/readme",
+    "updated_at": "2019-03-14T13:54:39.758929+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 13909,
+    "created_at": "2019-03-20T19:42:01.886015+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 680794, "kind": "normal", "optional": false,
+        "req": "^0.5.0", "target": null, "version_id": 140510
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 680795, "kind": "normal", "optional": false,
+        "req": "^0.1.5", "target": null, "version_id": 140510
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 680796, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 140510
+      },
+      {
+        "crate_id": "stable_deref_trait", "default_features": true,
+        "downloads": 0, "features": [], "id": 680798, "kind": "normal",
+        "optional": false, "req": "^1.1.1", "target": null,
+        "version_id": 140510
+      },
+      {
+        "crate_id": "uuid", "default_features": true, "downloads": 0,
+        "features": [], "id": 680799, "kind": "normal", "optional": false,
+        "req": "^0.7.2", "target": null, "version_id": 140510
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 680797, "kind": "normal", "optional": true,
+        "req": "^1.0.88", "target": null, "version_id": 140510
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/6.0.4/download",
+    "downloads": 291,
+    "features": {"default": [], "serde": ["serde_", "debugid/serde"]},
+    "id": 140510, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/6.0.4/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/6.0.4/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/6.0.4/downloads"
+    },
+    "num": "6.0.4",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/10587625?v=4",
+      "id": 12434, "login": "getsentry-bot", "name": "Sentry Bot",
+      "url": "https://github.com/getsentry-bot"
+    },
+    "readme_path": "/api/v1/crates/symbolic-common/6.0.4/readme",
+    "updated_at": "2019-03-20T19:42:01.886015+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 13908,
+    "created_at": "2019-04-02T15:46:39.871051+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 693989, "kind": "normal", "optional": false,
+        "req": "^0.6.0", "target": null, "version_id": 142790
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 693990, "kind": "normal", "optional": false,
+        "req": "^0.1.5", "target": null, "version_id": 142790
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 693991, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 142790
+      },
+      {
+        "crate_id": "stable_deref_trait", "default_features": true,
+        "downloads": 0, "features": [], "id": 693993, "kind": "normal",
+        "optional": false, "req": "^1.1.1", "target": null,
+        "version_id": 142790
+      },
+      {
+        "crate_id": "uuid", "default_features": true, "downloads": 0,
+        "features": [], "id": 693994, "kind": "normal", "optional": false,
+        "req": "^0.7.2", "target": null, "version_id": 142790
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 693992, "kind": "normal", "optional": true,
+        "req": "^1.0.88", "target": null, "version_id": 142790
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/6.0.5/download",
+    "downloads": 157,
+    "features": {"default": [], "serde": ["serde_", "debugid/serde"]},
+    "id": 142790, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/6.0.5/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/6.0.5/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/6.0.5/downloads"
+    },
+    "num": "6.0.5",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/10587625?v=4",
+      "id": 12434, "login": "getsentry-bot", "name": "Sentry Bot",
+      "url": "https://github.com/getsentry-bot"
+    },
+    "readme_path": "/api/v1/crates/symbolic-common/6.0.5/readme",
+    "updated_at": "2019-04-02T15:46:39.871051+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 13939,
+    "created_at": "2019-04-05T14:55:06.063716+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 697645, "kind": "normal", "optional": false,
+        "req": "^0.6.0", "target": null, "version_id": 143313
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 697646, "kind": "normal", "optional": false,
+        "req": "^0.1.5", "target": null, "version_id": 143313
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 697647, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 143313
+      },
+      {
+        "crate_id": "stable_deref_trait", "default_features": true,
+        "downloads": 0, "features": [], "id": 697649, "kind": "normal",
+        "optional": false, "req": "^1.1.1", "target": null,
+        "version_id": 143313
+      },
+      {
+        "crate_id": "uuid", "default_features": true, "downloads": 0,
+        "features": [], "id": 697650, "kind": "normal", "optional": false,
+        "req": "^0.7.2", "target": null, "version_id": 143313
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 697648, "kind": "normal", "optional": true,
+        "req": "^1.0.88", "target": null, "version_id": 143313
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/6.0.6/download",
+    "downloads": 171,
+    "features": {"default": [], "serde": ["serde_", "debugid/serde"]},
+    "id": 143313, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/6.0.6/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/6.0.6/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/6.0.6/downloads"
+    },
+    "num": "6.0.6",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/10587625?v=4",
+      "id": 12434, "login": "getsentry-bot", "name": "Sentry Bot",
+      "url": "https://github.com/getsentry-bot"
+    },
+    "readme_path": "/api/v1/crates/symbolic-common/6.0.6/readme",
+    "updated_at": "2019-04-05T14:55:06.063716+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 14418,
+    "created_at": "2019-04-15T07:08:50.974141+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 707629, "kind": "normal", "optional": false,
+        "req": "^0.6.0", "target": null, "version_id": 144964
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 707630, "kind": "normal", "optional": false,
+        "req": "^0.1.5", "target": null, "version_id": 144964
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 707631, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 144964
+      },
+      {
+        "crate_id": "stable_deref_trait", "default_features": true,
+        "downloads": 0, "features": [], "id": 707633, "kind": "normal",
+        "optional": false, "req": "^1.1.1", "target": null,
+        "version_id": 144964
+      },
+      {
+        "crate_id": "uuid", "default_features": true, "downloads": 0,
+        "features": [], "id": 707634, "kind": "normal", "optional": false,
+        "req": "^0.7.2", "target": null, "version_id": 144964
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 707632, "kind": "normal", "optional": true,
+        "req": "^1.0.88", "target": null, "version_id": 144964
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/6.1.0/download",
+    "downloads": 590,
+    "features": {"default": [], "serde": ["serde_", "debugid/serde"]},
+    "id": 144964, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/6.1.0/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/6.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/6.1.0/downloads"
+    },
+    "num": "6.1.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/10587625?v=4",
+      "id": 12434, "login": "getsentry-bot", "name": "Sentry Bot",
+      "url": "https://github.com/getsentry-bot"
+    },
+    "readme_path": "/api/v1/crates/symbolic-common/6.1.0/readme",
+    "updated_at": "2019-04-15T07:08:50.974141+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 14945,
+    "created_at": "2019-05-21T15:33:27.374+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 747119, "kind": "normal", "optional": false,
+        "req": "^0.5.3", "target": null, "version_id": 151825
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 747120, "kind": "normal", "optional": false,
+        "req": "^0.1.5", "target": null, "version_id": 151825
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 747121, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 151825
+      },
+      {
+        "crate_id": "stable_deref_trait", "default_features": true,
+        "downloads": 0, "features": [], "id": 747123, "kind": "normal",
+        "optional": false, "req": "^1.1.1", "target": null,
+        "version_id": 151825
+      },
+      {
+        "crate_id": "uuid", "default_features": true, "downloads": 0,
+        "features": [], "id": 747124, "kind": "normal", "optional": false,
+        "req": "^0.7.4", "target": null, "version_id": 151825
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 747122, "kind": "normal", "optional": true,
+        "req": "^1.0.88", "target": null, "version_id": 151825
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/6.1.3/download",
+    "downloads": 823,
+    "features": {"default": [], "serde": ["serde_", "debugid/serde"]},
+    "id": 151825, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/6.1.3/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/6.1.3/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/6.1.3/downloads"
+    },
+    "num": "6.1.3",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/10587625?v=4",
+      "id": 12434, "login": "getsentry-bot", "name": "Sentry Bot",
+      "url": "https://github.com/getsentry-bot"
+    },
+    "readme_path": "/api/v1/crates/symbolic-common/6.1.3/readme",
+    "updated_at": "2019-05-21T15:33:27.374+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 15121,
+    "created_at": "2019-08-16T21:42:22.687831+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 865375, "kind": "normal", "optional": false,
+        "req": "^0.5.3", "target": null, "version_id": 169988
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 865376, "kind": "normal", "optional": false,
+        "req": "^0.1.5", "target": null, "version_id": 169988
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 865377, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 169988
+      },
+      {
+        "crate_id": "stable_deref_trait", "default_features": true,
+        "downloads": 0, "features": [], "id": 865379, "kind": "normal",
+        "optional": false, "req": "^1.1.1", "target": null,
+        "version_id": 169988
+      },
+      {
+        "crate_id": "uuid", "default_features": true, "downloads": 0,
+        "features": [], "id": 865380, "kind": "normal", "optional": false,
+        "req": "^0.7.4", "target": null, "version_id": 169988
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 865378, "kind": "normal", "optional": true,
+        "req": "^1.0.88", "target": null, "version_id": 169988
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/6.1.4/download",
+    "downloads": 9986,
+    "features": {"default": [], "serde": ["serde_", "debugid/serde"]},
+    "id": 169988, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/6.1.4/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/6.1.4/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/6.1.4/downloads"
+    },
+    "num": "6.1.4",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/10587625?v=4",
+      "id": 12434, "login": "getsentry-bot", "name": "Sentry Bot",
+      "url": "https://github.com/getsentry-bot"
+    },
+    "readme_path": "/api/v1/crates/symbolic-common/6.1.4/readme",
+    "updated_at": "2019-08-16T21:42:22.687831+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-03-18T16:04:42.727838+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/10587625?v=4",
+          "id": 12434, "login": "getsentry-bot", "name": "Sentry Bot",
+          "url": "https://github.com/getsentry-bot"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 15984,
+    "created_at": "2020-03-18T16:04:42.727838+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 1227932, "kind": "normal", "optional": false,
+        "req": "^0.5.3", "target": null, "version_id": 222392
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 1227933, "kind": "normal", "optional": false,
+        "req": "^0.1.5", "target": null, "version_id": 222392
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1227934, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 222392
+      },
+      {
+        "crate_id": "stable_deref_trait", "default_features": true,
+        "downloads": 0, "features": [], "id": 1227936, "kind": "normal",
+        "optional": false, "req": "^1.1.1", "target": null,
+        "version_id": 222392
+      },
+      {
+        "crate_id": "uuid", "default_features": true, "downloads": 0,
+        "features": [], "id": 1227937, "kind": "normal", "optional": false,
+        "req": "^0.7.4", "target": null, "version_id": 222392
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1227935, "kind": "normal",
+        "optional": true, "req": "^1.0.88", "target": null,
+        "version_id": 222392
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/7.1.1/download",
+    "downloads": 2326,
+    "features": {"default": [], "serde": ["serde_", "debugid/serde"]},
+    "id": 222392, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/7.1.1/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/7.1.1/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/7.1.1/downloads"
+    },
+    "num": "7.1.1",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/10587625?v=4",
+      "id": 12434, "login": "getsentry-bot", "name": "Sentry Bot",
+      "url": "https://github.com/getsentry-bot"
+    },
+    "readme_path": "/api/v1/crates/symbolic-common/7.1.1/readme",
+    "updated_at": "2020-03-18T16:04:42.727838+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-03-24T15:00:57.930639+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/10587625?v=4",
+          "id": 12434, "login": "getsentry-bot", "name": "Sentry Bot",
+          "url": "https://github.com/getsentry-bot"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 15979,
+    "created_at": "2020-03-24T15:00:57.930639+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 1240626, "kind": "normal", "optional": false,
+        "req": "^0.7.1", "target": null, "version_id": 224211
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 1240627, "kind": "normal", "optional": false,
+        "req": "^0.1.5", "target": null, "version_id": 224211
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1240628, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 224211
+      },
+      {
+        "crate_id": "stable_deref_trait", "default_features": true,
+        "downloads": 0, "features": [], "id": 1240630, "kind": "normal",
+        "optional": false, "req": "^1.1.1", "target": null,
+        "version_id": 224211
+      },
+      {
+        "crate_id": "uuid", "default_features": true, "downloads": 0,
+        "features": [], "id": 1240631, "kind": "normal", "optional": false,
+        "req": "^0.8.1", "target": null, "version_id": 224211
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1240629, "kind": "normal",
+        "optional": true, "req": "^1.0.88", "target": null,
+        "version_id": 224211
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/7.2.0/download",
+    "downloads": 1810,
+    "features": {"default": [], "serde": ["serde_", "debugid/serde"]},
+    "id": 224211, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/7.2.0/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/7.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/7.2.0/downloads"
+    },
+    "num": "7.2.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/10587625?v=4",
+      "id": 12434, "login": "getsentry-bot", "name": "Sentry Bot",
+      "url": "https://github.com/getsentry-bot"
+    },
+    "readme_path": "/api/v1/crates/symbolic-common/7.2.0/readme",
+    "updated_at": "2020-03-24T15:00:57.930639+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-04-26T20:50:05.066038+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/10587625?v=4",
+          "id": 12434, "login": "getsentry-bot", "name": "Sentry Bot",
+          "url": "https://github.com/getsentry-bot"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 17447,
+    "created_at": "2020-04-26T20:50:05.066038+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 1321712, "kind": "normal", "optional": false,
+        "req": "^0.7.1", "target": null, "version_id": 235076
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 1321713, "kind": "normal", "optional": false,
+        "req": "^0.1.5", "target": null, "version_id": 235076
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1321714, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 235076
+      },
+      {
+        "crate_id": "stable_deref_trait", "default_features": true,
+        "downloads": 0, "features": [], "id": 1321716, "kind": "normal",
+        "optional": false, "req": "^1.1.1", "target": null,
+        "version_id": 235076
+      },
+      {
+        "crate_id": "uuid", "default_features": true, "downloads": 0,
+        "features": [], "id": 1321717, "kind": "normal", "optional": false,
+        "req": "^0.8.1", "target": null, "version_id": 235076
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1321715, "kind": "normal",
+        "optional": true, "req": "^1.0.88", "target": null,
+        "version_id": 235076
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/7.3.0/download",
+    "downloads": 589,
+    "features": {"default": [], "serde": ["serde_", "debugid/serde"]},
+    "id": 235076, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/7.3.0/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/7.3.0/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/7.3.0/downloads"
+    },
+    "num": "7.3.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/10587625?v=4",
+      "id": 12434, "login": "getsentry-bot", "name": "Sentry Bot",
+      "url": "https://github.com/getsentry-bot"
+    },
+    "readme_path": "/api/v1/crates/symbolic-common/7.3.0/readme",
+    "updated_at": "2020-04-26T20:50:05.066038+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-05-14T17:21:54.952152+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/10587625?v=4",
+          "id": 12434, "login": "getsentry-bot", "name": "Sentry Bot",
+          "url": "https://github.com/getsentry-bot"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 17447,
+    "created_at": "2020-05-14T17:21:54.952152+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 1366653, "kind": "normal", "optional": false,
+        "req": "^0.7.1", "target": null, "version_id": 241413
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 1366654, "kind": "normal", "optional": false,
+        "req": "^0.1.5", "target": null, "version_id": 241413
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1366655, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 241413
+      },
+      {
+        "crate_id": "stable_deref_trait", "default_features": true,
+        "downloads": 0, "features": [], "id": 1366657, "kind": "normal",
+        "optional": false, "req": "^1.1.1", "target": null,
+        "version_id": 241413
+      },
+      {
+        "crate_id": "uuid", "default_features": true, "downloads": 0,
+        "features": [], "id": 1366658, "kind": "normal", "optional": false,
+        "req": "^0.8.1", "target": null, "version_id": 241413
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1366656, "kind": "normal",
+        "optional": true, "req": "^1.0.88", "target": null,
+        "version_id": 241413
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/7.3.1/download",
+    "downloads": 404,
+    "features": {"default": [], "serde": ["serde_", "debugid/serde"]},
+    "id": 241413, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/7.3.1/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/7.3.1/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/7.3.1/downloads"
+    },
+    "num": "7.3.1",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/10587625?v=4",
+      "id": 12434, "login": "getsentry-bot", "name": "Sentry Bot",
+      "url": "https://github.com/getsentry-bot"
+    },
+    "readme_path": "/api/v1/crates/symbolic-common/7.3.1/readme",
+    "updated_at": "2020-05-14T17:21:54.952152+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-05-25T20:13:08.526686+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/10587625?v=4",
+          "id": 12434, "login": "getsentry-bot", "name": "Sentry Bot",
+          "url": "https://github.com/getsentry-bot"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 17449,
+    "created_at": "2020-05-25T20:13:08.526686+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 1395135, "kind": "normal", "optional": false,
+        "req": "^0.7.1", "target": null, "version_id": 245289
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 1395136, "kind": "normal", "optional": false,
+        "req": "^0.1.5", "target": null, "version_id": 245289
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1395137, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 245289
+      },
+      {
+        "crate_id": "stable_deref_trait", "default_features": true,
+        "downloads": 0, "features": [], "id": 1395139, "kind": "normal",
+        "optional": false, "req": "^1.1.1", "target": null,
+        "version_id": 245289
+      },
+      {
+        "crate_id": "uuid", "default_features": true, "downloads": 0,
+        "features": [], "id": 1395140, "kind": "normal", "optional": false,
+        "req": "^0.8.1", "target": null, "version_id": 245289
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1395138, "kind": "normal",
+        "optional": true, "req": "^1.0.88", "target": null,
+        "version_id": 245289
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/7.3.2/download",
+    "downloads": 573,
+    "features": {"default": [], "serde": ["serde_", "debugid/serde"]},
+    "id": 245289, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/7.3.2/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/7.3.2/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/7.3.2/downloads"
+    },
+    "num": "7.3.2",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/10587625?v=4",
+      "id": 12434, "login": "getsentry-bot", "name": "Sentry Bot",
+      "url": "https://github.com/getsentry-bot"
+    },
+    "readme_path": "/api/v1/crates/symbolic-common/7.3.2/readme",
+    "updated_at": "2020-05-25T20:13:08.526686+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-05-27T09:25:42.236180+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/10587625?v=4",
+          "id": 12434, "login": "getsentry-bot", "name": "Sentry Bot",
+          "url": "https://github.com/getsentry-bot"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 17445,
+    "created_at": "2020-05-27T09:25:42.236180+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 1401018, "kind": "normal", "optional": false,
+        "req": "^0.7.1", "target": null, "version_id": 246004
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 1401019, "kind": "normal", "optional": false,
+        "req": "^0.1.5", "target": null, "version_id": 246004
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1401020, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 246004
+      },
+      {
+        "crate_id": "stable_deref_trait", "default_features": true,
+        "downloads": 0, "features": [], "id": 1401022, "kind": "normal",
+        "optional": false, "req": "^1.1.1", "target": null,
+        "version_id": 246004
+      },
+      {
+        "crate_id": "uuid", "default_features": true, "downloads": 0,
+        "features": [], "id": 1401023, "kind": "normal", "optional": false,
+        "req": "^0.8.1", "target": null, "version_id": 246004
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1401021, "kind": "normal",
+        "optional": true, "req": "^1.0.88", "target": null,
+        "version_id": 246004
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/7.3.3/download",
+    "downloads": 165,
+    "features": {"default": [], "serde": ["serde_", "debugid/serde"]},
+    "id": 246004, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/7.3.3/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/7.3.3/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/7.3.3/downloads"
+    },
+    "num": "7.3.3",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/10587625?v=4",
+      "id": 12434, "login": "getsentry-bot", "name": "Sentry Bot",
+      "url": "https://github.com/getsentry-bot"
+    },
+    "readme_path": "/api/v1/crates/symbolic-common/7.3.3/readme",
+    "updated_at": "2020-05-27T09:25:42.236180+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-06-09T09:50:59.631413+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/10587625?v=4",
+          "id": 12434, "login": "getsentry-bot", "name": "Sentry Bot",
+          "url": "https://github.com/getsentry-bot"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 17444,
+    "created_at": "2020-06-09T09:50:59.631413+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 1433791, "kind": "normal", "optional": false,
+        "req": "^0.7.1", "target": null, "version_id": 250466
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 1433792, "kind": "normal", "optional": false,
+        "req": "^0.1.5", "target": null, "version_id": 250466
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1433793, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 250466
+      },
+      {
+        "crate_id": "stable_deref_trait", "default_features": true,
+        "downloads": 0, "features": [], "id": 1433795, "kind": "normal",
+        "optional": false, "req": "^1.1.1", "target": null,
+        "version_id": 250466
+      },
+      {
+        "crate_id": "uuid", "default_features": true, "downloads": 0,
+        "features": [], "id": 1433796, "kind": "normal", "optional": false,
+        "req": "^0.8.1", "target": null, "version_id": 250466
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1433794, "kind": "normal",
+        "optional": true, "req": "^1.0.88", "target": null,
+        "version_id": 250466
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/7.3.4/download",
+    "downloads": 43,
+    "features": {"default": [], "serde": ["serde_", "debugid/serde"]},
+    "id": 250466, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/7.3.4/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/7.3.4/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/7.3.4/downloads"
+    },
+    "num": "7.3.4",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/10587625?v=4",
+      "id": 12434, "login": "getsentry-bot", "name": "Sentry Bot",
+      "url": "https://github.com/getsentry-bot"
+    },
+    "readme_path": "/api/v1/crates/symbolic-common/7.3.4/readme",
+    "updated_at": "2020-06-09T09:50:59.631413+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-06-09T14:09:15.554720+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/10587625?v=4",
+          "id": 12434, "login": "getsentry-bot", "name": "Sentry Bot",
+          "url": "https://github.com/getsentry-bot"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 17442,
+    "created_at": "2020-06-09T14:09:15.554720+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 1434142, "kind": "normal", "optional": false,
+        "req": "^0.7.1", "target": null, "version_id": 250526
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 1434143, "kind": "normal", "optional": false,
+        "req": "^0.1.5", "target": null, "version_id": 250526
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1434144, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 250526
+      },
+      {
+        "crate_id": "stable_deref_trait", "default_features": true,
+        "downloads": 0, "features": [], "id": 1434146, "kind": "normal",
+        "optional": false, "req": "^1.1.1", "target": null,
+        "version_id": 250526
+      },
+      {
+        "crate_id": "uuid", "default_features": true, "downloads": 0,
+        "features": [], "id": 1434147, "kind": "normal", "optional": false,
+        "req": "^0.8.1", "target": null, "version_id": 250526
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1434145, "kind": "normal",
+        "optional": true, "req": "^1.0.88", "target": null,
+        "version_id": 250526
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/7.3.5/download",
+    "downloads": 45,
+    "features": {"default": [], "serde": ["serde_", "debugid/serde"]},
+    "id": 250526, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/7.3.5/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/7.3.5/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/7.3.5/downloads"
+    },
+    "num": "7.3.5",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/10587625?v=4",
+      "id": 12434, "login": "getsentry-bot", "name": "Sentry Bot",
+      "url": "https://github.com/getsentry-bot"
+    },
+    "readme_path": "/api/v1/crates/symbolic-common/7.3.5/readme",
+    "updated_at": "2020-06-09T14:09:15.554720+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-06-10T15:11:55.440970+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/10587625?v=4",
+          "id": 12434, "login": "getsentry-bot", "name": "Sentry Bot",
+          "url": "https://github.com/getsentry-bot"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 17445,
+    "created_at": "2020-06-10T15:11:55.440970+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 1437014, "kind": "normal", "optional": false,
+        "req": "^0.7.1", "target": null, "version_id": 250944
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 1437015, "kind": "normal", "optional": false,
+        "req": "^0.1.5", "target": null, "version_id": 250944
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1437016, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 250944
+      },
+      {
+        "crate_id": "stable_deref_trait", "default_features": true,
+        "downloads": 0, "features": [], "id": 1437018, "kind": "normal",
+        "optional": false, "req": "^1.1.1", "target": null,
+        "version_id": 250944
+      },
+      {
+        "crate_id": "uuid", "default_features": true, "downloads": 0,
+        "features": [], "id": 1437019, "kind": "normal", "optional": false,
+        "req": "^0.8.1", "target": null, "version_id": 250944
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1437017, "kind": "normal",
+        "optional": true, "req": "^1.0.88", "target": null,
+        "version_id": 250944
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/7.3.6/download",
+    "downloads": 130,
+    "features": {"default": [], "serde": ["serde_", "debugid/serde"]},
+    "id": 250944, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/7.3.6/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/7.3.6/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/7.3.6/downloads"
+    },
+    "num": "7.3.6",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/10587625?v=4",
+      "id": 12434, "login": "getsentry-bot", "name": "Sentry Bot",
+      "url": "https://github.com/getsentry-bot"
+    },
+    "readme_path": "/api/v1/crates/symbolic-common/7.3.6/readme",
+    "updated_at": "2020-06-10T15:11:55.440970+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-06-18T17:30:38.676175+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/10587625?v=4",
+          "id": 12434, "login": "getsentry-bot", "name": "Sentry Bot",
+          "url": "https://github.com/getsentry-bot"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 23865,
+    "created_at": "2020-06-18T17:30:38.676175+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 1457136, "kind": "normal", "optional": false,
+        "req": "^0.7.1", "target": null, "version_id": 253672
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 1457137, "kind": "normal", "optional": false,
+        "req": "^0.1.5", "target": null, "version_id": 253672
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1457138, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 253672
+      },
+      {
+        "crate_id": "stable_deref_trait", "default_features": true,
+        "downloads": 0, "features": [], "id": 1457140, "kind": "normal",
+        "optional": false, "req": "^1.1.1", "target": null,
+        "version_id": 253672
+      },
+      {
+        "crate_id": "tempfile", "default_features": true, "downloads": 0,
+        "features": [], "id": 1457142, "kind": "dev", "optional": false,
+        "req": "^3.1.0", "target": null, "version_id": 253672
+      },
+      {
+        "crate_id": "uuid", "default_features": true, "downloads": 0,
+        "features": [], "id": 1457141, "kind": "normal", "optional": false,
+        "req": "^0.8.1", "target": null, "version_id": 253672
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1457139, "kind": "normal",
+        "optional": true, "req": "^1.0.88", "target": null,
+        "version_id": 253672
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/7.4.0/download",
+    "downloads": 7897,
+    "features": {"default": [], "serde": ["serde_", "debugid/serde"]},
+    "id": 253672, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/7.4.0/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/7.4.0/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/7.4.0/downloads"
+    },
+    "num": "7.4.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/10587625?v=4",
+      "id": 12434, "login": "getsentry-bot", "name": "Sentry Bot",
+      "url": "https://github.com/getsentry-bot"
+    },
+    "readme_path": "/api/v1/crates/symbolic-common/7.4.0/readme",
+    "updated_at": "2020-06-18T17:30:38.676175+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-08-21T15:18:01.197107+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/10587625?v=4",
+          "id": 12434, "login": "getsentry-bot", "name": "Sentry Bot",
+          "url": "https://github.com/getsentry-bot"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Armin Ronacher <armin.ronacher@active-4.com>",
+          "Jan Michael Auer <mail@jauer.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "symbolic-common", "crate_size": 23909,
+    "created_at": "2020-08-21T15:18:01.197107+00:00",
+    "dependencies": [
+      {
+        "crate_id": "debugid", "default_features": true, "downloads": 0,
+        "features": [], "id": 1619906, "kind": "normal", "optional": false,
+        "req": "^0.7.1", "target": null, "version_id": 275067
+      },
+      {
+        "crate_id": "failure", "default_features": true, "downloads": 0,
+        "features": [], "id": 1619907, "kind": "normal", "optional": false,
+        "req": "^0.1.5", "target": null, "version_id": 275067
+      },
+      {
+        "crate_id": "memmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1619908, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 275067
+      },
+      {
+        "crate_id": "stable_deref_trait", "default_features": true,
+        "downloads": 0, "features": [], "id": 1619910, "kind": "normal",
+        "optional": false, "req": "^1.1.1", "target": null,
+        "version_id": 275067
+      },
+      {
+        "crate_id": "tempfile", "default_features": true, "downloads": 0,
+        "features": [], "id": 1619912, "kind": "dev", "optional": false,
+        "req": "^3.1.0", "target": null, "version_id": 275067
+      },
+      {
+        "crate_id": "uuid", "default_features": true, "downloads": 0,
+        "features": [], "id": 1619911, "kind": "normal", "optional": false,
+        "req": "^0.8.1", "target": null, "version_id": 275067
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1619909, "kind": "normal",
+        "optional": true, "req": "^1.0.88", "target": null,
+        "version_id": 275067
+      }
+    ],
+    "dl_path": "/api/v1/crates/symbolic-common/7.5.0/download",
+    "downloads": 5993,
+    "features": {"default": [], "serde": ["serde_", "debugid/serde"]},
+    "id": 275067, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/symbolic-common/7.5.0/authors",
+      "dependencies": "/api/v1/crates/symbolic-common/7.5.0/dependencies",
+      "version_downloads": "/api/v1/crates/symbolic-common/7.5.0/downloads"
+    },
+    "num": "7.5.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/10587625?v=4",
+      "id": 12434, "login": "getsentry-bot", "name": "Sentry Bot",
+      "url": "https://github.com/getsentry-bot"
+    },
+    "readme_path": "/api/v1/crates/symbolic-common/7.5.0/readme",
+    "updated_at": "2020-08-21T15:18:01.197107+00:00", "yanked": false
+  }
+]

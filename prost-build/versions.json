@@ -1,0 +1,946 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Dan Burkert <dan@danburkert.com>"]},
+      "users": []
+    },
+    "crate": "prost-build", "crate_size": null,
+    "created_at": "2017-06-25T07:40:34.848805+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 228988, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 57880
+      },
+      {
+        "crate_id": "curl", "default_features": true, "downloads": 0,
+        "features": [], "id": 228987, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 57880
+      },
+      {
+        "crate_id": "prost", "default_features": true, "downloads": 0,
+        "features": [], "id": 228989, "kind": "normal", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 57880
+      },
+      {
+        "crate_id": "prost-codegen", "default_features": true,
+        "downloads": 0, "features": [], "id": 228990, "kind": "normal",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 57880
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 228985, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 57880
+      },
+      {
+        "crate_id": "zip", "default_features": true, "downloads": 0,
+        "features": [], "id": 228986, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 57880
+      }
+    ],
+    "dl_path": "/api/v1/crates/prost-build/0.1.0/download",
+    "downloads": 792, "features": {}, "id": 57880,
+    "license": "Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/prost-build/0.1.0/authors",
+      "dependencies": "/api/v1/crates/prost-build/0.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/prost-build/0.1.0/downloads"
+    },
+    "num": "0.1.0", "published_by": null,
+    "readme_path": "/api/v1/crates/prost-build/0.1.0/readme",
+    "updated_at": "2017-11-30T02:28:41.486510+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Dan Burkert <dan@danburkert.com>"]},
+      "users": []
+    },
+    "crate": "prost-build", "crate_size": null,
+    "created_at": "2017-09-10T19:23:05.182503+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 265951, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 64998
+      },
+      {
+        "crate_id": "curl", "default_features": true, "downloads": 0,
+        "features": [], "id": 265960, "kind": "build", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 64998
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 265955, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 64998
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 265959, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 64998
+      },
+      {
+        "crate_id": "heck", "default_features": true, "downloads": 0,
+        "features": [], "id": 265952, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 64998
+      },
+      {
+        "crate_id": "itertools", "default_features": true, "downloads": 0,
+        "features": [], "id": 265949, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 64998
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 265957, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 64998
+      },
+      {
+        "crate_id": "multimap", "default_features": false, "downloads": 0,
+        "features": [], "id": 265956, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 64998
+      },
+      {
+        "crate_id": "petgraph", "default_features": true, "downloads": 0,
+        "features": [], "id": 265953, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 64998
+      },
+      {
+        "crate_id": "prost", "default_features": true, "downloads": 0,
+        "features": [], "id": 265950, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 64998
+      },
+      {
+        "crate_id": "prost-types", "default_features": true, "downloads": 0,
+        "features": [], "id": 265958, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 64998
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 265954, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 64998
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 265962, "kind": "build", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 64998
+      },
+      {
+        "crate_id": "zip", "default_features": true, "downloads": 0,
+        "features": [], "id": 265961, "kind": "build", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 64998
+      }
+    ],
+    "dl_path": "/api/v1/crates/prost-build/0.2.0/download",
+    "downloads": 2852, "features": {}, "id": 64998,
+    "license": "Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/prost-build/0.2.0/authors",
+      "dependencies": "/api/v1/crates/prost-build/0.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/prost-build/0.2.0/downloads"
+    },
+    "num": "0.2.0", "published_by": null,
+    "readme_path": "/api/v1/crates/prost-build/0.2.0/readme",
+    "updated_at": "2017-11-30T02:33:45.175562+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Dan Burkert <dan@danburkert.com>"]},
+      "users": []
+    },
+    "crate": "prost-build", "crate_size": null,
+    "created_at": "2017-09-28T03:11:10.164099+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 277550, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 66920
+      },
+      {
+        "crate_id": "curl", "default_features": true, "downloads": 0,
+        "features": [], "id": 277555, "kind": "build", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 66920
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 277553, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 66920
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 277548, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 66920
+      },
+      {
+        "crate_id": "heck", "default_features": true, "downloads": 0,
+        "features": [], "id": 277549, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 66920
+      },
+      {
+        "crate_id": "itertools", "default_features": true, "downloads": 0,
+        "features": [], "id": 277546, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 66920
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 277551, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 66920
+      },
+      {
+        "crate_id": "multimap", "default_features": false, "downloads": 0,
+        "features": [], "id": 277543, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 66920
+      },
+      {
+        "crate_id": "petgraph", "default_features": true, "downloads": 0,
+        "features": [], "id": 277552, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 66920
+      },
+      {
+        "crate_id": "prost", "default_features": true, "downloads": 0,
+        "features": [], "id": 277544, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 66920
+      },
+      {
+        "crate_id": "prost-types", "default_features": true, "downloads": 0,
+        "features": [], "id": 277545, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 66920
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 277547, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 66920
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 277556, "kind": "build", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 66920
+      },
+      {
+        "crate_id": "zip", "default_features": true, "downloads": 0,
+        "features": [], "id": 277554, "kind": "build", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 66920
+      }
+    ],
+    "dl_path": "/api/v1/crates/prost-build/0.2.1/download",
+    "downloads": 3090, "features": {}, "id": 66920,
+    "license": "Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/prost-build/0.2.1/authors",
+      "dependencies": "/api/v1/crates/prost-build/0.2.1/dependencies",
+      "version_downloads": "/api/v1/crates/prost-build/0.2.1/downloads"
+    },
+    "num": "0.2.1", "published_by": null,
+    "readme_path": "/api/v1/crates/prost-build/0.2.1/readme",
+    "updated_at": "2017-11-30T03:54:29.642094+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Dan Burkert <dan@danburkert.com>"]},
+      "users": []
+    },
+    "crate": "prost-build", "crate_size": null,
+    "created_at": "2017-10-29T06:11:48.195585+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 290837, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 69641
+      },
+      {
+        "crate_id": "curl", "default_features": true, "downloads": 0,
+        "features": [], "id": 290848, "kind": "build", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 69641
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 290847, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 69641
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 290838, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 69641
+      },
+      {
+        "crate_id": "heck", "default_features": true, "downloads": 0,
+        "features": [], "id": 290839, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 69641
+      },
+      {
+        "crate_id": "itertools", "default_features": true, "downloads": 0,
+        "features": [], "id": 290840, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 69641
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 290841, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 69641
+      },
+      {
+        "crate_id": "multimap", "default_features": false, "downloads": 0,
+        "features": [], "id": 290842, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 69641
+      },
+      {
+        "crate_id": "petgraph", "default_features": true, "downloads": 0,
+        "features": [], "id": 290843, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 69641
+      },
+      {
+        "crate_id": "prost", "default_features": true, "downloads": 0,
+        "features": [], "id": 290844, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 69641
+      },
+      {
+        "crate_id": "prost-types", "default_features": true, "downloads": 0,
+        "features": [], "id": 290845, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 69641
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 290846, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 69641
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 290849, "kind": "build", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 69641
+      },
+      {
+        "crate_id": "zip", "default_features": true, "downloads": 0,
+        "features": [], "id": 290850, "kind": "build", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 69641
+      }
+    ],
+    "dl_path": "/api/v1/crates/prost-build/0.2.2/download",
+    "downloads": 433, "features": {}, "id": 69641,
+    "license": "Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/prost-build/0.2.2/authors",
+      "dependencies": "/api/v1/crates/prost-build/0.2.2/dependencies",
+      "version_downloads": "/api/v1/crates/prost-build/0.2.2/downloads"
+    },
+    "num": "0.2.2", "published_by": null,
+    "readme_path": "/api/v1/crates/prost-build/0.2.2/readme",
+    "updated_at": "2017-11-30T03:04:52.353957+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Dan Burkert <dan@danburkert.com>"]},
+      "users": []
+    },
+    "crate": "prost-build", "crate_size": null,
+    "created_at": "2017-11-09T02:52:11.896960+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 296596, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 70769
+      },
+      {
+        "crate_id": "curl", "default_features": true, "downloads": 0,
+        "features": [], "id": 296607, "kind": "build", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 70769
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 296606, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 70769
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 296597, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 70769
+      },
+      {
+        "crate_id": "heck", "default_features": true, "downloads": 0,
+        "features": [], "id": 296598, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 70769
+      },
+      {
+        "crate_id": "itertools", "default_features": true, "downloads": 0,
+        "features": [], "id": 296599, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 70769
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 296600, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 70769
+      },
+      {
+        "crate_id": "multimap", "default_features": false, "downloads": 0,
+        "features": [], "id": 296601, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 70769
+      },
+      {
+        "crate_id": "petgraph", "default_features": true, "downloads": 0,
+        "features": [], "id": 296602, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 70769
+      },
+      {
+        "crate_id": "prost", "default_features": true, "downloads": 0,
+        "features": [], "id": 296603, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 70769
+      },
+      {
+        "crate_id": "prost-types", "default_features": true, "downloads": 0,
+        "features": [], "id": 296604, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 70769
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 296605, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 70769
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 296608, "kind": "build", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 70769
+      },
+      {
+        "crate_id": "zip", "default_features": true, "downloads": 0,
+        "features": [], "id": 296609, "kind": "build", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 70769
+      }
+    ],
+    "dl_path": "/api/v1/crates/prost-build/0.2.3/download",
+    "downloads": 2070, "features": {}, "id": 70769,
+    "license": "Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/prost-build/0.2.3/authors",
+      "dependencies": "/api/v1/crates/prost-build/0.2.3/dependencies",
+      "version_downloads": "/api/v1/crates/prost-build/0.2.3/downloads"
+    },
+    "num": "0.2.3", "published_by": null,
+    "readme_path": "/api/v1/crates/prost-build/0.2.3/readme",
+    "updated_at": "2017-11-30T03:09:44.604270+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Dan Burkert <dan@danburkert.com>"]},
+      "users": []
+    },
+    "crate": "prost-build", "crate_size": null,
+    "created_at": "2018-01-29T02:21:15.741676+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 341991, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 79101
+      },
+      {
+        "crate_id": "curl", "default_features": true, "downloads": 0,
+        "features": [], "id": 342002, "kind": "build", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 79101
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 342001, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 79101
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 341992, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 79101
+      },
+      {
+        "crate_id": "heck", "default_features": true, "downloads": 0,
+        "features": [], "id": 341993, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 79101
+      },
+      {
+        "crate_id": "itertools", "default_features": true, "downloads": 0,
+        "features": [], "id": 341994, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 79101
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 341995, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 79101
+      },
+      {
+        "crate_id": "multimap", "default_features": false, "downloads": 0,
+        "features": [], "id": 341996, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 79101
+      },
+      {
+        "crate_id": "petgraph", "default_features": true, "downloads": 0,
+        "features": [], "id": 341997, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 79101
+      },
+      {
+        "crate_id": "prost", "default_features": true, "downloads": 0,
+        "features": [], "id": 341998, "kind": "normal", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 79101
+      },
+      {
+        "crate_id": "prost-types", "default_features": true, "downloads": 0,
+        "features": [], "id": 341999, "kind": "normal", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 79101
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 342000, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 79101
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 342003, "kind": "build", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 79101
+      },
+      {
+        "crate_id": "zip", "default_features": true, "downloads": 0,
+        "features": [], "id": 342004, "kind": "build", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 79101
+      }
+    ],
+    "dl_path": "/api/v1/crates/prost-build/0.3.0/download",
+    "downloads": 1024, "features": {}, "id": 79101,
+    "license": "Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/prost-build/0.3.0/authors",
+      "dependencies": "/api/v1/crates/prost-build/0.3.0/dependencies",
+      "version_downloads": "/api/v1/crates/prost-build/0.3.0/downloads"
+    },
+    "num": "0.3.0", "published_by": null,
+    "readme_path": "/api/v1/crates/prost-build/0.3.0/readme",
+    "updated_at": "2018-01-29T02:21:15.741676+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Dan Burkert <dan@danburkert.com>"]},
+      "users": []
+    },
+    "crate": "prost-build", "crate_size": null,
+    "created_at": "2018-03-04T19:32:56.492192+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 364754, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 83296
+      },
+      {
+        "crate_id": "env_logger", "default_features": false, "downloads": 0,
+        "features": [], "id": 364764, "kind": "dev", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 83296
+      },
+      {
+        "crate_id": "env_logger", "default_features": false, "downloads": 0,
+        "features": [], "id": 364755, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 83296
+      },
+      {
+        "crate_id": "heck", "default_features": true, "downloads": 0,
+        "features": [], "id": 364756, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 83296
+      },
+      {
+        "crate_id": "itertools", "default_features": true, "downloads": 0,
+        "features": [], "id": 364757, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 83296
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 364758, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 83296
+      },
+      {
+        "crate_id": "multimap", "default_features": false, "downloads": 0,
+        "features": [], "id": 364759, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 83296
+      },
+      {
+        "crate_id": "petgraph", "default_features": false, "downloads": 0,
+        "features": [], "id": 364760, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 83296
+      },
+      {
+        "crate_id": "prost", "default_features": true, "downloads": 0,
+        "features": [], "id": 364761, "kind": "normal", "optional": false,
+        "req": "^0.3.2", "target": null, "version_id": 83296
+      },
+      {
+        "crate_id": "prost-types", "default_features": true, "downloads": 0,
+        "features": [], "id": 364762, "kind": "normal", "optional": false,
+        "req": "^0.3.2", "target": null, "version_id": 83296
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 364763, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 83296
+      }
+    ],
+    "dl_path": "/api/v1/crates/prost-build/0.3.2/download",
+    "downloads": 16428, "features": {}, "id": 83296,
+    "license": "Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/prost-build/0.3.2/authors",
+      "dependencies": "/api/v1/crates/prost-build/0.3.2/dependencies",
+      "version_downloads": "/api/v1/crates/prost-build/0.3.2/downloads"
+    },
+    "num": "0.3.2", "published_by": null,
+    "readme_path": "/api/v1/crates/prost-build/0.3.2/readme",
+    "updated_at": "2018-03-04T19:32:56.492192+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Dan Burkert <dan@danburkert.com>"]},
+      "users": []
+    },
+    "crate": "prost-build", "crate_size": null,
+    "created_at": "2018-06-13T05:10:58.444681+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 437272, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 96383
+      },
+      {
+        "crate_id": "env_logger", "default_features": false, "downloads": 0,
+        "features": [], "id": 437282, "kind": "dev", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 96383
+      },
+      {
+        "crate_id": "env_logger", "default_features": false, "downloads": 0,
+        "features": [], "id": 437273, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 96383
+      },
+      {
+        "crate_id": "heck", "default_features": true, "downloads": 0,
+        "features": [], "id": 437274, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 96383
+      },
+      {
+        "crate_id": "itertools", "default_features": true, "downloads": 0,
+        "features": [], "id": 437275, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 96383
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 437276, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 96383
+      },
+      {
+        "crate_id": "multimap", "default_features": false, "downloads": 0,
+        "features": [], "id": 437277, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 96383
+      },
+      {
+        "crate_id": "petgraph", "default_features": false, "downloads": 0,
+        "features": [], "id": 437278, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 96383
+      },
+      {
+        "crate_id": "prost", "default_features": true, "downloads": 0,
+        "features": [], "id": 437279, "kind": "normal", "optional": false,
+        "req": "^0.4.0", "target": null, "version_id": 96383
+      },
+      {
+        "crate_id": "prost-types", "default_features": true, "downloads": 0,
+        "features": [], "id": 437280, "kind": "normal", "optional": false,
+        "req": "^0.4.0", "target": null, "version_id": 96383
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 437281, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 96383
+      },
+      {
+        "crate_id": "which", "default_features": true, "downloads": 0,
+        "features": [], "id": 437283, "kind": "build", "optional": false,
+        "req": "^2", "target": null, "version_id": 96383
+      }
+    ],
+    "dl_path": "/api/v1/crates/prost-build/0.4.0/download",
+    "downloads": 166059, "features": {}, "id": 96383,
+    "license": "Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/prost-build/0.4.0/authors",
+      "dependencies": "/api/v1/crates/prost-build/0.4.0/dependencies",
+      "version_downloads": "/api/v1/crates/prost-build/0.4.0/downloads"
+    },
+    "num": "0.4.0", "published_by": null,
+    "readme_path": "/api/v1/crates/prost-build/0.4.0/readme",
+    "updated_at": "2018-06-13T05:10:58.444681+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Dan Burkert <dan@danburkert.com>"]},
+      "users": []
+    },
+    "crate": "prost-build", "crate_size": 7642632,
+    "created_at": "2019-03-10T20:38:32.474073+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 669807, "kind": "normal", "optional": false,
+        "req": "^0.4.7", "target": null, "version_id": 138210
+      },
+      {
+        "crate_id": "env_logger", "default_features": false, "downloads": 0,
+        "features": [], "id": 669816, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 138210
+      },
+      {
+        "crate_id": "heck", "default_features": true, "downloads": 0,
+        "features": [], "id": 669808, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 138210
+      },
+      {
+        "crate_id": "itertools", "default_features": true, "downloads": 0,
+        "features": [], "id": 669809, "kind": "normal", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 138210
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 669810, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 138210
+      },
+      {
+        "crate_id": "multimap", "default_features": false, "downloads": 0,
+        "features": [], "id": 669811, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 138210
+      },
+      {
+        "crate_id": "petgraph", "default_features": false, "downloads": 0,
+        "features": [], "id": 669812, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 138210
+      },
+      {
+        "crate_id": "prost", "default_features": true, "downloads": 0,
+        "features": [], "id": 669813, "kind": "normal", "optional": false,
+        "req": "^0.5.0", "target": null, "version_id": 138210
+      },
+      {
+        "crate_id": "prost-types", "default_features": true, "downloads": 0,
+        "features": [], "id": 669814, "kind": "normal", "optional": false,
+        "req": "^0.5.0", "target": null, "version_id": 138210
+      },
+      {
+        "crate_id": "tempfile", "default_features": true, "downloads": 0,
+        "features": [], "id": 669815, "kind": "normal", "optional": false,
+        "req": "^3", "target": null, "version_id": 138210
+      },
+      {
+        "crate_id": "which", "default_features": true, "downloads": 0,
+        "features": [], "id": 669817, "kind": "build", "optional": false,
+        "req": "^2", "target": null, "version_id": 138210
+      }
+    ],
+    "dl_path": "/api/v1/crates/prost-build/0.5.0/download",
+    "downloads": 573854, "features": {}, "id": 138210,
+    "license": "Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/prost-build/0.5.0/authors",
+      "dependencies": "/api/v1/crates/prost-build/0.5.0/dependencies",
+      "version_downloads": "/api/v1/crates/prost-build/0.5.0/downloads"
+    },
+    "num": "0.5.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/160242?v=4",
+      "id": 413, "login": "danburkert", "name": "Dan Burkert",
+      "url": "https://github.com/danburkert"
+    },
+    "readme_path": "/api/v1/crates/prost-build/0.5.0/readme",
+    "updated_at": "2019-03-10T20:38:32.474073+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-01-13T01:12:41.393700+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/160242?v=4",
+          "id": 413, "login": "danburkert", "name": "Dan Burkert",
+          "url": "https://github.com/danburkert"
+        }
+      },
+      {
+        "action": "yank", "time": "2020-01-16T17:48:47.936918+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/160242?v=4",
+          "id": 413, "login": "danburkert", "name": "Dan Burkert",
+          "url": "https://github.com/danburkert"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Dan Burkert <dan@danburkert.com>"]},
+      "users": []
+    },
+    "crate": "prost-build", "crate_size": 7935302,
+    "created_at": "2020-01-13T01:12:41.393700+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1085483, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 203390
+      },
+      {
+        "crate_id": "env_logger", "default_features": false, "downloads": 0,
+        "features": [], "id": 1085492, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 203390
+      },
+      {
+        "crate_id": "heck", "default_features": true, "downloads": 0,
+        "features": [], "id": 1085484, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 203390
+      },
+      {
+        "crate_id": "itertools", "default_features": true, "downloads": 0,
+        "features": [], "id": 1085485, "kind": "normal", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 203390
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1085486, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 203390
+      },
+      {
+        "crate_id": "multimap", "default_features": false, "downloads": 0,
+        "features": [], "id": 1085487, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 203390
+      },
+      {
+        "crate_id": "petgraph", "default_features": false, "downloads": 0,
+        "features": [], "id": 1085488, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 203390
+      },
+      {
+        "crate_id": "prost", "default_features": true, "downloads": 0,
+        "features": [], "id": 1085489, "kind": "normal", "optional": false,
+        "req": "^0.6.0", "target": null, "version_id": 203390
+      },
+      {
+        "crate_id": "prost-types", "default_features": true, "downloads": 0,
+        "features": [], "id": 1085490, "kind": "normal", "optional": false,
+        "req": "^0.6.0", "target": null, "version_id": 203390
+      },
+      {
+        "crate_id": "tempfile", "default_features": true, "downloads": 0,
+        "features": [], "id": 1085491, "kind": "normal", "optional": false,
+        "req": "^3", "target": null, "version_id": 203390
+      },
+      {
+        "crate_id": "which", "default_features": true, "downloads": 0,
+        "features": [], "id": 1085493, "kind": "build", "optional": false,
+        "req": "^2", "target": null, "version_id": 203390
+      }
+    ],
+    "dl_path": "/api/v1/crates/prost-build/0.6.0/download",
+    "downloads": 23768, "features": {}, "id": 203390,
+    "license": "Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/prost-build/0.6.0/authors",
+      "dependencies": "/api/v1/crates/prost-build/0.6.0/dependencies",
+      "version_downloads": "/api/v1/crates/prost-build/0.6.0/downloads"
+    },
+    "num": "0.6.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/160242?v=4",
+      "id": 413, "login": "danburkert", "name": "Dan Burkert",
+      "url": "https://github.com/danburkert"
+    },
+    "readme_path": "/api/v1/crates/prost-build/0.6.0/readme",
+    "updated_at": "2020-01-16T17:48:49.546761+00:00", "yanked": true
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-01-16T17:48:08.434279+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/160242?v=4",
+          "id": 413, "login": "danburkert", "name": "Dan Burkert",
+          "url": "https://github.com/danburkert"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Dan Burkert <dan@danburkert.com>"]},
+      "users": []
+    },
+    "crate": "prost-build", "crate_size": 7935314,
+    "created_at": "2020-01-16T17:48:08.434279+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093261, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 204414
+      },
+      {
+        "crate_id": "env_logger", "default_features": false, "downloads": 0,
+        "features": [], "id": 1093270, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 204414
+      },
+      {
+        "crate_id": "heck", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093262, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 204414
+      },
+      {
+        "crate_id": "itertools", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093263, "kind": "normal", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 204414
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093264, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 204414
+      },
+      {
+        "crate_id": "multimap", "default_features": false, "downloads": 0,
+        "features": [], "id": 1093265, "kind": "normal", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 204414
+      },
+      {
+        "crate_id": "petgraph", "default_features": false, "downloads": 0,
+        "features": [], "id": 1093266, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 204414
+      },
+      {
+        "crate_id": "prost", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093267, "kind": "normal", "optional": false,
+        "req": "^0.6.1", "target": null, "version_id": 204414
+      },
+      {
+        "crate_id": "prost-types", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093268, "kind": "normal", "optional": false,
+        "req": "^0.6.1", "target": null, "version_id": 204414
+      },
+      {
+        "crate_id": "tempfile", "default_features": true, "downloads": 0,
+        "features": [], "id": 1093269, "kind": "normal", "optional": false,
+        "req": "^3", "target": null, "version_id": 204414
+      },
+      {
+        "crate_id": "which", "default_features": false, "downloads": 0,
+        "features": [], "id": 1093271, "kind": "build", "optional": false,
+        "req": "^3", "target": null, "version_id": 204414
+      }
+    ],
+    "dl_path": "/api/v1/crates/prost-build/0.6.1/download",
+    "downloads": 1094304, "features": {}, "id": 204414,
+    "license": "Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/prost-build/0.6.1/authors",
+      "dependencies": "/api/v1/crates/prost-build/0.6.1/dependencies",
+      "version_downloads": "/api/v1/crates/prost-build/0.6.1/downloads"
+    },
+    "num": "0.6.1",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/160242?v=4",
+      "id": 413, "login": "danburkert", "name": "Dan Burkert",
+      "url": "https://github.com/danburkert"
+    },
+    "readme_path": "/api/v1/crates/prost-build/0.6.1/readme",
+    "updated_at": "2020-01-16T17:48:08.434279+00:00", "yanked": false
+  }
+]

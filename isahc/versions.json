@@ -1,0 +1,4073 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Stephen M. Coakley <me@stephencoakley.com>"]},
+      "users": []
+    },
+    "crate": "isahc", "crate_size": 203412,
+    "created_at": "2019-08-03T22:56:39.256009+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 848378, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 167253
+      },
+      {
+        "crate_id": "crossbeam-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 848380, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 167253
+      },
+      {
+        "crate_id": "curl", "default_features": true, "downloads": 0,
+        "features": [], "id": 848381, "kind": "normal", "optional": false,
+        "req": "^0.4.20", "target": null, "version_id": 167253
+      },
+      {
+        "crate_id": "curl-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 848382, "kind": "normal", "optional": false,
+        "req": "^0.4.20", "target": null, "version_id": 167253
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 848394, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 167253
+      },
+      {
+        "crate_id": "futures-io-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 848383, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.17", "target": null,
+        "version_id": 167253
+      },
+      {
+        "crate_id": "futures-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 848395, "kind": "dev",
+        "optional": false, "req": "=0.3.0-alpha.17", "target": null,
+        "version_id": 167253
+      },
+      {
+        "crate_id": "futures-util-preview", "default_features": true,
+        "downloads": 0, "features": ["io"], "id": 848384, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.17", "target": null,
+        "version_id": 167253
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 848385, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 167253
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 848386, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 167253
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 848387, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 167253
+      },
+      {
+        "crate_id": "mockito", "default_features": true, "downloads": 0,
+        "features": [], "id": 848396, "kind": "dev", "optional": false,
+        "req": "^0.20", "target": null, "version_id": 167253
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 848397, "kind": "dev", "optional": false,
+        "req": "^1", "target": null, "version_id": 167253
+      },
+      {
+        "crate_id": "slab", "default_features": true, "downloads": 0,
+        "features": [], "id": 848392, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 167253
+      },
+      {
+        "crate_id": "sluice", "default_features": true, "downloads": 0,
+        "features": [], "id": 848393, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 167253
+      },
+      {
+        "crate_id": "speculate", "default_features": true, "downloads": 0,
+        "features": [], "id": 848398, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 167253
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 848379, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 167253
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 848388, "kind": "normal", "optional": true,
+        "req": "^0.9", "target": null, "version_id": 167253
+      },
+      {
+        "crate_id": "publicsuffix", "default_features": false,
+        "downloads": 0, "features": [], "id": 848389, "kind": "normal",
+        "optional": true, "req": "^1.5", "target": null,
+        "version_id": 167253
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 848390, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 167253
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 848391, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 167253
+      }
+    ],
+    "dl_path": "/api/v1/crates/isahc/0.6.0/download", "downloads": 1181,
+    "features": {
+      "cookies": ["chrono"],
+      "default": ["cookies", "http2", "static-curl"],
+      "http2": ["curl/http2"], "json": ["serde", "serde_json"],
+      "middleware-api": [], "nightly": [],
+      "psl": ["parking_lot", "publicsuffix"],
+      "static-curl": ["curl/static-curl"]
+    },
+    "id": 167253, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/isahc/0.6.0/authors",
+      "dependencies": "/api/v1/crates/isahc/0.6.0/dependencies",
+      "version_downloads": "/api/v1/crates/isahc/0.6.0/downloads"
+    },
+    "num": "0.6.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/2192863?v=4",
+      "id": 5613, "login": "sagebind", "name": "Stephen M. Coakley",
+      "url": "https://github.com/sagebind"
+    },
+    "readme_path": "/api/v1/crates/isahc/0.6.0/readme",
+    "updated_at": "2019-08-03T22:56:39.256009+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Stephen M. Coakley <me@stephencoakley.com>"]},
+      "users": []
+    },
+    "crate": "isahc", "crate_size": 205877,
+    "created_at": "2019-08-20T01:27:19.190288+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 869480, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 170639
+      },
+      {
+        "crate_id": "crossbeam-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 869482, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 170639
+      },
+      {
+        "crate_id": "crossbeam-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 869483, "kind": "normal",
+        "optional": false, "req": "^0.6", "target": null,
+        "version_id": 170639
+      },
+      {
+        "crate_id": "curl", "default_features": true, "downloads": 0,
+        "features": [], "id": 869484, "kind": "normal", "optional": false,
+        "req": "^0.4.20", "target": null, "version_id": 170639
+      },
+      {
+        "crate_id": "curl-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 869485, "kind": "normal", "optional": false,
+        "req": "^0.4.20", "target": null, "version_id": 170639
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 869497, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 170639
+      },
+      {
+        "crate_id": "flate2", "default_features": true, "downloads": 0,
+        "features": [], "id": 869498, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 170639
+      },
+      {
+        "crate_id": "futures-io-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 869486, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.17", "target": null,
+        "version_id": 170639
+      },
+      {
+        "crate_id": "futures-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 869499, "kind": "dev",
+        "optional": false, "req": "=0.3.0-alpha.17", "target": null,
+        "version_id": 170639
+      },
+      {
+        "crate_id": "futures-util-preview", "default_features": true,
+        "downloads": 0, "features": ["io"], "id": 869487, "kind": "normal",
+        "optional": false, "req": "=0.3.0-alpha.17", "target": null,
+        "version_id": 170639
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 869488, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 170639
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 869489, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 170639
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 869490, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 170639
+      },
+      {
+        "crate_id": "mockito", "default_features": true, "downloads": 0,
+        "features": [], "id": 869500, "kind": "dev", "optional": false,
+        "req": "^0.20", "target": null, "version_id": 170639
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 869501, "kind": "dev", "optional": false,
+        "req": "^1", "target": null, "version_id": 170639
+      },
+      {
+        "crate_id": "slab", "default_features": true, "downloads": 0,
+        "features": [], "id": 869495, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 170639
+      },
+      {
+        "crate_id": "sluice", "default_features": true, "downloads": 0,
+        "features": [], "id": 869496, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 170639
+      },
+      {
+        "crate_id": "speculate", "default_features": true, "downloads": 0,
+        "features": [], "id": 869502, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 170639
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 869481, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 170639
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 869491, "kind": "normal", "optional": true,
+        "req": "^0.9", "target": null, "version_id": 170639
+      },
+      {
+        "crate_id": "publicsuffix", "default_features": false,
+        "downloads": 0, "features": [], "id": 869492, "kind": "normal",
+        "optional": true, "req": "^1.5", "target": null,
+        "version_id": 170639
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 869493, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 170639
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 869494, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 170639
+      }
+    ],
+    "dl_path": "/api/v1/crates/isahc/0.7.0/download", "downloads": 225,
+    "features": {
+      "cookies": ["chrono"],
+      "default": ["cookies", "http2", "static-curl"],
+      "http2": ["curl/http2"], "json": ["serde", "serde_json"],
+      "middleware-api": [], "nightly": [],
+      "psl": ["parking_lot", "publicsuffix"],
+      "static-curl": ["curl/static-curl"]
+    },
+    "id": 170639, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/isahc/0.7.0/authors",
+      "dependencies": "/api/v1/crates/isahc/0.7.0/dependencies",
+      "version_downloads": "/api/v1/crates/isahc/0.7.0/downloads"
+    },
+    "num": "0.7.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/2192863?v=4",
+      "id": 5613, "login": "sagebind", "name": "Stephen M. Coakley",
+      "url": "https://github.com/sagebind"
+    },
+    "readme_path": "/api/v1/crates/isahc/0.7.0/readme",
+    "updated_at": "2019-08-20T01:27:19.190288+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Stephen M. Coakley <me@stephencoakley.com>"]},
+      "users": []
+    },
+    "crate": "isahc", "crate_size": 205903,
+    "created_at": "2019-08-23T01:16:35.559233+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 874241, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 171361
+      },
+      {
+        "crate_id": "crossbeam-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 874243, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 171361
+      },
+      {
+        "crate_id": "crossbeam-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 874244, "kind": "normal",
+        "optional": false, "req": "^0.6", "target": null,
+        "version_id": 171361
+      },
+      {
+        "crate_id": "curl", "default_features": true, "downloads": 0,
+        "features": [], "id": 874245, "kind": "normal", "optional": false,
+        "req": "^0.4.20", "target": null, "version_id": 171361
+      },
+      {
+        "crate_id": "curl-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 874246, "kind": "normal", "optional": false,
+        "req": "^0.4.20", "target": null, "version_id": 171361
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 874258, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 171361
+      },
+      {
+        "crate_id": "flate2", "default_features": true, "downloads": 0,
+        "features": [], "id": 874259, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 171361
+      },
+      {
+        "crate_id": "futures-io-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 874247, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.18", "target": null,
+        "version_id": 171361
+      },
+      {
+        "crate_id": "futures-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 874260, "kind": "dev",
+        "optional": false, "req": "^0.3.0-alpha.18", "target": null,
+        "version_id": 171361
+      },
+      {
+        "crate_id": "futures-util-preview", "default_features": true,
+        "downloads": 0, "features": ["io"], "id": 874248, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.18", "target": null,
+        "version_id": 171361
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 874249, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 171361
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 874250, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 171361
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 874251, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 171361
+      },
+      {
+        "crate_id": "mockito", "default_features": true, "downloads": 0,
+        "features": [], "id": 874261, "kind": "dev", "optional": false,
+        "req": "^0.20", "target": null, "version_id": 171361
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 874262, "kind": "dev", "optional": false,
+        "req": "^1", "target": null, "version_id": 171361
+      },
+      {
+        "crate_id": "slab", "default_features": true, "downloads": 0,
+        "features": [], "id": 874256, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 171361
+      },
+      {
+        "crate_id": "sluice", "default_features": true, "downloads": 0,
+        "features": [], "id": 874257, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 171361
+      },
+      {
+        "crate_id": "speculate", "default_features": true, "downloads": 0,
+        "features": [], "id": 874263, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 171361
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 874242, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 171361
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 874252, "kind": "normal", "optional": true,
+        "req": "^0.9", "target": null, "version_id": 171361
+      },
+      {
+        "crate_id": "publicsuffix", "default_features": false,
+        "downloads": 0, "features": [], "id": 874253, "kind": "normal",
+        "optional": true, "req": "^1.5", "target": null,
+        "version_id": 171361
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 874254, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 171361
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 874255, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 171361
+      }
+    ],
+    "dl_path": "/api/v1/crates/isahc/0.7.1/download", "downloads": 4737,
+    "features": {
+      "cookies": ["chrono"],
+      "default": ["cookies", "http2", "static-curl"],
+      "http2": ["curl/http2"], "json": ["serde", "serde_json"],
+      "middleware-api": [], "nightly": [],
+      "psl": ["parking_lot", "publicsuffix"],
+      "static-curl": ["curl/static-curl"]
+    },
+    "id": 171361, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/isahc/0.7.1/authors",
+      "dependencies": "/api/v1/crates/isahc/0.7.1/dependencies",
+      "version_downloads": "/api/v1/crates/isahc/0.7.1/downloads"
+    },
+    "num": "0.7.1",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/2192863?v=4",
+      "id": 5613, "login": "sagebind", "name": "Stephen M. Coakley",
+      "url": "https://github.com/sagebind"
+    },
+    "readme_path": "/api/v1/crates/isahc/0.7.1/readme",
+    "updated_at": "2019-08-23T01:16:35.559233+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Stephen M. Coakley <me@stephencoakley.com>"]},
+      "users": []
+    },
+    "crate": "isahc", "crate_size": 123248,
+    "created_at": "2019-09-05T05:41:27.314066+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 890958, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 174075
+      },
+      {
+        "crate_id": "crossbeam-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 890960, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 174075
+      },
+      {
+        "crate_id": "crossbeam-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 890961, "kind": "normal",
+        "optional": false, "req": "^0.6", "target": null,
+        "version_id": 174075
+      },
+      {
+        "crate_id": "curl", "default_features": true, "downloads": 0,
+        "features": [], "id": 890962, "kind": "normal", "optional": false,
+        "req": "^0.4.20", "target": null, "version_id": 174075
+      },
+      {
+        "crate_id": "curl-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 890963, "kind": "normal", "optional": false,
+        "req": "^0.4.20", "target": null, "version_id": 174075
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 890975, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 174075
+      },
+      {
+        "crate_id": "flate2", "default_features": true, "downloads": 0,
+        "features": [], "id": 890976, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 174075
+      },
+      {
+        "crate_id": "futures-io-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 890964, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.18", "target": null,
+        "version_id": 174075
+      },
+      {
+        "crate_id": "futures-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 890977, "kind": "dev",
+        "optional": false, "req": "^0.3.0-alpha.18", "target": null,
+        "version_id": 174075
+      },
+      {
+        "crate_id": "futures-util-preview", "default_features": true,
+        "downloads": 0, "features": ["io"], "id": 890965, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.18", "target": null,
+        "version_id": 174075
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 890966, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 174075
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 890967, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 174075
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 890968, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 174075
+      },
+      {
+        "crate_id": "mockito", "default_features": true, "downloads": 0,
+        "features": [], "id": 890978, "kind": "dev", "optional": false,
+        "req": "^0.20", "target": null, "version_id": 174075
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 890979, "kind": "dev", "optional": false,
+        "req": "^1", "target": null, "version_id": 174075
+      },
+      {
+        "crate_id": "slab", "default_features": true, "downloads": 0,
+        "features": [], "id": 890973, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 174075
+      },
+      {
+        "crate_id": "sluice", "default_features": true, "downloads": 0,
+        "features": [], "id": 890974, "kind": "normal", "optional": false,
+        "req": "^0.4.2", "target": null, "version_id": 174075
+      },
+      {
+        "crate_id": "speculate", "default_features": true, "downloads": 0,
+        "features": [], "id": 890980, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 174075
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 890959, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 174075
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 890969, "kind": "normal", "optional": true,
+        "req": "^0.9", "target": null, "version_id": 174075
+      },
+      {
+        "crate_id": "publicsuffix", "default_features": false,
+        "downloads": 0, "features": [], "id": 890970, "kind": "normal",
+        "optional": true, "req": "^1.5", "target": null,
+        "version_id": 174075
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 890971, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 174075
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 890972, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 174075
+      }
+    ],
+    "dl_path": "/api/v1/crates/isahc/0.7.2/download", "downloads": 214,
+    "features": {
+      "cookies": ["chrono"],
+      "default": ["cookies", "http2", "static-curl"],
+      "http2": ["curl/http2"], "json": ["serde", "serde_json"],
+      "middleware-api": [], "nightly": [],
+      "psl": ["parking_lot", "publicsuffix"],
+      "static-curl": ["curl/static-curl"]
+    },
+    "id": 174075, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/isahc/0.7.2/authors",
+      "dependencies": "/api/v1/crates/isahc/0.7.2/dependencies",
+      "version_downloads": "/api/v1/crates/isahc/0.7.2/downloads"
+    },
+    "num": "0.7.2",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/2192863?v=4",
+      "id": 5613, "login": "sagebind", "name": "Stephen M. Coakley",
+      "url": "https://github.com/sagebind"
+    },
+    "readme_path": "/api/v1/crates/isahc/0.7.2/readme",
+    "updated_at": "2019-09-05T05:41:27.314066+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Stephen M. Coakley <me@stephencoakley.com>"]},
+      "users": []
+    },
+    "crate": "isahc", "crate_size": 216343,
+    "created_at": "2019-09-06T05:07:57.220377+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 893199, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 174380
+      },
+      {
+        "crate_id": "crossbeam-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 893201, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 174380
+      },
+      {
+        "crate_id": "crossbeam-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 893202, "kind": "normal",
+        "optional": false, "req": "^0.6", "target": null,
+        "version_id": 174380
+      },
+      {
+        "crate_id": "curl", "default_features": true, "downloads": 0,
+        "features": [], "id": 893203, "kind": "normal", "optional": false,
+        "req": "^0.4.23", "target": null, "version_id": 174380
+      },
+      {
+        "crate_id": "curl-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 893204, "kind": "normal", "optional": false,
+        "req": "^0.4.21", "target": null, "version_id": 174380
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 893216, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 174380
+      },
+      {
+        "crate_id": "flate2", "default_features": true, "downloads": 0,
+        "features": [], "id": 893217, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 174380
+      },
+      {
+        "crate_id": "futures-io-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 893205, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.18", "target": null,
+        "version_id": 174380
+      },
+      {
+        "crate_id": "futures-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 893218, "kind": "dev",
+        "optional": false, "req": "^0.3.0-alpha.18", "target": null,
+        "version_id": 174380
+      },
+      {
+        "crate_id": "futures-util-preview", "default_features": true,
+        "downloads": 0, "features": ["io"], "id": 893206, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.18", "target": null,
+        "version_id": 174380
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 893207, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 174380
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 893208, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 174380
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 893209, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 174380
+      },
+      {
+        "crate_id": "mockito", "default_features": true, "downloads": 0,
+        "features": [], "id": 893219, "kind": "dev", "optional": false,
+        "req": "^0.20", "target": null, "version_id": 174380
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 893220, "kind": "dev", "optional": false,
+        "req": "^1", "target": null, "version_id": 174380
+      },
+      {
+        "crate_id": "slab", "default_features": true, "downloads": 0,
+        "features": [], "id": 893214, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 174380
+      },
+      {
+        "crate_id": "sluice", "default_features": true, "downloads": 0,
+        "features": [], "id": 893215, "kind": "normal", "optional": false,
+        "req": "^0.4.2", "target": null, "version_id": 174380
+      },
+      {
+        "crate_id": "speculate", "default_features": true, "downloads": 0,
+        "features": [], "id": 893221, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 174380
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 893200, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 174380
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 893210, "kind": "normal", "optional": true,
+        "req": "^0.9", "target": null, "version_id": 174380
+      },
+      {
+        "crate_id": "publicsuffix", "default_features": false,
+        "downloads": 0, "features": [], "id": 893211, "kind": "normal",
+        "optional": true, "req": "^1.5", "target": null,
+        "version_id": 174380
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 893212, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 174380
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 893213, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 174380
+      }
+    ],
+    "dl_path": "/api/v1/crates/isahc/0.7.3/download", "downloads": 2637,
+    "features": {
+      "cookies": ["chrono"],
+      "default": ["cookies", "http2", "static-curl"],
+      "http2": ["curl/http2"], "json": ["serde", "serde_json"],
+      "middleware-api": [], "nightly": [],
+      "psl": ["parking_lot", "publicsuffix"],
+      "static-curl": ["curl/static-curl"]
+    },
+    "id": 174380, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/isahc/0.7.3/authors",
+      "dependencies": "/api/v1/crates/isahc/0.7.3/dependencies",
+      "version_downloads": "/api/v1/crates/isahc/0.7.3/downloads"
+    },
+    "num": "0.7.3",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/2192863?v=4",
+      "id": 5613, "login": "sagebind", "name": "Stephen M. Coakley",
+      "url": "https://github.com/sagebind"
+    },
+    "readme_path": "/api/v1/crates/isahc/0.7.3/readme",
+    "updated_at": "2019-09-06T05:07:57.220377+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Stephen M. Coakley <me@stephencoakley.com>"]},
+      "users": []
+    },
+    "crate": "isahc", "crate_size": 217055,
+    "created_at": "2019-09-25T00:40:20.070274+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 916734, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 178323
+      },
+      {
+        "crate_id": "crossbeam-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 916736, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 178323
+      },
+      {
+        "crate_id": "crossbeam-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 916737, "kind": "normal",
+        "optional": false, "req": "^0.6", "target": null,
+        "version_id": 178323
+      },
+      {
+        "crate_id": "curl", "default_features": true, "downloads": 0,
+        "features": [], "id": 916738, "kind": "normal", "optional": false,
+        "req": "^0.4.23", "target": null, "version_id": 178323
+      },
+      {
+        "crate_id": "curl-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 916739, "kind": "normal", "optional": false,
+        "req": "^0.4.21", "target": null, "version_id": 178323
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 916751, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 178323
+      },
+      {
+        "crate_id": "flate2", "default_features": true, "downloads": 0,
+        "features": [], "id": 916752, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 178323
+      },
+      {
+        "crate_id": "futures-io-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 916740, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.18", "target": null,
+        "version_id": 178323
+      },
+      {
+        "crate_id": "futures-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 916753, "kind": "dev",
+        "optional": false, "req": "^0.3.0-alpha.18", "target": null,
+        "version_id": 178323
+      },
+      {
+        "crate_id": "futures-util-preview", "default_features": true,
+        "downloads": 0, "features": ["io"], "id": 916741, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.18", "target": null,
+        "version_id": 178323
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 916742, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 178323
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 916743, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 178323
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 916744, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 178323
+      },
+      {
+        "crate_id": "mockito", "default_features": true, "downloads": 0,
+        "features": [], "id": 916754, "kind": "dev", "optional": false,
+        "req": "^0.20", "target": null, "version_id": 178323
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 916755, "kind": "dev", "optional": false,
+        "req": "^1", "target": null, "version_id": 178323
+      },
+      {
+        "crate_id": "slab", "default_features": true, "downloads": 0,
+        "features": [], "id": 916749, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 178323
+      },
+      {
+        "crate_id": "sluice", "default_features": true, "downloads": 0,
+        "features": [], "id": 916750, "kind": "normal", "optional": false,
+        "req": "^0.4.2", "target": null, "version_id": 178323
+      },
+      {
+        "crate_id": "speculate", "default_features": true, "downloads": 0,
+        "features": [], "id": 916756, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 178323
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 916735, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 178323
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 916745, "kind": "normal", "optional": true,
+        "req": "^0.9", "target": null, "version_id": 178323
+      },
+      {
+        "crate_id": "publicsuffix", "default_features": false,
+        "downloads": 0, "features": [], "id": 916746, "kind": "normal",
+        "optional": true, "req": "^1.5", "target": null,
+        "version_id": 178323
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 916747, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 178323
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 916748, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 178323
+      }
+    ],
+    "dl_path": "/api/v1/crates/isahc/0.7.4/download", "downloads": 6774,
+    "features": {
+      "cookies": ["chrono"],
+      "default": ["cookies", "http2", "static-curl"],
+      "http2": ["curl/http2"], "json": ["serde", "serde_json"],
+      "middleware-api": [], "nightly": [],
+      "psl": ["parking_lot", "publicsuffix"],
+      "static-curl": ["curl/static-curl"]
+    },
+    "id": 178323, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/isahc/0.7.4/authors",
+      "dependencies": "/api/v1/crates/isahc/0.7.4/dependencies",
+      "version_downloads": "/api/v1/crates/isahc/0.7.4/downloads"
+    },
+    "num": "0.7.4",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/2192863?v=4",
+      "id": 5613, "login": "sagebind", "name": "Stephen M. Coakley",
+      "url": "https://github.com/sagebind"
+    },
+    "readme_path": "/api/v1/crates/isahc/0.7.4/readme",
+    "updated_at": "2019-09-25T00:40:20.070274+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Stephen M. Coakley <me@stephencoakley.com>"]},
+      "users": []
+    },
+    "crate": "isahc", "crate_size": 219591,
+    "created_at": "2019-11-04T03:37:30.850598+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 975550, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 187008
+      },
+      {
+        "crate_id": "crossbeam-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 975552, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 187008
+      },
+      {
+        "crate_id": "crossbeam-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 975553, "kind": "normal",
+        "optional": false, "req": "^0.6", "target": null,
+        "version_id": 187008
+      },
+      {
+        "crate_id": "curl", "default_features": true, "downloads": 0,
+        "features": [], "id": 975554, "kind": "normal", "optional": false,
+        "req": "^0.4.25", "target": null, "version_id": 187008
+      },
+      {
+        "crate_id": "curl-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 975555, "kind": "normal", "optional": false,
+        "req": "^0.4.23", "target": null, "version_id": 187008
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 975567, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 187008
+      },
+      {
+        "crate_id": "flate2", "default_features": true, "downloads": 0,
+        "features": [], "id": 975568, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 187008
+      },
+      {
+        "crate_id": "futures-io-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 975556, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.18", "target": null,
+        "version_id": 187008
+      },
+      {
+        "crate_id": "futures-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 975569, "kind": "dev",
+        "optional": false, "req": "^0.3.0-alpha.18", "target": null,
+        "version_id": 187008
+      },
+      {
+        "crate_id": "futures-util-preview", "default_features": true,
+        "downloads": 0, "features": ["io"], "id": 975557, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.18", "target": null,
+        "version_id": 187008
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 975558, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 187008
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 975559, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 187008
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 975560, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 187008
+      },
+      {
+        "crate_id": "mockito", "default_features": true, "downloads": 0,
+        "features": [], "id": 975570, "kind": "dev", "optional": false,
+        "req": "^0.21", "target": null, "version_id": 187008
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 975571, "kind": "dev", "optional": false,
+        "req": "^1", "target": null, "version_id": 187008
+      },
+      {
+        "crate_id": "slab", "default_features": true, "downloads": 0,
+        "features": [], "id": 975565, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 187008
+      },
+      {
+        "crate_id": "sluice", "default_features": true, "downloads": 0,
+        "features": [], "id": 975566, "kind": "normal", "optional": false,
+        "req": "^0.4.2", "target": null, "version_id": 187008
+      },
+      {
+        "crate_id": "speculate", "default_features": true, "downloads": 0,
+        "features": [], "id": 975572, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 187008
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 975551, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 187008
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 975561, "kind": "normal", "optional": true,
+        "req": "^0.9", "target": null, "version_id": 187008
+      },
+      {
+        "crate_id": "publicsuffix", "default_features": false,
+        "downloads": 0, "features": [], "id": 975562, "kind": "normal",
+        "optional": true, "req": "^1.5", "target": null,
+        "version_id": 187008
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 975563, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 187008
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 975564, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 187008
+      }
+    ],
+    "dl_path": "/api/v1/crates/isahc/0.7.5/download", "downloads": 4425,
+    "features": {
+      "cookies": ["chrono"],
+      "default": ["cookies", "http2", "static-curl"],
+      "http2": ["curl/http2"], "json": ["serde", "serde_json"],
+      "middleware-api": [], "nightly": [],
+      "psl": ["parking_lot", "publicsuffix"],
+      "static-curl": ["curl/static-curl"]
+    },
+    "id": 187008, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/isahc/0.7.5/authors",
+      "dependencies": "/api/v1/crates/isahc/0.7.5/dependencies",
+      "version_downloads": "/api/v1/crates/isahc/0.7.5/downloads"
+    },
+    "num": "0.7.5",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/2192863?v=4",
+      "id": 5613, "login": "sagebind", "name": "Stephen M. Coakley",
+      "url": "https://github.com/sagebind"
+    },
+    "readme_path": "/api/v1/crates/isahc/0.7.5/readme",
+    "updated_at": "2019-11-04T03:37:30.850598+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Stephen M. Coakley <me@stephencoakley.com>"]},
+      "users": []
+    },
+    "crate": "isahc", "crate_size": 225513,
+    "created_at": "2019-11-08T03:26:54.781986+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 984540, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 188200
+      },
+      {
+        "crate_id": "crossbeam-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 984542, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 188200
+      },
+      {
+        "crate_id": "crossbeam-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 984543, "kind": "normal",
+        "optional": false, "req": "^0.6", "target": null,
+        "version_id": 188200
+      },
+      {
+        "crate_id": "curl", "default_features": true, "downloads": 0,
+        "features": [], "id": 984544, "kind": "normal", "optional": false,
+        "req": "^0.4.25", "target": null, "version_id": 188200
+      },
+      {
+        "crate_id": "curl-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 984545, "kind": "normal", "optional": false,
+        "req": "^0.4.23", "target": null, "version_id": 188200
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 984557, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 188200
+      },
+      {
+        "crate_id": "flate2", "default_features": true, "downloads": 0,
+        "features": [], "id": 984558, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 188200
+      },
+      {
+        "crate_id": "futures-io-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 984546, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.18", "target": null,
+        "version_id": 188200
+      },
+      {
+        "crate_id": "futures-preview", "default_features": true,
+        "downloads": 0, "features": [], "id": 984559, "kind": "dev",
+        "optional": false, "req": "^0.3.0-alpha.18", "target": null,
+        "version_id": 188200
+      },
+      {
+        "crate_id": "futures-util-preview", "default_features": true,
+        "downloads": 0, "features": ["io"], "id": 984547, "kind": "normal",
+        "optional": false, "req": "^0.3.0-alpha.18", "target": null,
+        "version_id": 188200
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 984548, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 188200
+      },
+      {
+        "crate_id": "indicatif", "default_features": true, "downloads": 0,
+        "features": [], "id": 984560, "kind": "dev", "optional": false,
+        "req": "^0.12", "target": null, "version_id": 188200
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 984549, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 188200
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 984550, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 188200
+      },
+      {
+        "crate_id": "mockito", "default_features": true, "downloads": 0,
+        "features": [], "id": 984561, "kind": "dev", "optional": false,
+        "req": "^0.21", "target": null, "version_id": 188200
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 984562, "kind": "dev", "optional": false,
+        "req": "^1", "target": null, "version_id": 188200
+      },
+      {
+        "crate_id": "slab", "default_features": true, "downloads": 0,
+        "features": [], "id": 984555, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 188200
+      },
+      {
+        "crate_id": "sluice", "default_features": true, "downloads": 0,
+        "features": [], "id": 984556, "kind": "normal", "optional": false,
+        "req": "^0.4.2", "target": null, "version_id": 188200
+      },
+      {
+        "crate_id": "speculate", "default_features": true, "downloads": 0,
+        "features": [], "id": 984563, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 188200
+      },
+      {
+        "crate_id": "structopt", "default_features": true, "downloads": 0,
+        "features": [], "id": 984564, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 188200
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 984541, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 188200
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 984551, "kind": "normal", "optional": true,
+        "req": "^0.9", "target": null, "version_id": 188200
+      },
+      {
+        "crate_id": "publicsuffix", "default_features": false,
+        "downloads": 0, "features": [], "id": 984552, "kind": "normal",
+        "optional": true, "req": "^1.5", "target": null,
+        "version_id": 188200
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 984553, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 188200
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 984554, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 188200
+      }
+    ],
+    "dl_path": "/api/v1/crates/isahc/0.7.6/download",
+    "downloads": 113989,
+    "features": {
+      "cookies": ["chrono"],
+      "default": ["cookies", "http2", "static-curl"],
+      "http2": ["curl/http2"], "json": ["serde", "serde_json"],
+      "middleware-api": [], "nightly": [],
+      "psl": ["parking_lot", "publicsuffix"],
+      "static-curl": ["curl/static-curl"]
+    },
+    "id": 188200, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/isahc/0.7.6/authors",
+      "dependencies": "/api/v1/crates/isahc/0.7.6/dependencies",
+      "version_downloads": "/api/v1/crates/isahc/0.7.6/downloads"
+    },
+    "num": "0.7.6",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/2192863?v=4",
+      "id": 5613, "login": "sagebind", "name": "Stephen M. Coakley",
+      "url": "https://github.com/sagebind"
+    },
+    "readme_path": "/api/v1/crates/isahc/0.7.6/readme",
+    "updated_at": "2019-11-08T03:26:54.781986+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Stephen M. Coakley <me@stephencoakley.com>"]},
+      "users": []
+    },
+    "crate": "isahc", "crate_size": 229849,
+    "created_at": "2019-11-23T00:28:00.561633+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1007353, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 191646
+      },
+      {
+        "crate_id": "crossbeam-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1007355, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 191646
+      },
+      {
+        "crate_id": "crossbeam-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 1007356, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 191646
+      },
+      {
+        "crate_id": "curl", "default_features": true, "downloads": 0,
+        "features": [], "id": 1007357, "kind": "normal", "optional": false,
+        "req": "^0.4.25", "target": null, "version_id": 191646
+      },
+      {
+        "crate_id": "curl-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1007358, "kind": "normal", "optional": false,
+        "req": "^0.4.23", "target": null, "version_id": 191646
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1007371, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 191646
+      },
+      {
+        "crate_id": "flate2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1007372, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 191646
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1007373, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 191646
+      },
+      {
+        "crate_id": "futures-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1007359, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 191646
+      },
+      {
+        "crate_id": "futures-io", "default_features": true, "downloads": 0,
+        "features": [], "id": 1007360, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 191646
+      },
+      {
+        "crate_id": "futures-util", "default_features": true,
+        "downloads": 0, "features": ["io"], "id": 1007361, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 191646
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1007362, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 191646
+      },
+      {
+        "crate_id": "indicatif", "default_features": true, "downloads": 0,
+        "features": [], "id": 1007374, "kind": "dev", "optional": false,
+        "req": "^0.13", "target": null, "version_id": 191646
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1007363, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 191646
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1007364, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 191646
+      },
+      {
+        "crate_id": "mockito", "default_features": true, "downloads": 0,
+        "features": [], "id": 1007375, "kind": "dev", "optional": false,
+        "req": "^0.22", "target": null, "version_id": 191646
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 1007376, "kind": "dev", "optional": false,
+        "req": "^1", "target": null, "version_id": 191646
+      },
+      {
+        "crate_id": "slab", "default_features": true, "downloads": 0,
+        "features": [], "id": 1007369, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 191646
+      },
+      {
+        "crate_id": "sluice", "default_features": true, "downloads": 0,
+        "features": [], "id": 1007370, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 191646
+      },
+      {
+        "crate_id": "speculate", "default_features": true, "downloads": 0,
+        "features": [], "id": 1007377, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 191646
+      },
+      {
+        "crate_id": "structopt", "default_features": true, "downloads": 0,
+        "features": [], "id": 1007378, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 191646
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 1007354, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 191646
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 1007365, "kind": "normal", "optional": true,
+        "req": "^0.9", "target": null, "version_id": 191646
+      },
+      {
+        "crate_id": "publicsuffix", "default_features": false,
+        "downloads": 0, "features": [], "id": 1007366, "kind": "normal",
+        "optional": true, "req": "^1.5", "target": null,
+        "version_id": 191646
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 1007367, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 191646
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1007368, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 191646
+      }
+    ],
+    "dl_path": "/api/v1/crates/isahc/0.8.0/download", "downloads": 279,
+    "features": {
+      "cookies": ["chrono"],
+      "default": ["cookies", "http2", "static-curl"],
+      "http2": ["curl/http2"], "json": ["serde", "serde_json"],
+      "middleware-api": [], "psl": ["parking_lot", "publicsuffix"],
+      "spnego": ["curl-sys/spnego"], "static-curl": ["curl/static-curl"]
+    },
+    "id": 191646, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/isahc/0.8.0/authors",
+      "dependencies": "/api/v1/crates/isahc/0.8.0/dependencies",
+      "version_downloads": "/api/v1/crates/isahc/0.8.0/downloads"
+    },
+    "num": "0.8.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/2192863?v=4",
+      "id": 5613, "login": "sagebind", "name": "Stephen M. Coakley",
+      "url": "https://github.com/sagebind"
+    },
+    "readme_path": "/api/v1/crates/isahc/0.8.0/readme",
+    "updated_at": "2019-11-23T00:28:00.561633+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Stephen M. Coakley <me@stephencoakley.com>"]},
+      "users": []
+    },
+    "crate": "isahc", "crate_size": 229964,
+    "created_at": "2019-11-26T01:17:30.343642+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1011443, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 192231
+      },
+      {
+        "crate_id": "crossbeam-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1011445, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 192231
+      },
+      {
+        "crate_id": "crossbeam-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 1011446, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 192231
+      },
+      {
+        "crate_id": "curl", "default_features": true, "downloads": 0,
+        "features": [], "id": 1011447, "kind": "normal", "optional": false,
+        "req": "^0.4.25", "target": null, "version_id": 192231
+      },
+      {
+        "crate_id": "curl-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1011448, "kind": "normal", "optional": false,
+        "req": "^0.4.23", "target": null, "version_id": 192231
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1011461, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 192231
+      },
+      {
+        "crate_id": "flate2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1011462, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 192231
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1011463, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 192231
+      },
+      {
+        "crate_id": "futures-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1011449, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 192231
+      },
+      {
+        "crate_id": "futures-io", "default_features": true, "downloads": 0,
+        "features": [], "id": 1011450, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 192231
+      },
+      {
+        "crate_id": "futures-util", "default_features": true,
+        "downloads": 0, "features": ["io"], "id": 1011451, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 192231
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1011452, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 192231
+      },
+      {
+        "crate_id": "indicatif", "default_features": true, "downloads": 0,
+        "features": [], "id": 1011464, "kind": "dev", "optional": false,
+        "req": "^0.13", "target": null, "version_id": 192231
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1011453, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 192231
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1011454, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 192231
+      },
+      {
+        "crate_id": "mockito", "default_features": true, "downloads": 0,
+        "features": [], "id": 1011465, "kind": "dev", "optional": false,
+        "req": "^0.22", "target": null, "version_id": 192231
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 1011466, "kind": "dev", "optional": false,
+        "req": "^1", "target": null, "version_id": 192231
+      },
+      {
+        "crate_id": "slab", "default_features": true, "downloads": 0,
+        "features": [], "id": 1011459, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 192231
+      },
+      {
+        "crate_id": "sluice", "default_features": true, "downloads": 0,
+        "features": [], "id": 1011460, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 192231
+      },
+      {
+        "crate_id": "speculate", "default_features": true, "downloads": 0,
+        "features": [], "id": 1011467, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 192231
+      },
+      {
+        "crate_id": "structopt", "default_features": true, "downloads": 0,
+        "features": [], "id": 1011468, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 192231
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 1011444, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 192231
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 1011455, "kind": "normal", "optional": true,
+        "req": "^0.9", "target": null, "version_id": 192231
+      },
+      {
+        "crate_id": "publicsuffix", "default_features": false,
+        "downloads": 0, "features": [], "id": 1011456, "kind": "normal",
+        "optional": true, "req": "^1.5", "target": null,
+        "version_id": 192231
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 1011457, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 192231
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1011458, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 192231
+      }
+    ],
+    "dl_path": "/api/v1/crates/isahc/0.8.1/download", "downloads": 1026,
+    "features": {
+      "cookies": ["chrono"],
+      "default": ["cookies", "http2", "static-curl"],
+      "http2": ["curl/http2"], "json": ["serde", "serde_json"],
+      "middleware-api": [], "psl": ["parking_lot", "publicsuffix"],
+      "spnego": ["curl-sys/spnego"], "static-curl": ["curl/static-curl"]
+    },
+    "id": 192231, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/isahc/0.8.1/authors",
+      "dependencies": "/api/v1/crates/isahc/0.8.1/dependencies",
+      "version_downloads": "/api/v1/crates/isahc/0.8.1/downloads"
+    },
+    "num": "0.8.1",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/2192863?v=4",
+      "id": 5613, "login": "sagebind", "name": "Stephen M. Coakley",
+      "url": "https://github.com/sagebind"
+    },
+    "readme_path": "/api/v1/crates/isahc/0.8.1/readme",
+    "updated_at": "2019-11-26T01:17:30.343642+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2019-12-06T06:29:26.240274+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/2192863?v=4",
+          "id": 5613, "login": "sagebind", "name": "Stephen M. Coakley",
+          "url": "https://github.com/sagebind"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Stephen M. Coakley <me@stephencoakley.com>"]},
+      "users": []
+    },
+    "crate": "isahc", "crate_size": 229838,
+    "created_at": "2019-12-06T06:29:26.240274+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1025088, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 194231
+      },
+      {
+        "crate_id": "crossbeam-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1025090, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 194231
+      },
+      {
+        "crate_id": "crossbeam-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 1025091, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 194231
+      },
+      {
+        "crate_id": "curl", "default_features": true, "downloads": 0,
+        "features": [], "id": 1025092, "kind": "normal", "optional": false,
+        "req": "^0.4.25", "target": null, "version_id": 194231
+      },
+      {
+        "crate_id": "curl-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1025093, "kind": "normal", "optional": false,
+        "req": "^0.4.23", "target": null, "version_id": 194231
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1025106, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 194231
+      },
+      {
+        "crate_id": "flate2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1025107, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 194231
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1025108, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 194231
+      },
+      {
+        "crate_id": "futures-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1025094, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 194231
+      },
+      {
+        "crate_id": "futures-io", "default_features": true, "downloads": 0,
+        "features": [], "id": 1025095, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 194231
+      },
+      {
+        "crate_id": "futures-util", "default_features": false,
+        "downloads": 0, "features": ["io"], "id": 1025096, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 194231
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1025097, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 194231
+      },
+      {
+        "crate_id": "indicatif", "default_features": true, "downloads": 0,
+        "features": [], "id": 1025109, "kind": "dev", "optional": false,
+        "req": "^0.13", "target": null, "version_id": 194231
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1025098, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 194231
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1025099, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 194231
+      },
+      {
+        "crate_id": "mockito", "default_features": true, "downloads": 0,
+        "features": [], "id": 1025110, "kind": "dev", "optional": false,
+        "req": "^0.22", "target": null, "version_id": 194231
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 1025111, "kind": "dev", "optional": false,
+        "req": "^1", "target": null, "version_id": 194231
+      },
+      {
+        "crate_id": "slab", "default_features": true, "downloads": 0,
+        "features": [], "id": 1025104, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 194231
+      },
+      {
+        "crate_id": "sluice", "default_features": true, "downloads": 0,
+        "features": [], "id": 1025105, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 194231
+      },
+      {
+        "crate_id": "speculate", "default_features": true, "downloads": 0,
+        "features": [], "id": 1025112, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 194231
+      },
+      {
+        "crate_id": "structopt", "default_features": true, "downloads": 0,
+        "features": [], "id": 1025113, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 194231
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 1025089, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 194231
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 1025100, "kind": "normal", "optional": true,
+        "req": "^0.10", "target": null, "version_id": 194231
+      },
+      {
+        "crate_id": "publicsuffix", "default_features": false,
+        "downloads": 0, "features": [], "id": 1025101, "kind": "normal",
+        "optional": true, "req": "^1.5", "target": null,
+        "version_id": 194231
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 1025102, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 194231
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1025103, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 194231
+      }
+    ],
+    "dl_path": "/api/v1/crates/isahc/0.8.2/download",
+    "downloads": 65865,
+    "features": {
+      "cookies": ["chrono"],
+      "default": ["cookies", "http2", "static-curl"],
+      "http2": ["curl/http2"], "json": ["serde", "serde_json"],
+      "middleware-api": [], "psl": ["parking_lot", "publicsuffix"],
+      "spnego": ["curl-sys/spnego"], "static-curl": ["curl/static-curl"]
+    },
+    "id": 194231, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/isahc/0.8.2/authors",
+      "dependencies": "/api/v1/crates/isahc/0.8.2/dependencies",
+      "version_downloads": "/api/v1/crates/isahc/0.8.2/downloads"
+    },
+    "num": "0.8.2",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/2192863?v=4",
+      "id": 5613, "login": "sagebind", "name": "Stephen M. Coakley",
+      "url": "https://github.com/sagebind"
+    },
+    "readme_path": "/api/v1/crates/isahc/0.8.2/readme",
+    "updated_at": "2019-12-06T06:29:26.240274+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-03-05T22:24:41.720061+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/2192863?v=4",
+          "id": 5613, "login": "sagebind", "name": "Stephen M. Coakley",
+          "url": "https://github.com/sagebind"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Stephen M. Coakley <me@stephencoakley.com>"]},
+      "users": []
+    },
+    "crate": "isahc", "crate_size": 253812,
+    "created_at": "2020-03-05T22:24:41.720061+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1200090, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 218538
+      },
+      {
+        "crate_id": "crossbeam-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1200092, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 218538
+      },
+      {
+        "crate_id": "crossbeam-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 1200093, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 218538
+      },
+      {
+        "crate_id": "curl", "default_features": true, "downloads": 0,
+        "features": [], "id": 1200094, "kind": "normal", "optional": false,
+        "req": "^0.4.25", "target": null, "version_id": 218538
+      },
+      {
+        "crate_id": "curl-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1200095, "kind": "normal", "optional": false,
+        "req": "^0.4.26", "target": null, "version_id": 218538
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1200110, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 218538
+      },
+      {
+        "crate_id": "flate2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1200111, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 218538
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1200112, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 218538
+      },
+      {
+        "crate_id": "futures-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1200097, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 218538
+      },
+      {
+        "crate_id": "futures-io", "default_features": true, "downloads": 0,
+        "features": [], "id": 1200098, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 218538
+      },
+      {
+        "crate_id": "futures-util", "default_features": false,
+        "downloads": 0, "features": ["io"], "id": 1200099, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 218538
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1200100, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 218538
+      },
+      {
+        "crate_id": "indicatif", "default_features": true, "downloads": 0,
+        "features": [], "id": 1200113, "kind": "dev", "optional": false,
+        "req": "^0.14", "target": null, "version_id": 218538
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1200101, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 218538
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1200102, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 218538
+      },
+      {
+        "crate_id": "mockito", "default_features": true, "downloads": 0,
+        "features": [], "id": 1200114, "kind": "dev", "optional": false,
+        "req": "^0.23", "target": null, "version_id": 218538
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 1200115, "kind": "dev", "optional": false,
+        "req": "^1", "target": null, "version_id": 218538
+      },
+      {
+        "crate_id": "slab", "default_features": true, "downloads": 0,
+        "features": [], "id": 1200108, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 218538
+      },
+      {
+        "crate_id": "sluice", "default_features": true, "downloads": 0,
+        "features": [], "id": 1200109, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 218538
+      },
+      {
+        "crate_id": "speculate", "default_features": true, "downloads": 0,
+        "features": [], "id": 1200116, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 218538
+      },
+      {
+        "crate_id": "static_assertions", "default_features": true,
+        "downloads": 0, "features": [], "id": 1200117, "kind": "dev",
+        "optional": false, "req": "^1.1", "target": null,
+        "version_id": 218538
+      },
+      {
+        "crate_id": "structopt", "default_features": true, "downloads": 0,
+        "features": [], "id": 1200118, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 218538
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 1200091, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 218538
+      },
+      {
+        "crate_id": "encoding_rs", "default_features": true, "downloads": 0,
+        "features": [], "id": 1200096, "kind": "normal", "optional": true,
+        "req": "^0.8", "target": null, "version_id": 218538
+      },
+      {
+        "crate_id": "mime", "default_features": true, "downloads": 0,
+        "features": [], "id": 1200103, "kind": "normal", "optional": true,
+        "req": "^0.3", "target": null, "version_id": 218538
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 1200104, "kind": "normal", "optional": true,
+        "req": "^0.10", "target": null, "version_id": 218538
+      },
+      {
+        "crate_id": "publicsuffix", "default_features": false,
+        "downloads": 0, "features": [], "id": 1200105, "kind": "normal",
+        "optional": true, "req": "^1.5", "target": null,
+        "version_id": 218538
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 1200106, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 218538
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1200107, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 218538
+      }
+    ],
+    "dl_path": "/api/v1/crates/isahc/0.9.0/download", "downloads": 221,
+    "features": {
+      "cookies": ["chrono"],
+      "default": ["http2", "static-curl", "text-decoding"],
+      "http2": ["curl/http2"], "json": ["serde", "serde_json"],
+      "middleware-api-preview": [],
+      "psl": ["parking_lot", "publicsuffix"],
+      "spnego": ["curl-sys/spnego"], "static-curl": ["curl/static-curl"],
+      "text-decoding": ["encoding_rs", "mime"]
+    },
+    "id": 218538, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/isahc/0.9.0/authors",
+      "dependencies": "/api/v1/crates/isahc/0.9.0/dependencies",
+      "version_downloads": "/api/v1/crates/isahc/0.9.0/downloads"
+    },
+    "num": "0.9.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/2192863?v=4",
+      "id": 5613, "login": "sagebind", "name": "Stephen M. Coakley",
+      "url": "https://github.com/sagebind"
+    },
+    "readme_path": "/api/v1/crates/isahc/0.9.0/readme",
+    "updated_at": "2020-03-05T22:24:41.720061+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-03-11T01:46:04.631344+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/2192863?v=4",
+          "id": 5613, "login": "sagebind", "name": "Stephen M. Coakley",
+          "url": "https://github.com/sagebind"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Stephen M. Coakley <me@stephencoakley.com>"]},
+      "users": []
+    },
+    "crate": "isahc", "crate_size": 254274,
+    "created_at": "2020-03-11T01:46:04.631344+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1210549, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 219942
+      },
+      {
+        "crate_id": "crossbeam-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1210551, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 219942
+      },
+      {
+        "crate_id": "crossbeam-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 1210552, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 219942
+      },
+      {
+        "crate_id": "curl", "default_features": true, "downloads": 0,
+        "features": [], "id": 1210553, "kind": "normal", "optional": false,
+        "req": "^0.4.25", "target": null, "version_id": 219942
+      },
+      {
+        "crate_id": "curl-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1210554, "kind": "normal", "optional": false,
+        "req": "^0.4.26", "target": null, "version_id": 219942
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1210569, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 219942
+      },
+      {
+        "crate_id": "flate2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1210570, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 219942
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1210571, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 219942
+      },
+      {
+        "crate_id": "futures-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1210556, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 219942
+      },
+      {
+        "crate_id": "futures-io", "default_features": true, "downloads": 0,
+        "features": [], "id": 1210557, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 219942
+      },
+      {
+        "crate_id": "futures-util", "default_features": false,
+        "downloads": 0, "features": ["io"], "id": 1210558, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 219942
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1210559, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 219942
+      },
+      {
+        "crate_id": "indicatif", "default_features": true, "downloads": 0,
+        "features": [], "id": 1210572, "kind": "dev", "optional": false,
+        "req": "^0.14", "target": null, "version_id": 219942
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1210560, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 219942
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1210561, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 219942
+      },
+      {
+        "crate_id": "mockito", "default_features": true, "downloads": 0,
+        "features": [], "id": 1210573, "kind": "dev", "optional": false,
+        "req": "^0.23", "target": null, "version_id": 219942
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 1210574, "kind": "dev", "optional": false,
+        "req": "^1", "target": null, "version_id": 219942
+      },
+      {
+        "crate_id": "slab", "default_features": true, "downloads": 0,
+        "features": [], "id": 1210567, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 219942
+      },
+      {
+        "crate_id": "sluice", "default_features": true, "downloads": 0,
+        "features": [], "id": 1210568, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 219942
+      },
+      {
+        "crate_id": "speculate", "default_features": true, "downloads": 0,
+        "features": [], "id": 1210575, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 219942
+      },
+      {
+        "crate_id": "static_assertions", "default_features": true,
+        "downloads": 0, "features": [], "id": 1210576, "kind": "dev",
+        "optional": false, "req": "^1.1", "target": null,
+        "version_id": 219942
+      },
+      {
+        "crate_id": "structopt", "default_features": true, "downloads": 0,
+        "features": [], "id": 1210577, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 219942
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 1210550, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 219942
+      },
+      {
+        "crate_id": "encoding_rs", "default_features": true, "downloads": 0,
+        "features": [], "id": 1210555, "kind": "normal", "optional": true,
+        "req": "^0.8", "target": null, "version_id": 219942
+      },
+      {
+        "crate_id": "mime", "default_features": true, "downloads": 0,
+        "features": [], "id": 1210562, "kind": "normal", "optional": true,
+        "req": "^0.3", "target": null, "version_id": 219942
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 1210563, "kind": "normal", "optional": true,
+        "req": "^0.10", "target": null, "version_id": 219942
+      },
+      {
+        "crate_id": "publicsuffix", "default_features": false,
+        "downloads": 0, "features": [], "id": 1210564, "kind": "normal",
+        "optional": true, "req": "^1.5", "target": null,
+        "version_id": 219942
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 1210565, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 219942
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1210566, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 219942
+      }
+    ],
+    "dl_path": "/api/v1/crates/isahc/0.9.1/download",
+    "downloads": 10543,
+    "features": {
+      "cookies": ["chrono"],
+      "default": ["http2", "static-curl", "text-decoding"],
+      "http2": ["curl/http2"], "json": ["serde", "serde_json"],
+      "middleware-api-preview": [],
+      "psl": ["parking_lot", "publicsuffix"],
+      "spnego": ["curl-sys/spnego"], "static-curl": ["curl/static-curl"],
+      "text-decoding": ["encoding_rs", "mime"]
+    },
+    "id": 219942, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/isahc/0.9.1/authors",
+      "dependencies": "/api/v1/crates/isahc/0.9.1/dependencies",
+      "version_downloads": "/api/v1/crates/isahc/0.9.1/downloads"
+    },
+    "num": "0.9.1",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/2192863?v=4",
+      "id": 5613, "login": "sagebind", "name": "Stephen M. Coakley",
+      "url": "https://github.com/sagebind"
+    },
+    "readme_path": "/api/v1/crates/isahc/0.9.1/readme",
+    "updated_at": "2020-03-11T01:46:04.631344+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-05-10T04:12:19.130180+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/2192863?v=4",
+          "id": 5613, "login": "sagebind", "name": "Stephen M. Coakley",
+          "url": "https://github.com/sagebind"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Stephen M. Coakley <me@stephencoakley.com>"]},
+      "users": []
+    },
+    "crate": "isahc", "crate_size": 256449,
+    "created_at": "2020-05-10T04:12:19.130180+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1353182, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 239562
+      },
+      {
+        "crate_id": "crossbeam-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1353184, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 239562
+      },
+      {
+        "crate_id": "crossbeam-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 1353185, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 239562
+      },
+      {
+        "crate_id": "curl", "default_features": true, "downloads": 0,
+        "features": [], "id": 1353186, "kind": "normal", "optional": false,
+        "req": "^0.4.25", "target": null, "version_id": 239562
+      },
+      {
+        "crate_id": "curl-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1353187, "kind": "normal", "optional": false,
+        "req": "^0.4.26", "target": null, "version_id": 239562
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1353202, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 239562
+      },
+      {
+        "crate_id": "flate2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1353203, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 239562
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1353204, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 239562
+      },
+      {
+        "crate_id": "futures-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1353189, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 239562
+      },
+      {
+        "crate_id": "futures-io", "default_features": true, "downloads": 0,
+        "features": [], "id": 1353190, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 239562
+      },
+      {
+        "crate_id": "futures-util", "default_features": false,
+        "downloads": 0, "features": ["io"], "id": 1353191, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 239562
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1353192, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 239562
+      },
+      {
+        "crate_id": "indicatif", "default_features": true, "downloads": 0,
+        "features": [], "id": 1353205, "kind": "dev", "optional": false,
+        "req": "^0.14", "target": null, "version_id": 239562
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1353193, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 239562
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1353194, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 239562
+      },
+      {
+        "crate_id": "mockito", "default_features": true, "downloads": 0,
+        "features": [], "id": 1353206, "kind": "dev", "optional": false,
+        "req": "^0.25", "target": null, "version_id": 239562
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 1353207, "kind": "dev", "optional": false,
+        "req": "^1", "target": null, "version_id": 239562
+      },
+      {
+        "crate_id": "slab", "default_features": true, "downloads": 0,
+        "features": [], "id": 1353200, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 239562
+      },
+      {
+        "crate_id": "sluice", "default_features": true, "downloads": 0,
+        "features": [], "id": 1353201, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 239562
+      },
+      {
+        "crate_id": "speculate", "default_features": true, "downloads": 0,
+        "features": [], "id": 1353208, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 239562
+      },
+      {
+        "crate_id": "static_assertions", "default_features": true,
+        "downloads": 0, "features": [], "id": 1353209, "kind": "dev",
+        "optional": false, "req": "^1.1", "target": null,
+        "version_id": 239562
+      },
+      {
+        "crate_id": "structopt", "default_features": true, "downloads": 0,
+        "features": [], "id": 1353210, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 239562
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 1353183, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 239562
+      },
+      {
+        "crate_id": "encoding_rs", "default_features": true, "downloads": 0,
+        "features": [], "id": 1353188, "kind": "normal", "optional": true,
+        "req": "^0.8", "target": null, "version_id": 239562
+      },
+      {
+        "crate_id": "mime", "default_features": true, "downloads": 0,
+        "features": [], "id": 1353195, "kind": "normal", "optional": true,
+        "req": "^0.3", "target": null, "version_id": 239562
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 1353196, "kind": "normal", "optional": true,
+        "req": "^0.10", "target": null, "version_id": 239562
+      },
+      {
+        "crate_id": "publicsuffix", "default_features": false,
+        "downloads": 0, "features": [], "id": 1353197, "kind": "normal",
+        "optional": true, "req": "^1.5", "target": null,
+        "version_id": 239562
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 1353198, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 239562
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1353199, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 239562
+      }
+    ],
+    "dl_path": "/api/v1/crates/isahc/0.9.2/download",
+    "downloads": 11751,
+    "features": {
+      "cookies": ["chrono"],
+      "default": ["http2", "static-curl", "text-decoding"],
+      "http2": ["curl/http2"], "json": ["serde", "serde_json"],
+      "middleware-api-preview": [],
+      "psl": ["parking_lot", "publicsuffix"],
+      "spnego": ["curl-sys/spnego"], "static-curl": ["curl/static-curl"],
+      "text-decoding": ["encoding_rs", "mime"]
+    },
+    "id": 239562, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/isahc/0.9.2/authors",
+      "dependencies": "/api/v1/crates/isahc/0.9.2/dependencies",
+      "version_downloads": "/api/v1/crates/isahc/0.9.2/downloads"
+    },
+    "num": "0.9.2",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/2192863?v=4",
+      "id": 5613, "login": "sagebind", "name": "Stephen M. Coakley",
+      "url": "https://github.com/sagebind"
+    },
+    "readme_path": "/api/v1/crates/isahc/0.9.2/readme",
+    "updated_at": "2020-05-10T04:12:19.130180+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-05-24T03:41:59.506510+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/2192863?v=4",
+          "id": 5613, "login": "sagebind", "name": "Stephen M. Coakley",
+          "url": "https://github.com/sagebind"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Stephen M. Coakley <me@stephencoakley.com>"]},
+      "users": []
+    },
+    "crate": "isahc", "crate_size": 257510,
+    "created_at": "2020-05-24T03:41:59.506510+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1389938, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 244604
+      },
+      {
+        "crate_id": "crossbeam-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1389940, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 244604
+      },
+      {
+        "crate_id": "crossbeam-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 1389941, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 244604
+      },
+      {
+        "crate_id": "curl", "default_features": true, "downloads": 0,
+        "features": [], "id": 1389942, "kind": "normal", "optional": false,
+        "req": "^0.4.25", "target": null, "version_id": 244604
+      },
+      {
+        "crate_id": "curl-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1389943, "kind": "normal", "optional": false,
+        "req": "^0.4.26", "target": null, "version_id": 244604
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1389960, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 244604
+      },
+      {
+        "crate_id": "flate2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1389961, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 244604
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1389962, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 244604
+      },
+      {
+        "crate_id": "futures-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1389945, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 244604
+      },
+      {
+        "crate_id": "futures-io", "default_features": true, "downloads": 0,
+        "features": [], "id": 1389946, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 244604
+      },
+      {
+        "crate_id": "futures-util", "default_features": false,
+        "downloads": 0, "features": ["io"], "id": 1389947, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 244604
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1389948, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 244604
+      },
+      {
+        "crate_id": "indicatif", "default_features": true, "downloads": 0,
+        "features": [], "id": 1389963, "kind": "dev", "optional": false,
+        "req": "^0.14", "target": null, "version_id": 244604
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1389949, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 244604
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1389950, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 244604
+      },
+      {
+        "crate_id": "mockito", "default_features": true, "downloads": 0,
+        "features": [], "id": 1389964, "kind": "dev", "optional": false,
+        "req": "^0.25", "target": null, "version_id": 244604
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 1389965, "kind": "dev", "optional": false,
+        "req": "^1", "target": null, "version_id": 244604
+      },
+      {
+        "crate_id": "slab", "default_features": true, "downloads": 0,
+        "features": [], "id": 1389956, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 244604
+      },
+      {
+        "crate_id": "sluice", "default_features": true, "downloads": 0,
+        "features": [], "id": 1389957, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 244604
+      },
+      {
+        "crate_id": "speculate", "default_features": true, "downloads": 0,
+        "features": [], "id": 1389966, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 244604
+      },
+      {
+        "crate_id": "static_assertions", "default_features": true,
+        "downloads": 0, "features": [], "id": 1389967, "kind": "dev",
+        "optional": false, "req": "^1.1", "target": null,
+        "version_id": 244604
+      },
+      {
+        "crate_id": "structopt", "default_features": true, "downloads": 0,
+        "features": [], "id": 1389968, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 244604
+      },
+      {
+        "crate_id": "tracing", "default_features": true, "downloads": 0,
+        "features": ["log"], "id": 1389958, "kind": "normal",
+        "optional": false, "req": "^0.1.14", "target": null,
+        "version_id": 244604
+      },
+      {
+        "crate_id": "tracing-futures", "default_features": false,
+        "downloads": 0, "features": ["std", "std-future"], "id": 1389959,
+        "kind": "normal", "optional": false, "req": "^0.2", "target": null,
+        "version_id": 244604
+      },
+      {
+        "crate_id": "tracing-subscriber", "default_features": true,
+        "downloads": 0, "features": [], "id": 1389969, "kind": "dev",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 244604
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 1389939, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 244604
+      },
+      {
+        "crate_id": "encoding_rs", "default_features": true, "downloads": 0,
+        "features": [], "id": 1389944, "kind": "normal", "optional": true,
+        "req": "^0.8", "target": null, "version_id": 244604
+      },
+      {
+        "crate_id": "mime", "default_features": true, "downloads": 0,
+        "features": [], "id": 1389951, "kind": "normal", "optional": true,
+        "req": "^0.3", "target": null, "version_id": 244604
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 1389952, "kind": "normal", "optional": true,
+        "req": "^0.10", "target": null, "version_id": 244604
+      },
+      {
+        "crate_id": "publicsuffix", "default_features": false,
+        "downloads": 0, "features": [], "id": 1389953, "kind": "normal",
+        "optional": true, "req": "^1.5", "target": null,
+        "version_id": 244604
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 1389954, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 244604
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1389955, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 244604
+      }
+    ],
+    "dl_path": "/api/v1/crates/isahc/0.9.3/download",
+    "downloads": 10694,
+    "features": {
+      "cookies": ["chrono"],
+      "default": ["http2", "static-curl", "text-decoding"],
+      "http2": ["curl/http2"], "json": ["serde", "serde_json"],
+      "middleware-api-preview": [],
+      "psl": ["parking_lot", "publicsuffix"],
+      "spnego": ["curl-sys/spnego"], "static-curl": ["curl/static-curl"],
+      "text-decoding": ["encoding_rs", "mime"]
+    },
+    "id": 244604, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/isahc/0.9.3/authors",
+      "dependencies": "/api/v1/crates/isahc/0.9.3/dependencies",
+      "version_downloads": "/api/v1/crates/isahc/0.9.3/downloads"
+    },
+    "num": "0.9.3",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/2192863?v=4",
+      "id": 5613, "login": "sagebind", "name": "Stephen M. Coakley",
+      "url": "https://github.com/sagebind"
+    },
+    "readme_path": "/api/v1/crates/isahc/0.9.3/readme",
+    "updated_at": "2020-05-24T03:41:59.506510+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-06-11T03:51:35.595832+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/2192863?v=4",
+          "id": 5613, "login": "sagebind", "name": "Stephen M. Coakley",
+          "url": "https://github.com/sagebind"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Stephen M. Coakley <me@stephencoakley.com>"]},
+      "users": []
+    },
+    "crate": "isahc", "crate_size": 258910,
+    "created_at": "2020-06-11T03:51:35.595832+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1438249, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 251136
+      },
+      {
+        "crate_id": "crossbeam-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1438251, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 251136
+      },
+      {
+        "crate_id": "crossbeam-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 1438252, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 251136
+      },
+      {
+        "crate_id": "curl", "default_features": true, "downloads": 0,
+        "features": [], "id": 1438253, "kind": "normal", "optional": false,
+        "req": "^0.4.25", "target": null, "version_id": 251136
+      },
+      {
+        "crate_id": "curl-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1438254, "kind": "normal", "optional": false,
+        "req": "^0.4.26", "target": null, "version_id": 251136
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1438271, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 251136
+      },
+      {
+        "crate_id": "flate2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1438272, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 251136
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1438273, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 251136
+      },
+      {
+        "crate_id": "futures-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1438256, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 251136
+      },
+      {
+        "crate_id": "futures-io", "default_features": true, "downloads": 0,
+        "features": [], "id": 1438257, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 251136
+      },
+      {
+        "crate_id": "futures-util", "default_features": false,
+        "downloads": 0, "features": ["io"], "id": 1438258, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 251136
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1438259, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 251136
+      },
+      {
+        "crate_id": "indicatif", "default_features": true, "downloads": 0,
+        "features": [], "id": 1438274, "kind": "dev", "optional": false,
+        "req": "^0.14", "target": null, "version_id": 251136
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1438260, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 251136
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1438261, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 251136
+      },
+      {
+        "crate_id": "mockito", "default_features": true, "downloads": 0,
+        "features": [], "id": 1438275, "kind": "dev", "optional": false,
+        "req": "^0.25", "target": null, "version_id": 251136
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 1438276, "kind": "dev", "optional": false,
+        "req": "^1", "target": null, "version_id": 251136
+      },
+      {
+        "crate_id": "slab", "default_features": true, "downloads": 0,
+        "features": [], "id": 1438267, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 251136
+      },
+      {
+        "crate_id": "sluice", "default_features": true, "downloads": 0,
+        "features": [], "id": 1438268, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 251136
+      },
+      {
+        "crate_id": "speculate", "default_features": true, "downloads": 0,
+        "features": [], "id": 1438277, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 251136
+      },
+      {
+        "crate_id": "static_assertions", "default_features": true,
+        "downloads": 0, "features": [], "id": 1438278, "kind": "dev",
+        "optional": false, "req": "^1.1", "target": null,
+        "version_id": 251136
+      },
+      {
+        "crate_id": "structopt", "default_features": true, "downloads": 0,
+        "features": [], "id": 1438279, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 251136
+      },
+      {
+        "crate_id": "tracing", "default_features": true, "downloads": 0,
+        "features": ["log"], "id": 1438269, "kind": "normal",
+        "optional": false, "req": "^0.1.14", "target": null,
+        "version_id": 251136
+      },
+      {
+        "crate_id": "tracing-futures", "default_features": false,
+        "downloads": 0, "features": ["std", "std-future"], "id": 1438270,
+        "kind": "normal", "optional": false, "req": "^0.2", "target": null,
+        "version_id": 251136
+      },
+      {
+        "crate_id": "tracing-subscriber", "default_features": true,
+        "downloads": 0, "features": [], "id": 1438280, "kind": "dev",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 251136
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 1438250, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 251136
+      },
+      {
+        "crate_id": "encoding_rs", "default_features": true, "downloads": 0,
+        "features": [], "id": 1438255, "kind": "normal", "optional": true,
+        "req": "^0.8", "target": null, "version_id": 251136
+      },
+      {
+        "crate_id": "mime", "default_features": true, "downloads": 0,
+        "features": [], "id": 1438262, "kind": "normal", "optional": true,
+        "req": "^0.3", "target": null, "version_id": 251136
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 1438263, "kind": "normal", "optional": true,
+        "req": "^0.10", "target": null, "version_id": 251136
+      },
+      {
+        "crate_id": "publicsuffix", "default_features": false,
+        "downloads": 0, "features": [], "id": 1438264, "kind": "normal",
+        "optional": true, "req": "^1.5", "target": null,
+        "version_id": 251136
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 1438265, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 251136
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1438266, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 251136
+      }
+    ],
+    "dl_path": "/api/v1/crates/isahc/0.9.4/download", "downloads": 4442,
+    "features": {
+      "cookies": ["chrono"],
+      "default": ["http2", "static-curl", "text-decoding"],
+      "http2": ["curl/http2"], "json": ["serde", "serde_json"],
+      "middleware-api-preview": [],
+      "psl": ["parking_lot", "publicsuffix"],
+      "spnego": ["curl-sys/spnego"], "static-curl": ["curl/static-curl"],
+      "text-decoding": ["encoding_rs", "mime"]
+    },
+    "id": 251136, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/isahc/0.9.4/authors",
+      "dependencies": "/api/v1/crates/isahc/0.9.4/dependencies",
+      "version_downloads": "/api/v1/crates/isahc/0.9.4/downloads"
+    },
+    "num": "0.9.4",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/2192863?v=4",
+      "id": 5613, "login": "sagebind", "name": "Stephen M. Coakley",
+      "url": "https://github.com/sagebind"
+    },
+    "readme_path": "/api/v1/crates/isahc/0.9.4/readme",
+    "updated_at": "2020-06-11T03:51:35.595832+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-06-24T04:34:48.237431+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/2192863?v=4",
+          "id": 5613, "login": "sagebind", "name": "Stephen M. Coakley",
+          "url": "https://github.com/sagebind"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Stephen M. Coakley <me@stephencoakley.com>"]},
+      "users": []
+    },
+    "crate": "isahc", "crate_size": 153339,
+    "created_at": "2020-06-24T04:34:48.237431+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1471218, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 255505
+      },
+      {
+        "crate_id": "crossbeam-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1471220, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 255505
+      },
+      {
+        "crate_id": "crossbeam-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 1471221, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 255505
+      },
+      {
+        "crate_id": "curl", "default_features": true, "downloads": 0,
+        "features": [], "id": 1471222, "kind": "normal", "optional": false,
+        "req": "^0.4.30", "target": null, "version_id": 255505
+      },
+      {
+        "crate_id": "curl-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1471223, "kind": "normal", "optional": false,
+        "req": "^0.4.32", "target": null, "version_id": 255505
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1471240, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 255505
+      },
+      {
+        "crate_id": "flate2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1471241, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 255505
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1471242, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 255505
+      },
+      {
+        "crate_id": "futures-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1471225, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 255505
+      },
+      {
+        "crate_id": "futures-io", "default_features": true, "downloads": 0,
+        "features": [], "id": 1471226, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 255505
+      },
+      {
+        "crate_id": "futures-util", "default_features": false,
+        "downloads": 0, "features": ["io"], "id": 1471227, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 255505
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1471228, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 255505
+      },
+      {
+        "crate_id": "indicatif", "default_features": true, "downloads": 0,
+        "features": [], "id": 1471243, "kind": "dev", "optional": false,
+        "req": "^0.15", "target": null, "version_id": 255505
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1471229, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 255505
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1471230, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 255505
+      },
+      {
+        "crate_id": "mockito", "default_features": true, "downloads": 0,
+        "features": [], "id": 1471244, "kind": "dev", "optional": false,
+        "req": "^0.25", "target": null, "version_id": 255505
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 1471245, "kind": "dev", "optional": false,
+        "req": "^1", "target": null, "version_id": 255505
+      },
+      {
+        "crate_id": "slab", "default_features": true, "downloads": 0,
+        "features": [], "id": 1471236, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 255505
+      },
+      {
+        "crate_id": "sluice", "default_features": true, "downloads": 0,
+        "features": [], "id": 1471237, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 255505
+      },
+      {
+        "crate_id": "speculate", "default_features": true, "downloads": 0,
+        "features": [], "id": 1471246, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 255505
+      },
+      {
+        "crate_id": "static_assertions", "default_features": true,
+        "downloads": 0, "features": [], "id": 1471247, "kind": "dev",
+        "optional": false, "req": "^1.1", "target": null,
+        "version_id": 255505
+      },
+      {
+        "crate_id": "structopt", "default_features": true, "downloads": 0,
+        "features": [], "id": 1471248, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 255505
+      },
+      {
+        "crate_id": "tracing", "default_features": true, "downloads": 0,
+        "features": ["log"], "id": 1471238, "kind": "normal",
+        "optional": false, "req": "^0.1.14", "target": null,
+        "version_id": 255505
+      },
+      {
+        "crate_id": "tracing-futures", "default_features": false,
+        "downloads": 0, "features": ["std", "std-future"], "id": 1471239,
+        "kind": "normal", "optional": false, "req": "^0.2", "target": null,
+        "version_id": 255505
+      },
+      {
+        "crate_id": "tracing-subscriber", "default_features": true,
+        "downloads": 0, "features": [], "id": 1471249, "kind": "dev",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 255505
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 1471219, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 255505
+      },
+      {
+        "crate_id": "encoding_rs", "default_features": true, "downloads": 0,
+        "features": [], "id": 1471224, "kind": "normal", "optional": true,
+        "req": "^0.8", "target": null, "version_id": 255505
+      },
+      {
+        "crate_id": "mime", "default_features": true, "downloads": 0,
+        "features": [], "id": 1471231, "kind": "normal", "optional": true,
+        "req": "^0.3", "target": null, "version_id": 255505
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 1471232, "kind": "normal", "optional": true,
+        "req": "^0.10", "target": null, "version_id": 255505
+      },
+      {
+        "crate_id": "publicsuffix", "default_features": false,
+        "downloads": 0, "features": [], "id": 1471233, "kind": "normal",
+        "optional": true, "req": "^1.5", "target": null,
+        "version_id": 255505
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 1471234, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 255505
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1471235, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 255505
+      }
+    ],
+    "dl_path": "/api/v1/crates/isahc/0.9.5/download",
+    "downloads": 16005,
+    "features": {
+      "cookies": ["chrono"],
+      "default": ["http2", "static-curl", "text-decoding"],
+      "http2": ["curl/http2"], "json": ["serde", "serde_json"],
+      "middleware-api-preview": [],
+      "psl": ["parking_lot", "publicsuffix"],
+      "spnego": ["curl-sys/spnego"], "static-curl": ["curl/static-curl"],
+      "text-decoding": ["encoding_rs", "mime"]
+    },
+    "id": 255505, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/isahc/0.9.5/authors",
+      "dependencies": "/api/v1/crates/isahc/0.9.5/dependencies",
+      "version_downloads": "/api/v1/crates/isahc/0.9.5/downloads"
+    },
+    "num": "0.9.5",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/2192863?v=4",
+      "id": 5613, "login": "sagebind", "name": "Stephen M. Coakley",
+      "url": "https://github.com/sagebind"
+    },
+    "readme_path": "/api/v1/crates/isahc/0.9.5/readme",
+    "updated_at": "2020-06-24T04:34:48.237431+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-07-21T04:46:57.807443+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/2192863?v=4",
+          "id": 5613, "login": "sagebind", "name": "Stephen M. Coakley",
+          "url": "https://github.com/sagebind"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Stephen M. Coakley <me@stephencoakley.com>"]},
+      "users": []
+    },
+    "crate": "isahc", "crate_size": 159215,
+    "created_at": "2020-07-21T04:46:57.807443+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1537850, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 264386
+      },
+      {
+        "crate_id": "crossbeam-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1537852, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 264386
+      },
+      {
+        "crate_id": "crossbeam-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 1537853, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 264386
+      },
+      {
+        "crate_id": "curl", "default_features": true, "downloads": 0,
+        "features": [], "id": 1537854, "kind": "normal", "optional": false,
+        "req": "^0.4.30", "target": null, "version_id": 264386
+      },
+      {
+        "crate_id": "curl-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1537855, "kind": "normal", "optional": false,
+        "req": "^0.4.32", "target": null, "version_id": 264386
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1537872, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 264386
+      },
+      {
+        "crate_id": "flate2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1537873, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 264386
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1537874, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 264386
+      },
+      {
+        "crate_id": "futures-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1537857, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 264386
+      },
+      {
+        "crate_id": "futures-io", "default_features": true, "downloads": 0,
+        "features": [], "id": 1537858, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 264386
+      },
+      {
+        "crate_id": "futures-util", "default_features": false,
+        "downloads": 0, "features": ["io"], "id": 1537859, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 264386
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1537860, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 264386
+      },
+      {
+        "crate_id": "indicatif", "default_features": true, "downloads": 0,
+        "features": [], "id": 1537875, "kind": "dev", "optional": false,
+        "req": "^0.15", "target": null, "version_id": 264386
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1537861, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 264386
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1537862, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 264386
+      },
+      {
+        "crate_id": "mockito", "default_features": true, "downloads": 0,
+        "features": [], "id": 1537876, "kind": "dev", "optional": false,
+        "req": "^0.26", "target": null, "version_id": 264386
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 1537877, "kind": "dev", "optional": false,
+        "req": "^1", "target": null, "version_id": 264386
+      },
+      {
+        "crate_id": "slab", "default_features": true, "downloads": 0,
+        "features": [], "id": 1537868, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 264386
+      },
+      {
+        "crate_id": "sluice", "default_features": true, "downloads": 0,
+        "features": [], "id": 1537869, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 264386
+      },
+      {
+        "crate_id": "speculate", "default_features": true, "downloads": 0,
+        "features": [], "id": 1537878, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 264386
+      },
+      {
+        "crate_id": "static_assertions", "default_features": true,
+        "downloads": 0, "features": [], "id": 1537879, "kind": "dev",
+        "optional": false, "req": "^1.1", "target": null,
+        "version_id": 264386
+      },
+      {
+        "crate_id": "structopt", "default_features": true, "downloads": 0,
+        "features": [], "id": 1537880, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 264386
+      },
+      {
+        "crate_id": "tracing", "default_features": true, "downloads": 0,
+        "features": ["log"], "id": 1537870, "kind": "normal",
+        "optional": false, "req": "^0.1.14", "target": null,
+        "version_id": 264386
+      },
+      {
+        "crate_id": "tracing-futures", "default_features": false,
+        "downloads": 0, "features": ["std", "std-future"], "id": 1537871,
+        "kind": "normal", "optional": false, "req": "^0.2", "target": null,
+        "version_id": 264386
+      },
+      {
+        "crate_id": "tracing-subscriber", "default_features": true,
+        "downloads": 0, "features": [], "id": 1537881, "kind": "dev",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 264386
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 1537851, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 264386
+      },
+      {
+        "crate_id": "encoding_rs", "default_features": true, "downloads": 0,
+        "features": [], "id": 1537856, "kind": "normal", "optional": true,
+        "req": "^0.8", "target": null, "version_id": 264386
+      },
+      {
+        "crate_id": "mime", "default_features": true, "downloads": 0,
+        "features": [], "id": 1537863, "kind": "normal", "optional": true,
+        "req": "^0.3", "target": null, "version_id": 264386
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 1537864, "kind": "normal", "optional": true,
+        "req": "^0.11", "target": null, "version_id": 264386
+      },
+      {
+        "crate_id": "publicsuffix", "default_features": false,
+        "downloads": 0, "features": [], "id": 1537865, "kind": "normal",
+        "optional": true, "req": "^1.5", "target": null,
+        "version_id": 264386
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 1537866, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 264386
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1537867, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 264386
+      }
+    ],
+    "dl_path": "/api/v1/crates/isahc/0.9.6/download", "downloads": 8307,
+    "features": {
+      "cookies": ["chrono"],
+      "default": ["http2", "static-curl", "text-decoding"],
+      "http2": ["curl/http2"], "json": ["serde", "serde_json"],
+      "middleware-api-preview": [],
+      "psl": ["parking_lot", "publicsuffix"],
+      "spnego": ["curl-sys/spnego"], "static-curl": ["curl/static-curl"],
+      "text-decoding": ["encoding_rs", "mime"]
+    },
+    "id": 264386, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/isahc/0.9.6/authors",
+      "dependencies": "/api/v1/crates/isahc/0.9.6/dependencies",
+      "version_downloads": "/api/v1/crates/isahc/0.9.6/downloads"
+    },
+    "num": "0.9.6",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/2192863?v=4",
+      "id": 5613, "login": "sagebind", "name": "Stephen M. Coakley",
+      "url": "https://github.com/sagebind"
+    },
+    "readme_path": "/api/v1/crates/isahc/0.9.6/readme",
+    "updated_at": "2020-07-21T04:46:57.807443+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-07-29T03:00:19.773237+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/2192863?v=4",
+          "id": 5613, "login": "sagebind", "name": "Stephen M. Coakley",
+          "url": "https://github.com/sagebind"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Stephen M. Coakley <me@stephencoakley.com>"]},
+      "users": []
+    },
+    "crate": "isahc", "crate_size": 161493,
+    "created_at": "2020-07-29T03:00:19.773237+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1560988, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 267398
+      },
+      {
+        "crate_id": "crossbeam-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1560990, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 267398
+      },
+      {
+        "crate_id": "crossbeam-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 1560991, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 267398
+      },
+      {
+        "crate_id": "curl", "default_features": true, "downloads": 0,
+        "features": [], "id": 1560992, "kind": "normal", "optional": false,
+        "req": "^0.4.31", "target": null, "version_id": 267398
+      },
+      {
+        "crate_id": "curl-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1560993, "kind": "normal", "optional": false,
+        "req": "^0.4.33", "target": null, "version_id": 267398
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1561010, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 267398
+      },
+      {
+        "crate_id": "flate2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1561011, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 267398
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1561012, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 267398
+      },
+      {
+        "crate_id": "futures-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1560995, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 267398
+      },
+      {
+        "crate_id": "futures-io", "default_features": true, "downloads": 0,
+        "features": [], "id": 1560996, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 267398
+      },
+      {
+        "crate_id": "futures-util", "default_features": false,
+        "downloads": 0, "features": ["io"], "id": 1560997, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 267398
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1560998, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 267398
+      },
+      {
+        "crate_id": "indicatif", "default_features": true, "downloads": 0,
+        "features": [], "id": 1561013, "kind": "dev", "optional": false,
+        "req": "^0.15", "target": null, "version_id": 267398
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1560999, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 267398
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1561000, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 267398
+      },
+      {
+        "crate_id": "mockito", "default_features": true, "downloads": 0,
+        "features": [], "id": 1561014, "kind": "dev", "optional": false,
+        "req": "^0.27", "target": null, "version_id": 267398
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 1561015, "kind": "dev", "optional": false,
+        "req": "^1", "target": null, "version_id": 267398
+      },
+      {
+        "crate_id": "slab", "default_features": true, "downloads": 0,
+        "features": [], "id": 1561006, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 267398
+      },
+      {
+        "crate_id": "sluice", "default_features": true, "downloads": 0,
+        "features": [], "id": 1561007, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 267398
+      },
+      {
+        "crate_id": "speculate", "default_features": true, "downloads": 0,
+        "features": [], "id": 1561016, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 267398
+      },
+      {
+        "crate_id": "static_assertions", "default_features": true,
+        "downloads": 0, "features": [], "id": 1561017, "kind": "dev",
+        "optional": false, "req": "^1.1", "target": null,
+        "version_id": 267398
+      },
+      {
+        "crate_id": "structopt", "default_features": true, "downloads": 0,
+        "features": [], "id": 1561018, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 267398
+      },
+      {
+        "crate_id": "tempfile", "default_features": true, "downloads": 0,
+        "features": [], "id": 1561019, "kind": "dev", "optional": false,
+        "req": "^3.1", "target": null, "version_id": 267398
+      },
+      {
+        "crate_id": "tracing", "default_features": true, "downloads": 0,
+        "features": ["log"], "id": 1561008, "kind": "normal",
+        "optional": false, "req": "^0.1.17", "target": null,
+        "version_id": 267398
+      },
+      {
+        "crate_id": "tracing-futures", "default_features": false,
+        "downloads": 0, "features": ["std", "std-future"], "id": 1561009,
+        "kind": "normal", "optional": false, "req": "^0.2", "target": null,
+        "version_id": 267398
+      },
+      {
+        "crate_id": "tracing-subscriber", "default_features": true,
+        "downloads": 0, "features": [], "id": 1561020, "kind": "dev",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 267398
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 1560989, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 267398
+      },
+      {
+        "crate_id": "encoding_rs", "default_features": true, "downloads": 0,
+        "features": [], "id": 1560994, "kind": "normal", "optional": true,
+        "req": "^0.8", "target": null, "version_id": 267398
+      },
+      {
+        "crate_id": "mime", "default_features": true, "downloads": 0,
+        "features": [], "id": 1561001, "kind": "normal", "optional": true,
+        "req": "^0.3", "target": null, "version_id": 267398
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 1561002, "kind": "normal", "optional": true,
+        "req": "^0.11", "target": null, "version_id": 267398
+      },
+      {
+        "crate_id": "publicsuffix", "default_features": false,
+        "downloads": 0, "features": [], "id": 1561003, "kind": "normal",
+        "optional": true, "req": "^1.5", "target": null,
+        "version_id": 267398
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 1561004, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 267398
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1561005, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 267398
+      }
+    ],
+    "dl_path": "/api/v1/crates/isahc/0.9.7/download", "downloads": 2717,
+    "features": {
+      "cookies": ["chrono"],
+      "default": ["http2", "static-curl", "text-decoding"],
+      "http2": ["curl/http2"], "json": ["serde", "serde_json"],
+      "middleware-api-preview": [],
+      "psl": ["parking_lot", "publicsuffix"],
+      "spnego": ["curl-sys/spnego"], "static-curl": ["curl/static-curl"],
+      "text-decoding": ["encoding_rs", "mime"]
+    },
+    "id": 267398, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/isahc/0.9.7/authors",
+      "dependencies": "/api/v1/crates/isahc/0.9.7/dependencies",
+      "version_downloads": "/api/v1/crates/isahc/0.9.7/downloads"
+    },
+    "num": "0.9.7",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/2192863?v=4",
+      "id": 5613, "login": "sagebind", "name": "Stephen M. Coakley",
+      "url": "https://github.com/sagebind"
+    },
+    "readme_path": "/api/v1/crates/isahc/0.9.7/readme",
+    "updated_at": "2020-07-29T03:00:19.773237+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-08-08T18:06:14.817559+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/2192863?v=4",
+          "id": 5613, "login": "sagebind", "name": "Stephen M. Coakley",
+          "url": "https://github.com/sagebind"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Stephen M. Coakley <me@stephencoakley.com>"]},
+      "users": []
+    },
+    "crate": "isahc", "crate_size": 163285,
+    "created_at": "2020-08-08T18:06:14.817559+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1586574, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 270752
+      },
+      {
+        "crate_id": "crossbeam-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1586576, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 270752
+      },
+      {
+        "crate_id": "crossbeam-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 1586577, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 270752
+      },
+      {
+        "crate_id": "curl", "default_features": true, "downloads": 0,
+        "features": [], "id": 1586578, "kind": "normal", "optional": false,
+        "req": "^0.4.31", "target": null, "version_id": 270752
+      },
+      {
+        "crate_id": "curl-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1586579, "kind": "normal", "optional": false,
+        "req": "^0.4.34", "target": null, "version_id": 270752
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1586596, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 270752
+      },
+      {
+        "crate_id": "flate2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1586597, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 270752
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1586598, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 270752
+      },
+      {
+        "crate_id": "futures-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1586581, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 270752
+      },
+      {
+        "crate_id": "futures-io", "default_features": true, "downloads": 0,
+        "features": [], "id": 1586582, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 270752
+      },
+      {
+        "crate_id": "futures-util", "default_features": false,
+        "downloads": 0, "features": ["io"], "id": 1586583, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 270752
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1586584, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 270752
+      },
+      {
+        "crate_id": "indicatif", "default_features": true, "downloads": 0,
+        "features": [], "id": 1586599, "kind": "dev", "optional": false,
+        "req": "^0.15", "target": null, "version_id": 270752
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1586585, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 270752
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1586586, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 270752
+      },
+      {
+        "crate_id": "mockito", "default_features": true, "downloads": 0,
+        "features": [], "id": 1586600, "kind": "dev", "optional": false,
+        "req": "^0.27", "target": null, "version_id": 270752
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 1586601, "kind": "dev", "optional": false,
+        "req": "^1", "target": null, "version_id": 270752
+      },
+      {
+        "crate_id": "slab", "default_features": true, "downloads": 0,
+        "features": [], "id": 1586592, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 270752
+      },
+      {
+        "crate_id": "sluice", "default_features": true, "downloads": 0,
+        "features": [], "id": 1586593, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 270752
+      },
+      {
+        "crate_id": "speculate", "default_features": true, "downloads": 0,
+        "features": [], "id": 1586602, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 270752
+      },
+      {
+        "crate_id": "static_assertions", "default_features": true,
+        "downloads": 0, "features": [], "id": 1586603, "kind": "dev",
+        "optional": false, "req": "^1.1", "target": null,
+        "version_id": 270752
+      },
+      {
+        "crate_id": "structopt", "default_features": true, "downloads": 0,
+        "features": [], "id": 1586604, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 270752
+      },
+      {
+        "crate_id": "tempfile", "default_features": true, "downloads": 0,
+        "features": [], "id": 1586605, "kind": "dev", "optional": false,
+        "req": "^3.1", "target": null, "version_id": 270752
+      },
+      {
+        "crate_id": "tracing", "default_features": true, "downloads": 0,
+        "features": ["log"], "id": 1586594, "kind": "normal",
+        "optional": false, "req": "^0.1.17", "target": null,
+        "version_id": 270752
+      },
+      {
+        "crate_id": "tracing-futures", "default_features": false,
+        "downloads": 0, "features": ["std", "std-future"], "id": 1586595,
+        "kind": "normal", "optional": false, "req": "^0.2", "target": null,
+        "version_id": 270752
+      },
+      {
+        "crate_id": "tracing-subscriber", "default_features": true,
+        "downloads": 0, "features": [], "id": 1586606, "kind": "dev",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 270752
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 1586575, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 270752
+      },
+      {
+        "crate_id": "encoding_rs", "default_features": true, "downloads": 0,
+        "features": [], "id": 1586580, "kind": "normal", "optional": true,
+        "req": "^0.8", "target": null, "version_id": 270752
+      },
+      {
+        "crate_id": "mime", "default_features": true, "downloads": 0,
+        "features": [], "id": 1586587, "kind": "normal", "optional": true,
+        "req": "^0.3", "target": null, "version_id": 270752
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 1586588, "kind": "normal", "optional": true,
+        "req": "^0.11", "target": null, "version_id": 270752
+      },
+      {
+        "crate_id": "publicsuffix", "default_features": false,
+        "downloads": 0, "features": [], "id": 1586589, "kind": "normal",
+        "optional": true, "req": "^1.5", "target": null,
+        "version_id": 270752
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 1586590, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 270752
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1586591, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 270752
+      }
+    ],
+    "dl_path": "/api/v1/crates/isahc/0.9.8/download",
+    "downloads": 13064,
+    "features": {
+      "cookies": ["chrono"],
+      "default": ["http2", "static-curl", "text-decoding"],
+      "http2": ["curl/http2"], "json": ["serde", "serde_json"],
+      "middleware-api-preview": [],
+      "psl": ["parking_lot", "publicsuffix"],
+      "spnego": ["curl-sys/spnego"], "static-curl": ["curl/static-curl"],
+      "text-decoding": ["encoding_rs", "mime"]
+    },
+    "id": 270752, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/isahc/0.9.8/authors",
+      "dependencies": "/api/v1/crates/isahc/0.9.8/dependencies",
+      "version_downloads": "/api/v1/crates/isahc/0.9.8/downloads"
+    },
+    "num": "0.9.8",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/2192863?v=4",
+      "id": 5613, "login": "sagebind", "name": "Stephen M. Coakley",
+      "url": "https://github.com/sagebind"
+    },
+    "readme_path": "/api/v1/crates/isahc/0.9.8/readme",
+    "updated_at": "2020-08-08T18:06:14.817559+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-09-23T03:45:50.090068+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/2192863?v=4",
+          "id": 5613, "login": "sagebind", "name": "Stephen M. Coakley",
+          "url": "https://github.com/sagebind"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Stephen M. Coakley <me@stephencoakley.com>"]},
+      "users": []
+    },
+    "crate": "isahc", "crate_size": 164082,
+    "created_at": "2020-09-23T03:45:50.090068+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1708317, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 286625
+      },
+      {
+        "crate_id": "crossbeam-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1708319, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 286625
+      },
+      {
+        "crate_id": "crossbeam-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 1708320, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 286625
+      },
+      {
+        "crate_id": "curl", "default_features": true, "downloads": 0,
+        "features": [], "id": 1708321, "kind": "normal", "optional": false,
+        "req": "^0.4.31", "target": null, "version_id": 286625
+      },
+      {
+        "crate_id": "curl-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1708322, "kind": "normal", "optional": false,
+        "req": "^0.4.34", "target": null, "version_id": 286625
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1708339, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 286625
+      },
+      {
+        "crate_id": "flate2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1708340, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 286625
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1708341, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 286625
+      },
+      {
+        "crate_id": "futures-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1708324, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 286625
+      },
+      {
+        "crate_id": "futures-io", "default_features": true, "downloads": 0,
+        "features": [], "id": 1708325, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 286625
+      },
+      {
+        "crate_id": "futures-util", "default_features": false,
+        "downloads": 0, "features": ["io"], "id": 1708326, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 286625
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1708327, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 286625
+      },
+      {
+        "crate_id": "indicatif", "default_features": true, "downloads": 0,
+        "features": [], "id": 1708342, "kind": "dev", "optional": false,
+        "req": "^0.15", "target": null, "version_id": 286625
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1708328, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 286625
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1708329, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 286625
+      },
+      {
+        "crate_id": "mockito", "default_features": true, "downloads": 0,
+        "features": [], "id": 1708343, "kind": "dev", "optional": false,
+        "req": "^0.27", "target": null, "version_id": 286625
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 1708344, "kind": "dev", "optional": false,
+        "req": "^1", "target": null, "version_id": 286625
+      },
+      {
+        "crate_id": "slab", "default_features": true, "downloads": 0,
+        "features": [], "id": 1708335, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 286625
+      },
+      {
+        "crate_id": "sluice", "default_features": true, "downloads": 0,
+        "features": [], "id": 1708336, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 286625
+      },
+      {
+        "crate_id": "speculate", "default_features": true, "downloads": 0,
+        "features": [], "id": 1708345, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 286625
+      },
+      {
+        "crate_id": "static_assertions", "default_features": true,
+        "downloads": 0, "features": [], "id": 1708346, "kind": "dev",
+        "optional": false, "req": "^1.1", "target": null,
+        "version_id": 286625
+      },
+      {
+        "crate_id": "structopt", "default_features": true, "downloads": 0,
+        "features": [], "id": 1708347, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 286625
+      },
+      {
+        "crate_id": "tempfile", "default_features": true, "downloads": 0,
+        "features": [], "id": 1708348, "kind": "dev", "optional": false,
+        "req": "^3.1", "target": null, "version_id": 286625
+      },
+      {
+        "crate_id": "tracing", "default_features": true, "downloads": 0,
+        "features": ["log"], "id": 1708337, "kind": "normal",
+        "optional": false, "req": "^0.1.17", "target": null,
+        "version_id": 286625
+      },
+      {
+        "crate_id": "tracing-futures", "default_features": false,
+        "downloads": 0, "features": ["std", "std-future"], "id": 1708338,
+        "kind": "normal", "optional": false, "req": "^0.2", "target": null,
+        "version_id": 286625
+      },
+      {
+        "crate_id": "tracing-subscriber", "default_features": true,
+        "downloads": 0, "features": [], "id": 1708349, "kind": "dev",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 286625
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 1708318, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 286625
+      },
+      {
+        "crate_id": "encoding_rs", "default_features": true, "downloads": 0,
+        "features": [], "id": 1708323, "kind": "normal", "optional": true,
+        "req": "^0.8", "target": null, "version_id": 286625
+      },
+      {
+        "crate_id": "mime", "default_features": true, "downloads": 0,
+        "features": [], "id": 1708330, "kind": "normal", "optional": true,
+        "req": "^0.3", "target": null, "version_id": 286625
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 1708331, "kind": "normal", "optional": true,
+        "req": "^0.11", "target": null, "version_id": 286625
+      },
+      {
+        "crate_id": "publicsuffix", "default_features": false,
+        "downloads": 0, "features": [], "id": 1708332, "kind": "normal",
+        "optional": true, "req": "^1.5", "target": null,
+        "version_id": 286625
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 1708333, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 286625
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1708334, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 286625
+      }
+    ],
+    "dl_path": "/api/v1/crates/isahc/0.9.9/download", "downloads": 7597,
+    "features": {
+      "cookies": ["chrono"],
+      "default": ["http2", "static-curl", "text-decoding"],
+      "http2": ["curl/http2"], "json": ["serde", "serde_json"],
+      "middleware-api-preview": [],
+      "psl": ["parking_lot", "publicsuffix"],
+      "spnego": ["curl-sys/spnego"], "static-curl": ["curl/static-curl"],
+      "static-ssl": ["curl/static-ssl"],
+      "text-decoding": ["encoding_rs", "mime"]
+    },
+    "id": 286625, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/isahc/0.9.9/authors",
+      "dependencies": "/api/v1/crates/isahc/0.9.9/dependencies",
+      "version_downloads": "/api/v1/crates/isahc/0.9.9/downloads"
+    },
+    "num": "0.9.9",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/2192863?v=4",
+      "id": 5613, "login": "sagebind", "name": "Stephen M. Coakley",
+      "url": "https://github.com/sagebind"
+    },
+    "readme_path": "/api/v1/crates/isahc/0.9.9/readme",
+    "updated_at": "2020-09-23T03:45:50.090068+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-10-01T01:38:49.624555+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/2192863?v=4",
+          "id": 5613, "login": "sagebind", "name": "Stephen M. Coakley",
+          "url": "https://github.com/sagebind"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Stephen M. Coakley <me@stephencoakley.com>"]},
+      "users": []
+    },
+    "crate": "isahc", "crate_size": 164145,
+    "created_at": "2020-10-01T01:38:49.624555+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1727157, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 289205
+      },
+      {
+        "crate_id": "crossbeam-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1727159, "kind": "normal",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 289205
+      },
+      {
+        "crate_id": "crossbeam-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 1727160, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 289205
+      },
+      {
+        "crate_id": "curl", "default_features": true, "downloads": 0,
+        "features": [], "id": 1727161, "kind": "normal", "optional": false,
+        "req": "^0.4.31", "target": null, "version_id": 289205
+      },
+      {
+        "crate_id": "curl-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1727162, "kind": "normal", "optional": false,
+        "req": "^0.4.34", "target": null, "version_id": 289205
+      },
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1727179, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 289205
+      },
+      {
+        "crate_id": "flate2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1727180, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 289205
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1727181, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 289205
+      },
+      {
+        "crate_id": "futures-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1727164, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 289205
+      },
+      {
+        "crate_id": "futures-io", "default_features": true, "downloads": 0,
+        "features": [], "id": 1727165, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 289205
+      },
+      {
+        "crate_id": "futures-util", "default_features": false,
+        "downloads": 0, "features": ["io"], "id": 1727166, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 289205
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1727167, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 289205
+      },
+      {
+        "crate_id": "indicatif", "default_features": true, "downloads": 0,
+        "features": [], "id": 1727182, "kind": "dev", "optional": false,
+        "req": "^0.15", "target": null, "version_id": 289205
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1727168, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 289205
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1727169, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 289205
+      },
+      {
+        "crate_id": "mockito", "default_features": true, "downloads": 0,
+        "features": [], "id": 1727183, "kind": "dev", "optional": false,
+        "req": "^0.27", "target": null, "version_id": 289205
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 1727184, "kind": "dev", "optional": false,
+        "req": "^1", "target": null, "version_id": 289205
+      },
+      {
+        "crate_id": "slab", "default_features": true, "downloads": 0,
+        "features": [], "id": 1727175, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 289205
+      },
+      {
+        "crate_id": "sluice", "default_features": true, "downloads": 0,
+        "features": [], "id": 1727176, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 289205
+      },
+      {
+        "crate_id": "static_assertions", "default_features": true,
+        "downloads": 0, "features": [], "id": 1727185, "kind": "dev",
+        "optional": false, "req": "^1.1", "target": null,
+        "version_id": 289205
+      },
+      {
+        "crate_id": "structopt", "default_features": true, "downloads": 0,
+        "features": [], "id": 1727186, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 289205
+      },
+      {
+        "crate_id": "tempfile", "default_features": true, "downloads": 0,
+        "features": [], "id": 1727187, "kind": "dev", "optional": false,
+        "req": "^3.1", "target": null, "version_id": 289205
+      },
+      {
+        "crate_id": "test-case", "default_features": true, "downloads": 0,
+        "features": [], "id": 1727188, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 289205
+      },
+      {
+        "crate_id": "tracing", "default_features": true, "downloads": 0,
+        "features": ["log"], "id": 1727177, "kind": "normal",
+        "optional": false, "req": "^0.1.17", "target": null,
+        "version_id": 289205
+      },
+      {
+        "crate_id": "tracing-futures", "default_features": false,
+        "downloads": 0, "features": ["std", "std-future"], "id": 1727178,
+        "kind": "normal", "optional": false, "req": "^0.2", "target": null,
+        "version_id": 289205
+      },
+      {
+        "crate_id": "tracing-subscriber", "default_features": true,
+        "downloads": 0, "features": [], "id": 1727189, "kind": "dev",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 289205
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 1727158, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 289205
+      },
+      {
+        "crate_id": "encoding_rs", "default_features": true, "downloads": 0,
+        "features": [], "id": 1727163, "kind": "normal", "optional": true,
+        "req": "^0.8", "target": null, "version_id": 289205
+      },
+      {
+        "crate_id": "mime", "default_features": true, "downloads": 0,
+        "features": [], "id": 1727170, "kind": "normal", "optional": true,
+        "req": "^0.3", "target": null, "version_id": 289205
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 1727171, "kind": "normal", "optional": true,
+        "req": "^0.11", "target": null, "version_id": 289205
+      },
+      {
+        "crate_id": "publicsuffix", "default_features": false,
+        "downloads": 0, "features": [], "id": 1727172, "kind": "normal",
+        "optional": true, "req": "^1.5", "target": null,
+        "version_id": 289205
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 1727173, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 289205
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1727174, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 289205
+      }
+    ],
+    "dl_path": "/api/v1/crates/isahc/0.9.10/download",
+    "downloads": 19553,
+    "features": {
+      "cookies": ["chrono"],
+      "default": ["http2", "static-curl", "text-decoding"],
+      "http2": ["curl/http2"], "json": ["serde", "serde_json"],
+      "middleware-api-preview": [],
+      "psl": ["parking_lot", "publicsuffix"],
+      "spnego": ["curl-sys/spnego"], "static-curl": ["curl/static-curl"],
+      "static-ssl": ["curl/static-ssl"],
+      "text-decoding": ["encoding_rs", "mime"]
+    },
+    "id": 289205, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/isahc/0.9.10/authors",
+      "dependencies": "/api/v1/crates/isahc/0.9.10/dependencies",
+      "version_downloads": "/api/v1/crates/isahc/0.9.10/downloads"
+    },
+    "num": "0.9.10",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/2192863?v=4",
+      "id": 5613, "login": "sagebind", "name": "Stephen M. Coakley",
+      "url": "https://github.com/sagebind"
+    },
+    "readme_path": "/api/v1/crates/isahc/0.9.10/readme",
+    "updated_at": "2020-10-01T01:38:49.624555+00:00", "yanked": false
+  }
+]

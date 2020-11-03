@@ -1,0 +1,1723 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]},
+      "users": []
+    },
+    "crate": "http-types", "crate_size": 850,
+    "created_at": "2019-08-02T01:35:07.211350+00:00",
+    "dependencies": [],
+    "dl_path": "/api/v1/crates/http-types/0.0.0/download",
+    "downloads": 165, "features": {}, "id": 166954,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/http-types/0.0.0/authors",
+      "dependencies": "/api/v1/crates/http-types/0.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/http-types/0.0.0/downloads"
+    },
+    "num": "0.0.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+      "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+      "url": "https://github.com/yoshuawuyts"
+    },
+    "readme_path": "/api/v1/crates/http-types/0.0.0/readme",
+    "updated_at": "2019-08-02T01:35:07.211350+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-02-25T15:34:36.581271+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+          "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+          "url": "https://github.com/yoshuawuyts"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]},
+      "users": []
+    },
+    "crate": "http-types", "crate_size": 36526,
+    "created_at": "2020-02-25T15:34:36.581271+00:00",
+    "dependencies": [
+      {
+        "crate_id": "anyhow", "default_features": true, "downloads": 0,
+        "features": [], "id": 1175093, "kind": "normal", "optional": false,
+        "req": "^1.0.26", "target": null, "version_id": 215528
+      },
+      {
+        "crate_id": "async-std", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 1175094, "kind": "normal",
+        "optional": false, "req": "^1.4.0", "target": null,
+        "version_id": 215528
+      },
+      {
+        "crate_id": "cookie", "default_features": true, "downloads": 0,
+        "features": [], "id": 1175095, "kind": "normal", "optional": false,
+        "req": "^0.12.0", "target": null, "version_id": 215528
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1175101, "kind": "dev", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 215528
+      },
+      {
+        "crate_id": "infer", "default_features": true, "downloads": 0,
+        "features": [], "id": 1175097, "kind": "normal", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 215528
+      },
+      {
+        "crate_id": "omnom", "default_features": true, "downloads": 0,
+        "features": [], "id": 1175098, "kind": "normal", "optional": false,
+        "req": "^2.1.1", "target": null, "version_id": 215528
+      },
+      {
+        "crate_id": "pin-project-lite", "default_features": true,
+        "downloads": 0, "features": [], "id": 1175099, "kind": "normal",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 215528
+      },
+      {
+        "crate_id": "url", "default_features": true, "downloads": 0,
+        "features": [], "id": 1175100, "kind": "normal", "optional": false,
+        "req": "^2.1.0", "target": null, "version_id": 215528
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1175096, "kind": "normal", "optional": true,
+        "req": "^0.2.0", "target": null, "version_id": 215528
+      }
+    ],
+    "dl_path": "/api/v1/crates/http-types/1.0.0/download",
+    "downloads": 73,
+    "features": {"default": [], "hyperium_http": ["http"]},
+    "id": 215528, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/http-types/1.0.0/authors",
+      "dependencies": "/api/v1/crates/http-types/1.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/http-types/1.0.0/downloads"
+    },
+    "num": "1.0.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+      "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+      "url": "https://github.com/yoshuawuyts"
+    },
+    "readme_path": "/api/v1/crates/http-types/1.0.0/readme",
+    "updated_at": "2020-02-25T15:34:36.581271+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-02-25T16:22:28.868485+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+          "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+          "url": "https://github.com/yoshuawuyts"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]},
+      "users": []
+    },
+    "crate": "http-types", "crate_size": 36538,
+    "created_at": "2020-02-25T16:22:28.868485+00:00",
+    "dependencies": [
+      {
+        "crate_id": "anyhow", "default_features": true, "downloads": 0,
+        "features": [], "id": 1175246, "kind": "normal", "optional": false,
+        "req": "^1.0.26", "target": null, "version_id": 215551
+      },
+      {
+        "crate_id": "async-std", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 1175247, "kind": "normal",
+        "optional": false, "req": "^1.4.0", "target": null,
+        "version_id": 215551
+      },
+      {
+        "crate_id": "cookie", "default_features": true, "downloads": 0,
+        "features": [], "id": 1175248, "kind": "normal", "optional": false,
+        "req": "^0.12.0", "target": null, "version_id": 215551
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1175254, "kind": "dev", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 215551
+      },
+      {
+        "crate_id": "infer", "default_features": true, "downloads": 0,
+        "features": [], "id": 1175250, "kind": "normal", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 215551
+      },
+      {
+        "crate_id": "omnom", "default_features": true, "downloads": 0,
+        "features": [], "id": 1175251, "kind": "normal", "optional": false,
+        "req": "^2.1.1", "target": null, "version_id": 215551
+      },
+      {
+        "crate_id": "pin-project-lite", "default_features": true,
+        "downloads": 0, "features": [], "id": 1175252, "kind": "normal",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 215551
+      },
+      {
+        "crate_id": "url", "default_features": true, "downloads": 0,
+        "features": [], "id": 1175253, "kind": "normal", "optional": false,
+        "req": "^2.1.0", "target": null, "version_id": 215551
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1175249, "kind": "normal", "optional": true,
+        "req": "^0.2.0", "target": null, "version_id": 215551
+      }
+    ],
+    "dl_path": "/api/v1/crates/http-types/1.0.1/download",
+    "downloads": 288,
+    "features": {"default": [], "hyperium_http": ["http"]},
+    "id": 215551, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/http-types/1.0.1/authors",
+      "dependencies": "/api/v1/crates/http-types/1.0.1/dependencies",
+      "version_downloads": "/api/v1/crates/http-types/1.0.1/downloads"
+    },
+    "num": "1.0.1",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+      "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+      "url": "https://github.com/yoshuawuyts"
+    },
+    "readme_path": "/api/v1/crates/http-types/1.0.1/readme",
+    "updated_at": "2020-02-25T16:22:28.868485+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-03-24T13:01:19.176179+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+          "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+          "url": "https://github.com/yoshuawuyts"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]},
+      "users": []
+    },
+    "crate": "http-types", "crate_size": 37547,
+    "created_at": "2020-03-24T13:01:19.176179+00:00",
+    "dependencies": [
+      {
+        "crate_id": "anyhow", "default_features": true, "downloads": 0,
+        "features": [], "id": 1240409, "kind": "normal", "optional": false,
+        "req": "^1.0.26", "target": null, "version_id": 224184
+      },
+      {
+        "crate_id": "async-std", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 1240410, "kind": "normal",
+        "optional": false, "req": "^1.4.0", "target": null,
+        "version_id": 224184
+      },
+      {
+        "crate_id": "cookie", "default_features": true, "downloads": 0,
+        "features": [], "id": 1240411, "kind": "normal", "optional": false,
+        "req": "^0.12.0", "target": null, "version_id": 224184
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1240417, "kind": "dev", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 224184
+      },
+      {
+        "crate_id": "infer", "default_features": true, "downloads": 0,
+        "features": [], "id": 1240413, "kind": "normal", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 224184
+      },
+      {
+        "crate_id": "omnom", "default_features": true, "downloads": 0,
+        "features": [], "id": 1240414, "kind": "normal", "optional": false,
+        "req": "^2.1.1", "target": null, "version_id": 224184
+      },
+      {
+        "crate_id": "pin-project-lite", "default_features": true,
+        "downloads": 0, "features": [], "id": 1240415, "kind": "normal",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 224184
+      },
+      {
+        "crate_id": "url", "default_features": true, "downloads": 0,
+        "features": [], "id": 1240416, "kind": "normal", "optional": false,
+        "req": "^2.1.0", "target": null, "version_id": 224184
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1240412, "kind": "normal", "optional": true,
+        "req": "^0.2.0", "target": null, "version_id": 224184
+      }
+    ],
+    "dl_path": "/api/v1/crates/http-types/1.1.0/download",
+    "downloads": 262,
+    "features": {"default": [], "hyperium_http": ["http"]},
+    "id": 224184, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/http-types/1.1.0/authors",
+      "dependencies": "/api/v1/crates/http-types/1.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/http-types/1.1.0/downloads"
+    },
+    "num": "1.1.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+      "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+      "url": "https://github.com/yoshuawuyts"
+    },
+    "readme_path": "/api/v1/crates/http-types/1.1.0/readme",
+    "updated_at": "2020-03-24T13:01:19.176179+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-04-11T13:52:13.333938+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+          "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+          "url": "https://github.com/yoshuawuyts"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]},
+      "users": []
+    },
+    "crate": "http-types", "crate_size": 37575,
+    "created_at": "2020-04-11T13:52:13.333938+00:00",
+    "dependencies": [
+      {
+        "crate_id": "anyhow", "default_features": true, "downloads": 0,
+        "features": [], "id": 1283091, "kind": "normal", "optional": false,
+        "req": "^1.0.26", "target": null, "version_id": 229903
+      },
+      {
+        "crate_id": "async-std", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 1283092, "kind": "normal",
+        "optional": false, "req": "^1.4.0", "target": null,
+        "version_id": 229903
+      },
+      {
+        "crate_id": "cookie", "default_features": true, "downloads": 0,
+        "features": [], "id": 1283093, "kind": "normal", "optional": false,
+        "req": "^0.12.0", "target": null, "version_id": 229903
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1283099, "kind": "dev", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 229903
+      },
+      {
+        "crate_id": "infer", "default_features": true, "downloads": 0,
+        "features": [], "id": 1283095, "kind": "normal", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 229903
+      },
+      {
+        "crate_id": "omnom", "default_features": true, "downloads": 0,
+        "features": [], "id": 1283096, "kind": "normal", "optional": false,
+        "req": "^2.1.1", "target": null, "version_id": 229903
+      },
+      {
+        "crate_id": "pin-project-lite", "default_features": true,
+        "downloads": 0, "features": [], "id": 1283097, "kind": "normal",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 229903
+      },
+      {
+        "crate_id": "url", "default_features": true, "downloads": 0,
+        "features": [], "id": 1283098, "kind": "normal", "optional": false,
+        "req": "^2.1.0", "target": null, "version_id": 229903
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1283094, "kind": "normal", "optional": true,
+        "req": "^0.2.0", "target": null, "version_id": 229903
+      }
+    ],
+    "dl_path": "/api/v1/crates/http-types/1.1.1/download",
+    "downloads": 415,
+    "features": {"default": [], "hyperium_http": ["http"]},
+    "id": 229903, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/http-types/1.1.1/authors",
+      "dependencies": "/api/v1/crates/http-types/1.1.1/dependencies",
+      "version_downloads": "/api/v1/crates/http-types/1.1.1/downloads"
+    },
+    "num": "1.1.1",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+      "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+      "url": "https://github.com/yoshuawuyts"
+    },
+    "readme_path": "/api/v1/crates/http-types/1.1.1/readme",
+    "updated_at": "2020-04-11T13:52:13.333938+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-04-16T11:58:07.246842+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+          "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+          "url": "https://github.com/yoshuawuyts"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]},
+      "users": []
+    },
+    "crate": "http-types", "crate_size": 37664,
+    "created_at": "2020-04-16T11:58:07.246842+00:00",
+    "dependencies": [
+      {
+        "crate_id": "anyhow", "default_features": true, "downloads": 0,
+        "features": [], "id": 1297961, "kind": "normal", "optional": false,
+        "req": "^1.0.26", "target": null, "version_id": 231838
+      },
+      {
+        "crate_id": "async-std", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 1297962, "kind": "normal",
+        "optional": false, "req": "^1.4.0", "target": null,
+        "version_id": 231838
+      },
+      {
+        "crate_id": "cookie", "default_features": true, "downloads": 0,
+        "features": [], "id": 1297963, "kind": "normal", "optional": false,
+        "req": "^0.12.0", "target": null, "version_id": 231838
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1297969, "kind": "dev", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 231838
+      },
+      {
+        "crate_id": "infer", "default_features": true, "downloads": 0,
+        "features": [], "id": 1297965, "kind": "normal", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 231838
+      },
+      {
+        "crate_id": "omnom", "default_features": true, "downloads": 0,
+        "features": [], "id": 1297966, "kind": "normal", "optional": false,
+        "req": "^2.1.1", "target": null, "version_id": 231838
+      },
+      {
+        "crate_id": "pin-project-lite", "default_features": true,
+        "downloads": 0, "features": [], "id": 1297967, "kind": "normal",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 231838
+      },
+      {
+        "crate_id": "url", "default_features": true, "downloads": 0,
+        "features": [], "id": 1297968, "kind": "normal", "optional": false,
+        "req": "^2.1.0", "target": null, "version_id": 231838
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1297964, "kind": "normal", "optional": true,
+        "req": "^0.2.0", "target": null, "version_id": 231838
+      }
+    ],
+    "dl_path": "/api/v1/crates/http-types/1.2.0/download",
+    "downloads": 26486,
+    "features": {"default": [], "hyperium_http": ["http"]},
+    "id": 231838, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/http-types/1.2.0/authors",
+      "dependencies": "/api/v1/crates/http-types/1.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/http-types/1.2.0/downloads"
+    },
+    "num": "1.2.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+      "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+      "url": "https://github.com/yoshuawuyts"
+    },
+    "readme_path": "/api/v1/crates/http-types/1.2.0/readme",
+    "updated_at": "2020-04-16T11:58:07.246842+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-05-22T22:01:14.624100+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+          "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+          "url": "https://github.com/yoshuawuyts"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]},
+      "users": []
+    },
+    "crate": "http-types", "crate_size": 42628,
+    "created_at": "2020-05-22T22:01:14.624100+00:00",
+    "dependencies": [
+      {
+        "crate_id": "anyhow", "default_features": true, "downloads": 0,
+        "features": [], "id": 1387617, "kind": "normal", "optional": false,
+        "req": "^1.0.26", "target": null, "version_id": 244276
+      },
+      {
+        "crate_id": "async-std", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 1387618, "kind": "normal",
+        "optional": false, "req": "^1.6.0", "target": null,
+        "version_id": 244276
+      },
+      {
+        "crate_id": "cookie", "default_features": true, "downloads": 0,
+        "features": [], "id": 1387619, "kind": "normal", "optional": false,
+        "req": "^0.12.0", "target": null, "version_id": 244276
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1387627, "kind": "dev", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 244276
+      },
+      {
+        "crate_id": "infer", "default_features": true, "downloads": 0,
+        "features": [], "id": 1387621, "kind": "normal", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 244276
+      },
+      {
+        "crate_id": "omnom", "default_features": true, "downloads": 0,
+        "features": [], "id": 1387622, "kind": "normal", "optional": false,
+        "req": "^2.1.1", "target": null, "version_id": 244276
+      },
+      {
+        "crate_id": "pin-project-lite", "default_features": true,
+        "downloads": 0, "features": [], "id": 1387623, "kind": "normal",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 244276
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1387624, "kind": "normal",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 244276
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1387625, "kind": "normal", "optional": false,
+        "req": "^1.0.51", "target": null, "version_id": 244276
+      },
+      {
+        "crate_id": "url", "default_features": true, "downloads": 0,
+        "features": [], "id": 1387626, "kind": "normal", "optional": false,
+        "req": "^2.1.0", "target": null, "version_id": 244276
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1387620, "kind": "normal", "optional": true,
+        "req": "^0.2.0", "target": null, "version_id": 244276
+      }
+    ],
+    "dl_path": "/api/v1/crates/http-types/1.3.1/download",
+    "downloads": 33096,
+    "features": {
+      "default": [], "docs": ["unstable"], "hyperium_http": ["http"],
+      "unstable": []
+    },
+    "id": 244276, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/http-types/1.3.1/authors",
+      "dependencies": "/api/v1/crates/http-types/1.3.1/dependencies",
+      "version_downloads": "/api/v1/crates/http-types/1.3.1/downloads"
+    },
+    "num": "1.3.1",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+      "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+      "url": "https://github.com/yoshuawuyts"
+    },
+    "readme_path": "/api/v1/crates/http-types/1.3.1/readme",
+    "updated_at": "2020-05-22T22:01:14.624100+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-05-22T22:03:22.132297+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+          "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+          "url": "https://github.com/yoshuawuyts"
+        }
+      },
+      {
+        "action": "yank", "time": "2020-05-24T10:34:42.967300+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+          "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+          "url": "https://github.com/yoshuawuyts"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]},
+      "users": []
+    },
+    "crate": "http-types", "crate_size": 1136776,
+    "created_at": "2020-05-22T22:03:22.132297+00:00",
+    "dependencies": [
+      {
+        "crate_id": "anyhow", "default_features": true, "downloads": 0,
+        "features": [], "id": 1387628, "kind": "normal", "optional": false,
+        "req": "^1.0.26", "target": null, "version_id": 244277
+      },
+      {
+        "crate_id": "async-std", "default_features": true, "downloads": 0,
+        "features": ["unstable", "attributes"], "id": 1387639,
+        "kind": "dev", "optional": false, "req": "^1.6.0", "target": null,
+        "version_id": 244277
+      },
+      {
+        "crate_id": "async-std", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 1387629, "kind": "normal",
+        "optional": false, "req": "^1.6.0", "target": null,
+        "version_id": 244277
+      },
+      {
+        "crate_id": "cookie", "default_features": true, "downloads": 0,
+        "features": ["percent-encode"], "id": 1387630, "kind": "normal",
+        "optional": false, "req": "^0.12.0", "target": null,
+        "version_id": 244277
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1387640, "kind": "dev", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 244277
+      },
+      {
+        "crate_id": "infer", "default_features": true, "downloads": 0,
+        "features": [], "id": 1387632, "kind": "normal", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 244277
+      },
+      {
+        "crate_id": "omnom", "default_features": true, "downloads": 0,
+        "features": [], "id": 1387633, "kind": "normal", "optional": false,
+        "req": "^2.1.1", "target": null, "version_id": 244277
+      },
+      {
+        "crate_id": "pin-project-lite", "default_features": true,
+        "downloads": 0, "features": [], "id": 1387634, "kind": "normal",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 244277
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1387635, "kind": "normal",
+        "optional": false, "req": "^1.0.106", "target": null,
+        "version_id": 244277
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1387636, "kind": "normal", "optional": false,
+        "req": "^1.0.51", "target": null, "version_id": 244277
+      },
+      {
+        "crate_id": "serde_urlencoded", "default_features": true,
+        "downloads": 0, "features": [], "id": 1387637, "kind": "normal",
+        "optional": false, "req": "^0.6.1", "target": null,
+        "version_id": 244277
+      },
+      {
+        "crate_id": "url", "default_features": true, "downloads": 0,
+        "features": [], "id": 1387638, "kind": "normal", "optional": false,
+        "req": "^2.1.1", "target": null, "version_id": 244277
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1387631, "kind": "normal", "optional": true,
+        "req": "^0.2.0", "target": null, "version_id": 244277
+      }
+    ],
+    "dl_path": "/api/v1/crates/http-types/2.0.0/download",
+    "downloads": 502,
+    "features": {
+      "async_std": [], "default": ["async_std"], "docs": ["unstable"],
+      "hyperium_http": ["http"], "unstable": []
+    },
+    "id": 244277, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/http-types/2.0.0/authors",
+      "dependencies": "/api/v1/crates/http-types/2.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/http-types/2.0.0/downloads"
+    },
+    "num": "2.0.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+      "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+      "url": "https://github.com/yoshuawuyts"
+    },
+    "readme_path": "/api/v1/crates/http-types/2.0.0/readme",
+    "updated_at": "2020-05-24T10:34:43.890102+00:00", "yanked": true
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-05-24T10:24:55.156824+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+          "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+          "url": "https://github.com/yoshuawuyts"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]},
+      "users": []
+    },
+    "crate": "http-types", "crate_size": 1136797,
+    "created_at": "2020-05-24T10:24:55.156824+00:00",
+    "dependencies": [
+      {
+        "crate_id": "anyhow", "default_features": true, "downloads": 0,
+        "features": [], "id": 1390376, "kind": "normal", "optional": false,
+        "req": "^1.0.26", "target": null, "version_id": 244670
+      },
+      {
+        "crate_id": "async-std", "default_features": true, "downloads": 0,
+        "features": ["unstable", "attributes"], "id": 1390386,
+        "kind": "dev", "optional": false, "req": "^1.6.0", "target": null,
+        "version_id": 244670
+      },
+      {
+        "crate_id": "async-std", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 1390377, "kind": "normal",
+        "optional": false, "req": "^1.6.0", "target": null,
+        "version_id": 244670
+      },
+      {
+        "crate_id": "cookie", "default_features": true, "downloads": 0,
+        "features": ["percent-encode"], "id": 1390378, "kind": "normal",
+        "optional": false, "req": "^0.13.0", "target": null,
+        "version_id": 244670
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1390387, "kind": "dev", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 244670
+      },
+      {
+        "crate_id": "infer", "default_features": true, "downloads": 0,
+        "features": [], "id": 1390380, "kind": "normal", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 244670
+      },
+      {
+        "crate_id": "pin-project-lite", "default_features": true,
+        "downloads": 0, "features": [], "id": 1390381, "kind": "normal",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 244670
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1390382, "kind": "normal",
+        "optional": false, "req": "^1.0.106", "target": null,
+        "version_id": 244670
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1390383, "kind": "normal", "optional": false,
+        "req": "^1.0.51", "target": null, "version_id": 244670
+      },
+      {
+        "crate_id": "serde_urlencoded", "default_features": true,
+        "downloads": 0, "features": [], "id": 1390384, "kind": "normal",
+        "optional": false, "req": "^0.6.1", "target": null,
+        "version_id": 244670
+      },
+      {
+        "crate_id": "url", "default_features": true, "downloads": 0,
+        "features": [], "id": 1390385, "kind": "normal", "optional": false,
+        "req": "^2.1.1", "target": null, "version_id": 244670
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1390379, "kind": "normal", "optional": true,
+        "req": "^0.2.0", "target": null, "version_id": 244670
+      }
+    ],
+    "dl_path": "/api/v1/crates/http-types/2.0.1/download",
+    "downloads": 2398,
+    "features": {
+      "async_std": [], "default": ["async_std"], "docs": ["unstable"],
+      "hyperium_http": ["http"], "unstable": []
+    },
+    "id": 244670, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/http-types/2.0.1/authors",
+      "dependencies": "/api/v1/crates/http-types/2.0.1/dependencies",
+      "version_downloads": "/api/v1/crates/http-types/2.0.1/downloads"
+    },
+    "num": "2.0.1",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+      "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+      "url": "https://github.com/yoshuawuyts"
+    },
+    "readme_path": "/api/v1/crates/http-types/2.0.1/readme",
+    "updated_at": "2020-05-24T10:24:55.156824+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-05-29T13:41:52.693355+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+          "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+          "url": "https://github.com/yoshuawuyts"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]},
+      "users": []
+    },
+    "crate": "http-types", "crate_size": 1140540,
+    "created_at": "2020-05-29T13:41:52.693355+00:00",
+    "dependencies": [
+      {
+        "crate_id": "anyhow", "default_features": true, "downloads": 0,
+        "features": [], "id": 1406673, "kind": "normal", "optional": false,
+        "req": "^1.0.26", "target": null, "version_id": 246704
+      },
+      {
+        "crate_id": "async-std", "default_features": true, "downloads": 0,
+        "features": ["unstable", "attributes"], "id": 1406683,
+        "kind": "dev", "optional": false, "req": "^1.6.0", "target": null,
+        "version_id": 246704
+      },
+      {
+        "crate_id": "async-std", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 1406674, "kind": "normal",
+        "optional": false, "req": "^1.6.0", "target": null,
+        "version_id": 246704
+      },
+      {
+        "crate_id": "cookie", "default_features": true, "downloads": 0,
+        "features": ["percent-encode"], "id": 1406675, "kind": "normal",
+        "optional": false, "req": "^0.13.0", "target": null,
+        "version_id": 246704
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1406684, "kind": "dev", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 246704
+      },
+      {
+        "crate_id": "infer", "default_features": true, "downloads": 0,
+        "features": [], "id": 1406677, "kind": "normal", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 246704
+      },
+      {
+        "crate_id": "pin-project-lite", "default_features": true,
+        "downloads": 0, "features": [], "id": 1406678, "kind": "normal",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 246704
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1406679, "kind": "normal",
+        "optional": false, "req": "^1.0.106", "target": null,
+        "version_id": 246704
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1406680, "kind": "normal", "optional": false,
+        "req": "^1.0.51", "target": null, "version_id": 246704
+      },
+      {
+        "crate_id": "serde_urlencoded", "default_features": true,
+        "downloads": 0, "features": [], "id": 1406681, "kind": "normal",
+        "optional": false, "req": "^0.6.1", "target": null,
+        "version_id": 246704
+      },
+      {
+        "crate_id": "url", "default_features": true, "downloads": 0,
+        "features": [], "id": 1406682, "kind": "normal", "optional": false,
+        "req": "^2.1.1", "target": null, "version_id": 246704
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1406676, "kind": "normal", "optional": true,
+        "req": "^0.2.0", "target": null, "version_id": 246704
+      }
+    ],
+    "dl_path": "/api/v1/crates/http-types/2.1.0/download",
+    "downloads": 3523,
+    "features": {
+      "async_std": [], "cookie-secure": ["cookie/secure"],
+      "default": ["async_std", "cookie-secure"], "docs": ["unstable"],
+      "hyperium_http": ["http"], "unstable": []
+    },
+    "id": 246704, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/http-types/2.1.0/authors",
+      "dependencies": "/api/v1/crates/http-types/2.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/http-types/2.1.0/downloads"
+    },
+    "num": "2.1.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+      "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+      "url": "https://github.com/yoshuawuyts"
+    },
+    "readme_path": "/api/v1/crates/http-types/2.1.0/readme",
+    "updated_at": "2020-05-29T13:41:52.693355+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-06-05T17:14:29.684428+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+          "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+          "url": "https://github.com/yoshuawuyts"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]},
+      "users": []
+    },
+    "crate": "http-types", "crate_size": 1142775,
+    "created_at": "2020-06-05T17:14:29.684428+00:00",
+    "dependencies": [
+      {
+        "crate_id": "anyhow", "default_features": true, "downloads": 0,
+        "features": [], "id": 1424351, "kind": "normal", "optional": false,
+        "req": "^1.0.26", "target": null, "version_id": 249190
+      },
+      {
+        "crate_id": "async-std", "default_features": true, "downloads": 0,
+        "features": ["unstable", "attributes"], "id": 1424362,
+        "kind": "dev", "optional": false, "req": "^1.6.0", "target": null,
+        "version_id": 249190
+      },
+      {
+        "crate_id": "async-std", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 1424352, "kind": "normal",
+        "optional": false, "req": "^1.6.0", "target": null,
+        "version_id": 249190
+      },
+      {
+        "crate_id": "cookie", "default_features": true, "downloads": 0,
+        "features": ["percent-encode"], "id": 1424353, "kind": "normal",
+        "optional": false, "req": "^0.14.0", "target": null,
+        "version_id": 249190
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1424363, "kind": "dev", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 249190
+      },
+      {
+        "crate_id": "infer", "default_features": true, "downloads": 0,
+        "features": [], "id": 1424355, "kind": "normal", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 249190
+      },
+      {
+        "crate_id": "pin-project-lite", "default_features": true,
+        "downloads": 0, "features": [], "id": 1424356, "kind": "normal",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 249190
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1424357, "kind": "normal", "optional": false,
+        "req": "^0.7.3", "target": null, "version_id": 249190
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1424358, "kind": "normal",
+        "optional": false, "req": "^1.0.106", "target": null,
+        "version_id": 249190
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1424359, "kind": "normal", "optional": false,
+        "req": "^1.0.51", "target": null, "version_id": 249190
+      },
+      {
+        "crate_id": "serde_urlencoded", "default_features": true,
+        "downloads": 0, "features": [], "id": 1424360, "kind": "normal",
+        "optional": false, "req": "^0.6.1", "target": null,
+        "version_id": 249190
+      },
+      {
+        "crate_id": "url", "default_features": true, "downloads": 0,
+        "features": [], "id": 1424361, "kind": "normal", "optional": false,
+        "req": "^2.1.1", "target": null, "version_id": 249190
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1424354, "kind": "normal", "optional": true,
+        "req": "^0.2.0", "target": null, "version_id": 249190
+      }
+    ],
+    "dl_path": "/api/v1/crates/http-types/2.2.0/download",
+    "downloads": 8880,
+    "features": {
+      "async_std": [], "cookie-secure": ["cookie/secure"],
+      "default": ["async_std", "cookie-secure"], "docs": ["unstable"],
+      "hyperium_http": ["http"], "unstable": []
+    },
+    "id": 249190, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/http-types/2.2.0/authors",
+      "dependencies": "/api/v1/crates/http-types/2.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/http-types/2.2.0/downloads"
+    },
+    "num": "2.2.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+      "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+      "url": "https://github.com/yoshuawuyts"
+    },
+    "readme_path": "/api/v1/crates/http-types/2.2.0/readme",
+    "updated_at": "2020-06-05T17:14:29.684428+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-06-21T17:38:53.745634+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+          "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+          "url": "https://github.com/yoshuawuyts"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]},
+      "users": []
+    },
+    "crate": "http-types", "crate_size": 1143158,
+    "created_at": "2020-06-21T17:38:53.745634+00:00",
+    "dependencies": [
+      {
+        "crate_id": "anyhow", "default_features": true, "downloads": 0,
+        "features": [], "id": 1463343, "kind": "normal", "optional": false,
+        "req": "^1.0.26", "target": null, "version_id": 254557
+      },
+      {
+        "crate_id": "async-std", "default_features": true, "downloads": 0,
+        "features": ["unstable", "attributes"], "id": 1463355,
+        "kind": "dev", "optional": false, "req": "^1.6.0", "target": null,
+        "version_id": 254557
+      },
+      {
+        "crate_id": "async-std", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 1463344, "kind": "normal",
+        "optional": false, "req": "^1.6.0", "target": null,
+        "version_id": 254557
+      },
+      {
+        "crate_id": "cookie", "default_features": true, "downloads": 0,
+        "features": ["percent-encode"], "id": 1463345, "kind": "normal",
+        "optional": false, "req": "^0.14.0", "target": null,
+        "version_id": 254557
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1463356, "kind": "dev", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 254557
+      },
+      {
+        "crate_id": "infer", "default_features": true, "downloads": 0,
+        "features": [], "id": 1463347, "kind": "normal", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 254557
+      },
+      {
+        "crate_id": "pin-project-lite", "default_features": true,
+        "downloads": 0, "features": [], "id": 1463348, "kind": "normal",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 254557
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1463349, "kind": "normal", "optional": false,
+        "req": "^0.7.3", "target": null, "version_id": 254557
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1463350, "kind": "normal",
+        "optional": false, "req": "^1.0.106", "target": null,
+        "version_id": 254557
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1463351, "kind": "normal", "optional": false,
+        "req": "^1.0.51", "target": null, "version_id": 254557
+      },
+      {
+        "crate_id": "serde_qs", "default_features": true, "downloads": 0,
+        "features": [], "id": 1463352, "kind": "normal", "optional": false,
+        "req": "^0.6.0", "target": null, "version_id": 254557
+      },
+      {
+        "crate_id": "serde_urlencoded", "default_features": true,
+        "downloads": 0, "features": [], "id": 1463353, "kind": "normal",
+        "optional": false, "req": "^0.6.1", "target": null,
+        "version_id": 254557
+      },
+      {
+        "crate_id": "url", "default_features": true, "downloads": 0,
+        "features": [], "id": 1463354, "kind": "normal", "optional": false,
+        "req": "^2.1.1", "target": null, "version_id": 254557
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1463346, "kind": "normal", "optional": true,
+        "req": "^0.2.0", "target": null, "version_id": 254557
+      }
+    ],
+    "dl_path": "/api/v1/crates/http-types/2.2.1/download",
+    "downloads": 13155,
+    "features": {
+      "async_std": [], "cookie-secure": ["cookie/secure"],
+      "default": ["async_std", "cookie-secure"], "docs": ["unstable"],
+      "hyperium_http": ["http"], "unstable": []
+    },
+    "id": 254557, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/http-types/2.2.1/authors",
+      "dependencies": "/api/v1/crates/http-types/2.2.1/dependencies",
+      "version_downloads": "/api/v1/crates/http-types/2.2.1/downloads"
+    },
+    "num": "2.2.1",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+      "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+      "url": "https://github.com/yoshuawuyts"
+    },
+    "readme_path": "/api/v1/crates/http-types/2.2.1/readme",
+    "updated_at": "2020-06-21T17:38:53.745634+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-07-11T21:39:50.711340+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/13301?v=4",
+          "id": 93306, "login": "jbr", "name": "Jacob Rothstein",
+          "url": "https://github.com/jbr"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]},
+      "users": []
+    },
+    "crate": "http-types", "crate_size": 1142922,
+    "created_at": "2020-07-11T21:39:50.711340+00:00",
+    "dependencies": [
+      {
+        "crate_id": "anyhow", "default_features": true, "downloads": 0,
+        "features": [], "id": 1518050, "kind": "normal", "optional": false,
+        "req": "^1.0.26", "target": null, "version_id": 261580
+      },
+      {
+        "crate_id": "async-std", "default_features": true, "downloads": 0,
+        "features": ["unstable", "attributes"], "id": 1518062,
+        "kind": "dev", "optional": false, "req": "^1.6.0", "target": null,
+        "version_id": 261580
+      },
+      {
+        "crate_id": "async-std", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 1518051, "kind": "normal",
+        "optional": false, "req": "^1.6.0", "target": null,
+        "version_id": 261580
+      },
+      {
+        "crate_id": "cookie", "default_features": true, "downloads": 0,
+        "features": ["percent-encode"], "id": 1518052, "kind": "normal",
+        "optional": false, "req": "^0.14.0", "target": null,
+        "version_id": 261580
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1518063, "kind": "dev", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 261580
+      },
+      {
+        "crate_id": "infer", "default_features": true, "downloads": 0,
+        "features": [], "id": 1518054, "kind": "normal", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 261580
+      },
+      {
+        "crate_id": "pin-project-lite", "default_features": true,
+        "downloads": 0, "features": [], "id": 1518055, "kind": "normal",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 261580
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1518056, "kind": "normal", "optional": false,
+        "req": "^0.7.3", "target": null, "version_id": 261580
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1518057, "kind": "normal",
+        "optional": false, "req": "^1.0.106", "target": null,
+        "version_id": 261580
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1518058, "kind": "normal", "optional": false,
+        "req": "^1.0.51", "target": null, "version_id": 261580
+      },
+      {
+        "crate_id": "serde_qs", "default_features": true, "downloads": 0,
+        "features": [], "id": 1518059, "kind": "normal", "optional": false,
+        "req": "^0.6.0", "target": null, "version_id": 261580
+      },
+      {
+        "crate_id": "serde_urlencoded", "default_features": true,
+        "downloads": 0, "features": [], "id": 1518060, "kind": "normal",
+        "optional": false, "req": "^0.6.1", "target": null,
+        "version_id": 261580
+      },
+      {
+        "crate_id": "url", "default_features": true, "downloads": 0,
+        "features": [], "id": 1518061, "kind": "normal", "optional": false,
+        "req": "^2.1.1", "target": null, "version_id": 261580
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1518053, "kind": "normal", "optional": true,
+        "req": "^0.2.0", "target": null, "version_id": 261580
+      }
+    ],
+    "dl_path": "/api/v1/crates/http-types/2.3.0/download",
+    "downloads": 16642,
+    "features": {
+      "async_std": [], "cookie-secure": ["cookie/secure"],
+      "default": ["async_std", "cookie-secure"], "docs": ["unstable"],
+      "hyperium_http": ["http"], "unstable": []
+    },
+    "id": 261580, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/http-types/2.3.0/authors",
+      "dependencies": "/api/v1/crates/http-types/2.3.0/dependencies",
+      "version_downloads": "/api/v1/crates/http-types/2.3.0/downloads"
+    },
+    "num": "2.3.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/13301?v=4",
+      "id": 93306, "login": "jbr", "name": "Jacob Rothstein",
+      "url": "https://github.com/jbr"
+    },
+    "readme_path": "/api/v1/crates/http-types/2.3.0/readme",
+    "updated_at": "2020-07-11T21:39:50.711340+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-08-05T17:04:55.604269+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+          "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+          "url": "https://github.com/yoshuawuyts"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]},
+      "users": []
+    },
+    "crate": "http-types", "crate_size": 1149456,
+    "created_at": "2020-08-05T17:04:55.604269+00:00",
+    "dependencies": [
+      {
+        "crate_id": "anyhow", "default_features": true, "downloads": 0,
+        "features": [], "id": 1577773, "kind": "normal", "optional": false,
+        "req": "^1.0.26", "target": null, "version_id": 269683
+      },
+      {
+        "crate_id": "async-std", "default_features": true, "downloads": 0,
+        "features": ["unstable", "attributes"], "id": 1577785,
+        "kind": "dev", "optional": false, "req": "^1.6.0", "target": null,
+        "version_id": 269683
+      },
+      {
+        "crate_id": "async-std", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 1577774, "kind": "normal",
+        "optional": false, "req": "^1.6.0", "target": null,
+        "version_id": 269683
+      },
+      {
+        "crate_id": "cookie", "default_features": true, "downloads": 0,
+        "features": ["percent-encode"], "id": 1577775, "kind": "normal",
+        "optional": false, "req": "^0.14.0", "target": null,
+        "version_id": 269683
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1577786, "kind": "dev", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 269683
+      },
+      {
+        "crate_id": "infer", "default_features": true, "downloads": 0,
+        "features": [], "id": 1577777, "kind": "normal", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 269683
+      },
+      {
+        "crate_id": "pin-project-lite", "default_features": true,
+        "downloads": 0, "features": [], "id": 1577778, "kind": "normal",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 269683
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1577779, "kind": "normal", "optional": false,
+        "req": "^0.7.3", "target": null, "version_id": 269683
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1577780, "kind": "normal",
+        "optional": false, "req": "^1.0.106", "target": null,
+        "version_id": 269683
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1577781, "kind": "normal", "optional": false,
+        "req": "^1.0.51", "target": null, "version_id": 269683
+      },
+      {
+        "crate_id": "serde_qs", "default_features": true, "downloads": 0,
+        "features": [], "id": 1577782, "kind": "normal", "optional": false,
+        "req": "^0.6.0", "target": null, "version_id": 269683
+      },
+      {
+        "crate_id": "serde_urlencoded", "default_features": true,
+        "downloads": 0, "features": [], "id": 1577783, "kind": "normal",
+        "optional": false, "req": "^0.6.1", "target": null,
+        "version_id": 269683
+      },
+      {
+        "crate_id": "url", "default_features": true, "downloads": 0,
+        "features": ["serde"], "id": 1577784, "kind": "normal",
+        "optional": false, "req": "^2.1.1", "target": null,
+        "version_id": 269683
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1577776, "kind": "normal", "optional": true,
+        "req": "^0.2.0", "target": null, "version_id": 269683
+      }
+    ],
+    "dl_path": "/api/v1/crates/http-types/2.4.0/download",
+    "downloads": 38830,
+    "features": {
+      "async_std": [], "cookie-secure": ["cookie/secure"],
+      "default": ["async_std", "cookie-secure"], "docs": ["unstable"],
+      "hyperium_http": ["http"], "unstable": []
+    },
+    "id": 269683, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/http-types/2.4.0/authors",
+      "dependencies": "/api/v1/crates/http-types/2.4.0/dependencies",
+      "version_downloads": "/api/v1/crates/http-types/2.4.0/downloads"
+    },
+    "num": "2.4.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+      "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+      "url": "https://github.com/yoshuawuyts"
+    },
+    "readme_path": "/api/v1/crates/http-types/2.4.0/readme",
+    "updated_at": "2020-08-05T17:04:55.604269+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-09-27T20:33:31.048194+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+          "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+          "url": "https://github.com/yoshuawuyts"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]},
+      "users": []
+    },
+    "crate": "http-types", "crate_size": 1173467,
+    "created_at": "2020-09-27T20:33:31.048194+00:00",
+    "dependencies": [
+      {
+        "crate_id": "anyhow", "default_features": true, "downloads": 0,
+        "features": [], "id": 1718087, "kind": "normal", "optional": false,
+        "req": "^1.0.26", "target": null, "version_id": 288023
+      },
+      {
+        "crate_id": "async-std", "default_features": true, "downloads": 0,
+        "features": ["unstable", "attributes"], "id": 1718099,
+        "kind": "dev", "optional": false, "req": "^1.6.0", "target": null,
+        "version_id": 288023
+      },
+      {
+        "crate_id": "async-std", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 1718088, "kind": "normal",
+        "optional": false, "req": "^1.6.0", "target": null,
+        "version_id": 288023
+      },
+      {
+        "crate_id": "cookie", "default_features": true, "downloads": 0,
+        "features": ["percent-encode"], "id": 1718089, "kind": "normal",
+        "optional": false, "req": "^0.14.0", "target": null,
+        "version_id": 288023
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1718100, "kind": "dev", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 288023
+      },
+      {
+        "crate_id": "infer", "default_features": true, "downloads": 0,
+        "features": [], "id": 1718091, "kind": "normal", "optional": false,
+        "req": "^0.2.3", "target": null, "version_id": 288023
+      },
+      {
+        "crate_id": "pin-project-lite", "default_features": true,
+        "downloads": 0, "features": [], "id": 1718092, "kind": "normal",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 288023
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1718093, "kind": "normal", "optional": false,
+        "req": "^0.7.3", "target": null, "version_id": 288023
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1718094, "kind": "normal",
+        "optional": false, "req": "^1.0.106", "target": null,
+        "version_id": 288023
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1718095, "kind": "normal", "optional": false,
+        "req": "^1.0.51", "target": null, "version_id": 288023
+      },
+      {
+        "crate_id": "serde_qs", "default_features": true, "downloads": 0,
+        "features": [], "id": 1718096, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 288023
+      },
+      {
+        "crate_id": "serde_urlencoded", "default_features": true,
+        "downloads": 0, "features": [], "id": 1718097, "kind": "normal",
+        "optional": false, "req": "^0.7.0", "target": null,
+        "version_id": 288023
+      },
+      {
+        "crate_id": "url", "default_features": true, "downloads": 0,
+        "features": ["serde"], "id": 1718098, "kind": "normal",
+        "optional": false, "req": "^2.1.1", "target": null,
+        "version_id": 288023
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1718090, "kind": "normal", "optional": true,
+        "req": "^0.2.0", "target": null, "version_id": 288023
+      }
+    ],
+    "dl_path": "/api/v1/crates/http-types/2.5.0/download",
+    "downloads": 18728,
+    "features": {
+      "async_std": [], "cookie-secure": ["cookie/secure"],
+      "default": ["async_std", "cookie-secure"], "docs": ["unstable"],
+      "hyperium_http": ["http"], "unstable": []
+    },
+    "id": 288023, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/http-types/2.5.0/authors",
+      "dependencies": "/api/v1/crates/http-types/2.5.0/dependencies",
+      "version_downloads": "/api/v1/crates/http-types/2.5.0/downloads"
+    },
+    "num": "2.5.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+      "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+      "url": "https://github.com/yoshuawuyts"
+    },
+    "readme_path": "/api/v1/crates/http-types/2.5.0/readme",
+    "updated_at": "2020-09-27T20:33:31.048194+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-10-17T15:51:47.932405+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+          "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+          "url": "https://github.com/yoshuawuyts"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]},
+      "users": []
+    },
+    "crate": "http-types", "crate_size": 1173142,
+    "created_at": "2020-10-17T15:51:47.932405+00:00",
+    "dependencies": [
+      {
+        "crate_id": "anyhow", "default_features": true, "downloads": 0,
+        "features": [], "id": 1770080, "kind": "normal", "optional": false,
+        "req": "^1.0.26", "target": null, "version_id": 295294
+      },
+      {
+        "crate_id": "async-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1770081, "kind": "normal",
+        "optional": false, "req": "^1.5.1", "target": null,
+        "version_id": 295294
+      },
+      {
+        "crate_id": "async-std", "default_features": true, "downloads": 0,
+        "features": ["attributes"], "id": 1770094, "kind": "dev",
+        "optional": false, "req": "^1.6.0", "target": null,
+        "version_id": 295294
+      },
+      {
+        "crate_id": "cookie", "default_features": true, "downloads": 0,
+        "features": ["percent-encode"], "id": 1770083, "kind": "normal",
+        "optional": false, "req": "^0.14.0", "target": null,
+        "version_id": 295294
+      },
+      {
+        "crate_id": "futures-lite", "default_features": true,
+        "downloads": 0, "features": [], "id": 1770084, "kind": "normal",
+        "optional": false, "req": "^1.11.1", "target": null,
+        "version_id": 295294
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1770095, "kind": "dev", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 295294
+      },
+      {
+        "crate_id": "infer", "default_features": true, "downloads": 0,
+        "features": [], "id": 1770086, "kind": "normal", "optional": false,
+        "req": "^0.2.3", "target": null, "version_id": 295294
+      },
+      {
+        "crate_id": "pin-project-lite", "default_features": true,
+        "downloads": 0, "features": [], "id": 1770087, "kind": "normal",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 295294
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1770088, "kind": "normal", "optional": false,
+        "req": "^0.7.3", "target": null, "version_id": 295294
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1770089, "kind": "normal",
+        "optional": false, "req": "^1.0.106", "target": null,
+        "version_id": 295294
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1770090, "kind": "normal", "optional": false,
+        "req": "^1.0.51", "target": null, "version_id": 295294
+      },
+      {
+        "crate_id": "serde_qs", "default_features": true, "downloads": 0,
+        "features": [], "id": 1770091, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 295294
+      },
+      {
+        "crate_id": "serde_urlencoded", "default_features": true,
+        "downloads": 0, "features": [], "id": 1770092, "kind": "normal",
+        "optional": false, "req": "^0.7.0", "target": null,
+        "version_id": 295294
+      },
+      {
+        "crate_id": "url", "default_features": true, "downloads": 0,
+        "features": ["serde"], "id": 1770093, "kind": "normal",
+        "optional": false, "req": "^2.1.1", "target": null,
+        "version_id": 295294
+      },
+      {
+        "crate_id": "async-std", "default_features": true, "downloads": 0,
+        "features": [], "id": 1770082, "kind": "normal", "optional": true,
+        "req": "^1.6.0", "target": null, "version_id": 295294
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1770085, "kind": "normal", "optional": true,
+        "req": "^0.2.0", "target": null, "version_id": 295294
+      }
+    ],
+    "dl_path": "/api/v1/crates/http-types/2.6.0/download",
+    "downloads": 7686,
+    "features": {
+      "async_std": ["fs"], "cookie-secure": ["cookie/secure"],
+      "default": ["fs", "cookie-secure"], "docs": ["unstable"],
+      "fs": ["async-std"], "hyperium_http": ["http"], "unstable": []
+    },
+    "id": 295294, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/http-types/2.6.0/authors",
+      "dependencies": "/api/v1/crates/http-types/2.6.0/dependencies",
+      "version_downloads": "/api/v1/crates/http-types/2.6.0/downloads"
+    },
+    "num": "2.6.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+      "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+      "url": "https://github.com/yoshuawuyts"
+    },
+    "readme_path": "/api/v1/crates/http-types/2.6.0/readme",
+    "updated_at": "2020-10-17T15:51:47.932405+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-10-30T10:29:19.160320+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+          "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+          "url": "https://github.com/yoshuawuyts"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]},
+      "users": []
+    },
+    "crate": "http-types", "crate_size": 1178107,
+    "created_at": "2020-10-30T10:29:19.160320+00:00",
+    "dependencies": [
+      {
+        "crate_id": "anyhow", "default_features": true, "downloads": 0,
+        "features": [], "id": 1805767, "kind": "normal", "optional": false,
+        "req": "^1.0.26", "target": null, "version_id": 300334
+      },
+      {
+        "crate_id": "async-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1805768, "kind": "normal",
+        "optional": false, "req": "^1.5.1", "target": null,
+        "version_id": 300334
+      },
+      {
+        "crate_id": "async-std", "default_features": true, "downloads": 0,
+        "features": ["attributes"], "id": 1805782, "kind": "dev",
+        "optional": false, "req": "^1.6.0", "target": null,
+        "version_id": 300334
+      },
+      {
+        "crate_id": "base64", "default_features": true, "downloads": 0,
+        "features": [], "id": 1805770, "kind": "normal", "optional": false,
+        "req": "^0.13.0", "target": null, "version_id": 300334
+      },
+      {
+        "crate_id": "cookie", "default_features": true, "downloads": 0,
+        "features": ["percent-encode"], "id": 1805771, "kind": "normal",
+        "optional": false, "req": "^0.14.0", "target": null,
+        "version_id": 300334
+      },
+      {
+        "crate_id": "futures-lite", "default_features": true,
+        "downloads": 0, "features": [], "id": 1805772, "kind": "normal",
+        "optional": false, "req": "^1.11.1", "target": null,
+        "version_id": 300334
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1805783, "kind": "dev", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 300334
+      },
+      {
+        "crate_id": "infer", "default_features": true, "downloads": 0,
+        "features": [], "id": 1805774, "kind": "normal", "optional": false,
+        "req": "^0.2.3", "target": null, "version_id": 300334
+      },
+      {
+        "crate_id": "pin-project-lite", "default_features": true,
+        "downloads": 0, "features": [], "id": 1805775, "kind": "normal",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 300334
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1805776, "kind": "normal", "optional": false,
+        "req": "^0.7.3", "target": null, "version_id": 300334
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1805777, "kind": "normal",
+        "optional": false, "req": "^1.0.106", "target": null,
+        "version_id": 300334
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1805778, "kind": "normal", "optional": false,
+        "req": "^1.0.51", "target": null, "version_id": 300334
+      },
+      {
+        "crate_id": "serde_qs", "default_features": true, "downloads": 0,
+        "features": [], "id": 1805779, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 300334
+      },
+      {
+        "crate_id": "serde_urlencoded", "default_features": true,
+        "downloads": 0, "features": [], "id": 1805780, "kind": "normal",
+        "optional": false, "req": "^0.7.0", "target": null,
+        "version_id": 300334
+      },
+      {
+        "crate_id": "url", "default_features": true, "downloads": 0,
+        "features": ["serde"], "id": 1805781, "kind": "normal",
+        "optional": false, "req": "^2.1.1", "target": null,
+        "version_id": 300334
+      },
+      {
+        "crate_id": "async-std", "default_features": true, "downloads": 0,
+        "features": [], "id": 1805769, "kind": "normal", "optional": true,
+        "req": "^1.6.0", "target": null, "version_id": 300334
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1805773, "kind": "normal", "optional": true,
+        "req": "^0.2.0", "target": null, "version_id": 300334
+      }
+    ],
+    "dl_path": "/api/v1/crates/http-types/2.7.0/download",
+    "downloads": 1283,
+    "features": {
+      "async_std": ["fs"], "cookie-secure": ["cookie/secure"],
+      "default": ["fs", "cookie-secure"], "docs": ["unstable"],
+      "fs": ["async-std"], "hyperium_http": ["http"], "unstable": []
+    },
+    "id": 300334, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/http-types/2.7.0/authors",
+      "dependencies": "/api/v1/crates/http-types/2.7.0/dependencies",
+      "version_downloads": "/api/v1/crates/http-types/2.7.0/downloads"
+    },
+    "num": "2.7.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/2467194?v=4",
+      "id": 3824, "login": "yoshuawuyts", "name": "Yoshua Wuyts",
+      "url": "https://github.com/yoshuawuyts"
+    },
+    "readme_path": "/api/v1/crates/http-types/2.7.0/readme",
+    "updated_at": "2020-10-30T10:29:19.160320+00:00", "yanked": false
+  }
+]

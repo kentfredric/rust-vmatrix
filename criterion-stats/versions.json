@@ -1,0 +1,878 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Jorge Aparicio <japaricious@gmail.com>"]},
+      "users": []
+    },
+    "crate": "criterion-stats", "crate_size": null,
+    "created_at": "2016-02-26T22:52:21.955298+00:00",
+    "dependencies": [
+      {
+        "crate_id": "approx", "default_features": true, "downloads": 0,
+        "features": [], "id": 67612, "kind": "dev", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 23013
+      },
+      {
+        "crate_id": "cast", "default_features": true, "downloads": 0,
+        "features": [], "id": 67605, "kind": "normal", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 23013
+      },
+      {
+        "crate_id": "floaty", "default_features": true, "downloads": 0,
+        "features": [], "id": 67607, "kind": "normal", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 23013
+      },
+      {
+        "crate_id": "itertools", "default_features": true, "downloads": 0,
+        "features": [], "id": 67611, "kind": "dev", "optional": false,
+        "req": "^0.4.7", "target": null, "version_id": 23013
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 67609, "kind": "normal", "optional": false,
+        "req": "^0.2.10", "target": null, "version_id": 23013
+      },
+      {
+        "crate_id": "quickcheck", "default_features": true, "downloads": 0,
+        "features": [], "id": 67613, "kind": "dev", "optional": false,
+        "req": "^0.2.25", "target": null, "version_id": 23013
+      },
+      {
+        "crate_id": "quickcheck_macros", "default_features": true,
+        "downloads": 0, "features": [], "id": 67610, "kind": "dev",
+        "optional": false, "req": "^0.2.25", "target": null,
+        "version_id": 23013
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 67606, "kind": "normal", "optional": false,
+        "req": "^0.3.13", "target": null, "version_id": 23013
+      },
+      {
+        "crate_id": "thread-scoped", "default_features": true,
+        "downloads": 0, "features": [], "id": 67608, "kind": "normal",
+        "optional": false, "req": "^1.0.1", "target": null,
+        "version_id": 23013
+      }
+    ],
+    "dl_path": "/api/v1/crates/criterion-stats/0.1.0/download",
+    "downloads": 1694, "features": {}, "id": 23013,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/criterion-stats/0.1.0/authors",
+      "dependencies": "/api/v1/crates/criterion-stats/0.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/criterion-stats/0.1.0/downloads"
+    },
+    "num": "0.1.0", "published_by": null,
+    "readme_path": "/api/v1/crates/criterion-stats/0.1.0/readme",
+    "updated_at": "2017-11-30T02:29:27.134613+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": ["Brook Heisler", "Jorge Aparicio <japaricious@gmail.com>"]
+      },
+      "users": []
+    },
+    "crate": "criterion-stats", "crate_size": null,
+    "created_at": "2017-12-02T23:29:08.402689+00:00",
+    "dependencies": [
+      {
+        "crate_id": "approx", "default_features": true, "downloads": 0,
+        "features": [], "id": 308581, "kind": "dev", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 73113
+      },
+      {
+        "crate_id": "cast", "default_features": true, "downloads": 0,
+        "features": [], "id": 308575, "kind": "normal", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 73113
+      },
+      {
+        "crate_id": "floaty", "default_features": true, "downloads": 0,
+        "features": [], "id": 308577, "kind": "normal", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 73113
+      },
+      {
+        "crate_id": "itertools", "default_features": true, "downloads": 0,
+        "features": [], "id": 308583, "kind": "dev", "optional": false,
+        "req": "^0.4.7", "target": null, "version_id": 73113
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 308578, "kind": "normal", "optional": false,
+        "req": "^0.2.10", "target": null, "version_id": 73113
+      },
+      {
+        "crate_id": "quickcheck", "default_features": true, "downloads": 0,
+        "features": [], "id": 308580, "kind": "dev", "optional": false,
+        "req": "^0.4.1", "target": null, "version_id": 73113
+      },
+      {
+        "crate_id": "quickcheck_macros", "default_features": true,
+        "downloads": 0, "features": [], "id": 308582, "kind": "dev",
+        "optional": false, "req": "^0.4.1", "target": null,
+        "version_id": 73113
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 308579, "kind": "normal", "optional": false,
+        "req": "^0.3.13", "target": null, "version_id": 73113
+      },
+      {
+        "crate_id": "thread-scoped", "default_features": true,
+        "downloads": 0, "features": [], "id": 308576, "kind": "normal",
+        "optional": false, "req": "^1.0.1", "target": null,
+        "version_id": 73113
+      }
+    ],
+    "dl_path": "/api/v1/crates/criterion-stats/0.1.1/download",
+    "downloads": 464, "features": {}, "id": 73113,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/criterion-stats/0.1.1/authors",
+      "dependencies": "/api/v1/crates/criterion-stats/0.1.1/dependencies",
+      "version_downloads": "/api/v1/crates/criterion-stats/0.1.1/downloads"
+    },
+    "num": "0.1.1", "published_by": null,
+    "readme_path": "/api/v1/crates/criterion-stats/0.1.1/readme",
+    "updated_at": "2017-12-02T23:29:08.402689+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": ["Brook Heisler", "Jorge Aparicio <japaricious@gmail.com>"]
+      },
+      "users": []
+    },
+    "crate": "criterion-stats", "crate_size": null,
+    "created_at": "2017-12-13T01:33:28.010600+00:00",
+    "dependencies": [
+      {
+        "crate_id": "approx", "default_features": true, "downloads": 0,
+        "features": [], "id": 316561, "kind": "dev", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 74317
+      },
+      {
+        "crate_id": "cast", "default_features": true, "downloads": 0,
+        "features": [], "id": 316556, "kind": "normal", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 74317
+      },
+      {
+        "crate_id": "floaty", "default_features": true, "downloads": 0,
+        "features": [], "id": 316557, "kind": "normal", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 74317
+      },
+      {
+        "crate_id": "itertools", "default_features": true, "downloads": 0,
+        "features": [], "id": 316562, "kind": "dev", "optional": false,
+        "req": "^0.4.7", "target": null, "version_id": 74317
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 316558, "kind": "normal", "optional": false,
+        "req": "^0.2.10", "target": null, "version_id": 74317
+      },
+      {
+        "crate_id": "quickcheck", "default_features": true, "downloads": 0,
+        "features": [], "id": 316563, "kind": "dev", "optional": false,
+        "req": "^0.4.1", "target": null, "version_id": 74317
+      },
+      {
+        "crate_id": "quickcheck_macros", "default_features": true,
+        "downloads": 0, "features": [], "id": 316564, "kind": "dev",
+        "optional": false, "req": "^0.4.1", "target": null,
+        "version_id": 74317
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 316559, "kind": "normal", "optional": false,
+        "req": "^0.3.13", "target": null, "version_id": 74317
+      },
+      {
+        "crate_id": "thread-scoped", "default_features": true,
+        "downloads": 0, "features": [], "id": 316560, "kind": "normal",
+        "optional": false, "req": "^1.0.1", "target": null,
+        "version_id": 74317
+      }
+    ],
+    "dl_path": "/api/v1/crates/criterion-stats/0.1.2/download",
+    "downloads": 422, "features": {}, "id": 74317,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/criterion-stats/0.1.2/authors",
+      "dependencies": "/api/v1/crates/criterion-stats/0.1.2/dependencies",
+      "version_downloads": "/api/v1/crates/criterion-stats/0.1.2/downloads"
+    },
+    "num": "0.1.2", "published_by": null,
+    "readme_path": "/api/v1/crates/criterion-stats/0.1.2/readme",
+    "updated_at": "2017-12-13T01:33:28.010600+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Brook Heisler <brookheisler@gmail.com>",
+          "Jorge Aparicio <japaricious@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "criterion-stats", "crate_size": null,
+    "created_at": "2018-01-13T00:22:00.726241+00:00",
+    "dependencies": [
+      {
+        "crate_id": "approx", "default_features": true, "downloads": 0,
+        "features": [], "id": 332165, "kind": "dev", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 77270
+      },
+      {
+        "crate_id": "cast", "default_features": true, "downloads": 0,
+        "features": [], "id": 332160, "kind": "normal", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 77270
+      },
+      {
+        "crate_id": "criterion", "default_features": true, "downloads": 0,
+        "features": [], "id": 332166, "kind": "dev", "optional": false,
+        "req": "^0.1.1", "target": null, "version_id": 77270
+      },
+      {
+        "crate_id": "itertools", "default_features": true, "downloads": 0,
+        "features": [], "id": 332167, "kind": "dev", "optional": false,
+        "req": "^0.4.7", "target": null, "version_id": 77270
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 332162, "kind": "normal", "optional": false,
+        "req": "^0.2.10", "target": null, "version_id": 77270
+      },
+      {
+        "crate_id": "num-traits", "default_features": true, "downloads": 0,
+        "features": [], "id": 332161, "kind": "normal", "optional": false,
+        "req": "^0.1.41", "target": null, "version_id": 77270
+      },
+      {
+        "crate_id": "quickcheck", "default_features": true, "downloads": 0,
+        "features": [], "id": 332168, "kind": "dev", "optional": false,
+        "req": "^0.4.1", "target": null, "version_id": 77270
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 332163, "kind": "normal", "optional": false,
+        "req": "^0.3.13", "target": null, "version_id": 77270
+      },
+      {
+        "crate_id": "thread-scoped", "default_features": true,
+        "downloads": 0, "features": [], "id": 332164, "kind": "normal",
+        "optional": false, "req": "^1.0.1", "target": null,
+        "version_id": 77270
+      }
+    ],
+    "dl_path": "/api/v1/crates/criterion-stats/0.1.3/download",
+    "downloads": 11494, "features": {}, "id": 77270,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/criterion-stats/0.1.3/authors",
+      "dependencies": "/api/v1/crates/criterion-stats/0.1.3/dependencies",
+      "version_downloads": "/api/v1/crates/criterion-stats/0.1.3/downloads"
+    },
+    "num": "0.1.3", "published_by": null,
+    "readme_path": "/api/v1/crates/criterion-stats/0.1.3/readme",
+    "updated_at": "2018-01-13T00:22:00.726241+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Brook Heisler <brookheisler@gmail.com>",
+          "Jorge Aparicio <japaricious@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "criterion-stats", "crate_size": null,
+    "created_at": "2018-02-05T12:44:17.814397+00:00",
+    "dependencies": [
+      {
+        "crate_id": "approx", "default_features": true, "downloads": 0,
+        "features": [], "id": 346858, "kind": "dev", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 79919
+      },
+      {
+        "crate_id": "cast", "default_features": true, "downloads": 0,
+        "features": [], "id": 346853, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 79919
+      },
+      {
+        "crate_id": "criterion", "default_features": true, "downloads": 0,
+        "features": [], "id": 346859, "kind": "dev", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 79919
+      },
+      {
+        "crate_id": "itertools-num", "default_features": true,
+        "downloads": 0, "features": [], "id": 346860, "kind": "dev",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 79919
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 346855, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 79919
+      },
+      {
+        "crate_id": "num-traits", "default_features": true, "downloads": 0,
+        "features": [], "id": 346854, "kind": "normal", "optional": false,
+        "req": "^0.1.41", "target": null, "version_id": 79919
+      },
+      {
+        "crate_id": "quickcheck", "default_features": true, "downloads": 0,
+        "features": [], "id": 346861, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 79919
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 346856, "kind": "normal", "optional": false,
+        "req": "^0.3.13", "target": null, "version_id": 79919
+      },
+      {
+        "crate_id": "thread-scoped", "default_features": true,
+        "downloads": 0, "features": [], "id": 346857, "kind": "normal",
+        "optional": false, "req": "^1.0.1", "target": null,
+        "version_id": 79919
+      }
+    ],
+    "dl_path": "/api/v1/crates/criterion-stats/0.2.0/download",
+    "downloads": 1363, "features": {}, "id": 79919,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/criterion-stats/0.2.0/authors",
+      "dependencies": "/api/v1/crates/criterion-stats/0.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/criterion-stats/0.2.0/downloads"
+    },
+    "num": "0.2.0", "published_by": null,
+    "readme_path": "/api/v1/crates/criterion-stats/0.2.0/readme",
+    "updated_at": "2018-02-05T12:44:17.814397+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Brook Heisler <brookheisler@gmail.com>",
+          "Jorge Aparicio <japaricious@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "criterion-stats", "crate_size": null,
+    "created_at": "2018-02-24T17:02:50.878194+00:00",
+    "dependencies": [
+      {
+        "crate_id": "approx", "default_features": true, "downloads": 0,
+        "features": [], "id": 359488, "kind": "dev", "optional": false,
+        "req": "^0.1.1", "target": null, "version_id": 82343
+      },
+      {
+        "crate_id": "cast", "default_features": true, "downloads": 0,
+        "features": [], "id": 359483, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 82343
+      },
+      {
+        "crate_id": "criterion", "default_features": false, "downloads": 0,
+        "features": [], "id": 359489, "kind": "dev", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 82343
+      },
+      {
+        "crate_id": "itertools-num", "default_features": true,
+        "downloads": 0, "features": [], "id": 359490, "kind": "dev",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 82343
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 359485, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 82343
+      },
+      {
+        "crate_id": "num-traits", "default_features": true, "downloads": 0,
+        "features": [], "id": 359484, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 82343
+      },
+      {
+        "crate_id": "quickcheck", "default_features": false, "downloads": 0,
+        "features": [], "id": 359491, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 82343
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 359486, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 82343
+      },
+      {
+        "crate_id": "thread-scoped", "default_features": true,
+        "downloads": 0, "features": [], "id": 359487, "kind": "normal",
+        "optional": false, "req": "^1.0.2", "target": null,
+        "version_id": 82343
+      }
+    ],
+    "dl_path": "/api/v1/crates/criterion-stats/0.2.1/download",
+    "downloads": 1660, "features": {}, "id": 82343,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/criterion-stats/0.2.1/authors",
+      "dependencies": "/api/v1/crates/criterion-stats/0.2.1/dependencies",
+      "version_downloads": "/api/v1/crates/criterion-stats/0.2.1/downloads"
+    },
+    "num": "0.2.1", "published_by": null,
+    "readme_path": "/api/v1/crates/criterion-stats/0.2.1/readme",
+    "updated_at": "2018-02-24T17:02:50.878194+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Brook Heisler <brookheisler@gmail.com>",
+          "Jorge Aparicio <japaricious@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "criterion-stats", "crate_size": null,
+    "created_at": "2018-03-25T21:18:59.286212+00:00",
+    "dependencies": [
+      {
+        "crate_id": "approx", "default_features": true, "downloads": 0,
+        "features": [], "id": 381849, "kind": "dev", "optional": false,
+        "req": "^0.1.1", "target": null, "version_id": 86378
+      },
+      {
+        "crate_id": "cast", "default_features": true, "downloads": 0,
+        "features": [], "id": 381844, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 86378
+      },
+      {
+        "crate_id": "criterion", "default_features": false, "downloads": 0,
+        "features": [], "id": 381850, "kind": "dev", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 86378
+      },
+      {
+        "crate_id": "itertools-num", "default_features": true,
+        "downloads": 0, "features": [], "id": 381851, "kind": "dev",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 86378
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 381846, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 86378
+      },
+      {
+        "crate_id": "num-traits", "default_features": true, "downloads": 0,
+        "features": [], "id": 381845, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 86378
+      },
+      {
+        "crate_id": "quickcheck", "default_features": false, "downloads": 0,
+        "features": [], "id": 381852, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 86378
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 381847, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 86378
+      },
+      {
+        "crate_id": "thread-scoped", "default_features": true,
+        "downloads": 0, "features": [], "id": 381848, "kind": "normal",
+        "optional": false, "req": "^1.0.2", "target": null,
+        "version_id": 86378
+      }
+    ],
+    "dl_path": "/api/v1/crates/criterion-stats/0.2.2/download",
+    "downloads": 2177, "features": {}, "id": 86378,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/criterion-stats/0.2.2/authors",
+      "dependencies": "/api/v1/crates/criterion-stats/0.2.2/dependencies",
+      "version_downloads": "/api/v1/crates/criterion-stats/0.2.2/downloads"
+    },
+    "num": "0.2.2", "published_by": null,
+    "readme_path": "/api/v1/crates/criterion-stats/0.2.2/readme",
+    "updated_at": "2018-03-25T21:18:59.286212+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Brook Heisler <brookheisler@gmail.com>",
+          "Jorge Aparicio <japaricious@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "criterion-stats", "crate_size": null,
+    "created_at": "2018-04-15T01:31:42.985602+00:00",
+    "dependencies": [
+      {
+        "crate_id": "approx", "default_features": true, "downloads": 0,
+        "features": [], "id": 395960, "kind": "dev", "optional": false,
+        "req": "^0.1.1", "target": null, "version_id": 88930
+      },
+      {
+        "crate_id": "cast", "default_features": true, "downloads": 0,
+        "features": [], "id": 395955, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 88930
+      },
+      {
+        "crate_id": "criterion", "default_features": false, "downloads": 0,
+        "features": [], "id": 395961, "kind": "dev", "optional": false,
+        "req": "^0.2.1", "target": null, "version_id": 88930
+      },
+      {
+        "crate_id": "itertools-num", "default_features": true,
+        "downloads": 0, "features": [], "id": 395962, "kind": "dev",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 88930
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 395957, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 88930
+      },
+      {
+        "crate_id": "num-traits", "default_features": true, "downloads": 0,
+        "features": [], "id": 395956, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 88930
+      },
+      {
+        "crate_id": "quickcheck", "default_features": false, "downloads": 0,
+        "features": [], "id": 395963, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 88930
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 395958, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 88930
+      },
+      {
+        "crate_id": "thread-scoped", "default_features": true,
+        "downloads": 0, "features": [], "id": 395959, "kind": "normal",
+        "optional": false, "req": "^1.0.2", "target": null,
+        "version_id": 88930
+      }
+    ],
+    "dl_path": "/api/v1/crates/criterion-stats/0.2.3/download",
+    "downloads": 13057, "features": {}, "id": 88930,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/criterion-stats/0.2.3/authors",
+      "dependencies": "/api/v1/crates/criterion-stats/0.2.3/dependencies",
+      "version_downloads": "/api/v1/crates/criterion-stats/0.2.3/downloads"
+    },
+    "num": "0.2.3", "published_by": null,
+    "readme_path": "/api/v1/crates/criterion-stats/0.2.3/readme",
+    "updated_at": "2018-04-15T01:31:42.985602+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Brook Heisler <brookheisler@gmail.com>",
+          "Jorge Aparicio <japaricious@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "criterion-stats", "crate_size": null,
+    "created_at": "2018-07-09T01:50:51.535+00:00",
+    "dependencies": [
+      {
+        "crate_id": "approx", "default_features": true, "downloads": 0,
+        "features": [], "id": 453409, "kind": "dev", "optional": false,
+        "req": "^0.1.1", "target": null, "version_id": 99156
+      },
+      {
+        "crate_id": "cast", "default_features": true, "downloads": 0,
+        "features": [], "id": 453404, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 99156
+      },
+      {
+        "crate_id": "criterion", "default_features": false, "downloads": 0,
+        "features": [], "id": 453410, "kind": "dev", "optional": false,
+        "req": "^0.2.1", "target": null, "version_id": 99156
+      },
+      {
+        "crate_id": "itertools-num", "default_features": true,
+        "downloads": 0, "features": [], "id": 453411, "kind": "dev",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 99156
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 453406, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 99156
+      },
+      {
+        "crate_id": "num-traits", "default_features": true, "downloads": 0,
+        "features": [], "id": 453405, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 99156
+      },
+      {
+        "crate_id": "quickcheck", "default_features": false, "downloads": 0,
+        "features": [], "id": 453412, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 99156
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 453407, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 99156
+      },
+      {
+        "crate_id": "thread-scoped", "default_features": true,
+        "downloads": 0, "features": [], "id": 453408, "kind": "normal",
+        "optional": false, "req": "^1.0.2", "target": null,
+        "version_id": 99156
+      }
+    ],
+    "dl_path": "/api/v1/crates/criterion-stats/0.2.4/download",
+    "downloads": 22249, "features": {}, "id": 99156,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/criterion-stats/0.2.4/authors",
+      "dependencies": "/api/v1/crates/criterion-stats/0.2.4/dependencies",
+      "version_downloads": "/api/v1/crates/criterion-stats/0.2.4/downloads"
+    },
+    "num": "0.2.4", "published_by": null,
+    "readme_path": "/api/v1/crates/criterion-stats/0.2.4/readme",
+    "updated_at": "2018-07-09T01:50:51.535+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Brook Heisler <brookheisler@gmail.com>",
+          "Jorge Aparicio <japaricious@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "criterion-stats", "crate_size": 16390,
+    "created_at": "2018-08-27T18:33:13.959160+00:00",
+    "dependencies": [
+      {
+        "crate_id": "approx", "default_features": true, "downloads": 0,
+        "features": [], "id": 487657, "kind": "dev", "optional": false,
+        "req": "^0.1.1", "target": null, "version_id": 105714
+      },
+      {
+        "crate_id": "cast", "default_features": true, "downloads": 0,
+        "features": [], "id": 487652, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 105714
+      },
+      {
+        "crate_id": "criterion", "default_features": false, "downloads": 0,
+        "features": [], "id": 487658, "kind": "dev", "optional": false,
+        "req": "^0.2.1", "target": null, "version_id": 105714
+      },
+      {
+        "crate_id": "itertools-num", "default_features": true,
+        "downloads": 0, "features": [], "id": 487659, "kind": "dev",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 105714
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 487654, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 105714
+      },
+      {
+        "crate_id": "num-traits", "default_features": true, "downloads": 0,
+        "features": [], "id": 487653, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 105714
+      },
+      {
+        "crate_id": "quickcheck", "default_features": false, "downloads": 0,
+        "features": [], "id": 487660, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 105714
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 487655, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 105714
+      },
+      {
+        "crate_id": "thread-scoped", "default_features": true,
+        "downloads": 0, "features": [], "id": 487656, "kind": "normal",
+        "optional": false, "req": "^1.0.2", "target": null,
+        "version_id": 105714
+      }
+    ],
+    "dl_path": "/api/v1/crates/criterion-stats/0.2.5/download",
+    "downloads": 81039, "features": {}, "id": 105714,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/criterion-stats/0.2.5/authors",
+      "dependencies": "/api/v1/crates/criterion-stats/0.2.5/dependencies",
+      "version_downloads": "/api/v1/crates/criterion-stats/0.2.5/downloads"
+    },
+    "num": "0.2.5", "published_by": null,
+    "readme_path": "/api/v1/crates/criterion-stats/0.2.5/readme",
+    "updated_at": "2018-08-27T18:33:13.959160+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Brook Heisler <brookheisler@gmail.com>",
+          "Jorge Aparicio <japaricious@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "criterion-stats", "crate_size": 16979,
+    "created_at": "2018-12-28T01:18:54.544854+00:00",
+    "dependencies": [
+      {
+        "crate_id": "approx", "default_features": true, "downloads": 0,
+        "features": [], "id": 594408, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 124377
+      },
+      {
+        "crate_id": "cast", "default_features": true, "downloads": 0,
+        "features": [], "id": 594403, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 124377
+      },
+      {
+        "crate_id": "criterion", "default_features": false, "downloads": 0,
+        "features": [], "id": 594409, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 124377
+      },
+      {
+        "crate_id": "itertools-num", "default_features": true,
+        "downloads": 0, "features": [], "id": 594410, "kind": "dev",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 124377
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 594405, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 124377
+      },
+      {
+        "crate_id": "num-traits", "default_features": true, "downloads": 0,
+        "features": [], "id": 594404, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 124377
+      },
+      {
+        "crate_id": "quickcheck", "default_features": false, "downloads": 0,
+        "features": [], "id": 594411, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 124377
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 594406, "kind": "normal", "optional": false,
+        "req": "~0.4", "target": null, "version_id": 124377
+      },
+      {
+        "crate_id": "thread-scoped", "default_features": true,
+        "downloads": 0, "features": [], "id": 594407, "kind": "normal",
+        "optional": false, "req": "^1.0.2", "target": null,
+        "version_id": 124377
+      }
+    ],
+    "dl_path": "/api/v1/crates/criterion-stats/0.2.6/download",
+    "downloads": 888, "features": {}, "id": 124377,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/criterion-stats/0.2.6/authors",
+      "dependencies": "/api/v1/crates/criterion-stats/0.2.6/dependencies",
+      "version_downloads": "/api/v1/crates/criterion-stats/0.2.6/downloads"
+    },
+    "num": "0.2.6", "published_by": null,
+    "readme_path": "/api/v1/crates/criterion-stats/0.2.6/readme",
+    "updated_at": "2018-12-29T19:32:08.473021+00:00", "yanked": true
+  },
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {
+        "names": [
+          "Brook Heisler <brookheisler@gmail.com>",
+          "Jorge Aparicio <japaricious@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "criterion-stats", "crate_size": 16973,
+    "created_at": "2018-12-29T19:31:54.681804+00:00",
+    "dependencies": [
+      {
+        "crate_id": "approx", "default_features": true, "downloads": 0,
+        "features": [], "id": 595900, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 124629
+      },
+      {
+        "crate_id": "cast", "default_features": true, "downloads": 0,
+        "features": [], "id": 595895, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 124629
+      },
+      {
+        "crate_id": "criterion", "default_features": false, "downloads": 0,
+        "features": [], "id": 595901, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 124629
+      },
+      {
+        "crate_id": "itertools-num", "default_features": true,
+        "downloads": 0, "features": [], "id": 595902, "kind": "dev",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 124629
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 595897, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 124629
+      },
+      {
+        "crate_id": "num-traits", "default_features": true, "downloads": 0,
+        "features": [], "id": 595896, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 124629
+      },
+      {
+        "crate_id": "quickcheck", "default_features": false, "downloads": 0,
+        "features": [], "id": 595903, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 124629
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 595898, "kind": "normal", "optional": false,
+        "req": "~0.4", "target": null, "version_id": 124629
+      },
+      {
+        "crate_id": "thread-scoped", "default_features": true,
+        "downloads": 0, "features": [], "id": 595899, "kind": "normal",
+        "optional": false, "req": "^1.0.2", "target": null,
+        "version_id": 124629
+      }
+    ],
+    "dl_path": "/api/v1/crates/criterion-stats/0.3.0/download",
+    "downloads": 17475, "features": {}, "id": 124629,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/criterion-stats/0.3.0/authors",
+      "dependencies": "/api/v1/crates/criterion-stats/0.3.0/dependencies",
+      "version_downloads": "/api/v1/crates/criterion-stats/0.3.0/downloads"
+    },
+    "num": "0.3.0", "published_by": null,
+    "readme_path": "/api/v1/crates/criterion-stats/0.3.0/readme",
+    "updated_at": "2018-12-29T19:31:54.681804+00:00", "yanked": false
+  }
+]
