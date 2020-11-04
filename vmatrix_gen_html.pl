@@ -25,9 +25,9 @@ for my $version ( @{ $crateinfo->versions } ) {
 }
 my (@rustc_order) = sort { vsort( $a, $b ) } @{ $crateinfo->rustcs };
 
-open my $fh, ">", "${ROOT}/${CRATE}/${OUTFILE}"
-  or die "Can't write $OUTFILE, $!";
+my $outbuf = "";
 
+open my $fh, ">", \$outbuf or die "Can't write output buffer";
 $fh->print(<<"EOF");
 <html>
   <head>
@@ -121,24 +121,12 @@ for my $version ( reverse @order ) {
     $fh->print("</tr>\n");
 }
 $fh->print("</tbody></table></body></html>\n");
-
-sub get_versions {
-    my ($path) = @_;
-    open my $fh, "<", $path or die "can't read $path";
-    my @v;
-    while ( my $line = <$fh> ) {
-        chomp $line;
-        my ( $version, $message, @rest ) = split /[|]/, $line;
-        my $rec = { version => $version };
-        if ( defined $message and length $message ) {
-            $rec->{message} = $message;
-        }
-        if (@rest) {
-            $rec->{extras} = \@rest;
-        }
-        push @v, $rec;
-    }
-    return @v;
+close $fh;
+{
+    open my $fh, ">", "${ROOT}/${CRATE}/${OUTFILE}"
+      or die "Can't write $OUTFILE, $!";
+    $fh->print($outbuf);
+    close $fh;
 }
 
 sub vsplit {
