@@ -126,5 +126,14 @@ sub crate_info {
     require resultdb::crateinfo;
     resultdb::crateinfo->new( rdb => $_[0], crate => $_[1] );
 }
-1;
 
+sub crate_write_flat_rustc_results {
+    my ( $self, $crate, $rustc, $results ) = @_;
+    my $file = $self->crate_dir($crate) . '/rustc-' . $rustc;
+    open my $fh, ">", $file or die "Can't write $file, $!";
+    for my $result ( @{$results} ) {
+        $fh->printf( "%s|%s\n", $result->{version}, $result->{message} );
+    }
+    close $fh or warn "Error closing $file, $!\n";
+}
+1;

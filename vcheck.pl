@@ -14,9 +14,6 @@ $CRATE = $ENV{CRATE} if exists $ENV{CRATE} and length $ENV{CRATE};
 
 my $rdb = resultdb->new();
 
-our $VERSION_BASE        = $rdb->root();
-our $VERSION_DEST_PREFIX = "${VERSION_BASE}/${CRATE}/rustc-";
-
 our (@RUSTC) = (
     qw(
       1.0.0  1.1.0  1.2.0  1.3.0  1.4.0  1.5.0  1.6.0  1.7.0  1.8.0  1.9.0
@@ -30,10 +27,6 @@ my $batch_start = time;
 my $test_count  = 0;
 
 for my $rustc ( reverse @RUSTC ) {
-    if ( not $ENV{UPDATE} and -e "${VERSION_DEST_PREFIX}${rustc}" ) {
-        warn "Results found for $CRATE on rustc-$rustc, skipping";
-        next;
-    }
     in_tempdir "$CRATE-rustc$rustc" => sub {
         my $cwd = shift;
         my (@versions) =
@@ -49,7 +42,6 @@ for my $rustc ( reverse @RUSTC ) {
             rustc_version   => $rustc,
             rustc_toolchain => $rustc,
             work_dir        => $cwd,
-            result_file     => $VERSION_DEST_PREFIX . $rustc,
         );
     };
 }
@@ -58,25 +50,6 @@ my $avg        = ( $batch_stop - $batch_start ) / $test_count;
 printf
 "\e[34;1m* Suite run: %d seconds for %d version targets (%4.3f seconds per target)\e[0m\n",
   ( $batch_stop - $batch_start ), $test_count, $avg;
-
-sub get_versions {
-    my ($path) = @_;
-    open my $fh, "<", $path or die "can't read $path";
-    my @v;
-    while ( my $line = <$fh> ) {
-        chomp $line;
-        my ( $version, $message, @rest ) = split /[|]/, $line;
-        my $rec = { version => $version };
-        if ( defined $message and length $message ) {
-            $rec->{message} = $message;
-        }
-        if (@rest) {
-            $rec->{extras} = \@rest;
-        }
-        push @v, $rec;
-    }
-    return @v;
-}
 
 sub do_test {
     my (%params) = @_;
@@ -143,21 +116,16 @@ sub do_testset {
     my $rustc_version   = $params{rustc_version};
     my $rustc_toolchain = $params{rustc_toolchain};
     my $work_dir        = $params{work_dir};
-    my $result_file     = $params{result_file};
 
     my $start = time();
 
     my (@results);
     my (%prev_results);
-    if ( -e $result_file ) {
-        warn "Loading past results from $result_file\n";
-        for my $prev ( get_versions($result_file) ) {
-            if ( not defined $prev->{version} ) {
-                require Data::Dump;
-                die "Bad line in $result_file: " . Data::Dump::pp($prev);
-            }
-            $prev_results{ $prev->{version} } = $prev;
-        }
+    for
+      my $prev ( @{ $rdb->crate_flat_rustc_results( $crate, $rustc_version ) } )
+    {
+        $prev_results{ $prev->[0] } =
+          { version => $prev->[0], message => $prev->[1] };
     }
     for my $version ( reverse @$versions ) {
         if ( not defined $version->{version} ) {
@@ -189,11 +157,8 @@ sub do_testset {
         $version->{message} = $result ? "pass" : "fail";
         push @results, $version;
     }
-    open my $fh, ">", $result_file or die "Can't write $result_file";
-    for my $result ( reverse @results ) {
-        $fh->printf( "%s|%s\n", $result->{version}, $result->{message} );
-    }
-    close $fh or warn "Error closing $result_file, $!\n";
+    $rdb->crate_write_flat_rustc_results( $crate, $rustc_version,
+        [ reverse @results ] );
     my $stop     = time;
     my $consumed = $stop - $start;
     my $ncrates  = scalar @$versions;
