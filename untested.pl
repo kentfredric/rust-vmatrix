@@ -11,7 +11,7 @@ for my $crate ( $rdb->crate_names ) {
     my $vjs  = $rdb->crate_vjson_path($crate);
     my $info = $rdb->crate_info($crate);
     next if @{ $info->rustcs };
-    my (@versions) = ( @{ $info->versions } );
+    my (@versions) = grep { not $info->is_yanked($_) } ( @{ $info->versions } );
     next unless @versions;
     my (@deps) = ( keys %{ $info->dependencies } );
     my $mtime = -e $vjs ? sprintf "%d", 24 * 60 * -M $vjs : "?";
