@@ -15,14 +15,7 @@ our $OUTFILE = "index.html";
 
 my $crateinfo = $rdb->crate_info($CRATE);
 
-my %versions;
-my (@order);
-
-for my $version ( @{ $crateinfo->versions } ) {
-    next if $crateinfo->is_yanked($version);
-    push @order, $version;
-    $versions{$version} = {} unless exists $versions{$version};
-}
+my (@order) = grep { not $crateinfo->is_yanked($_) } @{ $crateinfo->versions };
 my (@rustc_order) = sort { vsort( $a, $b ) } @{ $crateinfo->rustcs };
 
 my $outbuf = "";
