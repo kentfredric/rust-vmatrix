@@ -100,7 +100,7 @@ name = "test"
 version = "0.1.0"
 authors = [ "Kent Fredric <kentnl\@gentoo.org>" ]
 
-[dependencies.${crate}]
+[dependencies."${crate}"]
 version = "=${version}"
 EOF
         close $fh or warn "Error closing $cargo_toml, $!";
