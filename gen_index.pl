@@ -14,17 +14,11 @@ our $TEMPLATE     = "${VERSION_BASE}/index.html.tpl";
 our $TARGET       = "${VERSION_BASE}/index.html";
 
 sub find_crates {
-    opendir my $dfh, $VERSION_BASE or die "Can't opendir $VERSION_BASE";
-    my (@crates);
-    while ( my $ent = readdir $dfh ) {
-        next if $ent eq '.';
-        next if $ent eq '..';
-        next unless -d "${VERSION_BASE}/${ent}";
-        next unless -r "${VERSION_BASE}/${ent}/versions.json";
-        next unless -r "${VERSION_BASE}/${ent}/index.html";
-        push @crates, $ent;
-    }
-    return @crates;
+    grep {
+              -r $rdb->crate_vjson_path($_)
+          and -r $rdb->crate_dir($_)
+          . '/index.html'
+    } $rdb->crate_names;
 }
 
 sub parse_vfile {
