@@ -64,7 +64,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/unwind/0.2.0/download",
-    "downloads": 3598, "features": {"ptrace": ["unwind-sys/ptrace"]},
+    "downloads": 3600, "features": {"ptrace": ["unwind-sys/ptrace"]},
     "id": 71846, "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/unwind/0.2.0/authors",
@@ -102,7 +102,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/unwind/0.3.0/download",
-    "downloads": 8371, "features": {"ptrace": ["unwind-sys/ptrace"]},
+    "downloads": 8517, "features": {"ptrace": ["unwind-sys/ptrace"]},
     "id": 182434, "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/unwind/0.3.0/authors",
@@ -117,5 +117,57 @@
     },
     "readme_path": "/api/v1/crates/unwind/0.3.0/readme",
     "updated_at": "2019-10-13T23:28:43.417348+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-11-04T01:17:34.677065+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/1455697?v=4",
+          "id": 5, "login": "sfackler", "name": "Steven Fackler",
+          "url": "https://github.com/sfackler"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Steven Fackler <sfackler@gmail.com>"]},
+      "users": []
+    },
+    "crate": "unwind", "crate_size": 6025,
+    "created_at": "2020-11-04T01:17:34.677065+00:00",
+    "dependencies": [
+      {
+        "crate_id": "foreign-types", "default_features": true,
+        "downloads": 0, "features": [], "id": 1817161, "kind": "normal",
+        "optional": false, "req": "^0.5", "target": null,
+        "version_id": 301755
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1817162, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 301755
+      },
+      {
+        "crate_id": "unwind-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1817163, "kind": "normal", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 301755
+      }
+    ],
+    "dl_path": "/api/v1/crates/unwind/0.4.0/download", "downloads": 6,
+    "features": {"ptrace": ["unwind-sys/ptrace"]}, "id": 301755,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/unwind/0.4.0/authors",
+      "dependencies": "/api/v1/crates/unwind/0.4.0/dependencies",
+      "version_downloads": "/api/v1/crates/unwind/0.4.0/downloads"
+    },
+    "num": "0.4.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/1455697?v=4",
+      "id": 5, "login": "sfackler", "name": "Steven Fackler",
+      "url": "https://github.com/sfackler"
+    },
+    "readme_path": "/api/v1/crates/unwind/0.4.0/readme",
+    "updated_at": "2020-11-04T01:17:34.677065+00:00", "yanked": false
   }
 ]
