@@ -57,19 +57,42 @@ sub do_update {
         my $old_versions = $rdb->crate_read_vjson($crate);
         my (@versions) =
           @{ cargo::update_version_info( $crate, $old_versions ) };
-        my $do_write = should_write( $old_versions, \@versions );
-        if ($do_write) {
+        my (@log_ent);
+        if ( should_write( $old_versions, \@versions ) ) {
+            push @log_ent, -e $vjs ? "update" : "add";
+            push @log_ent, $crate;
+
             $rdb->crate_write_vjson( $crate, [ reverse @versions ] );
+            my $changes = version_changes( $old_versions, \@versions );
+            for my $key ( sort keys %{$changes} ) {
+                push @log_ent, sprintf "%s=%s", $key, join q[,],
+                  @{ $changes->{$key} };
+            }
+            $ENV{QUIET} and *STDERR->print("\n\x07\n");
             warn "\e[33m*** Updated $crate ***\e[0m\n";
         }
         my (%deps) = %{ $rdb->crate_dependencies_from_json( \@versions ) };
         for my $key ( keys %deps ) {
             my $path = $rdb->root . '/' . $key;
+            my (@newdeps);
             if ( !-d $path ) {
                 warn "\e[33m New dependency: \e[32m$key\e[0m\n";
                 system( 'mkdir', '-p', $path );
+                push @newdeps, $key;
                 unshift @queue, $key;
             }
+            if (@newdeps) {
+                push @log_ent, "newdeps=" . join q[,], @newdeps;
+            }
+        }
+        if (@log_ent) {
+            my $lf = $rdb->root() . '/jsondb_changelog.txt';
+            open my $fh, ">>", $lf or die "Cant write $lf, $!";
+            $fh->print( scalar gmtime );
+            $fh->print(" ");
+            $fh->print( join q[ ], @log_ent );
+            $fh->print("\n");
+            close $fh or warn "Error closing $lf, $!";
         }
 
         if ( -e $vjs ) {
@@ -107,6 +130,41 @@ sub should_write {
         return 1 if not exists $new_vhash{ $old_version->{num} };
     }
     return 0;
+}
+
+sub version_changes {
+    my ( $old, $new ) = @_;
+    my (%changed);
+    my (%old_vhash);
+    my $yanked = sub {
+        return 0 if not exists $_[0]->{yanked};
+        return 0 if not $_[0]->{yanked};
+        return 1;
+    };
+    for my $old_version ( @{$old} ) {
+        $old_vhash{ $old_version->{num} } = $yanked->($old_version);
+    }
+    my %new_vhash;
+
+    # detect new deps, and yank changes
+    for my $new_version ( @{$new} ) {
+        if ( not exists $old_vhash{ $new_version->{num} } ) {
+            push @{ $changed{new} }, $new_version->{num};
+            next;
+        }
+        if ( $old_vhash{ $new_version->{num} } != $yanked->($new_version) ) {
+            push @{ $changed{changed} }, $new_version->{num};
+        }
+        $new_vhash{ $new_version->{num} } = 0;
+    }
+
+    # detect dep removals
+    for my $old_version ( @{$old} ) {
+        if ( not exists $new_vhash{ $old_version->{num} } ) {
+            push @{ $changed{removed} }, $old_version->{num};
+        }
+    }
+    return \%changed;
 }
 
 sub should_update {
