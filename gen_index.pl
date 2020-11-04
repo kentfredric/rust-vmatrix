@@ -21,12 +21,6 @@ sub find_crates {
     } $rdb->crate_names;
 }
 
-sub parse_vfile {
-    my ($file) = @_;
-    open my $fh, "<", $file or die "Can't read $file, $!";
-    map { chomp; [ split /[|]/, $_ ] } <$fh>;
-}
-
 sub parse_version_info {
     my ($crate) = @_;
     my $info_hash = {
@@ -38,12 +32,12 @@ sub parse_version_info {
         version_info  => {},
         version_order => [],
     };
+    my $crateinfo = $rdb->crate_info($crate);
     my $crate_dir = "${VERSION_BASE}/${crate}";
 
     # Get baseline data
-    for my $rec ( @{ $rdb->crate_read_vjson($crate) } ) {
-        my ($version) = $rec->{num};
-        next if exists $rec->{yanked} and $rec->{yanked};
+    for my $version ( @{ $crateinfo->versions } ) {
+        next if $crateinfo->is_yanked($version);
         push @{ $info_hash->{version_order} }, $version;
         if ( not exists $info_hash->{version_info}->{$version} ) {
             $info_hash->{version_info}->{$version} = {
@@ -54,25 +48,17 @@ sub parse_version_info {
             };
             $info_hash->{num_versions}++;
         }
-        if ( exists $rec->{yanked} and $rec->{yanked} ) {
+        if ( $crateinfo->is_yanked($version) ) {
             $info_hash->{version_info}->{$version}->{message} = 'YANKED';
         }
     }
 
-    # Collect result data
-    opendir my $dfh, $crate_dir or die "can't opendir $crate_dir";
-    while ( my $ent = readdir $dfh ) {
-        next if $ent eq '.';
-        next if $ent eq '..';
-        next unless $ent =~ /\Arustc-(\d+[.]\d+[.]\d+)\z/;
-        next if -d $ent;
-        my $rustc = "$1";
-        my $file  = "$crate_dir/$ent";
+    for my $rustc ( @{ $crateinfo->rustcs } ) {
         $info_hash->{rustc_index}->{$rustc} = 1;
-        for my $result ( parse_vfile($file) ) {
+        for my $result ( @{ $crateinfo->rustc_results($rustc) } ) {
             my $version = $result->[0];
             defined $version and length $version
-              or die "Bad entry in $file: " . Data::Dump::pp($result);
+              or die "Bad entry " . Data::Dump::pp($result);
             my $message = $result->[1];
 
             $info_hash->{num_results}++;
