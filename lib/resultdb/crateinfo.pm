@@ -92,11 +92,16 @@ sub rustc_results {
 
 sub rustc_version_result {
     my ( $self, $rustc, $version ) = @_;
-    if ( not exists $self->{rustc_version_results}->{$rustc} ) {
-        for my $info ( @{ $self->rustc_results($rustc) } ) {
-            if ( 1 < scalar @{$info} ) {
-                $self->{rustc_version_results}->{$rustc}->{ $info->[0] } =
-                  $info->[1];
+    if ( not exists $self->{rustc_version_results} ) {
+        for my $result ( @{ $self->result_json } ) {
+            my $version = $result->{num};
+            for my $pass_rust ( @{ $result->{rustc_pass} || [] } ) {
+                $self->{rustc_version_results}->{$pass_rust}->{$version} =
+                  'pass';
+            }
+            for my $fail_rust ( @{ $result->{rustc_fail} || [] } ) {
+                $self->{rustc_version_results}->{$fail_rust}->{$version} =
+                  'fail';
             }
         }
     }
