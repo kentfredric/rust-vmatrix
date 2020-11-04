@@ -81,7 +81,20 @@ sub crate_read_vjson {
             scalar <$fh>;
         }
     );
+}
 
+sub crate_read_rjson {
+    my ( $self, $crate ) = @_;
+    my $jxs         = JSON::MaybeXS->new();
+    my $crate_rjson = $self->crate_rjson_path($crate);
+    return [] unless -e $crate_rjson;
+    open my $fh, "<:utf8", $crate_rjson or die "Can't read $crate_rjson, $!";
+    return $jxs->decode(
+        do {
+            local $/;
+            scalar <$fh>;
+        }
+    );
 }
 
 sub crate_dependencies_from_json {
