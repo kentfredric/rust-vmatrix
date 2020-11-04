@@ -57,9 +57,25 @@ sub json {
     return $_[0]->{json};
 }
 
+sub result_json {
+    if ( not exists $_[0]->{result_json} ) {
+        $_[0]->{result_json} = $_[0]->{rdb}->crate_read_rjson( $_[0]->{crate} );
+    }
+    return $_[0]->{result_json};
+}
+
 sub rustcs {
     if ( not exists $_[0]->{rustcs} ) {
-        $_[0]->{rustcs} = $_[0]->{rdb}->crate_flat_rustcs( $_[0]->{crate} );
+        my (%rustcs);
+        for my $version ( @{ $_[0]->result_json } ) {
+            for my $rustc ( @{ $version->{rustc_fail} },
+                @{ $version->{rustc_pass} } )
+            {
+                $rustcs{$rustc} = 1;
+            }
+        }
+        $_[0]->{rustcs} =
+          [ grep { exists $rustcs{$_} } $_[0]->{rdb}->rustc_order ];
     }
     return $_[0]->{rustcs};
 }
