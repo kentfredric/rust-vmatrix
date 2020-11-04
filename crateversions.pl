@@ -20,6 +20,7 @@ my $min_fresh;
 my $max_updates_per_run = $max_loop_pause / $pause;
 my $updates_left;
 my $now;
+my $last_char;
 
 if ( $ENV{WATCH} ) {
     $ENV{UPDATE} = 1;
@@ -28,6 +29,7 @@ if ( $ENV{WATCH} ) {
     while (1) {
         printf "== Loop Run at %s ==\n", scalar localtime;
         $min_fresh    = undef;
+        $last_char    = undef;
         $now          = time;
         $updates_left = $max_updates_per_run;
         do_update( sort $rdb->crate_names );
@@ -182,6 +184,11 @@ sub should_update {
         $min_fresh = $time_till_refresh if not defined $min_fresh;
         $min_fresh = $time_till_refresh if $min_fresh > $time_till_refresh;
         if ( $ENV{QUIET} ) {
+            my $c = substr $crate, 0, 1;
+            if ( not defined $last_char or $last_char ne $c ) {
+                *STDERR->print($c);
+                $last_char = $c;
+            }
             my $freshbits = {
                 0  => "\e[33m\x{2586}\e[0m",
                 1  => "\e[35m\x{2584}\e[0m",
