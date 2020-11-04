@@ -19,11 +19,10 @@ my $test_count  = 0;
 
 for my $rustc ( reverse $rdb->rustc_order ) {
     in_tempdir "$CRATE-rustc$rustc" => sub {
-        my $cwd = shift;
+        my $cwd       = shift;
+        my $crateinfo = $rdb->crate_info($CRATE);
         my (@versions) =
-          map  { { version => $_->{num} } }
-          grep { not exists $_->{yanked} or not $_->{yanked} }
-          @{ $rdb->crate_read_vjson($CRATE) };
+          grep { not $crateinfo->is_yanked($_) } @{ $crateinfo->versions };
         $test_count += scalar @versions;
         printf "entering %s\n", $cwd;
 
