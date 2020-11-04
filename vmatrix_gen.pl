@@ -14,17 +14,10 @@ $CRATE = $ENV{CRATE} if exists $ENV{CRATE} and length $ENV{CRATE};
 
 my $crateinfo = $rdb->crate_info($CRATE);
 
-my %versions;
-my %rustc_results;
-my (@order);
+my (@order) = grep { not $crateinfo->is_yanked($_) } @{ $crateinfo->versions };
 my $crate_vspace = 0;
-for my $version ( @{ $crateinfo->versions } ) {
-    next if $crateinfo->is_yanked($version);
-    if ( length $version > $crate_vspace ) {
-        $crate_vspace = length $version;
-    }
-    push @order, $version;
-    $versions{$version} = {} unless exists $versions{$version};
+for (@order) {
+    $crate_vspace = length $_ if $crate_vspace < length $_;
 }
 
 my (@rustc_order) = sort { vsort( $a, $b ) } @{ $crateinfo->rustcs };
