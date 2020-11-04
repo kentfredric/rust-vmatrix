@@ -11,12 +11,14 @@ use resultdb;
 use Time::HiRes qw(sleep);
 my $rdb = resultdb->new();
 
-my $refresh_after  = 8 * 60 * 60;
+my $refresh_after  = 3 * 60 * 60;
 my $poll_pause     = 0.1;
-my $pause          = 5;
-my $loop_pause     = 30;
+my $pause          = 1;
+my $loop_pause     = 5;
 my $max_loop_pause = 180;
 my $min_fresh;
+my $max_updates_per_run = $max_loop_pause / $pause;
+my $updates_left;
 my $now;
 
 if ( $ENV{WATCH} ) {
@@ -25,8 +27,9 @@ if ( $ENV{WATCH} ) {
     *STDERR->autoflush(1);
     while (1) {
         printf "== Loop Run at %s ==\n", scalar localtime;
-        $min_fresh = undef;
-        $now       = time;
+        $min_fresh    = undef;
+        $now          = time;
+        $updates_left = $max_updates_per_run;
         do_update( sort $rdb->crate_names );
         print "\n";
         my $wait = $loop_pause;
@@ -117,7 +120,7 @@ sub should_update {
       100 - ( ( $age_secs + 0.1 ) / $refresh_after * 100 );
 
     my $time_till_refresh = $refresh_after - $age_secs;
-    if ( $time_till_refresh > 0 ) {
+    if ( $time_till_refresh > 0 or $updates_left < 1 ) {
         $min_fresh = $time_till_refresh if not defined $min_fresh;
         $min_fresh = $time_till_refresh if $min_fresh > $time_till_refresh;
         if ( $ENV{QUIET} ) {
@@ -135,12 +138,14 @@ sub should_update {
                 10 => '.',
             };
             my $freshkind = sprintf "%d", $freshness / 10;
+            $freshkind = 0 if $freshkind < 0;
             $freshkind = 1
               if $freshkind == 0
               and $time_till_refresh > $loop_pause;
             $freshkind = 2
               if $freshkind == 1
               and $time_till_refresh > ( $loop_pause * 2 );
+            $freshkind = 10 if $freshkind > 10;
             my $freshbit = $freshbits->{$freshkind};
             utf8::encode($freshbit);
             *STDERR->print("$freshbit");
@@ -161,5 +166,6 @@ sub should_update {
 " $crate is \e[34mstale\e[0m($freshness%), pausing ($pause), then checking\n";
     }
     sleep($pause);
+    $updates_left--;
     return 1;
 }
