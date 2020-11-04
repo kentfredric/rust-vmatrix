@@ -118,21 +118,11 @@ sub do_testset {
           { version => $prev->[0], message => $prev->[1] };
     }
     for my $version ( reverse @$versions ) {
-        if ( not defined $version->{version} ) {
-            require Data::Dump;
-            die "Bad line in version list: " . Data::Dump::pp($version);
-        }
-        if ( exists $version->{message} ) {
-            warn
-              "Skipping: $crate v$version->{version} : $version->{message}\n";
-            push @results, $version;
-            next;
-        }
-        if ( exists $prev_results{ $version->{version} } ) {
-            my $presult = $prev_results{ $version->{version} };
+        if ( exists $prev_results{$version} ) {
+            my $presult = $prev_results{$version};
             if ( exists $presult->{message} and length $presult->{message} ) {
                 warn
-"Skipping $crate v$version->{version}, previous result : $presult->{message}\n";
+"Skipping $crate v$version, previous result : $presult->{message}\n";
                 push @results, $presult;
                 next;
             }
@@ -141,12 +131,18 @@ sub do_testset {
             rustc_version   => $rustc_version,
             rustc_toolchain => $rustc_toolchain,
             crate           => $crate,
-            version         => $version->{version},
+            version         => $version,
             work_dir        => $work_dir,
         );
-        $version->{message} = $result ? "pass" : "fail";
-        push @results, $version;
+        push @results,
+          { version => $version, message => ( $result ? "pass" : "fail" ) };
     }
+    my $old = $rdb->crate_read_rjson($crate);
+    my $jxs = $rdb->crate_read_vjson($crate);
+    my $deep =
+      $rdb->crate_merge_flat_rustc_results( $crate, $old, $rustc_version,
+        [ map { [ $_->{version}, $_->{message} ] } reverse @results ], $jxs );
+    $rdb->crate_write_rjson( $crate, $deep );
     $rdb->crate_write_flat_rustc_results( $crate, $rustc_version,
         [ reverse @results ] );
     my $stop     = time;
