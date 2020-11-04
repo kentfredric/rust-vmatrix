@@ -11,37 +11,19 @@ my $rdb = resultdb->new();
 our $ROOT  = $rdb->root();
 our $CRATE = "libc";
 $CRATE = $ENV{CRATE} if exists $ENV{CRATE} and length $ENV{CRATE};
-our $OUTFILE     = "index.html";
-our $INFO_PREFIX = "rustc-";
+our $OUTFILE = "index.html";
+
+my $crateinfo = $rdb->crate_info($CRATE);
 
 my %versions;
-my %rustc_results;
 my (@order);
 
-for my $version ( @{ $rdb->crate_read_vjson($CRATE) } ) {
-    next if exists $version->{yanked} and $version->{yanked};
-    my $v = $version->{num};
-    push @order, $v;
-    $versions{$v} = {} unless exists $versions{$v};
+for my $version ( @{ $crateinfo->versions } ) {
+    next if $crateinfo->is_yanked($version);
+    push @order, $version;
+    $versions{$version} = {} unless exists $versions{$version};
 }
-{
-    opendir my $dfh, "${ROOT}/${CRATE}"
-      or die "Can't opendir ${ROOT}/${CRATE}, $!";
-    while ( my $ent = readdir $dfh ) {
-        next if $ent eq '.';
-        next if $ent eq '..';
-        next unless $ent =~ /\A\Q$INFO_PREFIX\E(\d+.\d+.\d+)\z/;
-        my $rustc = $1;
-        my (@results) = get_versions("${ROOT}/${CRATE}/$ent");
-        $rustc_results{$rustc} = {} unless exists $rustc_results{$rustc};
-        for my $version (@results) {
-            my $v = $version->{version};
-            next unless exists $versions{$v};
-            $rustc_results{$rustc}{$v} = $version->{message};
-        }
-    }
-}
-my (@rustc_order) = sort { vsort( $a, $b ) } keys %rustc_results;
+my (@rustc_order) = sort { vsort( $a, $b ) } @{ $crateinfo->rustcs };
 
 open my $fh, ">", "${ROOT}/${CRATE}/${OUTFILE}"
   or die "Can't write $OUTFILE, $!";
@@ -116,19 +98,20 @@ for my $version ( reverse @order ) {
     }
     $fh->printf( "<th class=\"crateversion\">%s</th>\n", $version );
     for my $rustc (@rustc_order) {
-        if ( not exists $rustc_results{$rustc}{$version} ) {
+        my $result = $crateinfo->rustc_version_result( $rustc, $version );
+        if ( not length $result ) {
             $fh->printf(
 "<td class=\"result unknown\" title=\"unknown result for %s version %s on rust %s\">?</td>\n",
                 $CRATE, $version, $rustc );
             next;
         }
-        if ( $rustc_results{$rustc}{$version} eq 'pass' ) {
+        if ( 'pass' eq $result ) {
             $fh->printf(
 "<td class=\"result pass\" title=\"pass for %s version %s on rust %s\">*</td>\n",
                 $CRATE, $version, $rustc );
             next;
         }
-        if ( $rustc_results{$rustc}{$version} eq 'fail' ) {
+        if ( 'fail' eq $result ) {
             $fh->printf(
 "<td class=\"result fail\" title=\"fail for %s version %s on rust %s\">_</td>\n",
                 $CRATE, $version, $rustc );
