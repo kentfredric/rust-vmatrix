@@ -83,9 +83,18 @@ sub rustcs {
 sub rustc_results {
     my ( $self, $rustc ) = @_;
     die "rustc not passed" unless defined $rustc;
+    if ( not exists $_[0]->{rustc_version_results} ) {
+        $self->rustc_version_result($rustc);
+    }
     if ( not exists $_[0]->{rustc_results}->{$rustc} ) {
-        $_[0]->{rustc_results}->{$rustc} =
-          $self->{rdb}->crate_flat_rustc_results( $self->{crate}, $rustc );
+        $self->{rustc_results}->{$rustc} = [
+            map { [ $_, $_[0]->{rustc_version_results}->{$rustc}->{$_} ] }
+              grep {
+                      exists $_[0]->{rustc_version_results}->{$rustc}
+                  and exists $_[0]->{rustc_version_results}->{$rustc}->{$_}
+              } @{ $self->versions }
+        ];
+
     }
     return $_[0]->{rustc_results}->{$rustc};
 }
@@ -94,17 +103,18 @@ sub rustc_version_result {
     my ( $self, $rustc, $version ) = @_;
     if ( not exists $self->{rustc_version_results} ) {
         for my $result ( @{ $self->result_json } ) {
-            my $version = $result->{num};
+            my $ver = $result->{num};
             for my $pass_rust ( @{ $result->{rustc_pass} || [] } ) {
-                $self->{rustc_version_results}->{$pass_rust}->{$version} =
+                $self->{rustc_version_results}->{$pass_rust}->{$ver} =
                   'pass';
             }
             for my $fail_rust ( @{ $result->{rustc_fail} || [] } ) {
-                $self->{rustc_version_results}->{$fail_rust}->{$version} =
+                $self->{rustc_version_results}->{$fail_rust}->{$ver} =
                   'fail';
             }
         }
     }
+    return "" if not defined $version;
     return ""
       if not exists $self->{rustc_version_results}->{$rustc}->{$version};
     return $self->{rustc_version_results}->{$rustc}->{$version};

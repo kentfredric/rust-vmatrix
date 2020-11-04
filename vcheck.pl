@@ -107,13 +107,11 @@ sub do_testset {
     my $rustc_toolchain = $params{rustc_toolchain};
     my $work_dir        = $params{work_dir};
 
-    my $start = time();
-
+    my $start     = time();
+    my $crateinfo = $rdb->crate_info($crate);
     my (@results);
     my (%prev_results);
-    for
-      my $prev ( @{ $rdb->crate_flat_rustc_results( $crate, $rustc_version ) } )
-    {
+    for my $prev ( @{ $crateinfo->rustc_results($rustc_version) } ) {
         $prev_results{ $prev->[0] } =
           { version => $prev->[0], message => $prev->[1] };
     }
@@ -143,8 +141,7 @@ sub do_testset {
       $rdb->crate_merge_flat_rustc_results( $crate, $old, $rustc_version,
         [ map { [ $_->{version}, $_->{message} ] } reverse @results ], $jxs );
     $rdb->crate_write_rjson( $crate, $deep );
-    $rdb->crate_write_flat_rustc_results( $crate, $rustc_version,
-        [ reverse @results ] );
+
     my $stop     = time;
     my $consumed = $stop - $start;
     my $ncrates  = scalar @$versions;
