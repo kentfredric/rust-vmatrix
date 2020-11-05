@@ -79,7 +79,7 @@
     </style>
   </head>
   <body>
-    <p>[ <a href="#about">about</a> | <a href="#methodology">methodology</a> ]</p>
+    <p>[ <a href="#about">about</a> | <a href="#methodology">methodology</a> | <a href="#contributing">contributing</a> ]</p>
     <h1 id="reports">Build reports<a href="#reports">#</a></h1>
     <!-- build reports -->
     <h1 id="about">About<a href="#about">#</a></h1>
@@ -136,5 +136,23 @@ version = "=VERSION"
        getting coverage of <em>fundamental</em> crates, particularly,
        ones with either few, or no dependencies, or at least,
        recursively checking the dependencies themselves.</p>
+  <h1 id="contributing">Contributing</h1>
+    <p>See bugs in the information? Got crates you think should be
+    covered but arent? Something else? Feel free to
+    <a href="https://github.com/kentfredric/rust-vmatrix/issues">
+    Open an issue</a> over on the repository over at
+    <a href="https://github.com/kentfredric/rust-vmatrix/"
+       title="rust-vmatrix repository">
+    https://github.com/kentfredric/rust-vmatrix/</a>.</p>
+    <p>Just be aware, at the <span class="hint"
+      title="Thu Nov  5 01:42:11 2020 GMT">time of this
+      writing</span> there is a <strong>sizeable</strong> backlog of
+      <em>1708 crates</em> amassing <em>1672949 build
+      combinations</em> which works out at a cool range of between
+      <em>38.73 days</em> and <em>3.18 years</em> of build time
+      queued.</p>
+    <p>Crates with few versions and crates with few dependencies are
+    prioritized as these are the ones that tend to be more
+    indiciative of the overall ecosystems <strong>MSRV</strong>.</p>
   </body>
 </html>
