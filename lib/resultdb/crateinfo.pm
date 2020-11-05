@@ -89,6 +89,26 @@ sub has_results {
     return;
 }
 
+sub srv_min_version {
+    my ( $self, $version ) = @_;
+    for my $result ( @{ $self->result_json } ) {
+        next unless $result->{num} eq $version;
+        my (@pass) = @{ $result->{rustc_pass} || [] };
+        return $pass[0];
+    }
+    return;
+}
+
+sub srv_max_version {
+    my ( $self, $version ) = @_;
+    for my $result ( @{ $self->result_json } ) {
+        next unless $result->{num} eq $version;
+        my (@pass) = @{ $result->{rustc_pass} || [] };
+        return $pass[-1];
+    }
+    return;
+}
+
 sub all_results {
     my ($self) = @_;
     my %results =
