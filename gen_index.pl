@@ -80,46 +80,6 @@ sub parse_version_info {
         }
     }
 
-    # Estimate Min/Max RustC
-    my (@rustc) = sort { vsort( $a, $b ) } keys %{ $info_hash->{rustc_index} };
-    for my $version ( @{ $info_hash->{version_order} } ) {
-        my $vdata = $info_hash->{version_info}->{$version};
-        if ( not exists $vdata->{rustc}->{ $rustc[0] }
-            or $vdata->{rustc}->{ $rustc[0] } ne "pass" )
-        {
-            for my $rustc_ver (@rustc) {
-                next unless exists $vdata->{rustc}->{$rustc_ver};
-                next unless $vdata->{rustc}->{$rustc_ver} eq 'pass';
-                $vdata->{min_rustc} = $rustc_ver;
-                last;
-            }
-            if ( not exists $vdata->{min_rustc} ) {
-                $vdata->{min_rustc} = 9999;
-            }
-        }
-        if ( not exists $vdata->{rustc}->{ $rustc[-1] }
-            or $vdata->{rustc}->{ $rustc[-1] } ne "pass" )
-        {
-            for my $rustc_ver ( reverse @rustc ) {
-                next unless exists $vdata->{rustc}->{$rustc_ver};
-                next unless $vdata->{rustc}->{$rustc_ver} eq 'pass';
-                $vdata->{max_rustc} = $rustc_ver;
-                last;
-            }
-            if ( not exists $vdata->{max_rustc} ) {
-                $vdata->{max_rustc} = 0;
-            }
-        }
-        if (    exists $vdata->{max_rustc}
-            and $vdata->{max_rustc} eq "0"
-            and exists $vdata->{min_rustc}
-            and $vdata->{min_rustc} )
-        {
-            $vdata->{rustc_unknown} = 1;
-            delete $vdata->{max_rustc};
-            delete $vdata->{min_rustc};
-        }
-    }
     return $info_hash;
 }
 
@@ -148,8 +108,8 @@ sub gen_crate_report {
     $fh->printf(
         "$pad<li><span class=\"cratename\"><a href=\"./%s\">%s</a></span>",
         $crate, $crate );
-    my $info = parse_version_info($crate);
-
+    my $info      = parse_version_info($crate);
+    my $crateinfo = $rdb->crate_info($crate);
     if ( $info->{num_pass} > 1 and $info->{num_fail} == 0 ) {
         $fh->print(
 "<span class=\"grade goldstar\" title=\"No reported failures for any version on any rust\">&#x1F31F;</span>"
@@ -171,42 +131,42 @@ sub gen_crate_report {
         for (@vpick) {
             my $v_result = $info->{version_info}->{$_};
             $fh->printf( "$pad    <li><span class=\"version\">%s</span>", $_ );
-            if (   exists $v_result->{min_rustc}
-                or exists $v_result->{max_rustc}
-                or $v_result->{rustc_unknown} )
+            my $min_test_rustc = [ $rdb->rustc_order ]->[0];
+            my $max_test_rustc = [ $rdb->rustc_order ]->[-1];
+
+            my $min_rustc = $crateinfo->srv_min_version($_);
+            my $max_rustc = $crateinfo->srv_max_version($_);
+
+            if ( not defined $min_rustc ) {
+                $fh->print(
+"<span class=\"msrv unknown_msrv\" title=\"no known working rust version\">Unusable</span>"
+                );
+            }
+            elsif ($min_rustc ne $min_test_rustc
+                or $max_rustc ne $max_test_rustc )
             {
-                if ( exists $v_result->{min_rustc}
-                    and not exists $v_result->{max_rustc} )
-                {
-                    $v_result->{min_rustc} =~ /\A(\d+[.]\d+)[.]/;
-                    $fh->printf(
-"<span class=\"msrv min_msrv\" title=\"only works on rust versions &gt;= %s\">MSRV %s</span>",
-                        $1, $1
-                    );
-                }
-                elsif ( not exists $v_result->{min_rustc}
-                    and exists $v_result->{max_rustc} )
-                {
-                    $v_result->{max_rustc} =~ /\A(\d+[.]\d+)[.]/;
+                my $msrv = join q[.], splice @{ [ split /[.]/, $min_rustc ] },
+                  0, 2;
+                my $mxrv = join q[.], splice @{ [ split /[.]/, $max_rustc ] },
+                  0, 2;
+                if ( $min_rustc eq $min_test_rustc ) {
                     $fh->printf(
 "<span class=\"msrv max_msrv\" title=\"only works on rust versions &lt;= %s\">MaxSRV %s</span>",
-                        $1, $1
+                        $mxrv, $mxrv
+                    );
+
+                }
+                elsif ( $max_rustc eq $max_test_rustc ) {
+                    $fh->printf(
+"<span class=\"msrv min_msrv\" title=\"only works on rust versions &gt;= %s\">MSRV %s</span>",
+                        $msrv, $msrv,
                     );
                 }
-                elsif ( exists $v_result->{min_rustc}
-                    and exists $v_result->{max_rustc} )
-                {
-                    $v_result->{min_rustc} =~ /\A(\d+[.]\d+)[.]/;
-                    my $min = $1;
-                    $v_result->{max_rustc} =~ /\A(\d+[.]\d+)[.]/;
+                else {
                     $fh->printf(
 "<span class=\"msrv between_msrv\" title=\"only works on rust versions &gt;= %s, &lt;= %s\">MSRV %s, MaxSRV %s</span>",
-                        $min, $1, $min, $1, );
-                }
-                elsif ( $v_result->{rustc_unknown} ) {
-                    $fh->print(
-"<span class=\"msrv unknown_msrv\" title=\"no known working rust version\">Unusable</span>"
-                    );
+                        $msrv, $mxrv, $msrv, $mxrv, );
+
                 }
             }
             if ( $v_result->{num_pass} > 1 and $v_result->{num_fail} == 0 ) {
