@@ -64,6 +64,16 @@ $fh->print(<<"EOF");
   </head>
   <body>
 EOF
+
+my @links = ();
+push @links, "<a href=\"./versions.json\">versions.json</a>"
+  if -e $crateinfo->json_path();
+push @links, "<a href=\"./results.json\">results.json</a>"
+  if -e $crateinfo->result_json_path();
+if (@links) {
+    $fh->print( "<pre>[ " . join( " | ", @links ) . "]</pre>\n" );
+}
+
 $fh->print("<table>\n");
 $fh->print("<thead><tr>\n");
 $fh->print("<td class=\"corner\" colspan=\"2\"></td>\n");
