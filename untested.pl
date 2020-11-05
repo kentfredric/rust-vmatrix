@@ -8,12 +8,14 @@ use resultdb;
 
 my $rdb = resultdb->new();
 for my $crate ( $rdb->crate_names ) {
-    my $vjs  = $rdb->crate_vjson_path($crate);
     my $info = $rdb->crate_info($crate);
-    next if @{ $info->rustcs };
+    next if -e $info->result_json_path();
     my (@versions) = grep { not $info->is_yanked($_) } ( @{ $info->versions } );
     next unless @versions;
     my (@deps) = ( keys %{ $info->dependencies } );
-    my $mtime = -e $vjs ? sprintf "%d", 24 * 60 * -M $vjs : "?";
+    my $mtime =
+      -e $info->json_path
+      ? sprintf "%d", 24 * 60 * -M $info->json_path
+      : "?";
     printf "%d %d %s %s\n", scalar @versions, scalar @deps, $mtime, $crate;
 }
