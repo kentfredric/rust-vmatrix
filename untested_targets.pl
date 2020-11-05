@@ -47,13 +47,13 @@ sub num_fmt {
       {
         max   => 0.9 * 60 * 60,
         scale => sub { $_[0] / 60 },
-        fmt   => '%.1f minutes',
+        fmt   => '%.2f minutes',
       };
     push @windows,
       {
         max   => 0.9 * 60 * 60 * 24,
         scale => sub { $_[0] / 60 / 60 },
-        fmt   => '%.1f hours',
+        fmt   => '%.2f hours',
       };
     push @windows,
       {
@@ -67,10 +67,17 @@ sub num_fmt {
         scale => sub { $_[0] / 60 / 60 / 24 / 365 },
         fmt   => '%.2f years',
       };
+    my $prev_window = undef;
+
     for my $window (@windows) {
         if ( $time <= $window->{max} ) {
-            return sprintf $window->{fmt}, $window->{scale}->($time);
+            my $ret = sprintf $window->{fmt}, $window->{scale}->($time);
+            if ( defined $prev_window ) {
+                $ret .= " ( " . $prev_window . " )";
+            }
+            return $ret;
         }
+        $prev_window = sprintf $window->{fmt}, $window->{scale}->($time);
     }
     return $time . ' seconds';
 }
