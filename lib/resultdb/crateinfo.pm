@@ -57,11 +57,19 @@ sub json {
     return $_[0]->{json};
 }
 
+sub json_path {
+    $_[0]->{rdb}->crate_vjson_path( $_[0]->{crate} );
+}
+
 sub result_json {
     if ( not exists $_[0]->{result_json} ) {
         $_[0]->{result_json} = $_[0]->{rdb}->crate_read_rjson( $_[0]->{crate} );
     }
     return $_[0]->{result_json};
+}
+
+sub result_json_path {
+    $_[0]->{rdb}->crate_rjson_path( $_[0]->{crate} );
 }
 
 sub rustcs {
