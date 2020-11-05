@@ -72,6 +72,71 @@ sub result_json_path {
     $_[0]->{rdb}->crate_rjson_path( $_[0]->{crate} );
 }
 
+sub _as_result_hash {
+    my ( $self, $record ) = @_;
+    return {
+        ( map { ( $_ => "pass" ) } @{ $record->{rustc_pass} || [] }, ),
+        ( map { ( $_ => "fail" ) } @{ $record->{rustc_fail} || [] }, ),
+    };
+}
+
+sub has_results {
+    my ($self) = @_;
+    for my $ent ( @{ $self->result_json } ) {
+        return 1 if exists $ent->{rustc_pass} and @{ $ent->{rustc_pass} };
+        return 1 if exists $ent->{rustc_fail} and @{ $ent->{rustc_fail} };
+    }
+    return;
+}
+
+sub all_results {
+    my ($self) = @_;
+    my %results =
+      map { $_->{num}, $self->_as_result_hash($_) } @{ $self->result_json };
+    my $versions = $self->json;
+
+    my $rustc_results = sub {
+        my ( $version, $rustc ) = @_;
+        return () if not exists $results{$version};
+        return () if not exists $results{$version}{$rustc};
+        return {
+            num    => $version,
+            rustc  => $rustc,
+            result => $results{$version}{$rustc},
+        };
+    };
+    my $version_results = sub {
+        my ($version) = @_;
+        return () if not exists $results{$version};
+        return
+          map { $rustc_results->( $version, $_ ) } $self->{rdb}->rustc_order();
+    };
+    [ map { $version_results->( $_->{num} ) } @{$versions} ];
+}
+
+sub untested_combos {
+    my ($self) = @_;
+    my (%results);
+    for my $result ( @{ $self->result_json } ) {
+        $results{ $result->{num} } = $self->_as_result_hash($result);
+    }
+    my $versions      = $self->json;
+    my $rustc_results = sub {
+        my ( $version, $rustc ) = @_;
+        return { num => $version, rustc => $rustc }
+          if not exists $results{$version}
+          or not exists $results{$version}{$rustc};
+        return ();
+    };
+    my $version_results = sub {
+        my ($version) = @_;
+        return () if $self->is_yanked($version);
+        return
+          map { $rustc_results->( $version, $_ ) } $self->{rdb}->rustc_order();
+    };
+    [ map { $version_results->( $_->{num} ) } @{$versions} ];
+}
+
 sub rustcs {
     if ( not exists $_[0]->{rustcs} ) {
         my (%rustcs);
