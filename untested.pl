@@ -72,7 +72,14 @@ if ( $ENV{PICK} ) {
               or $a->[3] cmp $b->[3];
         };
     }
-
+    if ( $ENV{PICK} eq 'smallbigdeps' ) {
+        $sort_fn = sub {
+                 $a->[0] <=> $b->[0]
+              or $b->[1] <=> $a->[1]
+              or ( -M $a->[2] ) <=> ( -M $b->[2] )
+              or $a->[3] cmp $b->[3];
+        };
+    }
     @result_rows = sort $sort_fn @result_rows;
     $pick_many   = scalar @result_rows if $pick_many > scalar @result_rows;
     for my $wanted ( splice( @result_rows, 0, $pick_many ) ) {
