@@ -80,9 +80,9 @@
   </head>
   <body>
     <p>[ <a href="#about">about</a> | <a href="#methodology">methodology</a> | <a href="#contributing">contributing</a> ]</p>
-    <h1 id="reports">Build reports<a href="#reports">#</a></h1>
+    <h1 id="reports">Build reports<a href="#reports">&#x2693;</a></h1>
     <!-- build reports -->
-    <h1 id="about">About<a href="#about">#</a></h1>
+    <h1 id="about">About<a href="#about">&#x2693;</a></h1>
     <p>This is a tiny<span class="hint" title="lol, well, not in terms of resources needed">*</span>
        project to map what you get when you try to compile given
        versions of given crates against given rustc versions.</p>
@@ -96,7 +96,7 @@
     <p>It is in <em>no</em> way comprehensive, and is just a
        <em>minimal best effort</em> strategy to narrow down your
        problem quickly.</p>
-    <h1 id="methodology">Methodology<a href="#methodolgy">#</a></h1>
+    <h1 id="methodology">Methodology<a href="#methodolgy">&#x2693;</a></h1>
     <p>The approach I've used is so simple, it could be called
        "<em>rudimentary</em>".</p>
     <p>For each <code>rustc</code>, and for each <code>crate</code>
@@ -136,7 +136,7 @@ version = "=VERSION"
        getting coverage of <em>fundamental</em> crates, particularly,
        ones with either few, or no dependencies, or at least,
        recursively checking the dependencies themselves.</p>
-  <h1 id="contributing">Contributing</h1>
+  <h1 id="contributing">Contributing<a href="#contributing">&#x2693;</a></h1>
     <p>See bugs in the information? Got crates you think should be
     covered but arent? Something else? Feel free to
     <a href="https://github.com/kentfredric/rust-vmatrix/issues">
