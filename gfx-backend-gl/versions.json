@@ -42,7 +42,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/gfx-backend-gl/0.1.0/download",
-    "downloads": 682, "features": {"default": ["glutin"]}, "id": 124243,
+    "downloads": 687, "features": {"default": ["glutin"]}, "id": 124243,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/gfx-backend-gl/0.1.0/authors",
@@ -96,7 +96,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/gfx-backend-gl/0.2.0/download",
-    "downloads": 1060, "features": {"default": ["glutin"]},
+    "downloads": 1062, "features": {"default": ["glutin"]},
     "id": 149700, "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/gfx-backend-gl/0.2.0/authors",
@@ -202,7 +202,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/gfx-backend-gl/0.3.0/download",
-    "downloads": 688, "features": {"default": [], "wgl": []},
+    "downloads": 690, "features": {"default": [], "wgl": []},
     "id": 168272, "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/gfx-backend-gl/0.3.0/authors",
@@ -325,7 +325,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/gfx-backend-gl/0.4.0/download",
-    "downloads": 903, "features": {"default": [], "wgl": []},
+    "downloads": 911, "features": {"default": [], "wgl": []},
     "id": 184615, "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/gfx-backend-gl/0.4.0/authors",
@@ -589,7 +589,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/gfx-backend-gl/0.5.1/download",
-    "downloads": 926, "features": {"default": [], "wgl": []},
+    "downloads": 931, "features": {"default": [], "wgl": []},
     "id": 238676, "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/gfx-backend-gl/0.5.1/authors",
@@ -715,7 +715,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/gfx-backend-gl/0.6.0/download",
-    "downloads": 3, "features": {"x11": ["surfman/sm-x11"]},
+    "downloads": 187, "features": {"x11": ["surfman/sm-x11"]},
     "id": 301415, "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/gfx-backend-gl/0.6.0/authors",
@@ -730,5 +730,131 @@
     },
     "readme_path": "/api/v1/crates/gfx-backend-gl/0.6.0/readme",
     "updated_at": "2020-11-03T00:56:57.715182+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-11-06T20:34:23.046207+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+          "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+          "url": "https://github.com/kvark"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Gfx-rs Developers"]}, "users": []},
+    "crate": "gfx-backend-gl", "crate_size": 57112,
+    "created_at": "2020-11-06T20:34:23.046207+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1822490, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 302530
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1822492, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 302530
+      },
+      {
+        "crate_id": "cfg_aliases", "default_features": true, "downloads": 0,
+        "features": [], "id": 1822501, "kind": "build", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 302530
+      },
+      {
+        "crate_id": "gfx-auxil", "default_features": true, "downloads": 0,
+        "features": ["spirv_cross"], "id": 1822491, "kind": "normal",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 302530
+      },
+      {
+        "crate_id": "gfx-hal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1822494, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 302530
+      },
+      {
+        "crate_id": "glow", "default_features": true, "downloads": 0,
+        "features": [], "id": 1822493, "kind": "normal", "optional": false,
+        "req": "^0.6.1", "target": null, "version_id": 302530
+      },
+      {
+        "crate_id": "js-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1822503, "kind": "normal", "optional": false,
+        "req": "^0.3.6", "target": "cfg(target_arch = \"wasm32\")",
+        "version_id": 302530
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1822495, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 302530
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1822496, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 302530
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 1822497, "kind": "normal", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 302530
+      },
+      {
+        "crate_id": "raw-window-handle", "default_features": true,
+        "downloads": 0, "features": [], "id": 1822498, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 302530
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1822499, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 302530
+      },
+      {
+        "crate_id": "spirv_cross", "default_features": true, "downloads": 0,
+        "features": ["glsl"], "id": 1822500, "kind": "normal",
+        "optional": false, "req": "^0.22", "target": null,
+        "version_id": 302530
+      },
+      {
+        "crate_id": "surfman", "default_features": true, "downloads": 0,
+        "features": ["sm-raw-window-handle"], "id": 1822502,
+        "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(all(unix, not(target_os = \"ios\")))",
+        "version_id": 302530
+      },
+      {
+        "crate_id": "wasm-bindgen", "default_features": true,
+        "downloads": 0, "features": [], "id": 1822504, "kind": "normal",
+        "optional": false, "req": "^0.2.51",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 302530
+      },
+      {
+        "crate_id": "web-sys", "default_features": true, "downloads": 0,
+        "features": [
+          "console", "Document", "Element", "HtmlCanvasElement",
+          "HtmlElement", "Node", "Performance", "WebGlBuffer",
+          "WebGlRenderingContext", "WebGl2RenderingContext", "WebGlProgram",
+          "WebGlSampler", "WebGlShader", "WebGlTexture", "Window"
+        ],
+        "id": 1822505, "kind": "normal", "optional": false, "req": "^0.3.6",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 302530
+      }
+    ],
+    "dl_path": "/api/v1/crates/gfx-backend-gl/0.6.1/download",
+    "downloads": 0, "features": {"x11": ["surfman/sm-x11"]},
+    "id": 302530, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/gfx-backend-gl/0.6.1/authors",
+      "dependencies": "/api/v1/crates/gfx-backend-gl/0.6.1/dependencies",
+      "version_downloads": "/api/v1/crates/gfx-backend-gl/0.6.1/downloads"
+    },
+    "num": "0.6.1",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/107301?v=4",
+      "id": 1039, "login": "kvark", "name": "Dzmitry Malyshau",
+      "url": "https://github.com/kvark"
+    },
+    "readme_path": "/api/v1/crates/gfx-backend-gl/0.6.1/readme",
+    "updated_at": "2020-11-06T20:34:23.046207+00:00", "yanked": false
   }
 ]
