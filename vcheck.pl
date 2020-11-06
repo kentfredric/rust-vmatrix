@@ -110,37 +110,50 @@ sub do_testset {
     my $start     = time();
     my $crateinfo = $rdb->crate_info($crate);
     my (@results);
+    my ($new_results);
     my (%prev_results);
     for my $prev ( @{ $crateinfo->rustc_results($rustc_version) } ) {
         $prev_results{ $prev->[0] } =
           { version => $prev->[0], message => $prev->[1] };
     }
-    for my $version ( reverse @$versions ) {
-        if ( exists $prev_results{$version} ) {
-            my $presult = $prev_results{$version};
-            if ( exists $presult->{message} and length $presult->{message} ) {
-                warn
+    local $@;
+    my $success = 0;
+    eval {
+        for my $version ( reverse @$versions ) {
+            if ( exists $prev_results{$version} ) {
+                my $presult = $prev_results{$version};
+                if ( exists $presult->{message} and length $presult->{message} )
+                {
+                    warn
 "Skipping $crate v$version, previous result : $presult->{message}\n";
-                push @results, $presult;
-                next;
+                    push @results, $presult;
+                    next;
+                }
             }
+            my $result = do_test(
+                rustc_version   => $rustc_version,
+                rustc_toolchain => $rustc_toolchain,
+                crate           => $crate,
+                version         => $version,
+                work_dir        => $work_dir,
+            );
+            $new_results++;
+            push @results,
+              { version => $version, message => ( $result ? "pass" : "fail" ) };
+
         }
-        my $result = do_test(
-            rustc_version   => $rustc_version,
-            rustc_toolchain => $rustc_toolchain,
-            crate           => $crate,
-            version         => $version,
-            work_dir        => $work_dir,
-        );
-        push @results,
-          { version => $version, message => ( $result ? "pass" : "fail" ) };
+        $success = 1;
+    };
+    if ($new_results) {
+        my $old = $rdb->crate_read_rjson($crate);
+        my $jxs = $rdb->crate_read_vjson($crate);
+        my $deep =
+          $rdb->crate_merge_flat_rustc_results( $crate, $old, $rustc_version,
+            [ map { [ $_->{version}, $_->{message} ] } reverse @results ],
+            $jxs );
+        $rdb->crate_write_rjson( $crate, $deep );
     }
-    my $old = $rdb->crate_read_rjson($crate);
-    my $jxs = $rdb->crate_read_vjson($crate);
-    my $deep =
-      $rdb->crate_merge_flat_rustc_results( $crate, $old, $rustc_version,
-        [ map { [ $_->{version}, $_->{message} ] } reverse @results ], $jxs );
-    $rdb->crate_write_rjson( $crate, $deep );
+    die $@ if not $success;
 
     my $stop     = time;
     my $consumed = $stop - $start;
