@@ -124,73 +124,79 @@ sub gen_crate_report {
             $fail_pct * 100
         );
     }
-    my (@vpick) = pick_semver_vmax( reverse @{ $info->{version_order} } );
-    if (@vpick) {
-        $fh->print("\n");
-        $fh->print("$pad  <ul>\n");
-        for (@vpick) {
-            my $v_result = $info->{version_info}->{$_};
-            $fh->printf( "$pad    <li><span class=\"version\">%s</span>", $_ );
-            my $min_test_rustc = [ $rdb->rustc_order ]->[0];
-            my $max_test_rustc = [ $rdb->rustc_order ]->[-1];
+    if ( $info->{num_pass} > 1 ) {
+        my (@vpick) = pick_semver_vmax( reverse @{ $info->{version_order} } );
+        if (@vpick) {
+            $fh->print("\n");
+            $fh->print("$pad  <ul>\n");
+            for (@vpick) {
+                my $v_result = $info->{version_info}->{$_};
+                $fh->printf( "$pad    <li><span class=\"version\">%s</span>",
+                    $_ );
+                my $min_test_rustc = [ $rdb->rustc_order ]->[0];
+                my $max_test_rustc = [ $rdb->rustc_order ]->[-1];
 
-            my $min_rustc = $crateinfo->srv_min_version($_);
-            my $max_rustc = $crateinfo->srv_max_version($_);
+                my $min_rustc = $crateinfo->srv_min_version($_);
+                my $max_rustc = $crateinfo->srv_max_version($_);
 
-            if ( not defined $min_rustc ) {
-                $fh->print(
+                if ( not defined $min_rustc ) {
+                    $fh->print(
 "<span class=\"msrv unknown_msrv\" title=\"no known working rust version\">Unusable</span>"
-                );
-            }
-            elsif ($min_rustc ne $min_test_rustc
-                or $max_rustc ne $max_test_rustc )
-            {
-                my $msrv = join q[.], splice @{ [ split /[.]/, $min_rustc ] },
-                  0, 2;
-                my $mxrv = join q[.], splice @{ [ split /[.]/, $max_rustc ] },
-                  0, 2;
-                if ( $min_rustc eq $min_test_rustc ) {
-                    $fh->printf(
-"<span class=\"msrv max_msrv\" title=\"only works on rust versions &lt;= %s\">MaxSRV %s</span>",
-                        $mxrv, $mxrv
                     );
-
                 }
-                elsif ( $max_rustc eq $max_test_rustc ) {
-                    $fh->printf(
+                elsif ($min_rustc ne $min_test_rustc
+                    or $max_rustc ne $max_test_rustc )
+                {
+                    my $msrv = join q[.],
+                      splice @{ [ split /[.]/, $min_rustc ] },
+                      0, 2;
+                    my $mxrv = join q[.],
+                      splice @{ [ split /[.]/, $max_rustc ] },
+                      0, 2;
+                    if ( $min_rustc eq $min_test_rustc ) {
+                        $fh->printf(
+"<span class=\"msrv max_msrv\" title=\"only works on rust versions &lt;= %s\">MaxSRV %s</span>",
+                            $mxrv, $mxrv
+                        );
+
+                    }
+                    elsif ( $max_rustc eq $max_test_rustc ) {
+                        $fh->printf(
 "<span class=\"msrv min_msrv\" title=\"only works on rust versions &gt;= %s\">MSRV %s</span>",
-                        $msrv, $msrv,
+                            $msrv, $msrv,
+                        );
+                    }
+                    else {
+                        $fh->printf(
+"<span class=\"msrv between_msrv\" title=\"only works on rust versions &gt;= %s, &lt;= %s\">MSRV %s, MaxSRV %s</span>",
+                            $msrv, $mxrv, $msrv, $mxrv, );
+
+                    }
+                }
+                if ( $v_result->{num_pass} > 1 and $v_result->{num_fail} == 0 )
+                {
+                    $fh->print(
+"<span class=\"grade goldstar\" title=\"No reported failures for this version on any rust\">&#x1F31F;</span>"
                     );
+                }
+                elsif ( $v_result->{num_results} == 0 ) {
+                    warn "No results for version $_ of $crate!";
+                    next;
                 }
                 else {
+                    my $fail_pct = sprintf "%0.1f",
+                      $v_result->{num_fail} / $v_result->{num_results};
                     $fh->printf(
-"<span class=\"msrv between_msrv\" title=\"only works on rust versions &gt;= %s, &lt;= %s\">MSRV %s, MaxSRV %s</span>",
-                        $msrv, $mxrv, $msrv, $mxrv, );
-
-                }
-            }
-            if ( $v_result->{num_pass} > 1 and $v_result->{num_fail} == 0 ) {
-                $fh->print(
-"<span class=\"grade goldstar\" title=\"No reported failures for this version on any rust\">&#x1F31F;</span>"
-                );
-            }
-            elsif ( $v_result->{num_results} == 0 ) {
-                warn "No results for version $_ of $crate!";
-                next;
-            }
-            else {
-                my $fail_pct = sprintf "%0.1f",
-                  $v_result->{num_fail} / $v_result->{num_results};
-                $fh->printf(
 "<span class=\"grade numeric_%d\" title=\"%d%% failures\"></span>",
-                    $fail_pct * 10,
-                    $fail_pct * 100
-                );
+                        $fail_pct * 10,
+                        $fail_pct * 100
+                    );
+                }
+                $fh->print("</li>\n");
             }
-            $fh->print("</li>\n");
+            $fh->print("$pad  </ul>\n");
+            $fh->print("$pad");
         }
-        $fh->print("$pad  </ul>\n");
-        $fh->print("$pad");
     }
     $fh->print("</li>\n");
     close $fh or warn "Can't close buffer, $!";
