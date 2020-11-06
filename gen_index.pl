@@ -263,7 +263,20 @@ my $code = do {
     local $/ = undef;
     scalar <$fh>;
 };
+use JSON::MaybeXS;
+my $jxs         = JSON::MaybeXS->new();
+my $projections = $jxs->decode(
+    do {
+        my $rfile = $rdb->root() . '/projections.json';
+        open my $fh, '<:utf8', $rfile or die "Can't read $rfile, $!";
+        local $/;
+        scalar <$fh>;
+    }
+);
 $code =~ s{^\s*[<]!--\s*build\s+reports\s*--[>]\s*\n}{gen_toc}gmsex;
+$code =~ s{\#\[projection_([^\]]+)\]}{
+  $projections->{$1}
+}gmsex;
 open my $fh, ">", $TARGET or die "Can't write $TEMPLATE, $!";
 $fh->print($code);
 close $fh or warn "error closing $TEMPLATE, $!";
