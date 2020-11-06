@@ -124,6 +124,15 @@ sub gen_crate_report {
             $fail_pct * 100
         );
     }
+    $fh->print("<span class=\"extlinks\">");
+    $fh->printf(
+        "<a href=\"https://crates.io/crates/%s\">crates.io&#x1F517;</a>",
+        $crate );
+    $fh->printf( "<a href=\"https://lib.rs/crates/%s\">lib.rs&#x1F517;</a>",
+        $crate );
+    $fh->printf( "<a href=\"https://docs.rs/%s\">docs.rs&#x1F517;</a>",
+        $crate );
+    $fh->printf("</span>");
     if ( $info->{num_pass} > 1 ) {
         my (@vpick) = pick_semver_vmax( reverse @{ $info->{version_order} } );
         if (@vpick) {
