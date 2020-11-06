@@ -26,12 +26,25 @@ for my $crate ( $rdb->crate_names ) {
     }
 }
 if ( $ENV{SUMMARY} ) {
-    printf "At %s GMT\n",              scalar gmtime();
-    printf "%d crates\n",              $n_crates;
-    printf "%d targets\n",             $n_targets;
-    printf "Realistic low time: %s\n", num_fmt( $n_targets * $e_realistic );
-    printf "Bad high time: %s\n",      num_fmt( $n_targets * $e_huge );
-
+    require JSON::PrettyCompact;
+    my $pc     = JSON::PrettyCompact->new();
+    my $report = {
+        at       => scalar gmtime(),
+        crates   => $n_crates,
+        targets  => $n_targets,
+        est_low  => num_fmt( $n_targets * $e_realistic ),
+        est_high => num_fmt( $n_targets * $e_huge ),
+    };
+    my $ds = $pc->encode($report);
+    printf "At %s GMT\n",              $report->{at};
+    printf "%d crates\n",              $report->{crates};
+    printf "%d targets\n",             $report->{targets};
+    printf "Realistic low time: %s\n", $report->{est_low};
+    printf "Bad high time: %s\n",      $report->{est_high};
+    my $dest = $rdb->root() . '/projections.json';
+    open my $fh, ">:utf8", $dest or die "can't write $dest, $!";
+    $fh->print($ds);
+    close $fh or warn "error closing $dest, $!";
 }
 
 sub num_fmt {
