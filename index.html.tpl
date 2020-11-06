@@ -36,6 +36,17 @@
         height: 12px;
         border-radius: 5px;
       }
+      span.extlinks {
+        margin: 5px;
+        border: 0.1px cornflowerblue solid;
+        border-radius: 10px;
+        padding: 3px;
+        display: inline-block;
+      }
+      span.extlinks > a {
+        margin: 6px;
+        font-size: 80%;
+      }
       span.msrv {
         font-size: 80%;
         font-family: monospace;
