@@ -203,7 +203,7 @@ sub gen_section {
     my $buffer = "";
     open my $fh, ">", \$buffer or die "Can't open buffer for write, $!";
     $fh->printf(
-        "$pad<h2 id=\"crate-%s\">%s*<a href=\"#crate-%s\">#</a></h2>\n",
+        "$pad<h2 id=\"crate-%s\">%s*<a href=\"#crate-%s\">&#x2693;</a></h2>\n",
         $label, $label, $label );
     $fh->printf("$pad<ul>\n");
     for my $crate ( sort @{$members} ) {
