@@ -86,7 +86,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tokio-tungstenite/0.1.2/download",
-    "downloads": 590, "features": {}, "id": 49449, "license": "MIT",
+    "downloads": 593, "features": {}, "id": 49449, "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/tokio-tungstenite/0.1.2/authors",
       "dependencies": "/api/v1/crates/tokio-tungstenite/0.1.2/dependencies",
@@ -214,7 +214,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tokio-tungstenite/0.2.1/download",
-    "downloads": 3499,
+    "downloads": 3503,
     "features": {
       "connect": ["tokio-dns-unofficial", "tokio-core", "stream"],
       "default": ["connect", "tls"], "stream": ["bytes"],
@@ -298,7 +298,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tokio-tungstenite/0.3.0/download",
-    "downloads": 1330,
+    "downloads": 1331,
     "features": {
       "connect": ["tokio-dns-unofficial", "tokio-core", "stream"],
       "default": ["connect", "tls"], "stream": ["bytes"],
@@ -382,7 +382,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tokio-tungstenite/0.4.0/download",
-    "downloads": 1236,
+    "downloads": 1239,
     "features": {
       "connect": ["tokio-dns-unofficial", "tokio-core", "stream"],
       "default": ["connect", "tls"], "stream": ["bytes"],
@@ -550,7 +550,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tokio-tungstenite/0.5.1/download",
-    "downloads": 8865,
+    "downloads": 8867,
     "features": {
       "connect": ["tokio-dns-unofficial", "tokio-core", "stream"],
       "default": ["connect", "tls"], "stream": ["bytes"],
@@ -634,7 +634,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tokio-tungstenite/0.6.0/download",
-    "downloads": 31000,
+    "downloads": 31021,
     "features": {
       "connect": ["tokio-dns-unofficial", "tokio-tcp", "stream"],
       "default": ["connect", "tls"], "stream": ["bytes"],
@@ -728,7 +728,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tokio-tungstenite/0.8.0/download",
-    "downloads": 11502,
+    "downloads": 11547,
     "features": {
       "connect": ["tokio-dns-unofficial", "tokio-tcp", "stream"],
       "default": ["connect", "tls"], "stream": ["bytes"],
@@ -827,7 +827,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tokio-tungstenite/0.9.0/download",
-    "downloads": 9909,
+    "downloads": 9920,
     "features": {
       "connect": ["tokio-dns-unofficial", "tokio-tcp", "stream"],
       "default": ["connect", "tls"], "stream": ["bytes"],
@@ -926,7 +926,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tokio-tungstenite/0.10.0/download",
-    "downloads": 142,
+    "downloads": 144,
     "features": {
       "connect": ["stream", "tokio/net"], "default": ["connect"],
       "stream": [],
@@ -1025,7 +1025,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tokio-tungstenite/0.10.1/download",
-    "downloads": 466570,
+    "downloads": 471414,
     "features": {
       "connect": ["stream", "tokio/net"], "default": ["connect"],
       "stream": [],
@@ -1133,7 +1133,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tokio-tungstenite/0.11.0/download",
-    "downloads": 173913,
+    "downloads": 190608,
     "features": {
       "connect": ["stream", "tokio/net"], "default": ["connect"],
       "stream": [],
@@ -1154,5 +1154,114 @@
     },
     "readme_path": "/api/v1/crates/tokio-tungstenite/0.11.0/readme",
     "updated_at": "2020-08-07T16:52:51.308915+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-11-06T19:40:47.836408+00:00",
+        "user": {
+          "avatar": "https://avatars2.githubusercontent.com/u/2765698?v=4",
+          "id": 96974, "login": "application-developer-DA",
+          "name": "Daniel Abramov",
+          "url": "https://github.com/application-developer-DA"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Alexey Galakhov <agalakhov@snapview.de>",
+          "Daniel Abramov <dabramov@snapview.de>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "tokio-tungstenite", "crate_size": 30579,
+    "created_at": "2020-11-06T19:40:47.836408+00:00",
+    "dependencies": [
+      {
+        "crate_id": "env_logger", "default_features": true, "downloads": 0,
+        "features": [], "id": 1822390, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 302515
+      },
+      {
+        "crate_id": "futures-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1822391, "kind": "dev",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 302515
+      },
+      {
+        "crate_id": "futures-util", "default_features": false,
+        "downloads": 0, "features": ["async-await", "sink", "std"],
+        "id": 1822383, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 302515
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1822384, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 302515
+      },
+      {
+        "crate_id": "pin-project", "default_features": true, "downloads": 0,
+        "features": [], "id": 1822386, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 302515
+      },
+      {
+        "crate_id": "tokio", "default_features": false, "downloads": 0,
+        "features": ["io-util"], "id": 1822387, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 302515
+      },
+      {
+        "crate_id": "tokio", "default_features": false, "downloads": 0,
+        "features": ["io-std", "macros", "rt-multi-thread", "stream", "time"],
+        "id": 1822392, "kind": "dev", "optional": false, "req": "^0.3",
+        "target": null, "version_id": 302515
+      },
+      {
+        "crate_id": "tungstenite", "default_features": false,
+        "downloads": 0, "features": [], "id": 1822389, "kind": "normal",
+        "optional": false, "req": "^0.11.1", "target": null,
+        "version_id": 302515
+      },
+      {
+        "crate_id": "url", "default_features": true, "downloads": 0,
+        "features": [], "id": 1822393, "kind": "dev", "optional": false,
+        "req": "^2.0.0", "target": null, "version_id": 302515
+      },
+      {
+        "crate_id": "native-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1822385, "kind": "normal", "optional": true,
+        "req": "^0.2.0", "target": null, "version_id": 302515
+      },
+      {
+        "crate_id": "tokio-native-tls", "default_features": true,
+        "downloads": 0, "features": [], "id": 1822388, "kind": "normal",
+        "optional": true, "req": "^0.2", "target": null,
+        "version_id": 302515
+      }
+    ],
+    "dl_path": "/api/v1/crates/tokio-tungstenite/0.12.0/download",
+    "downloads": 25,
+    "features": {
+      "connect": ["stream", "tokio/net"], "default": ["connect"],
+      "stream": [],
+      "tls": ["native-tls", "tokio-native-tls", "stream", "tungstenite/tls"]
+    },
+    "id": 302515, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tokio-tungstenite/0.12.0/authors",
+      "dependencies": "/api/v1/crates/tokio-tungstenite/0.12.0/dependencies",
+      "version_downloads": "/api/v1/crates/tokio-tungstenite/0.12.0/downloads"
+    },
+    "num": "0.12.0",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/2765698?v=4",
+      "id": 96974, "login": "application-developer-DA",
+      "name": "Daniel Abramov",
+      "url": "https://github.com/application-developer-DA"
+    },
+    "readme_path": "/api/v1/crates/tokio-tungstenite/0.12.0/readme",
+    "updated_at": "2020-11-06T19:40:47.836408+00:00", "yanked": false
   }
 ]
