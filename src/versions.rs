@@ -94,9 +94,9 @@ pub struct Dependency {
 
 #[derive(Serialize, Deserialize, Debug)]
 pub struct User {
-  pub avatar: String,
+  pub avatar: Url,
   pub id:     u64,
   pub login:  String,
   pub name:   String,
-  pub url:    String,
+  pub url:    Url,
 }
