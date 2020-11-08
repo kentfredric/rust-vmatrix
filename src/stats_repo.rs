@@ -1,6 +1,16 @@
-pub struct StatsRepo {}
+use std::path::PathBuf;
 
-pub fn from_config(_c: super::config::Config) -> Result<StatsRepo, Error> { todo!() }
+pub struct StatsRepo {
+  root: PathBuf,
+}
 
-#[derive(Debug)]
-pub enum Error {}
+pub fn from_config(c: super::config::Config) -> StatsRepo { StatsRepo { root: c.stats_repo.root } }
+
+impl StatsRepo {
+  pub fn crate_versions_path<C>(&self, my_crate: C) -> PathBuf
+  where
+    C: AsRef<str>,
+  {
+    self.root.join(my_crate.as_ref()).join("versions.json")
+  }
+}
