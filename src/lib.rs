@@ -1,5 +1,6 @@
 pub mod config;
 pub mod err;
+pub mod stats_repo;
 pub mod versions;
 
 #[cfg(test)]
