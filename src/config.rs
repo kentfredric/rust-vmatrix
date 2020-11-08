@@ -4,8 +4,6 @@ use std::{fs::File, io::Read, path::PathBuf};
 #[derive(Debug)]
 pub enum Error {
   TomlDecodeError(toml::de::Error),
-  RootNotExists(String),
-  RootNotDir(String),
   IoError(std::io::Error),
 }
 
