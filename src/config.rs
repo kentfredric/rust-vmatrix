@@ -1,9 +1,5 @@
 use serde_derive::Deserialize;
-use std::{
-  fs::File,
-  io::Read,
-  path::{Path, PathBuf},
-};
+use std::{fs::File, io::Read, path::PathBuf};
 
 #[derive(Debug)]
 pub enum Error {
@@ -20,7 +16,7 @@ pub struct Config {
 
 #[derive(Deserialize, Debug)]
 pub struct StatsRepoConfig {
-  pub root: String,
+  pub root: PathBuf,
 }
 
 pub fn from_str<N>(content: N) -> Result<Config, Error>
@@ -49,8 +45,4 @@ impl From<toml::de::Error> for Error {
 
 impl From<std::io::Error> for Error {
   fn from(e: std::io::Error) -> Self { Self::IoError(e) }
-}
-
-impl StatsRepoConfig {
-  pub fn root_path(&self) -> &Path { Path::new(&self.root) }
 }
