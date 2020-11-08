@@ -1,0 +1,507 @@
+<html>
+  <head>
+    <title>Test results for crate:fs_extra vs rustc</title>
+    <style>
+    * {
+      font-family: monospace;
+      font-size: 10px;
+    }
+    table {
+      table-layout: fixed;
+    }
+    td.fail {
+      background-color: #FF0000;
+      color: #FFFFFF;
+    }
+    td.pass {
+      color: #000000;
+      background-color: #00FF00;
+      font-weight: 900;
+    }
+    th.rustversion, th.crateversionheading {
+      writing-mode: sideways-lr;
+      /* Sorry Chrome and Opera, you're on your fucking own
+       */
+      -webkit-writing-mode: vertical-lr;
+      white-space: nowrap;
+      padding: 1px;
+    }
+    th.crateversionheading {
+      width: 15px;
+    }
+    th.rustversion, td.result {
+      width: 15px;
+      height: 15px;
+    }
+    td.result {
+      text-align: center;
+    }
+    </style>
+  </head>
+  <body>
+<pre>[ <a href="./versions.json">versions.json</a> | <a href="./results.json">results.json</a>]</pre>
+<table>
+<thead><tr>
+<td class="corner" colspan="2"></td>
+<th class="rustversionheading" colspan="48">Rust Version</td>
+</tr><tr>
+<td class="corner" colspan="2"></td>
+<th class="rustversion">1.0.0</th>
+<th class="rustversion">1.1.0</th>
+<th class="rustversion">1.2.0</th>
+<th class="rustversion">1.3.0</th>
+<th class="rustversion">1.4.0</th>
+<th class="rustversion">1.5.0</th>
+<th class="rustversion">1.6.0</th>
+<th class="rustversion">1.7.0</th>
+<th class="rustversion">1.8.0</th>
+<th class="rustversion">1.9.0</th>
+<th class="rustversion">1.10.0</th>
+<th class="rustversion">1.11.0</th>
+<th class="rustversion">1.12.1</th>
+<th class="rustversion">1.13.0</th>
+<th class="rustversion">1.14.0</th>
+<th class="rustversion">1.15.1</th>
+<th class="rustversion">1.16.0</th>
+<th class="rustversion">1.17.0</th>
+<th class="rustversion">1.18.0</th>
+<th class="rustversion">1.19.0</th>
+<th class="rustversion">1.20.0</th>
+<th class="rustversion">1.21.0</th>
+<th class="rustversion">1.22.1</th>
+<th class="rustversion">1.23.0</th>
+<th class="rustversion">1.24.1</th>
+<th class="rustversion">1.25.0</th>
+<th class="rustversion">1.26.2</th>
+<th class="rustversion">1.27.2</th>
+<th class="rustversion">1.28.0</th>
+<th class="rustversion">1.29.2</th>
+<th class="rustversion">1.30.1</th>
+<th class="rustversion">1.31.1</th>
+<th class="rustversion">1.32.0</th>
+<th class="rustversion">1.33.0</th>
+<th class="rustversion">1.34.2</th>
+<th class="rustversion">1.35.0</th>
+<th class="rustversion">1.36.0</th>
+<th class="rustversion">1.37.0</th>
+<th class="rustversion">1.38.0</th>
+<th class="rustversion">1.39.0</th>
+<th class="rustversion">1.40.0</th>
+<th class="rustversion">1.41.1</th>
+<th class="rustversion">1.42.0</th>
+<th class="rustversion">1.43.1</th>
+<th class="rustversion">1.44.1</th>
+<th class="rustversion">1.45.2</th>
+<th class="rustversion">1.46.0</th>
+<th class="rustversion">1.47.0</th>
+</tr></thead>
+<tbody>
+<tr>
+<th class="crateversionheading" rowspan="8">Crate:fs_extra version</th><th class="crateversion">1.2.0</th>
+<td class="result fail" title="fail for fs_extra version 1.2.0 on rust 1.0.0">_</td>
+<td class="result fail" title="fail for fs_extra version 1.2.0 on rust 1.1.0">_</td>
+<td class="result fail" title="fail for fs_extra version 1.2.0 on rust 1.2.0">_</td>
+<td class="result fail" title="fail for fs_extra version 1.2.0 on rust 1.3.0">_</td>
+<td class="result fail" title="fail for fs_extra version 1.2.0 on rust 1.4.0">_</td>
+<td class="result fail" title="fail for fs_extra version 1.2.0 on rust 1.5.0">_</td>
+<td class="result fail" title="fail for fs_extra version 1.2.0 on rust 1.6.0">_</td>
+<td class="result fail" title="fail for fs_extra version 1.2.0 on rust 1.7.0">_</td>
+<td class="result fail" title="fail for fs_extra version 1.2.0 on rust 1.8.0">_</td>
+<td class="result fail" title="fail for fs_extra version 1.2.0 on rust 1.9.0">_</td>
+<td class="result fail" title="fail for fs_extra version 1.2.0 on rust 1.10.0">_</td>
+<td class="result fail" title="fail for fs_extra version 1.2.0 on rust 1.11.0">_</td>
+<td class="result fail" title="fail for fs_extra version 1.2.0 on rust 1.12.1">_</td>
+<td class="result pass" title="pass for fs_extra version 1.2.0 on rust 1.13.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.2.0 on rust 1.14.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.2.0 on rust 1.15.1">*</td>
+<td class="result pass" title="pass for fs_extra version 1.2.0 on rust 1.16.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.2.0 on rust 1.17.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.2.0 on rust 1.18.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.2.0 on rust 1.19.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.2.0 on rust 1.20.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.2.0 on rust 1.21.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.2.0 on rust 1.22.1">*</td>
+<td class="result pass" title="pass for fs_extra version 1.2.0 on rust 1.23.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.2.0 on rust 1.24.1">*</td>
+<td class="result pass" title="pass for fs_extra version 1.2.0 on rust 1.25.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.2.0 on rust 1.26.2">*</td>
+<td class="result pass" title="pass for fs_extra version 1.2.0 on rust 1.27.2">*</td>
+<td class="result pass" title="pass for fs_extra version 1.2.0 on rust 1.28.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.2.0 on rust 1.29.2">*</td>
+<td class="result pass" title="pass for fs_extra version 1.2.0 on rust 1.30.1">*</td>
+<td class="result pass" title="pass for fs_extra version 1.2.0 on rust 1.31.1">*</td>
+<td class="result pass" title="pass for fs_extra version 1.2.0 on rust 1.32.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.2.0 on rust 1.33.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.2.0 on rust 1.34.2">*</td>
+<td class="result pass" title="pass for fs_extra version 1.2.0 on rust 1.35.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.2.0 on rust 1.36.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.2.0 on rust 1.37.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.2.0 on rust 1.38.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.2.0 on rust 1.39.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.2.0 on rust 1.40.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.2.0 on rust 1.41.1">*</td>
+<td class="result pass" title="pass for fs_extra version 1.2.0 on rust 1.42.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.2.0 on rust 1.43.1">*</td>
+<td class="result pass" title="pass for fs_extra version 1.2.0 on rust 1.44.1">*</td>
+<td class="result pass" title="pass for fs_extra version 1.2.0 on rust 1.45.2">*</td>
+<td class="result pass" title="pass for fs_extra version 1.2.0 on rust 1.46.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.2.0 on rust 1.47.0">*</td>
+</tr>
+<tr>
+<th class="crateversion">1.1.0</th>
+<td class="result fail" title="fail for fs_extra version 1.1.0 on rust 1.0.0">_</td>
+<td class="result fail" title="fail for fs_extra version 1.1.0 on rust 1.1.0">_</td>
+<td class="result fail" title="fail for fs_extra version 1.1.0 on rust 1.2.0">_</td>
+<td class="result fail" title="fail for fs_extra version 1.1.0 on rust 1.3.0">_</td>
+<td class="result fail" title="fail for fs_extra version 1.1.0 on rust 1.4.0">_</td>
+<td class="result fail" title="fail for fs_extra version 1.1.0 on rust 1.5.0">_</td>
+<td class="result fail" title="fail for fs_extra version 1.1.0 on rust 1.6.0">_</td>
+<td class="result fail" title="fail for fs_extra version 1.1.0 on rust 1.7.0">_</td>
+<td class="result fail" title="fail for fs_extra version 1.1.0 on rust 1.8.0">_</td>
+<td class="result fail" title="fail for fs_extra version 1.1.0 on rust 1.9.0">_</td>
+<td class="result fail" title="fail for fs_extra version 1.1.0 on rust 1.10.0">_</td>
+<td class="result fail" title="fail for fs_extra version 1.1.0 on rust 1.11.0">_</td>
+<td class="result fail" title="fail for fs_extra version 1.1.0 on rust 1.12.1">_</td>
+<td class="result pass" title="pass for fs_extra version 1.1.0 on rust 1.13.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.1.0 on rust 1.14.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.1.0 on rust 1.15.1">*</td>
+<td class="result pass" title="pass for fs_extra version 1.1.0 on rust 1.16.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.1.0 on rust 1.17.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.1.0 on rust 1.18.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.1.0 on rust 1.19.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.1.0 on rust 1.20.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.1.0 on rust 1.21.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.1.0 on rust 1.22.1">*</td>
+<td class="result pass" title="pass for fs_extra version 1.1.0 on rust 1.23.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.1.0 on rust 1.24.1">*</td>
+<td class="result pass" title="pass for fs_extra version 1.1.0 on rust 1.25.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.1.0 on rust 1.26.2">*</td>
+<td class="result pass" title="pass for fs_extra version 1.1.0 on rust 1.27.2">*</td>
+<td class="result pass" title="pass for fs_extra version 1.1.0 on rust 1.28.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.1.0 on rust 1.29.2">*</td>
+<td class="result pass" title="pass for fs_extra version 1.1.0 on rust 1.30.1">*</td>
+<td class="result pass" title="pass for fs_extra version 1.1.0 on rust 1.31.1">*</td>
+<td class="result pass" title="pass for fs_extra version 1.1.0 on rust 1.32.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.1.0 on rust 1.33.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.1.0 on rust 1.34.2">*</td>
+<td class="result pass" title="pass for fs_extra version 1.1.0 on rust 1.35.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.1.0 on rust 1.36.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.1.0 on rust 1.37.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.1.0 on rust 1.38.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.1.0 on rust 1.39.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.1.0 on rust 1.40.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.1.0 on rust 1.41.1">*</td>
+<td class="result pass" title="pass for fs_extra version 1.1.0 on rust 1.42.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.1.0 on rust 1.43.1">*</td>
+<td class="result pass" title="pass for fs_extra version 1.1.0 on rust 1.44.1">*</td>
+<td class="result pass" title="pass for fs_extra version 1.1.0 on rust 1.45.2">*</td>
+<td class="result pass" title="pass for fs_extra version 1.1.0 on rust 1.46.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.1.0 on rust 1.47.0">*</td>
+</tr>
+<tr>
+<th class="crateversion">1.0.0</th>
+<td class="result fail" title="fail for fs_extra version 1.0.0 on rust 1.0.0">_</td>
+<td class="result fail" title="fail for fs_extra version 1.0.0 on rust 1.1.0">_</td>
+<td class="result fail" title="fail for fs_extra version 1.0.0 on rust 1.2.0">_</td>
+<td class="result fail" title="fail for fs_extra version 1.0.0 on rust 1.3.0">_</td>
+<td class="result fail" title="fail for fs_extra version 1.0.0 on rust 1.4.0">_</td>
+<td class="result fail" title="fail for fs_extra version 1.0.0 on rust 1.5.0">_</td>
+<td class="result fail" title="fail for fs_extra version 1.0.0 on rust 1.6.0">_</td>
+<td class="result fail" title="fail for fs_extra version 1.0.0 on rust 1.7.0">_</td>
+<td class="result fail" title="fail for fs_extra version 1.0.0 on rust 1.8.0">_</td>
+<td class="result fail" title="fail for fs_extra version 1.0.0 on rust 1.9.0">_</td>
+<td class="result fail" title="fail for fs_extra version 1.0.0 on rust 1.10.0">_</td>
+<td class="result fail" title="fail for fs_extra version 1.0.0 on rust 1.11.0">_</td>
+<td class="result fail" title="fail for fs_extra version 1.0.0 on rust 1.12.1">_</td>
+<td class="result pass" title="pass for fs_extra version 1.0.0 on rust 1.13.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.0.0 on rust 1.14.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.0.0 on rust 1.15.1">*</td>
+<td class="result pass" title="pass for fs_extra version 1.0.0 on rust 1.16.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.0.0 on rust 1.17.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.0.0 on rust 1.18.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.0.0 on rust 1.19.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.0.0 on rust 1.20.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.0.0 on rust 1.21.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.0.0 on rust 1.22.1">*</td>
+<td class="result pass" title="pass for fs_extra version 1.0.0 on rust 1.23.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.0.0 on rust 1.24.1">*</td>
+<td class="result pass" title="pass for fs_extra version 1.0.0 on rust 1.25.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.0.0 on rust 1.26.2">*</td>
+<td class="result pass" title="pass for fs_extra version 1.0.0 on rust 1.27.2">*</td>
+<td class="result pass" title="pass for fs_extra version 1.0.0 on rust 1.28.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.0.0 on rust 1.29.2">*</td>
+<td class="result pass" title="pass for fs_extra version 1.0.0 on rust 1.30.1">*</td>
+<td class="result pass" title="pass for fs_extra version 1.0.0 on rust 1.31.1">*</td>
+<td class="result pass" title="pass for fs_extra version 1.0.0 on rust 1.32.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.0.0 on rust 1.33.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.0.0 on rust 1.34.2">*</td>
+<td class="result pass" title="pass for fs_extra version 1.0.0 on rust 1.35.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.0.0 on rust 1.36.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.0.0 on rust 1.37.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.0.0 on rust 1.38.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.0.0 on rust 1.39.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.0.0 on rust 1.40.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.0.0 on rust 1.41.1">*</td>
+<td class="result pass" title="pass for fs_extra version 1.0.0 on rust 1.42.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.0.0 on rust 1.43.1">*</td>
+<td class="result pass" title="pass for fs_extra version 1.0.0 on rust 1.44.1">*</td>
+<td class="result pass" title="pass for fs_extra version 1.0.0 on rust 1.45.2">*</td>
+<td class="result pass" title="pass for fs_extra version 1.0.0 on rust 1.46.0">*</td>
+<td class="result pass" title="pass for fs_extra version 1.0.0 on rust 1.47.0">*</td>
+</tr>
+<tr>
+<th class="crateversion">0.3.1</th>
+<td class="result fail" title="fail for fs_extra version 0.3.1 on rust 1.0.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.3.1 on rust 1.1.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.3.1 on rust 1.2.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.3.1 on rust 1.3.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.3.1 on rust 1.4.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.3.1 on rust 1.5.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.3.1 on rust 1.6.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.3.1 on rust 1.7.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.3.1 on rust 1.8.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.3.1 on rust 1.9.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.3.1 on rust 1.10.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.3.1 on rust 1.11.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.3.1 on rust 1.12.1">_</td>
+<td class="result pass" title="pass for fs_extra version 0.3.1 on rust 1.13.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.1 on rust 1.14.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.1 on rust 1.15.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.1 on rust 1.16.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.1 on rust 1.17.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.1 on rust 1.18.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.1 on rust 1.19.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.1 on rust 1.20.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.1 on rust 1.21.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.1 on rust 1.22.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.1 on rust 1.23.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.1 on rust 1.24.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.1 on rust 1.25.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.1 on rust 1.26.2">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.1 on rust 1.27.2">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.1 on rust 1.28.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.1 on rust 1.29.2">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.1 on rust 1.30.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.1 on rust 1.31.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.1 on rust 1.32.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.1 on rust 1.33.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.1 on rust 1.34.2">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.1 on rust 1.35.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.1 on rust 1.36.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.1 on rust 1.37.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.1 on rust 1.38.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.1 on rust 1.39.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.1 on rust 1.40.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.1 on rust 1.41.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.1 on rust 1.42.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.1 on rust 1.43.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.1 on rust 1.44.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.1 on rust 1.45.2">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.1 on rust 1.46.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.1 on rust 1.47.0">*</td>
+</tr>
+<tr>
+<th class="crateversion">0.3.0</th>
+<td class="result fail" title="fail for fs_extra version 0.3.0 on rust 1.0.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.3.0 on rust 1.1.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.3.0 on rust 1.2.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.3.0 on rust 1.3.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.3.0 on rust 1.4.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.3.0 on rust 1.5.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.3.0 on rust 1.6.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.3.0 on rust 1.7.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.3.0 on rust 1.8.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.3.0 on rust 1.9.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.3.0 on rust 1.10.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.3.0 on rust 1.11.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.3.0 on rust 1.12.1">_</td>
+<td class="result pass" title="pass for fs_extra version 0.3.0 on rust 1.13.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.0 on rust 1.14.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.0 on rust 1.15.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.0 on rust 1.16.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.0 on rust 1.17.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.0 on rust 1.18.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.0 on rust 1.19.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.0 on rust 1.20.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.0 on rust 1.21.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.0 on rust 1.22.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.0 on rust 1.23.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.0 on rust 1.24.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.0 on rust 1.25.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.0 on rust 1.26.2">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.0 on rust 1.27.2">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.0 on rust 1.28.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.0 on rust 1.29.2">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.0 on rust 1.30.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.0 on rust 1.31.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.0 on rust 1.32.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.0 on rust 1.33.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.0 on rust 1.34.2">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.0 on rust 1.35.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.0 on rust 1.36.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.0 on rust 1.37.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.0 on rust 1.38.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.0 on rust 1.39.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.0 on rust 1.40.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.0 on rust 1.41.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.0 on rust 1.42.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.0 on rust 1.43.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.0 on rust 1.44.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.0 on rust 1.45.2">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.0 on rust 1.46.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.3.0 on rust 1.47.0">*</td>
+</tr>
+<tr>
+<th class="crateversion">0.2.1</th>
+<td class="result fail" title="fail for fs_extra version 0.2.1 on rust 1.0.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.2.1 on rust 1.1.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.2.1 on rust 1.2.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.2.1 on rust 1.3.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.2.1 on rust 1.4.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.2.1 on rust 1.5.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.2.1 on rust 1.6.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.2.1 on rust 1.7.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.2.1 on rust 1.8.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.2.1 on rust 1.9.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.2.1 on rust 1.10.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.2.1 on rust 1.11.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.2.1 on rust 1.12.1">_</td>
+<td class="result pass" title="pass for fs_extra version 0.2.1 on rust 1.13.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.1 on rust 1.14.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.1 on rust 1.15.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.1 on rust 1.16.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.1 on rust 1.17.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.1 on rust 1.18.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.1 on rust 1.19.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.1 on rust 1.20.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.1 on rust 1.21.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.1 on rust 1.22.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.1 on rust 1.23.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.1 on rust 1.24.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.1 on rust 1.25.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.1 on rust 1.26.2">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.1 on rust 1.27.2">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.1 on rust 1.28.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.1 on rust 1.29.2">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.1 on rust 1.30.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.1 on rust 1.31.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.1 on rust 1.32.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.1 on rust 1.33.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.1 on rust 1.34.2">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.1 on rust 1.35.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.1 on rust 1.36.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.1 on rust 1.37.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.1 on rust 1.38.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.1 on rust 1.39.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.1 on rust 1.40.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.1 on rust 1.41.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.1 on rust 1.42.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.1 on rust 1.43.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.1 on rust 1.44.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.1 on rust 1.45.2">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.1 on rust 1.46.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.1 on rust 1.47.0">*</td>
+</tr>
+<tr>
+<th class="crateversion">0.2.0</th>
+<td class="result fail" title="fail for fs_extra version 0.2.0 on rust 1.0.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.2.0 on rust 1.1.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.2.0 on rust 1.2.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.2.0 on rust 1.3.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.2.0 on rust 1.4.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.2.0 on rust 1.5.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.2.0 on rust 1.6.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.2.0 on rust 1.7.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.2.0 on rust 1.8.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.2.0 on rust 1.9.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.2.0 on rust 1.10.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.2.0 on rust 1.11.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.2.0 on rust 1.12.1">_</td>
+<td class="result pass" title="pass for fs_extra version 0.2.0 on rust 1.13.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.0 on rust 1.14.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.0 on rust 1.15.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.0 on rust 1.16.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.0 on rust 1.17.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.0 on rust 1.18.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.0 on rust 1.19.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.0 on rust 1.20.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.0 on rust 1.21.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.0 on rust 1.22.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.0 on rust 1.23.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.0 on rust 1.24.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.0 on rust 1.25.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.0 on rust 1.26.2">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.0 on rust 1.27.2">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.0 on rust 1.28.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.0 on rust 1.29.2">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.0 on rust 1.30.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.0 on rust 1.31.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.0 on rust 1.32.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.0 on rust 1.33.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.0 on rust 1.34.2">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.0 on rust 1.35.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.0 on rust 1.36.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.0 on rust 1.37.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.0 on rust 1.38.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.0 on rust 1.39.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.0 on rust 1.40.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.0 on rust 1.41.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.0 on rust 1.42.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.0 on rust 1.43.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.0 on rust 1.44.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.0 on rust 1.45.2">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.0 on rust 1.46.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.2.0 on rust 1.47.0">*</td>
+</tr>
+<tr>
+<th class="crateversion">0.1.0</th>
+<td class="result fail" title="fail for fs_extra version 0.1.0 on rust 1.0.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.1.0 on rust 1.1.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.1.0 on rust 1.2.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.1.0 on rust 1.3.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.1.0 on rust 1.4.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.1.0 on rust 1.5.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.1.0 on rust 1.6.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.1.0 on rust 1.7.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.1.0 on rust 1.8.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.1.0 on rust 1.9.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.1.0 on rust 1.10.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.1.0 on rust 1.11.0">_</td>
+<td class="result fail" title="fail for fs_extra version 0.1.0 on rust 1.12.1">_</td>
+<td class="result pass" title="pass for fs_extra version 0.1.0 on rust 1.13.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.1.0 on rust 1.14.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.1.0 on rust 1.15.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.1.0 on rust 1.16.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.1.0 on rust 1.17.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.1.0 on rust 1.18.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.1.0 on rust 1.19.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.1.0 on rust 1.20.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.1.0 on rust 1.21.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.1.0 on rust 1.22.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.1.0 on rust 1.23.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.1.0 on rust 1.24.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.1.0 on rust 1.25.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.1.0 on rust 1.26.2">*</td>
+<td class="result pass" title="pass for fs_extra version 0.1.0 on rust 1.27.2">*</td>
+<td class="result pass" title="pass for fs_extra version 0.1.0 on rust 1.28.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.1.0 on rust 1.29.2">*</td>
+<td class="result pass" title="pass for fs_extra version 0.1.0 on rust 1.30.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.1.0 on rust 1.31.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.1.0 on rust 1.32.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.1.0 on rust 1.33.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.1.0 on rust 1.34.2">*</td>
+<td class="result pass" title="pass for fs_extra version 0.1.0 on rust 1.35.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.1.0 on rust 1.36.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.1.0 on rust 1.37.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.1.0 on rust 1.38.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.1.0 on rust 1.39.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.1.0 on rust 1.40.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.1.0 on rust 1.41.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.1.0 on rust 1.42.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.1.0 on rust 1.43.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.1.0 on rust 1.44.1">*</td>
+<td class="result pass" title="pass for fs_extra version 0.1.0 on rust 1.45.2">*</td>
+<td class="result pass" title="pass for fs_extra version 0.1.0 on rust 1.46.0">*</td>
+<td class="result pass" title="pass for fs_extra version 0.1.0 on rust 1.47.0">*</td>
+</tr>
+</tbody></table></body></html>
