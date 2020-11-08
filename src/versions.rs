@@ -1,4 +1,3 @@
-use super::err::VersionsErrorKind;
 use serde_derive::{Deserialize, Serialize};
 use std::{collections::HashMap, fs::File, io::Read, path::PathBuf};
 
@@ -18,6 +17,21 @@ where
   let mut contents = String::new();
   file.read_to_string(&mut contents)?;
   from_str(contents)
+}
+
+#[derive(Debug)]
+pub enum VersionsErrorKind {
+  FileNotExists(String),
+  FileNotReadable(String),
+  IoError(std::io::Error),
+  SerdeJsonError(serde_json::Error),
+}
+
+impl From<std::io::Error> for VersionsErrorKind {
+  fn from(e: std::io::Error) -> Self { Self::IoError(e) }
+}
+impl From<serde_json::Error> for VersionsErrorKind {
+  fn from(e: serde_json::Error) -> Self { Self::SerdeJsonError(e) }
 }
 
 pub type AuditActions = Vec<AuditAction>;
