@@ -1,14 +1,22 @@
 use serde_derive::{Deserialize, Serialize};
 use std::{collections::HashMap, fs::File, io::Read, path::PathBuf};
 
-pub fn from_str<N>(content: N) -> Result<VersionList, VersionsErrorKind>
+#[derive(Debug)]
+pub enum Error {
+  FileNotExists(String),
+  FileNotReadable(String),
+  IoError(std::io::Error),
+  SerdeJsonError(serde_json::Error),
+}
+
+pub fn from_str<N>(content: N) -> Result<VersionList, Error>
 where
   N: AsRef<str>,
 {
   use serde_json::from_str;
   Ok(from_str(content.as_ref())?)
 }
-pub fn from_file<N>(file: N) -> Result<VersionList, VersionsErrorKind>
+pub fn from_file<N>(file: N) -> Result<VersionList, Error>
 where
   N: Into<PathBuf>,
 {
@@ -19,18 +27,10 @@ where
   from_str(contents)
 }
 
-#[derive(Debug)]
-pub enum VersionsErrorKind {
-  FileNotExists(String),
-  FileNotReadable(String),
-  IoError(std::io::Error),
-  SerdeJsonError(serde_json::Error),
-}
-
-impl From<std::io::Error> for VersionsErrorKind {
+impl From<std::io::Error> for Error {
   fn from(e: std::io::Error) -> Self { Self::IoError(e) }
 }
-impl From<serde_json::Error> for VersionsErrorKind {
+impl From<serde_json::Error> for Error {
   fn from(e: serde_json::Error) -> Self { Self::SerdeJsonError(e) }
 }
 
