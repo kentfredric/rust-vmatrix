@@ -5,6 +5,14 @@ use std::{
   path::{Path, PathBuf},
 };
 
+#[derive(Debug)]
+pub enum Error {
+  TomlDecodeError(toml::de::Error),
+  RootNotExists(String),
+  RootNotDir(String),
+  IoError(std::io::Error),
+}
+
 #[derive(Deserialize, Debug)]
 pub struct Config {
   pub stats_repo: StatsRepoConfig,
@@ -15,7 +23,7 @@ pub struct StatsRepoConfig {
   pub root: String,
 }
 
-pub fn from_str<N>(content: N) -> Result<Config, ConfigErrorKind>
+pub fn from_str<N>(content: N) -> Result<Config, Error>
 where
   N: AsRef<str>,
 {
@@ -23,7 +31,7 @@ where
   Ok(from_str(content.as_ref())?)
 }
 
-pub fn from_file<N>(file: N) -> Result<Config, ConfigErrorKind>
+pub fn from_file<N>(file: N) -> Result<Config, Error>
 where
   N: Into<PathBuf>,
 {
@@ -35,30 +43,22 @@ where
   from_str(contents)
 }
 
-#[derive(Debug)]
-pub enum ConfigErrorKind {
-  TomlDecodeError(toml::de::Error),
-  RootNotExists(String),
-  RootNotDir(String),
-  IoError(std::io::Error),
-}
-
-impl From<toml::de::Error> for ConfigErrorKind {
+impl From<toml::de::Error> for Error {
   fn from(e: toml::de::Error) -> Self { Self::TomlDecodeError(e) }
 }
 
-impl From<std::io::Error> for ConfigErrorKind {
+impl From<std::io::Error> for Error {
   fn from(e: std::io::Error) -> Self { Self::IoError(e) }
 }
 
 impl StatsRepoConfig {
-  pub fn root_path(&self) -> Result<&Path, ConfigErrorKind> {
+  pub fn root_path(&self) -> Result<&Path, Error> {
     let p = Path::new(&self.root);
 
     if !p.exists() {
-      Err(ConfigErrorKind::RootNotExists(self.root.to_owned()))
+      Err(Error::RootNotExists(self.root.to_owned()))
     } else if !p.is_dir() {
-      Err(ConfigErrorKind::RootNotDir(self.root.to_owned()))
+      Err(Error::RootNotDir(self.root.to_owned()))
     } else {
       Ok(p)
     }
