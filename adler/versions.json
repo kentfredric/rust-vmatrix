@@ -23,7 +23,7 @@
         "req": "^0.3.2", "target": null, "version_id": 256213
       }
     ],
-    "dl_path": "/api/v1/crates/adler/0.1.0/download", "downloads": 43,
+    "dl_path": "/api/v1/crates/adler/0.1.0/download", "downloads": 44,
     "features": {}, "id": 256213, "license": "0BSD",
     "links": {
       "authors": "/api/v1/crates/adler/0.1.0/authors",
@@ -63,7 +63,7 @@
         "req": "^0.3.2", "target": null, "version_id": 256711
       }
     ],
-    "dl_path": "/api/v1/crates/adler/0.2.0/download", "downloads": 44,
+    "dl_path": "/api/v1/crates/adler/0.2.0/download", "downloads": 45,
     "features": {"default": ["std"], "std": []}, "id": 256711,
     "license": "0BSD OR MIT OR Apache-2.0",
     "links": {
@@ -116,7 +116,7 @@
         "version_id": 256745
       }
     ],
-    "dl_path": "/api/v1/crates/adler/0.2.1/download", "downloads": 108,
+    "dl_path": "/api/v1/crates/adler/0.2.1/download", "downloads": 109,
     "features": {
       "default": ["std"],
       "rustc-dep-of-std": ["core", "compiler_builtins"], "std": []
@@ -173,7 +173,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/adler/0.2.2/download",
-    "downloads": 263106,
+    "downloads": 267415,
     "features": {
       "default": ["std"],
       "rustc-dep-of-std": ["core", "compiler_builtins"], "std": []
@@ -230,7 +230,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/adler/0.2.3/download",
-    "downloads": 2432880,
+    "downloads": 2597205,
     "features": {
       "default": ["std"],
       "rustc-dep-of-std": ["core", "compiler_builtins"], "std": []
@@ -249,5 +249,117 @@
     },
     "readme_path": "/api/v1/crates/adler/0.2.3/readme",
     "updated_at": "2020-07-10T22:00:44.471635+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-11-08T18:37:51.799424+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/1786438?v=4",
+          "id": 701, "login": "jonas-schievink", "name": "Jonas Schievink",
+          "url": "https://github.com/jonas-schievink"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Jonas Schievink <jonasschievink@gmail.com>"]},
+      "users": []
+    },
+    "crate": "adler", "crate_size": 12711,
+    "created_at": "2020-11-08T18:37:51.799424+00:00",
+    "dependencies": [
+      {
+        "crate_id": "criterion", "default_features": true, "downloads": 0,
+        "features": [], "id": 1827443, "kind": "dev", "optional": false,
+        "req": "^0.3.2", "target": null, "version_id": 303134
+      },
+      {
+        "crate_id": "compiler_builtins", "default_features": true,
+        "downloads": 0, "features": [], "id": 1827441, "kind": "normal",
+        "optional": true, "req": "^0.1.2", "target": null,
+        "version_id": 303134
+      },
+      {
+        "crate_id": "rustc-std-workspace-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 1827442, "kind": "normal",
+        "optional": true, "req": "^1.0.0", "target": null,
+        "version_id": 303134
+      }
+    ],
+    "dl_path": "/api/v1/crates/adler/1.0.0/download", "downloads": 6,
+    "features": {
+      "default": ["std"],
+      "rustc-dep-of-std": ["core", "compiler_builtins"], "std": []
+    },
+    "id": 303134, "license": "0BSD OR MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/adler/1.0.0/authors",
+      "dependencies": "/api/v1/crates/adler/1.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/adler/1.0.0/downloads"
+    },
+    "num": "1.0.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/1786438?v=4",
+      "id": 701, "login": "jonas-schievink", "name": "Jonas Schievink",
+      "url": "https://github.com/jonas-schievink"
+    },
+    "readme_path": "/api/v1/crates/adler/1.0.0/readme",
+    "updated_at": "2020-11-08T18:37:51.799424+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-11-08T18:58:33.972731+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/1786438?v=4",
+          "id": 701, "login": "jonas-schievink", "name": "Jonas Schievink",
+          "url": "https://github.com/jonas-schievink"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Jonas Schievink <jonasschievink@gmail.com>"]},
+      "users": []
+    },
+    "crate": "adler", "crate_size": 12724,
+    "created_at": "2020-11-08T18:58:33.972731+00:00",
+    "dependencies": [
+      {
+        "crate_id": "criterion", "default_features": true, "downloads": 0,
+        "features": [], "id": 1827483, "kind": "dev", "optional": false,
+        "req": "^0.3.2", "target": null, "version_id": 303141
+      },
+      {
+        "crate_id": "compiler_builtins", "default_features": true,
+        "downloads": 0, "features": [], "id": 1827481, "kind": "normal",
+        "optional": true, "req": "^0.1.2", "target": null,
+        "version_id": 303141
+      },
+      {
+        "crate_id": "rustc-std-workspace-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 1827482, "kind": "normal",
+        "optional": true, "req": "^1.0.0", "target": null,
+        "version_id": 303141
+      }
+    ],
+    "dl_path": "/api/v1/crates/adler/1.0.1/download", "downloads": 5,
+    "features": {
+      "default": ["std"],
+      "rustc-dep-of-std": ["core", "compiler_builtins"], "std": []
+    },
+    "id": 303141, "license": "0BSD OR MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/adler/1.0.1/authors",
+      "dependencies": "/api/v1/crates/adler/1.0.1/dependencies",
+      "version_downloads": "/api/v1/crates/adler/1.0.1/downloads"
+    },
+    "num": "1.0.1",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/1786438?v=4",
+      "id": 701, "login": "jonas-schievink", "name": "Jonas Schievink",
+      "url": "https://github.com/jonas-schievink"
+    },
+    "readme_path": "/api/v1/crates/adler/1.0.1/readme",
+    "updated_at": "2020-11-08T18:58:33.972731+00:00", "yanked": false
   }
 ]
