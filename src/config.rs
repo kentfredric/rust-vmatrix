@@ -6,13 +6,11 @@ use std::{
 };
 
 #[derive(Deserialize, Debug)]
-
 pub struct Config {
   pub stats_repo: StatsRepoConfig,
 }
 
 #[derive(Deserialize, Debug)]
-
 pub struct StatsRepoConfig {
   pub root: String,
 }
@@ -22,7 +20,6 @@ where
   N: AsRef<str>,
 {
   use toml::from_str;
-
   Ok(from_str(content.as_ref())?)
 }
 
@@ -31,13 +28,10 @@ where
   N: Into<PathBuf>,
 {
   let path = file.into();
-
   let mut file = File::open(path)?;
-
   let mut contents = String::new();
 
   file.read_to_string(&mut contents)?;
-
   from_str(contents)
 }
 
