@@ -52,15 +52,5 @@ impl From<std::io::Error> for Error {
 }
 
 impl StatsRepoConfig {
-  pub fn root_path(&self) -> Result<&Path, Error> {
-    let p = Path::new(&self.root);
-
-    if !p.exists() {
-      Err(Error::RootNotExists(self.root.to_owned()))
-    } else if !p.is_dir() {
-      Err(Error::RootNotDir(self.root.to_owned()))
-    } else {
-      Ok(p)
-    }
-  }
+  pub fn root_path(&self) -> &Path { Path::new(&self.root) }
 }
