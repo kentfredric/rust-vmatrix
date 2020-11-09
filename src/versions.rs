@@ -1,5 +1,5 @@
 use serde_derive::{Deserialize, Serialize};
-use std::{collections::HashMap, fs::File, io::Read, path::PathBuf};
+use std::{collections::HashMap, path::PathBuf};
 
 #[derive(Debug)]
 pub enum Error {
@@ -18,6 +18,8 @@ pub fn from_file<N>(file: N) -> Result<VersionList, Error>
 where
   N: Into<PathBuf>,
 {
+  use std::{fs::File, io::Read};
+
   let path = file.into();
   let mut file = File::open(path)?;
   let mut contents = String::new();
