@@ -8,7 +8,7 @@ use resultdb;
 
 my $n_crates    = 0;
 my $n_targets   = 0;
-my $e_realistic = 2;
+my $e_realistic = 10;
 my $e_huge      = 60;
 
 my $rdb = resultdb->new();
@@ -83,14 +83,16 @@ sub num_fmt {
     my $prev_window = undef;
 
     for my $window (@windows) {
-        if ( $time <= $window->{max} ) {
-            my $ret = sprintf $window->{fmt}, $window->{scale}->($time);
-            if ( defined $prev_window ) {
-                $ret .= " ( " . $prev_window . " )";
-            }
-            return $ret;
+        my $this_window = sprintf $window->{fmt}, $window->{scale}->($time);
+        if ( defined $prev_window ) {
+            $prev_window = $this_window . " ( " . $prev_window . " )";
         }
-        $prev_window = sprintf $window->{fmt}, $window->{scale}->($time);
+        else {
+            $prev_window = $this_window;
+        }
+        if ( $time <= $window->{max} ) {
+            return $prev_window;
+        }
     }
     return $time . ' seconds';
 }
