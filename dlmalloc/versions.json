@@ -119,7 +119,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/dlmalloc/0.1.2/download",
-    "downloads": 36754,
+    "downloads": 36788,
     "features": {
       "allocator-api": [], "debug": [], "global": [],
       "rustc-dep-of-std": ["core", "compiler_builtins/rustc-dep-of-std"]
@@ -169,7 +169,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/dlmalloc/0.1.3/download",
-    "downloads": 403301,
+    "downloads": 403351,
     "features": {
       "allocator-api": [], "debug": [], "global": [],
       "rustc-dep-of-std": ["core", "compiler_builtins/rustc-dep-of-std"]
@@ -228,7 +228,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/dlmalloc/0.1.4/download",
-    "downloads": 126323,
+    "downloads": 127549,
     "features": {
       "allocator-api": [], "debug": [], "global": [],
       "rustc-dep-of-std": ["core", "compiler_builtins/rustc-dep-of-std"]
@@ -291,7 +291,8 @@
         "version_id": 302432
       }
     ],
-    "dl_path": "/api/v1/crates/dlmalloc/0.2.0/download", "downloads": 7,
+    "dl_path": "/api/v1/crates/dlmalloc/0.2.0/download",
+    "downloads": 17,
     "features": {
       "debug": [], "global": [],
       "rustc-dep-of-std": ["core", "compiler_builtins/rustc-dep-of-std"]
@@ -310,5 +311,68 @@
     },
     "readme_path": "/api/v1/crates/dlmalloc/0.2.0/readme",
     "updated_at": "2020-11-06T15:09:12.753781+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-11-09T15:35:20.312535+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+          "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+          "url": "https://github.com/alexcrichton"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "dlmalloc", "crate_size": 81836,
+    "created_at": "2020-11-09T15:35:20.312535+00:00",
+    "dependencies": [
+      {
+        "crate_id": "libc", "default_features": false, "downloads": 0,
+        "features": [], "id": 1829830, "kind": "normal", "optional": false,
+        "req": "^0.2",
+        "target": "cfg(all(unix, not(target_arch = \"wasm32\")))",
+        "version_id": 303418
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1829829, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 303418
+      },
+      {
+        "crate_id": "compiler_builtins", "default_features": true,
+        "downloads": 0, "features": [], "id": 1829827, "kind": "normal",
+        "optional": true, "req": "^0.1.0", "target": null,
+        "version_id": 303418
+      },
+      {
+        "crate_id": "rustc-std-workspace-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 1829828, "kind": "normal",
+        "optional": true, "req": "^1.0.0", "target": null,
+        "version_id": 303418
+      }
+    ],
+    "dl_path": "/api/v1/crates/dlmalloc/0.2.1/download", "downloads": 5,
+    "features": {
+      "debug": [], "global": [],
+      "rustc-dep-of-std": ["core", "compiler_builtins/rustc-dep-of-std"]
+    },
+    "id": 303418, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/dlmalloc/0.2.1/authors",
+      "dependencies": "/api/v1/crates/dlmalloc/0.2.1/dependencies",
+      "version_downloads": "/api/v1/crates/dlmalloc/0.2.1/downloads"
+    },
+    "num": "0.2.1",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+      "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+      "url": "https://github.com/alexcrichton"
+    },
+    "readme_path": "/api/v1/crates/dlmalloc/0.2.1/readme",
+    "updated_at": "2020-11-09T15:35:20.312535+00:00", "yanked": false
   }
 ]
