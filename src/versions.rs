@@ -59,7 +59,7 @@ pub struct VersionInfo {
   pub downloads:     u64,
   pub features:      Features,
   pub id:            u64,
-  pub license:       License,
+  pub license:       Option<License>,
   pub links:         Links,
   pub num:           Version,
   pub published_by:  Option<User>,
@@ -97,6 +97,6 @@ pub struct User {
   pub avatar: Url,
   pub id:     u64,
   pub login:  String,
-  pub name:   String,
+  pub name:   Option<String>,
   pub url:    Url,
 }
