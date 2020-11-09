@@ -2,20 +2,37 @@
 use strict;
 use warnings;
 
-use Test::TempDir::Tiny qw( in_tempdir );
+use Test::TempDir::Tiny qw( in_tempdir tempdir );
 use Capture::Tiny qw( capture );
 
 use lib "/home/kent/rust/vcheck/lib/";
 use lib "/home/kent/perl/kentnl/JSON-PrettyCompact/lib";
 use resultdb;
 
+my $batch_start   = time;
+my $cargo_tempdir = tempdir("cargo");
+$ENV{CARGO_HOME} = "$cargo_tempdir/.cargo";
+
+system( "mkdir", "-p", "$cargo_tempdir/.cargo/registry/index" ) == 0
+  or die "fail in mkdir";
+my (@shas)   = (qw(  0a35038f75765ae4 1ecc6299db9ec823 88ac128001ac3a9a ));
+my $root_sha = shift @shas;
+my $src      = "/home/kent/.cargo/registry/index/github.com-$root_sha";
+my $dest     = "$cargo_tempdir/.cargo/registry/index/github.com-$root_sha";
+system( "git", "clone", "-s", $src, $dest ) == 0 or die "fail in clone";
+
+for my $sha (@shas) {
+    my $src  = "$cargo_tempdir/.cargo/registry/index/github.com-$root_sha";
+    my $dest = "$cargo_tempdir/.cargo/registry/index/github.com-$sha";
+    system( "ln", "-vs", $src, $dest ) == 0 or die "symlink failed";
+}
+
 our $CRATE = "libc";
 $CRATE = $ENV{CRATE} if exists $ENV{CRATE} and length $ENV{CRATE};
 
 my $rdb = resultdb->new();
 
-my $batch_start = time;
-my $test_count  = 0;
+my $test_count = 0;
 
 for my $rustc ( reverse $rdb->rustc_order ) {
     in_tempdir "$CRATE-rustc$rustc" => sub {
