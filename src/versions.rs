@@ -3,8 +3,6 @@ use std::{collections::HashMap, fs::File, io::Read, path::PathBuf};
 
 #[derive(Debug)]
 pub enum Error {
-  FileNotExists(String),
-  FileNotReadable(String),
   IoError(std::io::Error),
   SerdeJsonError(serde_json::Error),
 }
