@@ -10,29 +10,49 @@ our $VERSION = '0.001000';
 
 # AUTHORITY
 
+use feature 'state';
+
 our $CRATES_BASE_URL = "https://crates.io";
 
-our $USER_AGENT = do {
+our $USER_AGENT = _init_ua();
+our $JXS        = _init_jxs();
+
+use Data::Dump qw(pp);
+
+sub _init_ua {
     my $script = $0;
     $script =~ s/\A(^.*\/)//;
     sprintf "%s/%s(%s)", $script, __PACKAGE__ . ":" . $VERSION,
       join q[,],
       ( 'private use', 'u=Kent Fredric', 'complaints=kentnl@gentoo.org' );
-};
-our $HTTP_TINY = do {
+}
+
+sub _init_http_tiny {
     require HTTP::Tiny;
     HTTP::Tiny->new( agent => $USER_AGENT, timeout => 15 );
-};
-our $JXS = do {
+}
+
+sub _init_jxs {
     require JSON::MaybeXS;
     JSON::MaybeXS->new();
-};
+}
 
-use Data::Dump qw(pp);
+sub http {
+    state( $tiny, $last_start );
+    state $max_age = 1 * 60;
+    if (   not defined $tiny
+        or not defined $last_start
+        or ( $last_start + $max_age < time ) )
+    {
+        $last_start = time;
+        $tiny       = _init_http_tiny();
+    }
+    $tiny;
+}
 
 sub api_fetch {
     my ( $url, $fatal ) = @_;
-    my $response = $HTTP_TINY->get( $CRATES_BASE_URL . $url );
+    my $response = http->get( $CRATES_BASE_URL . $url );
     if ( not $response->{success} ) {
         if ($fatal) {
             die "Could not fetch $url: " . pp($response);
