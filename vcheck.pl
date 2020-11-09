@@ -11,22 +11,23 @@ use resultdb;
 
 my $batch_start   = time;
 my $cargo_tempdir = tempdir("cargo");
-$ENV{CARGO_HOME} = "$cargo_tempdir/.cargo";
+if ( not $ENV{NO_PREWARM} ) {
+    $ENV{CARGO_HOME} = "$cargo_tempdir/.cargo";
 
-system( "mkdir", "-p", "$cargo_tempdir/.cargo/registry/index" ) == 0
-  or die "fail in mkdir";
-my (@shas)   = (qw(  0a35038f75765ae4 1ecc6299db9ec823 88ac128001ac3a9a ));
-my $root_sha = shift @shas;
-my $src      = "/home/kent/.cargo/registry/index/github.com-$root_sha";
-my $dest     = "$cargo_tempdir/.cargo/registry/index/github.com-$root_sha";
-system( "git", "clone", "-s", $src, $dest ) == 0 or die "fail in clone";
+    system( "mkdir", "-p", "$cargo_tempdir/.cargo/registry/index" ) == 0
+      or die "fail in mkdir";
+    my (@shas)   = (qw(  0a35038f75765ae4 1ecc6299db9ec823 88ac128001ac3a9a ));
+    my $root_sha = shift @shas;
+    my $src      = "/home/kent/.cargo/registry/index/github.com-$root_sha";
+    my $dest     = "$cargo_tempdir/.cargo/registry/index/github.com-$root_sha";
+    system( "git", "clone", "-s", $src, $dest ) == 0 or die "fail in clone";
 
-for my $sha (@shas) {
-    my $src  = "$cargo_tempdir/.cargo/registry/index/github.com-$root_sha";
-    my $dest = "$cargo_tempdir/.cargo/registry/index/github.com-$sha";
-    system( "ln", "-vs", $src, $dest ) == 0 or die "symlink failed";
+    for my $sha (@shas) {
+        my $src  = "$cargo_tempdir/.cargo/registry/index/github.com-$root_sha";
+        my $dest = "$cargo_tempdir/.cargo/registry/index/github.com-$sha";
+        system( "ln", "-vs", $src, $dest ) == 0 or die "symlink failed";
+    }
 }
-
 our $CRATE = "libc";
 $CRATE = $ENV{CRATE} if exists $ENV{CRATE} and length $ENV{CRATE};
 
