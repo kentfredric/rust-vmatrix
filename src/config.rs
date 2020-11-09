@@ -1,5 +1,5 @@
 use serde_derive::Deserialize;
-use std::{fs::File, io::Read, path::PathBuf};
+use std::path::PathBuf;
 
 #[derive(Debug)]
 pub enum Error {
@@ -29,6 +29,8 @@ pub fn from_file<N>(file: N) -> Result<Config, Error>
 where
   N: Into<PathBuf>,
 {
+  use std::{fs::File, io::Read};
+
   let path = file.into();
   let mut file = File::open(path)?;
   let mut contents = String::new();
