@@ -8,7 +8,7 @@ use resultdb;
 
 my $n_crates    = 0;
 my $n_targets   = 0;
-my $e_realistic = 10;
+my $e_realistic = 7.58;
 my $e_huge      = 60;
 
 my $rdb = resultdb->new();
