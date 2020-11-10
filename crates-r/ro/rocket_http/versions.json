@@ -143,7 +143,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/rocket_http/0.4.0-rc.1/download",
-    "downloads": 5508,
+    "downloads": 5561,
     "features": {"tls": ["rustls", "hyper-sync-rustls"]}, "id": 115508,
     "license": "MIT/Apache-2.0",
     "links": {
@@ -221,7 +221,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/rocket_http/0.4.0-rc.2/download",
-    "downloads": 1639,
+    "downloads": 1650,
     "features": {
       "default": [], "private-cookies": ["cookie/secure"],
       "tls": ["rustls", "hyper-sync-rustls"]
@@ -302,7 +302,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/rocket_http/0.4.0/download",
-    "downloads": 79198,
+    "downloads": 79362,
     "features": {
       "default": [], "private-cookies": ["cookie/secure"],
       "tls": ["rustls", "hyper-sync-rustls"]
@@ -383,7 +383,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/rocket_http/0.4.1/download",
-    "downloads": 26340,
+    "downloads": 26435,
     "features": {
       "default": [], "private-cookies": ["cookie/secure"],
       "tls": ["rustls", "hyper-sync-rustls"]
@@ -469,7 +469,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/rocket_http/0.4.2/download",
-    "downloads": 163589,
+    "downloads": 163851,
     "features": {
       "default": [], "private-cookies": ["cookie/secure"],
       "tls": ["rustls", "hyper-sync-rustls"]
@@ -564,7 +564,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/rocket_http/0.4.3/download",
-    "downloads": 14146,
+    "downloads": 14407,
     "features": {
       "default": [], "private-cookies": ["cookie/secure"],
       "tls": ["rustls", "hyper-sync-rustls"]
@@ -659,7 +659,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/rocket_http/0.4.4/download",
-    "downloads": 84568,
+    "downloads": 85609,
     "features": {
       "default": [], "private-cookies": ["cookie/secure"],
       "tls": ["rustls", "hyper-sync-rustls"]
@@ -754,7 +754,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/rocket_http/0.4.5/download",
-    "downloads": 137806,
+    "downloads": 146946,
     "features": {
       "default": [], "private-cookies": ["cookie/secure"],
       "tls": ["rustls", "hyper-sync-rustls"]
@@ -773,5 +773,100 @@
     },
     "readme_path": "/api/v1/crates/rocket_http/0.4.5/readme",
     "updated_at": "2020-05-30T21:53:27.610168+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-11-10T08:14:56.057093+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/1480321?v=4",
+          "id": 3864, "login": "SergioBenitez", "name": "Sergio Benitez",
+          "url": "https://github.com/SergioBenitez"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["Sergio Benitez <sb@sergio.bz>"]}, "users": []},
+    "crate": "rocket_http", "crate_size": 64392,
+    "created_at": "2020-11-10T08:14:56.057093+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cookie", "default_features": true, "downloads": 0,
+        "features": ["percent-encode"], "id": 1832596, "kind": "normal",
+        "optional": false, "req": "^0.11.3", "target": null,
+        "version_id": 303742
+      },
+      {
+        "crate_id": "hyper", "default_features": false, "downloads": 0,
+        "features": [], "id": 1832597, "kind": "normal", "optional": false,
+        "req": "^0.10.13", "target": null, "version_id": 303742
+      },
+      {
+        "crate_id": "indexmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1832599, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 303742
+      },
+      {
+        "crate_id": "pear", "default_features": true, "downloads": 0,
+        "features": [], "id": 1832600, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 303742
+      },
+      {
+        "crate_id": "percent-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1832601, "kind": "normal",
+        "optional": false, "req": "^1", "target": null,
+        "version_id": 303742
+      },
+      {
+        "crate_id": "smallvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1832603, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 303742
+      },
+      {
+        "crate_id": "state", "default_features": true, "downloads": 0,
+        "features": [], "id": 1832604, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 303742
+      },
+      {
+        "crate_id": "time", "default_features": true, "downloads": 0,
+        "features": [], "id": 1832605, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 303742
+      },
+      {
+        "crate_id": "unicode-xid", "default_features": true, "downloads": 0,
+        "features": [], "id": 1832606, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 303742
+      },
+      {
+        "crate_id": "hyper-sync-rustls", "default_features": true,
+        "downloads": 0, "features": ["server"], "id": 1832598,
+        "kind": "normal", "optional": true, "req": "=0.3.0-rc.4",
+        "target": null, "version_id": 303742
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1832602, "kind": "normal", "optional": true,
+        "req": "^0.14", "target": null, "version_id": 303742
+      }
+    ],
+    "dl_path": "/api/v1/crates/rocket_http/0.4.6/download",
+    "downloads": 81,
+    "features": {
+      "default": [], "private-cookies": ["cookie/secure"],
+      "tls": ["rustls", "hyper-sync-rustls"]
+    },
+    "id": 303742, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/rocket_http/0.4.6/authors",
+      "dependencies": "/api/v1/crates/rocket_http/0.4.6/dependencies",
+      "version_downloads": "/api/v1/crates/rocket_http/0.4.6/downloads"
+    },
+    "num": "0.4.6",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/1480321?v=4",
+      "id": 3864, "login": "SergioBenitez", "name": "Sergio Benitez",
+      "url": "https://github.com/SergioBenitez"
+    },
+    "readme_path": "/api/v1/crates/rocket_http/0.4.6/readme",
+    "updated_at": "2020-11-10T08:14:56.057093+00:00", "yanked": false
   }
 ]
