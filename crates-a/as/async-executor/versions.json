@@ -9,7 +9,7 @@
     "created_at": "2019-07-01T08:25:50.986690+00:00",
     "dependencies": [],
     "dl_path": "/api/v1/crates/async-executor/0.1.0/download",
-    "downloads": 176, "features": {}, "id": 159600,
+    "downloads": 177, "features": {}, "id": 159600,
     "license": "Apache-2.0/MIT",
     "links": {
       "authors": "/api/v1/crates/async-executor/0.1.0/authors",
@@ -88,7 +88,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/async-executor/0.1.1/download",
-    "downloads": 169, "features": {"default": ["async-io"]},
+    "downloads": 170, "features": {"default": ["async-io"]},
     "id": 265415, "license": "Apache-2.0 OR MIT",
     "links": {
       "authors": "/api/v1/crates/async-executor/0.1.1/authors",
@@ -167,7 +167,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/async-executor/0.1.2/download",
-    "downloads": 164504, "features": {"default": ["async-io"]},
+    "downloads": 170002, "features": {"default": ["async-io"]},
     "id": 265497, "license": "Apache-2.0 OR MIT",
     "links": {
       "authors": "/api/v1/crates/async-executor/0.1.2/authors",
@@ -247,7 +247,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/async-executor/0.2.0/download",
-    "downloads": 813, "features": {}, "id": 276812,
+    "downloads": 821, "features": {}, "id": 276812,
     "license": "Apache-2.0 OR MIT",
     "links": {
       "authors": "/api/v1/crates/async-executor/0.2.0/authors",
@@ -327,7 +327,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/async-executor/0.2.1/download",
-    "downloads": 3354, "features": {}, "id": 277979,
+    "downloads": 3452, "features": {}, "id": 277979,
     "license": "Apache-2.0 OR MIT",
     "links": {
       "authors": "/api/v1/crates/async-executor/0.2.1/authors",
@@ -407,7 +407,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/async-executor/1.0.0/download",
-    "downloads": 1052, "features": {}, "id": 280872,
+    "downloads": 1059, "features": {}, "id": 280872,
     "license": "Apache-2.0 OR MIT",
     "links": {
       "authors": "/api/v1/crates/async-executor/1.0.0/authors",
@@ -487,7 +487,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/async-executor/1.1.0/download",
-    "downloads": 1494, "features": {}, "id": 282189,
+    "downloads": 1505, "features": {}, "id": 282189,
     "license": "Apache-2.0 OR MIT",
     "links": {
       "authors": "/api/v1/crates/async-executor/1.1.0/authors",
@@ -567,7 +567,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/async-executor/1.1.1/download",
-    "downloads": 12394, "features": {}, "id": 283514,
+    "downloads": 12579, "features": {}, "id": 283514,
     "license": "Apache-2.0 OR MIT",
     "links": {
       "authors": "/api/v1/crates/async-executor/1.1.1/authors",
@@ -652,7 +652,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/async-executor/1.2.0/download",
-    "downloads": 1109, "features": {}, "id": 285330,
+    "downloads": 1113, "features": {}, "id": 285330,
     "license": "Apache-2.0 OR MIT",
     "links": {
       "authors": "/api/v1/crates/async-executor/1.2.0/authors",
@@ -737,7 +737,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/async-executor/1.3.0/download",
-    "downloads": 176210, "features": {}, "id": 285549,
+    "downloads": 220016, "features": {}, "id": 285549,
     "license": "Apache-2.0 OR MIT",
     "links": {
       "authors": "/api/v1/crates/async-executor/1.3.0/authors",
@@ -752,5 +752,95 @@
     },
     "readme_path": "/api/v1/crates/async-executor/1.3.0/readme",
     "updated_at": "2020-09-20T14:41:51.728299+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-11-10T14:57:26.423741+00:00",
+        "user": {
+          "avatar": "https://avatars2.githubusercontent.com/u/1303843?v=4",
+          "id": 5153, "login": "stjepang", "name": "Stjepan Glavina",
+          "url": "https://github.com/stjepang"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Stjepan Glavina <stjepang@gmail.com>"]},
+      "users": []
+    },
+    "crate": "async-executor", "crate_size": 15661,
+    "created_at": "2020-11-10T14:57:26.423741+00:00",
+    "dependencies": [
+      {
+        "crate_id": "async-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1833325, "kind": "dev",
+        "optional": false, "req": "^1.4.1", "target": null,
+        "version_id": 303839
+      },
+      {
+        "crate_id": "async-io", "default_features": true, "downloads": 0,
+        "features": [], "id": 1833326, "kind": "dev", "optional": false,
+        "req": "^1.1.9", "target": null, "version_id": 303839
+      },
+      {
+        "crate_id": "async-task", "default_features": true, "downloads": 0,
+        "features": [], "id": 1833319, "kind": "normal", "optional": false,
+        "req": "^4.0.0", "target": null, "version_id": 303839
+      },
+      {
+        "crate_id": "concurrent-queue", "default_features": true,
+        "downloads": 0, "features": [], "id": 1833320, "kind": "normal",
+        "optional": false, "req": "^1.2.2", "target": null,
+        "version_id": 303839
+      },
+      {
+        "crate_id": "easy-parallel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1833327, "kind": "dev",
+        "optional": false, "req": "^3.1.0", "target": null,
+        "version_id": 303839
+      },
+      {
+        "crate_id": "fastrand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1833321, "kind": "normal", "optional": false,
+        "req": "^1.3.4", "target": null, "version_id": 303839
+      },
+      {
+        "crate_id": "futures-lite", "default_features": true,
+        "downloads": 0, "features": [], "id": 1833322, "kind": "normal",
+        "optional": false, "req": "^1.11.0", "target": null,
+        "version_id": 303839
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 1833328, "kind": "dev", "optional": false,
+        "req": "^1.13.0", "target": null, "version_id": 303839
+      },
+      {
+        "crate_id": "once_cell", "default_features": true, "downloads": 0,
+        "features": [], "id": 1833323, "kind": "normal", "optional": false,
+        "req": "^1.4.1", "target": null, "version_id": 303839
+      },
+      {
+        "crate_id": "vec-arena", "default_features": true, "downloads": 0,
+        "features": [], "id": 1833324, "kind": "normal", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 303839
+      }
+    ],
+    "dl_path": "/api/v1/crates/async-executor/1.4.0/download",
+    "downloads": 595, "features": {}, "id": 303839,
+    "license": "Apache-2.0 OR MIT",
+    "links": {
+      "authors": "/api/v1/crates/async-executor/1.4.0/authors",
+      "dependencies": "/api/v1/crates/async-executor/1.4.0/dependencies",
+      "version_downloads": "/api/v1/crates/async-executor/1.4.0/downloads"
+    },
+    "num": "1.4.0",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/1303843?v=4",
+      "id": 5153, "login": "stjepang", "name": "Stjepan Glavina",
+      "url": "https://github.com/stjepang"
+    },
+    "readme_path": "/api/v1/crates/async-executor/1.4.0/readme",
+    "updated_at": "2020-11-10T14:57:26.423741+00:00", "yanked": false
   }
 ]
