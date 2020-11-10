@@ -12,6 +12,11 @@ pub enum Error {
   FileNotReadable(PathBuf),
   FileIoError(PathBuf, std::io::Error),
   NotUnicode(OsString),
+  CrateSectionNotDir(PathBuf),
+  CrateSectionNameInvalid(PathBuf),
+  CrateNameTooShort(PathBuf),
+  BadCrateSubSection(PathBuf, PathBuf),
+  BadCrateSubSectionMember(PathBuf, PathBuf, PathBuf),
   IoError(std::io::Error),
   ResultsError(super::results::Error),
   VersionsError(super::versions::Error),
@@ -34,17 +39,102 @@ impl StatsRepo {
 
   pub fn rustcs(&self) -> &Vec<String> { &self.rustcs }
 
+  fn crate_sections(&self) -> Result<Vec<String>, Error> {
+    let mut x = Vec::new();
+    for section in std::fs::read_dir(self.root()?)? {
+      let section_entry = section?;
+      let section_name = section_entry.file_name();
+      let section_name_str =
+        section_name.to_str().ok_or_else(|| Error::NotUnicode(section_name.to_owned()))?.to_owned();
+      match section_name_str.strip_prefix("crates-") {
+        | None => continue,
+        | Some(c) => {
+          match c.len() {
+            | 1 => {
+              if section_entry.file_type()?.is_dir() {
+                x.push(c.to_owned());
+              } else {
+                return Err(Error::CrateSectionNotDir(section_name.into()));
+              }
+            },
+            | _ => {
+              return Err(Error::CrateSectionNameInvalid(section_name.into()));
+            },
+          }
+        },
+      }
+    }
+    Ok(x)
+  }
+
+  fn crate_subsections<C>(&self, section: C) -> Result<Vec<String>, Error>
+  where
+    C: AsRef<str>,
+  {
+    let mut x = Vec::new();
+    for subsection in std::fs::read_dir(self.root()?.join(format!("crates-{}", section.as_ref())))? {
+      let subsection_entry = subsection?;
+      let subsection_name = subsection_entry.file_name();
+      let subsection_name_str =
+        subsection_name.to_str().ok_or_else(|| Error::NotUnicode(subsection_name.to_owned()))?.to_owned();
+
+      match subsection_name_str.len() {
+        | 0 => continue,
+        | 1 | 2 => {
+          if subsection_name_str.starts_with(section.as_ref()) {
+            x.push(subsection_name_str)
+          } else {
+            return Err(Error::BadCrateSubSection(subsection_name.into(), section.as_ref().into()));
+          }
+        },
+        | _ => {
+          return Err(Error::BadCrateSubSection(subsection_name.into(), section.as_ref().into()));
+        },
+      }
+    }
+    Ok(x)
+  }
+
+  fn crate_subsection_members<C, S>(&self, section: C, subsection: S) -> Result<Vec<String>, Error>
+  where
+    C: AsRef<str>,
+    S: AsRef<str>,
+  {
+    let mut x = Vec::new();
+    let path = self.root()?.join(format!("crates-{}", section.as_ref())).join(subsection.as_ref());
+    for member in std::fs::read_dir(path)? {
+      let member_entry = member?;
+      let member_name = member_entry.file_name();
+      let member_name_str = member_name.to_str().ok_or_else(|| Error::NotUnicode(member_name.to_owned()))?.to_owned();
+
+      if member_name_str.starts_with(section.as_ref()) && member_name_str.starts_with(subsection.as_ref()) {
+        if member_entry.file_type()?.is_dir() {
+          x.push(member_name_str)
+        } else {
+          return Err(Error::BadCrateSubSectionMember(
+            member_name.into(),
+            subsection.as_ref().into(),
+            section.as_ref().into(),
+          ));
+        }
+      } else {
+        return Err(Error::BadCrateSubSectionMember(
+          member_name.into(),
+          subsection.as_ref().into(),
+          section.as_ref().into(),
+        ));
+      }
+    }
+    Ok(x)
+  }
+
   pub fn crate_names(&self) -> Result<Vec<OsString>, Error> {
     let mut x = Vec::new();
-    for entry in std::fs::read_dir(self.root()?)? {
-      let direntry = entry?;
-      let ent = direntry.file_name();
-      let spth = ent.to_owned().into_string().map_err(Error::NotUnicode)?;
-      if spth.starts_with('.') {
-        continue;
-      }
-      if direntry.file_type()?.is_dir() {
-        x.push(ent)
+    for section_name in self.crate_sections()? {
+      for subsection_name in self.crate_subsections(&section_name)? {
+        for member in self.crate_subsection_members(&section_name, subsection_name)? {
+          x.push(member.into());
+        }
       }
     }
     x.sort_unstable();
@@ -55,7 +145,14 @@ impl StatsRepo {
   where
     C: AsRef<Path>,
   {
-    let path = self.root()?.join(my_crate.as_ref());
+    let crate_name = my_crate.as_ref();
+    let mut crate_chars = crate_name.to_str().ok_or_else(|| Error::NotUnicode(crate_name.into()))?.chars();
+    let first = crate_chars.next().ok_or_else(|| Error::CrateNameTooShort(crate_name.into()))?;
+    let nibble = match crate_chars.next() {
+      | Some(c) => format!("{}{}", first, c),
+      | None => first.to_string(),
+    };
+    let path = self.root()?.join(format!("crates-{}", first)).join(nibble).join(crate_name);
     Ok(path)
   }
 
