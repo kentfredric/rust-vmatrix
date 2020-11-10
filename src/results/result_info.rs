@@ -36,4 +36,7 @@ impl ResultInfo {
   {
     self.num.cmp(&version.into())
   }
+
+  #[inline(always)]
+  pub fn version(&self) -> &String { &self.num }
 }

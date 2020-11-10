@@ -1,8 +1,68 @@
-use vmatrix::{config, stats_repo, versions};
+use std::ops::Deref;
+use vmatrix::{config, stats_repo};
+
+use vmatrix::results::ResultType;
+
+#[derive(Debug)]
+struct ResultBlock {
+  result: ResultType,
+  min:    String,
+  max:    String,
+}
 
 fn main() {
   let cfg = config::from_file("./vmatrix.toml").unwrap();
   let repo = stats_repo::from_config(cfg);
-  let jsfile = repo.crate_versions_path("time").unwrap();
-  let versions = versions::from_file(jsfile);
+  for rustc in repo.rustcs() {
+    for s in repo.crate_names().unwrap() {
+      if let Ok(results) = repo.crate_results(&s) {
+        let mut bundles = Vec::new();
+        let mut last_state = Option::None;
+        let mut block_min = Option::None;
+        let mut block_max = Option::None;
+        let mut saw_pass = false;
+
+        for v in results.deref() {
+          let my_result = v.rustc_result(rustc);
+          if ResultType::Pass == my_result {
+            saw_pass = true;
+          }
+          if last_state.clone().is_none() {
+            last_state.replace(my_result);
+            block_min.replace(v.version());
+            block_max.replace(v.version());
+          } else if last_state.clone().unwrap().eq(&my_result) {
+            block_max.replace(v.version());
+          } else {
+            bundles.push(ResultBlock {
+              result: last_state.clone().unwrap(),
+              min:    block_min.unwrap().clone(),
+              max:    block_max.unwrap().clone(),
+            });
+            last_state.replace(my_result);
+            block_min.replace(v.version());
+            block_max.replace(v.version());
+          }
+        }
+        bundles.push(ResultBlock {
+          result: last_state.clone().unwrap(),
+          min:    block_min.unwrap().clone(),
+          max:    block_max.unwrap().clone(),
+        });
+        if !saw_pass {
+          continue;
+        }
+        print!("rust \x1B[33m{}\x1B[0m  {:#?} ", rustc, s);
+        for bundle in bundles {
+          let range = if bundle.min.eq(&bundle.max) { bundle.min } else { format!("{} -> {}", bundle.min, bundle.max) };
+          match bundle.result {
+            | ResultType::Pass => print!("\x1B[32m{}\x1B[0m ", range),
+            | ResultType::Fail => print!("\x1B[31m{}\x1B[0m ", range),
+            | ResultType::Unknown => print!("{} ", range),
+          }
+        }
+        println!()
+      }
+    }
+  }
 }

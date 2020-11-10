@@ -18,10 +18,16 @@ pub enum Error {
 }
 
 pub struct StatsRepo {
-  root: PathBuf,
+  root:   PathBuf,
+  rustcs: Vec<String>,
 }
 
-pub fn from_config(c: super::config::Config) -> StatsRepo { StatsRepo { root: c.stats_repo.root } }
+pub fn from_config(c: super::config::Config) -> StatsRepo {
+  StatsRepo {
+    root:   c.stats_repo.root,
+    rustcs: c.targets.map(|t| t.rustc.unwrap_or_else(Vec::new)).unwrap_or_else(Vec::new),
+  }
+}
 
 impl StatsRepo {
   pub fn root(&self) -> Result<PathBuf, Error> {
@@ -31,6 +37,8 @@ impl StatsRepo {
     }
     Ok(self.root.to_owned())
   }
+
+  pub fn rustcs(&self) -> &Vec<String> { &self.rustcs }
 
   pub fn crate_names(&self) -> Result<Vec<OsString>, Error> {
     let mut x = Vec::new();
