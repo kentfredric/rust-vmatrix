@@ -30,13 +30,7 @@ pub fn from_config(c: super::config::Config) -> StatsRepo {
 }
 
 impl StatsRepo {
-  pub fn root(&self) -> Result<PathBuf, Error> {
-    let meta = self.root.metadata().map_err(|e| Error::RootIoError(self.root.to_owned(), e))?;
-    if !meta.is_dir() {
-      return Err(Error::RootNotDir(self.root.to_owned()));
-    }
-    Ok(self.root.to_owned())
-  }
+  pub fn root(&self) -> Result<PathBuf, Error> { Ok(self.root.to_owned()) }
 
   pub fn rustcs(&self) -> &Vec<String> { &self.rustcs }
 
@@ -62,10 +56,6 @@ impl StatsRepo {
     C: AsRef<Path>,
   {
     let path = self.root()?.join(my_crate.as_ref());
-    let meta = path.metadata().map_err(|e| Error::CrateIoError(path.to_owned(), e))?;
-    if !meta.is_dir() {
-      return Err(Error::CrateNotDir(path));
-    }
     Ok(path)
   }
 
@@ -75,10 +65,6 @@ impl StatsRepo {
     F: AsRef<Path>,
   {
     let path = self.crate_path(my_crate)?.join(file.as_ref());
-    let meta = path.metadata().map_err(|e| Error::FileIoError(path.to_owned(), e))?;
-    if meta.is_dir() {
-      return Err(Error::FileNotReadable(path));
-    }
     Ok(path)
   }
 
