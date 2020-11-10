@@ -13,6 +13,7 @@ pub enum Error {
   FileIoError(PathBuf, std::io::Error),
   NotUnicode(OsString),
   IoError(std::io::Error),
+  ResultsError(super::results::Error),
   VersionsError(super::versions::Error),
 }
 
@@ -44,6 +45,7 @@ impl StatsRepo {
         x.push(ent)
       }
     }
+    x.sort_unstable();
     Ok(x)
   }
 
@@ -99,12 +101,21 @@ impl StatsRepo {
   {
     Ok(super::versions::from_file(self.crate_versions_path(my_crate)?)?)
   }
+
+  pub fn crate_results<C>(&self, my_crate: C) -> Result<super::results::ResultList, Error>
+  where
+    C: AsRef<Path>,
+  {
+    Ok(super::results::from_file(self.crate_results_path(my_crate)?)?)
+  }
 }
 
 impl From<std::io::Error> for Error {
   fn from(e: std::io::Error) -> Self { Self::IoError(e) }
 }
-
+impl From<super::results::Error> for Error {
+  fn from(e: super::results::Error) -> Self { Self::ResultsError(e) }
+}
 impl From<super::versions::Error> for Error {
   fn from(e: super::versions::Error) -> Self { Self::VersionsError(e) }
 }
