@@ -126,7 +126,7 @@ for my $version ( reverse @order ) {
 $fh->print("</tbody></table></body></html>\n");
 close $fh;
 {
-    open my $fh, ">", "${ROOT}/${CRATE}/${OUTFILE}"
+    open my $fh, ">", $rdb->crate_dir("$CRATE") . "/${OUTFILE}"
       or die "Can't write $OUTFILE, $!";
     $fh->print($outbuf);
     close $fh;

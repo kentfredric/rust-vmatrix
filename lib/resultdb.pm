@@ -32,8 +32,15 @@ sub rustc_order {
     );
 }
 
-sub root             { $_[0]->{root} }
-sub crate_dir        { $_[0]->{root} . '/' . $_[1] }
+sub root { $_[0]->{root} }
+
+sub crate_suffix {
+    sprintf "crates-%s/%s/%s",
+      ( substr $_[1], 0, 1 ),
+      ( substr $_[1], 0, 2 ),
+      $_[1];
+}
+sub crate_dir        { $_[0]->{root} . '/' . $_[0]->crate_suffix( $_[1] ) }
 sub crate_vjson_path { $_[0]->crate_dir( $_[1] ) . '/versions.json' }
 sub crate_rjson_path { $_[0]->crate_dir( $_[1] ) . '/results.json' }
 
@@ -42,9 +49,35 @@ sub crate_names {
     opendir my $dfh, $cd or die "cant opendir $cd, $!";
     my (@out);
     while ( my $ent = readdir $dfh ) {
-        next if $ent =~ /^[.]/;
-        next unless -d "$cd/$ent";
-        push @out, $ent;
+        next unless $ent =~ /\Acrates-(.)\z/;
+        my $first   = $1;
+        my $section = "$cd/$ent";
+        next unless -d $section;
+        opendir my $subdfh, $section or die "Can't opendir $section, $!";
+        while ( my $subent = readdir $subdfh ) {
+            next if $subent =~ /^[.]/;
+            if ( ( substr $subent, 0, 1 ) ne $first ) {
+                warn "Illegal entry $subent in $section";
+                next;
+            }
+            if ( 2 < length $subent ) {
+                warn "Illegal entry $subent in $section (length)";
+                next;
+            }
+            my $subsection = "$section/$subent";
+            next unless -d $subsection;
+            opendir my $lldfh, $subsection
+              or die "Can't opendir $subsection, $!";
+            while ( my $crate = readdir $lldfh ) {
+                next if $crate =~ /^[.]/;
+                if ( $subent ne substr $crate, 0, ( length $subent ) ) {
+                    warn "Illegal entry $crate in $subsection";
+                    next;
+                }
+                next unless -d "$subsection/$crate";
+                push @out, $crate;
+            }
+        }
     }
     return @out;
 }

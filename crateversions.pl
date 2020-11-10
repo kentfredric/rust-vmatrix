@@ -75,7 +75,7 @@ sub do_update {
         }
         my (%deps) = %{ $rdb->crate_dependencies_from_json( \@versions ) };
         for my $key ( keys %deps ) {
-            my $path = $rdb->root . '/' . $key;
+            my $path = $rdb->crate_dir($key);
             my (@newdeps);
             if ( !-d $path ) {
                 warn "\e[33m New dependency: \e[32m$key\e[0m\n";

@@ -33,7 +33,7 @@ sub parse_version_info {
         version_order => [],
     };
     my $crateinfo = $rdb->crate_info($crate);
-    my $crate_dir = "${VERSION_BASE}/${crate}";
+    my $crate_dir = $rdb->crate_dir($crate);
 
     # Get baseline data
     for my $version ( @{ $crateinfo->versions } ) {
@@ -107,7 +107,7 @@ sub gen_crate_report {
     open my $fh, ">", \$buffer or die "Can't open buffer for write, $!";
     $fh->printf(
         "$pad<li><span class=\"cratename\"><a href=\"./%s\">%s</a></span>",
-        $crate, $crate );
+        $rdb->crate_suffix($crate), $crate );
     my $info      = parse_version_info($crate);
     my $crateinfo = $rdb->crate_info($crate);
     if ( $info->{num_pass} > 1 and $info->{num_fail} == 0 ) {
