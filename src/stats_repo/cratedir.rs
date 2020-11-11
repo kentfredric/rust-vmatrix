@@ -8,30 +8,20 @@ where
   P: AsRef<Path>,
   C: AsRef<str>,
 {
-  let mut x = Vec::new();
-  for section in std::fs::read_dir(root.as_ref())? {
-    let section_entry = section?;
-    let section_name = section_entry.file_name();
-    let section_name_str = section_name.to_str().ok_or_else(|| Error::NotUnicode(section_name.to_owned()))?.to_owned();
-    match section_name_str.strip_prefix(prefix.as_ref()) {
-      | None => continue,
-      | Some(c) => {
-        match c.len() {
-          | 1 => {
-            if section_entry.file_type()?.is_dir() {
-              x.push(c.to_owned());
-            } else {
-              return Err(Error::SectionNotDir(section_name));
-            }
-          },
-          | _ => {
-            return Err(Error::SectionNameInvalid(section_name));
-          },
-        }
-      },
+  let mut sections = Vec::new();
+  for entry_result in std::fs::read_dir(root.as_ref())? {
+    let entry = entry_result?;
+    let entry_name = entry.file_name();
+    let entry_str = entry_name.to_str().ok_or_else(|| Error::NotUnicode(entry_name.to_owned()))?;
+    if let Some(c) = entry_str.strip_prefix(prefix.as_ref()) {
+      if c.len() == 1 && entry.file_type()?.is_dir() {
+        sections.push(c.to_owned());
+      } else {
+        return Err(Error::BadSection(entry_name, root.as_ref().into()));
+      }
     }
   }
-  Ok(x)
+  Ok(sections)
 }
 
 pub(crate) fn subsections_in<C, P>(root: P, prefix: C) -> Result<Vec<String>, self::Error>
@@ -90,9 +80,8 @@ where
 #[derive(Debug)]
 pub enum Error {
   NotUnicode(OsString),
-  SectionNotDir(OsString),
-  SectionNameInvalid(OsString),
   IoError(std::io::Error),
+  BadSection(OsString, PathBuf),
   BadSubSection(OsString, PathBuf),
   BadCrate(OsString, PathBuf),
 }
