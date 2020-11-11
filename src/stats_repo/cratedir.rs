@@ -29,28 +29,19 @@ where
   P: AsRef<Path>,
   C: AsRef<str>,
 {
-  let mut x = Vec::new();
-  for subsection in std::fs::read_dir(root.as_ref())? {
-    let subsection_entry = subsection?;
-    let subsection_name = subsection_entry.file_name();
-    let subsection_name_str =
-      subsection_name.to_str().ok_or_else(|| Error::NotUnicode(subsection_name.to_owned()))?.to_owned();
+  let mut subsections = Vec::new();
+  for entry_result in std::fs::read_dir(root.as_ref())? {
+    let entry = entry_result?;
+    let entry_name = entry.file_name();
+    let entry_str = entry_name.to_str().ok_or_else(|| Error::NotUnicode(entry_name.to_owned()))?;
 
-    match subsection_name_str.len() {
-      | 0 => continue,
-      | 1 | 2 => {
-        if subsection_name_str.starts_with(prefix.as_ref()) {
-          x.push(subsection_name_str)
-        } else {
-          return Err(Error::BadSubSection(subsection_name, root.as_ref().into()));
-        }
-      },
-      | _ => {
-        return Err(Error::BadSubSection(subsection_name, root.as_ref().into()));
-      },
+    if 2 >= entry_str.len() && entry_str.starts_with(prefix.as_ref()) {
+      subsections.push(entry_str.to_owned())
+    } else {
+      return Err(Error::BadSubSection(entry_name, root.as_ref().into()));
     }
   }
-  Ok(x)
+  Ok(subsections)
 }
 
 pub(crate) fn crates_in<C, P>(root: P, prefix: C) -> Result<Vec<String>, self::Error>
