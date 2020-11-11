@@ -47,23 +47,23 @@ where
   P: AsRef<Path>,
   C: AsRef<str>,
 {
-  let mut x = Vec::new();
-  for member in std::fs::read_dir(root.as_ref())? {
-    let member_entry = member?;
-    let member_name = member_entry.file_name();
-    let member_name_str = member_name.to_str().ok_or_else(|| Error::NotUnicode(member_name.to_owned()))?.to_owned();
+  let mut crates = Vec::new();
+  for entry_result in std::fs::read_dir(root.as_ref())? {
+    let entry = entry_result?;
+    let entry_name = entry.file_name();
+    let entry_str = entry_name.to_str().ok_or_else(|| Error::NotUnicode(entry_name.to_owned()))?.to_owned();
 
-    if member_name_str.starts_with(prefix.as_ref()) {
-      if member_entry.file_type()?.is_dir() {
-        x.push(member_name_str)
+    if entry_str.starts_with(prefix.as_ref()) {
+      if entry.file_type()?.is_dir() {
+        crates.push(entry_str)
       } else {
-        return Err(Error::BadCrate(member_name, root.as_ref().into()));
+        return Err(Error::BadCrate(entry_name, root.as_ref().into()));
       }
     } else {
-      return Err(Error::BadCrate(member_name, root.as_ref().into()));
+      return Err(Error::BadCrate(entry_name, root.as_ref().into()));
     }
   }
-  Ok(x)
+  Ok(crates)
 }
 
 #[derive(Debug)]
