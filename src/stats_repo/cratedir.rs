@@ -30,8 +30,7 @@ where
 {
   let mut subsections = Vec::new();
   for entry_result in std::fs::read_dir(root.as_ref())? {
-    let entry = entry_result?;
-    let entry_name = entry.file_name();
+    let entry_name = entry_result?.file_name();
     let entry_str = entry_name.to_str().ok_or_else(|| Error::NotUnicode(entry_name.to_owned()))?;
 
     if 2 >= entry_str.len() && entry_str.starts_with(prefix.as_ref()) {
