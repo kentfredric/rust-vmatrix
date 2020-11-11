@@ -3,21 +3,16 @@ use std::{
   path::{Path, PathBuf},
 };
 
+mod cratedir;
+
 #[derive(Debug)]
 pub enum Error {
-  RootNotDir(PathBuf),
-  RootIoError(PathBuf, std::io::Error),
-  CrateNotDir(PathBuf),
-  CrateIoError(PathBuf, std::io::Error),
-  FileNotReadable(PathBuf),
-  FileIoError(PathBuf, std::io::Error),
   NotUnicode(OsString),
-  CrateSectionNotDir(PathBuf),
-  CrateSectionNameInvalid(PathBuf),
   CrateNameTooShort(PathBuf),
   BadCrateSubSection(PathBuf, PathBuf),
   BadCrateSubSectionMember(PathBuf, PathBuf, PathBuf),
   IoError(std::io::Error),
+  CrateDirError(cratedir::Error),
   ResultsError(super::results::Error),
   VersionsError(super::versions::Error),
 }
@@ -38,34 +33,6 @@ impl StatsRepo {
   pub fn root(&self) -> Result<PathBuf, Error> { Ok(self.root.to_owned()) }
 
   pub fn rustcs(&self) -> &Vec<String> { &self.rustcs }
-
-  fn crate_sections(&self) -> Result<Vec<String>, Error> {
-    let mut x = Vec::new();
-    for section in std::fs::read_dir(self.root()?)? {
-      let section_entry = section?;
-      let section_name = section_entry.file_name();
-      let section_name_str =
-        section_name.to_str().ok_or_else(|| Error::NotUnicode(section_name.to_owned()))?.to_owned();
-      match section_name_str.strip_prefix("crates-") {
-        | None => continue,
-        | Some(c) => {
-          match c.len() {
-            | 1 => {
-              if section_entry.file_type()?.is_dir() {
-                x.push(c.to_owned());
-              } else {
-                return Err(Error::CrateSectionNotDir(section_name.into()));
-              }
-            },
-            | _ => {
-              return Err(Error::CrateSectionNameInvalid(section_name.into()));
-            },
-          }
-        },
-      }
-    }
-    Ok(x)
-  }
 
   fn crate_subsections<C>(&self, section: C) -> Result<Vec<String>, Error>
   where
@@ -130,7 +97,7 @@ impl StatsRepo {
 
   pub fn crate_names(&self) -> Result<Vec<OsString>, Error> {
     let mut x = Vec::new();
-    for section_name in self.crate_sections()? {
+    for section_name in cratedir::sections_in_root(self.root()?)? {
       for subsection_name in self.crate_subsections(&section_name)? {
         for member in self.crate_subsection_members(&section_name, subsection_name)? {
           x.push(member.into());
@@ -209,4 +176,7 @@ impl From<super::results::Error> for Error {
 }
 impl From<super::versions::Error> for Error {
   fn from(e: super::versions::Error) -> Self { Self::VersionsError(e) }
+}
+impl From<cratedir::Error> for Error {
+  fn from(e: cratedir::Error) -> Self { Self::CrateDirError(e) }
 }
