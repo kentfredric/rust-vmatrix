@@ -17,6 +17,15 @@ where
   Ok(PathBuf::from(format!("{}{}", prefix.as_ref(), first)).join(nibble).join(crate_name.as_ref()))
 }
 
+pub(crate) fn crate_path<R, P, C>(root: R, prefix: P, crate_name: C) -> Result<PathBuf, Error>
+where
+  R: AsRef<Path>,
+  P: AsRef<str>,
+  C: AsRef<str>,
+{
+  Ok(root.as_ref().join(crate_rpath(prefix, crate_name)?))
+}
+
 pub(crate) fn sections_in<P, C>(root: P, prefix: C) -> Result<Vec<String>, self::Error>
 where
   P: AsRef<Path>,
