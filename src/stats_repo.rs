@@ -1,14 +1,9 @@
-use std::{
-  ffi::OsString,
-  path::{Path, PathBuf},
-};
+use std::path::{Path, PathBuf};
 
 mod cratedir;
 
 #[derive(Debug)]
 pub enum Error {
-  NotUnicode(OsString),
-  CrateNameTooShort(PathBuf),
   IoError(std::io::Error),
   CrateDirError(cratedir::Error),
   ResultsError(super::results::Error),
@@ -32,7 +27,7 @@ impl StatsRepo {
 
   pub fn rustcs(&self) -> &Vec<String> { &self.rustcs }
 
-  pub fn crate_names(&self) -> Result<Vec<OsString>, Error> {
+  pub fn crate_names(&self) -> Result<Vec<String>, Error> {
     let mut x = Vec::new();
     let root = self.root()?;
     for suffix in cratedir::sections_in(&root, "crates-")? {
@@ -40,7 +35,7 @@ impl StatsRepo {
       for slug in cratedir::subsections_in(&section, &suffix)? {
         let subsection = section.join(&slug);
         for member in cratedir::crates_in(&subsection, &slug)? {
-          x.push(member.into());
+          x.push(member);
         }
       }
     }
@@ -50,59 +45,50 @@ impl StatsRepo {
 
   pub fn crate_path<C>(&self, my_crate: C) -> Result<PathBuf, Error>
   where
-    C: AsRef<Path>,
+    C: AsRef<str>,
   {
-    let crate_name = my_crate.as_ref();
-    let mut crate_chars = crate_name.to_str().ok_or_else(|| Error::NotUnicode(crate_name.into()))?.chars();
-    let first = crate_chars.next().ok_or_else(|| Error::CrateNameTooShort(crate_name.into()))?;
-    let nibble = match crate_chars.next() {
-      | Some(c) => format!("{}{}", first, c),
-      | None => first.to_string(),
-    };
-    let path = self.root()?.join(format!("crates-{}", first)).join(nibble).join(crate_name);
-    Ok(path)
+    Ok(cratedir::crate_path(self.root()?, "crates-", my_crate)?)
   }
 
   pub fn crate_file_path<C, F>(&self, my_crate: C, file: F) -> Result<PathBuf, Error>
   where
-    C: AsRef<Path>,
+    C: AsRef<str>,
     F: AsRef<Path>,
   {
-    let path = self.crate_path(my_crate)?.join(file.as_ref());
-    Ok(path)
+    Ok(self.crate_path(my_crate)?.join(file.as_ref()))
   }
 
   pub fn crate_versions_path<C>(&self, my_crate: C) -> Result<PathBuf, Error>
   where
-    C: AsRef<Path>,
+    C: AsRef<str>,
   {
     self.crate_file_path(my_crate, "versions.json")
   }
 
   pub fn crate_results_path<C>(&self, my_crate: C) -> Result<PathBuf, Error>
   where
-    C: AsRef<Path>,
+    C: AsRef<str>,
   {
     self.crate_file_path(my_crate, "results.json")
   }
 
   pub fn crate_index_path<C>(&self, my_crate: C) -> Result<PathBuf, Error>
   where
-    C: AsRef<Path>,
+    C: AsRef<str>,
   {
     self.crate_file_path(my_crate, "index.html")
   }
 
   pub fn crate_versions<C>(&self, my_crate: C) -> Result<super::versions::VersionList, Error>
   where
-    C: AsRef<Path>,
+    C: AsRef<str>,
   {
     Ok(super::versions::from_file(self.crate_versions_path(my_crate)?)?)
   }
 
   pub fn crate_results<C>(&self, my_crate: C) -> Result<super::results::ResultList, Error>
   where
-    C: AsRef<Path>,
+    C: AsRef<str>,
   {
     Ok(super::results::from_file(self.crate_results_path(my_crate)?)?)
   }
