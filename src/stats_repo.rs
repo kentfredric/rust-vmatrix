@@ -9,8 +9,6 @@ mod cratedir;
 pub enum Error {
   NotUnicode(OsString),
   CrateNameTooShort(PathBuf),
-  BadCrateSubSection(PathBuf, PathBuf),
-  BadCrateSubSectionMember(PathBuf, PathBuf, PathBuf),
   IoError(std::io::Error),
   CrateDirError(cratedir::Error),
   ResultsError(super::results::Error),
@@ -34,46 +32,14 @@ impl StatsRepo {
 
   pub fn rustcs(&self) -> &Vec<String> { &self.rustcs }
 
-  fn crate_subsection_members<C, S>(&self, section: C, subsection: S) -> Result<Vec<String>, Error>
-  where
-    C: AsRef<str>,
-    S: AsRef<str>,
-  {
-    let mut x = Vec::new();
-    let path = self.root()?.join(format!("crates-{}", section.as_ref())).join(subsection.as_ref());
-    for member in std::fs::read_dir(path)? {
-      let member_entry = member?;
-      let member_name = member_entry.file_name();
-      let member_name_str = member_name.to_str().ok_or_else(|| Error::NotUnicode(member_name.to_owned()))?.to_owned();
-
-      if member_name_str.starts_with(section.as_ref()) && member_name_str.starts_with(subsection.as_ref()) {
-        if member_entry.file_type()?.is_dir() {
-          x.push(member_name_str)
-        } else {
-          return Err(Error::BadCrateSubSectionMember(
-            member_name.into(),
-            subsection.as_ref().into(),
-            section.as_ref().into(),
-          ));
-        }
-      } else {
-        return Err(Error::BadCrateSubSectionMember(
-          member_name.into(),
-          subsection.as_ref().into(),
-          section.as_ref().into(),
-        ));
-      }
-    }
-    Ok(x)
-  }
-
   pub fn crate_names(&self) -> Result<Vec<OsString>, Error> {
     let mut x = Vec::new();
     let root = self.root()?;
     for suffix in cratedir::sections_in(&root, "crates-")? {
       let section = root.join(format!("crates-{}", suffix));
       for slug in cratedir::subsections_in(&section, &suffix)? {
-        for member in self.crate_subsection_members(&suffix, &slug)? {
+        let subsection = section.join(&slug);
+        for member in cratedir::crates_in(&subsection, &slug)? {
           x.push(member.into());
         }
       }
