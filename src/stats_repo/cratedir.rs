@@ -10,11 +10,10 @@ where
 {
   let mut sections = Vec::new();
   for entry_result in std::fs::read_dir(root.as_ref())? {
-    let entry = entry_result?;
-    let entry_name = entry.file_name();
+    let entry_name = entry_result?.file_name();
     let entry_str = entry_name.to_str().ok_or_else(|| Error::NotUnicode(entry_name.to_owned()))?;
     if let Some(c) = entry_str.strip_prefix(prefix.as_ref()) {
-      if c.len() == 1 && entry.file_type()?.is_dir() {
+      if c.len() == 1 {
         sections.push(c.to_owned());
       } else {
         return Err(Error::BadSection(entry_name, root.as_ref().into()));
