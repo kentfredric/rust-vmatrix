@@ -1,8 +1,8 @@
 use std::path::PathBuf;
 
-mod config;
+mod config_data;
 mod err;
-pub use self::{config::Config, err::Error};
+pub use self::{config_data::Config, err::Error};
 
 pub fn from_str<N>(content: N) -> Result<Config, Error>
 where
