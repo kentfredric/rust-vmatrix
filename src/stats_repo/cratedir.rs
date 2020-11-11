@@ -3,6 +3,20 @@ use std::{
   path::{Path, PathBuf},
 };
 
+pub(crate) fn crate_rpath<P, C>(prefix: P, crate_name: C) -> Result<PathBuf, Error>
+where
+  P: AsRef<str>,
+  C: AsRef<str>,
+{
+  let mut crate_chars = crate_name.as_ref().chars();
+  let first = crate_chars.next().ok_or_else(|| Error::BadCrateName(crate_name.as_ref().to_owned()))?;
+  let nibble = match crate_chars.next() {
+    | Some(c) => format!("{}{}", first, c),
+    | None => first.to_string(),
+  };
+  Ok(PathBuf::from(format!("{}{}", prefix.as_ref(), first)).join(nibble).join(crate_name.as_ref()))
+}
+
 pub(crate) fn sections_in<P, C>(root: P, prefix: C) -> Result<Vec<String>, self::Error>
 where
   P: AsRef<Path>,
@@ -68,6 +82,7 @@ pub enum Error {
   BadSection(OsString, PathBuf),
   BadSubSection(OsString, PathBuf),
   BadCrate(OsString, PathBuf),
+  BadCrateName(String),
 }
 
 impl From<std::io::Error> for Error {
