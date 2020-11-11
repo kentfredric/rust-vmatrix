@@ -61,6 +61,8 @@ if ( $ENV{SUMMARY} ) {
         if ( $global_target_d > 0 ) {
             $report->{global_time_per_target} =
               $global_elapsed / $global_target_d;
+            $report->{est_low} =
+              num_fmt( $n_targets * $report->{global_time_per_target} );
         }
     }
     my $ds = $pc->encode($report);
