@@ -34,34 +34,6 @@ impl StatsRepo {
 
   pub fn rustcs(&self) -> &Vec<String> { &self.rustcs }
 
-  fn crate_subsections<C>(&self, section: C) -> Result<Vec<String>, Error>
-  where
-    C: AsRef<str>,
-  {
-    let mut x = Vec::new();
-    for subsection in std::fs::read_dir(self.root()?.join(format!("crates-{}", section.as_ref())))? {
-      let subsection_entry = subsection?;
-      let subsection_name = subsection_entry.file_name();
-      let subsection_name_str =
-        subsection_name.to_str().ok_or_else(|| Error::NotUnicode(subsection_name.to_owned()))?.to_owned();
-
-      match subsection_name_str.len() {
-        | 0 => continue,
-        | 1 | 2 => {
-          if subsection_name_str.starts_with(section.as_ref()) {
-            x.push(subsection_name_str)
-          } else {
-            return Err(Error::BadCrateSubSection(subsection_name.into(), section.as_ref().into()));
-          }
-        },
-        | _ => {
-          return Err(Error::BadCrateSubSection(subsection_name.into(), section.as_ref().into()));
-        },
-      }
-    }
-    Ok(x)
-  }
-
   fn crate_subsection_members<C, S>(&self, section: C, subsection: S) -> Result<Vec<String>, Error>
   where
     C: AsRef<str>,
@@ -97,9 +69,11 @@ impl StatsRepo {
 
   pub fn crate_names(&self) -> Result<Vec<OsString>, Error> {
     let mut x = Vec::new();
-    for section_name in cratedir::sections_in_root(self.root()?)? {
-      for subsection_name in self.crate_subsections(&section_name)? {
-        for member in self.crate_subsection_members(&section_name, subsection_name)? {
+    let root = self.root()?;
+    for suffix in cratedir::sections_in(&root, "crates-")? {
+      let section = root.join(format!("crates-{}", suffix));
+      for slug in cratedir::subsections_in(&section, &suffix)? {
+        for member in self.crate_subsection_members(&suffix, &slug)? {
           x.push(member.into());
         }
       }
