@@ -64,7 +64,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/terminal_size/0.1.1/download",
-    "downloads": 1298, "features": {}, "id": 15056,
+    "downloads": 1300, "features": {}, "id": 15056,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/terminal_size/0.1.1/authors",
@@ -140,7 +140,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/terminal_size/0.1.5/download",
-    "downloads": 6351, "features": {}, "id": 26045,
+    "downloads": 6355, "features": {}, "id": 26045,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/terminal_size/0.1.5/authors",
@@ -178,7 +178,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/terminal_size/0.1.6/download",
-    "downloads": 20561, "features": {}, "id": 37925,
+    "downloads": 20567, "features": {}, "id": 37925,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/terminal_size/0.1.6/authors",
@@ -216,7 +216,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/terminal_size/0.1.7/download",
-    "downloads": 36370, "features": {}, "id": 56875,
+    "downloads": 36409, "features": {}, "id": 56875,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/terminal_size/0.1.7/authors",
@@ -249,7 +249,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/terminal_size/0.1.8/download",
-    "downloads": 50877, "features": {}, "id": 102602,
+    "downloads": 51046, "features": {}, "id": 102602,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/terminal_size/0.1.8/authors",
@@ -346,7 +346,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/terminal_size/0.1.10/download",
-    "downloads": 26648, "features": {}, "id": 202368,
+    "downloads": 26689, "features": {}, "id": 202368,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/terminal_size/0.1.10/authors",
@@ -393,7 +393,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/terminal_size/0.1.11/download",
-    "downloads": 12214, "features": {}, "id": 225124,
+    "downloads": 12247, "features": {}, "id": 225124,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/terminal_size/0.1.11/authors",
@@ -440,7 +440,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/terminal_size/0.1.12/download",
-    "downloads": 317331, "features": {}, "id": 235581,
+    "downloads": 322322, "features": {}, "id": 235581,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/terminal_size/0.1.12/authors",
@@ -487,7 +487,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/terminal_size/0.1.13/download",
-    "downloads": 449714, "features": {}, "id": 258757,
+    "downloads": 518841, "features": {}, "id": 258757,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/terminal_size/0.1.13/authors",
@@ -502,5 +502,52 @@
     },
     "readme_path": "/api/v1/crates/terminal_size/0.1.13/readme",
     "updated_at": "2020-07-03T17:50:13.263486+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-11-13T20:49:58.152457+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/402454?v=4",
+          "id": 933, "login": "eminence", "name": "Andrew Chin",
+          "url": "https://github.com/eminence"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Andrew Chin <achin@eminence32.net>"]},
+      "users": []
+    },
+    "crate": "terminal_size", "crate_size": 8852,
+    "created_at": "2020-11-13T20:49:58.152457+00:00",
+    "dependencies": [
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1843258, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(not(windows))", "version_id": 305015
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["handleapi", "processenv", "winbase", "wincon", "winnt"],
+        "id": 1843259, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 305015
+      }
+    ],
+    "dl_path": "/api/v1/crates/terminal_size/0.1.14/download",
+    "downloads": 0, "features": {}, "id": 305015,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/terminal_size/0.1.14/authors",
+      "dependencies": "/api/v1/crates/terminal_size/0.1.14/dependencies",
+      "version_downloads": "/api/v1/crates/terminal_size/0.1.14/downloads"
+    },
+    "num": "0.1.14",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/402454?v=4",
+      "id": 933, "login": "eminence", "name": "Andrew Chin",
+      "url": "https://github.com/eminence"
+    },
+    "readme_path": "/api/v1/crates/terminal_size/0.1.14/readme",
+    "updated_at": "2020-11-13T20:49:58.152457+00:00", "yanked": false
   }
 ]
