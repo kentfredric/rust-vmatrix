@@ -114,7 +114,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/trust-dns-client/0.18.0-alpha.1/download",
-    "downloads": 219,
+    "downloads": 220,
     "features": {
       "dns-over-https": ["trust-dns-https"],
       "dns-over-https-openssl": ["dns-over-https", "dns-over-openssl"],
@@ -254,7 +254,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/trust-dns-client/0.18.0-alpha.2/download",
-    "downloads": 176,
+    "downloads": 181,
     "features": {
       "dns-over-https": ["trust-dns-https"],
       "dns-over-https-openssl": ["dns-over-https", "dns-over-openssl"],
@@ -394,7 +394,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/trust-dns-client/0.18.0-alpha.3/download",
-    "downloads": 156,
+    "downloads": 162,
     "features": {
       "dns-over-https": ["trust-dns-https"],
       "dns-over-https-openssl": ["dns-over-https", "dns-over-openssl"],
@@ -534,7 +534,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/trust-dns-client/0.18.0/download",
-    "downloads": 184,
+    "downloads": 185,
     "features": {
       "dns-over-https": ["trust-dns-https"],
       "dns-over-https-openssl": ["dns-over-https", "dns-over-openssl"],
@@ -674,7 +674,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/trust-dns-client/0.18.1/download",
-    "downloads": 1177,
+    "downloads": 1188,
     "features": {
       "dns-over-https": ["trust-dns-https"],
       "dns-over-https-openssl": ["dns-over-https", "dns-over-openssl"],
@@ -819,7 +819,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/trust-dns-client/0.19.0/download",
-    "downloads": 133,
+    "downloads": 134,
     "features": {
       "dns-over-https": ["trust-dns-https"],
       "dns-over-https-openssl": ["dns-over-https", "dns-over-openssl"],
@@ -964,7 +964,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/trust-dns-client/0.19.1/download",
-    "downloads": 142,
+    "downloads": 147,
     "features": {
       "dns-over-https": ["trust-dns-https"],
       "dns-over-https-openssl": ["dns-over-https", "dns-over-openssl"],
@@ -1109,7 +1109,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/trust-dns-client/0.19.2/download",
-    "downloads": 1113,
+    "downloads": 1119,
     "features": {
       "dns-over-https": ["trust-dns-https"],
       "dns-over-https-openssl": ["dns-over-https", "dns-over-openssl"],
@@ -1261,7 +1261,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/trust-dns-client/0.19.3/download",
-    "downloads": 3454,
+    "downloads": 3480,
     "features": {
       "dns-over-https": ["trust-dns-https"],
       "dns-over-https-openssl": ["dns-over-https", "dns-over-openssl"],
@@ -1413,7 +1413,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/trust-dns-client/0.19.4/download",
-    "downloads": 1828,
+    "downloads": 1839,
     "features": {
       "dns-over-https": ["trust-dns-https"],
       "dns-over-https-openssl": ["dns-over-https", "dns-over-openssl"],
@@ -1565,7 +1565,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/trust-dns-client/0.19.5/download",
-    "downloads": 13646,
+    "downloads": 14758,
     "features": {
       "dns-over-https": ["trust-dns-https"],
       "dns-over-https-openssl": ["dns-over-https", "dns-over-openssl"],
@@ -1591,6 +1591,158 @@
     },
     "readme_path": "/api/v1/crates/trust-dns-client/0.19.5/readme",
     "updated_at": "2020-04-28T15:16:57.491328+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-11-13T19:19:27.676742+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+          "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+          "url": "https://github.com/bluejekyll"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Benjamin Fry <benjaminfry@me.com>"]},
+      "users": []
+    },
+    "crate": "trust-dns-client", "crate_size": 72299,
+    "created_at": "2020-11-13T19:19:27.676742+00:00",
+    "dependencies": [
+      {
+        "crate_id": "backtrace", "default_features": true, "downloads": 0,
+        "features": [], "id": 1843071, "kind": "normal", "optional": false,
+        "req": "^0.3.44", "target": null, "version_id": 304993
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 1843072, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 304993
+      },
+      {
+        "crate_id": "data-encoding", "default_features": true,
+        "downloads": 0, "features": [], "id": 1843073, "kind": "normal",
+        "optional": false, "req": "^2.2.0", "target": null,
+        "version_id": 304993
+      },
+      {
+        "crate_id": "futures", "default_features": false, "downloads": 0,
+        "features": ["std", "executor"], "id": 1843088, "kind": "dev",
+        "optional": false, "req": "^0.3.4", "target": null,
+        "version_id": 304993
+      },
+      {
+        "crate_id": "futures", "default_features": false, "downloads": 0,
+        "features": ["std"], "id": 1843074, "kind": "normal",
+        "optional": false, "req": "^0.3.4", "target": null,
+        "version_id": 304993
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1843075, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 304993
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1843076, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 304993
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": ["v102", "v110"], "id": 1843089, "kind": "dev",
+        "optional": false, "req": "^0.10", "target": null,
+        "version_id": 304993
+      },
+      {
+        "crate_id": "radix_trie", "default_features": true, "downloads": 0,
+        "features": [], "id": 1843078, "kind": "normal", "optional": false,
+        "req": "^0.1.6", "target": null, "version_id": 304993
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1843079, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 304993
+      },
+      {
+        "crate_id": "thiserror", "default_features": true, "downloads": 0,
+        "features": [], "id": 1843083, "kind": "normal", "optional": false,
+        "req": "^1.0.14", "target": null, "version_id": 304993
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["rt-core"], "id": 1843084, "kind": "normal",
+        "optional": false, "req": "^0.2.16", "target": null,
+        "version_id": 304993
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": true,
+        "downloads": 0, "features": ["dnssec"], "id": 1843086,
+        "kind": "normal", "optional": false, "req": "^0.19.6",
+        "target": null, "version_id": 304993
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": ["v102", "v110"], "id": 1843077, "kind": "normal",
+        "optional": true, "req": "^0.10", "target": null,
+        "version_id": 304993
+      },
+      {
+        "crate_id": "ring", "default_features": true, "downloads": 0,
+        "features": ["std"], "id": 1843080, "kind": "normal",
+        "optional": true, "req": "^0.16", "target": null,
+        "version_id": 304993
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1843081, "kind": "normal", "optional": true,
+        "req": "^0.17", "target": null, "version_id": 304993
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1843082, "kind": "normal",
+        "optional": true, "req": "^1.0", "target": null,
+        "version_id": 304993
+      },
+      {
+        "crate_id": "trust-dns-https", "default_features": true,
+        "downloads": 0, "features": [], "id": 1843085, "kind": "normal",
+        "optional": true, "req": "^0.19.6", "target": null,
+        "version_id": 304993
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 1843087, "kind": "normal", "optional": true,
+        "req": "^0.21", "target": null, "version_id": 304993
+      }
+    ],
+    "dl_path": "/api/v1/crates/trust-dns-client/0.19.6/download",
+    "downloads": 6,
+    "features": {
+      "dns-over-https": ["trust-dns-https"],
+      "dns-over-https-openssl": ["dns-over-https", "dns-over-openssl"],
+      "dns-over-https-rustls": ["dns-over-https", "dns-over-rustls"],
+      "dns-over-openssl": ["dns-over-tls", "dnssec-openssl", "openssl"],
+      "dns-over-rustls": ["dns-over-tls", "dnssec-ring", "rustls", "webpki"],
+      "dns-over-tls": [], "dnssec": [],
+      "dnssec-openssl": ["dnssec", "openssl", "trust-dns-proto/dnssec-openssl"],
+      "dnssec-ring": ["dnssec", "ring", "trust-dns-proto/dnssec-ring"],
+      "mdns": ["trust-dns-proto/mdns"], "serde-config": ["serde"]
+    },
+    "id": 304993, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/trust-dns-client/0.19.6/authors",
+      "dependencies": "/api/v1/crates/trust-dns-client/0.19.6/dependencies",
+      "version_downloads": "/api/v1/crates/trust-dns-client/0.19.6/downloads"
+    },
+    "num": "0.19.6",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/986845?v=4",
+      "id": 1300, "login": "bluejekyll", "name": "Benjamin Fry",
+      "url": "https://github.com/bluejekyll"
+    },
+    "readme_path": "/api/v1/crates/trust-dns-client/0.19.6/readme",
+    "updated_at": "2020-11-13T19:19:27.676742+00:00", "yanked": false
   },
   {
     "audit_actions": [
@@ -1717,7 +1869,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/trust-dns-client/0.20.0-alpha.1/download",
-    "downloads": 121,
+    "downloads": 129,
     "features": {
       "dns-over-https": ["trust-dns-https"],
       "dns-over-https-openssl": ["dns-over-https", "dns-over-openssl"],
@@ -1869,7 +2021,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/trust-dns-client/0.20.0-alpha.2/download",
-    "downloads": 127,
+    "downloads": 134,
     "features": {
       "dns-over-https": ["trust-dns-https"],
       "dns-over-https-openssl": ["dns-over-https", "dns-over-openssl"],
@@ -2027,7 +2179,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/trust-dns-client/0.20.0-alpha.3/download",
-    "downloads": 52,
+    "downloads": 221,
     "features": {
       "backtrace": ["trust-dns-proto/backtrace"],
       "dns-over-https": ["trust-dns-https"],
