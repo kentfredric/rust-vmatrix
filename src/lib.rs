@@ -1,5 +1,6 @@
 pub mod config;
 pub mod err;
+pub mod pages;
 pub mod results;
 pub mod stats_repo;
 pub mod versions;
