@@ -905,7 +905,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/auto_enums_derive/0.4.1/download",
-    "downloads": 505,
+    "downloads": 509,
     "features": {
       "default": ["std"], "exact_size_is_empty": [], "fmt": [],
       "futures": [], "futures01": [], "proc_macro": [], "rayon": [],
@@ -1583,7 +1583,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/auto_enums_derive/0.5.10/download",
-    "downloads": 53909,
+    "downloads": 53912,
     "features": {
       "default": ["std"], "exact_size_is_empty": [], "fmt": [],
       "futures": [], "futures01": [], "iovec": [], "proc_macro": [],
@@ -2051,7 +2051,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/auto_enums_derive/0.6.4/download",
-    "downloads": 6528,
+    "downloads": 6529,
     "features": {
       "convert": [], "default": ["std"], "exact_size_is_empty": [],
       "fmt": [], "fn_traits": [], "futures": [], "futures01": [],
@@ -2167,7 +2167,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/auto_enums_derive/0.7.1/download",
-    "downloads": 1382,
+    "downloads": 1386,
     "features": {
       "convert": [], "default": ["std"], "fmt": [], "fn_traits": [],
       "futures": [], "futures01": [], "generator_trait": [], "ops": [],
@@ -2433,7 +2433,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/auto_enums_derive/0.7.5/download",
-    "downloads": 18277,
+    "downloads": 18784,
     "features": {
       "convert": [], "default": ["std"], "fmt": [], "fn_traits": [],
       "futures": ["futures03"], "futures01": [], "futures03": [],
@@ -2495,7 +2495,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/auto_enums_derive/0.7.6/download",
-    "downloads": 86,
+    "downloads": 88,
     "features": {
       "convert": [], "default": ["std"], "fmt": [], "fn_traits": [],
       "futures": ["futures03"], "futures01": [], "futures03": [],
@@ -2557,7 +2557,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/auto_enums_derive/0.7.7/download",
-    "downloads": 2560,
+    "downloads": 2597,
     "features": {
       "convert": [], "default": ["std"], "fmt": [], "fn_traits": [],
       "futures": ["futures03"], "futures01": [], "futures03": [],
@@ -2619,7 +2619,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/auto_enums_derive/0.7.8/download",
-    "downloads": 2674,
+    "downloads": 3356,
     "features": {
       "convert": [], "default": ["std"], "fmt": [], "fn_traits": [],
       "futures": ["futures03"], "futures01": [], "futures03": [],
@@ -2686,7 +2686,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/auto_enums_derive/0.7.9/download",
-    "downloads": 123,
+    "downloads": 1114,
     "features": {
       "convert": [], "default": ["std"], "fmt": [], "fn_traits": [],
       "futures": ["futures03"], "futures01": [], "futures03": [],
@@ -2708,5 +2708,72 @@
     },
     "readme_path": "/api/v1/crates/auto_enums_derive/0.7.9/readme",
     "updated_at": "2020-11-06T12:23:44.161948+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-11-15T00:33:14.101141+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/43724913?v=4",
+          "id": 33035, "login": "taiki-e", "name": "Taiki Endo",
+          "url": "https://github.com/taiki-e"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["Taiki Endo <te316e89@gmail.com>"]}, "users": []},
+    "crate": "auto_enums_derive", "crate_size": 14263,
+    "created_at": "2020-11-15T00:33:14.101141+00:00",
+    "dependencies": [
+      {
+        "crate_id": "autocfg", "default_features": true, "downloads": 0,
+        "features": [], "id": 1846082, "kind": "build", "optional": false,
+        "req": "^1", "target": null, "version_id": 305350
+      },
+      {
+        "crate_id": "derive_utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 1846078, "kind": "normal",
+        "optional": false, "req": "^0.11", "target": null,
+        "version_id": 305350
+      },
+      {
+        "crate_id": "proc-macro2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1846079, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 305350
+      },
+      {
+        "crate_id": "quote", "default_features": true, "downloads": 0,
+        "features": [], "id": 1846080, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 305350
+      },
+      {
+        "crate_id": "syn", "default_features": true, "downloads": 0,
+        "features": ["full"], "id": 1846081, "kind": "normal",
+        "optional": false, "req": "^1", "target": null,
+        "version_id": 305350
+      }
+    ],
+    "dl_path": "/api/v1/crates/auto_enums_derive/0.7.10/download",
+    "downloads": 0,
+    "features": {
+      "convert": [], "default": ["std"], "fmt": [], "fn_traits": [],
+      "futures": ["futures03"], "futures01": [], "futures03": [],
+      "generator_trait": [], "ops": [], "rayon": [], "serde": [],
+      "std": [], "tokio01": [], "tokio02": [], "tokio03": [],
+      "transpose_methods": [], "trusted_len": [], "unstable": []
+    },
+    "id": 305350, "license": "Apache-2.0 OR MIT",
+    "links": {
+      "authors": "/api/v1/crates/auto_enums_derive/0.7.10/authors",
+      "dependencies": "/api/v1/crates/auto_enums_derive/0.7.10/dependencies",
+      "version_downloads": "/api/v1/crates/auto_enums_derive/0.7.10/downloads"
+    },
+    "num": "0.7.10",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/43724913?v=4",
+      "id": 33035, "login": "taiki-e", "name": "Taiki Endo",
+      "url": "https://github.com/taiki-e"
+    },
+    "readme_path": "/api/v1/crates/auto_enums_derive/0.7.10/readme",
+    "updated_at": "2020-11-15T00:33:14.101141+00:00", "yanked": false
   }
 ]

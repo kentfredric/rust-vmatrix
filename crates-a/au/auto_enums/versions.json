@@ -739,7 +739,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/auto_enums/0.4.1/download",
-    "downloads": 491,
+    "downloads": 495,
     "features": {
       "default": ["std"],
       "exact_size_is_empty": ["auto_enums_derive/exact_size_is_empty"],
@@ -1310,7 +1310,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/auto_enums/0.5.10/download",
-    "downloads": 53894,
+    "downloads": 53897,
     "features": {
       "default": ["std"],
       "exact_size_is_empty": ["auto_enums_derive/exact_size_is_empty"],
@@ -1813,7 +1813,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/auto_enums/0.6.4/download",
-    "downloads": 6636,
+    "downloads": 6637,
     "features": {
       "convert": ["auto_enums_derive/convert"], "default": ["std"],
       "exact_size_is_empty": ["auto_enums_derive/exact_size_is_empty"],
@@ -1971,7 +1971,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/auto_enums/0.7.1/download",
-    "downloads": 1348,
+    "downloads": 1352,
     "features": {
       "convert": ["auto_enums_derive/convert"], "default": ["std"],
       "fmt": ["auto_enums_derive/fmt"],
@@ -2374,7 +2374,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/auto_enums/0.7.5/download",
-    "downloads": 18278,
+    "downloads": 18785,
     "features": {
       "convert": ["auto_enums_derive/convert"], "default": ["std"],
       "fmt": ["auto_enums_derive/fmt"],
@@ -2484,7 +2484,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/auto_enums/0.7.6/download",
-    "downloads": 82,
+    "downloads": 84,
     "features": {
       "convert": ["auto_enums_derive/convert"], "default": ["std"],
       "fmt": ["auto_enums_derive/fmt"],
@@ -2594,7 +2594,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/auto_enums/0.7.7/download",
-    "downloads": 2552,
+    "downloads": 2589,
     "features": {
       "convert": ["auto_enums_derive/convert"], "default": ["std"],
       "fmt": ["auto_enums_derive/fmt"],
@@ -2709,7 +2709,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/auto_enums/0.7.8/download",
-    "downloads": 2670,
+    "downloads": 3350,
     "features": {
       "convert": ["auto_enums_derive/convert"], "default": ["std"],
       "fmt": ["auto_enums_derive/fmt"],
@@ -2825,7 +2825,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/auto_enums/0.7.9/download",
-    "downloads": 121,
+    "downloads": 1113,
     "features": {
       "convert": ["auto_enums_derive/convert"], "default": ["std"],
       "fmt": ["auto_enums_derive/fmt"],
@@ -2860,5 +2860,121 @@
     },
     "readme_path": "/api/v1/crates/auto_enums/0.7.9/readme",
     "updated_at": "2020-11-06T12:24:22.513742+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-11-15T00:33:40.575491+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/43724913?v=4",
+          "id": 33035, "login": "taiki-e", "name": "Taiki Endo",
+          "url": "https://github.com/taiki-e"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["Taiki Endo <te316e89@gmail.com>"]}, "users": []},
+    "crate": "auto_enums", "crate_size": 32972,
+    "created_at": "2020-11-15T00:33:40.575491+00:00",
+    "dependencies": [
+      {
+        "crate_id": "auto_enums_core", "default_features": false,
+        "downloads": 0, "features": [], "id": 1846083, "kind": "normal",
+        "optional": false, "req": "=0.7.10", "target": null,
+        "version_id": 305351
+      },
+      {
+        "crate_id": "auto_enums_derive", "default_features": false,
+        "downloads": 0, "features": [], "id": 1846084, "kind": "normal",
+        "optional": false, "req": "=0.7.10", "target": null,
+        "version_id": 305351
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1846085, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 305351
+      },
+      {
+        "crate_id": "futures", "default_features": false, "downloads": 0,
+        "features": ["std"], "id": 1846086, "kind": "dev",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 305351
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1846087, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 305351
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 1846088, "kind": "dev", "optional": false,
+        "req": "^1", "target": null, "version_id": 305351
+      },
+      {
+        "crate_id": "rustversion", "default_features": true, "downloads": 0,
+        "features": [], "id": 1846089, "kind": "dev", "optional": false,
+        "req": "^1", "target": null, "version_id": 305351
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 1846090, "kind": "dev", "optional": false,
+        "req": "^1", "target": null, "version_id": 305351
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 1846091, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 305351
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 1846092, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 305351
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 1846093, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 305351
+      },
+      {
+        "crate_id": "trybuild", "default_features": true, "downloads": 0,
+        "features": [], "id": 1846094, "kind": "dev", "optional": false,
+        "req": "^1", "target": null, "version_id": 305351
+      }
+    ],
+    "dl_path": "/api/v1/crates/auto_enums/0.7.10/download",
+    "downloads": 0,
+    "features": {
+      "convert": ["auto_enums_derive/convert"], "default": ["std"],
+      "fmt": ["auto_enums_derive/fmt"],
+      "fn_traits": ["auto_enums_derive/fn_traits"],
+      "futures": ["auto_enums_derive/futures"],
+      "futures01": ["auto_enums_derive/futures01"],
+      "futures03": ["auto_enums_derive/futures03"],
+      "generator_trait": ["auto_enums_derive/generator_trait"],
+      "ops": ["auto_enums_derive/ops"],
+      "rayon": ["auto_enums_derive/rayon"],
+      "serde": ["auto_enums_derive/serde"],
+      "std": ["auto_enums_derive/std"],
+      "tokio01": ["auto_enums_derive/tokio01"],
+      "tokio02": ["auto_enums_derive/tokio02"],
+      "tokio03": ["auto_enums_derive/tokio03"],
+      "transpose_methods": ["auto_enums_derive/transpose_methods"],
+      "trusted_len": ["auto_enums_derive/trusted_len"],
+      "type_analysis": ["auto_enums_core/type_analysis"],
+      "unstable": ["auto_enums_derive/unstable"]
+    },
+    "id": 305351, "license": "Apache-2.0 OR MIT",
+    "links": {
+      "authors": "/api/v1/crates/auto_enums/0.7.10/authors",
+      "dependencies": "/api/v1/crates/auto_enums/0.7.10/dependencies",
+      "version_downloads": "/api/v1/crates/auto_enums/0.7.10/downloads"
+    },
+    "num": "0.7.10",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/43724913?v=4",
+      "id": 33035, "login": "taiki-e", "name": "Taiki Endo",
+      "url": "https://github.com/taiki-e"
+    },
+    "readme_path": "/api/v1/crates/auto_enums/0.7.10/readme",
+    "updated_at": "2020-11-15T00:33:40.575491+00:00", "yanked": false
   }
 ]
