@@ -31,7 +31,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/actix-cors/0.1.0/download",
-    "downloads": 83332, "features": {}, "id": 156525,
+    "downloads": 83771, "features": {}, "id": 156525,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/actix-cors/0.1.0/authors",
@@ -141,7 +141,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/actix-cors/0.2.0-alpha.3/download",
-    "downloads": 626, "features": {}, "id": 194438,
+    "downloads": 634, "features": {}, "id": 194438,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/actix-cors/0.2.0-alpha.3/authors",
@@ -203,7 +203,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/actix-cors/0.2.0/download",
-    "downloads": 186963, "features": {}, "id": 197772,
+    "downloads": 190864, "features": {}, "id": 197772,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/actix-cors/0.2.0/authors",
@@ -266,7 +266,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/actix-cors/0.3.0-alpha.1/download",
-    "downloads": 3647, "features": {}, "id": 220155,
+    "downloads": 3700, "features": {}, "id": 220155,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/actix-cors/0.3.0-alpha.1/authors",
@@ -324,7 +324,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/actix-cors/0.3.0/download",
-    "downloads": 9964, "features": {}, "id": 282503,
+    "downloads": 11435, "features": {}, "id": 282503,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/actix-cors/0.3.0/authors",
@@ -382,7 +382,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/actix-cors/0.4.0/download",
-    "downloads": 3441, "features": {}, "id": 287908,
+    "downloads": 3621, "features": {}, "id": 287908,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/actix-cors/0.4.0/authors",
@@ -440,7 +440,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/actix-cors/0.4.1/download",
-    "downloads": 11006, "features": {}, "id": 291061,
+    "downloads": 13980, "features": {}, "id": 291061,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/actix-cors/0.4.1/authors",
@@ -531,7 +531,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/actix-cors/0.5.0/download",
-    "downloads": 2629, "features": {}, "id": 296889,
+    "downloads": 3429, "features": {}, "id": 296889,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/actix-cors/0.5.0/authors",
@@ -600,7 +600,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/actix-cors/0.5.1/download",
-    "downloads": 0, "features": {}, "id": 302205,
+    "downloads": 1208, "features": {}, "id": 302205,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/actix-cors/0.5.1/authors",
@@ -615,5 +615,75 @@
     },
     "readme_path": "/api/v1/crates/actix-cors/0.5.1/readme",
     "updated_at": "2020-11-05T18:50:12.395869+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-11-15T22:28:17.482276+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/3316789?v=4",
+          "id": 56903, "login": "robjtede", "name": "Rob Ede",
+          "url": "https://github.com/robjtede"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": ["Nikolay Kim <fafhrd91@gmail.com>", "Rob Ede <robjtede@icloud.com>"]
+      },
+      "users": []
+    },
+    "crate": "actix-cors", "crate_size": 29952,
+    "created_at": "2020-11-15T22:28:17.482276+00:00",
+    "dependencies": [
+      {
+        "crate_id": "actix-web", "default_features": false, "downloads": 0,
+        "features": [], "id": 1847568, "kind": "normal", "optional": false,
+        "req": "^3.0.0", "target": null, "version_id": 305555
+      },
+      {
+        "crate_id": "derive_more", "default_features": true, "downloads": 0,
+        "features": [], "id": 1847569, "kind": "normal", "optional": false,
+        "req": "^0.99.2", "target": null, "version_id": 305555
+      },
+      {
+        "crate_id": "futures-util", "default_features": false,
+        "downloads": 0, "features": [], "id": 1847570, "kind": "normal",
+        "optional": false, "req": "^0.3.7", "target": null,
+        "version_id": 305555
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1847571, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 305555
+      },
+      {
+        "crate_id": "once_cell", "default_features": true, "downloads": 0,
+        "features": [], "id": 1847572, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 305555
+      },
+      {
+        "crate_id": "tinyvec", "default_features": true, "downloads": 0,
+        "features": ["alloc"], "id": 1847573, "kind": "normal",
+        "optional": false, "req": "^1", "target": null,
+        "version_id": 305555
+      }
+    ],
+    "dl_path": "/api/v1/crates/actix-cors/0.5.2/download",
+    "downloads": 6, "features": {}, "id": 305555,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/actix-cors/0.5.2/authors",
+      "dependencies": "/api/v1/crates/actix-cors/0.5.2/dependencies",
+      "version_downloads": "/api/v1/crates/actix-cors/0.5.2/downloads"
+    },
+    "num": "0.5.2",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/3316789?v=4",
+      "id": 56903, "login": "robjtede", "name": "Rob Ede",
+      "url": "https://github.com/robjtede"
+    },
+    "readme_path": "/api/v1/crates/actix-cors/0.5.2/readme",
+    "updated_at": "2020-11-15T22:28:17.482276+00:00", "yanked": false
   }
 ]
