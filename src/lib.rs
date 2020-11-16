@@ -28,7 +28,7 @@ impl std::fmt::Display for Error {
     match self {
       | Self::ConfigError(e) => write!(fmter, "Configuration Error: {}", e),
       | Self::ResultsError(e) => write!(fmter, "Result Data Error: {}", e),
-      | Self::VersionsError(e) => write!(fmter, "Version Data Error: {:?}", e),
+      | Self::VersionsError(e) => write!(fmter, "Version Data Error: {}", e),
     }
   }
 }
