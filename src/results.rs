@@ -38,3 +38,17 @@ impl From<std::io::Error> for Error {
 impl From<serde_json::Error> for Error {
   fn from(e: serde_json::Error) -> Self { Self::SerdeJsonError(e) }
 }
+
+impl std::fmt::Display for Error {
+  fn fmt(&self, fmter: &mut std::fmt::Formatter<'_>) -> Result<(), std::fmt::Error> {
+    match self {
+      | Self::SerdeJsonError(e) => {
+        write!(fmter, "Error reading Result JSON data: {}", e)
+      },
+      | Self::IoError(e) => {
+        write!(fmter, "Error reading Result JSON file: {}", e)
+      },
+    }
+  }
+}
+impl std::error::Error for Error {}
