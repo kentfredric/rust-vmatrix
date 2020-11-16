@@ -26,7 +26,7 @@ impl From<versions::Error> for Error {
 impl std::fmt::Display for Error {
   fn fmt(&self, fmter: &mut std::fmt::Formatter<'_>) -> Result<(), std::fmt::Error> {
     match self {
-      | Self::ConfigError(e) => write!(fmter, "Configuration Error: {:?}", e),
+      | Self::ConfigError(e) => write!(fmter, "Configuration Error: {}", e),
       | Self::ResultsError(e) => write!(fmter, "Result Data Error: {:?}", e),
       | Self::VersionsError(e) => write!(fmter, "Version Data Error: {:?}", e),
     }

@@ -39,3 +39,17 @@ impl From<toml::de::Error> for Error {
 impl From<std::io::Error> for Error {
   fn from(e: std::io::Error) -> Self { Self::IoError(e) }
 }
+
+impl std::fmt::Display for Error {
+  fn fmt(&self, fmter: &mut std::fmt::Formatter<'_>) -> Result<(), std::fmt::Error> {
+    match self {
+      | Self::TomlDecodeError(e) => {
+        write!(fmter, "Error reading TOML data: {}", e)
+      },
+      | Self::IoError(e) => {
+        write!(fmter, "Error reading Config TOML file: {}", e)
+      },
+    }
+  }
+}
+impl std::error::Error for Error {}
