@@ -1,17 +1,24 @@
 pub mod config;
-pub mod err;
 pub mod pages;
 pub mod results;
 pub mod stats_repo;
 pub mod versions;
 
-#[cfg(test)]
+#[derive(Debug)]
+pub enum Error {
+  ConfigError(config::Error),
+  ResultsError(results::Error),
+  VersionsError(versions::Error),
+}
 
-mod tests {
+impl From<config::Error> for Error {
+  fn from(e: config::Error) -> Self { Self::ConfigError(e) }
+}
 
-  #[test]
+impl From<results::Error> for Error {
+  fn from(e: results::Error) -> Self { Self::ResultsError(e) }
+}
 
-  fn it_works() {
-    assert_eq!(2 + 2, 4);
-  }
+impl From<versions::Error> for Error {
+  fn from(e: versions::Error) -> Self { Self::VersionsError(e) }
 }
