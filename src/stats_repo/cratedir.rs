@@ -39,7 +39,7 @@ where
       if c.len() == 1 {
         sections.push(c.to_owned());
       } else {
-        return Err(Error::BadSection(entry_name, root.as_ref().into()));
+        return Err(Error::BadSection(entry_name, prefix.as_ref().into(), root.as_ref().into()));
       }
     }
   }
@@ -59,7 +59,7 @@ where
     if 2 >= entry_str.len() && entry_str.starts_with(prefix.as_ref()) {
       subsections.push(entry_str.to_owned())
     } else {
-      return Err(Error::BadSubSection(entry_name, root.as_ref().into()));
+      return Err(Error::BadSubSection(entry_name, prefix.as_ref().into(), root.as_ref().into()));
     }
   }
   Ok(subsections)
@@ -78,7 +78,7 @@ where
     if entry_str.starts_with(prefix.as_ref()) {
       crates.push(entry_str.to_owned())
     } else {
-      return Err(Error::BadCrate(entry_name, root.as_ref().into()));
+      return Err(Error::BadCrate(entry_name, prefix.as_ref().into(), root.as_ref().into()));
     }
   }
   Ok(crates)
@@ -88,12 +88,51 @@ where
 pub enum Error {
   NotUnicode(OsString),
   IoError(std::io::Error),
-  BadSection(OsString, PathBuf),
-  BadSubSection(OsString, PathBuf),
-  BadCrate(OsString, PathBuf),
+  BadSection(OsString, String, PathBuf),
+  BadSubSection(OsString, String, PathBuf),
+  BadCrate(OsString, String, PathBuf),
   BadCrateName(String),
 }
 
 impl From<std::io::Error> for Error {
   fn from(e: std::io::Error) -> Self { Self::IoError(e) }
 }
+
+impl std::fmt::Display for Error {
+  fn fmt(&self, fmter: &mut std::fmt::Formatter<'_>) -> Result<(), std::fmt::Error> {
+    match self {
+      | Self::NotUnicode(s) => {
+        write!(fmter, "Could not decode {:?} as Unicode", s)
+      },
+      | Self::IoError(e) => {
+        write!(fmter, "IO Error in stats repo directory: {}", e)
+      },
+      | Self::BadSection(sname, prefix, root) => {
+        write!(
+          fmter,
+          "Directory Section {:?} in {:?} does not satisfy the layout scheme (should be one character after prefix {})",
+          sname, root, prefix
+        )
+      },
+      | Self::BadSubSection(sname, prefix, root) => {
+        write!(
+          fmter,
+          "Subsection {:?} in {:?} does not satisfy the layout scheme (should be 1-or-2 characters, and start with {} \
+           )",
+          sname, root, prefix
+        )
+      },
+      | Self::BadCrate(sname, prefix, root) => {
+        write!(
+          fmter,
+          "Crate {:?} in {:?} does not satisfy the layout scheme (should start with {})",
+          sname, root, prefix
+        )
+      },
+      | Self::BadCrateName(s) => {
+        write!(fmter, "Crate name {:?} is illegal, must have at least one character", s)
+      },
+    }
+  }
+}
+impl std::error::Error for Error {}

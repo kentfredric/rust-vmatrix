@@ -106,3 +106,19 @@ impl From<super::versions::Error> for Error {
 impl From<cratedir::Error> for Error {
   fn from(e: cratedir::Error) -> Self { Self::CrateDirError(e) }
 }
+
+impl std::fmt::Display for Error {
+  fn fmt(&self, fmter: &mut std::fmt::Formatter<'_>) -> Result<(), std::fmt::Error> {
+    match self {
+      | Self::ResultsError(e) => write!(fmter, "Error loading results: {}", e),
+      | Self::VersionsError(e) => {
+        write!(fmter, "Error loading versions: {}", e)
+      },
+      | Self::CrateDirError(e) => {
+        write!(fmter, "Error mapping to/from crate directory stats layout: {}", e)
+      },
+      | Self::IoError(e) => write!(fmter, "IO Error in Stats Directory: {}", e),
+    }
+  }
+}
+impl std::error::Error for Error {}
