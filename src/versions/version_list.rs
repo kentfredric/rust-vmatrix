@@ -12,7 +12,7 @@ pub type Url = String;
 pub type Version = String;
 pub type VersionList = Vec<VersionInfo>;
 
-#[derive(Serialize, Deserialize, Debug)]
+#[derive(Serialize, Deserialize, Debug, Clone)]
 pub struct VersionInfo {
   audit_actions: AuditActions,
   authors:       AuthorInfo,
@@ -34,17 +34,17 @@ pub struct VersionInfo {
   yanked:        bool,
 }
 
-#[derive(Serialize, Deserialize, Debug)]
+#[derive(Serialize, Deserialize, Debug, Clone)]
 pub struct AuditAction {
   action: String,
   time:   TimeStamp,
   user:   User,
 }
 
-#[derive(Serialize, Deserialize, Debug)]
+#[derive(Serialize, Deserialize, Debug, Clone)]
 pub struct AuthorInfo {}
 
-#[derive(Serialize, Deserialize, Debug)]
+#[derive(Serialize, Deserialize, Debug, Clone)]
 pub struct Dependency {
   crate_id:         String,
   default_features: bool,
@@ -58,7 +58,7 @@ pub struct Dependency {
   version_id:       u64,
 }
 
-#[derive(Serialize, Deserialize, Debug)]
+#[derive(Serialize, Deserialize, Debug, Clone)]
 pub struct User {
   avatar: Url,
   id:     u64,

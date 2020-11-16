@@ -3,7 +3,7 @@ use serde_derive::{Deserialize, Serialize};
 
 pub type ResultListInner = Vec<ResultInfo>;
 
-#[derive(Serialize, Deserialize, Debug)]
+#[derive(Serialize, Deserialize, Debug, Clone)]
 #[serde(transparent)]
 pub struct ResultList(ResultListInner);
 

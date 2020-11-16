@@ -2,6 +2,7 @@ pub mod config;
 pub mod pages;
 pub mod results;
 pub mod stats_repo;
+pub mod stats_repo_cache;
 pub mod versions;
 
 #[derive(Debug)]

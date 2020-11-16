@@ -94,6 +94,10 @@ impl StatsRepo {
   }
 }
 
+impl AsRef<StatsRepo> for StatsRepo {
+  fn as_ref(&self) -> &Self { &self }
+}
+
 impl From<std::io::Error> for Error {
   fn from(e: std::io::Error) -> Self { Self::IoError(e) }
 }

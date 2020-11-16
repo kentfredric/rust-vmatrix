@@ -1,5 +1,5 @@
 use std::ops::Deref;
-use vmatrix::{config, stats_repo};
+use vmatrix::{config, stats_repo, stats_repo_cache};
 
 use vmatrix::results::ResultType;
 
@@ -13,9 +13,10 @@ struct ResultBlock {
 fn main() {
   let cfg = config::from_file("./vmatrix.toml").unwrap();
   let repo = stats_repo::from_config(cfg);
-  for rustc in repo.rustcs() {
-    for s in repo.crate_names().unwrap() {
-      if let Ok(results) = repo.crate_results(&s) {
+  let mut cache = stats_repo_cache::for_repo(&repo);
+  for rustc in cache.rustcs() {
+    for s in cache.crate_names().unwrap() {
+      if let Ok(results) = cache.crate_results(&s) {
         let mut bundles = Vec::new();
         let mut last_state = Option::None;
         let mut block_min = Option::None;
@@ -23,7 +24,7 @@ fn main() {
         let mut saw_pass = false;
 
         for v in results.deref() {
-          let my_result = v.rustc_result(rustc);
+          let my_result = v.rustc_result(&rustc);
           if ResultType::Pass == my_result {
             saw_pass = true;
           }

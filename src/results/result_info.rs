@@ -4,7 +4,7 @@ pub type Version = String;
 pub type RustcList = Vec<Version>;
 
 use serde_derive::{Deserialize, Serialize};
-#[derive(Serialize, Deserialize, Debug)]
+#[derive(Serialize, Deserialize, Debug, Clone)]
 pub struct ResultInfo {
   #[serde(rename = "crate")]
   crate_name: String,
