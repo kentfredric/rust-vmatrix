@@ -86,10 +86,51 @@ where
 }
 
 #[derive(Debug)]
+pub struct InBandDirIterator {
+  root:  PathBuf,
+  inner: Option<Result<fs::ReadDir, ()>>,
+}
+
+impl InBandDirIterator {
+  pub fn new<R>(root: R) -> InBandDirIterator
+  where
+    R: AsRef<Path>,
+  {
+    InBandDirIterator { root: root.as_ref().to_path_buf(), inner: Option::None }
+  }
+}
+
+impl Iterator for InBandDirIterator {
+  type Item = Result<fs::DirEntry, io::Error>;
+
+  fn next(&mut self) -> Option<Self::Item> {
+    // This will only ever not be a None
+    // when initializing ReadDir and read_dir() fails
+    let mut error = None::<Self::Item>;
+    let root = &self.root;
+    match self.inner.get_or_insert_with(|| {
+      match fs::read_dir(&root) {
+        | Ok(inner) => Ok(inner),
+        | Err(err) => {
+          // Stash the failure
+          error = Some(Err(err));
+          Err(())
+        },
+      }
+    }) {
+      | Ok(inner) => inner,
+      // Returns None on non-first calls if read_dir failed
+      | Err(()) => return error,
+    }
+    .next()
+  }
+}
+
+#[derive(Debug)]
 pub struct SectionIterator {
   root:   PathBuf,
   prefix: String,
-  inner:  Option<Result<fs::ReadDir, ()>>,
+  inner:  InBandDirIterator,
 }
 
 impl SectionIterator {
@@ -98,7 +139,11 @@ impl SectionIterator {
     R: AsRef<Path>,
     P: AsRef<str>,
   {
-    SectionIterator { root: root.as_ref().to_path_buf(), prefix: prefix.as_ref().to_string(), inner: Option::None }
+    SectionIterator {
+      root:   root.as_ref().to_path_buf(),
+      prefix: prefix.as_ref().to_string(),
+      inner:  InBandDirIterator::new(root),
+    }
   }
 
   fn validate_item(&self, d: Result<fs::DirEntry, io::Error>) -> Result<String, self::Error> {
@@ -120,35 +165,14 @@ impl SectionIterator {
 impl Iterator for SectionIterator {
   type Item = Result<String, self::Error>;
 
-  fn next(&mut self) -> Option<Self::Item> {
-    // This will only ever not be a None
-    // when initializing ReadDir and read_dir() fails
-    let mut error = None::<Self::Item>;
-    let root = &self.root;
-    match self.inner.get_or_insert_with(|| {
-      match fs::read_dir(&root) {
-        | Ok(inner) => Ok(inner),
-        | Err(err) => {
-          // Stash the failure
-          error = Some(Err(err.into()));
-          Err(())
-        },
-      }
-    }) {
-      | Ok(inner) => inner,
-      // Returns None on non-first calls if read_dir failed
-      | Err(()) => return error,
-    }
-    .next()
-    .map(|i| self.validate_item(i))
-  }
+  fn next(&mut self) -> Option<Self::Item> { self.inner.next().map(|i| self.validate_item(i)) }
 }
 
 #[derive(Debug)]
 pub struct SubSectionIterator {
   root:   PathBuf,
   prefix: String,
-  inner:  Option<Result<fs::ReadDir, ()>>,
+  inner:  InBandDirIterator,
 }
 
 impl SubSectionIterator {
@@ -160,7 +184,7 @@ impl SubSectionIterator {
     SubSectionIterator {
       root:   root.as_ref().to_path_buf(),
       prefix: prefix.as_ref().to_string(),
-      inner:  Option::None,
+      inner:  InBandDirIterator::new(root),
     }
   }
 
@@ -179,35 +203,14 @@ impl SubSectionIterator {
 impl Iterator for SubSectionIterator {
   type Item = Result<String, self::Error>;
 
-  fn next(&mut self) -> Option<Self::Item> {
-    // This will only ever not be a None
-    // when initializing ReadDir and read_dir() fails
-    let mut error = None::<Self::Item>;
-    let root = &self.root;
-    match self.inner.get_or_insert_with(|| {
-      match fs::read_dir(&root) {
-        | Ok(inner) => Ok(inner),
-        | Err(err) => {
-          // Stash the failure
-          error = Some(Err(err.into()));
-          Err(())
-        },
-      }
-    }) {
-      | Ok(inner) => inner,
-      // Returns None on non-first calls if read_dir failed
-      | Err(()) => return error,
-    }
-    .next()
-    .map(|i| self.validate_item(i))
-  }
+  fn next(&mut self) -> Option<Self::Item> { self.inner.next().map(|i| self.validate_item(i)) }
 }
 
 #[derive(Debug)]
 pub struct CrateIterator {
   root:   PathBuf,
   prefix: String,
-  inner:  Option<Result<fs::ReadDir, ()>>,
+  inner:  InBandDirIterator,
 }
 
 impl CrateIterator {
@@ -216,7 +219,11 @@ impl CrateIterator {
     R: AsRef<Path>,
     P: AsRef<str>,
   {
-    CrateIterator { root: root.as_ref().to_path_buf(), prefix: prefix.as_ref().to_string(), inner: Option::None }
+    CrateIterator {
+      root:   root.as_ref().to_path_buf(),
+      prefix: prefix.as_ref().to_string(),
+      inner:  InBandDirIterator::new(root),
+    }
   }
 
   fn validate_item(&self, d: Result<fs::DirEntry, io::Error>) -> Result<String, self::Error> {
@@ -234,28 +241,7 @@ impl CrateIterator {
 impl Iterator for CrateIterator {
   type Item = Result<String, self::Error>;
 
-  fn next(&mut self) -> Option<Self::Item> {
-    // This will only ever not be a None
-    // when initializing ReadDir and read_dir() fails
-    let mut error = None::<Self::Item>;
-    let root = &self.root;
-    match self.inner.get_or_insert_with(|| {
-      match fs::read_dir(&root) {
-        | Ok(inner) => Ok(inner),
-        | Err(err) => {
-          // Stash the failure
-          error = Some(Err(err.into()));
-          Err(())
-        },
-      }
-    }) {
-      | Ok(inner) => inner,
-      // Returns None on non-first calls if read_dir failed
-      | Err(()) => return error,
-    }
-    .next()
-    .map(|i| self.validate_item(i))
-  }
+  fn next(&mut self) -> Option<Self::Item> { self.inner.next().map(|i| self.validate_item(i)) }
 }
 
 #[derive(Debug)]
