@@ -1,5 +1,6 @@
 use std::{
   ffi::OsString,
+  fs, io,
   path::{Path, PathBuf},
 };
 
@@ -85,10 +86,184 @@ where
 }
 
 #[derive(Debug)]
+pub struct SectionIterator {
+  root:   PathBuf,
+  prefix: String,
+  inner:  Option<Result<fs::ReadDir, ()>>,
+}
+
+impl SectionIterator {
+  pub fn new<R, P>(root: R, prefix: P) -> SectionIterator
+  where
+    R: AsRef<Path>,
+    P: AsRef<str>,
+  {
+    SectionIterator { root: root.as_ref().to_path_buf(), prefix: prefix.as_ref().to_string(), inner: Option::None }
+  }
+
+  fn validate_item(&self, d: Result<fs::DirEntry, io::Error>) -> Result<String, self::Error> {
+    let entry_name = d?.file_name();
+    let entry_str = entry_name.to_str().ok_or_else(|| Error::NotUnicode(entry_name.to_owned()))?;
+
+    if let Some(c) = entry_str.strip_prefix(&self.prefix) {
+      if c.len() == 1 {
+        Ok(c.to_owned())
+      } else {
+        Err(Error::BadSection(entry_name, self.prefix.to_owned(), self.root.to_owned()))
+      }
+    } else {
+      Err(Error::NonSection(entry_name, self.prefix.to_owned(), self.root.to_owned()))
+    }
+  }
+}
+
+impl Iterator for SectionIterator {
+  type Item = Result<String, self::Error>;
+
+  fn next(&mut self) -> Option<Self::Item> {
+    // This will only ever not be a None
+    // when initializing ReadDir and read_dir() fails
+    let mut error = None::<Self::Item>;
+    let root = &self.root;
+    match self.inner.get_or_insert_with(|| {
+      match fs::read_dir(&root) {
+        | Ok(inner) => Ok(inner),
+        | Err(err) => {
+          // Stash the failure
+          error = Some(Err(err.into()));
+          Err(())
+        },
+      }
+    }) {
+      | Ok(inner) => inner,
+      // Returns None on non-first calls if read_dir failed
+      | Err(()) => return error,
+    }
+    .next()
+    .map(|i| self.validate_item(i))
+  }
+}
+
+#[derive(Debug)]
+pub struct SubSectionIterator {
+  root:   PathBuf,
+  prefix: String,
+  inner:  Option<Result<fs::ReadDir, ()>>,
+}
+
+impl SubSectionIterator {
+  pub fn new<R, P>(root: R, prefix: P) -> SubSectionIterator
+  where
+    R: AsRef<Path>,
+    P: AsRef<str>,
+  {
+    SubSectionIterator {
+      root:   root.as_ref().to_path_buf(),
+      prefix: prefix.as_ref().to_string(),
+      inner:  Option::None,
+    }
+  }
+
+  fn validate_item(&self, d: Result<fs::DirEntry, io::Error>) -> Result<String, self::Error> {
+    let entry_name = d?.file_name();
+    let entry_str = entry_name.to_str().ok_or_else(|| Error::NotUnicode(entry_name.to_owned()))?;
+
+    if 2 >= entry_str.len() && entry_str.starts_with(&self.prefix) {
+      Ok(entry_str.to_owned())
+    } else {
+      Err(Error::BadSubSection(entry_name, self.prefix.to_owned(), self.root.to_owned()))
+    }
+  }
+}
+
+impl Iterator for SubSectionIterator {
+  type Item = Result<String, self::Error>;
+
+  fn next(&mut self) -> Option<Self::Item> {
+    // This will only ever not be a None
+    // when initializing ReadDir and read_dir() fails
+    let mut error = None::<Self::Item>;
+    let root = &self.root;
+    match self.inner.get_or_insert_with(|| {
+      match fs::read_dir(&root) {
+        | Ok(inner) => Ok(inner),
+        | Err(err) => {
+          // Stash the failure
+          error = Some(Err(err.into()));
+          Err(())
+        },
+      }
+    }) {
+      | Ok(inner) => inner,
+      // Returns None on non-first calls if read_dir failed
+      | Err(()) => return error,
+    }
+    .next()
+    .map(|i| self.validate_item(i))
+  }
+}
+
+#[derive(Debug)]
+pub struct CrateIterator {
+  root:   PathBuf,
+  prefix: String,
+  inner:  Option<Result<fs::ReadDir, ()>>,
+}
+
+impl CrateIterator {
+  pub fn new<R, P>(root: R, prefix: P) -> CrateIterator
+  where
+    R: AsRef<Path>,
+    P: AsRef<str>,
+  {
+    CrateIterator { root: root.as_ref().to_path_buf(), prefix: prefix.as_ref().to_string(), inner: Option::None }
+  }
+
+  fn validate_item(&self, d: Result<fs::DirEntry, io::Error>) -> Result<String, self::Error> {
+    let entry_name = d?.file_name();
+    let entry_str = entry_name.to_str().ok_or_else(|| Error::NotUnicode(entry_name.to_owned()))?;
+
+    if entry_str.starts_with(&self.prefix) {
+      Ok(entry_str.to_owned())
+    } else {
+      Err(Error::BadCrate(entry_name, self.prefix.to_owned(), self.root.to_owned()))
+    }
+  }
+}
+
+impl Iterator for CrateIterator {
+  type Item = Result<String, self::Error>;
+
+  fn next(&mut self) -> Option<Self::Item> {
+    // This will only ever not be a None
+    // when initializing ReadDir and read_dir() fails
+    let mut error = None::<Self::Item>;
+    let root = &self.root;
+    match self.inner.get_or_insert_with(|| {
+      match fs::read_dir(&root) {
+        | Ok(inner) => Ok(inner),
+        | Err(err) => {
+          // Stash the failure
+          error = Some(Err(err.into()));
+          Err(())
+        },
+      }
+    }) {
+      | Ok(inner) => inner,
+      // Returns None on non-first calls if read_dir failed
+      | Err(()) => return error,
+    }
+    .next()
+    .map(|i| self.validate_item(i))
+  }
+}
+
+#[derive(Debug)]
 pub enum Error {
   NotUnicode(OsString),
   IoError(std::io::Error),
   BadSection(OsString, String, PathBuf),
+  NonSection(OsString, String, PathBuf),
   BadSubSection(OsString, String, PathBuf),
   BadCrate(OsString, String, PathBuf),
   BadCrateName(String),
@@ -114,6 +289,14 @@ impl std::fmt::Display for Error {
           sname, root, prefix
         )
       },
+      | Self::NonSection(sname, prefix, root) => {
+        write!(
+          fmter,
+          "Directory Section {:?} in {:?} does not satisfy the layout scheme (doesn't start with prefix {})",
+          sname, root, prefix
+        )
+      },
+
       | Self::BadSubSection(sname, prefix, root) => {
         write!(
           fmter,

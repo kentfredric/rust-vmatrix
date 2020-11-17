@@ -1,4 +1,8 @@
-use std::path::{Path, PathBuf};
+use either::Either;
+use std::{
+  iter,
+  path::{Path, PathBuf},
+};
 
 mod cratedir;
 
@@ -26,6 +30,33 @@ impl StatsRepo {
   pub fn root(&self) -> Result<PathBuf, Error> { Ok(self.root.to_owned()) }
 
   pub fn rustcs(&self) -> &Vec<String> { &self.rustcs }
+
+  pub fn crate_names_iterator(&self) {
+    let root = &self.root;
+
+    let si = cratedir::SectionIterator::new(root, "crates-").flat_map(move |section| {
+      match section {
+        | Err(e) => Either::Left(iter::once(Err(e))),
+        | Ok(section_name) => {
+          let sec = root.join(format!("crates-{}", &section_name));
+          Either::Right(cratedir::SubSectionIterator::new(&sec, &section_name).flat_map(move |subsection| {
+            match subsection {
+              | Err(e) => Either::Left(iter::once(Err(e))),
+              | Ok(subsection_name) => {
+                let subsec = sec.join(&subsection_name);
+                Either::Right(cratedir::CrateIterator::new(subsec, &subsection_name))
+              },
+            }
+          }))
+        },
+      }
+    });
+    for i in si {
+      if let Err(e) = i {
+        println!("{:?}", e);
+      }
+    }
+  }
 
   pub fn crate_names(&self) -> Result<Vec<String>, Error> {
     let mut x = Vec::new();
