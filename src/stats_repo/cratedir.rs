@@ -145,27 +145,27 @@ impl SectionIterator {
       inner:  InBandDirIterator::new(root),
     }
   }
-
-  fn validate_item(&self, d: Result<fs::DirEntry, io::Error>) -> Result<String, self::Error> {
-    let entry_name = d?.file_name();
-    let entry_str = entry_name.to_str().ok_or_else(|| Error::NotUnicode(entry_name.to_owned()))?;
-
-    if let Some(c) = entry_str.strip_prefix(&self.prefix) {
-      if c.len() == 1 {
-        Ok(c.to_owned())
-      } else {
-        Err(Error::BadSection(entry_name, self.prefix.to_owned(), self.root.to_owned()))
-      }
-    } else {
-      Err(Error::NonSection(entry_name, self.prefix.to_owned(), self.root.to_owned()))
-    }
-  }
 }
 
 impl Iterator for SectionIterator {
   type Item = Result<String, self::Error>;
 
-  fn next(&mut self) -> Option<Self::Item> { self.inner.next().map(|i| self.validate_item(i)) }
+  fn next(&mut self) -> Option<Self::Item> {
+    self.inner.next().map(|d| {
+      let entry_name = d?.file_name();
+      let entry_str = entry_name.to_str().ok_or_else(|| Error::NotUnicode(entry_name.to_owned()))?;
+
+      if let Some(c) = entry_str.strip_prefix(&self.prefix) {
+        if c.len() == 1 {
+          Ok(c.to_owned())
+        } else {
+          Err(Error::BadSection(entry_name, self.prefix.to_owned(), self.root.to_owned()))
+        }
+      } else {
+        Err(Error::NonSection(entry_name, self.prefix.to_owned(), self.root.to_owned()))
+      }
+    })
+  }
 }
 
 #[derive(Debug)]
@@ -187,23 +187,23 @@ impl SubSectionIterator {
       inner:  InBandDirIterator::new(root),
     }
   }
-
-  fn validate_item(&self, d: Result<fs::DirEntry, io::Error>) -> Result<String, self::Error> {
-    let entry_name = d?.file_name();
-    let entry_str = entry_name.to_str().ok_or_else(|| Error::NotUnicode(entry_name.to_owned()))?;
-
-    if 2 >= entry_str.len() && entry_str.starts_with(&self.prefix) {
-      Ok(entry_str.to_owned())
-    } else {
-      Err(Error::BadSubSection(entry_name, self.prefix.to_owned(), self.root.to_owned()))
-    }
-  }
 }
 
 impl Iterator for SubSectionIterator {
   type Item = Result<String, self::Error>;
 
-  fn next(&mut self) -> Option<Self::Item> { self.inner.next().map(|i| self.validate_item(i)) }
+  fn next(&mut self) -> Option<Self::Item> {
+    self.inner.next().map(|d| {
+      let entry_name = d?.file_name();
+      let entry_str = entry_name.to_str().ok_or_else(|| Error::NotUnicode(entry_name.to_owned()))?;
+
+      if 2 >= entry_str.len() && entry_str.starts_with(&self.prefix) {
+        Ok(entry_str.to_owned())
+      } else {
+        Err(Error::BadSubSection(entry_name, self.prefix.to_owned(), self.root.to_owned()))
+      }
+    })
+  }
 }
 
 #[derive(Debug)]
@@ -225,23 +225,23 @@ impl CrateIterator {
       inner:  InBandDirIterator::new(root),
     }
   }
-
-  fn validate_item(&self, d: Result<fs::DirEntry, io::Error>) -> Result<String, self::Error> {
-    let entry_name = d?.file_name();
-    let entry_str = entry_name.to_str().ok_or_else(|| Error::NotUnicode(entry_name.to_owned()))?;
-
-    if entry_str.starts_with(&self.prefix) {
-      Ok(entry_str.to_owned())
-    } else {
-      Err(Error::BadCrate(entry_name, self.prefix.to_owned(), self.root.to_owned()))
-    }
-  }
 }
 
 impl Iterator for CrateIterator {
   type Item = Result<String, self::Error>;
 
-  fn next(&mut self) -> Option<Self::Item> { self.inner.next().map(|i| self.validate_item(i)) }
+  fn next(&mut self) -> Option<Self::Item> {
+    self.inner.next().map(|d| {
+      let entry_name = d?.file_name();
+      let entry_str = entry_name.to_str().ok_or_else(|| Error::NotUnicode(entry_name.to_owned()))?;
+
+      if entry_str.starts_with(&self.prefix) {
+        Ok(entry_str.to_owned())
+      } else {
+        Err(Error::BadCrate(entry_name, self.prefix.to_owned(), self.root.to_owned()))
+      }
+    })
+  }
 }
 
 #[derive(Debug)]
