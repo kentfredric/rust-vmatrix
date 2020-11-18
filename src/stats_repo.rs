@@ -31,14 +31,14 @@ impl StatsRepo {
 
   pub fn rustcs(&self) -> &Vec<String> { &self.rustcs }
 
-  pub fn crate_names_iterator(&self) {
-    let root = &self.root;
+  pub fn crate_names_iterator(&self) -> Box<dyn Iterator<Item = Result<String, cratedir::Error>>> {
+    let root = self.root.to_owned();
 
-    let si = cratedir::SectionIterator::new(root, "crates-").flat_map(move |section| {
+    Box::new(cratedir::SectionIterator::new(root.to_owned(), "crates-").flat_map(move |section| {
       match section {
         | Err(e) => Either::Left(iter::once(Err(e))),
         | Ok(section_name) => {
-          let sec = root.join(format!("crates-{}", &section_name));
+          let sec = root.to_owned().join(format!("crates-{}", &section_name));
           Either::Right(cratedir::SubSectionIterator::new(&sec, &section_name).flat_map(move |subsection| {
             match subsection {
               | Err(e) => Either::Left(iter::once(Err(e))),
@@ -50,12 +50,7 @@ impl StatsRepo {
           }))
         },
       }
-    });
-    for i in si {
-      if let Err(e) = i {
-        println!("{:?}", e);
-      }
-    }
+    }))
   }
 
   pub fn crate_names(&self) -> Result<Vec<String>, Error> {
