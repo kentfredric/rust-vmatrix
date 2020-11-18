@@ -54,19 +54,16 @@ impl StatsRepo {
   }
 
   pub fn crate_names(&self) -> Result<Vec<String>, Error> {
-    let mut x = Vec::new();
-    let root = self.root()?;
-    for suffix in cratedir::sections_in(&root, "crates-")? {
-      let section = root.join(format!("crates-{}", suffix));
-      for slug in cratedir::subsections_in(&section, &suffix)? {
-        let subsection = section.join(&slug);
-        for member in cratedir::crates_in(&subsection, &slug)? {
-          x.push(member);
-        }
-      }
-    }
-    x.sort_unstable();
-    Ok(x)
+    Ok(
+      self
+        .crate_names_iterator()
+        .filter(|e| !matches!(e, Err(cratedir::Error::NonSection(..))))
+        .collect::<Result<Vec<String>, cratedir::Error>>()
+        .map(|mut i| {
+          i.sort_unstable();
+          i
+        })?,
+    )
   }
 
   pub fn crate_path<C>(&self, my_crate: C) -> Result<PathBuf, Error>
