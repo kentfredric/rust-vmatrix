@@ -1,11 +1,14 @@
-use std::{collections::HashMap, path::PathBuf};
+use std::{
+  collections::{self, HashMap},
+  path::PathBuf,
+};
 
 pub struct StatsRepoCache<'a> {
   repo:           &'a super::stats_repo::StatsRepo,
   crate_names:    Option<Vec<String>>,
   crate_paths:    HashMap<String, PathBuf>,
   crate_versions: HashMap<String, super::versions::VersionList>,
-  crate_results:  HashMap<String, super::results::ResultList>,
+  crate_results:  HashMap<String, Option<super::results::ResultList>>,
 }
 
 pub fn for_repo(repo: &'_ super::stats_repo::StatsRepo) -> StatsRepoCache {
@@ -66,23 +69,47 @@ impl StatsRepoCache<'_> {
   where
     C: AsRef<str>,
   {
-    if !self.crate_results.contains_key(my_crate.as_ref()) {
-      self.crate_results.insert(my_crate.as_ref().into(), self.repo.crate_results(my_crate.as_ref())?);
-    }
-    if let Some(cached) = &self.crate_results.get(my_crate.as_ref()) {
-      Ok(cached.to_owned().to_owned())
-    } else {
-      Err(Error::ProvisionFail("crate_results".to_string()))
+    let my_crate = my_crate.as_ref();
+    let repo = self.repo;
+    let crate_results = &mut self.crate_results;
+
+    match crate_results.entry(my_crate.to_string()) {
+      | collections::hash_map::Entry::Occupied(e) => {
+        match e.get() {
+          | Some(result) => Ok(result.to_owned()),
+          | None => Err(Error::ResultNotExists(my_crate.to_string())),
+        }
+      },
+      | collections::hash_map::Entry::Vacant(e) => {
+        match repo.crate_results(my_crate) {
+          | Ok(r) => {
+            e.insert(Some(r.to_owned()));
+            Ok(r)
+          },
+          | Err(super::stats_repo::Error::ResultsError(super::results::Error::IoError(err)))
+            if err.kind() == std::io::ErrorKind::NotFound =>
+          {
+            e.insert(None);
+            Err(err.into())
+          }
+          | Err(err) => Err(err.into()),
+        }
+      },
     }
   }
 }
 
 #[derive(Debug)]
 pub enum Error {
+  IoError(std::io::Error),
   ProvisionFail(String),
+  ResultNotExists(String),
   StatsRepoError(super::stats_repo::Error),
 }
 
 impl From<super::stats_repo::Error> for Error {
   fn from(e: super::stats_repo::Error) -> Self { Self::StatsRepoError(e) }
+}
+impl From<std::io::Error> for Error {
+  fn from(e: std::io::Error) -> Self { Self::IoError(e) }
 }
