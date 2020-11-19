@@ -38,13 +38,22 @@ impl StatsRepoCache<'_> {
   where
     C: AsRef<str>,
   {
-    if !self.crate_paths.contains_key(my_crate.as_ref()) {
-      self.crate_paths.insert(my_crate.as_ref().into(), self.repo.crate_path(my_crate.as_ref())?);
-    }
-    if let Some(cached) = &self.crate_paths.get(my_crate.as_ref()) {
-      Ok(cached.to_path_buf())
-    } else {
-      Err(Error::ProvisionFail("crate_path".to_string()))
+    let my_crate = my_crate.as_ref();
+    let crate_paths = &mut self.crate_paths;
+
+    use std::collections::hash_map::Entry;
+
+    match crate_paths.entry(my_crate.to_string()) {
+      | Entry::Occupied(e) => Ok(e.get().to_path_buf()),
+      | Entry::Vacant(e) => {
+        match self.repo.crate_path(my_crate) {
+          | Ok(p) => {
+            e.insert(p.to_owned());
+            Ok(p)
+          },
+          | Err(err) => Err(err.into()),
+        }
+      },
     }
   }
 
