@@ -1,7 +1,4 @@
-use std::{
-  collections::{self, HashMap},
-  path::PathBuf,
-};
+use std::{collections::HashMap, path::PathBuf};
 
 pub struct StatsRepoCache<'a> {
   repo:           &'a super::stats_repo::StatsRepo,
@@ -93,25 +90,26 @@ impl StatsRepoCache<'_> {
     let repo = self.repo;
     let crate_results = &mut self.crate_results;
 
+    use super::{results::Error::IoError as ResultsIoError, stats_repo::Error::ResultsError};
+    use std::{collections::hash_map::Entry, io::ErrorKind::NotFound};
+
     match crate_results.entry(my_crate.to_string()) {
-      | collections::hash_map::Entry::Occupied(e) => {
+      | Entry::Occupied(e) => {
         match e.get() {
           | Some(result) => Ok(result.to_owned()),
           | None => Err(Error::ResultNotExists(my_crate.to_string())),
         }
       },
-      | collections::hash_map::Entry::Vacant(e) => {
+      | Entry::Vacant(e) => {
         match repo.crate_results(my_crate) {
           | Ok(r) => {
             e.insert(Some(r.to_owned()));
             Ok(r)
           },
-          | Err(super::stats_repo::Error::ResultsError(super::results::Error::IoError(err)))
-            if err.kind() == std::io::ErrorKind::NotFound =>
-          {
+          | Err(ResultsError(ResultsIoError(err))) if err.kind() == NotFound => {
             e.insert(None);
             Err(err.into())
-          }
+          },
           | Err(err) => Err(err.into()),
         }
       },
