@@ -24,13 +24,13 @@ impl StatsRepoCache<'_> {
   pub fn rustcs(&self) -> Vec<String> { self.repo.rustcs().to_vec() }
 
   pub fn crate_names(&mut self) -> Result<Vec<String>, Error> {
-    if self.crate_names.is_none() {
-      self.crate_names.replace(self.repo.crate_names()?);
-    }
-    if let Some(cached) = &self.crate_names {
-      Ok(cached.to_vec())
-    } else {
-      Err(Error::ProvisionFail("cache_names".to_string()))
+    match &self.crate_names {
+      | None => {
+        let names = self.repo.crate_names()?;
+        self.crate_names.replace(names.to_owned());
+        Ok(names)
+      },
+      | Some(cached) => Ok(cached.to_vec()),
     }
   }
 
@@ -123,7 +123,6 @@ impl StatsRepoCache<'_> {
 #[derive(Debug)]
 pub enum Error {
   IoError(std::io::Error),
-  ProvisionFail(String),
   ResultNotExists(String),
   VersionNotExists(String),
   StatsRepoError(super::stats_repo::Error),
