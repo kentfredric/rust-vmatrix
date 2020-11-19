@@ -7,7 +7,7 @@ pub struct StatsRepoCache<'a> {
   repo:           &'a super::stats_repo::StatsRepo,
   crate_names:    Option<Vec<String>>,
   crate_paths:    HashMap<String, PathBuf>,
-  crate_versions: HashMap<String, super::versions::VersionList>,
+  crate_versions: HashMap<String, Option<super::versions::VersionList>>,
   crate_results:  HashMap<String, Option<super::results::ResultList>>,
 }
 
@@ -55,13 +55,33 @@ impl StatsRepoCache<'_> {
   where
     C: AsRef<str>,
   {
-    if !self.crate_versions.contains_key(my_crate.as_ref()) {
-      self.crate_versions.insert(my_crate.as_ref().into(), self.repo.crate_versions(my_crate.as_ref())?);
-    }
-    if let Some(cached) = &self.crate_versions.get(my_crate.as_ref()) {
-      Ok(cached.to_vec())
-    } else {
-      Err(Error::ProvisionFail("crate_versions".to_string()))
+    let my_crate = my_crate.as_ref();
+    let repo = self.repo;
+    let crate_versions = &mut self.crate_versions;
+
+    use super::{stats_repo::Error::VersionsError, versions::Error::IoError as VersionsIoError};
+    use std::{collections::hash_map::Entry, io::ErrorKind::NotFound};
+
+    match crate_versions.entry(my_crate.to_string()) {
+      | Entry::Occupied(e) => {
+        match e.get() {
+          | Some(result) => Ok(result.to_owned()),
+          | None => Err(Error::VersionNotExists(my_crate.to_string())),
+        }
+      },
+      | Entry::Vacant(e) => {
+        match repo.crate_versions(my_crate) {
+          | Ok(result) => {
+            e.insert(Some(result.to_owned()));
+            Ok(result)
+          },
+          | Err(VersionsError(VersionsIoError(err))) if err.kind() == NotFound => {
+            e.insert(None);
+            Err(err.into())
+          },
+          | Err(err) => Err(err.into()),
+        }
+      },
     }
   }
 
@@ -104,6 +124,7 @@ pub enum Error {
   IoError(std::io::Error),
   ProvisionFail(String),
   ResultNotExists(String),
+  VersionNotExists(String),
   StatsRepoError(super::stats_repo::Error),
 }
 
