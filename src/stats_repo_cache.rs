@@ -39,11 +39,9 @@ impl StatsRepoCache<'_> {
     C: AsRef<str>,
   {
     let my_crate = my_crate.as_ref();
-    let crate_paths = &mut self.crate_paths;
-
     use std::collections::hash_map::Entry;
 
-    match crate_paths.entry(my_crate.to_string()) {
+    match self.crate_paths.entry(my_crate.to_string()) {
       | Entry::Occupied(e) => Ok(e.get().to_path_buf()),
       | Entry::Vacant(e) => {
         match self.repo.crate_path(my_crate) {
@@ -62,13 +60,11 @@ impl StatsRepoCache<'_> {
     C: AsRef<str>,
   {
     let my_crate = my_crate.as_ref();
-    let repo = self.repo;
-    let crate_versions = &mut self.crate_versions;
 
     use super::{stats_repo::Error::VersionsError, versions::Error::IoError as VersionsIoError};
     use std::{collections::hash_map::Entry, io::ErrorKind::NotFound};
 
-    match crate_versions.entry(my_crate.to_string()) {
+    match self.crate_versions.entry(my_crate.to_string()) {
       | Entry::Occupied(e) => {
         match e.get() {
           | Some(result) => Ok(result.to_owned()),
@@ -76,7 +72,7 @@ impl StatsRepoCache<'_> {
         }
       },
       | Entry::Vacant(e) => {
-        match repo.crate_versions(my_crate) {
+        match self.repo.crate_versions(my_crate) {
           | Ok(result) => {
             e.insert(Some(result.to_owned()));
             Ok(result)
@@ -96,13 +92,11 @@ impl StatsRepoCache<'_> {
     C: AsRef<str>,
   {
     let my_crate = my_crate.as_ref();
-    let repo = self.repo;
-    let crate_results = &mut self.crate_results;
 
     use super::{results::Error::IoError as ResultsIoError, stats_repo::Error::ResultsError};
     use std::{collections::hash_map::Entry, io::ErrorKind::NotFound};
 
-    match crate_results.entry(my_crate.to_string()) {
+    match self.crate_results.entry(my_crate.to_string()) {
       | Entry::Occupied(e) => {
         match e.get() {
           | Some(result) => Ok(result.to_owned()),
@@ -110,7 +104,7 @@ impl StatsRepoCache<'_> {
         }
       },
       | Entry::Vacant(e) => {
-        match repo.crate_results(my_crate) {
+        match self.repo.crate_results(my_crate) {
           | Ok(r) => {
             e.insert(Some(r.to_owned()));
             Ok(r)
