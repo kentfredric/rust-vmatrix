@@ -117,7 +117,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/instant/0.1.1/download",
-    "downloads": 14215, "features": {"now": ["time"]}, "id": 143881,
+    "downloads": 14340, "features": {"now": ["time"]}, "id": 143881,
     "license": "BSD-3-Clause",
     "links": {
       "authors": "/api/v1/crates/instant/0.1.1/authors",
@@ -190,7 +190,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/instant/0.1.2/download",
-    "downloads": 182512,
+    "downloads": 183281,
     "features": {"now": ["time"], "wasm-bindgen": ["web-sys"]},
     "id": 179782, "license": "BSD-3-Clause",
     "links": {
@@ -309,7 +309,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/instant/0.1.3/download",
-    "downloads": 88380,
+    "downloads": 89312,
     "features": {
       "now": ["time"],
       "wasm-bindgen": ["js-sys", "wasm-bindgen_rs", "web-sys"]
@@ -431,7 +431,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/instant/0.1.4/download",
-    "downloads": 100353,
+    "downloads": 102362,
     "features": {
       "now": ["time"],
       "wasm-bindgen": ["js-sys", "wasm-bindgen_rs", "web-sys"]
@@ -553,7 +553,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/instant/0.1.5/download",
-    "downloads": 167704,
+    "downloads": 179499,
     "features": {
       "now": ["time"],
       "wasm-bindgen": ["js-sys", "wasm-bindgen_rs", "web-sys"]
@@ -675,7 +675,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/instant/0.1.6/download",
-    "downloads": 985106,
+    "downloads": 1043458,
     "features": {
       "now": ["time"],
       "wasm-bindgen": ["js-sys", "wasm-bindgen_rs", "web-sys"]
@@ -802,7 +802,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/instant/0.1.7/download",
-    "downloads": 400745,
+    "downloads": 461769,
     "features": {
       "now": ["time"],
       "wasm-bindgen": ["js-sys", "wasm-bindgen_rs", "web-sys"]
@@ -929,7 +929,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/instant/0.1.8/download",
-    "downloads": 82854,
+    "downloads": 308421,
     "features": {
       "now": ["time"],
       "wasm-bindgen": ["js-sys", "wasm-bindgen_rs", "web-sys"]
@@ -948,5 +948,132 @@
     },
     "readme_path": "/api/v1/crates/instant/0.1.8/readme",
     "updated_at": "2020-10-24T15:19:22.966936+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-11-19T14:23:20.609017+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/1734958?v=4",
+          "id": 86, "login": "sebcrozet", "name": "SÃ©bastien Crozet",
+          "url": "https://github.com/sebcrozet"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["sebcrozet <developer@crozet.re>"]}, "users": []},
+    "crate": "instant", "crate_size": 5213,
+    "created_at": "2020-11-19T14:23:20.609017+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 1857448, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 306770
+      },
+      {
+        "crate_id": "wasm-bindgen-test", "default_features": true,
+        "downloads": 0, "features": [], "id": 1857449, "kind": "dev",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 306770
+      },
+      {
+        "crate_id": "js-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1857455, "kind": "normal", "optional": true,
+        "req": "^0.3", "target": "wasm32-unknown-emscripten",
+        "version_id": 306770
+      },
+      {
+        "crate_id": "js-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1857459, "kind": "normal", "optional": true,
+        "req": "^0.3", "target": "wasm32-unknown-unknown",
+        "version_id": 306770
+      },
+      {
+        "crate_id": "js-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1857450, "kind": "normal", "optional": true,
+        "req": "^0.3", "target": "asmjs-unknown-emscripten",
+        "version_id": 306770
+      },
+      {
+        "crate_id": "stdweb", "default_features": true, "downloads": 0,
+        "features": [], "id": 1857451, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": "asmjs-unknown-emscripten",
+        "version_id": 306770
+      },
+      {
+        "crate_id": "stdweb", "default_features": true, "downloads": 0,
+        "features": [], "id": 1857456, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": "wasm32-unknown-emscripten",
+        "version_id": 306770
+      },
+      {
+        "crate_id": "stdweb", "default_features": true, "downloads": 0,
+        "features": [], "id": 1857460, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": "wasm32-unknown-unknown",
+        "version_id": 306770
+      },
+      {
+        "crate_id": "time", "default_features": true, "downloads": 0,
+        "features": [], "id": 1857454, "kind": "normal", "optional": true,
+        "req": "^0.2",
+        "target": "cfg(not(any(feature = \"stdweb\", feature = \"wasm-bindgen\")))",
+        "version_id": 306770
+      },
+      {
+        "crate_id": "wasm-bindgen", "default_features": true,
+        "downloads": 0, "features": [], "id": 1857457, "kind": "normal",
+        "optional": true, "req": "^0.2",
+        "target": "wasm32-unknown-emscripten", "version_id": 306770
+      },
+      {
+        "crate_id": "wasm-bindgen", "default_features": true,
+        "downloads": 0, "features": [], "id": 1857452, "kind": "normal",
+        "optional": true, "req": "^0.2",
+        "target": "asmjs-unknown-emscripten", "version_id": 306770
+      },
+      {
+        "crate_id": "wasm-bindgen", "default_features": true,
+        "downloads": 0, "features": [], "id": 1857461, "kind": "normal",
+        "optional": true, "req": "^0.2", "target": "wasm32-unknown-unknown",
+        "version_id": 306770
+      },
+      {
+        "crate_id": "web-sys", "default_features": true, "downloads": 0,
+        "features": ["Window", "Performance", "PerformanceTiming"],
+        "id": 1857458, "kind": "normal", "optional": true, "req": "^0.3",
+        "target": "wasm32-unknown-emscripten", "version_id": 306770
+      },
+      {
+        "crate_id": "web-sys", "default_features": true, "downloads": 0,
+        "features": ["Window", "Performance", "PerformanceTiming"],
+        "id": 1857462, "kind": "normal", "optional": true, "req": "^0.3",
+        "target": "wasm32-unknown-unknown", "version_id": 306770
+      },
+      {
+        "crate_id": "web-sys", "default_features": true, "downloads": 0,
+        "features": ["Window", "Performance", "PerformanceTiming"],
+        "id": 1857453, "kind": "normal", "optional": true, "req": "^0.3",
+        "target": "asmjs-unknown-emscripten", "version_id": 306770
+      }
+    ],
+    "dl_path": "/api/v1/crates/instant/0.1.9/download",
+    "downloads": 1473,
+    "features": {
+      "inaccurate": [], "now": ["time"],
+      "wasm-bindgen": ["js-sys", "wasm-bindgen_rs", "web-sys"]
+    },
+    "id": 306770, "license": "BSD-3-Clause",
+    "links": {
+      "authors": "/api/v1/crates/instant/0.1.9/authors",
+      "dependencies": "/api/v1/crates/instant/0.1.9/dependencies",
+      "version_downloads": "/api/v1/crates/instant/0.1.9/downloads"
+    },
+    "num": "0.1.9",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/1734958?v=4",
+      "id": 86, "login": "sebcrozet", "name": "SÃ©bastien Crozet",
+      "url": "https://github.com/sebcrozet"
+    },
+    "readme_path": "/api/v1/crates/instant/0.1.9/readme",
+    "updated_at": "2020-11-19T14:23:20.609017+00:00", "yanked": false
   }
 ]
