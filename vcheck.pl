@@ -21,10 +21,22 @@ if ( not $ENV{NO_PREWARM} ) {
     my $src      = "/home/kent/.cargo/registry/index/github.com-$root_sha";
     my $dest     = "$cargo_tempdir/.cargo/registry/index/github.com-$root_sha";
     system( "mkdir", "-p", $dest ) == 0 or die "failed in mkdir for dest";
+
+    # Setup a scratch git dir
     system( "git", "-C", $dest, 'init' ) == 0 or die "failed git init for dest";
 
-    # this is "mirror" semantics, reusing gits own remote-fetch as reference
-    # instead of the localised copies
+    # borrow objects from somewhere else
+    system( "mkdir", "-p", "$dest/.git/objects/info" ) == 0
+      or die "mkdir failed $!";
+    {
+        open my $fh, ">", "$dest/.git/objects/info/alternates"
+          or die "Cant write altenatives, $!";
+        $fh->print("$src/.git/objects\n");
+        close $fh;
+    }
+
+# square up refs in 'clone' using mirror semantics, reusing gits own remote-fetch as reference
+# instead of the localised copies
     system(
         "git",
         "-C",
@@ -38,7 +50,7 @@ if ( not $ENV{NO_PREWARM} ) {
         "refs/remotes/origin/HEAD:refs/remotes/origin/HEAD"
     ) == 0 or die "Failed local fetch";
 
-    # system( "git", "clone", "-v", $src, $dest ) == 0 or die "fail in clone";
+    # micro-polish with upstream resources to avoid cargo having to do it
     system(
         "git",
         "-C",
