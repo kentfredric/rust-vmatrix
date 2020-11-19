@@ -16,11 +16,41 @@ if ( not $ENV{NO_PREWARM} ) {
 
     system( "mkdir", "-p", "$cargo_tempdir/.cargo/registry/index" ) == 0
       or die "fail in mkdir";
-    my (@shas)   = (qw(  0a35038f75765ae4 1ecc6299db9ec823 88ac128001ac3a9a ));
+    my (@shas)   = (qw( 1ecc6299db9ec823 0a35038f75765ae4 88ac128001ac3a9a ));
     my $root_sha = shift @shas;
     my $src      = "/home/kent/.cargo/registry/index/github.com-$root_sha";
     my $dest     = "$cargo_tempdir/.cargo/registry/index/github.com-$root_sha";
-    system( "git", "clone", "-s", $src, $dest ) == 0 or die "fail in clone";
+    system( "mkdir", "-p", $dest ) == 0 or die "failed in mkdir for dest";
+    system( "git", "-C", $dest, 'init' ) == 0 or die "failed git init for dest";
+
+    # this is "mirror" semantics, reusing gits own remote-fetch as reference
+    # instead of the localised copies
+    system(
+        "git",
+        "-C",
+        $dest,
+        'fetch',
+        '-v',
+        '-f',
+        '--update-head-ok',
+        $src,
+        "refs/remotes/origin/master:refs/remotes/origin/master",
+        "refs/remotes/origin/HEAD:refs/remotes/origin/HEAD"
+    ) == 0 or die "Failed local fetch";
+
+    # system( "git", "clone", "-v", $src, $dest ) == 0 or die "fail in clone";
+    system(
+        "git",
+        "-C",
+        $dest,
+        "fetch",
+        "-v",
+        "-f",
+        "--update-head-ok",
+        "https://github.com/rust-lang/crates.io-index",
+        "refs/heads/master:refs/remotes/origin/master",
+        "HEAD:refs/remotes/origin/HEAD"
+    ) == 0 or die "fail in fetch";
 
     for my $sha (@shas) {
         my $src  = "$cargo_tempdir/.cargo/registry/index/github.com-$root_sha";
