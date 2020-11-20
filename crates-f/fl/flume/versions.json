@@ -342,7 +342,7 @@
         "req": "^0.5", "target": null, "version_id": 221172
       }
     ],
-    "dl_path": "/api/v1/crates/flume/0.5.0/download", "downloads": 227,
+    "dl_path": "/api/v1/crates/flume/0.5.0/download", "downloads": 228,
     "features": {}, "id": 221172, "license": "Apache-2.0/MIT",
     "links": {
       "authors": "/api/v1/crates/flume/0.5.0/authors",
@@ -393,7 +393,7 @@
         "req": "^0.5", "target": null, "version_id": 221776
       }
     ],
-    "dl_path": "/api/v1/crates/flume/0.5.1/download", "downloads": 1516,
+    "dl_path": "/api/v1/crates/flume/0.5.1/download", "downloads": 2083,
     "features": {}, "id": 221776, "license": "Apache-2.0/MIT",
     "links": {
       "authors": "/api/v1/crates/flume/0.5.1/authors",
@@ -668,7 +668,7 @@
         "req": "^0.3", "target": null, "version_id": 223391
       }
     ],
-    "dl_path": "/api/v1/crates/flume/0.7.1/download", "downloads": 9843,
+    "dl_path": "/api/v1/crates/flume/0.7.1/download", "downloads": 9923,
     "features": {"async": ["futures"], "default": ["select", "async"], "select": []},
     "id": 223391, "license": "Apache-2.0/MIT",
     "links": {
@@ -737,7 +737,7 @@
         "req": "^0.3", "target": null, "version_id": 264877
       }
     ],
-    "dl_path": "/api/v1/crates/flume/0.7.2/download", "downloads": 4331,
+    "dl_path": "/api/v1/crates/flume/0.7.2/download", "downloads": 4912,
     "features": {"async": ["futures"], "default": ["select", "async"], "select": []},
     "id": 264877, "license": "Apache-2.0/MIT",
     "links": {
@@ -817,7 +817,7 @@
         "req": "^0.7", "target": null, "version_id": 279295
       }
     ],
-    "dl_path": "/api/v1/crates/flume/0.8.0/download", "downloads": 27,
+    "dl_path": "/api/v1/crates/flume/0.8.0/download", "downloads": 30,
     "features": {
       "async": ["futures"],
       "default": ["async", "select", "eventual-fairness"],
@@ -901,7 +901,7 @@
         "req": "^0.7", "target": null, "version_id": 279299
       }
     ],
-    "dl_path": "/api/v1/crates/flume/0.8.1/download", "downloads": 28,
+    "dl_path": "/api/v1/crates/flume/0.8.1/download", "downloads": 31,
     "features": {
       "async": ["futures"],
       "default": ["async", "select", "eventual-fairness"],
@@ -985,7 +985,7 @@
         "req": "^0.7", "target": null, "version_id": 279301
       }
     ],
-    "dl_path": "/api/v1/crates/flume/0.8.3/download", "downloads": 30,
+    "dl_path": "/api/v1/crates/flume/0.8.3/download", "downloads": 34,
     "features": {
       "async": ["futures"],
       "default": ["async", "select", "eventual-fairness"],
@@ -1069,7 +1069,7 @@
         "req": "^0.7", "target": null, "version_id": 279356
       }
     ],
-    "dl_path": "/api/v1/crates/flume/0.8.4/download", "downloads": 352,
+    "dl_path": "/api/v1/crates/flume/0.8.4/download", "downloads": 372,
     "features": {
       "async": ["futures"],
       "default": ["async", "select", "eventual-fairness"],
@@ -1159,7 +1159,7 @@
         "req": "^0.7", "target": null, "version_id": 281347
       }
     ],
-    "dl_path": "/api/v1/crates/flume/0.9.0/download", "downloads": 3923,
+    "dl_path": "/api/v1/crates/flume/0.9.0/download", "downloads": 4035,
     "features": {
       "async": ["futures"],
       "default": ["async", "select", "eventual-fairness"],
@@ -1257,7 +1257,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/flume/0.9.1/download",
-    "downloads": 10546,
+    "downloads": 21505,
     "features": {
       "async": ["futures-sink", "futures-core"],
       "default": ["async", "select", "eventual-fairness"],
@@ -1277,5 +1277,108 @@
     },
     "readme_path": "/api/v1/crates/flume/0.9.1/readme",
     "updated_at": "2020-09-30T09:30:15.245578+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-11-20T12:51:41.793175+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/3268430?v=4",
+          "id": 21853, "login": "zesterer", "name": "Joshua Barretto",
+          "url": "https://github.com/zesterer"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Joshua Barretto <joshua.s.barretto@gmail.com>"]},
+      "users": []
+    },
+    "crate": "flume", "crate_size": 61762,
+    "created_at": "2020-11-20T12:51:41.793175+00:00",
+    "dependencies": [
+      {
+        "crate_id": "async-std", "default_features": true, "downloads": 0,
+        "features": ["attributes", "unstable"], "id": 1859921,
+        "kind": "dev", "optional": false, "req": "^1.5", "target": null,
+        "version_id": 307067
+      },
+      {
+        "crate_id": "criterion", "default_features": true, "downloads": 0,
+        "features": [], "id": 1859922, "kind": "dev", "optional": false,
+        "req": "^0.3.1", "target": null, "version_id": 307067
+      },
+      {
+        "crate_id": "crossbeam-channel", "default_features": true,
+        "downloads": 0, "features": [], "id": 1859923, "kind": "dev",
+        "optional": false, "req": "^0.4", "target": null,
+        "version_id": 307067
+      },
+      {
+        "crate_id": "crossbeam-utils", "default_features": true,
+        "downloads": 0, "features": [], "id": 1859924, "kind": "dev",
+        "optional": false, "req": "^0.7", "target": null,
+        "version_id": 307067
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": ["std"], "id": 1859925, "kind": "dev",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 307067
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1859926, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 307067
+      },
+      {
+        "crate_id": "spinning_top", "default_features": true,
+        "downloads": 0, "features": [], "id": 1859920, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 307067
+      },
+      {
+        "crate_id": "waker-fn", "default_features": true, "downloads": 0,
+        "features": [], "id": 1859927, "kind": "dev", "optional": false,
+        "req": "^1.1.0", "target": null, "version_id": 307067
+      },
+      {
+        "crate_id": "futures-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 1859917, "kind": "normal",
+        "optional": true, "req": "^0.3.5", "target": null,
+        "version_id": 307067
+      },
+      {
+        "crate_id": "futures-sink", "default_features": false,
+        "downloads": 0, "features": [], "id": 1859918, "kind": "normal",
+        "optional": true, "req": "^0.3.5", "target": null,
+        "version_id": 307067
+      },
+      {
+        "crate_id": "nanorand", "default_features": true, "downloads": 0,
+        "features": ["getrandom"], "id": 1859919, "kind": "normal",
+        "optional": true, "req": "^0.4", "target": null,
+        "version_id": 307067
+      }
+    ],
+    "dl_path": "/api/v1/crates/flume/0.9.2/download", "downloads": 47,
+    "features": {
+      "async": ["futures-sink", "futures-core"],
+      "default": ["async", "select", "eventual-fairness"],
+      "eventual-fairness": ["async", "nanorand"], "select": []
+    },
+    "id": 307067, "license": "Apache-2.0/MIT",
+    "links": {
+      "authors": "/api/v1/crates/flume/0.9.2/authors",
+      "dependencies": "/api/v1/crates/flume/0.9.2/dependencies",
+      "version_downloads": "/api/v1/crates/flume/0.9.2/downloads"
+    },
+    "num": "0.9.2",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/3268430?v=4",
+      "id": 21853, "login": "zesterer", "name": "Joshua Barretto",
+      "url": "https://github.com/zesterer"
+    },
+    "readme_path": "/api/v1/crates/flume/0.9.2/readme",
+    "updated_at": "2020-11-20T12:51:41.793175+00:00", "yanked": false
   }
 ]
