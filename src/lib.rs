@@ -1,5 +1,4 @@
-mod config_data;
-mod config_reader;
+mod config;
 
 pub mod pages;
 pub mod results;
@@ -7,24 +6,24 @@ pub mod stats_repo;
 pub mod stats_repo_cache;
 pub mod versions;
 
-pub fn config_from_str<N>(content: N) -> Result<config_data::Config, self::Error>
+pub fn config_from_str<N>(content: N) -> Result<config::Config, self::Error>
 where
   N: AsRef<str>,
 {
-  Ok(config_reader::from_str(content)?)
+  Ok(config::from_str(content)?)
 }
 
-pub fn config_from_file<N>(file: N) -> Result<config_data::Config, self::Error>
+pub fn config_from_file<N>(file: N) -> Result<config::Config, self::Error>
 where
   N: Into<std::path::PathBuf>,
 {
-  Ok(config_reader::from_file(file)?)
+  Ok(config::from_file(file)?)
 }
 
 #[derive(thiserror::Error, Debug)]
 pub enum Error {
-  #[error("Configuration Reading Error: {0}")]
-  ConfigReaderError(#[from] config_reader::Error),
+  #[error("Configuration Error: {0}")]
+  ConfigError(#[from] config::Error),
   #[error("Result Data Error: {0}")]
   ResultsError(#[from] results::Error),
   #[error("Version Data Error: {0}")]

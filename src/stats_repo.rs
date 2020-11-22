@@ -23,7 +23,7 @@ pub struct StatsRepo {
   rustcs: Vec<String>,
 }
 
-pub fn from_config(c: crate::config_data::Config) -> StatsRepo {
+pub fn from_config(c: crate::config::Config) -> StatsRepo {
   StatsRepo { root: c.root(), rustcs: c.rustc().unwrap_or_else(Vec::new) }
 }
 
