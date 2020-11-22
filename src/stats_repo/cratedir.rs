@@ -186,64 +186,24 @@ impl Iterator for CrateIterator {
   }
 }
 
-#[derive(Debug)]
+#[derive(thiserror::Error, Debug)]
 pub enum Error {
+  #[error("Could not decode {0:?} as Unicode")]
   NotUnicode(OsString),
-  IoError(std::io::Error),
+  #[error("IO Error in stats repo directory: {0}")]
+  IoError(#[from] std::io::Error),
+  #[error(
+    "Directory Section {0:?} in {2:?} does not satisfy the layout scheme (should be one character after prefix {1})"
+  )]
   BadSection(OsString, String, PathBuf),
+  #[error("Directory Section {0:?} in {2:?} does not satisfy the layout scheme (doesn't start with prefix {1})")]
   NonSection(OsString, String, PathBuf),
+  #[error(
+    "Subsection {0:?} in {2:?} does not satisfy the layout scheme (should be 1-or-2 characters and start with {1})"
+  )]
   BadSubSection(OsString, String, PathBuf),
+  #[error("Crate {0:?} in {2:?} does not satisfy the layout scheme (should start with {1})")]
   BadCrate(OsString, String, PathBuf),
+  #[error("Crate name {0:?} is illegal, must have at least one character")]
   BadCrateName(String),
 }
-
-impl From<std::io::Error> for Error {
-  fn from(e: std::io::Error) -> Self { Self::IoError(e) }
-}
-
-impl std::fmt::Display for Error {
-  fn fmt(&self, fmter: &mut std::fmt::Formatter<'_>) -> Result<(), std::fmt::Error> {
-    match self {
-      | Self::NotUnicode(s) => {
-        write!(fmter, "Could not decode {:?} as Unicode", s)
-      },
-      | Self::IoError(e) => {
-        write!(fmter, "IO Error in stats repo directory: {}", e)
-      },
-      | Self::BadSection(sname, prefix, root) => {
-        write!(
-          fmter,
-          "Directory Section {:?} in {:?} does not satisfy the layout scheme (should be one character after prefix {})",
-          sname, root, prefix
-        )
-      },
-      | Self::NonSection(sname, prefix, root) => {
-        write!(
-          fmter,
-          "Directory Section {:?} in {:?} does not satisfy the layout scheme (doesn't start with prefix {})",
-          sname, root, prefix
-        )
-      },
-
-      | Self::BadSubSection(sname, prefix, root) => {
-        write!(
-          fmter,
-          "Subsection {:?} in {:?} does not satisfy the layout scheme (should be 1-or-2 characters, and start with {} \
-           )",
-          sname, root, prefix
-        )
-      },
-      | Self::BadCrate(sname, prefix, root) => {
-        write!(
-          fmter,
-          "Crate {:?} in {:?} does not satisfy the layout scheme (should start with {})",
-          sname, root, prefix
-        )
-      },
-      | Self::BadCrateName(s) => {
-        write!(fmter, "Crate name {:?} is illegal, must have at least one character", s)
-      },
-    }
-  }
-}
-impl std::error::Error for Error {}
