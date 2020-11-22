@@ -4,6 +4,55 @@ use std::{
   path::{Path, PathBuf},
 };
 
+#[derive(thiserror::Error, Debug)]
+pub enum Error {
+  #[error("Could not decode {0:?} as Unicode")]
+  NotUnicode(OsString),
+  #[error("IO Error in stats repo directory: {0}")]
+  IoError(#[from] std::io::Error),
+  #[error(
+    "Directory Section {0:?} in {2:?} does not satisfy the layout scheme (should be one character after prefix {1})"
+  )]
+  BadSection(OsString, String, PathBuf),
+  #[error("Directory Section {0:?} in {2:?} does not satisfy the layout scheme (doesn't start with prefix {1})")]
+  NonSection(OsString, String, PathBuf),
+  #[error(
+    "Subsection {0:?} in {2:?} does not satisfy the layout scheme (should be 1-or-2 characters and start with {1})"
+  )]
+  BadSubSection(OsString, String, PathBuf),
+  #[error("Crate {0:?} in {2:?} does not satisfy the layout scheme (should start with {1})")]
+  BadCrate(OsString, String, PathBuf),
+  #[error("Crate name {0:?} is illegal, must have at least one character")]
+  BadCrateName(String),
+}
+
+#[derive(Debug)]
+pub struct InBandDirIterator {
+  root:  PathBuf,
+  inner: Option<Result<fs::ReadDir, ()>>,
+}
+
+#[derive(Debug)]
+pub struct SectionIterator {
+  root:   PathBuf,
+  prefix: String,
+  inner:  InBandDirIterator,
+}
+
+#[derive(Debug)]
+pub struct SubSectionIterator {
+  root:   PathBuf,
+  prefix: String,
+  inner:  InBandDirIterator,
+}
+
+#[derive(Debug)]
+pub struct CrateIterator {
+  root:   PathBuf,
+  prefix: String,
+  inner:  InBandDirIterator,
+}
+
 pub(crate) fn crate_rpath<P, C>(prefix: P, crate_name: C) -> Result<PathBuf, Error>
 where
   P: AsRef<str>,
@@ -25,12 +74,6 @@ where
   C: AsRef<str>,
 {
   Ok(root.as_ref().join(crate_rpath(prefix, crate_name)?))
-}
-
-#[derive(Debug)]
-pub struct InBandDirIterator {
-  root:  PathBuf,
-  inner: Option<Result<fs::ReadDir, ()>>,
 }
 
 impl InBandDirIterator {
@@ -68,13 +111,6 @@ impl Iterator for InBandDirIterator {
   }
 }
 
-#[derive(Debug)]
-pub struct SectionIterator {
-  root:   PathBuf,
-  prefix: String,
-  inner:  InBandDirIterator,
-}
-
 impl SectionIterator {
   pub fn new<R, P>(root: R, prefix: P) -> SectionIterator
   where
@@ -110,13 +146,6 @@ impl Iterator for SectionIterator {
   }
 }
 
-#[derive(Debug)]
-pub struct SubSectionIterator {
-  root:   PathBuf,
-  prefix: String,
-  inner:  InBandDirIterator,
-}
-
 impl SubSectionIterator {
   pub fn new<R, P>(root: R, prefix: P) -> SubSectionIterator
   where
@@ -148,13 +177,6 @@ impl Iterator for SubSectionIterator {
   }
 }
 
-#[derive(Debug)]
-pub struct CrateIterator {
-  root:   PathBuf,
-  prefix: String,
-  inner:  InBandDirIterator,
-}
-
 impl CrateIterator {
   pub fn new<R, P>(root: R, prefix: P) -> CrateIterator
   where
@@ -184,26 +206,4 @@ impl Iterator for CrateIterator {
       }
     })
   }
-}
-
-#[derive(thiserror::Error, Debug)]
-pub enum Error {
-  #[error("Could not decode {0:?} as Unicode")]
-  NotUnicode(OsString),
-  #[error("IO Error in stats repo directory: {0}")]
-  IoError(#[from] std::io::Error),
-  #[error(
-    "Directory Section {0:?} in {2:?} does not satisfy the layout scheme (should be one character after prefix {1})"
-  )]
-  BadSection(OsString, String, PathBuf),
-  #[error("Directory Section {0:?} in {2:?} does not satisfy the layout scheme (doesn't start with prefix {1})")]
-  NonSection(OsString, String, PathBuf),
-  #[error(
-    "Subsection {0:?} in {2:?} does not satisfy the layout scheme (should be 1-or-2 characters and start with {1})"
-  )]
-  BadSubSection(OsString, String, PathBuf),
-  #[error("Crate {0:?} in {2:?} does not satisfy the layout scheme (should start with {1})")]
-  BadCrate(OsString, String, PathBuf),
-  #[error("Crate name {0:?} is illegal, must have at least one character")]
-  BadCrateName(String),
 }
