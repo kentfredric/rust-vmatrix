@@ -1,10 +1,6 @@
 use std::path::PathBuf;
 
-mod config_data;
-
-pub use self::config_data::Config;
-
-pub fn from_str<N>(content: N) -> Result<Config, self::Error>
+pub(super) fn from_str<N>(content: N) -> Result<crate::config_data::Config, Error>
 where
   N: AsRef<str>,
 {
@@ -12,7 +8,7 @@ where
   Ok(from_str(content.as_ref())?)
 }
 
-pub fn from_file<N>(file: N) -> Result<Config, self::Error>
+pub(super) fn from_file<N>(file: N) -> Result<crate::config_data::Config, Error>
 where
   N: Into<PathBuf>,
 {

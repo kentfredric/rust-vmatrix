@@ -1,5 +1,5 @@
 use std::ops::Deref;
-use vmatrix::{config, stats_repo, stats_repo_cache};
+use vmatrix::{stats_repo, stats_repo_cache};
 
 use vmatrix::results::ResultType;
 
@@ -11,7 +11,7 @@ struct ResultBlock {
 }
 
 fn main() {
-  let cfg = config::from_file("./vmatrix.toml").unwrap();
+  let cfg = vmatrix::config_from_file("./vmatrix.toml").unwrap();
   let repo = stats_repo::from_config(cfg);
   let mut cache = stats_repo_cache::for_repo(&repo);
   for rustc in cache.rustcs() {

@@ -23,11 +23,8 @@ pub struct StatsRepo {
   rustcs: Vec<String>,
 }
 
-pub fn from_config(c: super::config::Config) -> StatsRepo {
-  StatsRepo {
-    root:   c.stats_repo.root,
-    rustcs: c.targets.map(|t| t.rustc.unwrap_or_else(Vec::new)).unwrap_or_else(Vec::new),
-  }
+pub fn from_config(c: crate::config_data::Config) -> StatsRepo {
+  StatsRepo { root: c.root(), rustcs: c.rustc().unwrap_or_else(Vec::new) }
 }
 
 impl StatsRepo {
