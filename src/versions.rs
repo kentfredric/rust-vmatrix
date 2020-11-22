@@ -3,14 +3,14 @@ mod version_list;
 use std::path::PathBuf;
 pub use version_list::VersionList;
 
-pub fn from_str<N>(content: N) -> Result<VersionList, self::Error>
+pub fn from_str<N>(content: N) -> Result<VersionList, VersionsError>
 where
   N: AsRef<str>,
 {
   use serde_json::from_str;
   Ok(from_str(content.as_ref())?)
 }
-pub fn from_file<N>(file: N) -> Result<VersionList, self::Error>
+pub fn from_file<N>(file: N) -> Result<VersionList, VersionsError>
 where
   N: Into<PathBuf>,
 {
@@ -24,7 +24,7 @@ where
 }
 
 #[derive(thiserror::Error, Debug)]
-pub enum Error {
+pub enum VersionsError {
   #[error("Error reading Versions JSON data: {0}")]
   IoError(#[from] std::io::Error),
   #[error("Error reading Versions JSON file: {0}")]

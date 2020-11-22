@@ -15,7 +15,7 @@ pub enum StatsRepoError {
   #[error("Error loading results: {0}")]
   ResultsError(#[from] super::results::Error),
   #[error("Error loading versions: {0}")]
-  VersionsError(#[from] super::versions::Error),
+  VersionsError(#[from] super::VersionsError),
 }
 
 pub struct StatsRepo {
