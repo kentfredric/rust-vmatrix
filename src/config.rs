@@ -15,9 +15,9 @@ pub enum ConfigError {
 }
 
 impl Config {
-  pub fn root(&self) -> PathBuf { self.stats_repo.root.to_owned() }
+  pub fn root(&self) -> &PathBuf { &self.stats_repo.root }
 
-  pub fn rustc(&self) -> Option<Vec<String>> { self.targets.as_ref().and_then(|x| x.rustc.to_owned()) }
+  pub fn rustc(&self) -> Option<&Vec<String>> { self.targets.as_ref().and_then(|x| x.rustc.as_ref()) }
 
   pub fn from_path(path: &Path) -> Result<Self, ConfigError> { std::fs::read_to_string(path)?.parse() }
 }

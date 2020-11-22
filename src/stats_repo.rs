@@ -24,7 +24,7 @@ pub struct StatsRepo {
 }
 
 pub fn from_config(c: crate::Config) -> StatsRepo {
-  StatsRepo { root: c.root(), rustcs: c.rustc().unwrap_or_else(Vec::new) }
+  StatsRepo { root: c.root().to_owned(), rustcs: c.rustc().map(|x| x.to_vec()).unwrap_or_else(Vec::new) }
 }
 
 impl StatsRepo {
