@@ -27,27 +27,27 @@ pub enum Error {
 }
 
 #[derive(Debug)]
-pub struct InBandDirIterator {
+struct InBandDirIterator {
   root:  PathBuf,
   inner: Option<Result<fs::ReadDir, ()>>,
 }
 
 #[derive(Debug)]
-pub struct SectionIterator {
+pub(crate) struct SectionIterator {
   root:   PathBuf,
   prefix: String,
   inner:  InBandDirIterator,
 }
 
 #[derive(Debug)]
-pub struct SubSectionIterator {
+pub(crate) struct SubSectionIterator {
   root:   PathBuf,
   prefix: String,
   inner:  InBandDirIterator,
 }
 
 #[derive(Debug)]
-pub struct CrateIterator {
+pub(crate) struct CrateIterator {
   root:   PathBuf,
   prefix: String,
   inner:  InBandDirIterator,
@@ -77,7 +77,7 @@ where
 }
 
 impl InBandDirIterator {
-  pub fn new<R>(root: R) -> InBandDirIterator
+  pub(crate) fn new<R>(root: R) -> InBandDirIterator
   where
     R: AsRef<Path>,
   {
@@ -112,7 +112,7 @@ impl Iterator for InBandDirIterator {
 }
 
 impl SectionIterator {
-  pub fn new<R, P>(root: R, prefix: P) -> SectionIterator
+  pub(crate) fn new<R, P>(root: R, prefix: P) -> SectionIterator
   where
     R: AsRef<Path>,
     P: AsRef<str>,
@@ -147,7 +147,7 @@ impl Iterator for SectionIterator {
 }
 
 impl SubSectionIterator {
-  pub fn new<R, P>(root: R, prefix: P) -> SubSectionIterator
+  pub(crate) fn new<R, P>(root: R, prefix: P) -> SubSectionIterator
   where
     R: AsRef<Path>,
     P: AsRef<str>,
@@ -178,7 +178,7 @@ impl Iterator for SubSectionIterator {
 }
 
 impl CrateIterator {
-  pub fn new<R, P>(root: R, prefix: P) -> CrateIterator
+  pub(crate) fn new<R, P>(root: R, prefix: P) -> CrateIterator
   where
     R: AsRef<Path>,
     P: AsRef<str>,
