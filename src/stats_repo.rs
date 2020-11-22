@@ -6,12 +6,16 @@ use std::{
 
 mod cratedir;
 
-#[derive(Debug)]
+#[derive(thiserror::Error, Debug)]
 pub enum Error {
-  IoError(std::io::Error),
-  CrateDirError(cratedir::Error),
-  ResultsError(super::results::Error),
-  VersionsError(super::versions::Error),
+  #[error("IO Error in Stats Directory: {0}")]
+  IoError(#[from] std::io::Error),
+  #[error("Error mapping to/from crate directory stats layout: {0}")]
+  CrateDirError(#[from] cratedir::Error),
+  #[error("Error loading results: {0}")]
+  ResultsError(#[from] super::results::Error),
+  #[error("Error loading versions: {0}")]
+  VersionsError(#[from] super::versions::Error),
 }
 
 pub struct StatsRepo {
@@ -120,32 +124,3 @@ impl StatsRepo {
 impl AsRef<StatsRepo> for StatsRepo {
   fn as_ref(&self) -> &Self { &self }
 }
-
-impl From<std::io::Error> for Error {
-  fn from(e: std::io::Error) -> Self { Self::IoError(e) }
-}
-impl From<super::results::Error> for Error {
-  fn from(e: super::results::Error) -> Self { Self::ResultsError(e) }
-}
-impl From<super::versions::Error> for Error {
-  fn from(e: super::versions::Error) -> Self { Self::VersionsError(e) }
-}
-impl From<cratedir::Error> for Error {
-  fn from(e: cratedir::Error) -> Self { Self::CrateDirError(e) }
-}
-
-impl std::fmt::Display for Error {
-  fn fmt(&self, fmter: &mut std::fmt::Formatter<'_>) -> Result<(), std::fmt::Error> {
-    match self {
-      | Self::ResultsError(e) => write!(fmter, "Error loading results: {}", e),
-      | Self::VersionsError(e) => {
-        write!(fmter, "Error loading versions: {}", e)
-      },
-      | Self::CrateDirError(e) => {
-        write!(fmter, "Error mapping to/from crate directory stats layout: {}", e)
-      },
-      | Self::IoError(e) => write!(fmter, "IO Error in Stats Directory: {}", e),
-    }
-  }
-}
-impl std::error::Error for Error {}
