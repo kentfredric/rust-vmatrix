@@ -4,7 +4,7 @@ use std::{
   path::{Path, PathBuf},
 };
 
-mod cratedir;
+use super::cratedir;
 
 #[derive(thiserror::Error, Debug)]
 pub enum Error {

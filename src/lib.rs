@@ -1,4 +1,5 @@
 mod config;
+mod cratedir;
 
 pub mod pages;
 pub mod results;
