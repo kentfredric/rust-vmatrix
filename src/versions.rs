@@ -23,28 +23,10 @@ where
   from_str(contents)
 }
 
-#[derive(Debug)]
+#[derive(thiserror::Error, Debug)]
 pub enum Error {
-  IoError(std::io::Error),
-  SerdeJsonError(serde_json::Error),
+  #[error("Error reading Versions JSON data: {0}")]
+  IoError(#[from] std::io::Error),
+  #[error("Error reading Versions JSON file: {0}")]
+  SerdeJsonError(#[from] serde_json::Error),
 }
-
-impl From<std::io::Error> for Error {
-  fn from(e: std::io::Error) -> Self { Self::IoError(e) }
-}
-impl From<serde_json::Error> for Error {
-  fn from(e: serde_json::Error) -> Self { Self::SerdeJsonError(e) }
-}
-impl std::fmt::Display for Error {
-  fn fmt(&self, fmter: &mut std::fmt::Formatter<'_>) -> Result<(), std::fmt::Error> {
-    match self {
-      | Self::SerdeJsonError(e) => {
-        write!(fmter, "Error reading Versions JSON data: {}", e)
-      },
-      | Self::IoError(e) => {
-        write!(fmter, "Error reading Versions JSON file: {}", e)
-      },
-    }
-  }
-}
-impl std::error::Error for Error {}
