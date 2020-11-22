@@ -9,7 +9,7 @@ pub struct Config {
 #[derive(thiserror::Error, Debug)]
 pub enum ConfigError {
   #[error("Error reading TOML data: {0}")]
-  TomlDecodeError(#[from] toml::de::Error),
+  DecodeTomlError(#[from] toml::de::Error),
   #[error("Error reading Config TOML file: {0}")]
   IoError(#[from] std::io::Error),
 }
