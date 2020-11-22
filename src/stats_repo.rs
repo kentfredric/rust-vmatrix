@@ -7,7 +7,7 @@ use std::{
 use super::cratedir;
 
 #[derive(thiserror::Error, Debug)]
-pub enum Error {
+pub enum StatsRepoError {
   #[error("IO Error in Stats Directory: {0}")]
   IoError(#[from] std::io::Error),
   #[error("Error mapping to/from crate directory stats layout: {0}")]
@@ -28,7 +28,7 @@ impl StatsRepo {
     StatsRepo { root: c.root().to_owned(), rustcs: c.rustc().map(|x| x.to_vec()).unwrap_or_else(Vec::new) }
   }
 
-  pub fn root(&self) -> Result<PathBuf, Error> { Ok(self.root.to_owned()) }
+  pub fn root(&self) -> Result<PathBuf, StatsRepoError> { Ok(self.root.to_owned()) }
 
   pub fn rustcs(&self) -> &Vec<String> { &self.rustcs }
 
@@ -54,7 +54,7 @@ impl StatsRepo {
     }))
   }
 
-  pub fn crate_names(&self) -> Result<Vec<String>, Error> {
+  pub fn crate_names(&self) -> Result<Vec<String>, StatsRepoError> {
     Ok(
       self
         .crate_names_iterator()
@@ -67,14 +67,14 @@ impl StatsRepo {
     )
   }
 
-  pub fn crate_path<C>(&self, my_crate: C) -> Result<PathBuf, Error>
+  pub fn crate_path<C>(&self, my_crate: C) -> Result<PathBuf, StatsRepoError>
   where
     C: AsRef<str>,
   {
     Ok(cratedir::crate_path(self.root()?, "crates-", my_crate)?)
   }
 
-  pub fn crate_file_path<C, F>(&self, my_crate: C, file: F) -> Result<PathBuf, Error>
+  pub fn crate_file_path<C, F>(&self, my_crate: C, file: F) -> Result<PathBuf, StatsRepoError>
   where
     C: AsRef<str>,
     F: AsRef<Path>,
@@ -82,35 +82,35 @@ impl StatsRepo {
     Ok(self.crate_path(my_crate)?.join(file.as_ref()))
   }
 
-  pub fn crate_versions_path<C>(&self, my_crate: C) -> Result<PathBuf, Error>
+  pub fn crate_versions_path<C>(&self, my_crate: C) -> Result<PathBuf, StatsRepoError>
   where
     C: AsRef<str>,
   {
     self.crate_file_path(my_crate, "versions.json")
   }
 
-  pub fn crate_results_path<C>(&self, my_crate: C) -> Result<PathBuf, Error>
+  pub fn crate_results_path<C>(&self, my_crate: C) -> Result<PathBuf, StatsRepoError>
   where
     C: AsRef<str>,
   {
     self.crate_file_path(my_crate, "results.json")
   }
 
-  pub fn crate_index_path<C>(&self, my_crate: C) -> Result<PathBuf, Error>
+  pub fn crate_index_path<C>(&self, my_crate: C) -> Result<PathBuf, StatsRepoError>
   where
     C: AsRef<str>,
   {
     self.crate_file_path(my_crate, "index.html")
   }
 
-  pub fn crate_versions<C>(&self, my_crate: C) -> Result<super::versions::VersionList, Error>
+  pub fn crate_versions<C>(&self, my_crate: C) -> Result<super::versions::VersionList, StatsRepoError>
   where
     C: AsRef<str>,
   {
     Ok(super::versions::from_file(self.crate_versions_path(my_crate)?)?)
   }
 
-  pub fn crate_results<C>(&self, my_crate: C) -> Result<super::results::ResultList, Error>
+  pub fn crate_results<C>(&self, my_crate: C) -> Result<super::results::ResultList, StatsRepoError>
   where
     C: AsRef<str>,
   {

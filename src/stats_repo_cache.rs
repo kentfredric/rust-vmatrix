@@ -61,7 +61,7 @@ impl StatsRepoCache<'_> {
   {
     let my_crate = my_crate.as_ref();
 
-    use super::{stats_repo::Error::VersionsError, versions::Error::IoError as VersionsIoError};
+    use super::{StatsRepoError::VersionsError, versions::Error::IoError as VersionsIoError};
     use std::{collections::hash_map::Entry, io::ErrorKind::NotFound};
 
     match self.crate_versions.entry(my_crate.to_string()) {
@@ -93,7 +93,7 @@ impl StatsRepoCache<'_> {
   {
     let my_crate = my_crate.as_ref();
 
-    use super::{results::Error::IoError as ResultsIoError, stats_repo::Error::ResultsError};
+    use super::{results::Error::IoError as ResultsIoError, StatsRepoError::ResultsError};
     use std::{collections::hash_map::Entry, io::ErrorKind::NotFound};
 
     match self.crate_results.entry(my_crate.to_string()) {
@@ -129,5 +129,5 @@ pub enum Error {
   #[error("No version data for {0}")]
   VersionNotExists(String),
   #[error("Stats Repository error: {0}")]
-  StatsRepoError(#[from] super::stats_repo::Error),
+  StatsRepoError(#[from] super::StatsRepoError),
 }

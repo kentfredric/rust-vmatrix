@@ -3,12 +3,12 @@ mod cratedir;
 
 pub mod pages;
 pub mod results;
-pub mod stats_repo;
+mod stats_repo;
 pub mod stats_repo_cache;
 pub mod versions;
 
 pub use config::{Config, ConfigError};
-pub use stats_repo::StatsRepo;
+pub use stats_repo::{StatsRepo, StatsRepoError};
 
 #[derive(thiserror::Error, Debug)]
 pub enum Error {
@@ -19,5 +19,5 @@ pub enum Error {
   #[error("Version Data Error: {0}")]
   VersionsError(#[from] versions::Error),
   #[error("Error in Stats Repo: {0}")]
-  StatsRepoError(#[from] stats_repo::Error),
+  StatsRepoError(#[from] StatsRepoError),
 }
