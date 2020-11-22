@@ -1,7 +1,6 @@
-use vmatrix;
-
 fn main() {
-  let cfg = vmatrix::config_from_file("./vmatrix.toml").unwrap();
+  use std::path::Path;
+  let cfg = vmatrix::Config::from_path(Path::new("./vmatrix.toml")).unwrap();
 
   dbg!(cfg.rustc().unwrap());
 }

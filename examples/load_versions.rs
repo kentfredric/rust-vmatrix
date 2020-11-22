@@ -11,7 +11,8 @@ struct ResultBlock {
 }
 
 fn main() {
-  let cfg = vmatrix::config_from_file("./vmatrix.toml").unwrap();
+  use std::path::Path;
+  let cfg = vmatrix::Config::from_path(Path::new("./vmatrix.toml")).unwrap();
   let repo = stats_repo::from_config(cfg);
   let mut cache = stats_repo_cache::for_repo(&repo);
   for rustc in cache.rustcs() {

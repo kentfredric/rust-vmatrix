@@ -1,7 +1,6 @@
-use vmatrix::stats_repo;
-
 fn main() {
-  let cfg = vmatrix::config_from_file("./vmatrix.toml").unwrap();
-  let repo = stats_repo::from_config(cfg);
+  use std::path::Path;
+  let cfg = vmatrix::Config::from_path(Path::new("./vmatrix.toml")).unwrap();
+  let repo = vmatrix::stats_repo::from_config(cfg);
   repo.crate_names_iterator();
 }
