@@ -6,14 +6,14 @@ use std::path::PathBuf;
 
 pub use self::{result_info::ResultInfo, result_list::ResultList, result_type::ResultType};
 
-pub fn from_str<N>(content: N) -> Result<ResultList, self::Error>
+pub fn from_str<N>(content: N) -> Result<ResultList, ResultsError>
 where
   N: AsRef<str>,
 {
   use serde_json::from_str;
   Ok(from_str(content.as_ref())?)
 }
-pub fn from_file<N>(file: N) -> Result<ResultList, self::Error>
+pub fn from_file<N>(file: N) -> Result<ResultList, ResultsError>
 where
   N: Into<PathBuf>,
 {
@@ -27,7 +27,7 @@ where
 }
 
 #[derive(thiserror::Error, Debug)]
-pub enum Error {
+pub enum ResultsError {
   #[error("Error reading Result JSON data: {0}")]
   IoError(#[from] std::io::Error),
   #[error("Error reading Result JSON file: {0}")]

@@ -93,7 +93,7 @@ impl StatsRepoCache<'_> {
   {
     let my_crate = my_crate.as_ref();
 
-    use super::{results::Error::IoError as ResultsIoError, StatsRepoError::ResultsError};
+    use super::{ResultsError::IoError as ResultsIoError, StatsRepoError::ResultsError};
     use std::{collections::hash_map::Entry, io::ErrorKind::NotFound};
 
     match self.crate_results.entry(my_crate.to_string()) {

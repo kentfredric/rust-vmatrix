@@ -13,7 +13,7 @@ pub enum StatsRepoError {
   #[error("Error mapping to/from crate directory stats layout: {0}")]
   CrateDirError(#[from] CrateDirError),
   #[error("Error loading results: {0}")]
-  ResultsError(#[from] super::results::Error),
+  ResultsError(#[from] super::ResultsError),
   #[error("Error loading versions: {0}")]
   VersionsError(#[from] super::VersionsError),
 }

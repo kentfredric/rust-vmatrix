@@ -1,7 +1,7 @@
 use std::ops::Deref;
 use vmatrix::stats_repo_cache;
 
-use vmatrix::results::ResultType;
+use vmatrix::ResultType;
 
 #[derive(Debug)]
 struct ResultBlock {
