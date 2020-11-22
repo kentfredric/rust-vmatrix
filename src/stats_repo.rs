@@ -23,11 +23,11 @@ pub struct StatsRepo {
   rustcs: Vec<String>,
 }
 
-pub fn from_config(c: crate::Config) -> StatsRepo {
-  StatsRepo { root: c.root().to_owned(), rustcs: c.rustc().map(|x| x.to_vec()).unwrap_or_else(Vec::new) }
-}
-
 impl StatsRepo {
+  pub fn from_config(c: crate::Config) -> Self {
+    StatsRepo { root: c.root().to_owned(), rustcs: c.rustc().map(|x| x.to_vec()).unwrap_or_else(Vec::new) }
+  }
+
   pub fn root(&self) -> Result<PathBuf, Error> { Ok(self.root.to_owned()) }
 
   pub fn rustcs(&self) -> &Vec<String> { &self.rustcs }

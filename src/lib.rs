@@ -8,6 +8,7 @@ pub mod stats_repo_cache;
 pub mod versions;
 
 pub use config::{Config, ConfigError};
+pub use stats_repo::StatsRepo;
 
 #[derive(thiserror::Error, Debug)]
 pub enum Error {
