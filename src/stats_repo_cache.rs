@@ -120,17 +120,14 @@ impl StatsRepoCache<'_> {
   }
 }
 
-#[derive(Debug)]
+#[derive(thiserror::Error, Debug)]
 pub enum Error {
-  IoError(std::io::Error),
+  #[error(transparent)]
+  IoError(#[from] std::io::Error),
+  #[error("No result found for {0}")]
   ResultNotExists(String),
+  #[error("No version data for {0}")]
   VersionNotExists(String),
-  StatsRepoError(super::stats_repo::Error),
-}
-
-impl From<super::stats_repo::Error> for Error {
-  fn from(e: super::stats_repo::Error) -> Self { Self::StatsRepoError(e) }
-}
-impl From<std::io::Error> for Error {
-  fn from(e: std::io::Error) -> Self { Self::IoError(e) }
+  #[error("Stats Repository error: {0}")]
+  StatsRepoError(#[from] super::stats_repo::Error),
 }
