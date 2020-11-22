@@ -4,14 +4,14 @@ use std::{
   path::{Path, PathBuf},
 };
 
-use super::cratedir;
+use super::{cratedir, CrateDirError};
 
 #[derive(thiserror::Error, Debug)]
 pub enum StatsRepoError {
   #[error("IO Error in Stats Directory: {0}")]
   IoError(#[from] std::io::Error),
   #[error("Error mapping to/from crate directory stats layout: {0}")]
-  CrateDirError(#[from] cratedir::Error),
+  CrateDirError(#[from] CrateDirError),
   #[error("Error loading results: {0}")]
   ResultsError(#[from] super::results::Error),
   #[error("Error loading versions: {0}")]
@@ -32,7 +32,7 @@ impl StatsRepo {
 
   pub fn rustcs(&self) -> &Vec<String> { &self.rustcs }
 
-  pub fn crate_names_iterator(&self) -> Box<dyn Iterator<Item = Result<String, cratedir::Error>>> {
+  pub fn crate_names_iterator(&self) -> Box<dyn Iterator<Item = Result<String, CrateDirError>>> {
     let root = self.root.to_owned();
 
     Box::new(cratedir::SectionIterator::new(root.to_owned(), "crates-").flat_map(move |section| {
@@ -58,8 +58,8 @@ impl StatsRepo {
     Ok(
       self
         .crate_names_iterator()
-        .filter(|e| !matches!(e, Err(cratedir::Error::NonSection(..))))
-        .collect::<Result<Vec<String>, cratedir::Error>>()
+        .filter(|e| !matches!(e, Err(CrateDirError::NonSection(..))))
+        .collect::<Result<Vec<String>, CrateDirError>>()
         .map(|mut i| {
           i.sort_unstable();
           i

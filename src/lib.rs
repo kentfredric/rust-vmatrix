@@ -8,6 +8,7 @@ pub mod stats_repo_cache;
 pub mod versions;
 
 pub use config::{Config, ConfigError};
+pub use cratedir::CrateDirError;
 pub use stats_repo::{StatsRepo, StatsRepoError};
 
 #[derive(thiserror::Error, Debug)]

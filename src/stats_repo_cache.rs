@@ -61,7 +61,7 @@ impl StatsRepoCache<'_> {
   {
     let my_crate = my_crate.as_ref();
 
-    use super::{StatsRepoError::VersionsError, versions::Error::IoError as VersionsIoError};
+    use super::{versions::Error::IoError as VersionsIoError, StatsRepoError::VersionsError};
     use std::{collections::hash_map::Entry, io::ErrorKind::NotFound};
 
     match self.crate_versions.entry(my_crate.to_string()) {

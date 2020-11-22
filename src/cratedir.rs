@@ -5,7 +5,7 @@ use std::{
 };
 
 #[derive(thiserror::Error, Debug)]
-pub enum Error {
+pub enum CrateDirError {
   #[error("Could not decode {0:?} as Unicode")]
   NotUnicode(OsString),
   #[error("IO Error in stats repo directory: {0}")]
@@ -53,13 +53,13 @@ pub(crate) struct CrateIterator {
   inner:  InBandDirIterator,
 }
 
-pub(crate) fn crate_rpath<P, C>(prefix: P, crate_name: C) -> Result<PathBuf, Error>
+pub(crate) fn crate_rpath<P, C>(prefix: P, crate_name: C) -> Result<PathBuf, CrateDirError>
 where
   P: AsRef<str>,
   C: AsRef<str>,
 {
   let mut crate_chars = crate_name.as_ref().chars();
-  let first = crate_chars.next().ok_or_else(|| Error::BadCrateName(crate_name.as_ref().to_owned()))?;
+  let first = crate_chars.next().ok_or_else(|| CrateDirError::BadCrateName(crate_name.as_ref().to_owned()))?;
   let nibble = match crate_chars.next() {
     | Some(c) => format!("{}{}", first, c),
     | None => first.to_string(),
@@ -67,7 +67,7 @@ where
   Ok(PathBuf::from(format!("{}{}", prefix.as_ref(), first)).join(nibble).join(crate_name.as_ref()))
 }
 
-pub(crate) fn crate_path<R, P, C>(root: R, prefix: P, crate_name: C) -> Result<PathBuf, Error>
+pub(crate) fn crate_path<R, P, C>(root: R, prefix: P, crate_name: C) -> Result<PathBuf, CrateDirError>
 where
   R: AsRef<Path>,
   P: AsRef<str>,
@@ -126,21 +126,21 @@ impl SectionIterator {
 }
 
 impl Iterator for SectionIterator {
-  type Item = Result<String, self::Error>;
+  type Item = Result<String, CrateDirError>;
 
   fn next(&mut self) -> Option<Self::Item> {
     self.inner.next().map(|d| {
       let entry_name = d?.file_name();
-      let entry_str = entry_name.to_str().ok_or_else(|| Error::NotUnicode(entry_name.to_owned()))?;
+      let entry_str = entry_name.to_str().ok_or_else(|| CrateDirError::NotUnicode(entry_name.to_owned()))?;
 
       if let Some(c) = entry_str.strip_prefix(&self.prefix) {
         if c.len() == 1 {
           Ok(c.to_owned())
         } else {
-          Err(Error::BadSection(entry_name, self.prefix.to_owned(), self.root.to_owned()))
+          Err(CrateDirError::BadSection(entry_name, self.prefix.to_owned(), self.root.to_owned()))
         }
       } else {
-        Err(Error::NonSection(entry_name, self.prefix.to_owned(), self.root.to_owned()))
+        Err(CrateDirError::NonSection(entry_name, self.prefix.to_owned(), self.root.to_owned()))
       }
     })
   }
@@ -161,17 +161,17 @@ impl SubSectionIterator {
 }
 
 impl Iterator for SubSectionIterator {
-  type Item = Result<String, self::Error>;
+  type Item = Result<String, CrateDirError>;
 
   fn next(&mut self) -> Option<Self::Item> {
     self.inner.next().map(|d| {
       let entry_name = d?.file_name();
-      let entry_str = entry_name.to_str().ok_or_else(|| Error::NotUnicode(entry_name.to_owned()))?;
+      let entry_str = entry_name.to_str().ok_or_else(|| CrateDirError::NotUnicode(entry_name.to_owned()))?;
 
       if 2 >= entry_str.len() && entry_str.starts_with(&self.prefix) {
         Ok(entry_str.to_owned())
       } else {
-        Err(Error::BadSubSection(entry_name, self.prefix.to_owned(), self.root.to_owned()))
+        Err(CrateDirError::BadSubSection(entry_name, self.prefix.to_owned(), self.root.to_owned()))
       }
     })
   }
@@ -192,17 +192,17 @@ impl CrateIterator {
 }
 
 impl Iterator for CrateIterator {
-  type Item = Result<String, self::Error>;
+  type Item = Result<String, CrateDirError>;
 
   fn next(&mut self) -> Option<Self::Item> {
     self.inner.next().map(|d| {
       let entry_name = d?.file_name();
-      let entry_str = entry_name.to_str().ok_or_else(|| Error::NotUnicode(entry_name.to_owned()))?;
+      let entry_str = entry_name.to_str().ok_or_else(|| CrateDirError::NotUnicode(entry_name.to_owned()))?;
 
       if entry_str.starts_with(&self.prefix) {
         Ok(entry_str.to_owned())
       } else {
-        Err(Error::BadCrate(entry_name, self.prefix.to_owned(), self.root.to_owned()))
+        Err(CrateDirError::BadCrate(entry_name, self.prefix.to_owned(), self.root.to_owned()))
       }
     })
   }
