@@ -1,5 +1,4 @@
 use std::ops::Deref;
-use vmatrix::stats_repo_cache;
 
 use vmatrix::ResultType;
 
@@ -14,7 +13,7 @@ fn main() {
   use std::path::Path;
   let cfg = vmatrix::Config::from_path(Path::new("./vmatrix.toml")).unwrap();
   let repo = vmatrix::StatsRepo::from_config(cfg);
-  let mut cache = stats_repo_cache::for_repo(&repo);
+  let mut cache = vmatrix::StatsRepoCache::for_repo(&repo);
   for rustc in cache.rustcs() {
     for s in cache.crate_names().unwrap() {
       if let Ok(results) = cache.crate_results(&s) {

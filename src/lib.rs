@@ -4,13 +4,14 @@ mod cratedir;
 pub mod pages;
 mod results;
 mod stats_repo;
-pub mod stats_repo_cache;
+mod stats_repo_cache;
 mod versions;
 
 pub use config::{Config, ConfigError};
 pub use cratedir::CrateDirError;
 pub use results::{ResultType, ResultsError};
 pub use stats_repo::{StatsRepo, StatsRepoError};
+pub use stats_repo_cache::StatsRepoCache;
 pub use versions::VersionsError;
 
 #[derive(thiserror::Error, Debug)]

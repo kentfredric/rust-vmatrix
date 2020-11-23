@@ -8,17 +8,17 @@ pub struct StatsRepoCache<'a> {
   crate_results:  HashMap<String, Option<super::results::ResultList>>,
 }
 
-pub fn for_repo(repo: &'_ super::stats_repo::StatsRepo) -> StatsRepoCache {
-  StatsRepoCache {
-    repo,
-    crate_names: Option::None,
-    crate_paths: HashMap::new(),
-    crate_versions: HashMap::new(),
-    crate_results: HashMap::new(),
-  }
-}
-
 impl StatsRepoCache<'_> {
+  pub fn for_repo(repo: &'_ super::StatsRepo) -> StatsRepoCache {
+    StatsRepoCache {
+      repo,
+      crate_names: Option::None,
+      crate_paths: HashMap::new(),
+      crate_versions: HashMap::new(),
+      crate_results: HashMap::new(),
+    }
+  }
+
   pub fn root(&self) -> Result<PathBuf, Error> { Ok(self.repo.root()?) }
 
   pub fn rustcs(&self) -> Vec<String> { self.repo.rustcs().to_vec() }
