@@ -1,4 +1,4 @@
-use std::path::PathBuf;
+use std::path::Path;
 
 #[derive(thiserror::Error, Debug)]
 pub enum VersionsError {
@@ -19,7 +19,11 @@ pub type TimeStamp = String;
 pub type ApiUrl = String;
 pub type Url = String;
 pub type Version = String;
-pub type VersionList = Vec<VersionInfo>;
+pub type VersionListInner = Vec<VersionInfo>;
+
+#[derive(Serialize, Deserialize, Debug, Clone)]
+#[serde(transparent)]
+pub struct VersionList(VersionListInner);
 
 #[derive(Serialize, Deserialize, Debug, Clone)]
 pub struct VersionInfo {
@@ -76,22 +80,16 @@ pub struct User {
   url:    Url,
 }
 
-pub fn from_str<N>(content: N) -> Result<VersionList, VersionsError>
-where
-  N: AsRef<str>,
-{
-  use serde_json::from_str;
-  Ok(from_str(content.as_ref())?)
+impl VersionList {
+  pub fn from_path(path: &Path) -> Result<Self, VersionsError> { std::fs::read_to_string(path)?.parse() }
 }
-pub fn from_file<N>(file: N) -> Result<VersionList, VersionsError>
-where
-  N: Into<PathBuf>,
-{
-  use std::{fs::File, io::Read};
+impl std::str::FromStr for VersionList {
+  type Err = VersionsError;
 
-  let path = file.into();
-  let mut file = File::open(path)?;
-  let mut contents = String::new();
-  file.read_to_string(&mut contents)?;
-  from_str(contents)
+  fn from_str(s: &str) -> Result<Self, Self::Err> { Ok(serde_json::from_str(s)?) }
+}
+impl std::ops::Deref for VersionList {
+  type Target = VersionListInner;
+
+  fn deref(&self) -> &Self::Target { &self.0 }
 }

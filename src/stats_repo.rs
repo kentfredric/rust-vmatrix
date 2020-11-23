@@ -107,7 +107,7 @@ impl StatsRepo {
   where
     C: AsRef<str>,
   {
-    Ok(super::version_list::from_file(self.crate_versions_path(my_crate)?)?)
+    Ok(super::VersionList::from_path(&self.crate_versions_path(my_crate)?)?)
   }
 
   pub fn crate_results<C>(&self, my_crate: C) -> Result<super::ResultList, StatsRepoError>
