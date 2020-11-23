@@ -92,6 +92,54 @@ impl CrateDir {
   pub fn abs_path_to_file(&self, crate_name: &str, file_name: &str) -> Result<PathBuf, CrateDirError> {
     self.abs_path_to(crate_name).map(|x| x.join(file_name))
   }
+
+  pub fn section_ids(&self) -> Box<dyn Iterator<Item = Result<String, CrateDirError>>> {
+    Box::new(SectionIterator::new(self.root.to_owned(), self.prefix.to_owned()))
+  }
+
+  pub fn section_names(&self) -> Box<dyn Iterator<Item = Result<String, CrateDirError>>> {
+    let prefix = self.prefix.to_owned();
+    Box::new(self.section_ids().map(move |r| r.map(|s| [prefix.to_string(), s].concat())))
+  }
+
+  pub fn subsections_in(&self, section_id: &str) -> Box<dyn Iterator<Item = Result<String, CrateDirError>>> {
+    let section_name = [self.prefix.to_string(), section_id.to_string()].concat();
+    Box::new(SubSectionIterator::new(self.root.join(section_name), section_id))
+  }
+
+  pub fn subsection_ids(&self) -> Box<dyn Iterator<Item = Result<String, CrateDirError>> + '_> {
+    use either::Either;
+    use std::iter;
+    Box::new(self.section_ids().flat_map(move |r| {
+      match r {
+        | Err(e) => Either::Left(iter::once(Err(e))),
+        | Ok(id) => Either::Right(self.subsections_in(&id)),
+      }
+    }))
+  }
+
+  pub fn crates_in(
+    &self, section_id: &str, subsection_id: &str,
+  ) -> Box<dyn Iterator<Item = Result<String, CrateDirError>>> {
+    let section_name = [self.prefix.to_string(), section_id.to_string()].concat();
+    Box::new(CrateIterator::new(self.root.join(section_name).join(subsection_id), subsection_id))
+  }
+
+  pub fn crate_ids(&self) -> Box<dyn Iterator<Item = Result<String, CrateDirError>> + '_> {
+    use either::Either;
+    use std::iter;
+    Box::new(self.subsection_ids().flat_map(move |r| {
+      match r {
+        | Err(e) => Either::Left(iter::once(Err(e))),
+        | Ok(id) => {
+          match self.crate_first(&id) {
+            | Err(e) => Either::Left(iter::once(Err(e))),
+            | Ok(first) => Either::Right(self.crates_in(&first, &id)),
+          }
+        },
+      }
+    }))
+  }
 }
 
 impl InBandDirIterator {

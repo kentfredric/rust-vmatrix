@@ -1,14 +1,11 @@
-use either::Either;
-use std::{iter, path::PathBuf};
-
-use super::{crate_dir, CrateDirError};
+use std::path::PathBuf;
 
 #[derive(thiserror::Error, Debug)]
 pub enum StatsRepoError {
   #[error("IO Error in Stats Directory: {0}")]
   IoError(#[from] std::io::Error),
   #[error("Error mapping to/from crate directory stats layout: {0}")]
-  CrateDirError(#[from] CrateDirError),
+  CrateDirError(#[from] super::CrateDirError),
   #[error("Error loading results: {0}")]
   ResultsError(#[from] super::ResultsError),
   #[error("Error loading versions: {0}")]
@@ -34,29 +31,12 @@ impl StatsRepo {
 
   pub fn rustcs(&self) -> &Vec<String> { &self.rustcs }
 
-  pub fn crate_names_iterator(&self) -> Box<dyn Iterator<Item = Result<String, CrateDirError>>> {
-    let root = self.root.to_owned();
-
-    Box::new(crate_dir::SectionIterator::new(root.to_owned(), "crates-").flat_map(move |section| {
-      match section {
-        | Err(e) => Either::Left(iter::once(Err(e))),
-        | Ok(section_name) => {
-          let sec = root.to_owned().join(format!("crates-{}", &section_name));
-          Either::Right(crate_dir::SubSectionIterator::new(&sec, &section_name).flat_map(move |subsection| {
-            match subsection {
-              | Err(e) => Either::Left(iter::once(Err(e))),
-              | Ok(subsection_name) => {
-                let subsec = sec.join(&subsection_name);
-                Either::Right(crate_dir::CrateIterator::new(subsec, &subsection_name))
-              },
-            }
-          }))
-        },
-      }
-    }))
+  pub fn crate_names_iterator(&self) -> Box<dyn Iterator<Item = Result<String, super::CrateDirError>> + '_> {
+    self.crate_dir.crate_ids()
   }
 
   pub fn crate_names(&self) -> Result<Vec<String>, StatsRepoError> {
+    use super::CrateDirError;
     Ok(
       self
         .crate_names_iterator()
