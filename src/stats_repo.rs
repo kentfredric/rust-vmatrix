@@ -110,11 +110,11 @@ impl StatsRepo {
     Ok(super::versions::from_file(self.crate_versions_path(my_crate)?)?)
   }
 
-  pub fn crate_results<C>(&self, my_crate: C) -> Result<super::results::ResultList, StatsRepoError>
+  pub fn crate_results<C>(&self, my_crate: C) -> Result<super::ResultList, StatsRepoError>
   where
     C: AsRef<str>,
   {
-    Ok(super::results::from_file(self.crate_results_path(my_crate)?)?)
+    Ok(super::ResultList::from_path(&self.crate_results_path(my_crate)?)?)
   }
 }
 

@@ -5,7 +5,7 @@ pub struct StatsRepoCache<'a> {
   crate_names:    Option<Vec<String>>,
   crate_paths:    HashMap<String, PathBuf>,
   crate_versions: HashMap<String, Option<super::versions::VersionList>>,
-  crate_results:  HashMap<String, Option<super::results::ResultList>>,
+  crate_results:  HashMap<String, Option<super::ResultList>>,
 }
 
 impl StatsRepoCache<'_> {
@@ -87,7 +87,7 @@ impl StatsRepoCache<'_> {
     }
   }
 
-  pub fn crate_results<C>(&mut self, my_crate: C) -> Result<super::results::ResultList, StatsRepoCacheError>
+  pub fn crate_results<C>(&mut self, my_crate: C) -> Result<super::ResultList, StatsRepoCacheError>
   where
     C: AsRef<str>,
   {

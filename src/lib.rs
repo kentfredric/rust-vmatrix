@@ -2,14 +2,14 @@ mod config;
 mod cratedir;
 
 pub mod pages;
-mod results;
+mod result_list;
 mod stats_repo;
 mod stats_repo_cache;
 mod versions;
 
 pub use config::{Config, ConfigError};
 pub use cratedir::CrateDirError;
-pub use results::{ResultType, ResultsError};
+pub use result_list::{ResultList, ResultType, ResultsError};
 pub use stats_repo::{StatsRepo, StatsRepoError};
 pub use stats_repo_cache::{StatsRepoCache, StatsRepoCacheError};
 pub use versions::VersionsError;
