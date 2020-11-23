@@ -9,17 +9,17 @@ pub enum VersionsError {
 }
 use serde_derive::{Deserialize, Serialize};
 use std::collections::HashMap;
-pub type AuditActions = Vec<AuditAction>;
-pub type Dependencies = Vec<Dependency>;
-pub type FeatureReqs = Vec<String>;
-pub type Features = HashMap<String, FeatureReqs>;
-pub type License = String;
-pub type Links = HashMap<String, ApiUrl>;
-pub type TimeStamp = String;
-pub type ApiUrl = String;
-pub type Url = String;
-pub type Version = String;
-pub type VersionListInner = Vec<VersionInfo>;
+type AuditActions = Vec<AuditAction>;
+type Dependencies = Vec<Dependency>;
+type FeatureReqs = Vec<String>;
+type Features = HashMap<String, FeatureReqs>;
+type License = String;
+type Links = HashMap<String, ApiUrl>;
+type TimeStamp = String;
+type ApiUrl = String;
+type Url = String;
+type Version = String;
+type VersionListInner = Vec<VersionInfo>;
 
 #[derive(Serialize, Deserialize, Debug, Clone)]
 #[serde(transparent)]
@@ -48,17 +48,17 @@ pub struct VersionInfo {
 }
 
 #[derive(Serialize, Deserialize, Debug, Clone)]
-pub struct AuditAction {
+struct AuditAction {
   action: String,
   time:   TimeStamp,
   user:   User,
 }
 
 #[derive(Serialize, Deserialize, Debug, Clone)]
-pub struct AuthorInfo {}
+struct AuthorInfo {}
 
 #[derive(Serialize, Deserialize, Debug, Clone)]
-pub struct Dependency {
+struct Dependency {
   crate_id:         String,
   default_features: bool,
   downloads:        u64,
@@ -72,7 +72,7 @@ pub struct Dependency {
 }
 
 #[derive(Serialize, Deserialize, Debug, Clone)]
-pub struct User {
+struct User {
   avatar: Url,
   id:     u64,
   login:  String,
