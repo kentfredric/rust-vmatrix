@@ -103,11 +103,11 @@ impl StatsRepo {
     self.crate_file_path(my_crate, "index.html")
   }
 
-  pub fn crate_versions<C>(&self, my_crate: C) -> Result<super::versions::VersionList, StatsRepoError>
+  pub fn crate_versions<C>(&self, my_crate: C) -> Result<super::VersionList, StatsRepoError>
   where
     C: AsRef<str>,
   {
-    Ok(super::versions::from_file(self.crate_versions_path(my_crate)?)?)
+    Ok(super::version_list::from_file(self.crate_versions_path(my_crate)?)?)
   }
 
   pub fn crate_results<C>(&self, my_crate: C) -> Result<super::ResultList, StatsRepoError>

@@ -1,3 +1,12 @@
+use std::path::PathBuf;
+
+#[derive(thiserror::Error, Debug)]
+pub enum VersionsError {
+  #[error("Error reading Versions JSON data: {0}")]
+  IoError(#[from] std::io::Error),
+  #[error("Error reading Versions JSON file: {0}")]
+  SerdeJsonError(#[from] serde_json::Error),
+}
 use serde_derive::{Deserialize, Serialize};
 use std::collections::HashMap;
 pub type AuditActions = Vec<AuditAction>;
@@ -65,4 +74,24 @@ pub struct User {
   login:  String,
   name:   Option<String>,
   url:    Url,
+}
+
+pub fn from_str<N>(content: N) -> Result<VersionList, VersionsError>
+where
+  N: AsRef<str>,
+{
+  use serde_json::from_str;
+  Ok(from_str(content.as_ref())?)
+}
+pub fn from_file<N>(file: N) -> Result<VersionList, VersionsError>
+where
+  N: Into<PathBuf>,
+{
+  use std::{fs::File, io::Read};
+
+  let path = file.into();
+  let mut file = File::open(path)?;
+  let mut contents = String::new();
+  file.read_to_string(&mut contents)?;
+  from_str(contents)
 }

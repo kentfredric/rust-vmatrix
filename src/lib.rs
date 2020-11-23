@@ -5,14 +5,14 @@ pub mod pages;
 mod result_list;
 mod stats_repo;
 mod stats_repo_cache;
-mod versions;
+mod version_list;
 
 pub use config::{Config, ConfigError};
 pub use cratedir::CrateDirError;
 pub use result_list::{ResultInfo, ResultList, ResultType, ResultsError};
 pub use stats_repo::{StatsRepo, StatsRepoError};
 pub use stats_repo_cache::{StatsRepoCache, StatsRepoCacheError};
-pub use versions::VersionsError;
+pub use version_list::{VersionInfo, VersionList, VersionsError};
 
 #[derive(thiserror::Error, Debug)]
 pub enum Error {
