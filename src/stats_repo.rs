@@ -1,8 +1,5 @@
 use either::Either;
-use std::{
-  iter,
-  path::{Path, PathBuf},
-};
+use std::{iter, path::PathBuf};
 
 use super::{crate_dir, CrateDirError};
 
@@ -19,13 +16,18 @@ pub enum StatsRepoError {
 }
 
 pub struct StatsRepo {
-  root:   PathBuf,
-  rustcs: Vec<String>,
+  root:      PathBuf,
+  crate_dir: super::CrateDir,
+  rustcs:    Vec<String>,
 }
 
 impl StatsRepo {
   pub fn from_config(c: crate::Config) -> Self {
-    StatsRepo { root: c.root().to_owned(), rustcs: c.rustc().map(|x| x.to_vec()).unwrap_or_else(Vec::new) }
+    StatsRepo {
+      root:      c.root().to_owned(),
+      rustcs:    c.rustc().map(|x| x.to_vec()).unwrap_or_else(Vec::new),
+      crate_dir: super::CrateDir::new(c.root(), "crates-"),
+    }
   }
 
   pub fn root(&self) -> Result<PathBuf, StatsRepoError> { Ok(self.root.to_owned()) }
@@ -71,15 +73,15 @@ impl StatsRepo {
   where
     C: AsRef<str>,
   {
-    Ok(crate_dir::crate_path(self.root()?, "crates-", my_crate)?)
+    Ok(self.crate_dir.abs_path_to(my_crate.as_ref())?)
   }
 
   pub fn crate_file_path<C, F>(&self, my_crate: C, file: F) -> Result<PathBuf, StatsRepoError>
   where
     C: AsRef<str>,
-    F: AsRef<Path>,
+    F: AsRef<str>,
   {
-    Ok(self.crate_path(my_crate)?.join(file.as_ref()))
+    Ok(self.crate_dir.abs_path_to_file(my_crate.as_ref(), file.as_ref())?)
   }
 
   pub fn crate_versions_path<C>(&self, my_crate: C) -> Result<PathBuf, StatsRepoError>

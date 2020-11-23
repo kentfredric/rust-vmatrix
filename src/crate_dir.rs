@@ -53,27 +53,45 @@ pub(crate) struct CrateIterator {
   inner:  InBandDirIterator,
 }
 
-pub(crate) fn crate_rpath<P, C>(prefix: P, crate_name: C) -> Result<PathBuf, CrateDirError>
-where
-  P: AsRef<str>,
-  C: AsRef<str>,
-{
-  let mut crate_chars = crate_name.as_ref().chars();
-  let first = crate_chars.next().ok_or_else(|| CrateDirError::BadCrateName(crate_name.as_ref().to_owned()))?;
-  let nibble = match crate_chars.next() {
-    | Some(c) => format!("{}{}", first, c),
-    | None => first.to_string(),
-  };
-  Ok(PathBuf::from(format!("{}{}", prefix.as_ref(), first)).join(nibble).join(crate_name.as_ref()))
+pub struct CrateDir {
+  root:   PathBuf,
+  prefix: String,
 }
 
-pub(crate) fn crate_path<R, P, C>(root: R, prefix: P, crate_name: C) -> Result<PathBuf, CrateDirError>
-where
-  R: AsRef<Path>,
-  P: AsRef<str>,
-  C: AsRef<str>,
-{
-  Ok(root.as_ref().join(crate_rpath(prefix, crate_name)?))
+impl CrateDir {
+  pub fn new(root: &Path, prefix: &str) -> Self { CrateDir { root: root.to_owned(), prefix: prefix.to_owned() } }
+
+  fn crate_first(&self, crate_name: &str) -> Result<String, CrateDirError> {
+    Ok(crate_name.chars().next().ok_or_else(|| CrateDirError::BadCrateName(crate_name.to_owned()))?.to_string())
+  }
+
+  pub fn section_name(&self, crate_name: &str) -> Result<String, CrateDirError> {
+    Ok([self.prefix.to_string(), self.crate_first(crate_name)?].concat())
+  }
+
+  pub fn subsection_name(&self, crate_name: &str) -> Result<String, CrateDirError> {
+    let first = self.crate_first(crate_name)?;
+    match crate_name.chars().nth(1) {
+      | None => Ok(first),
+      | Some(c) => Ok([first, c.to_string()].concat()),
+    }
+  }
+
+  pub fn path_to(&self, crate_name: &str) -> Result<PathBuf, CrateDirError> {
+    Ok(PathBuf::from(self.section_name(crate_name)?).join(self.subsection_name(crate_name)?).join(crate_name))
+  }
+
+  pub fn path_to_file(&self, crate_name: &str, file_name: &str) -> Result<PathBuf, CrateDirError> {
+    self.path_to(crate_name).map(|x| x.join(file_name))
+  }
+
+  pub fn abs_path_to(&self, crate_name: &str) -> Result<PathBuf, CrateDirError> {
+    self.path_to(crate_name).map(|x| self.root.join(x))
+  }
+
+  pub fn abs_path_to_file(&self, crate_name: &str, file_name: &str) -> Result<PathBuf, CrateDirError> {
+    self.abs_path_to(crate_name).map(|x| x.join(file_name))
+  }
 }
 
 impl InBandDirIterator {
