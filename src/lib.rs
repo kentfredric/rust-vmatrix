@@ -1,5 +1,5 @@
 mod config;
-mod cratedir;
+mod crate_dir;
 
 pub mod pages;
 mod result_list;
@@ -8,7 +8,7 @@ mod stats_repo_cache;
 mod version_list;
 
 pub use config::{Config, ConfigError};
-pub use cratedir::CrateDirError;
+pub use crate_dir::CrateDirError;
 pub use result_list::{ResultInfo, ResultList, ResultType, ResultsError};
 pub use stats_repo::{StatsRepo, StatsRepoError};
 pub use stats_repo_cache::{StatsRepoCache, StatsRepoCacheError};

@@ -4,7 +4,7 @@ use std::{
   path::{Path, PathBuf},
 };
 
-use super::{cratedir, CrateDirError};
+use super::{crate_dir, CrateDirError};
 
 #[derive(thiserror::Error, Debug)]
 pub enum StatsRepoError {
@@ -35,17 +35,17 @@ impl StatsRepo {
   pub fn crate_names_iterator(&self) -> Box<dyn Iterator<Item = Result<String, CrateDirError>>> {
     let root = self.root.to_owned();
 
-    Box::new(cratedir::SectionIterator::new(root.to_owned(), "crates-").flat_map(move |section| {
+    Box::new(crate_dir::SectionIterator::new(root.to_owned(), "crates-").flat_map(move |section| {
       match section {
         | Err(e) => Either::Left(iter::once(Err(e))),
         | Ok(section_name) => {
           let sec = root.to_owned().join(format!("crates-{}", &section_name));
-          Either::Right(cratedir::SubSectionIterator::new(&sec, &section_name).flat_map(move |subsection| {
+          Either::Right(crate_dir::SubSectionIterator::new(&sec, &section_name).flat_map(move |subsection| {
             match subsection {
               | Err(e) => Either::Left(iter::once(Err(e))),
               | Ok(subsection_name) => {
                 let subsec = sec.join(&subsection_name);
-                Either::Right(cratedir::CrateIterator::new(subsec, &subsection_name))
+                Either::Right(crate_dir::CrateIterator::new(subsec, &subsection_name))
               },
             }
           }))
@@ -71,7 +71,7 @@ impl StatsRepo {
   where
     C: AsRef<str>,
   {
-    Ok(cratedir::crate_path(self.root()?, "crates-", my_crate)?)
+    Ok(crate_dir::crate_path(self.root()?, "crates-", my_crate)?)
   }
 
   pub fn crate_file_path<C, F>(&self, my_crate: C, file: F) -> Result<PathBuf, StatsRepoError>
