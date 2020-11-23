@@ -10,8 +10,8 @@ pub enum ResultsError {
 }
 
 pub type ResultListInner = Vec<ResultInfo>;
-pub type Version = String;
-pub type RustcList = Vec<Version>;
+type Version = String;
+type RustcList = Vec<Version>;
 
 #[derive(Serialize, Deserialize, Debug, Clone)]
 #[serde(transparent)]
@@ -81,7 +81,7 @@ impl ResultInfo {
   }
 
   #[inline(always)]
-  pub fn version_cmp<V>(&self, version: V) -> std::cmp::Ordering
+  fn version_cmp<V>(&self, version: V) -> std::cmp::Ordering
   where
     V: Into<String>,
   {

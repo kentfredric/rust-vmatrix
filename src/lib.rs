@@ -9,7 +9,7 @@ mod versions;
 
 pub use config::{Config, ConfigError};
 pub use cratedir::CrateDirError;
-pub use result_list::{ResultList, ResultType, ResultsError};
+pub use result_list::{ResultInfo, ResultList, ResultType, ResultsError};
 pub use stats_repo::{StatsRepo, StatsRepoError};
 pub use stats_repo_cache::{StatsRepoCache, StatsRepoCacheError};
 pub use versions::VersionsError;
