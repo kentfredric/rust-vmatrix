@@ -19,11 +19,11 @@ impl StatsRepoCache<'_> {
     }
   }
 
-  pub fn root(&self) -> Result<PathBuf, Error> { Ok(self.repo.root()?) }
+  pub fn root(&self) -> Result<PathBuf, StatsRepoCacheError> { Ok(self.repo.root()?) }
 
   pub fn rustcs(&self) -> Vec<String> { self.repo.rustcs().to_vec() }
 
-  pub fn crate_names(&mut self) -> Result<Vec<String>, Error> {
+  pub fn crate_names(&mut self) -> Result<Vec<String>, StatsRepoCacheError> {
     match &self.crate_names {
       | None => {
         let names = self.repo.crate_names()?;
@@ -34,7 +34,7 @@ impl StatsRepoCache<'_> {
     }
   }
 
-  pub fn crate_path<C>(&mut self, my_crate: C) -> Result<PathBuf, Error>
+  pub fn crate_path<C>(&mut self, my_crate: C) -> Result<PathBuf, StatsRepoCacheError>
   where
     C: AsRef<str>,
   {
@@ -55,7 +55,7 @@ impl StatsRepoCache<'_> {
     }
   }
 
-  pub fn crate_versions<C>(&mut self, my_crate: C) -> Result<super::versions::VersionList, Error>
+  pub fn crate_versions<C>(&mut self, my_crate: C) -> Result<super::versions::VersionList, StatsRepoCacheError>
   where
     C: AsRef<str>,
   {
@@ -68,7 +68,7 @@ impl StatsRepoCache<'_> {
       | Entry::Occupied(e) => {
         match e.get() {
           | Some(result) => Ok(result.to_owned()),
-          | None => Err(Error::VersionNotExists(my_crate.to_string())),
+          | None => Err(StatsRepoCacheError::VersionNotExists(my_crate.to_string())),
         }
       },
       | Entry::Vacant(e) => {
@@ -87,7 +87,7 @@ impl StatsRepoCache<'_> {
     }
   }
 
-  pub fn crate_results<C>(&mut self, my_crate: C) -> Result<super::results::ResultList, Error>
+  pub fn crate_results<C>(&mut self, my_crate: C) -> Result<super::results::ResultList, StatsRepoCacheError>
   where
     C: AsRef<str>,
   {
@@ -100,7 +100,7 @@ impl StatsRepoCache<'_> {
       | Entry::Occupied(e) => {
         match e.get() {
           | Some(result) => Ok(result.to_owned()),
-          | None => Err(Error::ResultNotExists(my_crate.to_string())),
+          | None => Err(StatsRepoCacheError::ResultNotExists(my_crate.to_string())),
         }
       },
       | Entry::Vacant(e) => {
@@ -121,7 +121,7 @@ impl StatsRepoCache<'_> {
 }
 
 #[derive(thiserror::Error, Debug)]
-pub enum Error {
+pub enum StatsRepoCacheError {
   #[error(transparent)]
   IoError(#[from] std::io::Error),
   #[error("No result found for {0}")]
