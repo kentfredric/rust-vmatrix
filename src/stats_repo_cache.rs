@@ -13,7 +13,7 @@ impl StatsRepoCache<'_> {
   pub fn for_repo(repo: &'_ super::StatsRepo) -> StatsRepoCache<'_> {
     StatsRepoCache {
       repo,
-      crate_names: Option::None,
+      crate_names: None,
       crate_paths: HashMap::new(),
       crate_versions: HashMap::new(),
       crate_results: HashMap::new(),

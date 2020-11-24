@@ -148,7 +148,7 @@ impl InBandDirIterator {
   where
     R: AsRef<Path>,
   {
-    InBandDirIterator { root: root.as_ref().to_path_buf(), inner: Option::None }
+    InBandDirIterator { root: root.as_ref().to_path_buf(), inner: None }
   }
 }
 
