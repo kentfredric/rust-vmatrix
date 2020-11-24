@@ -53,6 +53,7 @@ pub(crate) struct CrateIterator {
   inner:  InBandDirIterator,
 }
 
+#[derive(Debug)]
 pub struct CrateDir {
   root:   PathBuf,
   prefix: String,
