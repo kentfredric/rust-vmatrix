@@ -9,7 +9,7 @@ pub enum ResultsError {
   SerdeJsonError(#[from] serde_json::Error),
 }
 
-pub type ResultListInner = Vec<ResultInfo>;
+pub(crate) type ResultListInner = Vec<ResultInfo>;
 type Version = String;
 type RustcList = Vec<Version>;
 
