@@ -32,7 +32,7 @@ impl StatsRepo {
 
   pub fn rustcs(&self) -> &Vec<String> { &self.rustcs }
 
-  pub fn crate_names_iterator(&self) -> Box<dyn Iterator<Item = Result<String, super::CrateDirError>> + '_> {
+  pub fn crate_names_iterator(&self) -> impl Iterator<Item = Result<String, super::CrateDirError>> + '_ {
     self.crate_dir.crate_ids()
   }
 
