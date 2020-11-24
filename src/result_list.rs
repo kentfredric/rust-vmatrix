@@ -26,7 +26,7 @@ pub struct ResultInfo {
   rustc_pass: RustcList,
 }
 
-#[derive(Debug, PartialEq, Clone)]
+#[derive(Debug, PartialEq, Clone, Copy)]
 pub enum ResultType {
   Pass,
   Fail,
