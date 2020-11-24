@@ -33,21 +33,21 @@ struct InBandDirIterator {
 }
 
 #[derive(Debug)]
-pub(crate) struct SectionIterator {
+struct SectionIterator {
   root:   PathBuf,
   prefix: String,
   inner:  InBandDirIterator,
 }
 
 #[derive(Debug)]
-pub(crate) struct SubSectionIterator {
+struct SubSectionIterator {
   root:   PathBuf,
   prefix: String,
   inner:  InBandDirIterator,
 }
 
 #[derive(Debug)]
-pub(crate) struct CrateIterator {
+struct CrateIterator {
   root:   PathBuf,
   prefix: String,
   inner:  InBandDirIterator,
@@ -144,7 +144,7 @@ impl CrateDir {
 }
 
 impl InBandDirIterator {
-  pub(crate) fn new<R>(root: R) -> InBandDirIterator
+  fn new<R>(root: R) -> InBandDirIterator
   where
     R: AsRef<Path>,
   {
@@ -179,7 +179,7 @@ impl Iterator for InBandDirIterator {
 }
 
 impl SectionIterator {
-  pub(crate) fn new<R, P>(root: R, prefix: P) -> SectionIterator
+  fn new<R, P>(root: R, prefix: P) -> SectionIterator
   where
     R: AsRef<Path>,
     P: AsRef<str>,
@@ -214,7 +214,7 @@ impl Iterator for SectionIterator {
 }
 
 impl SubSectionIterator {
-  pub(crate) fn new<R, P>(root: R, prefix: P) -> SubSectionIterator
+  fn new<R, P>(root: R, prefix: P) -> SubSectionIterator
   where
     R: AsRef<Path>,
     P: AsRef<str>,
@@ -245,7 +245,7 @@ impl Iterator for SubSectionIterator {
 }
 
 impl CrateIterator {
-  pub(crate) fn new<R, P>(root: R, prefix: P) -> CrateIterator
+  fn new<R, P>(root: R, prefix: P) -> CrateIterator
   where
     R: AsRef<Path>,
     P: AsRef<str>,
