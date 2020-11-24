@@ -12,6 +12,7 @@ pub enum StatsRepoError {
   VersionsError(#[from] super::VersionsError),
 }
 
+#[derive(Debug)]
 pub struct StatsRepo {
   root:      PathBuf,
   crate_dir: super::CrateDir,
