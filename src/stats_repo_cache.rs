@@ -1,5 +1,6 @@
 use std::{collections::HashMap, path::PathBuf};
 
+#[derive(Debug)]
 pub struct StatsRepoCache<'a> {
   repo:           &'a super::stats_repo::StatsRepo,
   crate_names:    Option<Vec<String>>,
