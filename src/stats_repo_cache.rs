@@ -9,7 +9,7 @@ pub struct StatsRepoCache<'a> {
 }
 
 impl StatsRepoCache<'_> {
-  pub fn for_repo(repo: &'_ super::StatsRepo) -> StatsRepoCache {
+  pub fn for_repo(repo: &'_ super::StatsRepo) -> StatsRepoCache<'_> {
     StatsRepoCache {
       repo,
       crate_names: Option::None,
