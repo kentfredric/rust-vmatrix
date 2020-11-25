@@ -66,11 +66,11 @@ impl CrateDir {
     Ok(crate_name.chars().next().ok_or_else(|| CrateDirError::BadCrateName(crate_name.to_owned()))?.to_string())
   }
 
-  pub fn section_name(&self, crate_name: &str) -> Result<String, CrateDirError> {
+  fn section_name(&self, crate_name: &str) -> Result<String, CrateDirError> {
     Ok([self.prefix.to_string(), self.crate_first(crate_name)?].concat())
   }
 
-  pub fn subsection_name(&self, crate_name: &str) -> Result<String, CrateDirError> {
+  fn subsection_name(&self, crate_name: &str) -> Result<String, CrateDirError> {
     let first = self.crate_first(crate_name)?;
     match crate_name.chars().nth(1) {
       | None => Ok(first),
@@ -78,19 +78,19 @@ impl CrateDir {
     }
   }
 
-  pub fn path_to(&self, crate_name: &str) -> Result<PathBuf, CrateDirError> {
+  fn path_to(&self, crate_name: &str) -> Result<PathBuf, CrateDirError> {
     Ok(PathBuf::from(self.section_name(crate_name)?).join(self.subsection_name(crate_name)?).join(crate_name))
   }
 
-  pub fn path_to_file(&self, crate_name: &str, file_name: &str) -> Result<PathBuf, CrateDirError> {
+  fn path_to_file(&self, crate_name: &str, file_name: &str) -> Result<PathBuf, CrateDirError> {
     self.path_to(crate_name).map(|x| x.join(file_name))
   }
 
-  pub fn abs_path_to(&self, crate_name: &str) -> Result<PathBuf, CrateDirError> {
+  pub(crate) fn abs_path_to(&self, crate_name: &str) -> Result<PathBuf, CrateDirError> {
     self.path_to(crate_name).map(|x| self.root.join(x))
   }
 
-  pub fn abs_path_to_file(&self, crate_name: &str, file_name: &str) -> Result<PathBuf, CrateDirError> {
+  pub(crate) fn abs_path_to_file(&self, crate_name: &str, file_name: &str) -> Result<PathBuf, CrateDirError> {
     self.abs_path_to(crate_name).map(|x| x.join(file_name))
   }
 
@@ -103,7 +103,7 @@ impl CrateDir {
     self.section_ids().map(move |r| r.map(|s| [prefix.to_string(), s].concat()))
   }
 
-  pub fn subsections_in(&self, section_id: &str) -> impl Iterator<Item = Result<String, CrateDirError>> {
+  fn subsections_in(&self, section_id: &str) -> impl Iterator<Item = Result<String, CrateDirError>> {
     let section_name = [self.prefix.to_string(), section_id.to_string()].concat();
     SubSectionIterator::new(self.root.join(section_name), section_id)
   }
@@ -119,9 +119,7 @@ impl CrateDir {
     })
   }
 
-  pub fn crates_in(
-    &self, section_id: &str, subsection_id: &str,
-  ) -> impl Iterator<Item = Result<String, CrateDirError>> {
+  fn crates_in(&self, section_id: &str, subsection_id: &str) -> impl Iterator<Item = Result<String, CrateDirError>> {
     let section_name = [self.prefix.to_string(), section_id.to_string()].concat();
     CrateIterator::new(self.root.join(section_name).join(subsection_id), subsection_id)
   }
