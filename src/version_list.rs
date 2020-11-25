@@ -1,9 +1,12 @@
 use std::path::Path;
 
+/// Errors from [`VersionList`] and friends
 #[derive(thiserror::Error, Debug)]
 pub enum VersionsError {
+  /// Errors returned from [`std`] IO calls for paths
   #[error("Error reading Versions JSON data: {0}")]
   IoError(#[from] std::io::Error),
+  /// Errors from [`serde_json::from_str`] decode failures
   #[error("Error reading Versions JSON file: {0}")]
   SerdeJsonError(#[from] serde_json::Error),
 }
@@ -21,10 +24,12 @@ type Url = String;
 type Version = String;
 type VersionListInner = Vec<VersionInfo>;
 
+/// A collection of [`VersionInfo`] records for a given `crate`
 #[derive(Serialize, Deserialize, Debug, Clone)]
 #[serde(transparent)]
 pub struct VersionList(VersionListInner);
 
+/// Published metadata for a given `crate` version.
 #[derive(Serialize, Deserialize, Debug, Clone)]
 pub struct VersionInfo {
   audit_actions: AuditActions,
@@ -81,6 +86,8 @@ struct User {
 }
 
 impl VersionList {
+  /// Parse the file at `path:`[`Path`] as a `json` file and yield a
+  /// [`VersionList`]
   pub fn from_path(path: &Path) -> Result<Self, VersionsError> { std::fs::read_to_string(path)?.parse() }
 }
 impl std::str::FromStr for VersionList {
