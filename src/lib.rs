@@ -1,4 +1,5 @@
-//! A collection of tools for managing testing of multiple versions of rust crates against multiple rusts
+//! A collection of tools for managing testing of multiple versions
+//! of rust crates against multiple rusts
 
 mod config;
 mod crate_dir;
@@ -14,7 +15,6 @@ pub use result_list::{ResultInfo, ResultList, ResultType, ResultsError};
 pub use stats_repo::{StatsRepo, StatsRepoError};
 pub use stats_repo_cache::{StatsRepoCache, StatsRepoCacheError};
 pub use version_list::{VersionInfo, VersionList, VersionsError};
-
 
 /// Global Collector Error type for all internal error kinds
 #[derive(thiserror::Error, Debug)]

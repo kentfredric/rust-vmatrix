@@ -1,10 +1,13 @@
 use serde_derive::{Deserialize, Serialize};
 use std::path::Path;
 
+/// Error types for ResultList handling issues
 #[derive(thiserror::Error, Debug)]
 pub enum ResultsError {
+  /// Errors returned from [`std`] IO calls for paths
   #[error("Error reading Result JSON data: {0}")]
   IoError(#[from] std::io::Error),
+  /// Errors returned by [`serde_json::from_str`] decode failures
   #[error("Error reading Result JSON file: {0}")]
   SerdeJsonError(#[from] serde_json::Error),
 }
@@ -13,10 +16,12 @@ pub(crate) type ResultListInner = Vec<ResultInfo>;
 type Version = String;
 type RustcList = Vec<Version>;
 
+/// A collection of build result data for a given crate
 #[derive(Serialize, Deserialize, Debug, Clone)]
 #[serde(transparent)]
 pub struct ResultList(ResultListInner);
 
+/// Build result information for a single version of a given crate
 #[derive(Serialize, Deserialize, Debug, Clone)]
 pub struct ResultInfo {
   #[serde(rename = "crate")]
@@ -26,16 +31,25 @@ pub struct ResultInfo {
   rustc_pass: RustcList,
 }
 
+/// Build result for a single version of a given crate on a given
+/// rust
 #[derive(Debug, PartialEq, Clone, Copy)]
 pub enum ResultType {
+  /// Build Passed
   Pass,
+  /// Build Failed
   Fail,
+  /// No Known Status on Build
   Unknown,
 }
 
 impl ResultList {
+  /// Parse the file at `path:`[`Path`] as a `json` file and yeild a
+  /// [`ResultList`]
   pub fn from_path(path: &Path) -> Result<Self, ResultsError> { std::fs::read_to_string(path)?.parse() }
 
+  /// Query the ResultList to Asertain the [`ResultType`] of the
+  /// given `crate` version `V` on rust `R`
   pub fn rustc_result<V, R>(&self, version: V, rustc: R) -> ResultType
   where
     R: Into<String>,
@@ -65,6 +79,7 @@ impl std::ops::Deref for ResultList {
 }
 
 impl ResultInfo {
+  /// Query the result of rust `R`
   #[inline(always)]
   pub fn rustc_result<R>(&self, rustc: R) -> ResultType
   where
@@ -88,6 +103,7 @@ impl ResultInfo {
     self.num.cmp(&version.into())
   }
 
+  /// Returns the crate version this information record is for
   #[inline(always)]
   pub fn version(&self) -> &String { &self.num }
 }
