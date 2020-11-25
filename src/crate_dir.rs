@@ -4,24 +4,102 @@ use std::{
   path::{Path, PathBuf},
 };
 
+/// Errors from CrateDir handling
 #[derive(thiserror::Error, Debug)]
 pub enum CrateDirError {
+  /// A Non-Unicode [`OsString`]
+  ///
+  /// Trying to decode an [`OsString`] as some [`str`] variant had
+  /// problems due to [`OsString`] being malformed as per Unicode
+  /// requirements.
   #[error("Could not decode {0:?} as Unicode")]
   NotUnicode(OsString),
+
+  /// A directory traversal induced [`std::io::Error`]
+  ///
+  /// These are rare, but can happen if you hit a race between
+  /// determining a directory entry is itself, a directory, and the
+  /// resulting `opendir` call.
   #[error("IO Error in stats repo directory: {0}")]
   IoError(#[from] std::io::Error),
+
+  /// Invalid section suffix for matching section prefix
+  ///
+  /// A directory entry in a `root` was discovered including the
+  /// required `prefix`, but had characters after the prefix that
+  /// made it violate the designated layout scheme.
+  ///
+  /// Eg:
+  /// * `<ROOT>/crates-a` -> `Ok('a')`
+  /// * `<ROOT>/crates-ax` ->
+  ///   `Err(BadSection('crates-ax','a',PathBuf::from('/some/path'
+  ///   )))`
   #[error(
     "Directory Section {0:?} in {2:?} does not satisfy the layout scheme (should be one character after prefix {1})"
   )]
   BadSection(OsString, String, PathBuf),
+
+  /// Non-Prefix matching entry in root directory
+  ///
+  /// A directory entry in a `root` was discovered, but it didn't
+  /// have the required `prefix`, and so is not viable for
+  /// automatic traversal. Seeing this error in your [`Iterator`]
+  /// result can usually just be ignored, but could help in
+  /// debugging situations.
   #[error("Directory Section {0:?} in {2:?} does not satisfy the layout scheme (doesn't start with prefix {1})")]
   NonSection(OsString, String, PathBuf),
+
+  /// Invalid subsection for a given section
+  ///
+  /// A directory entry in a `path` was discovered where it was
+  /// required to start with a given `prefix` character, and isn't
+  /// the required length
+  ///
+  /// These usually indicate misplaced subsections or cruft files
+  /// inside the directory tree, and can be either ignored or
+  /// panicked on based on user taste.
+  ///
+  /// But due to violating the naming constraints, it won't be
+  /// automatically traversed.
+  ///
+  /// Eg:
+  /// * `<ROOT>/crates-a/bx` : Errors as `b` is not valid in
+  ///   `crates-a/`
+  /// * `<ROOT>/crates-a/aay` : Errors as `aay` is too long, and
+  ///   should be at most `aa`
+  /// * `<ROOT>/crates-a/a` : Fine
+  /// * `<ROOT>/crates-a/ab` : Fine
   #[error(
     "Subsection {0:?} in {2:?} does not satisfy the layout scheme (should be 1-or-2 characters and start with {1})"
   )]
   BadSubSection(OsString, String, PathBuf),
+
+  /// Invalid Crate within crate subsection
+  ///
+  /// A directory entry in a `path` was discovered, representing a
+  /// `crate`, but it didn't have the required `prefix` letter
+  /// pair.
+  ///
+  /// Usually, this indicates a `crate` directory is placed in the
+  /// wrong `subsection`, or other filesystem cruft. Iterator only
+  /// return `Err()` for these and not traverse. Consumer can do
+  /// whatever they want with it, but ignoring it is fine.
+  ///
+  /// Eg:
+  /// * `<ROOT>/crates-a/ab/abc` : Fine
+  /// * `<ROOT>/crates-a/ab/aac` : Error, should be in `crates-a/aa/`
+  /// * `<ROOT>/crates-a/ab/bcc` : Error, should be in `crates-b/bc/`
+  /// * `<ROOT>/crates-a/a/a`    : Should be fine...
+  /// * `<ROOT>/crates-a/a/ab`  : Error, should be in `crates-a/ab`
   #[error("Crate {0:?} in {2:?} does not satisfy the layout scheme (should start with {1})")]
   BadCrate(OsString, String, PathBuf),
+
+  /// Invalid name for crate
+  ///
+  /// As far as I know this can only happen if somehow, the consumer
+  /// screwed up and asked for a crate directory by passing `&""`
+  /// as an "expected crate name". This doesn't work as directory
+  /// names can't have 0 length.
   #[error("Crate name {0:?} is illegal, must have at least one character")]
   BadCrateName(String),
 }
@@ -53,6 +131,59 @@ struct CrateIterator {
   inner:  InBandDirIterator,
 }
 
+/// Utility crate for mapping/discovering crate directory paths
+///
+/// A Crate Directory layout is a 3 level structure designed to
+/// minimise the tax on filesystem caches and so-forth, by
+/// fragmenting names into sections.
+///
+/// The topology is somewhat inspired by the CPAN "AuthorID" scheme,
+/// where `AUTHORFOO`'s files are stashed in `A/AU/AUTHORFOO/`
+///
+/// ```text
+/// <ROOT>
+///     /<PREFIX><CRATENAME[0]>   # section
+///         /<CRATENAME[0..1]>    # subsection
+///             /<CRATENAME>      # crate
+///                 /<FILES>      # crate files
+/// ```
+///
+/// This struct provides facilities for efficient discovery of items
+/// that exist, as well as query based "I assume this exists, where
+/// is it" approaches.
+///
+/// # Iterator Model
+/// Iterators herein wrap [`std::fs::ReadDir`], but with a novel
+/// twist: Instead of returning a `Result<Iterator<Item =
+/// Result<_,E>>,E>`, making iterator chaining with error handling
+/// somewhat contorted, the underlying errors are returned **inside**
+/// the iteration stream, allowing the errors to be piped down to the
+/// consumer as much as possible, allowing consumers to handle errors
+/// mid-iteration more organically, including just ignoring
+/// them if it suits them.
+///
+/// This gives a simpler `Iterator<Item=Result<_,E>>` interface, at
+/// the small cost of making handling the actual error in `Err()`
+/// cases slightly more odd in some cases.
+///
+/// At first glance to most people this seems weird, but it makes
+/// sense if your goal is to produce a single stream of results, like
+/// the command `find` would return, while also efficiently doing
+/// depth-first iteration, and applying rules at each level, ending
+/// up under the hood basically having...
+/// ```text
+///     Iterator(root) -> [
+///         dir-a -> Iterator("dir-a") -> [
+///             aa -> Iterator("dir-a/aa") -> [
+///               aaa
+///               aab
+///               aac
+///             ],
+///             ... 60 more iterators here ...
+///         ]
+///         ... 60 more iterators here ...
+///     ]
+/// ```
 #[derive(Debug)]
 pub struct CrateDir {
   root:   PathBuf,
@@ -60,6 +191,15 @@ pub struct CrateDir {
 }
 
 impl CrateDir {
+  /// Construct a [`CrateDir`] for traversing `root` using `prefix`
+  /// to build the 'base' segment
+  ///
+  /// # Example
+  /// ```
+  /// # use std::path::Path;
+  /// # use vmatrix::CrateDir;
+  /// let c = CrateDir::new(Path::new("/tmp/crateinfo-root"), "crates-");
+  /// ```
   pub fn new(root: &Path, prefix: &str) -> Self { CrateDir { root: root.to_owned(), prefix: prefix.to_owned() } }
 
   fn crate_first(&self, crate_name: &str) -> Result<String, CrateDirError> {
@@ -94,10 +234,46 @@ impl CrateDir {
     self.abs_path_to(crate_name).map(|x| x.join(file_name))
   }
 
+  /// Returns an iterator of crate section id's without `prefix`
+  ///
+  /// # Example
+  /// ```no_run
+  /// # use std::path::Path;
+  /// # use vmatrix::{CrateDir,CrateDirError};
+  /// # fn main() -> Result<(),CrateDirError> {
+  /// for id_res in CrateDir::new(Path::new("/tmp/crateinfo-root"), "crates-").section_ids() {
+  ///   match id_res {
+  ///     // Lists suffix part of directory entries only, eg: "a"
+  ///     | Ok(id) => println!("Section ID: {}", id),
+  ///     // Lists traversal errors and irrelevant entries
+  ///     | Err(e) => eprintln!("Error: {}", e),
+  ///   }
+  /// }
+  /// # Ok(())
+  /// # }
+  /// ```
   pub fn section_ids(&self) -> impl Iterator<Item = Result<String, CrateDirError>> {
     SectionIterator::new(self.root.to_owned(), self.prefix.to_owned())
   }
 
+  /// Returns an iterator of crate section names with `prefix`
+  ///
+  /// # Example
+  /// ```no_run
+  /// # use std::path::Path;
+  /// # use vmatrix::{CrateDir,CrateDirError};
+  /// # fn main() -> Result<(),CrateDirError> {
+  /// for name_res in CrateDir::new(Path::new("/tmp/crateinfo-root"), "crates-").section_names() {
+  ///   match name_res {
+  ///     // Lists legal directory entries only, eg, "crates-a"
+  ///     | Ok(name) => println!("Section: {}", name),
+  ///     // Lists traversal errors and irrelevant entries
+  ///     | Err(e) => eprintln!("Error: {}", e),
+  ///   }
+  /// }
+  /// # Ok(())
+  /// # }
+  /// ```
   pub fn section_names(&self) -> impl Iterator<Item = Result<String, CrateDirError>> {
     let prefix = self.prefix.to_owned();
     self.section_ids().map(move |r| r.map(|s| [prefix.to_string(), s].concat()))
@@ -108,6 +284,24 @@ impl CrateDir {
     SubSectionIterator::new(self.root.join(section_name), section_id)
   }
 
+  /// Returns an iterator of second level subsection ids
+  ///
+  /// # Example
+  /// ```no_run
+  /// # use std::path::Path;
+  /// # use vmatrix::{CrateDir,CrateDirError};
+  /// # fn main() -> Result<(),CrateDirError> {
+  /// for id_res in CrateDir::new(Path::new("/tmp/crateinfo-root"), "crates-").subsection_ids() {
+  ///   match id_res {
+  ///     // Lists legal second level directory entries only, eg, "a", "aa", "ab" ... "ba",
+  ///     | Ok(id) => println!("SubSection: {}", id),
+  ///     // Lists traversal errors and irrelevant entries
+  ///     | Err(e) => eprintln!("Error: {}", e),
+  ///   }
+  /// }
+  /// # Ok(())
+  /// # }
+  /// ```
   pub fn subsection_ids(&self) -> impl Iterator<Item = Result<String, CrateDirError>> + '_ {
     use either::Either;
     use std::iter;
@@ -124,6 +318,24 @@ impl CrateDir {
     CrateIterator::new(self.root.join(section_name).join(subsection_id), subsection_id)
   }
 
+  /// Returns an iterator of crate identifiers
+  ///
+  /// # Example
+  /// ```no_run
+  /// # use std::path::Path;
+  /// # use vmatrix::{CrateDir,CrateDirError};
+  /// # fn main() -> Result<(),CrateDirError> {
+  /// for id_res in CrateDir::new(Path::new("/tmp/crateinfo-root"), "crates-").crate_ids() {
+  ///   match id_res {
+  ///     // Lists legal 3rd level directory entries only, eg, "cargo","clippy",...,"nom"
+  ///     | Ok(id) => println!("SubSection: {}", id),
+  ///     // Lists traversal errors and irrelevant entries
+  ///     | Err(e) => eprintln!("Error: {}", e),
+  ///   }
+  /// }
+  /// # Ok(())
+  /// # }
+  /// ```
   pub fn crate_ids(&self) -> impl Iterator<Item = Result<String, CrateDirError>> + '_ {
     use either::Either;
     use std::iter;
