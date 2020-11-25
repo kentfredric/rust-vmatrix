@@ -1,5 +1,6 @@
 use std::{collections::HashMap, path::PathBuf};
 
+/// A Caching wrapper around [`super::StatsRepo`]
 #[derive(Debug)]
 pub struct StatsRepoCache<'a> {
   repo:           &'a super::stats_repo::StatsRepo,
@@ -10,6 +11,7 @@ pub struct StatsRepoCache<'a> {
 }
 
 impl StatsRepoCache<'_> {
+  /// Construct a Caching wrapper around `repo:`[`super::StatsRepo`]
   pub fn for_repo(repo: &'_ super::StatsRepo) -> StatsRepoCache<'_> {
     StatsRepoCache {
       repo,
@@ -20,10 +22,13 @@ impl StatsRepoCache<'_> {
     }
   }
 
+  /// Returns the `repo` `root()`
   pub fn root(&self) -> Result<PathBuf, StatsRepoCacheError> { Ok(self.repo.root()?) }
 
+  /// Returns returns the configured rust targets from `repo`
   pub fn rustcs(&self) -> Vec<String> { self.repo.rustcs().to_vec() }
 
+  /// Returns a (possibly cached) [`Vec`] of crate names.
   pub fn crate_names(&mut self) -> Result<Vec<String>, StatsRepoCacheError> {
     match &self.crate_names {
       | None => {
@@ -35,6 +40,7 @@ impl StatsRepoCache<'_> {
     }
   }
 
+  /// Returns a (possibly cached) path to crate `C`
   pub fn crate_path<C>(&mut self, my_crate: C) -> Result<PathBuf, StatsRepoCacheError>
   where
     C: AsRef<str>,
@@ -56,6 +62,8 @@ impl StatsRepoCache<'_> {
     }
   }
 
+  /// Returns a (possibly cached) [`super::VersionList`] for crate
+  /// `C`
   pub fn crate_versions<C>(&mut self, my_crate: C) -> Result<super::VersionList, StatsRepoCacheError>
   where
     C: AsRef<str>,
@@ -88,6 +96,7 @@ impl StatsRepoCache<'_> {
     }
   }
 
+  /// Returns a (possibly cached) [`super::ResultList`]
   pub fn crate_results<C>(&mut self, my_crate: C) -> Result<super::ResultList, StatsRepoCacheError>
   where
     C: AsRef<str>,
@@ -121,14 +130,21 @@ impl StatsRepoCache<'_> {
   }
 }
 
+/// Errors from [`StatsRepoCache`]
 #[derive(thiserror::Error, Debug)]
 pub enum StatsRepoCacheError {
+  /// Errors from [`std`] calls
   #[error(transparent)]
   IoError(#[from] std::io::Error),
+  /// A cached lookup failure for a given `ResultList` but without
+  /// the original error context
   #[error("No result found for {0}")]
   ResultNotExists(String),
+  /// A cached lookup failure for a given `VersionList` but without
+  /// original error context
   #[error("No version data for {0}")]
   VersionNotExists(String),
+  /// An underlying error from [`super::StatsRepo`]
   #[error("Stats Repository error: {0}")]
   StatsRepoError(#[from] super::StatsRepoError),
 }
