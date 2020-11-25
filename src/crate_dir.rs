@@ -253,7 +253,7 @@ impl CrateDir {
   /// # }
   /// ```
   pub fn section_ids(&self) -> impl Iterator<Item = Result<String, CrateDirError>> {
-    SectionIterator::new(self.root.to_owned(), self.prefix.to_owned())
+    SectionIterator::new(&self.root, &self.prefix)
   }
 
   /// Returns an iterator of crate section names with `prefix`
@@ -281,7 +281,7 @@ impl CrateDir {
 
   fn subsections_in(&self, section_id: &str) -> impl Iterator<Item = Result<String, CrateDirError>> {
     let section_name = [self.prefix.to_string(), section_id.to_string()].concat();
-    SubSectionIterator::new(self.root.join(section_name), section_id)
+    SubSectionIterator::new(&self.root.join(section_name), section_id)
   }
 
   /// Returns an iterator of second level subsection ids
@@ -315,7 +315,7 @@ impl CrateDir {
 
   fn crates_in(&self, section_id: &str, subsection_id: &str) -> impl Iterator<Item = Result<String, CrateDirError>> {
     let section_name = [self.prefix.to_string(), section_id.to_string()].concat();
-    CrateIterator::new(self.root.join(section_name).join(subsection_id), subsection_id)
+    CrateIterator::new(&self.root.join(section_name).join(subsection_id), subsection_id)
   }
 
   /// Returns an iterator of crate identifiers
@@ -354,12 +354,7 @@ impl CrateDir {
 }
 
 impl InBandDirIterator {
-  fn new<R>(root: R) -> InBandDirIterator
-  where
-    R: AsRef<Path>,
-  {
-    InBandDirIterator { root: root.as_ref().to_path_buf(), inner: None }
-  }
+  fn new(root: &Path) -> InBandDirIterator { InBandDirIterator { root: root.to_path_buf(), inner: None } }
 }
 
 impl Iterator for InBandDirIterator {
@@ -389,14 +384,10 @@ impl Iterator for InBandDirIterator {
 }
 
 impl SectionIterator {
-  fn new<R, P>(root: R, prefix: P) -> SectionIterator
-  where
-    R: AsRef<Path>,
-    P: AsRef<str>,
-  {
+  fn new(root: &Path, prefix: &str) -> SectionIterator {
     SectionIterator {
-      root:   root.as_ref().to_path_buf(),
-      prefix: prefix.as_ref().to_string(),
+      root:   root.to_path_buf(),
+      prefix: prefix.to_string(),
       inner:  InBandDirIterator::new(root),
     }
   }
@@ -424,14 +415,11 @@ impl Iterator for SectionIterator {
 }
 
 impl SubSectionIterator {
-  fn new<R, P>(root: R, prefix: P) -> SubSectionIterator
-  where
-    R: AsRef<Path>,
-    P: AsRef<str>,
+  fn new(root: &Path, prefix: &str) -> SubSectionIterator
   {
     SubSectionIterator {
-      root:   root.as_ref().to_path_buf(),
-      prefix: prefix.as_ref().to_string(),
+      root:   root.to_path_buf(),
+      prefix: prefix.to_string(),
       inner:  InBandDirIterator::new(root),
     }
   }
@@ -455,14 +443,11 @@ impl Iterator for SubSectionIterator {
 }
 
 impl CrateIterator {
-  fn new<R, P>(root: R, prefix: P) -> CrateIterator
-  where
-    R: AsRef<Path>,
-    P: AsRef<str>,
+  fn new(root: &Path, prefix: &str) -> CrateIterator
   {
     CrateIterator {
-      root:   root.as_ref().to_path_buf(),
-      prefix: prefix.as_ref().to_string(),
+      root:   root.to_path_buf(),
+      prefix: prefix.to_string(),
       inner:  InBandDirIterator::new(root),
     }
   }
