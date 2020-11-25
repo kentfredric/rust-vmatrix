@@ -1,7 +1,6 @@
 mod config;
 mod crate_dir;
 
-pub mod pages;
 mod result_list;
 mod stats_repo;
 mod stats_repo_cache;
