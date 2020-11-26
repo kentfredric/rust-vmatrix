@@ -40,12 +40,8 @@ impl StatsRepoCache<'_> {
     }
   }
 
-  /// Returns a (possibly cached) path to crate `C`
-  pub fn crate_path<C>(&mut self, my_crate: C) -> Result<PathBuf, StatsRepoCacheError>
-  where
-    C: AsRef<str>,
-  {
-    let my_crate = my_crate.as_ref();
+  /// Returns a (possibly cached) path to the named crate
+  pub fn crate_path(&mut self, my_crate: &str) -> Result<PathBuf, StatsRepoCacheError> {
     use std::collections::hash_map::Entry;
 
     match self.crate_paths.entry(my_crate.to_string()) {
@@ -62,14 +58,9 @@ impl StatsRepoCache<'_> {
     }
   }
 
-  /// Returns a (possibly cached) [`super::VersionList`] for crate
-  /// `C`
-  pub fn crate_versions<C>(&mut self, my_crate: C) -> Result<super::VersionList, StatsRepoCacheError>
-  where
-    C: AsRef<str>,
-  {
-    let my_crate = my_crate.as_ref();
-
+  /// Returns a (possibly cached) [`super::VersionList`] for the
+  /// named crate
+  pub fn crate_versions(&mut self, my_crate: &str) -> Result<super::VersionList, StatsRepoCacheError> {
     use super::{StatsRepoError::VersionsError, VersionsError::IoError as VersionsIoError};
     use std::{collections::hash_map::Entry, io::ErrorKind::NotFound};
 
@@ -97,12 +88,7 @@ impl StatsRepoCache<'_> {
   }
 
   /// Returns a (possibly cached) [`super::ResultList`]
-  pub fn crate_results<C>(&mut self, my_crate: C) -> Result<super::ResultList, StatsRepoCacheError>
-  where
-    C: AsRef<str>,
-  {
-    let my_crate = my_crate.as_ref();
-
+  pub fn crate_results(&mut self, my_crate: &str) -> Result<super::ResultList, StatsRepoCacheError> {
     use super::{ResultsError::IoError as ResultsIoError, StatsRepoError::ResultsError};
     use std::{collections::hash_map::Entry, io::ErrorKind::NotFound};
 
