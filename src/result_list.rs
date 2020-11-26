@@ -49,17 +49,10 @@ impl ResultList {
   pub fn from_path(path: &Path) -> Result<Self, ResultsError> { std::fs::read_to_string(path)?.parse() }
 
   /// Query the ResultList to Asertain the [`ResultType`] of the
-  /// given `crate` version `V` on rust `R`
-  pub fn rustc_result<V, R>(&self, version: V, rustc: R) -> ResultType
-  where
-    R: Into<String>,
-    V: Into<String>,
-  {
-    let v = version.into();
-    let r = rustc.into();
-
-    if let Ok(vrec) = self.0.binary_search_by(|probe| probe.version_cmp(&v)) {
-      self.0[vrec].rustc_result(&r)
+  /// given `crate` `version` on a given `rustc`
+  pub fn rustc_result(&self, version: &str, rustc: &str) -> ResultType {
+    if let Ok(vrec) = self.0.binary_search_by(|probe| probe.version_cmp(version)) {
+      self.0[vrec].rustc_result(rustc)
     } else {
       ResultType::Unknown
     }
@@ -79,29 +72,20 @@ impl std::ops::Deref for ResultList {
 }
 
 impl ResultInfo {
-  /// Query the result of rust `R`
+  /// Query the result of a given `rustc`
   #[inline(always)]
-  pub fn rustc_result<R>(&self, rustc: R) -> ResultType
-  where
-    R: Into<String>,
-  {
-    let r = rustc.into();
-    if self.rustc_fail.contains(&r) {
+  pub fn rustc_result(&self, rustc: &str) -> ResultType {
+    if self.rustc_fail.contains(&rustc.to_string()) {
       return ResultType::Fail;
     }
-    if self.rustc_pass.contains(&r) {
+    if self.rustc_pass.contains(&rustc.to_string()) {
       return ResultType::Pass;
     }
     ResultType::Unknown
   }
 
   #[inline(always)]
-  fn version_cmp<V>(&self, version: V) -> std::cmp::Ordering
-  where
-    V: Into<String>,
-  {
-    self.num.cmp(&version.into())
-  }
+  fn version_cmp(&self, version: &str) -> std::cmp::Ordering { self.num.cmp(&version.to_string()) }
 
   /// Returns the crate version this information record is for
   #[inline(always)]

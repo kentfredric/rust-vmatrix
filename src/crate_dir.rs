@@ -385,11 +385,7 @@ impl Iterator for InBandDirIterator {
 
 impl SectionIterator {
   fn new(root: &Path, prefix: &str) -> SectionIterator {
-    SectionIterator {
-      root:   root.to_path_buf(),
-      prefix: prefix.to_string(),
-      inner:  InBandDirIterator::new(root),
-    }
+    SectionIterator { root: root.to_path_buf(), prefix: prefix.to_string(), inner: InBandDirIterator::new(root) }
   }
 }
 
@@ -415,13 +411,8 @@ impl Iterator for SectionIterator {
 }
 
 impl SubSectionIterator {
-  fn new(root: &Path, prefix: &str) -> SubSectionIterator
-  {
-    SubSectionIterator {
-      root:   root.to_path_buf(),
-      prefix: prefix.to_string(),
-      inner:  InBandDirIterator::new(root),
-    }
+  fn new(root: &Path, prefix: &str) -> SubSectionIterator {
+    SubSectionIterator { root: root.to_path_buf(), prefix: prefix.to_string(), inner: InBandDirIterator::new(root) }
   }
 }
 
@@ -443,13 +434,8 @@ impl Iterator for SubSectionIterator {
 }
 
 impl CrateIterator {
-  fn new(root: &Path, prefix: &str) -> CrateIterator
-  {
-    CrateIterator {
-      root:   root.to_path_buf(),
-      prefix: prefix.to_string(),
-      inner:  InBandDirIterator::new(root),
-    }
+  fn new(root: &Path, prefix: &str) -> CrateIterator {
+    CrateIterator { root: root.to_path_buf(), prefix: prefix.to_string(), inner: InBandDirIterator::new(root) }
   }
 }
 
