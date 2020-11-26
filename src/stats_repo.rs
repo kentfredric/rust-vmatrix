@@ -64,60 +64,38 @@ impl StatsRepo {
     )
   }
 
-  /// Return the path to crate `C`
-  pub fn crate_path<C>(&self, my_crate: C) -> Result<PathBuf, StatsRepoError>
-  where
-    C: AsRef<str>,
-  {
-    Ok(self.crate_dir.abs_path_to(my_crate.as_ref())?)
+  /// Return the path to named crate
+  pub fn crate_path(&self, my_crate: &str) -> Result<PathBuf, StatsRepoError> {
+    Ok(self.crate_dir.abs_path_to(my_crate)?)
   }
 
-  /// Return the path to a file `F` for crate `C`
-  pub fn crate_file_path<C, F>(&self, my_crate: C, file: F) -> Result<PathBuf, StatsRepoError>
-  where
-    C: AsRef<str>,
-    F: AsRef<str>,
-  {
-    Ok(self.crate_dir.abs_path_to_file(my_crate.as_ref(), file.as_ref())?)
+  /// Return the path to a `file` for the named crate
+  pub fn crate_file_path(&self, my_crate: &str, file: &str) -> Result<PathBuf, StatsRepoError> {
+    Ok(self.crate_dir.abs_path_to_file(my_crate, file)?)
   }
 
-  /// Return the path to a `versions.json` for crate `C`
-  pub fn crate_versions_path<C>(&self, my_crate: C) -> Result<PathBuf, StatsRepoError>
-  where
-    C: AsRef<str>,
-  {
+  /// Return the path to a `versions.json` for the named crate
+  pub fn crate_versions_path(&self, my_crate: &str) -> Result<PathBuf, StatsRepoError> {
     self.crate_file_path(my_crate, "versions.json")
   }
 
-  /// Return the path to a `results.json` for crate `C`
-  pub fn crate_results_path<C>(&self, my_crate: C) -> Result<PathBuf, StatsRepoError>
-  where
-    C: AsRef<str>,
-  {
+  /// Return the path to a `results.json` for the named crate
+  pub fn crate_results_path(&self, my_crate: &str) -> Result<PathBuf, StatsRepoError> {
     self.crate_file_path(my_crate, "results.json")
   }
 
-  /// Return the path to an `index.html` for crate `C`
-  pub fn crate_index_path<C>(&self, my_crate: C) -> Result<PathBuf, StatsRepoError>
-  where
-    C: AsRef<str>,
-  {
+  /// Return the path to an `index.html` for the named crate
+  pub fn crate_index_path(&self, my_crate: &str) -> Result<PathBuf, StatsRepoError> {
     self.crate_file_path(my_crate, "index.html")
   }
 
-  /// Return a [`super::VersionList`] for crate `C`
-  pub fn crate_versions<C>(&self, my_crate: C) -> Result<super::VersionList, StatsRepoError>
-  where
-    C: AsRef<str>,
-  {
+  /// Return a [`super::VersionList`] for the named crate
+  pub fn crate_versions(&self, my_crate: &str) -> Result<super::VersionList, StatsRepoError> {
     Ok(super::VersionList::from_path(&self.crate_versions_path(my_crate)?)?)
   }
 
-  /// Return a [`super::ResultList`] for crate `R`
-  pub fn crate_results<C>(&self, my_crate: C) -> Result<super::ResultList, StatsRepoError>
-  where
-    C: AsRef<str>,
-  {
+  /// Return a [`super::ResultList`] for the named crate
+  pub fn crate_results(&self, my_crate: &str) -> Result<super::ResultList, StatsRepoError> {
     Ok(super::ResultList::from_path(&self.crate_results_path(my_crate)?)?)
   }
 }
