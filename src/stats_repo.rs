@@ -20,7 +20,6 @@ pub enum StatsRepoError {
 /// Higher Level General API for accessing state about crate testing
 #[derive(Debug)]
 pub struct StatsRepo {
-  root:      PathBuf,
   crate_dir: super::CrateDir,
   rustcs:    Vec<String>,
 }
@@ -30,15 +29,10 @@ impl StatsRepo {
   /// [`super::Config`]
   pub fn from_config(c: crate::Config) -> Self {
     StatsRepo {
-      root:      c.root().to_owned(),
       rustcs:    c.rustc().map(|x| x.to_vec()).unwrap_or_else(Vec::new),
       crate_dir: super::CrateDir::new(c.root(), "crates-"),
     }
   }
-
-  /// Return the path to the Repository Root
-  pub fn root(&self) -> Result<PathBuf, StatsRepoError> { Ok(self.root.to_owned()) }
-
   /// Return the configured list of Rust targets
   pub fn rustcs(&self) -> &Vec<String> { &self.rustcs }
 

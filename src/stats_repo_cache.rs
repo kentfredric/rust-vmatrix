@@ -22,9 +22,6 @@ impl StatsRepoCache<'_> {
     }
   }
 
-  /// Returns the `repo` `root()`
-  pub fn root(&self) -> Result<PathBuf, StatsRepoCacheError> { Ok(self.repo.root()?) }
-
   /// Returns returns the configured rust targets from `repo`
   pub fn rustcs(&self) -> Vec<String> { self.repo.rustcs().to_vec() }
 
