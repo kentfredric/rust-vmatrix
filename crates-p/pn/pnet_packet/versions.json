@@ -36,7 +36,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/pnet_packet/0.20.0/download",
-    "downloads": 2508, "features": {}, "id": 69788,
+    "downloads": 2584, "features": {}, "id": 69788,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/pnet_packet/0.20.0/authors",
@@ -84,7 +84,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/pnet_packet/0.21.0/download",
-    "downloads": 25525, "features": {}, "id": 83753,
+    "downloads": 25822, "features": {}, "id": 83753,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/pnet_packet/0.21.0/authors",
@@ -132,7 +132,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/pnet_packet/0.22.0/download",
-    "downloads": 56216, "features": {}, "id": 135153,
+    "downloads": 56503, "features": {}, "id": 135153,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/pnet_packet/0.22.0/authors",
@@ -189,7 +189,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/pnet_packet/0.23.0/download",
-    "downloads": 39268, "features": {}, "id": 187641,
+    "downloads": 39520, "features": {}, "id": 187641,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/pnet_packet/0.23.0/authors",
@@ -251,7 +251,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/pnet_packet/0.23.1/download",
-    "downloads": 15293, "features": {}, "id": 202387,
+    "downloads": 16736, "features": {}, "id": 202387,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/pnet_packet/0.23.1/authors",
@@ -313,7 +313,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/pnet_packet/0.25.0/download",
-    "downloads": 47597, "features": {}, "id": 202349,
+    "downloads": 50684, "features": {}, "id": 202349,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/pnet_packet/0.25.0/authors",
@@ -375,7 +375,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/pnet_packet/0.26.0/download",
-    "downloads": 53118, "features": {}, "id": 236773,
+    "downloads": 64575, "features": {}, "id": 236773,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/pnet_packet/0.26.0/authors",
@@ -390,5 +390,129 @@
     },
     "readme_path": "/api/v1/crates/pnet_packet/0.26.0/readme",
     "updated_at": "2020-05-01T18:30:43.354316+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-11-27T19:19:12.738558+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/165689?v=4",
+          "id": 158, "login": "mrmonday", "name": "Robert Clipsham",
+          "url": "https://github.com/mrmonday"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Robert Clipsham <robert@octarineparrot.com>"]},
+      "users": []
+    },
+    "crate": "pnet_packet", "crate_size": 30541,
+    "created_at": "2020-11-27T19:19:12.738558+00:00",
+    "dependencies": [
+      {
+        "crate_id": "glob", "default_features": true, "downloads": 0,
+        "features": [], "id": 1880296, "kind": "build", "optional": false,
+        "req": ">=0.2.0, <0.3.0", "target": null, "version_id": 309697
+      },
+      {
+        "crate_id": "pnet_base", "default_features": true, "downloads": 0,
+        "features": [], "id": 1880294, "kind": "normal", "optional": false,
+        "req": ">=0.27.1, <0.28.0", "target": null, "version_id": 309697
+      },
+      {
+        "crate_id": "pnet_macros", "default_features": true, "downloads": 0,
+        "features": [], "id": 1880297, "kind": "build", "optional": false,
+        "req": ">=0.27.1, <0.28.0", "target": null, "version_id": 309697
+      },
+      {
+        "crate_id": "pnet_macros_support", "default_features": true,
+        "downloads": 0, "features": [], "id": 1880295, "kind": "normal",
+        "optional": false, "req": ">=0.27.1, <0.28.0", "target": null,
+        "version_id": 309697
+      },
+      {
+        "crate_id": "syntex", "default_features": true, "downloads": 0,
+        "features": [], "id": 1880298, "kind": "build", "optional": false,
+        "req": ">=0.42.0, <0.43.0", "target": null, "version_id": 309697
+      }
+    ],
+    "dl_path": "/api/v1/crates/pnet_packet/0.27.1/download",
+    "downloads": 6, "features": {}, "id": 309697,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/pnet_packet/0.27.1/authors",
+      "dependencies": "/api/v1/crates/pnet_packet/0.27.1/dependencies",
+      "version_downloads": "/api/v1/crates/pnet_packet/0.27.1/downloads"
+    },
+    "num": "0.27.1",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/165689?v=4",
+      "id": 158, "login": "mrmonday", "name": "Robert Clipsham",
+      "url": "https://github.com/mrmonday"
+    },
+    "readme_path": "/api/v1/crates/pnet_packet/0.27.1/readme",
+    "updated_at": "2020-11-27T19:19:12.738558+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-11-27T19:25:59.709932+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/165689?v=4",
+          "id": 158, "login": "mrmonday", "name": "Robert Clipsham",
+          "url": "https://github.com/mrmonday"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Robert Clipsham <robert@octarineparrot.com>"]},
+      "users": []
+    },
+    "crate": "pnet_packet", "crate_size": 30541,
+    "created_at": "2020-11-27T19:25:59.709932+00:00",
+    "dependencies": [
+      {
+        "crate_id": "glob", "default_features": true, "downloads": 0,
+        "features": [], "id": 1880339, "kind": "build", "optional": false,
+        "req": ">=0.2.0, <0.3.0", "target": null, "version_id": 309706
+      },
+      {
+        "crate_id": "pnet_base", "default_features": true, "downloads": 0,
+        "features": [], "id": 1880337, "kind": "normal", "optional": false,
+        "req": ">=0.27.2, <0.28.0", "target": null, "version_id": 309706
+      },
+      {
+        "crate_id": "pnet_macros", "default_features": true, "downloads": 0,
+        "features": [], "id": 1880340, "kind": "build", "optional": false,
+        "req": ">=0.27.2, <0.28.0", "target": null, "version_id": 309706
+      },
+      {
+        "crate_id": "pnet_macros_support", "default_features": true,
+        "downloads": 0, "features": [], "id": 1880338, "kind": "normal",
+        "optional": false, "req": ">=0.27.2, <0.28.0", "target": null,
+        "version_id": 309706
+      },
+      {
+        "crate_id": "syntex", "default_features": true, "downloads": 0,
+        "features": [], "id": 1880341, "kind": "build", "optional": false,
+        "req": ">=0.42.0, <0.43.0", "target": null, "version_id": 309706
+      }
+    ],
+    "dl_path": "/api/v1/crates/pnet_packet/0.27.2/download",
+    "downloads": 9, "features": {}, "id": 309706,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/pnet_packet/0.27.2/authors",
+      "dependencies": "/api/v1/crates/pnet_packet/0.27.2/dependencies",
+      "version_downloads": "/api/v1/crates/pnet_packet/0.27.2/downloads"
+    },
+    "num": "0.27.2",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/165689?v=4",
+      "id": 158, "login": "mrmonday", "name": "Robert Clipsham",
+      "url": "https://github.com/mrmonday"
+    },
+    "readme_path": "/api/v1/crates/pnet_packet/0.27.2/readme",
+    "updated_at": "2020-11-27T19:25:59.709932+00:00", "yanked": false
   }
 ]
