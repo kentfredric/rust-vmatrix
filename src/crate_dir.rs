@@ -207,7 +207,7 @@ impl CrateDir {
   }
 
   fn section_name(&self, crate_name: &str) -> Result<String, CrateDirError> {
-    Ok([self.prefix.to_string(), self.crate_first(crate_name)?].concat())
+    self.crate_first(crate_name).map(|v| [self.prefix.to_string(), v].concat())
   }
 
   fn subsection_name(&self, crate_name: &str) -> Result<String, CrateDirError> {
