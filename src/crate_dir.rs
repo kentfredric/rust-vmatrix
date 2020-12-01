@@ -203,7 +203,7 @@ impl CrateDir {
   pub fn new(root: &Path, prefix: &str) -> Self { CrateDir { root: root.to_owned(), prefix: prefix.to_owned() } }
 
   fn crate_first(&self, crate_name: &str) -> Result<String, CrateDirError> {
-    Ok(crate_name.chars().next().ok_or_else(|| CrateDirError::BadCrateName(crate_name.to_owned()))?.to_string())
+    crate_name.chars().next().ok_or_else(|| CrateDirError::BadCrateName(crate_name.to_owned())).map(Into::into)
   }
 
   fn section_name(&self, crate_name: &str) -> Result<String, CrateDirError> {
