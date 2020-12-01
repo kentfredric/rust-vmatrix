@@ -79,7 +79,7 @@ impl std::str::FromStr for Config {
   /// * If a parse error occurs while reading a string as TOML, a
   ///   [`ConfigError::DecodeTomlError`]
   /// will be retunred.
-  fn from_str(s: &str) -> Result<Self, Self::Err> { Ok(toml::from_str(s)?) }
+  fn from_str(s: &str) -> Result<Self, Self::Err> { toml::from_str(s).map_err(Into::into) }
 }
 
 #[derive(serde_derive::Deserialize, Debug)]
