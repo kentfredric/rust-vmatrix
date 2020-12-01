@@ -220,7 +220,9 @@ impl CrateDir {
   }
 
   fn path_to(&self, crate_name: &str) -> Result<PathBuf, CrateDirError> {
-    Ok(PathBuf::from(self.section_name(crate_name)?).join(self.subsection_name(crate_name)?).join(crate_name))
+    self.section_name(crate_name).and_then(|sname| {
+      self.subsection_name(crate_name).map(|ssname| PathBuf::from(sname).join(ssname).join(crate_name))
+    })
   }
 
   fn path_to_file(&self, crate_name: &str, file_name: &str) -> Result<PathBuf, CrateDirError> {
