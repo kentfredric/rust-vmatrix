@@ -211,11 +211,12 @@ impl CrateDir {
   }
 
   fn subsection_name(&self, crate_name: &str) -> Result<String, CrateDirError> {
-    let first = self.crate_first(crate_name)?;
-    match crate_name.chars().nth(1) {
-      | None => Ok(first),
-      | Some(c) => Ok([first, c.to_string()].concat()),
-    }
+    self.crate_first(crate_name).map(|first| {
+      match crate_name.chars().nth(1) {
+        | None => first,
+        | Some(c) => [first, c.to_string()].concat(),
+      }
+    })
   }
 
   fn path_to(&self, crate_name: &str) -> Result<PathBuf, CrateDirError> {
