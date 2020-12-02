@@ -46,16 +46,15 @@ impl StatsRepo {
   /// the [`Iterator`]
   pub fn crate_names(&self) -> Result<Vec<String>, StatsRepoError> {
     use super::CrateDirError;
-    Ok(
-      self
-        .crate_names_iterator()
-        .filter(|e| !matches!(e, Err(CrateDirError::NonSection(..))))
-        .collect::<Result<Vec<String>, CrateDirError>>()
-        .map(|mut i| {
-          i.sort_unstable();
-          i
-        })?,
-    )
+    self
+      .crate_names_iterator()
+      .filter(|e| !matches!(e, Err(CrateDirError::NonSection(..))))
+      .collect::<Result<Vec<String>, CrateDirError>>()
+      .map(|mut i| {
+        i.sort_unstable();
+        i
+      })
+      .map_err(Into::into)
   }
 
   /// Return the path to named crate
