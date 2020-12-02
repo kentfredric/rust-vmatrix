@@ -93,7 +93,7 @@ impl VersionList {
 impl std::str::FromStr for VersionList {
   type Err = VersionsError;
 
-  fn from_str(s: &str) -> Result<Self, Self::Err> { Ok(serde_json::from_str(s)?) }
+  fn from_str(s: &str) -> Result<Self, Self::Err> { serde_json::from_str(s).map_err(Into::into) }
 }
 impl std::ops::Deref for VersionList {
   type Target = VersionListInner;
