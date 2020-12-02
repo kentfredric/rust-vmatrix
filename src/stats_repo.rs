@@ -59,7 +59,7 @@ impl StatsRepo {
 
   /// Return the path to named crate
   pub fn crate_path(&self, my_crate: &str) -> Result<PathBuf, StatsRepoError> {
-    Ok(self.crate_dir.abs_path_to(my_crate)?)
+    self.crate_dir.abs_path_to(my_crate).map_err(Into::into)
   }
 
   /// Return the path to a `file` for the named crate
