@@ -51,11 +51,11 @@ impl ResultList {
   /// Query the ResultList to Asertain the [`ResultType`] of the
   /// given `crate` `version` on a given `rustc`
   pub fn rustc_result(&self, version: &str, rustc: &str) -> ResultType {
-    if let Ok(vrec) = self.0.binary_search_by(|probe| probe.version_cmp(version)) {
-      self.0[vrec].rustc_result(rustc)
-    } else {
-      ResultType::Unknown
-    }
+    return self
+      .0
+      .binary_search_by(|probe| probe.version_cmp(version))
+      .map(|vrec| self.0[vrec].rustc_result(rustc))
+      .unwrap_or(ResultType::Unknown);
   }
 }
 
