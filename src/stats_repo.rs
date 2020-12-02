@@ -84,7 +84,10 @@ impl StatsRepo {
 
   /// Return a [`super::VersionList`] for the named crate
   pub fn crate_versions(&self, my_crate: &str) -> Result<super::VersionList, StatsRepoError> {
-    Ok(super::VersionList::from_path(&self.crate_versions_path(my_crate)?)?)
+    self
+      .crate_versions_path(my_crate)
+      .and_then(|path| super::VersionList::from_path(&path).map_err(Into::into))
+      .map_err(Into::into)
   }
 
   /// Return a [`super::ResultList`] for the named crate
