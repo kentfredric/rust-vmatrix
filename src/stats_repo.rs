@@ -92,7 +92,10 @@ impl StatsRepo {
 
   /// Return a [`super::ResultList`] for the named crate
   pub fn crate_results(&self, my_crate: &str) -> Result<super::ResultList, StatsRepoError> {
-    Ok(super::ResultList::from_path(&self.crate_results_path(my_crate)?)?)
+    self
+      .crate_results_path(my_crate)
+      .and_then(|path| super::ResultList::from_path(&path).map_err(Into::into))
+      .map_err(Into::into)
   }
 }
 
