@@ -9,7 +9,7 @@
     "created_at": "2019-05-31T13:35:34.230592+00:00",
     "dependencies": [],
     "dl_path": "/api/v1/crates/async-tls/0.1.0/download",
-    "downloads": 169, "features": {}, "id": 153824,
+    "downloads": 172, "features": {}, "id": 153824,
     "license": "Apache-2.0/MIT",
     "links": {
       "authors": "/api/v1/crates/async-tls/0.1.0/authors",
@@ -74,7 +74,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/async-tls/0.5.0/download",
-    "downloads": 208, "features": {"early-data": []}, "id": 183259,
+    "downloads": 210, "features": {"early-data": []}, "id": 183259,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/async-tls/0.5.0/authors",
@@ -145,7 +145,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/async-tls/0.6.0/download",
-    "downloads": 81321, "features": {"early-data": []}, "id": 188991,
+    "downloads": 87958, "features": {"early-data": []}, "id": 188991,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/async-tls/0.6.0/authors",
@@ -226,7 +226,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/async-tls/0.7.0/download",
-    "downloads": 91716, "features": {"early-data": []}, "id": 226150,
+    "downloads": 92733, "features": {"early-data": []}, "id": 226150,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/async-tls/0.7.0/authors",
@@ -314,7 +314,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/async-tls/0.7.1/download",
-    "downloads": 238, "features": {"early-data": []}, "id": 260079,
+    "downloads": 241, "features": {"early-data": []}, "id": 260079,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/async-tls/0.7.1/authors",
@@ -394,7 +394,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/async-tls/0.8.0/download",
-    "downloads": 96559, "features": {"early-data": []}, "id": 260293,
+    "downloads": 106662, "features": {"early-data": []}, "id": 260293,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/async-tls/0.8.0/authors",
@@ -474,7 +474,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/async-tls/0.9.0/download",
-    "downloads": 14389,
+    "downloads": 15269,
     "features": {
       "client": ["webpki", "webpki-roots"],
       "default": ["client", "server"], "early-data": [], "server": []
@@ -570,7 +570,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/async-tls/0.10.0/download",
-    "downloads": 13861,
+    "downloads": 38407,
     "features": {
       "client": ["webpki", "webpki-roots"],
       "default": ["client", "server"], "early-data": [], "server": []
@@ -589,5 +589,101 @@
     },
     "readme_path": "/api/v1/crates/async-tls/0.10.0/readme",
     "updated_at": "2020-09-09T12:18:26.996508+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-12-04T16:55:01.887412+00:00",
+        "user": {
+          "avatar": "https://avatars2.githubusercontent.com/u/47542?v=4",
+          "id": 47, "login": "skade", "name": "Florian Gilcher",
+          "url": "https://github.com/skade"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "dignifiedquire <dignifiedquire@gmail.com>",
+          "Florian Gilcher <florian.gilcher@ferrous-systems.com>",
+          "quininer kel <quininer@live.com>", "The async-rs developers"
+        ]
+      },
+      "users": []
+    },
+    "crate": "async-tls", "crate_size": 23280,
+    "created_at": "2020-12-04T16:55:01.887412+00:00",
+    "dependencies": [
+      {
+        "crate_id": "async-std", "default_features": true, "downloads": 0,
+        "features": ["unstable"], "id": 1898211, "kind": "dev",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 312032
+      },
+      {
+        "crate_id": "futures-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 1898206, "kind": "normal",
+        "optional": false, "req": "^0.3.5", "target": null,
+        "version_id": 312032
+      },
+      {
+        "crate_id": "futures-executor", "default_features": true,
+        "downloads": 0, "features": [], "id": 1898212, "kind": "dev",
+        "optional": false, "req": "^0.3.5", "target": null,
+        "version_id": 312032
+      },
+      {
+        "crate_id": "futures-io", "default_features": true, "downloads": 0,
+        "features": [], "id": 1898207, "kind": "normal", "optional": false,
+        "req": "^0.3.5", "target": null, "version_id": 312032
+      },
+      {
+        "crate_id": "futures-util", "default_features": true,
+        "downloads": 0, "features": ["io"], "id": 1898213, "kind": "dev",
+        "optional": false, "req": "^0.3.5", "target": null,
+        "version_id": 312032
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1898214, "kind": "dev", "optional": false,
+        "req": "^1", "target": null, "version_id": 312032
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1898208, "kind": "normal", "optional": false,
+        "req": "^0.19.0", "target": null, "version_id": 312032
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 1898209, "kind": "normal", "optional": true,
+        "req": "^0.21.3", "target": null, "version_id": 312032
+      },
+      {
+        "crate_id": "webpki-roots", "default_features": true,
+        "downloads": 0, "features": [], "id": 1898210, "kind": "normal",
+        "optional": true, "req": "^0.21.0", "target": null,
+        "version_id": 312032
+      }
+    ],
+    "dl_path": "/api/v1/crates/async-tls/0.10.2/download",
+    "downloads": 13,
+    "features": {
+      "client": ["webpki", "webpki-roots"],
+      "default": ["client", "server"], "early-data": [], "server": []
+    },
+    "id": 312032, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/async-tls/0.10.2/authors",
+      "dependencies": "/api/v1/crates/async-tls/0.10.2/dependencies",
+      "version_downloads": "/api/v1/crates/async-tls/0.10.2/downloads"
+    },
+    "num": "0.10.2",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/47542?v=4",
+      "id": 47, "login": "skade", "name": "Florian Gilcher",
+      "url": "https://github.com/skade"
+    },
+    "readme_path": "/api/v1/crates/async-tls/0.10.2/readme",
+    "updated_at": "2020-12-04T16:55:01.887412+00:00", "yanked": false
   }
 ]

@@ -38,7 +38,7 @@
         "req": "^1.0.40", "target": null, "version_id": 163942
       }
     ],
-    "dl_path": "/api/v1/crates/femme/1.0.0/download", "downloads": 148,
+    "dl_path": "/api/v1/crates/femme/1.0.0/download", "downloads": 149,
     "features": {}, "id": 163942, "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/femme/1.0.0/authors",
@@ -101,7 +101,7 @@
         "req": "^1.0.40", "target": null, "version_id": 164120
       }
     ],
-    "dl_path": "/api/v1/crates/femme/1.1.0/download", "downloads": 385,
+    "dl_path": "/api/v1/crates/femme/1.1.0/download", "downloads": 387,
     "features": {}, "id": 164120, "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/femme/1.1.0/authors",
@@ -189,7 +189,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/femme/1.2.0/download",
-    "downloads": 14802, "features": {}, "id": 168128,
+    "downloads": 14851, "features": {}, "id": 168128,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/femme/1.2.0/authors",
@@ -277,7 +277,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/femme/1.3.0/download",
-    "downloads": 29921, "features": {}, "id": 180356,
+    "downloads": 30453, "features": {}, "id": 180356,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/femme/1.3.0/authors",
@@ -379,7 +379,7 @@
         "target": "cfg(target_arch = \"wasm32\")", "version_id": 242768
       }
     ],
-    "dl_path": "/api/v1/crates/femme/2.0.0/download", "downloads": 46,
+    "dl_path": "/api/v1/crates/femme/2.0.0/download", "downloads": 49,
     "features": {}, "id": 242768, "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/femme/2.0.0/authors",
@@ -481,7 +481,7 @@
         "target": "cfg(target_arch = \"wasm32\")", "version_id": 242770
       }
     ],
-    "dl_path": "/api/v1/crates/femme/2.0.1/download", "downloads": 1469,
+    "dl_path": "/api/v1/crates/femme/2.0.1/download", "downloads": 1490,
     "features": {}, "id": 242770, "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/femme/2.0.1/authors",
@@ -568,7 +568,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/femme/2.1.0/download",
-    "downloads": 49875, "features": {}, "id": 244952,
+    "downloads": 51018, "features": {}, "id": 244952,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/femme/2.1.0/authors",
@@ -660,7 +660,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/femme/2.1.1/download",
-    "downloads": 38982, "features": {}, "id": 271337,
+    "downloads": 58387, "features": {}, "id": 271337,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/femme/2.1.1/authors",
@@ -675,5 +675,104 @@
     },
     "readme_path": "/api/v1/crates/femme/2.1.1/readme",
     "updated_at": "2020-08-10T13:59:51.156906+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-12-04T16:29:36.551941+00:00",
+        "user": {
+          "avatar": "https://avatars2.githubusercontent.com/u/8107784?v=4",
+          "id": 54801, "login": "lrlna", "name": "Irina Shestak",
+          "url": "https://github.com/lrlna"
+        }
+      },
+      {
+        "action": "yank", "time": "2020-12-04T18:12:34.336233+00:00",
+        "user": {
+          "avatar": "https://avatars2.githubusercontent.com/u/8107784?v=4",
+          "id": 54801, "login": "lrlna", "name": "Irina Shestak",
+          "url": "https://github.com/lrlna"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "lrlna <shestak.irina@gmail.com>",
+          "yoshuawuyts <yoshuawuyts@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "femme", "crate_size": 566207,
+    "created_at": "2020-12-04T16:29:36.551941+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 1898111, "kind": "normal", "optional": false,
+        "req": "^0.1.9", "target": null, "version_id": 312024
+      },
+      {
+        "crate_id": "js-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1898117, "kind": "normal", "optional": false,
+        "req": "^0.3.25", "target": "cfg(target_arch = \"wasm32\")",
+        "version_id": 312024
+      },
+      {
+        "crate_id": "kv-log-macro", "default_features": true,
+        "downloads": 0, "features": [], "id": 1898116, "kind": "dev",
+        "optional": false, "req": "^1.0.5", "target": null,
+        "version_id": 312024
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": ["kv_unstable", "std"], "id": 1898112, "kind": "normal",
+        "optional": false, "req": "^0.4.7", "target": null,
+        "version_id": 312024
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 1898113, "kind": "normal", "optional": false,
+        "req": "^1.0.97", "target": null, "version_id": 312024
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 1898114, "kind": "normal",
+        "optional": false, "req": "^1.0.97", "target": null,
+        "version_id": 312024
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1898115, "kind": "normal", "optional": false,
+        "req": "^1.0.56", "target": null, "version_id": 312024
+      },
+      {
+        "crate_id": "wasm-bindgen", "default_features": true,
+        "downloads": 0, "features": ["serde-serialize"], "id": 1898118,
+        "kind": "normal", "optional": false, "req": "^0.2.48",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 312024
+      },
+      {
+        "crate_id": "web-sys", "default_features": true, "downloads": 0,
+        "features": ["console"], "id": 1898119, "kind": "normal",
+        "optional": false, "req": "^0.3.25",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 312024
+      }
+    ],
+    "dl_path": "/api/v1/crates/femme/2.1.2/download", "downloads": 74,
+    "features": {}, "id": 312024, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/femme/2.1.2/authors",
+      "dependencies": "/api/v1/crates/femme/2.1.2/dependencies",
+      "version_downloads": "/api/v1/crates/femme/2.1.2/downloads"
+    },
+    "num": "2.1.2",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/8107784?v=4",
+      "id": 54801, "login": "lrlna", "name": "Irina Shestak",
+      "url": "https://github.com/lrlna"
+    },
+    "readme_path": "/api/v1/crates/femme/2.1.2/readme",
+    "updated_at": "2020-12-04T18:12:35.764750+00:00", "yanked": true
   }
 ]
