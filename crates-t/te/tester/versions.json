@@ -27,7 +27,7 @@
         "req": "^0.4", "target": null, "version_id": 86546
       }
     ],
-    "dl_path": "/api/v1/crates/tester/0.4.0/download", "downloads": 284,
+    "dl_path": "/api/v1/crates/tester/0.4.0/download", "downloads": 286,
     "features": {"asm_black_box": [], "capture": []}, "id": 86546,
     "license": "MIT OR Apache-2.0",
     "links": {
@@ -62,7 +62,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tester/0.4.1/download",
-    "downloads": 1150, "features": {"asm_black_box": [], "capture": []},
+    "downloads": 1167, "features": {"asm_black_box": [], "capture": []},
     "id": 86549, "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/tester/0.4.1/authors",
@@ -95,7 +95,7 @@
         "req": "^0.4", "target": null, "version_id": 115009
       }
     ],
-    "dl_path": "/api/v1/crates/tester/0.4.2/download", "downloads": 235,
+    "dl_path": "/api/v1/crates/tester/0.4.2/download", "downloads": 236,
     "features": {"asm_black_box": [], "capture": []}, "id": 115009,
     "license": "MIT OR Apache-2.0",
     "links": {
@@ -130,7 +130,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tester/0.5.0/download",
-    "downloads": 403661,
+    "downloads": 403797,
     "features": {"asm_black_box": [], "capture": []}, "id": 115016,
     "license": "MIT OR Apache-2.0",
     "links": {
@@ -165,7 +165,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tester/0.5.1/download",
-    "downloads": 10553,
+    "downloads": 10587,
     "features": {"asm_black_box": [], "capture": []}, "id": 184426,
     "license": "MIT OR Apache-2.0",
     "links": {
@@ -205,7 +205,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tester/0.6.0/download",
-    "downloads": 25804,
+    "downloads": 26195,
     "features": {"asm_black_box": [], "capture": []}, "id": 190238,
     "license": "MIT OR Apache-2.0",
     "links": {
@@ -245,7 +245,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tester/0.7.0/download",
-    "downloads": 291741,
+    "downloads": 307242,
     "features": {"asm_black_box": [], "capture": []}, "id": 190555,
     "license": "MIT OR Apache-2.0",
     "links": {
@@ -261,5 +261,63 @@
     },
     "readme_path": "/api/v1/crates/tester/0.7.0/readme",
     "updated_at": "2019-11-19T00:33:42.630208+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-12-06T14:35:07.223266+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/1556054?v=4",
+          "id": 455, "login": "messense", "name": "messense",
+          "url": "https://github.com/messense"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The Rust Project Developers"]}, "users": []},
+    "crate": "tester", "crate_size": 40481,
+    "created_at": "2020-12-06T14:35:07.223266+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 1900905, "kind": "normal", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 312452
+      },
+      {
+        "crate_id": "getopts", "default_features": true, "downloads": 0,
+        "features": [], "id": 1900906, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 312452
+      },
+      {
+        "crate_id": "libc", "default_features": false, "downloads": 0,
+        "features": [], "id": 1900909, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(unix)", "version_id": 312452
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 1900907, "kind": "normal", "optional": false,
+        "req": "^1.13.0", "target": null, "version_id": 312452
+      },
+      {
+        "crate_id": "term", "default_features": true, "downloads": 0,
+        "features": [], "id": 1900908, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 312452
+      }
+    ],
+    "dl_path": "/api/v1/crates/tester/0.8.0/download", "downloads": 0,
+    "features": {"asm_black_box": [], "capture": []}, "id": 312452,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/tester/0.8.0/authors",
+      "dependencies": "/api/v1/crates/tester/0.8.0/dependencies",
+      "version_downloads": "/api/v1/crates/tester/0.8.0/downloads"
+    },
+    "num": "0.8.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/1556054?v=4",
+      "id": 455, "login": "messense", "name": "messense",
+      "url": "https://github.com/messense"
+    },
+    "readme_path": "/api/v1/crates/tester/0.8.0/readme",
+    "updated_at": "2020-12-06T14:35:07.223266+00:00", "yanked": false
   }
 ]

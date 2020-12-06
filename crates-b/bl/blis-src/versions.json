@@ -1,0 +1,117 @@
+[
+  {
+    "audit_actions": [],
+    "authors": {
+      "meta": {"names": ["Mathieu Poumeyrol <kali@zoy.org>"]},
+      "users": []
+    },
+    "crate": "blis-src", "crate_size": null,
+    "created_at": "2018-05-19T16:04:43.797617+00:00",
+    "dependencies": [
+      {
+        "crate_id": "blas-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 421131, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 93443
+      },
+      {
+        "crate_id": "cblas-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 421132, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 93443
+      },
+      {
+        "crate_id": "flate2", "default_features": true, "downloads": 0,
+        "features": [], "id": 421134, "kind": "build", "optional": false,
+        "req": "^1.0.1", "target": null, "version_id": 93443
+      },
+      {
+        "crate_id": "git2", "default_features": true, "downloads": 0,
+        "features": [], "id": 421135, "kind": "build", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 93443
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 421133, "kind": "dev", "optional": false,
+        "req": "^0.2.40", "target": null, "version_id": 93443
+      },
+      {
+        "crate_id": "reqwest", "default_features": true, "downloads": 0,
+        "features": [], "id": 421136, "kind": "build", "optional": false,
+        "req": "^0.8.5", "target": null, "version_id": 93443
+      },
+      {
+        "crate_id": "tar", "default_features": true, "downloads": 0,
+        "features": [], "id": 421137, "kind": "build", "optional": false,
+        "req": "^0.4.15", "target": null, "version_id": 93443
+      }
+    ],
+    "dl_path": "/api/v1/crates/blis-src/0.1.0/download",
+    "downloads": 448,
+    "features": {"cblas": [], "default": ["cblas"], "static": [], "system": []},
+    "id": 93443, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/blis-src/0.1.0/authors",
+      "dependencies": "/api/v1/crates/blis-src/0.1.0/dependencies",
+      "version_downloads": "/api/v1/crates/blis-src/0.1.0/downloads"
+    },
+    "num": "0.1.0", "published_by": null,
+    "readme_path": "/api/v1/crates/blis-src/0.1.0/readme",
+    "updated_at": "2018-05-19T16:04:43.797617+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-11-30T08:26:43.085798+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/53657?v=4",
+          "id": 999, "login": "kali", "name": "Mathieu Poumeyrol",
+          "url": "https://github.com/kali"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": ["Jed Brown <jed@jedbrown.org>", "Mathieu Poumeyrol <kali@zoy.org>"]
+      },
+      "users": []
+    },
+    "crate": "blis-src", "crate_size": 2480592,
+    "created_at": "2020-11-30T08:26:43.085798+00:00",
+    "dependencies": [
+      {
+        "crate_id": "blas-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1886716, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 310581
+      },
+      {
+        "crate_id": "cblas-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1886717, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 310581
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1886718, "kind": "dev", "optional": false,
+        "req": "^0.2.40", "target": null, "version_id": 310581
+      }
+    ],
+    "dl_path": "/api/v1/crates/blis-src/0.2.0/download",
+    "downloads": 48,
+    "features": {
+      "cblas": [], "default": ["pthreads", "cblas"], "openmp": [],
+      "pthreads": [], "serial": [], "static": [], "system": []
+    },
+    "id": 310581, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/blis-src/0.2.0/authors",
+      "dependencies": "/api/v1/crates/blis-src/0.2.0/dependencies",
+      "version_downloads": "/api/v1/crates/blis-src/0.2.0/downloads"
+    },
+    "num": "0.2.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/53657?v=4",
+      "id": 999, "login": "kali", "name": "Mathieu Poumeyrol",
+      "url": "https://github.com/kali"
+    },
+    "readme_path": "/api/v1/crates/blis-src/0.2.0/readme",
+    "updated_at": "2020-11-30T08:26:43.085798+00:00", "yanked": false
+  }
+]

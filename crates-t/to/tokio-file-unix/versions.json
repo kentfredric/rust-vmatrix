@@ -30,7 +30,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tokio-file-unix/0.1.0/download",
-    "downloads": 362, "features": {}, "id": 44773,
+    "downloads": 365, "features": {}, "id": 44773,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/tokio-file-unix/0.1.0/authors",
@@ -72,7 +72,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tokio-file-unix/0.2.0/download",
-    "downloads": 511, "features": {}, "id": 44838,
+    "downloads": 514, "features": {}, "id": 44838,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/tokio-file-unix/0.2.0/authors",
@@ -124,7 +124,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tokio-file-unix/0.3.0/download",
-    "downloads": 421, "features": {}, "id": 51249,
+    "downloads": 424, "features": {}, "id": 51249,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/tokio-file-unix/0.3.0/authors",
@@ -176,7 +176,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tokio-file-unix/0.4.0/download",
-    "downloads": 750, "features": {}, "id": 51955,
+    "downloads": 755, "features": {}, "id": 51955,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/tokio-file-unix/0.4.0/authors",
@@ -228,7 +228,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tokio-file-unix/0.4.1/download",
-    "downloads": 620, "features": {}, "id": 67799,
+    "downloads": 648, "features": {}, "id": 67799,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/tokio-file-unix/0.4.1/authors",
@@ -280,7 +280,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tokio-file-unix/0.4.2/download",
-    "downloads": 18677, "features": {}, "id": 78985,
+    "downloads": 18885, "features": {}, "id": 78985,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/tokio-file-unix/0.4.2/authors",
@@ -338,7 +338,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tokio-file-unix/0.5.0/download",
-    "downloads": 4222, "features": {}, "id": 87793,
+    "downloads": 4238, "features": {}, "id": 87793,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/tokio-file-unix/0.5.0/authors",
@@ -396,7 +396,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tokio-file-unix/0.5.1/download",
-    "downloads": 20122, "features": {}, "id": 90804,
+    "downloads": 20655, "features": {}, "id": 90804,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/tokio-file-unix/0.5.1/authors",
@@ -406,5 +406,84 @@
     "num": "0.5.1", "published_by": null,
     "readme_path": "/api/v1/crates/tokio-file-unix/0.5.1/readme",
     "updated_at": "2018-04-30T00:01:45.945371+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-12-06T09:23:58.835825+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/6571068?v=4",
+          "id": 5574, "login": "Rufflewind", "name": "Phil Ruffwind",
+          "url": "https://github.com/Rufflewind"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Phil Ruffwind <rf@rufflewind.com>"]},
+      "users": []
+    },
+    "crate": "tokio-file-unix", "crate_size": 22007,
+    "created_at": "2020-12-06T09:23:58.835825+00:00",
+    "dependencies": [
+      {
+        "crate_id": "actix-rt", "default_features": true, "downloads": 0,
+        "features": [], "id": 1900702, "kind": "dev", "optional": false,
+        "req": "^1.1.1", "target": null, "version_id": 312415
+      },
+      {
+        "crate_id": "actix-web", "default_features": true, "downloads": 0,
+        "features": [], "id": 1900703, "kind": "dev", "optional": false,
+        "req": "^3.3.0", "target": null, "version_id": 312415
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1900704, "kind": "dev", "optional": false,
+        "req": "^0.3.8", "target": null, "version_id": 312415
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1900699, "kind": "normal", "optional": false,
+        "req": "^0.2.21", "target": null, "version_id": 312415
+      },
+      {
+        "crate_id": "mio", "default_features": true, "downloads": 0,
+        "features": [], "id": 1900700, "kind": "normal", "optional": false,
+        "req": "^0.6.6", "target": null, "version_id": 312415
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["io-util", "macros"], "id": 1900705, "kind": "dev",
+        "optional": false, "req": "^0.2.6", "target": null,
+        "version_id": 312415
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["io-driver"], "id": 1900701, "kind": "normal",
+        "optional": false, "req": "^0.2.6", "target": null,
+        "version_id": 312415
+      },
+      {
+        "crate_id": "tokio-util", "default_features": true, "downloads": 0,
+        "features": ["codec"], "id": 1900706, "kind": "dev",
+        "optional": false, "req": "^0.3.0", "target": null,
+        "version_id": 312415
+      }
+    ],
+    "dl_path": "/api/v1/crates/tokio-file-unix/0.6.0/download",
+    "downloads": 0, "features": {}, "id": 312415,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/tokio-file-unix/0.6.0/authors",
+      "dependencies": "/api/v1/crates/tokio-file-unix/0.6.0/dependencies",
+      "version_downloads": "/api/v1/crates/tokio-file-unix/0.6.0/downloads"
+    },
+    "num": "0.6.0",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/6571068?v=4",
+      "id": 5574, "login": "Rufflewind", "name": "Phil Ruffwind",
+      "url": "https://github.com/Rufflewind"
+    },
+    "readme_path": "/api/v1/crates/tokio-file-unix/0.6.0/readme",
+    "updated_at": "2020-12-06T09:23:58.835825+00:00", "yanked": false
   }
 ]

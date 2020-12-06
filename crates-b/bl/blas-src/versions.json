@@ -27,7 +27,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/blas-src/0.1.0/download",
-    "downloads": 346,
+    "downloads": 348,
     "features": {
       "accelerate": ["accelerate-src"], "netlib": ["netlib-src"],
       "openblas": ["openblas-src"]
@@ -70,7 +70,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/blas-src/0.1.1/download",
-    "downloads": 323,
+    "downloads": 325,
     "features": {
       "accelerate": ["accelerate-src"], "netlib": ["netlib-src"],
       "openblas": ["openblas-src"]
@@ -113,7 +113,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/blas-src/0.1.2/download",
-    "downloads": 467,
+    "downloads": 469,
     "features": {
       "accelerate": ["accelerate-src"], "netlib": ["netlib-src"],
       "openblas": ["openblas-src"]
@@ -167,7 +167,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/blas-src/0.1.3/download",
-    "downloads": 3258,
+    "downloads": 3353,
     "features": {
       "accelerate": ["accelerate-src"], "intel-mkl": ["intel-mkl-src"],
       "netlib": ["netlib-src"], "openblas": ["openblas-src"]
@@ -221,7 +221,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/blas-src/0.2.0/download",
-    "downloads": 318,
+    "downloads": 322,
     "features": {
       "accelerate": ["accelerate-src"], "intel-mkl": ["intel-mkl-src"],
       "netlib": ["netlib-src"], "openblas": ["openblas-src"]
@@ -275,7 +275,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/blas-src/0.2.1/download",
-    "downloads": 56754,
+    "downloads": 63212,
     "features": {
       "accelerate": ["accelerate-src"], "intel-mkl": ["intel-mkl-src"],
       "netlib": ["netlib-src"], "openblas": ["openblas-src"]
@@ -329,7 +329,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/blas-src/0.3.0/download",
-    "downloads": 3063,
+    "downloads": 3148,
     "features": {
       "accelerate": ["accelerate-src"], "intel-mkl": ["intel-mkl-src"],
       "netlib": ["netlib-src"], "openblas": ["openblas-src"]
@@ -389,7 +389,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/blas-src/0.4.0/download",
-    "downloads": 26790,
+    "downloads": 26972,
     "features": {
       "accelerate": ["accelerate-src"], "intel-mkl": ["intel-mkl-src"],
       "netlib": ["netlib-src"], "openblas": ["openblas-src"]
@@ -458,7 +458,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/blas-src/0.5.0/download",
-    "downloads": 350,
+    "downloads": 357,
     "features": {
       "accelerate": ["accelerate-src"], "intel-mkl": ["intel-mkl-src"],
       "netlib": ["netlib-src"], "openblas": ["openblas-src"]
@@ -527,7 +527,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/blas-src/0.6.0/download",
-    "downloads": 69,
+    "downloads": 73,
     "features": {
       "accelerate": ["accelerate-src"], "intel-mkl": ["intel-mkl-src"],
       "netlib": ["netlib-src"], "openblas": ["openblas-src"]
@@ -596,7 +596,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/blas-src/0.6.1/download",
-    "downloads": 20194,
+    "downloads": 26526,
     "features": {
       "accelerate": ["accelerate-src"], "intel-mkl": ["intel-mkl-src"],
       "netlib": ["netlib-src"], "openblas": ["openblas-src"]
@@ -615,5 +615,79 @@
     },
     "readme_path": "/api/v1/crates/blas-src/0.6.1/readme",
     "updated_at": "2020-03-08T11:14:32.170146+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-12-06T07:55:31.393500+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/57440?v=4",
+          "id": 62, "login": "IvanUkhov", "name": "Ivan Ukhov",
+          "url": "https://github.com/IvanUkhov"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Ivan Ukhov <ivan.ukhov@gmail.com>", "Jed Brown <jed@jedbrown.org>",
+          "Stefan Kroboth <stefan.kroboth@gmail.com>",
+          "Toshiki Teramura <toshiki.teramura@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "blas-src", "crate_size": 3331,
+    "created_at": "2020-12-06T07:55:31.393500+00:00",
+    "dependencies": [
+      {
+        "crate_id": "accelerate-src", "default_features": true,
+        "downloads": 0, "features": [], "id": 1900662, "kind": "normal",
+        "optional": true, "req": "^0.3", "target": null,
+        "version_id": 312407
+      },
+      {
+        "crate_id": "blis-src", "default_features": true, "downloads": 0,
+        "features": [], "id": 1900663, "kind": "normal", "optional": true,
+        "req": "^0.2", "target": null, "version_id": 312407
+      },
+      {
+        "crate_id": "intel-mkl-src", "default_features": true,
+        "downloads": 0, "features": [], "id": 1900664, "kind": "normal",
+        "optional": true, "req": "^0.5", "target": null,
+        "version_id": 312407
+      },
+      {
+        "crate_id": "netlib-src", "default_features": true, "downloads": 0,
+        "features": [], "id": 1900665, "kind": "normal", "optional": true,
+        "req": "^0.8", "target": null, "version_id": 312407
+      },
+      {
+        "crate_id": "openblas-src", "default_features": true,
+        "downloads": 0, "features": [], "id": 1900666, "kind": "normal",
+        "optional": true, "req": "^0.9", "target": null,
+        "version_id": 312407
+      }
+    ],
+    "dl_path": "/api/v1/crates/blas-src/0.7.0/download", "downloads": 0,
+    "features": {
+      "accelerate": ["accelerate-src"], "blis": ["blis-src"],
+      "intel-mkl": ["intel-mkl-src"], "netlib": ["netlib-src"],
+      "openblas": ["openblas-src"]
+    },
+    "id": 312407, "license": "Apache-2.0/MIT",
+    "links": {
+      "authors": "/api/v1/crates/blas-src/0.7.0/authors",
+      "dependencies": "/api/v1/crates/blas-src/0.7.0/dependencies",
+      "version_downloads": "/api/v1/crates/blas-src/0.7.0/downloads"
+    },
+    "num": "0.7.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/57440?v=4",
+      "id": 62, "login": "IvanUkhov", "name": "Ivan Ukhov",
+      "url": "https://github.com/IvanUkhov"
+    },
+    "readme_path": "/api/v1/crates/blas-src/0.7.0/readme",
+    "updated_at": "2020-12-06T07:55:31.393500+00:00", "yanked": false
   }
 ]
