@@ -273,7 +273,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/chalk-derive/0.14.0/download",
-    "downloads": 88512, "features": {}, "id": 254342,
+    "downloads": 88540, "features": {}, "id": 254342,
     "license": "Apache-2.0/MIT",
     "links": {
       "authors": "/api/v1/crates/chalk-derive/0.14.0/authors",
@@ -679,7 +679,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/chalk-derive/0.21.0/download",
-    "downloads": 23290, "features": {}, "id": 269452,
+    "downloads": 23291, "features": {}, "id": 269452,
     "license": "Apache-2.0/MIT",
     "links": {
       "authors": "/api/v1/crates/chalk-derive/0.21.0/authors",
@@ -795,7 +795,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/chalk-derive/0.23.0/download",
-    "downloads": 11957, "features": {}, "id": 273141,
+    "downloads": 11964, "features": {}, "id": 273141,
     "license": "Apache-2.0/MIT",
     "links": {
       "authors": "/api/v1/crates/chalk-derive/0.23.0/authors",
@@ -911,7 +911,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/chalk-derive/0.25.0/download",
-    "downloads": 27656, "features": {}, "id": 278093,
+    "downloads": 27839, "features": {}, "id": 278093,
     "license": "Apache-2.0/MIT",
     "links": {
       "authors": "/api/v1/crates/chalk-derive/0.25.0/authors",
@@ -1027,7 +1027,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/chalk-derive/0.27.0/download",
-    "downloads": 1673, "features": {}, "id": 282925,
+    "downloads": 1674, "features": {}, "id": 282925,
     "license": "Apache-2.0/MIT",
     "links": {
       "authors": "/api/v1/crates/chalk-derive/0.27.0/authors",
@@ -1143,7 +1143,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/chalk-derive/0.29.0/download",
-    "downloads": 10493, "features": {}, "id": 287805,
+    "downloads": 10509, "features": {}, "id": 287805,
     "license": "Apache-2.0/MIT",
     "links": {
       "authors": "/api/v1/crates/chalk-derive/0.29.0/authors",
@@ -1375,7 +1375,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/chalk-derive/0.33.0/download",
-    "downloads": 2516, "features": {}, "id": 292229,
+    "downloads": 2517, "features": {}, "id": 292229,
     "license": "Apache-2.0/MIT",
     "links": {
       "authors": "/api/v1/crates/chalk-derive/0.33.0/authors",
@@ -1549,7 +1549,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/chalk-derive/0.36.0/download",
-    "downloads": 23965, "features": {}, "id": 300205,
+    "downloads": 24431, "features": {}, "id": 300205,
     "license": "Apache-2.0/MIT",
     "links": {
       "authors": "/api/v1/crates/chalk-derive/0.36.0/authors",
@@ -1607,7 +1607,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/chalk-derive/0.37.0/download",
-    "downloads": 3477, "features": {}, "id": 300711,
+    "downloads": 3540, "features": {}, "id": 300711,
     "license": "Apache-2.0/MIT",
     "links": {
       "authors": "/api/v1/crates/chalk-derive/0.37.0/authors",
@@ -1897,7 +1897,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/chalk-derive/0.42.0/download",
-    "downloads": 2, "features": {}, "id": 312351,
+    "downloads": 11, "features": {}, "id": 312351,
     "license": "Apache-2.0/MIT",
     "links": {
       "authors": "/api/v1/crates/chalk-derive/0.42.0/authors",
@@ -1912,5 +1912,63 @@
     },
     "readme_path": "/api/v1/crates/chalk-derive/0.42.0/readme",
     "updated_at": "2020-12-06T00:55:40.199778+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-12-06T21:36:43.239283+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/66009955?v=4",
+          "id": 90893, "login": "rust-lang-chalk-publish-bot", "name": null,
+          "url": "https://github.com/rust-lang-chalk-publish-bot"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Chalk developers", "Rust Compiler Team"]},
+      "users": []
+    },
+    "crate": "chalk-derive", "crate_size": 3458,
+    "created_at": "2020-12-06T21:36:43.239283+00:00",
+    "dependencies": [
+      {
+        "crate_id": "proc-macro2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1901674, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 312580
+      },
+      {
+        "crate_id": "quote", "default_features": true, "downloads": 0,
+        "features": [], "id": 1901675, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 312580
+      },
+      {
+        "crate_id": "syn", "default_features": true, "downloads": 0,
+        "features": ["full"], "id": 1901676, "kind": "normal",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 312580
+      },
+      {
+        "crate_id": "synstructure", "default_features": true,
+        "downloads": 0, "features": [], "id": 1901677, "kind": "normal",
+        "optional": false, "req": "^0.12", "target": null,
+        "version_id": 312580
+      }
+    ],
+    "dl_path": "/api/v1/crates/chalk-derive/0.43.0/download",
+    "downloads": 5, "features": {}, "id": 312580,
+    "license": "Apache-2.0/MIT",
+    "links": {
+      "authors": "/api/v1/crates/chalk-derive/0.43.0/authors",
+      "dependencies": "/api/v1/crates/chalk-derive/0.43.0/dependencies",
+      "version_downloads": "/api/v1/crates/chalk-derive/0.43.0/downloads"
+    },
+    "num": "0.43.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/66009955?v=4",
+      "id": 90893, "login": "rust-lang-chalk-publish-bot", "name": null,
+      "url": "https://github.com/rust-lang-chalk-publish-bot"
+    },
+    "readme_path": "/api/v1/crates/chalk-derive/0.43.0/readme",
+    "updated_at": "2020-12-06T21:36:43.239283+00:00", "yanked": false
   }
 ]
