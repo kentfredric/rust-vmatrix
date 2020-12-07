@@ -168,7 +168,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/android_logger/0.2.4/download",
-    "downloads": 1210, "features": {}, "id": 48264,
+    "downloads": 1211, "features": {}, "id": 48264,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/android_logger/0.2.4/authors",
@@ -198,7 +198,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/android_logger/0.3.0/download",
-    "downloads": 1605, "features": {}, "id": 50588,
+    "downloads": 1607, "features": {}, "id": 50588,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/android_logger/0.3.0/authors",
@@ -333,7 +333,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/android_logger/0.5.3/download",
-    "downloads": 50849, "features": {}, "id": 92157,
+    "downloads": 50965, "features": {}, "id": 92157,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/android_logger/0.5.3/authors",
@@ -368,7 +368,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/android_logger/0.6.0/download",
-    "downloads": 4186, "features": {}, "id": 101828,
+    "downloads": 4187, "features": {}, "id": 101828,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/android_logger/0.6.0/authors",
@@ -403,7 +403,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/android_logger/0.7.0/download",
-    "downloads": 39571, "features": {}, "id": 120358,
+    "downloads": 39583, "features": {}, "id": 120358,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/android_logger/0.7.0/authors",
@@ -668,7 +668,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/android_logger/0.8.5/download",
-    "downloads": 13283,
+    "downloads": 13285,
     "features": {"default": ["regex"], "regex": ["env_logger/regex"]},
     "id": 174401, "license": "MIT OR Apache-2.0",
     "links": {
@@ -714,7 +714,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/android_logger/0.8.6/download",
-    "downloads": 140078,
+    "downloads": 141118,
     "features": {"default": ["regex"], "regex": ["env_logger/regex"]},
     "id": 188399, "license": "MIT OR Apache-2.0",
     "links": {
@@ -769,7 +769,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/android_logger/0.9.0/download",
-    "downloads": 21642,
+    "downloads": 23627,
     "features": {"default": ["regex"], "regex": ["env_logger/regex"]},
     "id": 264450, "license": "MIT OR Apache-2.0",
     "links": {
@@ -824,7 +824,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/android_logger/0.9.1/download",
-    "downloads": 1,
+    "downloads": 360,
     "features": {"default": ["regex"], "regex": ["env_logger/regex"]},
     "id": 311800, "license": "MIT OR Apache-2.0",
     "links": {
@@ -840,5 +840,60 @@
     },
     "readme_path": "/api/v1/crates/android_logger/0.9.1/readme",
     "updated_at": "2020-12-03T20:29:30.201342+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-12-07T10:44:39.746568+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/106180?v=4",
+          "id": 440, "login": "Nercury", "name": "Nerijus Arlauskas",
+          "url": "https://github.com/Nercury"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["The android_logger Developers"]}, "users": []},
+    "crate": "android_logger", "crate_size": 10154,
+    "created_at": "2020-12-07T10:44:39.746568+00:00",
+    "dependencies": [
+      {
+        "crate_id": "android_log-sys", "default_features": true,
+        "downloads": 0, "features": [], "id": 1902664, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 312730
+      },
+      {
+        "crate_id": "env_logger", "default_features": false, "downloads": 0,
+        "features": [], "id": 1902665, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 312730
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1902666, "kind": "normal", "optional": false,
+        "req": "^1.4", "target": null, "version_id": 312730
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1902667, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 312730
+      }
+    ],
+    "dl_path": "/api/v1/crates/android_logger/0.9.2/download",
+    "downloads": 7,
+    "features": {"default": ["regex"], "regex": ["env_logger/regex"]},
+    "id": 312730, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/android_logger/0.9.2/authors",
+      "dependencies": "/api/v1/crates/android_logger/0.9.2/dependencies",
+      "version_downloads": "/api/v1/crates/android_logger/0.9.2/downloads"
+    },
+    "num": "0.9.2",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/106180?v=4",
+      "id": 440, "login": "Nercury", "name": "Nerijus Arlauskas",
+      "url": "https://github.com/Nercury"
+    },
+    "readme_path": "/api/v1/crates/android_logger/0.9.2/readme",
+    "updated_at": "2020-12-07T10:44:39.746568+00:00", "yanked": false
   }
 ]
