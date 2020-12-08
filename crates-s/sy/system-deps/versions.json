@@ -66,7 +66,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/system-deps/1.1.0/download",
-    "downloads": 41, "features": {}, "id": 253938,
+    "downloads": 45, "features": {}, "id": 253938,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/system-deps/1.1.0/authors",
@@ -149,7 +149,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/system-deps/1.2.0/download",
-    "downloads": 49, "features": {}, "id": 253943,
+    "downloads": 53, "features": {}, "id": 253943,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/system-deps/1.2.0/authors",
@@ -232,7 +232,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/system-deps/1.3.0/download",
-    "downloads": 48, "features": {}, "id": 254869,
+    "downloads": 52, "features": {}, "id": 254869,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/system-deps/1.3.0/authors",
@@ -315,7 +315,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/system-deps/1.3.1/download",
-    "downloads": 4649, "features": {}, "id": 254875,
+    "downloads": 5000, "features": {}, "id": 254875,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/system-deps/1.3.1/authors",
@@ -403,7 +403,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/system-deps/1.3.2/download",
-    "downloads": 63176, "features": {}, "id": 260994,
+    "downloads": 85791, "features": {}, "id": 260994,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/system-deps/1.3.2/authors",
@@ -491,7 +491,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/system-deps/2.0.0/download",
-    "downloads": 219, "features": {}, "id": 300382,
+    "downloads": 227, "features": {}, "id": 300382,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/system-deps/2.0.0/authors",
@@ -579,7 +579,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/system-deps/2.0.1/download",
-    "downloads": 32, "features": {}, "id": 302353,
+    "downloads": 8814, "features": {}, "id": 302353,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/system-deps/2.0.1/authors",
@@ -594,5 +594,93 @@
     },
     "readme_path": "/api/v1/crates/system-deps/2.0.1/readme",
     "updated_at": "2020-11-06T09:01:16.602986+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-12-08T08:59:58.743595+00:00",
+        "user": {
+          "avatar": "https://avatars2.githubusercontent.com/u/1379524?v=4",
+          "id": 52034, "login": "gdesmott", "name": "Guillaume Desmottes",
+          "url": "https://github.com/gdesmott"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Guillaume Desmottes <guillaume.desmottes@collabora.com>",
+          "Josh Triplett <josh@joshtriplett.org>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "system-deps", "crate_size": 16754,
+    "created_at": "2020-12-08T08:59:58.743595+00:00",
+    "dependencies": [
+      {
+        "crate_id": "heck", "default_features": true, "downloads": 0,
+        "features": [], "id": 1905045, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 313030
+      },
+      {
+        "crate_id": "itertools", "default_features": true, "downloads": 0,
+        "features": [], "id": 1905052, "kind": "dev", "optional": false,
+        "req": "^0.9", "target": null, "version_id": 313030
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1905053, "kind": "dev", "optional": false,
+        "req": "^1", "target": null, "version_id": 313030
+      },
+      {
+        "crate_id": "pkg-config", "default_features": true, "downloads": 0,
+        "features": [], "id": 1905046, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 313030
+      },
+      {
+        "crate_id": "strum", "default_features": true, "downloads": 0,
+        "features": [], "id": 1905047, "kind": "normal", "optional": false,
+        "req": "^0.20", "target": null, "version_id": 313030
+      },
+      {
+        "crate_id": "strum_macros", "default_features": true,
+        "downloads": 0, "features": [], "id": 1905048, "kind": "normal",
+        "optional": false, "req": "^0.20", "target": null,
+        "version_id": 313030
+      },
+      {
+        "crate_id": "thiserror", "default_features": true, "downloads": 0,
+        "features": [], "id": 1905049, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 313030
+      },
+      {
+        "crate_id": "toml", "default_features": false, "downloads": 0,
+        "features": [], "id": 1905050, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 313030
+      },
+      {
+        "crate_id": "version-compare", "default_features": true,
+        "downloads": 0, "features": [], "id": 1905051, "kind": "normal",
+        "optional": false, "req": "^0.0.11", "target": null,
+        "version_id": 313030
+      }
+    ],
+    "dl_path": "/api/v1/crates/system-deps/2.0.2/download",
+    "downloads": 0, "features": {}, "id": 313030,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/system-deps/2.0.2/authors",
+      "dependencies": "/api/v1/crates/system-deps/2.0.2/dependencies",
+      "version_downloads": "/api/v1/crates/system-deps/2.0.2/downloads"
+    },
+    "num": "2.0.2",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/1379524?v=4",
+      "id": 52034, "login": "gdesmott", "name": "Guillaume Desmottes",
+      "url": "https://github.com/gdesmott"
+    },
+    "readme_path": "/api/v1/crates/system-deps/2.0.2/readme",
+    "updated_at": "2020-12-08T08:59:58.743595+00:00", "yanked": false
   }
 ]
