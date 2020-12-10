@@ -1158,7 +1158,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/net2/0.2.20/download",
-    "downloads": 14228,
+    "downloads": 14229,
     "features": {"default": ["duration"], "duration": [], "nightly": []},
     "id": 19708, "license": "MIT/Apache-2.0",
     "links": {
@@ -1447,7 +1447,7 @@
         "req": "^0.2", "target": "cfg(windows)", "version_id": 29716
       }
     ],
-    "dl_path": "/api/v1/crates/net2/0.2.25/download", "downloads": 6783,
+    "dl_path": "/api/v1/crates/net2/0.2.25/download", "downloads": 6784,
     "features": {"default": ["duration"], "duration": [], "nightly": []},
     "id": 29716, "license": "MIT/Apache-2.0",
     "links": {
@@ -1529,7 +1529,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/net2/0.2.26/download",
-    "downloads": 252215,
+    "downloads": 252233,
     "features": {"default": ["duration"], "duration": [], "nightly": []},
     "id": 30094, "license": "MIT/Apache-2.0",
     "links": {
@@ -1611,7 +1611,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/net2/0.2.27/download",
-    "downloads": 67714,
+    "downloads": 67723,
     "features": {"default": ["duration"], "duration": [], "nightly": []},
     "id": 47189, "license": "MIT/Apache-2.0",
     "links": {
@@ -1765,7 +1765,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/net2/0.2.29/download",
-    "downloads": 183606,
+    "downloads": 183623,
     "features": {"default": ["duration"], "duration": [], "nightly": []},
     "id": 52235, "license": "MIT/Apache-2.0",
     "links": {
@@ -1847,7 +1847,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/net2/0.2.30/download",
-    "downloads": 60635,
+    "downloads": 60641,
     "features": {"default": ["duration"], "duration": [], "nightly": []},
     "id": 59916, "license": "MIT/Apache-2.0",
     "links": {
@@ -1929,7 +1929,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/net2/0.2.31/download",
-    "downloads": 682671,
+    "downloads": 682725,
     "features": {"default": ["duration"], "duration": [], "nightly": []},
     "id": 62173, "license": "MIT/Apache-2.0",
     "links": {
@@ -2001,7 +2001,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/net2/0.2.32/download",
-    "downloads": 819569,
+    "downloads": 819670,
     "features": {"default": ["duration"], "duration": [], "nightly": []},
     "id": 82801, "license": "MIT/Apache-2.0",
     "links": {
@@ -2050,7 +2050,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/net2/0.2.33/download",
-    "downloads": 7885999,
+    "downloads": 7888224,
     "features": {"default": ["duration"], "duration": [], "nightly": []},
     "id": 98062, "license": "MIT/Apache-2.0",
     "links": {
@@ -2108,7 +2108,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/net2/0.2.34/download",
-    "downloads": 3091790,
+    "downloads": 3095328,
     "features": {"default": ["duration"], "duration": [], "nightly": []},
     "id": 236809, "license": "MIT/Apache-2.0",
     "links": {
@@ -2171,7 +2171,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/net2/0.2.35/download",
-    "downloads": 1679861,
+    "downloads": 1687917,
     "features": {"default": ["duration"], "duration": [], "nightly": []},
     "id": 280980, "license": "MIT/Apache-2.0",
     "links": {
@@ -2227,7 +2227,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/net2/0.2.36/download",
-    "downloads": 171969,
+    "downloads": 184996,
     "features": {"default": ["duration"], "duration": [], "nightly": []},
     "id": 309718, "license": "MIT/Apache-2.0",
     "links": {
@@ -2243,5 +2243,59 @@
     },
     "readme_path": "/api/v1/crates/net2/0.2.36/readme",
     "updated_at": "2020-11-27T20:11:23.778416+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-12-09T19:13:17.018237+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/1555070?v=4",
+          "id": 83569, "login": "pfmooney", "name": "Patrick Mooney",
+          "url": "https://github.com/pfmooney"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "net2", "crate_size": 21311,
+    "created_at": "2020-12-09T19:13:17.018237+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 1908541, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 313500
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1908542, "kind": "normal", "optional": false,
+        "req": "^0.2.54",
+        "target": "cfg(any(target_os = \"redox\", unix, target_os = \"wasi\"))",
+        "version_id": 313500
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": ["handleapi", "winsock2", "ws2def", "ws2ipdef", "ws2tcpip"],
+        "id": 1908543, "kind": "normal", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 313500
+      }
+    ],
+    "dl_path": "/api/v1/crates/net2/0.2.37/download", "downloads": 2256,
+    "features": {"default": ["duration"], "duration": [], "nightly": []},
+    "id": 313500, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/net2/0.2.37/authors",
+      "dependencies": "/api/v1/crates/net2/0.2.37/dependencies",
+      "version_downloads": "/api/v1/crates/net2/0.2.37/downloads"
+    },
+    "num": "0.2.37",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/1555070?v=4",
+      "id": 83569, "login": "pfmooney", "name": "Patrick Mooney",
+      "url": "https://github.com/pfmooney"
+    },
+    "readme_path": "/api/v1/crates/net2/0.2.37/readme",
+    "updated_at": "2020-12-09T19:13:17.018237+00:00", "yanked": false
   }
 ]
