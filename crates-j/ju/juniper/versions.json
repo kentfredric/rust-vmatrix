@@ -581,7 +581,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/juniper/0.7.0/download",
-    "downloads": 1342,
+    "downloads": 1343,
     "features": {
       "default": ["rustc-serialize"], "expose-test-schema": [],
       "iron-handlers": ["iron", "rustc-serialize"], "nightly": []
@@ -674,7 +674,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/juniper/0.8.0/download",
-    "downloads": 492,
+    "downloads": 493,
     "features": {
       "expose-test-schema": [],
       "iron-handlers": ["iron", "serde_json", "urlencoded"],
@@ -944,7 +944,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/juniper/0.9.1/download",
-    "downloads": 671,
+    "downloads": 672,
     "features": {
       "default": ["chrono", "url", "uuid"], "expose-test-schema": [],
       "nightly": []
@@ -1033,7 +1033,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/juniper/0.9.2/download",
-    "downloads": 22948,
+    "downloads": 22971,
     "features": {
       "default": ["chrono", "url", "uuid"], "expose-test-schema": [],
       "nightly": []
@@ -1122,7 +1122,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/juniper/0.10.0/download",
-    "downloads": 8426,
+    "downloads": 8434,
     "features": {
       "default": ["chrono", "url", "uuid"], "expose-test-schema": [],
       "nightly": []
@@ -1300,7 +1300,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/juniper/0.11.1/download",
-    "downloads": 21429,
+    "downloads": 21455,
     "features": {
       "default": ["chrono", "url", "uuid"], "expose-test-schema": [],
       "nightly": []
@@ -1389,7 +1389,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/juniper/0.12.0/download",
-    "downloads": 8853,
+    "downloads": 8861,
     "features": {"default": ["chrono", "url", "uuid"], "expose-test-schema": []},
     "id": 150864, "license": "BSD-2-Clause",
     "links": {
@@ -1571,7 +1571,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/juniper/0.13.1/download",
-    "downloads": 15781,
+    "downloads": 15797,
     "features": {"default": ["chrono", "url", "uuid"], "expose-test-schema": []},
     "id": 166061, "license": "BSD-2-Clause",
     "links": {
@@ -1755,7 +1755,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/juniper/0.14.1/download",
-    "downloads": 11100,
+    "downloads": 11115,
     "features": {"default": ["chrono", "url", "uuid"], "expose-test-schema": []},
     "id": 184873, "license": "BSD-2-Clause",
     "links": {
@@ -1856,7 +1856,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/juniper/0.14.2/download",
-    "downloads": 81193,
+    "downloads": 81559,
     "features": {"default": ["chrono", "url", "uuid"], "expose-test-schema": []},
     "id": 196904, "license": "BSD-2-Clause",
     "links": {
@@ -2008,7 +2008,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/juniper/0.15.0/download",
-    "downloads": 13,
+    "downloads": 286,
     "features": {
       "default": ["bson", "chrono", "schema-language", "url", "uuid"],
       "expose-test-schema": ["anyhow", "serde_json"],
@@ -2030,5 +2030,163 @@
     },
     "readme_path": "/api/v1/crates/juniper/0.15.0/readme",
     "updated_at": "2020-12-10T05:20:30.590331+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-12-12T19:49:18.522645+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/368904?v=4",
+          "id": 7260, "login": "LegNeato", "name": "Christian Legnitto",
+          "url": "https://github.com/LegNeato"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Christian Legnitto <christian@legnitto.com>",
+          "Christoph Herzog <chris@theduke.at>",
+          "Magnus Hallin <mhallin@fastmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "juniper", "crate_size": 168215,
+    "created_at": "2020-12-12T19:49:18.522645+00:00",
+    "dependencies": [
+      {
+        "crate_id": "async-trait", "default_features": true, "downloads": 0,
+        "features": [], "id": 1915890, "kind": "normal", "optional": false,
+        "req": "^0.1.39", "target": null, "version_id": 314375
+      },
+      {
+        "crate_id": "bencher", "default_features": true, "downloads": 0,
+        "features": [], "id": 1915905, "kind": "dev", "optional": false,
+        "req": "^0.1.2", "target": null, "version_id": 314375
+      },
+      {
+        "crate_id": "fnv", "default_features": true, "downloads": 0,
+        "features": [], "id": 1915894, "kind": "normal", "optional": false,
+        "req": "^1.0.3", "target": null, "version_id": 314375
+      },
+      {
+        "crate_id": "futures", "default_features": false, "downloads": 0,
+        "features": ["alloc"], "id": 1915895, "kind": "normal",
+        "optional": false, "req": "^0.3.1", "target": null,
+        "version_id": 314375
+      },
+      {
+        "crate_id": "futures-enum", "default_features": false,
+        "downloads": 0, "features": [], "id": 1915896, "kind": "normal",
+        "optional": false, "req": "^0.1.12", "target": null,
+        "version_id": 314375
+      },
+      {
+        "crate_id": "indexmap", "default_features": true, "downloads": 0,
+        "features": ["serde-1"], "id": 1915898, "kind": "normal",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 314375
+      },
+      {
+        "crate_id": "juniper_codegen", "default_features": true,
+        "downloads": 0, "features": [], "id": 1915899, "kind": "normal",
+        "optional": false, "req": "^0.15.1", "target": null,
+        "version_id": 314375
+      },
+      {
+        "crate_id": "pretty_assertions", "default_features": true,
+        "downloads": 0, "features": [], "id": 1915906, "kind": "dev",
+        "optional": false, "req": "^0.6.1", "target": null,
+        "version_id": 314375
+      },
+      {
+        "crate_id": "serde", "default_features": false, "downloads": 0,
+        "features": ["derive"], "id": 1915900, "kind": "normal",
+        "optional": false, "req": "^1.0.8", "target": null,
+        "version_id": 314375
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1915907, "kind": "dev", "optional": false,
+        "req": "^1.0.2", "target": null, "version_id": 314375
+      },
+      {
+        "crate_id": "static_assertions", "default_features": true,
+        "downloads": 0, "features": [], "id": 1915902, "kind": "normal",
+        "optional": false, "req": "^1.1", "target": null,
+        "version_id": 314375
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["macros", "rt-core", "time"], "id": 1915908,
+        "kind": "dev", "optional": false, "req": "^0.2", "target": null,
+        "version_id": 314375
+      },
+      {
+        "crate_id": "anyhow", "default_features": false, "downloads": 0,
+        "features": [], "id": 1915889, "kind": "normal", "optional": true,
+        "req": "^1.0.32", "target": null, "version_id": 314375
+      },
+      {
+        "crate_id": "bson", "default_features": true, "downloads": 0,
+        "features": [], "id": 1915891, "kind": "normal", "optional": true,
+        "req": "^1.0", "target": null, "version_id": 314375
+      },
+      {
+        "crate_id": "chrono", "default_features": false, "downloads": 0,
+        "features": [], "id": 1915892, "kind": "normal", "optional": true,
+        "req": "^0.4", "target": null, "version_id": 314375
+      },
+      {
+        "crate_id": "chrono-tz", "default_features": false, "downloads": 0,
+        "features": [], "id": 1915893, "kind": "normal", "optional": true,
+        "req": "^0.5", "target": null, "version_id": 314375
+      },
+      {
+        "crate_id": "graphql-parser", "default_features": true,
+        "downloads": 0, "features": [], "id": 1915897, "kind": "normal",
+        "optional": true, "req": "^0.3", "target": null,
+        "version_id": 314375
+      },
+      {
+        "crate_id": "serde_json", "default_features": false, "downloads": 0,
+        "features": [], "id": 1915901, "kind": "normal", "optional": true,
+        "req": "^1.0.2", "target": null, "version_id": 314375
+      },
+      {
+        "crate_id": "url", "default_features": true, "downloads": 0,
+        "features": [], "id": 1915903, "kind": "normal", "optional": true,
+        "req": "^2.0", "target": null, "version_id": 314375
+      },
+      {
+        "crate_id": "uuid", "default_features": false, "downloads": 0,
+        "features": [], "id": 1915904, "kind": "normal", "optional": true,
+        "req": "^0.8", "target": null, "version_id": 314375
+      }
+    ],
+    "dl_path": "/api/v1/crates/juniper/0.15.1/download",
+    "downloads": 17,
+    "features": {
+      "default": ["bson", "chrono", "schema-language", "url", "uuid"],
+      "expose-test-schema": ["anyhow", "serde_json"],
+      "graphql-parser-integration": ["graphql-parser"],
+      "scalar-naivetime": [],
+      "schema-language": ["graphql-parser-integration"]
+    },
+    "id": 314375, "license": "BSD-2-Clause",
+    "links": {
+      "authors": "/api/v1/crates/juniper/0.15.1/authors",
+      "dependencies": "/api/v1/crates/juniper/0.15.1/dependencies",
+      "version_downloads": "/api/v1/crates/juniper/0.15.1/downloads"
+    },
+    "num": "0.15.1",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/368904?v=4",
+      "id": 7260, "login": "LegNeato", "name": "Christian Legnitto",
+      "url": "https://github.com/LegNeato"
+    },
+    "readme_path": "/api/v1/crates/juniper/0.15.1/readme",
+    "updated_at": "2020-12-12T19:49:18.522645+00:00", "yanked": false
   }
 ]
