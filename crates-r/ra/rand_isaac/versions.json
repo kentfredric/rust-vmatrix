@@ -33,7 +33,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/rand_isaac/0.1.0/download",
-    "downloads": 51202,
+    "downloads": 51918,
     "features": {"serde1": ["serde", "serde_derive", "rand_core/serde1"]},
     "id": 113341, "license": "MIT/Apache-2.0",
     "links": {
@@ -79,7 +79,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/rand_isaac/0.1.1/download",
-    "downloads": 9440201,
+    "downloads": 10083967,
     "features": {"serde1": ["serde", "serde_derive", "rand_core/serde1"]},
     "id": 119631, "license": "MIT/Apache-2.0",
     "links": {
@@ -125,7 +125,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/rand_isaac/0.1.2/download",
-    "downloads": 1347,
+    "downloads": 1366,
     "features": {"serde1": ["serde", "serde_derive", "rand_core/serde1"]},
     "id": 154956, "license": "MIT/Apache-2.0",
     "links": {
@@ -170,7 +170,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/rand_isaac/0.2.0/download",
-    "downloads": 298791,
+    "downloads": 305014,
     "features": {"serde1": ["serde", "rand_core/serde1"]}, "id": 155956,
     "license": "MIT/Apache-2.0",
     "links": {
@@ -186,5 +186,66 @@
     },
     "readme_path": "/api/v1/crates/rand_isaac/0.2.0/readme",
     "updated_at": "2019-06-12T09:17:29.088757+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-12-18T19:46:02.469504+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/134893?v=4",
+          "id": 1234, "login": "dhardy", "name": "Diggory Hardy",
+          "url": "https://github.com/dhardy"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": ["The Rand Project Developers", "The Rust Project Developers"]
+      },
+      "users": []
+    },
+    "crate": "rand_isaac", "crate_size": 16075,
+    "created_at": "2020-12-18T19:46:02.469504+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bincode", "default_features": true, "downloads": 0,
+        "features": [], "id": 1933237, "kind": "dev", "optional": false,
+        "req": "^1.1.4", "target": null, "version_id": 316406
+      },
+      {
+        "crate_id": "rand_core", "default_features": true, "downloads": 0,
+        "features": [], "id": 1933234, "kind": "normal", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 316406
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1933235, "kind": "normal",
+        "optional": true, "req": "^1.0.103", "target": null,
+        "version_id": 316406
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 1933236, "kind": "normal",
+        "optional": true, "req": "^1.0.103", "target": null,
+        "version_id": 316406
+      }
+    ],
+    "dl_path": "/api/v1/crates/rand_isaac/0.3.0/download",
+    "downloads": 0,
+    "features": {"serde1": ["serde", "rand_core/serde1"]}, "id": 316406,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/rand_isaac/0.3.0/authors",
+      "dependencies": "/api/v1/crates/rand_isaac/0.3.0/dependencies",
+      "version_downloads": "/api/v1/crates/rand_isaac/0.3.0/downloads"
+    },
+    "num": "0.3.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/134893?v=4",
+      "id": 1234, "login": "dhardy", "name": "Diggory Hardy",
+      "url": "https://github.com/dhardy"
+    },
+    "readme_path": "/api/v1/crates/rand_isaac/0.3.0/readme",
+    "updated_at": "2020-12-18T19:46:02.469504+00:00", "yanked": false
   }
 ]
