@@ -95,7 +95,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tokio-native-tls/0.1.0/download",
-    "downloads": 234859, "features": {}, "id": 227450, "license": "MIT",
+    "downloads": 355604, "features": {}, "id": 227450, "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/tokio-native-tls/0.1.0/authors",
       "dependencies": "/api/v1/crates/tokio-native-tls/0.1.0/dependencies",
@@ -206,7 +206,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tokio-native-tls/0.2.0/download",
-    "downloads": 1115, "features": {}, "id": 294540, "license": "MIT",
+    "downloads": 11492, "features": {}, "id": 294540, "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/tokio-native-tls/0.2.0/authors",
       "dependencies": "/api/v1/crates/tokio-native-tls/0.2.0/dependencies",
@@ -220,5 +220,116 @@
     },
     "readme_path": "/api/v1/crates/tokio-native-tls/0.2.0/readme",
     "updated_at": "2020-10-16T15:03:10.944321+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-12-24T17:24:10.790373+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/5758045?v=4",
+          "id": 3959, "login": "LucioFranco", "name": "Lucio Franco",
+          "url": "https://github.com/LucioFranco"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Tokio Contributors <team@tokio.rs>"]},
+      "users": []
+    },
+    "crate": "tokio-native-tls", "crate_size": 20759,
+    "created_at": "2020-12-24T17:24:10.790373+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 1948969, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 318528
+      },
+      {
+        "crate_id": "env_logger", "default_features": false, "downloads": 0,
+        "features": [], "id": 1948970, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 318528
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": ["async-await"], "id": 1948971, "kind": "dev",
+        "optional": false, "req": "^0.3.0", "target": null,
+        "version_id": 318528
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 1948972, "kind": "dev", "optional": false,
+        "req": "^1.4.0", "target": null, "version_id": 318528
+      },
+      {
+        "crate_id": "native-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1948967, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 318528
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": [], "id": 1948976, "kind": "dev", "optional": false,
+        "req": "^0.10",
+        "target": "cfg(all(not(target_os = \"macos\"), not(windows), not(target_os = \"ios\")))",
+        "version_id": 318528
+      },
+      {
+        "crate_id": "schannel", "default_features": true, "downloads": 0,
+        "features": [], "id": 1948978, "kind": "dev", "optional": false,
+        "req": "^0.1", "target": "cfg(windows)", "version_id": 318528
+      },
+      {
+        "crate_id": "security-framework", "default_features": true,
+        "downloads": 0, "features": [], "id": 1948977, "kind": "dev",
+        "optional": false, "req": "^0.2",
+        "target": "cfg(any(target_os = \"macos\", target_os = \"ios\"))",
+        "version_id": 318528
+      },
+      {
+        "crate_id": "tempfile", "default_features": true, "downloads": 0,
+        "features": [], "id": 1948973, "kind": "dev", "optional": false,
+        "req": "^3.1", "target": null, "version_id": 318528
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["macros", "rt", "rt-multi-thread", "io-util", "net"],
+        "id": 1948974, "kind": "dev", "optional": false, "req": "^1.0",
+        "target": null, "version_id": 318528
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 1948968, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 318528
+      },
+      {
+        "crate_id": "tokio-util", "default_features": true, "downloads": 0,
+        "features": ["full"], "id": 1948975, "kind": "dev",
+        "optional": false, "req": "^0.6.0", "target": null,
+        "version_id": 318528
+      },
+      {
+        "crate_id": "winapi", "default_features": true, "downloads": 0,
+        "features": [
+          "lmcons", "basetsd", "minwinbase", "minwindef", "ntdef",
+          "sysinfoapi", "timezoneapi", "wincrypt", "winerror"
+        ],
+        "id": 1948979, "kind": "dev", "optional": false, "req": "^0.3",
+        "target": "cfg(windows)", "version_id": 318528
+      }
+    ],
+    "dl_path": "/api/v1/crates/tokio-native-tls/0.3.0/download",
+    "downloads": 8, "features": {}, "id": 318528, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tokio-native-tls/0.3.0/authors",
+      "dependencies": "/api/v1/crates/tokio-native-tls/0.3.0/dependencies",
+      "version_downloads": "/api/v1/crates/tokio-native-tls/0.3.0/downloads"
+    },
+    "num": "0.3.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/5758045?v=4",
+      "id": 3959, "login": "LucioFranco", "name": "Lucio Franco",
+      "url": "https://github.com/LucioFranco"
+    },
+    "readme_path": "/api/v1/crates/tokio-native-tls/0.3.0/readme",
+    "updated_at": "2020-12-24T17:24:10.790373+00:00", "yanked": false
   }
 ]
