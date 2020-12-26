@@ -126,7 +126,7 @@
         "version_id": 155028
       }
     ],
-    "dl_path": "/api/v1/crates/glow/0.2.0/download", "downloads": 386,
+    "dl_path": "/api/v1/crates/glow/0.2.0/download", "downloads": 387,
     "features": {"default": []}, "id": 155028,
     "license": "MIT OR Apache-2.0",
     "links": {
@@ -354,7 +354,7 @@
         "version_id": 169558
       }
     ],
-    "dl_path": "/api/v1/crates/glow/0.2.3/download", "downloads": 3107,
+    "dl_path": "/api/v1/crates/glow/0.2.3/download", "downloads": 3113,
     "features": {"default": []}, "id": 169558,
     "license": "MIT OR Apache-2.0",
     "links": {
@@ -509,7 +509,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/glow/0.3.0-alpha2/download",
-    "downloads": 434, "features": {"default": []}, "id": 172732,
+    "downloads": 435, "features": {"default": []}, "id": 172732,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/glow/0.3.0-alpha2/authors",
@@ -598,7 +598,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/glow/0.3.0-alpha3/download",
-    "downloads": 1281,
+    "downloads": 1287,
     "features": {
       "default": ["web-sys"], "stdweb": ["std_web", "webgl_stdweb"],
       "web-sys": ["web_sys", "js-sys", "wasm-bindgen"]
@@ -703,7 +703,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/glow/0.3.0-alpha4/download",
-    "downloads": 4942,
+    "downloads": 5039,
     "features": {
       "default": ["web-sys"], "stdweb": ["std_web", "webgl_stdweb"],
       "web-sys": ["web_sys", "js-sys", "wasm-bindgen"]
@@ -816,7 +816,7 @@
         "target": "cfg(target_arch = \"wasm32\")", "version_id": 198178
       }
     ],
-    "dl_path": "/api/v1/crates/glow/0.4.0/download", "downloads": 28455,
+    "dl_path": "/api/v1/crates/glow/0.4.0/download", "downloads": 28702,
     "features": {
       "default": ["web-sys"], "stdweb": ["std_web", "webgl_stdweb"],
       "web-sys": ["web_sys", "js-sys", "wasm-bindgen"]
@@ -1055,7 +1055,7 @@
         "target": "cfg(target_arch = \"wasm32\")", "version_id": 258544
       }
     ],
-    "dl_path": "/api/v1/crates/glow/0.5.0/download", "downloads": 11088,
+    "dl_path": "/api/v1/crates/glow/0.5.0/download", "downloads": 11112,
     "features": {
       "default": ["web-sys"], "stdweb": ["std_web", "webgl_stdweb"],
       "web-sys": ["web_sys", "js-sys", "wasm-bindgen"]
@@ -1167,7 +1167,7 @@
         "target": "cfg(target_arch = \"wasm32\")", "version_id": 280161
       }
     ],
-    "dl_path": "/api/v1/crates/glow/0.6.0/download", "downloads": 1324,
+    "dl_path": "/api/v1/crates/glow/0.6.0/download", "downloads": 1344,
     "features": {
       "default": ["web-sys"], "stdweb": ["std_web", "webgl_stdweb"],
       "web-sys": ["web_sys", "js-sys", "wasm-bindgen"]
@@ -1279,7 +1279,7 @@
         "target": "cfg(target_arch = \"wasm32\")", "version_id": 293652
       }
     ],
-    "dl_path": "/api/v1/crates/glow/0.6.1/download", "downloads": 15616,
+    "dl_path": "/api/v1/crates/glow/0.6.1/download", "downloads": 17114,
     "features": {
       "default": ["web-sys"], "stdweb": ["std_web", "webgl_stdweb"],
       "web-sys": ["web_sys", "js-sys", "wasm-bindgen"]
@@ -1379,7 +1379,7 @@
         "target": "cfg(target_arch = \"wasm32\")", "version_id": 317113
       }
     ],
-    "dl_path": "/api/v1/crates/glow/0.7.0/download", "downloads": 2,
+    "dl_path": "/api/v1/crates/glow/0.7.0/download", "downloads": 49,
     "features": {
       "default": ["web-sys"],
       "web-sys": ["web_sys", "js-sys", "wasm-bindgen"]
@@ -1398,5 +1398,105 @@
     },
     "readme_path": "/api/v1/crates/glow/0.7.0/readme",
     "updated_at": "2020-12-21T11:15:48.877559+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-12-25T09:55:54.082808+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/2113872?v=4",
+          "id": 9941, "login": "grovesNL", "name": "Josh Groves",
+          "url": "https://github.com/grovesNL"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Dzmitry Malyshau <kvarkus@gmail.com>",
+          "Joshua Groves <josh@joshgroves.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "glow", "crate_size": 136377,
+    "created_at": "2020-12-25T09:55:54.082808+00:00",
+    "dependencies": [
+      {
+        "crate_id": "slotmap", "default_features": true, "downloads": 0,
+        "features": [], "id": 1949639, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": "cfg(target_arch = \"wasm32\")",
+        "version_id": 318650
+      },
+      {
+        "crate_id": "glutin", "default_features": true, "downloads": 0,
+        "features": [], "id": 1949636, "kind": "normal", "optional": true,
+        "req": "^0.24", "target": "cfg(not(any(target_arch = \"wasm32\")))",
+        "version_id": 318650
+      },
+      {
+        "crate_id": "js-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1949638, "kind": "normal", "optional": true,
+        "req": "~0.3", "target": "cfg(target_arch = \"wasm32\")",
+        "version_id": 318650
+      },
+      {
+        "crate_id": "sdl2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1949637, "kind": "normal", "optional": true,
+        "req": "^0.34", "target": "cfg(not(any(target_arch = \"wasm32\")))",
+        "version_id": 318650
+      },
+      {
+        "crate_id": "wasm-bindgen", "default_features": true,
+        "downloads": 0, "features": [], "id": 1949640, "kind": "normal",
+        "optional": true, "req": "~0.2",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 318650
+      },
+      {
+        "crate_id": "web-sys", "default_features": true, "downloads": 0,
+        "features": [
+          "Document", "Element", "HtmlCanvasElement", "HtmlImageElement",
+          "ImageBitmap", "WebGlActiveInfo", "WebGlBuffer", "WebGlFramebuffer",
+          "WebGlProgram", "WebGlQuery", "WebGlRenderbuffer",
+          "WebGlRenderingContext", "WebGl2RenderingContext", "WebGlSampler",
+          "WebGlShader", "WebGlSync", "WebGlTexture",
+          "WebGlTransformFeedback", "WebGlUniformLocation",
+          "WebGlVertexArrayObject", "Window", "AngleInstancedArrays",
+          "ExtBlendMinmax", "ExtColorBufferFloat", "ExtColorBufferHalfFloat",
+          "ExtDisjointTimerQuery", "ExtFragDepth", "ExtShaderTextureLod",
+          "ExtSRgb", "ExtTextureFilterAnisotropic", "OesElementIndexUint",
+          "OesStandardDerivatives", "OesTextureFloat",
+          "OesTextureFloatLinear", "OesTextureHalfFloat",
+          "OesTextureHalfFloatLinear", "OesVertexArrayObject",
+          "WebglColorBufferFloat", "WebglCompressedTextureAstc",
+          "WebglCompressedTextureEtc", "WebglCompressedTextureEtc1",
+          "WebglCompressedTexturePvrtc", "WebglCompressedTextureS3tc",
+          "WebglCompressedTextureS3tcSrgb", "WebglDebugRendererInfo",
+          "WebglDebugShaders", "WebglDepthTexture", "WebglDrawBuffers",
+          "WebglLoseContext"
+        ],
+        "id": 1949641, "kind": "normal", "optional": true, "req": "~0.3.37",
+        "target": "cfg(target_arch = \"wasm32\")", "version_id": 318650
+      }
+    ],
+    "dl_path": "/api/v1/crates/glow/0.7.1/download", "downloads": 0,
+    "features": {
+      "default": ["web-sys"],
+      "web-sys": ["web_sys", "js-sys", "wasm-bindgen"]
+    },
+    "id": 318650, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/glow/0.7.1/authors",
+      "dependencies": "/api/v1/crates/glow/0.7.1/dependencies",
+      "version_downloads": "/api/v1/crates/glow/0.7.1/downloads"
+    },
+    "num": "0.7.1",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/2113872?v=4",
+      "id": 9941, "login": "grovesNL", "name": "Josh Groves",
+      "url": "https://github.com/grovesNL"
+    },
+    "readme_path": "/api/v1/crates/glow/0.7.1/readme",
+    "updated_at": "2020-12-25T09:55:54.082808+00:00", "yanked": false
   }
 ]
