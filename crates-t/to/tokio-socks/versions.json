@@ -355,7 +355,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tokio-socks/0.2.0/download",
-    "downloads": 19283, "features": {"tor": []}, "id": 200350,
+    "downloads": 19328, "features": {"tor": []}, "id": 200350,
     "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/tokio-socks/0.2.0/authors",
@@ -430,7 +430,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tokio-socks/0.2.1/download",
-    "downloads": 2116, "features": {"tor": []}, "id": 217661,
+    "downloads": 2117, "features": {"tor": []}, "id": 217661,
     "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/tokio-socks/0.2.1/authors",
@@ -505,7 +505,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tokio-socks/0.2.2/download",
-    "downloads": 93237, "features": {"tor": []}, "id": 225268,
+    "downloads": 93413, "features": {"tor": []}, "id": 225268,
     "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/tokio-socks/0.2.2/authors",
@@ -580,7 +580,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tokio-socks/0.3.0/download",
-    "downloads": 11972, "features": {"tor": []}, "id": 262631,
+    "downloads": 12542, "features": {"tor": []}, "id": 262631,
     "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/tokio-socks/0.3.0/authors",
@@ -650,7 +650,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tokio-socks/0.4.0/download",
-    "downloads": 107, "features": {"tor": []}, "id": 299520,
+    "downloads": 108, "features": {"tor": []}, "id": 299520,
     "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/tokio-socks/0.4.0/authors",
@@ -720,7 +720,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tokio-socks/0.5.0/download",
-    "downloads": 4, "features": {"tor": []}, "id": 318412,
+    "downloads": 32, "features": {"tor": []}, "id": 318412,
     "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/tokio-socks/0.5.0/authors",
@@ -735,5 +735,82 @@
     },
     "readme_path": "/api/v1/crates/tokio-socks/0.5.0/readme",
     "updated_at": "2020-12-24T03:12:44.402722+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-12-26T15:16:01.821572+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/17217495?v=4",
+          "id": 9232, "login": "sticnarf", "name": "Yilin Chen",
+          "url": "https://github.com/sticnarf"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["Yilin Chen <sticnarf@gmail.com>"]}, "users": []},
+    "crate": "tokio-socks", "crate_size": 16137,
+    "created_at": "2020-12-26T15:16:01.821572+00:00",
+    "dependencies": [
+      {
+        "crate_id": "either", "default_features": true, "downloads": 0,
+        "features": [], "id": 1951476, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 318956
+      },
+      {
+        "crate_id": "futures-executor", "default_features": true,
+        "downloads": 0, "features": [], "id": 1951480, "kind": "dev",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 318956
+      },
+      {
+        "crate_id": "futures-util", "default_features": false,
+        "downloads": 0, "features": [], "id": 1951477, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 318956
+      },
+      {
+        "crate_id": "hyper", "default_features": true, "downloads": 0,
+        "features": [], "id": 1951481, "kind": "dev", "optional": false,
+        "req": "^0.14", "target": null, "version_id": 318956
+      },
+      {
+        "crate_id": "once_cell", "default_features": true, "downloads": 0,
+        "features": [], "id": 1951482, "kind": "dev", "optional": false,
+        "req": "^1.2.0", "target": null, "version_id": 318956
+      },
+      {
+        "crate_id": "thiserror", "default_features": true, "downloads": 0,
+        "features": [], "id": 1951478, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 318956
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["io-util", "net"], "id": 1951479, "kind": "normal",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 318956
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["io-util", "rt-multi-thread", "net"], "id": 1951483,
+        "kind": "dev", "optional": false, "req": "^1.0", "target": null,
+        "version_id": 318956
+      }
+    ],
+    "dl_path": "/api/v1/crates/tokio-socks/0.5.1/download",
+    "downloads": 2, "features": {"tor": []}, "id": 318956,
+    "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tokio-socks/0.5.1/authors",
+      "dependencies": "/api/v1/crates/tokio-socks/0.5.1/dependencies",
+      "version_downloads": "/api/v1/crates/tokio-socks/0.5.1/downloads"
+    },
+    "num": "0.5.1",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/17217495?v=4",
+      "id": 9232, "login": "sticnarf", "name": "Yilin Chen",
+      "url": "https://github.com/sticnarf"
+    },
+    "readme_path": "/api/v1/crates/tokio-socks/0.5.1/readme",
+    "updated_at": "2020-12-26T15:16:01.821572+00:00", "yanked": false
   }
 ]

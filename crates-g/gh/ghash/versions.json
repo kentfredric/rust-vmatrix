@@ -8,7 +8,7 @@
     "crate": "ghash", "crate_size": null,
     "created_at": "2016-10-06T21:35:47.726226+00:00",
     "dependencies": [],
-    "dl_path": "/api/v1/crates/ghash/0.0.0/download", "downloads": 686,
+    "dl_path": "/api/v1/crates/ghash/0.0.0/download", "downloads": 690,
     "features": {}, "id": 35319, "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/ghash/0.0.0/authors",
@@ -36,7 +36,7 @@
         "req": "^0.1", "target": null, "version_id": 177231
       }
     ],
-    "dl_path": "/api/v1/crates/ghash/0.1.0/download", "downloads": 127,
+    "dl_path": "/api/v1/crates/ghash/0.1.0/download", "downloads": 132,
     "features": {"std": ["polyval/std"]}, "id": 177231,
     "license": "MIT OR Apache-2.0",
     "links": {
@@ -70,7 +70,7 @@
         "req": "^0.2", "target": null, "version_id": 180372
       }
     ],
-    "dl_path": "/api/v1/crates/ghash/0.2.0/download", "downloads": 114,
+    "dl_path": "/api/v1/crates/ghash/0.2.0/download", "downloads": 118,
     "features": {"std": ["polyval/std"]}, "id": 180372,
     "license": "MIT OR Apache-2.0",
     "links": {
@@ -109,7 +109,7 @@
         "req": "^1.0.0-pre", "target": null, "version_id": 180639
       }
     ],
-    "dl_path": "/api/v1/crates/ghash/0.2.1/download", "downloads": 121,
+    "dl_path": "/api/v1/crates/ghash/0.2.1/download", "downloads": 126,
     "features": {"std": ["polyval/std"]}, "id": 180639,
     "license": "MIT OR Apache-2.0",
     "links": {
@@ -148,7 +148,7 @@
         "req": "^1.0.0-pre", "target": null, "version_id": 180772
       }
     ],
-    "dl_path": "/api/v1/crates/ghash/0.2.2/download", "downloads": 3644,
+    "dl_path": "/api/v1/crates/ghash/0.2.2/download", "downloads": 3654,
     "features": {"std": ["polyval/std"]}, "id": 180772,
     "license": "MIT OR Apache-2.0",
     "links": {
@@ -188,7 +188,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/ghash/0.2.3/download",
-    "downloads": 311824, "features": {"std": ["polyval/std"]},
+    "downloads": 370175, "features": {"std": ["polyval/std"]},
     "id": 189773, "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/ghash/0.2.3/authors",
@@ -236,7 +236,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/ghash/0.3.0/download",
-    "downloads": 332675, "features": {"std": ["polyval/std"]},
+    "downloads": 549552, "features": {"std": ["polyval/std"]},
     "id": 249480, "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/ghash/0.3.0/authors",
@@ -251,5 +251,60 @@
     },
     "readme_path": "/api/v1/crates/ghash/0.3.0/readme",
     "updated_at": "2020-06-06T15:35:33.266414+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-12-26T16:56:54.632440+00:00",
+        "user": {
+          "avatar": "https://avatars2.githubusercontent.com/u/797?v=4",
+          "id": 267, "login": "tarcieri", "name": "Tony Arcieri",
+          "url": "https://github.com/tarcieri"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["RustCrypto Developers"]}, "users": []},
+    "crate": "ghash", "crate_size": 8777,
+    "created_at": "2020-12-26T16:56:54.632440+00:00",
+    "dependencies": [
+      {
+        "crate_id": "hex-literal", "default_features": true, "downloads": 0,
+        "features": [], "id": 1951744, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 319002
+      },
+      {
+        "crate_id": "opaque-debug", "default_features": true,
+        "downloads": 0, "features": [], "id": 1951741, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 319002
+      },
+      {
+        "crate_id": "polyval", "default_features": true, "downloads": 0,
+        "features": ["mulx"], "id": 1951742, "kind": "normal",
+        "optional": false, "req": "^0.4.4", "target": null,
+        "version_id": 319002
+      },
+      {
+        "crate_id": "zeroize", "default_features": false, "downloads": 0,
+        "features": [], "id": 1951743, "kind": "normal", "optional": true,
+        "req": "^1", "target": null, "version_id": 319002
+      }
+    ],
+    "dl_path": "/api/v1/crates/ghash/0.3.1/download", "downloads": 77,
+    "features": {"std": ["polyval/std"]}, "id": 319002,
+    "license": "Apache-2.0 OR MIT",
+    "links": {
+      "authors": "/api/v1/crates/ghash/0.3.1/authors",
+      "dependencies": "/api/v1/crates/ghash/0.3.1/dependencies",
+      "version_downloads": "/api/v1/crates/ghash/0.3.1/downloads"
+    },
+    "num": "0.3.1",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/797?v=4",
+      "id": 267, "login": "tarcieri", "name": "Tony Arcieri",
+      "url": "https://github.com/tarcieri"
+    },
+    "readme_path": "/api/v1/crates/ghash/0.3.1/readme",
+    "updated_at": "2020-12-26T16:56:54.632440+00:00", "yanked": false
   }
 ]
