@@ -667,7 +667,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/chalk-engine/0.9.0/download",
-    "downloads": 350250,
+    "downloads": 350324,
     "features": {"default": ["stack_protection"], "stack_protection": ["stacker"]},
     "id": 122859, "license": "Apache-2.0/MIT",
     "links": {
@@ -710,7 +710,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/chalk-engine/0.10.0/download",
-    "downloads": 61538, "features": {"default": []}, "id": 236183,
+    "downloads": 61539, "features": {"default": []}, "id": 236183,
     "license": "Apache-2.0/MIT",
     "links": {
       "authors": "/api/v1/crates/chalk-engine/0.10.0/authors",
@@ -762,7 +762,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/chalk-engine/0.11.0/download",
-    "downloads": 9185, "features": {"default": []}, "id": 248238,
+    "downloads": 9186, "features": {"default": []}, "id": 248238,
     "license": "Apache-2.0/MIT",
     "links": {
       "authors": "/api/v1/crates/chalk-engine/0.11.0/authors",
@@ -871,7 +871,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/chalk-engine/0.14.0/download",
-    "downloads": 89247, "features": {"default": []}, "id": 254344,
+    "downloads": 89332, "features": {"default": []}, "id": 254344,
     "license": "Apache-2.0/MIT",
     "links": {
       "authors": "/api/v1/crates/chalk-engine/0.14.0/authors",
@@ -1295,7 +1295,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/chalk-engine/0.21.0/download",
-    "downloads": 20770, "features": {"default": []}, "id": 269455,
+    "downloads": 20785, "features": {"default": []}, "id": 269455,
     "license": "Apache-2.0/MIT",
     "links": {
       "authors": "/api/v1/crates/chalk-engine/0.21.0/authors",
@@ -1791,7 +1791,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/chalk-engine/0.29.0/download",
-    "downloads": 11278, "features": {"default": []}, "id": 287808,
+    "downloads": 12153, "features": {"default": []}, "id": 287808,
     "license": "Apache-2.0/MIT",
     "links": {
       "authors": "/api/v1/crates/chalk-engine/0.29.0/authors",
@@ -1915,7 +1915,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/chalk-engine/0.31.0/download",
-    "downloads": 2554, "features": {"default": []}, "id": 290171,
+    "downloads": 2555, "features": {"default": []}, "id": 290171,
     "license": "Apache-2.0/MIT",
     "links": {
       "authors": "/api/v1/crates/chalk-engine/0.31.0/authors",
@@ -1977,7 +1977,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/chalk-engine/0.32.0/download",
-    "downloads": 26876, "features": {"default": []}, "id": 291152,
+    "downloads": 26878, "features": {"default": []}, "id": 291152,
     "license": "Apache-2.0/MIT",
     "links": {
       "authors": "/api/v1/crates/chalk-engine/0.32.0/authors",
@@ -2225,7 +2225,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/chalk-engine/0.36.0/download",
-    "downloads": 31977, "features": {"default": []}, "id": 300210,
+    "downloads": 37237, "features": {"default": []}, "id": 300210,
     "license": "Apache-2.0/MIT",
     "links": {
       "authors": "/api/v1/crates/chalk-engine/0.36.0/authors",
@@ -2597,7 +2597,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/chalk-engine/0.45.0/download",
-    "downloads": 4, "features": {"default": []}, "id": 316708,
+    "downloads": 13, "features": {"default": []}, "id": 316708,
     "license": "Apache-2.0/MIT",
     "links": {
       "authors": "/api/v1/crates/chalk-engine/0.45.0/authors",
@@ -2612,5 +2612,67 @@
     },
     "readme_path": "/api/v1/crates/chalk-engine/0.45.0/readme",
     "updated_at": "2020-12-20T01:05:24.749443+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-12-27T01:14:43.919512+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/66009955?v=4",
+          "id": 90893, "login": "rust-lang-chalk-publish-bot", "name": null,
+          "url": "https://github.com/rust-lang-chalk-publish-bot"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Chalk developers", "Rust Compiler Team"]},
+      "users": []
+    },
+    "crate": "chalk-engine", "crate_size": 48802,
+    "created_at": "2020-12-27T01:14:43.919512+00:00",
+    "dependencies": [
+      {
+        "crate_id": "chalk-derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 1952290, "kind": "normal",
+        "optional": false, "req": "=0.46.0", "target": null,
+        "version_id": 319094
+      },
+      {
+        "crate_id": "chalk-ir", "default_features": true, "downloads": 0,
+        "features": [], "id": 1952291, "kind": "normal", "optional": false,
+        "req": "=0.46.0", "target": null, "version_id": 319094
+      },
+      {
+        "crate_id": "chalk-solve", "default_features": true, "downloads": 0,
+        "features": [], "id": 1952292, "kind": "normal", "optional": false,
+        "req": "=0.46.0", "target": null, "version_id": 319094
+      },
+      {
+        "crate_id": "rustc-hash", "default_features": true, "downloads": 0,
+        "features": [], "id": 1952293, "kind": "normal", "optional": false,
+        "req": "^1.1.0", "target": null, "version_id": 319094
+      },
+      {
+        "crate_id": "tracing", "default_features": true, "downloads": 0,
+        "features": [], "id": 1952294, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 319094
+      }
+    ],
+    "dl_path": "/api/v1/crates/chalk-engine/0.46.0/download",
+    "downloads": 4, "features": {"default": []}, "id": 319094,
+    "license": "Apache-2.0/MIT",
+    "links": {
+      "authors": "/api/v1/crates/chalk-engine/0.46.0/authors",
+      "dependencies": "/api/v1/crates/chalk-engine/0.46.0/dependencies",
+      "version_downloads": "/api/v1/crates/chalk-engine/0.46.0/downloads"
+    },
+    "num": "0.46.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/66009955?v=4",
+      "id": 90893, "login": "rust-lang-chalk-publish-bot", "name": null,
+      "url": "https://github.com/rust-lang-chalk-publish-bot"
+    },
+    "readme_path": "/api/v1/crates/chalk-engine/0.46.0/readme",
+    "updated_at": "2020-12-27T01:14:43.919512+00:00", "yanked": false
   }
 ]
