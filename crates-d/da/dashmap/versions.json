@@ -2941,7 +2941,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/dashmap/3.5.0/download",
-    "downloads": 2199, "features": {"raw-api": []}, "id": 214485,
+    "downloads": 2202, "features": {"raw-api": []}, "id": 214485,
     "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/dashmap/3.5.0/authors",
@@ -3202,7 +3202,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/dashmap/3.7.0/download",
-    "downloads": 20572, "features": {"raw-api": []}, "id": 220097,
+    "downloads": 20573, "features": {"raw-api": []}, "id": 220097,
     "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/dashmap/3.7.0/authors",
@@ -3852,7 +3852,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/dashmap/3.11.1/download",
-    "downloads": 81288,
+    "downloads": 81354,
     "features": {"default": [], "no_std": ["hashbrown"], "raw-api": []},
     "id": 232706, "license": "MIT",
     "links": {
@@ -3945,7 +3945,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/dashmap/3.11.2/download",
-    "downloads": 7901,
+    "downloads": 7906,
     "features": {"default": [], "no_std": ["hashbrown"], "raw-api": []},
     "id": 244857, "license": "MIT",
     "links": {
@@ -4131,7 +4131,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/dashmap/3.11.4/download",
-    "downloads": 54618,
+    "downloads": 54619,
     "features": {"default": [], "no_std": ["hashbrown"], "raw-api": []},
     "id": 248147, "license": "MIT",
     "links": {
@@ -4373,7 +4373,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/dashmap/3.11.7/download",
-    "downloads": 30311,
+    "downloads": 30315,
     "features": {"default": [], "no_std": ["hashbrown"], "raw-api": []},
     "id": 259097, "license": "MIT",
     "links": {
@@ -4557,7 +4557,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/dashmap/3.11.10/download",
-    "downloads": 351158,
+    "downloads": 352752,
     "features": {"default": [], "no_std": ["hashbrown"], "raw-api": []},
     "id": 269411, "license": "MIT",
     "links": {
@@ -4837,7 +4837,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/dashmap/4.0.0-rc5/download",
-    "downloads": 24076, "features": {}, "id": 247701, "license": "MIT",
+    "downloads": 24112, "features": {}, "id": 247701, "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/dashmap/4.0.0-rc5/authors",
       "dependencies": "/api/v1/crates/dashmap/4.0.0-rc5/dependencies",
@@ -4882,7 +4882,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/dashmap/4.0.0-rc6/download",
-    "downloads": 38091, "features": {}, "id": 250420, "license": "MIT",
+    "downloads": 38656, "features": {}, "id": 250420, "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/dashmap/4.0.0-rc6/authors",
       "dependencies": "/api/v1/crates/dashmap/4.0.0-rc6/dependencies",
@@ -4937,7 +4937,7 @@
         "version_id": 318788
       }
     ],
-    "dl_path": "/api/v1/crates/dashmap/4.0.0/download", "downloads": 11,
+    "dl_path": "/api/v1/crates/dashmap/4.0.0/download", "downloads": 98,
     "features": {"default": [], "raw-api": []}, "id": 318788,
     "license": "MIT",
     "links": {
@@ -4953,5 +4953,62 @@
     },
     "readme_path": "/api/v1/crates/dashmap/4.0.0/readme",
     "updated_at": "2020-12-25T23:51:48.795524+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-12-26T23:34:01.749895+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/21025159?v=4",
+          "id": 19646, "login": "xacrimon", "name": "Acrimon",
+          "url": "https://github.com/xacrimon"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Acrimon <joel.wejdenstal@gmail.com>"]},
+      "users": []
+    },
+    "crate": "dashmap", "crate_size": 21048,
+    "created_at": "2020-12-26T23:34:01.749895+00:00",
+    "dependencies": [
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 1952211, "kind": "normal", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 319080
+      },
+      {
+        "crate_id": "num_cpus", "default_features": true, "downloads": 0,
+        "features": [], "id": 1952212, "kind": "normal", "optional": false,
+        "req": "^1.13.0", "target": null, "version_id": 319080
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 1952213, "kind": "normal", "optional": true,
+        "req": "^1.5.0", "target": null, "version_id": 319080
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1952214, "kind": "normal",
+        "optional": true, "req": "^1.0.118", "target": null,
+        "version_id": 319080
+      }
+    ],
+    "dl_path": "/api/v1/crates/dashmap/4.0.1/download", "downloads": 13,
+    "features": {"default": [], "raw-api": []}, "id": 319080,
+    "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/dashmap/4.0.1/authors",
+      "dependencies": "/api/v1/crates/dashmap/4.0.1/dependencies",
+      "version_downloads": "/api/v1/crates/dashmap/4.0.1/downloads"
+    },
+    "num": "4.0.1",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/21025159?v=4",
+      "id": 19646, "login": "xacrimon", "name": "Acrimon",
+      "url": "https://github.com/xacrimon"
+    },
+    "readme_path": "/api/v1/crates/dashmap/4.0.1/readme",
+    "updated_at": "2020-12-26T23:34:01.749895+00:00", "yanked": false
   }
 ]

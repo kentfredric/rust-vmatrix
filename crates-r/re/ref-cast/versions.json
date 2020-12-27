@@ -404,7 +404,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/ref-cast/1.0.2/download",
-    "downloads": 249731, "features": {}, "id": 252936,
+    "downloads": 249819, "features": {}, "id": 252936,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/ref-cast/1.0.2/authors",
@@ -457,7 +457,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/ref-cast/1.0.3/download",
-    "downloads": 71902, "features": {}, "id": 299959,
+    "downloads": 71943, "features": {}, "id": 299959,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/ref-cast/1.0.3/authors",
@@ -509,8 +509,9 @@
         "version_id": 319067
       }
     ],
-    "dl_path": "/api/v1/crates/ref-cast/1.0.4/download", "downloads": 3,
-    "features": {}, "id": 319067, "license": "MIT OR Apache-2.0",
+    "dl_path": "/api/v1/crates/ref-cast/1.0.4/download",
+    "downloads": 17, "features": {}, "id": 319067,
+    "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/ref-cast/1.0.4/authors",
       "dependencies": "/api/v1/crates/ref-cast/1.0.4/dependencies",
@@ -524,5 +525,58 @@
     },
     "readme_path": "/api/v1/crates/ref-cast/1.0.4/readme",
     "updated_at": "2020-12-26T22:23:02.381270+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-12-27T01:22:37.552068+00:00",
+        "user": {
+          "avatar": "https://avatars2.githubusercontent.com/u/1940490?v=4",
+          "id": 3618, "login": "dtolnay", "name": "David Tolnay",
+          "url": "https://github.com/dtolnay"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["David Tolnay <dtolnay@gmail.com>"]},
+      "users": []
+    },
+    "crate": "ref-cast", "crate_size": 10009,
+    "created_at": "2020-12-27T01:22:37.552068+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ref-cast-impl", "default_features": true,
+        "downloads": 0, "features": [], "id": 1952305, "kind": "normal",
+        "optional": false, "req": "=1.0.5", "target": null,
+        "version_id": 319098
+      },
+      {
+        "crate_id": "rustversion", "default_features": true, "downloads": 0,
+        "features": [], "id": 1952306, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 319098
+      },
+      {
+        "crate_id": "trybuild", "default_features": true, "downloads": 0,
+        "features": ["diff"], "id": 1952307, "kind": "dev",
+        "optional": false, "req": "^1.0.32", "target": null,
+        "version_id": 319098
+      }
+    ],
+    "dl_path": "/api/v1/crates/ref-cast/1.0.5/download",
+    "downloads": 19, "features": {}, "id": 319098,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/ref-cast/1.0.5/authors",
+      "dependencies": "/api/v1/crates/ref-cast/1.0.5/dependencies",
+      "version_downloads": "/api/v1/crates/ref-cast/1.0.5/downloads"
+    },
+    "num": "1.0.5",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/1940490?v=4",
+      "id": 3618, "login": "dtolnay", "name": "David Tolnay",
+      "url": "https://github.com/dtolnay"
+    },
+    "readme_path": "/api/v1/crates/ref-cast/1.0.5/readme",
+    "updated_at": "2020-12-27T01:22:37.552068+00:00", "yanked": false
   }
 ]
