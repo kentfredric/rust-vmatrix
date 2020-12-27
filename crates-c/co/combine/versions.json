@@ -801,7 +801,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/combine/2.5.2/download",
-    "downloads": 64300, "features": {"doc": ["regex"], "mp4": []},
+    "downloads": 64430, "features": {"doc": ["regex"], "mp4": []},
     "id": 68057, "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/combine/2.5.2/authors",
@@ -1330,7 +1330,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/combine/3.1.0/download",
-    "downloads": 421,
+    "downloads": 422,
     "features": {
       "default": ["std"], "doc": ["regex"], "mp4": [],
       "std": ["memchr/use_std"]
@@ -2534,7 +2534,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/combine/3.5.2/download",
-    "downloads": 37447,
+    "downloads": 37449,
     "features": {
       "default": ["std"], "doc": ["regex"], "mp4": [],
       "std": ["memchr/use_std"]
@@ -3394,7 +3394,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/combine/3.6.7/download",
-    "downloads": 37325,
+    "downloads": 37333,
     "features": {
       "default": ["std"], "doc": ["regex", "regex-1"], "mp4": [],
       "regex-1": ["combine-regex-1"],
@@ -3615,7 +3615,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/combine/3.8.1/download",
-    "downloads": 1512015,
+    "downloads": 1514240,
     "features": {
       "default": ["std"], "doc": ["regex", "regex-1"], "mp4": [],
       "regex-1": ["combine-regex-1"],
@@ -4064,7 +4064,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/combine/4.0.0-beta.2/download",
-    "downloads": 8408,
+    "downloads": 8409,
     "features": {
       "default": ["std"], "mp4": [],
       "std": ["memchr/use_std", "either/use_std", "byteorder/std", "ascii/std"],
@@ -4469,7 +4469,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/combine/4.1.0/download",
-    "downloads": 47466,
+    "downloads": 47468,
     "features": {
       "default": ["std"],
       "futures-03": ["pin-project", "std", "futures-io-03", "futures-util-03"],
@@ -4603,7 +4603,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/combine/4.2.0/download",
-    "downloads": 3792,
+    "downloads": 3795,
     "features": {
       "default": ["std"],
       "futures-03": ["pin-project", "std", "futures-io-03", "futures-util-03"],
@@ -4737,7 +4737,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/combine/4.2.1/download",
-    "downloads": 88082,
+    "downloads": 88144,
     "features": {
       "default": ["std"],
       "futures-03": ["pin-project", "std", "futures-io-03", "futures-util-03"],
@@ -5013,7 +5013,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/combine/4.3.1/download",
-    "downloads": 14687,
+    "downloads": 14747,
     "features": {
       "default": ["std"],
       "futures-03": ["pin-project", "std", "futures-io-03", "futures-util-03"],
@@ -5147,7 +5147,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/combine/4.3.2/download",
-    "downloads": 143650,
+    "downloads": 143977,
     "features": {
       "default": ["std"],
       "futures-03": ["pin-project", "std", "futures-io-03", "futures-util-03"],
@@ -5292,7 +5292,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/combine/4.4.0/download",
-    "downloads": 65412,
+    "downloads": 66221,
     "features": {
       "default": ["std"],
       "futures-03": ["pin-project", "std", "futures-io-03", "futures-util-03"],
@@ -5458,7 +5458,8 @@
         "req": "^0.3", "target": null, "version_id": 318735
       }
     ],
-    "dl_path": "/api/v1/crates/combine/4.5.0/download", "downloads": 0,
+    "dl_path": "/api/v1/crates/combine/4.5.0/download",
+    "downloads": 1089,
     "features": {
       "default": ["std"],
       "futures-03": [
@@ -5491,5 +5492,181 @@
     },
     "readme_path": "/api/v1/crates/combine/4.5.0/readme",
     "updated_at": "2020-12-25T18:44:47.055044+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-12-27T13:43:26.238381+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/957312?v=4",
+          "id": 987, "login": "Marwes", "name": "Markus Westerlind",
+          "url": "https://github.com/Marwes"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Markus Westerlind <marwes91@gmail.com>"]},
+      "users": []
+    },
+    "crate": "combine", "crate_size": 132038,
+    "created_at": "2020-12-27T13:43:26.238381+00:00",
+    "dependencies": [
+      {
+        "crate_id": "async-std", "default_features": true, "downloads": 0,
+        "features": [], "id": 1952934, "kind": "dev", "optional": false,
+        "req": "^1", "target": null, "version_id": 319214
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1952935, "kind": "dev", "optional": false,
+        "req": "^1", "target": null, "version_id": 319214
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1952936, "kind": "dev", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 319214
+      },
+      {
+        "crate_id": "criterion", "default_features": false, "downloads": 0,
+        "features": [], "id": 1952937, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 319214
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1952938, "kind": "dev", "optional": false,
+        "req": "^0.3.1", "target": null, "version_id": 319214
+      },
+      {
+        "crate_id": "memchr", "default_features": false, "downloads": 0,
+        "features": [], "id": 1952928, "kind": "normal", "optional": false,
+        "req": "^2.2", "target": null, "version_id": 319214
+      },
+      {
+        "crate_id": "once_cell", "default_features": true, "downloads": 0,
+        "features": [], "id": 1952939, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 319214
+      },
+      {
+        "crate_id": "partial-io", "default_features": true, "downloads": 0,
+        "features": ["tokio", "quickcheck"], "id": 1952940, "kind": "dev",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 319214
+      },
+      {
+        "crate_id": "quickcheck", "default_features": true, "downloads": 0,
+        "features": [], "id": 1952942, "kind": "dev", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 319214
+      },
+      {
+        "crate_id": "quick-error", "default_features": true, "downloads": 0,
+        "features": [], "id": 1952941, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 319214
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["fs", "io-driver", "io-util", "macros"], "id": 1952943,
+        "kind": "dev", "optional": false, "req": "^0.2", "target": null,
+        "version_id": 319214
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["fs", "macros", "rt-multi-thread"], "id": 1952944,
+        "kind": "dev", "optional": false, "req": "^0.3", "target": null,
+        "version_id": 319214
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["fs", "macros", "rt", "rt-multi-thread", "io-util"],
+        "id": 1952945, "kind": "dev", "optional": false, "req": "^1",
+        "target": null, "version_id": 319214
+      },
+      {
+        "crate_id": "tokio-util", "default_features": true, "downloads": 0,
+        "features": ["codec"], "id": 1952946, "kind": "dev",
+        "optional": false, "req": "^0.6", "target": null,
+        "version_id": 319214
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1952925, "kind": "normal", "optional": true,
+        "req": "^0.5", "target": null, "version_id": 319214
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1952924, "kind": "normal", "optional": true,
+        "req": "^1", "target": null, "version_id": 319214
+      },
+      {
+        "crate_id": "futures-io", "default_features": false, "downloads": 0,
+        "features": [], "id": 1952926, "kind": "normal", "optional": true,
+        "req": "^0.3.1", "target": null, "version_id": 319214
+      },
+      {
+        "crate_id": "futures-util", "default_features": false,
+        "downloads": 0, "features": ["io", "std"], "id": 1952927,
+        "kind": "normal", "optional": true, "req": "^0.3.1", "target": null,
+        "version_id": 319214
+      },
+      {
+        "crate_id": "pin-project-lite", "default_features": true,
+        "downloads": 0, "features": [], "id": 1952929, "kind": "normal",
+        "optional": true, "req": "^0.1.11", "target": null,
+        "version_id": 319214
+      },
+      {
+        "crate_id": "regex", "default_features": true, "downloads": 0,
+        "features": [], "id": 1952930, "kind": "normal", "optional": true,
+        "req": "^1", "target": null, "version_id": 319214
+      },
+      {
+        "crate_id": "tokio", "default_features": false, "downloads": 0,
+        "features": [], "id": 1952933, "kind": "normal", "optional": true,
+        "req": "^1", "target": null, "version_id": 319214
+      },
+      {
+        "crate_id": "tokio", "default_features": false, "downloads": 0,
+        "features": ["io-util"], "id": 1952931, "kind": "normal",
+        "optional": true, "req": "^0.2.3", "target": null,
+        "version_id": 319214
+      },
+      {
+        "crate_id": "tokio", "default_features": false, "downloads": 0,
+        "features": [], "id": 1952932, "kind": "normal", "optional": true,
+        "req": "^0.3", "target": null, "version_id": 319214
+      }
+    ],
+    "dl_path": "/api/v1/crates/combine/4.5.1/download", "downloads": 53,
+    "features": {
+      "default": ["std"],
+      "futures-03": [
+        "pin-project", "std", "futures-io-03", "futures-util-03",
+        "pin-project-lite"
+      ],
+      "mp4": [], "pin-project": ["pin-project-lite"],
+      "std": ["memchr/use_std", "bytes"],
+      "tokio": ["tokio-dep", "futures-util-03", "pin-project-lite"],
+      "tokio-02": [
+        "pin-project", "std", "tokio-02-dep", "futures-util-03",
+        "pin-project-lite", "bytes_05"
+      ],
+      "tokio-03": [
+        "pin-project", "std", "tokio-03-dep", "futures-util-03",
+        "pin-project-lite"
+      ]
+    },
+    "id": 319214, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/combine/4.5.1/authors",
+      "dependencies": "/api/v1/crates/combine/4.5.1/dependencies",
+      "version_downloads": "/api/v1/crates/combine/4.5.1/downloads"
+    },
+    "num": "4.5.1",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/957312?v=4",
+      "id": 987, "login": "Marwes", "name": "Markus Westerlind",
+      "url": "https://github.com/Marwes"
+    },
+    "readme_path": "/api/v1/crates/combine/4.5.1/readme",
+    "updated_at": "2020-12-27T13:43:26.238381+00:00", "yanked": false
   }
 ]
