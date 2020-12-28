@@ -35,7 +35,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/actix-codec/0.1.0/download",
-    "downloads": 1884, "features": {}, "id": 121983,
+    "downloads": 1889, "features": {}, "id": 121983,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/actix-codec/0.1.0/authors",
@@ -82,7 +82,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/actix-codec/0.1.1/download",
-    "downloads": 1115, "features": {}, "id": 137739,
+    "downloads": 1120, "features": {}, "id": 137739,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/actix-codec/0.1.1/authors",
@@ -134,7 +134,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/actix-codec/0.1.2/download",
-    "downloads": 568048, "features": {}, "id": 141804,
+    "downloads": 583009, "features": {}, "id": 141804,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/actix-codec/0.1.2/authors",
@@ -191,7 +191,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/actix-codec/0.2.0-alpha.1/download",
-    "downloads": 3709, "features": {}, "id": 191267,
+    "downloads": 3768, "features": {}, "id": 191267,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/actix-codec/0.2.0-alpha.1/authors",
@@ -248,7 +248,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/actix-codec/0.2.0-alpha.2/download",
-    "downloads": 1126, "features": {}, "id": 193521,
+    "downloads": 1149, "features": {}, "id": 193521,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/actix-codec/0.2.0-alpha.2/authors",
@@ -315,7 +315,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/actix-codec/0.2.0-alpha.3/download",
-    "downloads": 783, "features": {}, "id": 194416,
+    "downloads": 824, "features": {}, "id": 194416,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/actix-codec/0.2.0-alpha.3/authors",
@@ -382,7 +382,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/actix-codec/0.2.0-alpha.4/download",
-    "downloads": 769, "features": {}, "id": 195255,
+    "downloads": 792, "features": {}, "id": 195255,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/actix-codec/0.2.0-alpha.4/authors",
@@ -456,7 +456,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/actix-codec/0.2.0/download",
-    "downloads": 652641, "features": {}, "id": 195584,
+    "downloads": 730974, "features": {}, "id": 195584,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/actix-codec/0.2.0/authors",
@@ -535,7 +535,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/actix-codec/0.3.0-beta.1/download",
-    "downloads": 50, "features": {}, "id": 274095,
+    "downloads": 57, "features": {}, "id": 274095,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/actix-codec/0.3.0-beta.1/authors",
@@ -614,7 +614,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/actix-codec/0.3.0-beta.2/download",
-    "downloads": 61, "features": {}, "id": 274369,
+    "downloads": 69, "features": {}, "id": 274369,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/actix-codec/0.3.0-beta.2/authors",
@@ -693,7 +693,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/actix-codec/0.3.0/download",
-    "downloads": 134098, "features": {}, "id": 275794,
+    "downloads": 327799, "features": {}, "id": 275794,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/actix-codec/0.3.0/authors",
@@ -708,5 +708,85 @@
     },
     "readme_path": "/api/v1/crates/actix-codec/0.3.0/readme",
     "updated_at": "2020-08-24T08:22:50.455588+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-12-28T03:25:12.727729+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/3316789?v=4",
+          "id": 56903, "login": "robjtede", "name": "Rob Ede",
+          "url": "https://github.com/robjtede"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Nikolay Kim <fafhrd91@gmail.com>"]},
+      "users": []
+    },
+    "crate": "actix-codec", "crate_size": 9590,
+    "created_at": "2020-12-28T03:25:12.727729+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 1954251, "kind": "normal", "optional": false,
+        "req": "^1.2.1", "target": null, "version_id": 319437
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 1954252, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 319437
+      },
+      {
+        "crate_id": "futures-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 1954253, "kind": "normal",
+        "optional": false, "req": "^0.3.7", "target": null,
+        "version_id": 319437
+      },
+      {
+        "crate_id": "futures-sink", "default_features": false,
+        "downloads": 0, "features": [], "id": 1954254, "kind": "normal",
+        "optional": false, "req": "^0.3.7", "target": null,
+        "version_id": 319437
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1954255, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 319437
+      },
+      {
+        "crate_id": "pin-project-lite", "default_features": true,
+        "downloads": 0, "features": [], "id": 1954256, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 319437
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 1954257, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 319437
+      },
+      {
+        "crate_id": "tokio-util", "default_features": true, "downloads": 0,
+        "features": ["codec", "io"], "id": 1954258, "kind": "normal",
+        "optional": false, "req": "^0.6", "target": null,
+        "version_id": 319437
+      }
+    ],
+    "dl_path": "/api/v1/crates/actix-codec/0.4.0-beta.1/download",
+    "downloads": 0, "features": {}, "id": 319437,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/actix-codec/0.4.0-beta.1/authors",
+      "dependencies": "/api/v1/crates/actix-codec/0.4.0-beta.1/dependencies",
+      "version_downloads": "/api/v1/crates/actix-codec/0.4.0-beta.1/downloads"
+    },
+    "num": "0.4.0-beta.1",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/3316789?v=4",
+      "id": 56903, "login": "robjtede", "name": "Rob Ede",
+      "url": "https://github.com/robjtede"
+    },
+    "readme_path": "/api/v1/crates/actix-codec/0.4.0-beta.1/readme",
+    "updated_at": "2020-12-28T03:25:12.727729+00:00", "yanked": false
   }
 ]
