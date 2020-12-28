@@ -41,7 +41,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/prost-build/0.1.0/download",
-    "downloads": 792, "features": {}, "id": 57880,
+    "downloads": 830, "features": {}, "id": 57880,
     "license": "Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/prost-build/0.1.0/authors",
@@ -133,7 +133,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/prost-build/0.2.0/download",
-    "downloads": 2852, "features": {}, "id": 64998,
+    "downloads": 2872, "features": {}, "id": 64998,
     "license": "Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/prost-build/0.2.0/authors",
@@ -225,7 +225,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/prost-build/0.2.1/download",
-    "downloads": 3090, "features": {}, "id": 66920,
+    "downloads": 3093, "features": {}, "id": 66920,
     "license": "Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/prost-build/0.2.1/authors",
@@ -317,7 +317,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/prost-build/0.2.2/download",
-    "downloads": 433, "features": {}, "id": 69641,
+    "downloads": 436, "features": {}, "id": 69641,
     "license": "Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/prost-build/0.2.2/authors",
@@ -409,7 +409,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/prost-build/0.2.3/download",
-    "downloads": 2070, "features": {}, "id": 70769,
+    "downloads": 2090, "features": {}, "id": 70769,
     "license": "Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/prost-build/0.2.3/authors",
@@ -501,7 +501,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/prost-build/0.3.0/download",
-    "downloads": 1024, "features": {}, "id": 79101,
+    "downloads": 1060, "features": {}, "id": 79101,
     "license": "Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/prost-build/0.3.0/authors",
@@ -578,7 +578,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/prost-build/0.3.2/download",
-    "downloads": 16428, "features": {}, "id": 83296,
+    "downloads": 16544, "features": {}, "id": 83296,
     "license": "Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/prost-build/0.3.2/authors",
@@ -660,7 +660,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/prost-build/0.4.0/download",
-    "downloads": 166059, "features": {}, "id": 96383,
+    "downloads": 166964, "features": {}, "id": 96383,
     "license": "Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/prost-build/0.4.0/authors",
@@ -737,7 +737,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/prost-build/0.5.0/download",
-    "downloads": 573854, "features": {}, "id": 138210,
+    "downloads": 581609, "features": {}, "id": 138210,
     "license": "Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/prost-build/0.5.0/authors",
@@ -836,7 +836,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/prost-build/0.6.0/download",
-    "downloads": 23768, "features": {}, "id": 203390,
+    "downloads": 23835, "features": {}, "id": 203390,
     "license": "Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/prost-build/0.6.0/authors",
@@ -927,7 +927,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/prost-build/0.6.1/download",
-    "downloads": 1094304, "features": {}, "id": 204414,
+    "downloads": 1408022, "features": {}, "id": 204414,
     "license": "Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/prost-build/0.6.1/authors",
@@ -942,5 +942,97 @@
     },
     "readme_path": "/api/v1/crates/prost-build/0.6.1/readme",
     "updated_at": "2020-01-16T17:48:08.434279+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-12-27T23:26:36.339063+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/160242?v=4",
+          "id": 413, "login": "danburkert", "name": "Dan Burkert",
+          "url": "https://github.com/danburkert"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Dan Burkert <dan@danburkert.com>"]},
+      "users": []
+    },
+    "crate": "prost-build", "crate_size": 8220115,
+    "created_at": "2020-12-27T23:26:36.339063+00:00",
+    "dependencies": [
+      {
+        "crate_id": "bytes", "default_features": false, "downloads": 0,
+        "features": [], "id": 1954030, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 319396
+      },
+      {
+        "crate_id": "env_logger", "default_features": false, "downloads": 0,
+        "features": [], "id": 1954039, "kind": "dev", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 319396
+      },
+      {
+        "crate_id": "heck", "default_features": true, "downloads": 0,
+        "features": [], "id": 1954031, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 319396
+      },
+      {
+        "crate_id": "itertools", "default_features": true, "downloads": 0,
+        "features": [], "id": 1954032, "kind": "normal", "optional": false,
+        "req": "^0.9", "target": null, "version_id": 319396
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1954033, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 319396
+      },
+      {
+        "crate_id": "multimap", "default_features": false, "downloads": 0,
+        "features": [], "id": 1954034, "kind": "normal", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 319396
+      },
+      {
+        "crate_id": "petgraph", "default_features": false, "downloads": 0,
+        "features": [], "id": 1954035, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 319396
+      },
+      {
+        "crate_id": "prost", "default_features": false, "downloads": 0,
+        "features": [], "id": 1954036, "kind": "normal", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 319396
+      },
+      {
+        "crate_id": "prost-types", "default_features": false,
+        "downloads": 0, "features": [], "id": 1954037, "kind": "normal",
+        "optional": false, "req": "^0.7.0", "target": null,
+        "version_id": 319396
+      },
+      {
+        "crate_id": "tempfile", "default_features": true, "downloads": 0,
+        "features": [], "id": 1954038, "kind": "normal", "optional": false,
+        "req": "^3", "target": null, "version_id": 319396
+      },
+      {
+        "crate_id": "which", "default_features": false, "downloads": 0,
+        "features": [], "id": 1954040, "kind": "build", "optional": false,
+        "req": "^4", "target": null, "version_id": 319396
+      }
+    ],
+    "dl_path": "/api/v1/crates/prost-build/0.7.0/download",
+    "downloads": 13, "features": {}, "id": 319396,
+    "license": "Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/prost-build/0.7.0/authors",
+      "dependencies": "/api/v1/crates/prost-build/0.7.0/dependencies",
+      "version_downloads": "/api/v1/crates/prost-build/0.7.0/downloads"
+    },
+    "num": "0.7.0",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/160242?v=4",
+      "id": 413, "login": "danburkert", "name": "Dan Burkert",
+      "url": "https://github.com/danburkert"
+    },
+    "readme_path": "/api/v1/crates/prost-build/0.7.0/readme",
+    "updated_at": "2020-12-27T23:26:36.339063+00:00", "yanked": false
   }
 ]
