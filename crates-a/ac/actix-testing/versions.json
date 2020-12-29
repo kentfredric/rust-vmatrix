@@ -59,7 +59,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/actix-testing/0.1.0/download",
-    "downloads": 234546, "features": {}, "id": 178343,
+    "downloads": 244283, "features": {}, "id": 178343,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/actix-testing/0.1.0/authors",
@@ -135,7 +135,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/actix-testing/0.2.0/download",
-    "downloads": 177, "features": {}, "id": 182476,
+    "downloads": 182, "features": {}, "id": 182476,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/actix-testing/0.2.0/authors",
@@ -210,7 +210,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/actix-testing/0.3.0-alpha.1/download",
-    "downloads": 3772, "features": {}, "id": 191276,
+    "downloads": 3833, "features": {}, "id": 191276,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/actix-testing/0.3.0-alpha.1/authors",
@@ -280,7 +280,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/actix-testing/1.0.0-alpha.2/download",
-    "downloads": 1073, "features": {}, "id": 193525,
+    "downloads": 1097, "features": {}, "id": 193525,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/actix-testing/1.0.0-alpha.2/authors",
@@ -354,7 +354,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/actix-testing/1.0.0-alpha.3/download",
-    "downloads": 1460, "features": {}, "id": 194421,
+    "downloads": 1556, "features": {}, "id": 194421,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/actix-testing/1.0.0-alpha.3/authors",
@@ -428,7 +428,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/actix-testing/1.0.0/download",
-    "downloads": 328199, "features": {}, "id": 195619,
+    "downloads": 345396, "features": {}, "id": 195619,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/actix-testing/1.0.0/authors",
@@ -497,7 +497,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/actix-testing/1.0.1/download",
-    "downloads": 382553, "features": {}, "id": 242997,
+    "downloads": 583842, "features": {}, "id": 242997,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/actix-testing/1.0.1/authors",
@@ -512,5 +512,74 @@
     },
     "readme_path": "/api/v1/crates/actix-testing/1.0.1/readme",
     "updated_at": "2020-05-19T05:40:58.930434+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-12-28T23:54:36.981191+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/3316789?v=4",
+          "id": 56903, "login": "robjtede", "name": "Rob Ede",
+          "url": "https://github.com/robjtede"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Nikolay Kim <fafhrd91@gmail.com>"]},
+      "users": []
+    },
+    "crate": "actix-testing", "crate_size": 7377,
+    "created_at": "2020-12-28T23:54:36.981191+00:00",
+    "dependencies": [
+      {
+        "crate_id": "actix-macros", "default_features": true,
+        "downloads": 0, "features": [], "id": 1956604, "kind": "normal",
+        "optional": false, "req": "^0.1.0", "target": null,
+        "version_id": 319758
+      },
+      {
+        "crate_id": "actix-rt", "default_features": true, "downloads": 0,
+        "features": [], "id": 1956605, "kind": "normal", "optional": false,
+        "req": "^2.0.0-beta.1", "target": null, "version_id": 319758
+      },
+      {
+        "crate_id": "actix-server", "default_features": true,
+        "downloads": 0, "features": [], "id": 1956606, "kind": "normal",
+        "optional": false, "req": "^2.0.0-beta.1", "target": null,
+        "version_id": 319758
+      },
+      {
+        "crate_id": "actix-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 1956607, "kind": "normal",
+        "optional": false, "req": "^2.0.0-beta.1", "target": null,
+        "version_id": 319758
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1956608, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 319758
+      },
+      {
+        "crate_id": "socket2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1956609, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 319758
+      }
+    ],
+    "dl_path": "/api/v1/crates/actix-testing/2.0.0-beta.1/download",
+    "downloads": 2, "features": {}, "id": 319758,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/actix-testing/2.0.0-beta.1/authors",
+      "dependencies": "/api/v1/crates/actix-testing/2.0.0-beta.1/dependencies",
+      "version_downloads": "/api/v1/crates/actix-testing/2.0.0-beta.1/downloads"
+    },
+    "num": "2.0.0-beta.1",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/3316789?v=4",
+      "id": 56903, "login": "robjtede", "name": "Rob Ede",
+      "url": "https://github.com/robjtede"
+    },
+    "readme_path": "/api/v1/crates/actix-testing/2.0.0-beta.1/readme",
+    "updated_at": "2020-12-28T23:54:36.981191+00:00", "yanked": false
   }
 ]
