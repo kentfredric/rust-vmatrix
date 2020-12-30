@@ -733,7 +733,7 @@
         "req": "^0.1", "target": null, "version_id": 61615
       }
     ],
-    "dl_path": "/api/v1/crates/pcap/0.7.0/download", "downloads": 65460,
+    "dl_path": "/api/v1/crates/pcap/0.7.0/download", "downloads": 65475,
     "features": {
       "full": ["pcap-savefile-append", "pcap-fopen-offline-precision", "tokio"],
       "pcap-fopen-offline-precision": [], "pcap-savefile-append": [],
@@ -826,7 +826,7 @@
         "version_id": 320345
       }
     ],
-    "dl_path": "/api/v1/crates/pcap/0.8.0/download", "downloads": 0,
+    "dl_path": "/api/v1/crates/pcap/0.8.0/download", "downloads": 5,
     "features": {
       "capture-stream": ["mio", "tokio", "futures"],
       "full": ["capture-stream"]
@@ -845,5 +845,102 @@
     },
     "readme_path": "/api/v1/crates/pcap/0.8.0/readme",
     "updated_at": "2020-12-30T10:58:45.948050+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-12-30T12:28:24.380240+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/17829810?v=4",
+          "id": 24266, "login": "Wojtek242", "name": "Wojciech Kozlowski",
+          "url": "https://github.com/Wojtek242"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Hideki Sekine", "Sean Bowe <ewillbefull@gmail.com>",
+          "Wojciech Kozlowski <wk@wojciechkozlowski.eu>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "pcap", "crate_size": 32510,
+    "created_at": "2020-12-30T12:28:24.380240+00:00",
+    "dependencies": [
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1960771, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 320360
+      },
+      {
+        "crate_id": "libloading", "default_features": true, "downloads": 0,
+        "features": [], "id": 1960776, "kind": "build", "optional": false,
+        "req": "^0.6", "target": null, "version_id": 320360
+      },
+      {
+        "crate_id": "regex", "default_features": true, "downloads": 0,
+        "features": [], "id": 1960777, "kind": "build", "optional": false,
+        "req": "^1", "target": null, "version_id": 320360
+      },
+      {
+        "crate_id": "tempdir", "default_features": true, "downloads": 0,
+        "features": [], "id": 1960774, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 320360
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["rt-core"], "id": 1960775, "kind": "dev",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 320360
+      },
+      {
+        "crate_id": "widestring", "default_features": true, "downloads": 0,
+        "features": [], "id": 1960778, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(target_os = \"windows\")",
+        "version_id": 320360
+      },
+      {
+        "crate_id": "clippy", "default_features": true, "downloads": 0,
+        "features": [], "id": 1960769, "kind": "normal", "optional": true,
+        "req": "0.0.*", "target": null, "version_id": 320360
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1960770, "kind": "normal", "optional": true,
+        "req": "^0.3", "target": null, "version_id": 320360
+      },
+      {
+        "crate_id": "mio", "default_features": true, "downloads": 0,
+        "features": [], "id": 1960772, "kind": "normal", "optional": true,
+        "req": "^0.6", "target": null, "version_id": 320360
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["io-driver"], "id": 1960773, "kind": "normal",
+        "optional": true, "req": "^0.2", "target": null,
+        "version_id": 320360
+      }
+    ],
+    "dl_path": "/api/v1/crates/pcap/0.8.1/download", "downloads": 4,
+    "features": {
+      "capture-stream": ["mio", "tokio", "futures"], "docs-rs": [],
+      "full": ["capture-stream"]
+    },
+    "id": 320360, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/pcap/0.8.1/authors",
+      "dependencies": "/api/v1/crates/pcap/0.8.1/dependencies",
+      "version_downloads": "/api/v1/crates/pcap/0.8.1/downloads"
+    },
+    "num": "0.8.1",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/17829810?v=4",
+      "id": 24266, "login": "Wojtek242", "name": "Wojciech Kozlowski",
+      "url": "https://github.com/Wojtek242"
+    },
+    "readme_path": "/api/v1/crates/pcap/0.8.1/readme",
+    "updated_at": "2020-12-30T12:28:24.380240+00:00", "yanked": false
   }
 ]
