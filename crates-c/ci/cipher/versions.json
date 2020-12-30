@@ -17,7 +17,7 @@
     "crate": "cipher", "crate_size": null,
     "created_at": "2015-06-25T05:47:45.526699+00:00",
     "dependencies": [],
-    "dl_path": "/api/v1/crates/cipher/0.1.0/download", "downloads": 434,
+    "dl_path": "/api/v1/crates/cipher/0.1.0/download", "downloads": 437,
     "features": {}, "id": 12244, "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/cipher/0.1.0/authors",
@@ -47,7 +47,7 @@
     "created_at": "2015-06-26T06:13:42.175962+00:00",
     "dependencies": [],
     "dl_path": "/api/v1/crates/cipher/0.1.1/download",
-    "downloads": 1340, "features": {}, "id": 12293, "license": "MIT",
+    "downloads": 1343, "features": {}, "id": 12293, "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/cipher/0.1.1/authors",
       "dependencies": "/api/v1/crates/cipher/0.1.1/dependencies",
@@ -92,7 +92,7 @@
         "req": "^0.3", "target": null, "version_id": 294014
       }
     ],
-    "dl_path": "/api/v1/crates/cipher/0.2.0/download", "downloads": 31,
+    "dl_path": "/api/v1/crates/cipher/0.2.0/download", "downloads": 34,
     "features": {"dev": ["blobby"], "std": []}, "id": 294014,
     "license": "MIT OR Apache-2.0",
     "links": {
@@ -137,7 +137,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/cipher/0.2.1/download",
-    "downloads": 26538, "features": {"dev": ["blobby"], "std": []},
+    "downloads": 34981, "features": {"dev": ["blobby"], "std": []},
     "id": 294465, "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/cipher/0.2.1/authors",
@@ -188,7 +188,7 @@
         "req": "^0.3", "target": null, "version_id": 300971
       }
     ],
-    "dl_path": "/api/v1/crates/cipher/0.2.2/download", "downloads": 28,
+    "dl_path": "/api/v1/crates/cipher/0.2.2/download", "downloads": 32,
     "features": {"dev": ["blobby"], "std": []}, "id": 300971,
     "license": "MIT OR Apache-2.0",
     "links": {
@@ -240,7 +240,7 @@
         "req": "^0.3", "target": null, "version_id": 300986
       }
     ],
-    "dl_path": "/api/v1/crates/cipher/0.2.3/download", "downloads": 26,
+    "dl_path": "/api/v1/crates/cipher/0.2.3/download", "downloads": 30,
     "features": {"dev": ["blobby"], "std": []}, "id": 300986,
     "license": "MIT OR Apache-2.0",
     "links": {
@@ -284,7 +284,7 @@
         "req": "^0.3", "target": null, "version_id": 300989
       }
     ],
-    "dl_path": "/api/v1/crates/cipher/0.2.4/download", "downloads": 22,
+    "dl_path": "/api/v1/crates/cipher/0.2.4/download", "downloads": 29,
     "features": {"dev": ["blobby"], "std": []}, "id": 300989,
     "license": "MIT OR Apache-2.0",
     "links": {
@@ -329,7 +329,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/cipher/0.2.5/download",
-    "downloads": 49367, "features": {"dev": ["blobby"], "std": []},
+    "downloads": 164010, "features": {"dev": ["blobby"], "std": []},
     "id": 300991, "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/cipher/0.2.5/authors",
@@ -373,7 +373,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/cipher/0.3.0-pre/download",
-    "downloads": 99, "features": {"dev": ["blobby"], "std": []},
+    "downloads": 6822, "features": {"dev": ["blobby"], "std": []},
     "id": 308524, "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/cipher/0.3.0-pre/authors",
@@ -388,5 +388,49 @@
     },
     "readme_path": "/api/v1/crates/cipher/0.3.0-pre/readme",
     "updated_at": "2020-11-24T18:39:20.243257+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-12-30T01:55:32.523325+00:00",
+        "user": {
+          "avatar": "https://avatars2.githubusercontent.com/u/797?v=4",
+          "id": 267, "login": "tarcieri", "name": "Tony Arcieri",
+          "url": "https://github.com/tarcieri"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["RustCrypto Developers"]}, "users": []},
+    "crate": "cipher", "crate_size": 12552,
+    "created_at": "2020-12-30T01:55:32.523325+00:00",
+    "dependencies": [
+      {
+        "crate_id": "generic-array", "default_features": true,
+        "downloads": 0, "features": [], "id": 1960155, "kind": "normal",
+        "optional": false, "req": "^0.14", "target": null,
+        "version_id": 320249
+      },
+      {
+        "crate_id": "blobby", "default_features": true, "downloads": 0,
+        "features": [], "id": 1960154, "kind": "normal", "optional": true,
+        "req": "^0.3", "target": null, "version_id": 320249
+      }
+    ],
+    "dl_path": "/api/v1/crates/cipher/0.3.0-pre.2/download",
+    "downloads": 64, "features": {"dev": ["blobby"], "std": []},
+    "id": 320249, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/cipher/0.3.0-pre.2/authors",
+      "dependencies": "/api/v1/crates/cipher/0.3.0-pre.2/dependencies",
+      "version_downloads": "/api/v1/crates/cipher/0.3.0-pre.2/downloads"
+    },
+    "num": "0.3.0-pre.2",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/797?v=4",
+      "id": 267, "login": "tarcieri", "name": "Tony Arcieri",
+      "url": "https://github.com/tarcieri"
+    },
+    "readme_path": "/api/v1/crates/cipher/0.3.0-pre.2/readme",
+    "updated_at": "2020-12-30T01:55:32.523325+00:00", "yanked": false
   }
 ]

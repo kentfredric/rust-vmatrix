@@ -136,7 +136,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/hyper-openssl/0.2.2/download",
-    "downloads": 2258, "features": {}, "id": 43869,
+    "downloads": 2259, "features": {}, "id": 43869,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/hyper-openssl/0.2.2/authors",
@@ -173,7 +173,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/hyper-openssl/0.2.3/download",
-    "downloads": 1997, "features": {}, "id": 46242,
+    "downloads": 1998, "features": {}, "id": 46242,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/hyper-openssl/0.2.3/authors",
@@ -321,7 +321,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/hyper-openssl/0.2.7/download",
-    "downloads": 193881, "features": {}, "id": 56874,
+    "downloads": 193887, "features": {}, "id": 56874,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/hyper-openssl/0.2.7/authors",
@@ -449,7 +449,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/hyper-openssl/0.3.1/download",
-    "downloads": 2915, "features": {}, "id": 73567,
+    "downloads": 2922, "features": {}, "id": 73567,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/hyper-openssl/0.3.1/authors",
@@ -658,7 +658,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/hyper-openssl/0.5.0/download",
-    "downloads": 52292, "features": {}, "id": 81665,
+    "downloads": 52293, "features": {}, "id": 81665,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/hyper-openssl/0.5.0/authors",
@@ -822,7 +822,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/hyper-openssl/0.6.1/download",
-    "downloads": 7692,
+    "downloads": 7694,
     "features": {"default": ["runtime"], "runtime": ["hyper/runtime"]},
     "id": 96449, "license": "MIT/Apache-2.0",
     "links": {
@@ -907,7 +907,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/hyper-openssl/0.6.2/download",
-    "downloads": 2390,
+    "downloads": 2391,
     "features": {"default": ["runtime"], "runtime": ["hyper/runtime"]},
     "id": 116687, "license": "MIT/Apache-2.0",
     "links": {
@@ -992,7 +992,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/hyper-openssl/0.7.0/download",
-    "downloads": 45833,
+    "downloads": 45834,
     "features": {"default": ["runtime"], "runtime": ["hyper/runtime"]},
     "id": 117673, "license": "MIT/Apache-2.0",
     "links": {
@@ -1077,7 +1077,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/hyper-openssl/0.7.1/download",
-    "downloads": 232685,
+    "downloads": 233026,
     "features": {"default": ["runtime"], "runtime": ["hyper/runtime"]},
     "id": 136674, "license": "MIT/Apache-2.0",
     "links": {
@@ -1348,7 +1348,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/hyper-openssl/0.8.0/download",
-    "downloads": 168385,
+    "downloads": 168731,
     "features": {"default": ["runtime"], "runtime": ["hyper/runtime"]},
     "id": 195520, "license": "MIT/Apache-2.0",
     "links": {
@@ -1458,7 +1458,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/hyper-openssl/0.8.1/download",
-    "downloads": 28879,
+    "downloads": 30168,
     "features": {"default": ["runtime"], "runtime": ["hyper/runtime"]},
     "id": 289535, "license": "MIT/Apache-2.0",
     "links": {
@@ -1565,7 +1565,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/hyper-openssl/0.9.0/download",
-    "downloads": 1,
+    "downloads": 56,
     "features": {"default": ["hyper/http1", "tcp"], "tcp": ["hyper/tcp"]},
     "id": 318482, "license": "MIT/Apache-2.0",
     "links": {
@@ -1581,5 +1581,112 @@
     },
     "readme_path": "/api/v1/crates/hyper-openssl/0.9.0/readme",
     "updated_at": "2020-12-24T14:37:35.140185+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-12-29T20:08:55.988138+00:00",
+        "user": {
+          "avatar": "https://avatars0.githubusercontent.com/u/1455697?v=4",
+          "id": 5, "login": "sfackler", "name": "Steven Fackler",
+          "url": "https://github.com/sfackler"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Steven Fackler <sfackler@gmail.com>"]},
+      "users": []
+    },
+    "crate": "hyper-openssl", "crate_size": 11981,
+    "created_at": "2020-12-29T20:08:55.988138+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1959242, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 320142
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1959232, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 320142
+      },
+      {
+        "crate_id": "hyper", "default_features": true, "downloads": 0,
+        "features": ["full"], "id": 1959243, "kind": "dev",
+        "optional": false, "req": "^0.14", "target": null,
+        "version_id": 320142
+      },
+      {
+        "crate_id": "hyper", "default_features": false, "downloads": 0,
+        "features": ["client"], "id": 1959233, "kind": "normal",
+        "optional": false, "req": "^0.14.2", "target": null,
+        "version_id": 320142
+      },
+      {
+        "crate_id": "linked_hash_set", "default_features": true,
+        "downloads": 0, "features": [], "id": 1959234, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 320142
+      },
+      {
+        "crate_id": "once_cell", "default_features": true, "downloads": 0,
+        "features": [], "id": 1959235, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 320142
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": [], "id": 1959236, "kind": "normal", "optional": false,
+        "req": "^0.10.32", "target": null, "version_id": 320142
+      },
+      {
+        "crate_id": "openssl-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1959237, "kind": "normal", "optional": false,
+        "req": "^0.9.26", "target": null, "version_id": 320142
+      },
+      {
+        "crate_id": "parking_lot", "default_features": true, "downloads": 0,
+        "features": [], "id": 1959238, "kind": "normal", "optional": false,
+        "req": "^0.11", "target": null, "version_id": 320142
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["full"], "id": 1959244, "kind": "dev",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 320142
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 1959239, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 320142
+      },
+      {
+        "crate_id": "tokio-openssl", "default_features": true,
+        "downloads": 0, "features": [], "id": 1959240, "kind": "normal",
+        "optional": false, "req": "^0.6", "target": null,
+        "version_id": 320142
+      },
+      {
+        "crate_id": "tower-layer", "default_features": true, "downloads": 0,
+        "features": [], "id": 1959241, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 320142
+      }
+    ],
+    "dl_path": "/api/v1/crates/hyper-openssl/0.9.1/download",
+    "downloads": 4,
+    "features": {"default": ["tcp"], "tcp": ["hyper/tcp"]},
+    "id": 320142, "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/hyper-openssl/0.9.1/authors",
+      "dependencies": "/api/v1/crates/hyper-openssl/0.9.1/dependencies",
+      "version_downloads": "/api/v1/crates/hyper-openssl/0.9.1/downloads"
+    },
+    "num": "0.9.1",
+    "published_by": {
+      "avatar": "https://avatars0.githubusercontent.com/u/1455697?v=4",
+      "id": 5, "login": "sfackler", "name": "Steven Fackler",
+      "url": "https://github.com/sfackler"
+    },
+    "readme_path": "/api/v1/crates/hyper-openssl/0.9.1/readme",
+    "updated_at": "2020-12-29T20:08:55.988138+00:00", "yanked": false
   }
 ]
