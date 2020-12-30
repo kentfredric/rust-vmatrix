@@ -15,7 +15,7 @@
     "created_at": "2020-09-06T02:01:21.666498+00:00",
     "dependencies": [],
     "dl_path": "/api/v1/crates/nanorand/0.0.0/download",
-    "downloads": 30, "features": {}, "id": 280458, "license": "Zlib",
+    "downloads": 32, "features": {}, "id": 280458, "license": "Zlib",
     "links": {
       "authors": "/api/v1/crates/nanorand/0.0.0/authors",
       "dependencies": "/api/v1/crates/nanorand/0.0.0/dependencies",
@@ -52,7 +52,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/nanorand/0.1.0/download",
-    "downloads": 29,
+    "downloads": 31,
     "features": {"ctor": [], "default": ["ctor"], "no_std": []},
     "id": 282127, "license": "Zlib",
     "links": {
@@ -91,7 +91,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/nanorand/0.1.1/download",
-    "downloads": 28,
+    "downloads": 30,
     "features": {"ctor": [], "default": ["ctor"], "no_std": []},
     "id": 282136, "license": "Zlib",
     "links": {
@@ -130,7 +130,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/nanorand/0.2.0/download",
-    "downloads": 29,
+    "downloads": 31,
     "features": {
       "ctor": ["std"], "default": ["std", "ctor", "wyrand"], "std": [],
       "wyrand": []
@@ -172,7 +172,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/nanorand/0.2.1/download",
-    "downloads": 69,
+    "downloads": 73,
     "features": {
       "ctor": ["std"], "default": ["std", "ctor", "wyrand"], "std": [],
       "wyrand": []
@@ -214,7 +214,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/nanorand/0.3.0/download",
-    "downloads": 32,
+    "downloads": 34,
     "features": {
       "chacha": [], "default": ["std", "wyrand", "pcg64"], "pcg64": [],
       "std": [], "wyrand": []
@@ -303,7 +303,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/nanorand/0.4.0/download",
-    "downloads": 39,
+    "downloads": 42,
     "features": {
       "chacha": [], "default": ["std", "wyrand", "pcg64"], "pcg64": [],
       "rdseed": ["std"], "std": [], "wyrand": []
@@ -398,7 +398,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/nanorand/0.4.1/download",
-    "downloads": 48,
+    "downloads": 50,
     "features": {
       "chacha": [], "default": ["std", "wyrand", "pcg64"], "pcg64": [],
       "rdseed": ["std"], "std": [], "wyrand": []
@@ -493,7 +493,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/nanorand/0.4.2/download",
-    "downloads": 71,
+    "downloads": 73,
     "features": {
       "chacha": [], "default": ["std", "wyrand", "pcg64"], "pcg64": [],
       "rdseed": ["std"], "std": [], "wyrand": []
@@ -588,7 +588,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/nanorand/0.4.3/download",
-    "downloads": 29,
+    "downloads": 31,
     "features": {
       "chacha": [], "default": ["std", "wyrand", "pcg64"], "pcg64": [],
       "rdseed": ["std"], "std": [], "wyrand": []
@@ -683,7 +683,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/nanorand/0.4.4/download",
-    "downloads": 5362,
+    "downloads": 13567,
     "features": {
       "chacha": [], "default": ["std", "wyrand", "pcg64"], "pcg64": [],
       "rdseed": ["std"], "std": [], "wyrand": []
@@ -791,7 +791,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/nanorand/0.5.0/download",
-    "downloads": 39,
+    "downloads": 51,
     "features": {
       "chacha": [],
       "default": ["std", "tls", "wyrand", "pcg64", "chacha"], "pcg64": [],
@@ -893,7 +893,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/nanorand/0.5.1/download",
-    "downloads": 36,
+    "downloads": 2119,
     "features": {
       "chacha": [],
       "default": ["std", "tls", "wyrand", "pcg64", "chacha"], "pcg64": [],
@@ -914,5 +914,60 @@
     },
     "readme_path": "/api/v1/crates/nanorand/0.5.1/readme",
     "updated_at": "2020-12-07T12:43:47.857595+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-12-30T19:01:20.781635+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/65794972?v=4",
+          "id": 93120, "login": "aspenluxxxy", "name": "aspen",
+          "url": "https://github.com/aspenluxxxy"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["aspen <aspenuwu@protonmail.com>"]}, "users": []},
+    "crate": "nanorand", "crate_size": 10737,
+    "created_at": "2020-12-30T19:01:20.781635+00:00",
+    "dependencies": [
+      {
+        "crate_id": "hex", "default_features": true, "downloads": 0,
+        "features": [], "id": 1961562, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 320481
+      },
+      {
+        "crate_id": "getrandom", "default_features": true, "downloads": 0,
+        "features": ["rdrand", "js"], "id": 1961560, "kind": "normal",
+        "optional": true, "req": "^0.2", "target": null,
+        "version_id": 320481
+      },
+      {
+        "crate_id": "zeroize", "default_features": true, "downloads": 0,
+        "features": ["zeroize_derive"], "id": 1961561, "kind": "normal",
+        "optional": true, "req": "^1.2", "target": null,
+        "version_id": 320481
+      }
+    ],
+    "dl_path": "/api/v1/crates/nanorand/0.5.2/download", "downloads": 3,
+    "features": {
+      "chacha": [],
+      "default": ["std", "tls", "wyrand", "pcg64", "chacha"], "pcg64": [],
+      "rdseed": ["std"], "std": [], "tls": ["std", "wyrand"],
+      "wyrand": []
+    },
+    "id": 320481, "license": "Zlib",
+    "links": {
+      "authors": "/api/v1/crates/nanorand/0.5.2/authors",
+      "dependencies": "/api/v1/crates/nanorand/0.5.2/dependencies",
+      "version_downloads": "/api/v1/crates/nanorand/0.5.2/downloads"
+    },
+    "num": "0.5.2",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/65794972?v=4",
+      "id": 93120, "login": "aspenluxxxy", "name": "aspen",
+      "url": "https://github.com/aspenluxxxy"
+    },
+    "readme_path": "/api/v1/crates/nanorand/0.5.2/readme",
+    "updated_at": "2020-12-30T19:01:20.781635+00:00", "yanked": false
   }
 ]
