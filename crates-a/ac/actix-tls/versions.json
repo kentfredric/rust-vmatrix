@@ -89,7 +89,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/actix-tls/1.0.0-alpha.1/download",
-    "downloads": 1058,
+    "downloads": 1081,
     "features": {
       "default": [], "openssl": ["open-ssl", "tokio-openssl"],
       "rustls": ["rust-tls", "webpki"]
@@ -224,7 +224,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/actix-tls/1.0.0-alpha.3/download",
-    "downloads": 1477,
+    "downloads": 1572,
     "features": {
       "default": [], "nativetls": ["native-tls", "tokio-tls"],
       "openssl": ["open-ssl", "tokio-openssl"],
@@ -360,7 +360,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/actix-tls/1.0.0/download",
-    "downloads": 555097,
+    "downloads": 611534,
     "features": {
       "default": [], "nativetls": ["native-tls", "tokio-tls"],
       "openssl": ["open-ssl", "tokio-openssl"],
@@ -496,7 +496,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/actix-tls/2.0.0-alpha.1/download",
-    "downloads": 54381,
+    "downloads": 55350,
     "features": {
       "default": [], "nativetls": ["native-tls", "tokio-tls"],
       "openssl": ["open-ssl", "tokio-openssl"],
@@ -633,7 +633,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/actix-tls/2.0.0-alpha.2/download",
-    "downloads": 4652,
+    "downloads": 4834,
     "features": {
       "default": [], "nativetls": ["native-tls", "tokio-tls"],
       "openssl": ["open-ssl", "tokio-openssl"],
@@ -739,7 +739,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/actix-tls/2.0.0/download",
-    "downloads": 103921,
+    "downloads": 275782,
     "features": {
       "default": [], "nativetls": ["native-tls", "tokio-tls"],
       "openssl": ["open-ssl", "tokio-openssl"],
@@ -759,5 +759,151 @@
     },
     "readme_path": "/api/v1/crates/actix-tls/2.0.0/readme",
     "updated_at": "2020-09-08T17:24:15.272111+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-12-31T02:03:40.363708+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/3316789?v=4",
+          "id": 56903, "login": "robjtede", "name": "Rob Ede",
+          "url": "https://github.com/robjtede"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Nikolay Kim <fafhrd91@gmail.com>"]},
+      "users": []
+    },
+    "crate": "actix-tls", "crate_size": 28958,
+    "created_at": "2020-12-31T02:03:40.363708+00:00",
+    "dependencies": [
+      {
+        "crate_id": "actix-codec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1962180, "kind": "normal", "optional": false,
+        "req": "^0.4.0-beta.1", "target": null, "version_id": 320574
+      },
+      {
+        "crate_id": "actix-rt", "default_features": true, "downloads": 0,
+        "features": [], "id": 1962181, "kind": "normal", "optional": false,
+        "req": "^2.0.0-beta.1", "target": null, "version_id": 320574
+      },
+      {
+        "crate_id": "actix-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 1962182, "kind": "normal",
+        "optional": false, "req": "^2.0.0-beta.1", "target": null,
+        "version_id": 320574
+      },
+      {
+        "crate_id": "actix-utils", "default_features": true, "downloads": 0,
+        "features": [], "id": 1962183, "kind": "normal", "optional": false,
+        "req": "^3.0.0-beta.1", "target": null, "version_id": 320574
+      },
+      {
+        "crate_id": "derive_more", "default_features": true, "downloads": 0,
+        "features": [], "id": 1962184, "kind": "normal", "optional": false,
+        "req": "^0.99.5", "target": null, "version_id": 320574
+      },
+      {
+        "crate_id": "either", "default_features": true, "downloads": 0,
+        "features": [], "id": 1962185, "kind": "normal", "optional": false,
+        "req": "^1.6", "target": null, "version_id": 320574
+      },
+      {
+        "crate_id": "futures-util", "default_features": false,
+        "downloads": 0, "features": [], "id": 1962186, "kind": "normal",
+        "optional": false, "req": "^0.3.7", "target": null,
+        "version_id": 320574
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1962188, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 320574
+      },
+      {
+        "crate_id": "trust-dns-proto", "default_features": false,
+        "downloads": 0, "features": ["tokio-runtime"], "id": 1962195,
+        "kind": "normal", "optional": false, "req": "^0.19", "target": null,
+        "version_id": 320574
+      },
+      {
+        "crate_id": "trust-dns-resolver", "default_features": false,
+        "downloads": 0, "features": ["tokio-runtime", "system-config"],
+        "id": 1962196, "kind": "normal", "optional": false, "req": "^0.19",
+        "target": null, "version_id": 320574
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 1962187, "kind": "normal", "optional": true,
+        "req": "^0.2.0", "target": null, "version_id": 320574
+      },
+      {
+        "crate_id": "native-tls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1962189, "kind": "normal", "optional": true,
+        "req": "^0.2", "target": null, "version_id": 320574
+      },
+      {
+        "crate_id": "openssl", "default_features": true, "downloads": 0,
+        "features": [], "id": 1962190, "kind": "normal", "optional": true,
+        "req": "^0.10", "target": null, "version_id": 320574
+      },
+      {
+        "crate_id": "rustls", "default_features": true, "downloads": 0,
+        "features": [], "id": 1962191, "kind": "normal", "optional": true,
+        "req": "^0.19", "target": null, "version_id": 320574
+      },
+      {
+        "crate_id": "tokio-native-tls", "default_features": true,
+        "downloads": 0, "features": [], "id": 1962192, "kind": "normal",
+        "optional": true, "req": "^0.3", "target": null,
+        "version_id": 320574
+      },
+      {
+        "crate_id": "tokio-openssl", "default_features": true,
+        "downloads": 0, "features": [], "id": 1962193, "kind": "normal",
+        "optional": true, "req": "^0.6", "target": null,
+        "version_id": 320574
+      },
+      {
+        "crate_id": "tokio-rustls", "default_features": true,
+        "downloads": 0, "features": [], "id": 1962194, "kind": "normal",
+        "optional": true, "req": "^0.22", "target": null,
+        "version_id": 320574
+      },
+      {
+        "crate_id": "webpki", "default_features": true, "downloads": 0,
+        "features": [], "id": 1962197, "kind": "normal", "optional": true,
+        "req": "^0.21", "target": null, "version_id": 320574
+      },
+      {
+        "crate_id": "webpki-roots", "default_features": true,
+        "downloads": 0, "features": [], "id": 1962198, "kind": "normal",
+        "optional": true, "req": "^0.21", "target": null,
+        "version_id": 320574
+      }
+    ],
+    "dl_path": "/api/v1/crates/actix-tls/3.0.0-beta.1/download",
+    "downloads": 5,
+    "features": {
+      "accept": [], "connect": [],
+      "default": ["accept", "connect", "http"],
+      "native-tls": ["tls-native-tls", "tokio-native-tls"],
+      "openssl": ["tls-openssl", "tokio-openssl"],
+      "rustls": ["tls-rustls", "webpki", "webpki-roots", "tokio-rustls"]
+    },
+    "id": 320574, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/actix-tls/3.0.0-beta.1/authors",
+      "dependencies": "/api/v1/crates/actix-tls/3.0.0-beta.1/dependencies",
+      "version_downloads": "/api/v1/crates/actix-tls/3.0.0-beta.1/downloads"
+    },
+    "num": "3.0.0-beta.1",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/3316789?v=4",
+      "id": 56903, "login": "robjtede", "name": "Rob Ede",
+      "url": "https://github.com/robjtede"
+    },
+    "readme_path": "/api/v1/crates/actix-tls/3.0.0-beta.1/readme",
+    "updated_at": "2020-12-31T02:03:40.363708+00:00", "yanked": false
   }
 ]
