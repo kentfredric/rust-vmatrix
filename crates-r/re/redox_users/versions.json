@@ -36,7 +36,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/redox_users/0.1.0/download",
-    "downloads": 522, "features": {}, "id": 86746, "license": "MIT",
+    "downloads": 528, "features": {}, "id": 86746, "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/redox_users/0.1.0/authors",
       "dependencies": "/api/v1/crates/redox_users/0.1.0/dependencies",
@@ -83,7 +83,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/redox_users/0.2.0/download",
-    "downloads": 203828, "features": {}, "id": 96827, "license": "MIT",
+    "downloads": 207851, "features": {}, "id": 96827, "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/redox_users/0.2.0/authors",
       "dependencies": "/api/v1/crates/redox_users/0.2.0/dependencies",
@@ -130,7 +130,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/redox_users/0.3.0/download",
-    "downloads": 600777, "features": {}, "id": 132164, "license": "MIT",
+    "downloads": 606318, "features": {}, "id": 132164, "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/redox_users/0.3.0/authors",
       "dependencies": "/api/v1/crates/redox_users/0.3.0/dependencies",
@@ -177,7 +177,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/redox_users/0.3.1/download",
-    "downloads": 457686, "features": {}, "id": 167949, "license": "MIT",
+    "downloads": 462677, "features": {}, "id": 167949, "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/redox_users/0.3.1/authors",
       "dependencies": "/api/v1/crates/redox_users/0.3.1/dependencies",
@@ -233,7 +233,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/redox_users/0.3.2/download",
-    "downloads": 877, "features": {}, "id": 205547, "license": "MIT",
+    "downloads": 980, "features": {}, "id": 205547, "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/redox_users/0.3.2/authors",
       "dependencies": "/api/v1/crates/redox_users/0.3.2/dependencies",
@@ -289,7 +289,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/redox_users/0.3.3/download",
-    "downloads": 6650, "features": {}, "id": 205564, "license": "MIT",
+    "downloads": 6919, "features": {}, "id": 205564, "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/redox_users/0.3.3/authors",
       "dependencies": "/api/v1/crates/redox_users/0.3.3/dependencies",
@@ -345,7 +345,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/redox_users/0.3.4/download",
-    "downloads": 1039631, "features": {}, "id": 205915,
+    "downloads": 1118962, "features": {}, "id": 205915,
     "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/redox_users/0.3.4/authors",
@@ -402,7 +402,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/redox_users/0.3.5/download",
-    "downloads": 192109,
+    "downloads": 462024,
     "features": {"auth": ["rust-argon2"], "default": ["auth"]},
     "id": 276784, "license": "MIT",
     "links": {
@@ -418,5 +418,64 @@
     },
     "readme_path": "/api/v1/crates/redox_users/0.3.5/readme",
     "updated_at": "2020-08-26T20:30:32.412521+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-12-31T19:54:05.204702+00:00",
+        "user": {
+          "avatar": "https://avatars2.githubusercontent.com/u/16041213?v=4",
+          "id": 18976, "login": "MggMuggins", "name": "SamwiseFilmore",
+          "url": "https://github.com/MggMuggins"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Jose Narvaez <goyox86@gmail.com>",
+          "Wesley Hershberger <mggmugginsmc@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "redox_users", "crate_size": 13023,
+    "created_at": "2020-12-31T19:54:05.204702+00:00",
+    "dependencies": [
+      {
+        "crate_id": "getrandom", "default_features": true, "downloads": 0,
+        "features": ["std"], "id": 1964347, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 320847
+      },
+      {
+        "crate_id": "redox_syscall", "default_features": true,
+        "downloads": 0, "features": [], "id": 1964348, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 320847
+      },
+      {
+        "crate_id": "rust-argon2", "default_features": true, "downloads": 0,
+        "features": [], "id": 1964349, "kind": "normal", "optional": true,
+        "req": "^0.8", "target": null, "version_id": 320847
+      }
+    ],
+    "dl_path": "/api/v1/crates/redox_users/0.4.0/download",
+    "downloads": 0,
+    "features": {"auth": ["rust-argon2"], "default": ["auth"]},
+    "id": 320847, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/redox_users/0.4.0/authors",
+      "dependencies": "/api/v1/crates/redox_users/0.4.0/dependencies",
+      "version_downloads": "/api/v1/crates/redox_users/0.4.0/downloads"
+    },
+    "num": "0.4.0",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/16041213?v=4",
+      "id": 18976, "login": "MggMuggins", "name": "SamwiseFilmore",
+      "url": "https://github.com/MggMuggins"
+    },
+    "readme_path": "/api/v1/crates/redox_users/0.4.0/readme",
+    "updated_at": "2020-12-31T19:54:05.204702+00:00", "yanked": false
   }
 ]

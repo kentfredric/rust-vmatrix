@@ -40,7 +40,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/av-metrics/0.1.0/download",
-    "downloads": 120,
+    "downloads": 126,
     "features": {
       "decode": [], "default": ["y4m-decode"],
       "y4m-decode": ["y4m", "decode"]
@@ -101,7 +101,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/av-metrics/0.2.0/download",
-    "downloads": 218,
+    "downloads": 224,
     "features": {
       "decode": [], "default": ["y4m-decode"],
       "y4m-decode": ["y4m", "decode"]
@@ -162,7 +162,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/av-metrics/0.2.1/download",
-    "downloads": 263,
+    "downloads": 269,
     "features": {
       "decode": [], "default": ["y4m-decode"],
       "y4m-decode": ["y4m", "decode"]
@@ -228,7 +228,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/av-metrics/0.3.0/download",
-    "downloads": 526,
+    "downloads": 532,
     "features": {
       "bench": [], "decode": [], "default": ["y4m-decode"],
       "y4m-decode": ["y4m", "decode"]
@@ -313,7 +313,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/av-metrics/0.4.0/download",
-    "downloads": 4300,
+    "downloads": 4306,
     "features": {
       "bench": [], "decode": [], "default": ["y4m-decode"],
       "y4m-decode": ["y4m", "decode"]
@@ -398,7 +398,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/av-metrics/0.5.0/download",
-    "downloads": 1647,
+    "downloads": 1654,
     "features": {
       "bench": [], "decode": [], "default": ["y4m-decode"],
       "y4m-decode": ["y4m", "decode"]
@@ -483,7 +483,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/av-metrics/0.5.1/download",
-    "downloads": 9603,
+    "downloads": 9925,
     "features": {
       "bench": [], "decode": [], "default": ["y4m-decode"],
       "y4m-decode": ["y4m", "decode"]
@@ -578,7 +578,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/av-metrics/0.6.0/download",
-    "downloads": 238,
+    "downloads": 362,
     "features": {
       "bench": [], "decode": [], "default": ["y4m-decode"],
       "y4m-decode": ["y4m", "decode"]
@@ -673,7 +673,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/av-metrics/0.6.1/download",
-    "downloads": 359,
+    "downloads": 3062,
     "features": {
       "bench": [], "decode": [], "default": ["y4m-decode"],
       "y4m-decode": ["y4m", "decode"]
@@ -692,5 +692,90 @@
     },
     "readme_path": "/api/v1/crates/av-metrics/0.6.1/readme",
     "updated_at": "2020-10-06T17:53:02.818048+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-12-31T11:01:14.509710+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/239012?v=4",
+          "id": 4718, "login": "lu-zero", "name": "Luca Barbato",
+          "url": "https://github.com/lu-zero"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Josh Holmer <jholmer.in@gmail.com>"]},
+      "users": []
+    },
+    "crate": "av-metrics", "crate_size": 22396,
+    "created_at": "2020-12-31T11:01:14.509710+00:00",
+    "dependencies": [
+      {
+        "crate_id": "criterion", "default_features": true, "downloads": 0,
+        "features": [], "id": 1963429, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 320722
+      },
+      {
+        "crate_id": "crossbeam", "default_features": true, "downloads": 0,
+        "features": [], "id": 1963421, "kind": "normal", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 320722
+      },
+      {
+        "crate_id": "itertools", "default_features": true, "downloads": 0,
+        "features": [], "id": 1963422, "kind": "normal", "optional": false,
+        "req": "^0.10.0", "target": null, "version_id": 320722
+      },
+      {
+        "crate_id": "lab", "default_features": true, "downloads": 0,
+        "features": [], "id": 1963423, "kind": "normal", "optional": false,
+        "req": "^0.8.1", "target": null, "version_id": 320722
+      },
+      {
+        "crate_id": "num-traits", "default_features": true, "downloads": 0,
+        "features": [], "id": 1963424, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 320722
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 1963425, "kind": "normal", "optional": false,
+        "req": "^1.5", "target": null, "version_id": 320722
+      },
+      {
+        "crate_id": "thiserror", "default_features": true, "downloads": 0,
+        "features": [], "id": 1963427, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 320722
+      },
+      {
+        "crate_id": "v_frame", "default_features": true, "downloads": 0,
+        "features": [], "id": 1963428, "kind": "normal", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 320722
+      },
+      {
+        "crate_id": "y4m", "default_features": true, "downloads": 0,
+        "features": [], "id": 1963430, "kind": "dev", "optional": false,
+        "req": "^0.7.0", "target": null, "version_id": 320722
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1963426, "kind": "normal",
+        "optional": true, "req": "^1", "target": null, "version_id": 320722
+      }
+    ],
+    "dl_path": "/api/v1/crates/av-metrics/0.6.2/download",
+    "downloads": 68, "features": {}, "id": 320722, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/av-metrics/0.6.2/authors",
+      "dependencies": "/api/v1/crates/av-metrics/0.6.2/dependencies",
+      "version_downloads": "/api/v1/crates/av-metrics/0.6.2/downloads"
+    },
+    "num": "0.6.2",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/239012?v=4",
+      "id": 4718, "login": "lu-zero", "name": "Luca Barbato",
+      "url": "https://github.com/lu-zero"
+    },
+    "readme_path": "/api/v1/crates/av-metrics/0.6.2/readme",
+    "updated_at": "2020-12-31T11:01:14.509710+00:00", "yanked": false
   }
 ]

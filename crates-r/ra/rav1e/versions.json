@@ -239,7 +239,7 @@
         "req": "^0.4", "target": null, "version_id": 188472
       }
     ],
-    "dl_path": "/api/v1/crates/rav1e/0.1.0/download", "downloads": 390,
+    "dl_path": "/api/v1/crates/rav1e/0.1.0/download", "downloads": 395,
     "features": {
       "asm": ["nasm-rs", "cc"], "bench": [],
       "binaries": [
@@ -515,7 +515,7 @@
         "req": "^0.5", "target": null, "version_id": 197276
       }
     ],
-    "dl_path": "/api/v1/crates/rav1e/0.2.0/download", "downloads": 407,
+    "dl_path": "/api/v1/crates/rav1e/0.2.0/download", "downloads": 412,
     "features": {
       "asm": ["nasm-rs", "cc"], "bench": [],
       "binaries": [
@@ -795,7 +795,7 @@
         "req": "^0.5", "target": null, "version_id": 200555
       }
     ],
-    "dl_path": "/api/v1/crates/rav1e/0.2.1/download", "downloads": 1008,
+    "dl_path": "/api/v1/crates/rav1e/0.2.1/download", "downloads": 1018,
     "features": {
       "asm": ["nasm-rs", "cc"], "bench": [],
       "binaries": ["ivf", "y4m", "clap", "scan_fmt", "fern", "console", "better-panic"],
@@ -1072,7 +1072,7 @@
         "req": "^0.5", "target": null, "version_id": 210165
       }
     ],
-    "dl_path": "/api/v1/crates/rav1e/0.3.0/download", "downloads": 215,
+    "dl_path": "/api/v1/crates/rav1e/0.3.0/download", "downloads": 234,
     "features": {
       "asm": ["nasm-rs", "cc"], "bench": [],
       "binaries": ["ivf", "y4m", "clap", "scan_fmt", "fern", "console", "better-panic"],
@@ -1349,7 +1349,7 @@
         "req": "^0.5", "target": null, "version_id": 214103
       }
     ],
-    "dl_path": "/api/v1/crates/rav1e/0.3.1/download", "downloads": 1151,
+    "dl_path": "/api/v1/crates/rav1e/0.3.1/download", "downloads": 1193,
     "features": {
       "asm": ["nasm-rs", "cc"], "bench": [],
       "binaries": ["ivf", "y4m", "clap", "scan_fmt", "fern", "console", "better-panic"],
@@ -1625,7 +1625,7 @@
         "req": "^0.5", "target": null, "version_id": 249659
       }
     ],
-    "dl_path": "/api/v1/crates/rav1e/0.3.3/download", "downloads": 2657,
+    "dl_path": "/api/v1/crates/rav1e/0.3.3/download", "downloads": 2791,
     "features": {
       "asm": ["nasm-rs", "cc"], "bench": [],
       "binaries": ["ivf", "y4m", "clap", "scan_fmt", "fern", "console"],
@@ -1901,7 +1901,7 @@
         "req": "^0.5", "target": null, "version_id": 281647
       }
     ],
-    "dl_path": "/api/v1/crates/rav1e/0.3.4/download", "downloads": 1081,
+    "dl_path": "/api/v1/crates/rav1e/0.3.4/download", "downloads": 3710,
     "features": {
       "asm": ["nasm-rs", "cc"], "bench": [],
       "binaries": ["ivf", "y4m", "clap", "scan_fmt", "fern", "console"],
@@ -1927,6 +1927,282 @@
     },
     "readme_path": "/api/v1/crates/rav1e/0.3.4/readme",
     "updated_at": "2020-09-09T09:51:19.475297+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2020-12-31T14:45:58.316462+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/239012?v=4",
+          "id": 4718, "login": "lu-zero", "name": "Luca Barbato",
+          "url": "https://github.com/lu-zero"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["Thomas Daede <tdaede@xiph.org>"]}, "users": []},
+    "crate": "rav1e", "crate_size": 721240,
+    "created_at": "2020-12-31T14:45:58.316462+00:00",
+    "dependencies": [
+      {
+        "crate_id": "arbitrary", "default_features": true, "downloads": 0,
+        "features": [], "id": 1963830, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(fuzzing)", "version_id": 320769
+      },
+      {
+        "crate_id": "arg_enum_proc_macro", "default_features": true,
+        "downloads": 0, "features": [], "id": 1963792, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 320769
+      },
+      {
+        "crate_id": "arrayvec", "default_features": true, "downloads": 0,
+        "features": [], "id": 1963793, "kind": "normal", "optional": false,
+        "req": "^0.5", "target": null, "version_id": 320769
+      },
+      {
+        "crate_id": "assert_cmd", "default_features": true, "downloads": 0,
+        "features": [], "id": 1963819, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 320769
+      },
+      {
+        "crate_id": "bitstream-io", "default_features": true,
+        "downloads": 0, "features": [], "id": 1963795, "kind": "normal",
+        "optional": false, "req": "^0.8", "target": null,
+        "version_id": 320769
+      },
+      {
+        "crate_id": "cfg-if", "default_features": true, "downloads": 0,
+        "features": [], "id": 1963797, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 320769
+      },
+      {
+        "crate_id": "criterion", "default_features": true, "downloads": 0,
+        "features": [], "id": 1963820, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 320769
+      },
+      {
+        "crate_id": "interpolate_name", "default_features": true,
+        "downloads": 0, "features": [], "id": 1963831, "kind": "normal",
+        "optional": false, "req": "^0.2.2", "target": "cfg(fuzzing)",
+        "version_id": 320769
+      },
+      {
+        "crate_id": "interpolate_name", "default_features": true,
+        "downloads": 0, "features": [], "id": 1963821, "kind": "dev",
+        "optional": false, "req": "^0.2.2", "target": null,
+        "version_id": 320769
+      },
+      {
+        "crate_id": "itertools", "default_features": true, "downloads": 0,
+        "features": [], "id": 1963803, "kind": "normal", "optional": false,
+        "req": "^0.9", "target": null, "version_id": 320769
+      },
+      {
+        "crate_id": "libc", "default_features": true, "downloads": 0,
+        "features": [], "id": 1963805, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 320769
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1963806, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 320769
+      },
+      {
+        "crate_id": "noop_proc_macro", "default_features": true,
+        "downloads": 0, "features": [], "id": 1963807, "kind": "normal",
+        "optional": false, "req": "^0.2.0", "target": null,
+        "version_id": 320769
+      },
+      {
+        "crate_id": "num-derive", "default_features": true, "downloads": 0,
+        "features": [], "id": 1963808, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 320769
+      },
+      {
+        "crate_id": "num-traits", "default_features": true, "downloads": 0,
+        "features": [], "id": 1963809, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 320769
+      },
+      {
+        "crate_id": "paste", "default_features": true, "downloads": 0,
+        "features": [], "id": 1963810, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 320769
+      },
+      {
+        "crate_id": "pretty_assertions", "default_features": true,
+        "downloads": 0, "features": [], "id": 1963822, "kind": "dev",
+        "optional": false, "req": "^0.6", "target": null,
+        "version_id": 320769
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1963823, "kind": "dev", "optional": false,
+        "req": "^0.7", "target": null, "version_id": 320769
+      },
+      {
+        "crate_id": "rand", "default_features": true, "downloads": 0,
+        "features": [], "id": 1963832, "kind": "normal", "optional": false,
+        "req": "^0.7", "target": "cfg(fuzzing)", "version_id": 320769
+      },
+      {
+        "crate_id": "rand_chacha", "default_features": true, "downloads": 0,
+        "features": [], "id": 1963824, "kind": "dev", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 320769
+      },
+      {
+        "crate_id": "rand_chacha", "default_features": true, "downloads": 0,
+        "features": [], "id": 1963833, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": "cfg(fuzzing)", "version_id": 320769
+      },
+      {
+        "crate_id": "rayon", "default_features": true, "downloads": 0,
+        "features": [], "id": 1963811, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 320769
+      },
+      {
+        "crate_id": "rustc_version", "default_features": true,
+        "downloads": 0, "features": [], "id": 1963828, "kind": "build",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 320769
+      },
+      {
+        "crate_id": "semver", "default_features": true, "downloads": 0,
+        "features": [], "id": 1963825, "kind": "dev", "optional": false,
+        "req": "^0.9", "target": null, "version_id": 320769
+      },
+      {
+        "crate_id": "simd_helpers", "default_features": true,
+        "downloads": 0, "features": [], "id": 1963815, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 320769
+      },
+      {
+        "crate_id": "thiserror", "default_features": true, "downloads": 0,
+        "features": [], "id": 1963816, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 320769
+      },
+      {
+        "crate_id": "vergen", "default_features": true, "downloads": 0,
+        "features": [], "id": 1963829, "kind": "build", "optional": false,
+        "req": "^3", "target": null, "version_id": 320769
+      },
+      {
+        "crate_id": "aom-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1963791, "kind": "normal", "optional": true,
+        "req": "^0.2.1", "target": null, "version_id": 320769
+      },
+      {
+        "crate_id": "backtrace", "default_features": true, "downloads": 0,
+        "features": [], "id": 1963794, "kind": "normal", "optional": true,
+        "req": "^0.3", "target": null, "version_id": 320769
+      },
+      {
+        "crate_id": "byteorder", "default_features": true, "downloads": 0,
+        "features": [], "id": 1963796, "kind": "normal", "optional": true,
+        "req": "^1.3.2", "target": null, "version_id": 320769
+      },
+      {
+        "crate_id": "cc", "default_features": true, "downloads": 0,
+        "features": ["parallel"], "id": 1963826, "kind": "build",
+        "optional": true, "req": "^1.0", "target": null,
+        "version_id": 320769
+      },
+      {
+        "crate_id": "clap", "default_features": false, "downloads": 0,
+        "features": [], "id": 1963798, "kind": "normal", "optional": true,
+        "req": "^2", "target": null, "version_id": 320769
+      },
+      {
+        "crate_id": "console", "default_features": true, "downloads": 0,
+        "features": [], "id": 1963799, "kind": "normal", "optional": true,
+        "req": "^0.11", "target": null, "version_id": 320769
+      },
+      {
+        "crate_id": "dav1d-sys", "default_features": true, "downloads": 0,
+        "features": [], "id": 1963800, "kind": "normal", "optional": true,
+        "req": "^0.3.2", "target": null, "version_id": 320769
+      },
+      {
+        "crate_id": "fern", "default_features": true, "downloads": 0,
+        "features": [], "id": 1963801, "kind": "normal", "optional": true,
+        "req": "^0.6", "target": null, "version_id": 320769
+      },
+      {
+        "crate_id": "image", "default_features": false, "downloads": 0,
+        "features": ["png"], "id": 1963802, "kind": "normal",
+        "optional": true, "req": "^0.23", "target": null,
+        "version_id": 320769
+      },
+      {
+        "crate_id": "ivf", "default_features": true, "downloads": 0,
+        "features": [], "id": 1963804, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 320769
+      },
+      {
+        "crate_id": "nasm-rs", "default_features": true, "downloads": 0,
+        "features": ["parallel"], "id": 1963827, "kind": "build",
+        "optional": true, "req": "^0.2", "target": null,
+        "version_id": 320769
+      },
+      {
+        "crate_id": "rust_hawktracer", "default_features": true,
+        "downloads": 0, "features": ["profiling_enabled"], "id": 1963812,
+        "kind": "normal", "optional": true, "req": "^0.7.0", "target": null,
+        "version_id": 320769
+      },
+      {
+        "crate_id": "scan_fmt", "default_features": false, "downloads": 0,
+        "features": [], "id": 1963813, "kind": "normal", "optional": true,
+        "req": "^0.2.3", "target": null, "version_id": 320769
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": ["derive"], "id": 1963814, "kind": "normal",
+        "optional": true, "req": "^1.0", "target": null,
+        "version_id": 320769
+      },
+      {
+        "crate_id": "signal-hook", "default_features": true, "downloads": 0,
+        "features": [], "id": 1963834, "kind": "normal", "optional": true,
+        "req": "^0.1.9", "target": "cfg(unix)", "version_id": 320769
+      },
+      {
+        "crate_id": "toml", "default_features": true, "downloads": 0,
+        "features": [], "id": 1963817, "kind": "normal", "optional": true,
+        "req": "^0.5", "target": null, "version_id": 320769
+      },
+      {
+        "crate_id": "y4m", "default_features": true, "downloads": 0,
+        "features": [], "id": 1963818, "kind": "normal", "optional": true,
+        "req": "^0.5", "target": null, "version_id": 320769
+      }
+    ],
+    "dl_path": "/api/v1/crates/rav1e/0.3.5/download", "downloads": 30,
+    "features": {
+      "asm": ["nasm-rs", "cc"], "bench": [],
+      "binaries": ["ivf", "y4m", "clap", "scan_fmt", "fern", "console"],
+      "capi": [], "check_asm": [], "decode_test": ["aom-sys"],
+      "decode_test_dav1d": ["dav1d-sys"],
+      "default": ["binaries", "asm", "signal_support"],
+      "desync_finder": ["backtrace"], "dump_ivf": ["ivf"],
+      "dump_lookahead_data": ["byteorder", "image"], "quick_test": [],
+      "serialize": ["serde", "toml"], "signal_support": ["signal-hook"],
+      "tracing": ["rust_hawktracer"]
+    },
+    "id": 320769, "license": "BSD-2-Clause",
+    "links": {
+      "authors": "/api/v1/crates/rav1e/0.3.5/authors",
+      "dependencies": "/api/v1/crates/rav1e/0.3.5/dependencies",
+      "version_downloads": "/api/v1/crates/rav1e/0.3.5/downloads"
+    },
+    "num": "0.3.5",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/239012?v=4",
+      "id": 4718, "login": "lu-zero", "name": "Luca Barbato",
+      "url": "https://github.com/lu-zero"
+    },
+    "readme_path": "/api/v1/crates/rav1e/0.3.5/readme",
+    "updated_at": "2020-12-31T14:45:58.316462+00:00", "yanked": false
   },
   {
     "audit_actions": [
@@ -2205,7 +2481,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/rav1e/0.4.0-alpha/download",
-    "downloads": 3169,
+    "downloads": 7518,
     "features": {
       "asm": ["nasm-rs", "cc", "regex"], "bench": [],
       "binaries": ["ivf", "y4m", "clap", "scan_fmt", "fern", "console", "av-metrics"],
