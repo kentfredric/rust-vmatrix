@@ -17,7 +17,7 @@
     "crate": "robust", "crate_size": 11882,
     "created_at": "2020-01-08T14:42:35.062761+00:00",
     "dependencies": [],
-    "dl_path": "/api/v1/crates/robust/0.1.0/download", "downloads": 81,
+    "dl_path": "/api/v1/crates/robust/0.1.0/download", "downloads": 88,
     "features": {}, "id": 202275, "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/robust/0.1.0/authors",
@@ -51,7 +51,7 @@
     "crate": "robust", "crate_size": 11913,
     "created_at": "2020-01-08T14:48:15.843298+00:00",
     "dependencies": [],
-    "dl_path": "/api/v1/crates/robust/0.1.1/download", "downloads": 89,
+    "dl_path": "/api/v1/crates/robust/0.1.1/download", "downloads": 96,
     "features": {}, "id": 202277, "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/robust/0.1.1/authors",
@@ -86,7 +86,7 @@
     "created_at": "2020-01-21T01:00:16.102645+00:00",
     "dependencies": [],
     "dl_path": "/api/v1/crates/robust/0.1.2/download",
-    "downloads": 3395, "features": {}, "id": 205651,
+    "downloads": 4285, "features": {}, "id": 205651,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/robust/0.1.2/authors",
@@ -120,7 +120,7 @@
     "crate": "robust", "crate_size": 12221,
     "created_at": "2020-08-19T14:25:07.123462+00:00",
     "dependencies": [],
-    "dl_path": "/api/v1/crates/robust/0.2.0/download", "downloads": 27,
+    "dl_path": "/api/v1/crates/robust/0.2.0/download", "downloads": 38,
     "features": {}, "id": 274152, "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/robust/0.2.0/authors",
@@ -154,7 +154,7 @@
     "crate": "robust", "crate_size": 12218,
     "created_at": "2020-08-19T14:49:46.471689+00:00",
     "dependencies": [],
-    "dl_path": "/api/v1/crates/robust/0.2.1/download", "downloads": 26,
+    "dl_path": "/api/v1/crates/robust/0.2.1/download", "downloads": 37,
     "features": {}, "id": 274163, "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/robust/0.2.1/authors",
@@ -189,7 +189,7 @@
     "created_at": "2020-08-19T14:59:56.891195+00:00",
     "dependencies": [],
     "dl_path": "/api/v1/crates/robust/0.2.2/download",
-    "downloads": 2690, "features": {}, "id": 274168,
+    "downloads": 13976, "features": {}, "id": 274168,
     "license": "MIT/Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/robust/0.2.2/authors",
@@ -204,5 +204,57 @@
     },
     "readme_path": "/api/v1/crates/robust/0.2.2/readme",
     "updated_at": "2020-08-19T14:59:56.891195+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2021-01-03T17:29:03.613234+00:00",
+        "user": {
+          "avatar": "https://avatars2.githubusercontent.com/u/416575?v=4",
+          "id": 227, "login": "frewsxcv", "name": "Corey Farwell",
+          "url": "https://github.com/frewsxcv"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["The GeoRust Developers", "The Spade Developers"]},
+      "users": []
+    },
+    "crate": "robust", "crate_size": 16034,
+    "created_at": "2021-01-03T17:29:03.613234+00:00",
+    "dependencies": [
+      {
+        "crate_id": "float_extras", "default_features": true,
+        "downloads": 0, "features": [], "id": 1971949, "kind": "dev",
+        "optional": false, "req": "^0.1.6", "target": null,
+        "version_id": 321874
+      },
+      {
+        "crate_id": "png", "default_features": true, "downloads": 0,
+        "features": [], "id": 1971950, "kind": "dev", "optional": false,
+        "req": "^0.16.7", "target": null, "version_id": 321874
+      },
+      {
+        "crate_id": "ieee754", "default_features": true, "downloads": 0,
+        "features": [], "id": 1971948, "kind": "normal", "optional": true,
+        "req": "^0.2", "target": null, "version_id": 321874
+      }
+    ],
+    "dl_path": "/api/v1/crates/robust/0.2.3/download", "downloads": 24,
+    "features": {"no_std": ["ieee754"]}, "id": 321874,
+    "license": "MIT/Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/robust/0.2.3/authors",
+      "dependencies": "/api/v1/crates/robust/0.2.3/dependencies",
+      "version_downloads": "/api/v1/crates/robust/0.2.3/downloads"
+    },
+    "num": "0.2.3",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/416575?v=4",
+      "id": 227, "login": "frewsxcv", "name": "Corey Farwell",
+      "url": "https://github.com/frewsxcv"
+    },
+    "readme_path": "/api/v1/crates/robust/0.2.3/readme",
+    "updated_at": "2021-01-03T17:29:03.613234+00:00", "yanked": false
   }
 ]
