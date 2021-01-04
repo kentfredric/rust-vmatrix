@@ -55,7 +55,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tracing-tree/0.1.0/download",
-    "downloads": 37, "features": {}, "id": 254889,
+    "downloads": 44, "features": {}, "id": 254889,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/tracing-tree/0.1.0/authors",
@@ -127,7 +127,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tracing-tree/0.1.1/download",
-    "downloads": 274, "features": {}, "id": 256761,
+    "downloads": 281, "features": {}, "id": 256761,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/tracing-tree/0.1.1/authors",
@@ -199,7 +199,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tracing-tree/0.1.2/download",
-    "downloads": 286, "features": {}, "id": 258754,
+    "downloads": 293, "features": {}, "id": 258754,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/tracing-tree/0.1.2/authors",
@@ -271,7 +271,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tracing-tree/0.1.3/download",
-    "downloads": 825, "features": {}, "id": 261576,
+    "downloads": 832, "features": {}, "id": 261576,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/tracing-tree/0.1.3/authors",
@@ -338,7 +338,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tracing-tree/0.1.4/download",
-    "downloads": 15471, "features": {}, "id": 262115,
+    "downloads": 15500, "features": {}, "id": 262115,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/tracing-tree/0.1.4/authors",
@@ -405,7 +405,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tracing-tree/0.1.5/download",
-    "downloads": 54671, "features": {}, "id": 271032,
+    "downloads": 76390, "features": {}, "id": 271032,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/tracing-tree/0.1.5/authors",
@@ -482,7 +482,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tracing-tree/0.1.6/download",
-    "downloads": 31212, "features": {}, "id": 288251,
+    "downloads": 90932, "features": {}, "id": 288251,
     "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/tracing-tree/0.1.6/authors",
@@ -497,5 +497,92 @@
     },
     "readme_path": "/api/v1/crates/tracing-tree/0.1.6/readme",
     "updated_at": "2020-09-28T16:48:17.332624+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2021-01-04T16:59:16.933466+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/2067774?v=4",
+          "id": 5671, "login": "davidbarsky", "name": "David Barsky",
+          "url": "https://github.com/davidbarsky"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["David Barsky <me@davidbarsky.com>", "Nathan Whitaker"]},
+      "users": []
+    },
+    "crate": "tracing-tree", "crate_size": 13252,
+    "created_at": "2021-01-04T16:59:16.933466+00:00",
+    "dependencies": [
+      {
+        "crate_id": "ansi_term", "default_features": true, "downloads": 0,
+        "features": [], "id": 1976036, "kind": "normal", "optional": false,
+        "req": "^0.12", "target": null, "version_id": 322398
+      },
+      {
+        "crate_id": "assert_cmd", "default_features": true, "downloads": 0,
+        "features": [], "id": 1976043, "kind": "dev", "optional": false,
+        "req": "^1", "target": null, "version_id": 322398
+      },
+      {
+        "crate_id": "atty", "default_features": true, "downloads": 0,
+        "features": [], "id": 1976037, "kind": "normal", "optional": false,
+        "req": "^0.2", "target": null, "version_id": 322398
+      },
+      {
+        "crate_id": "chrono", "default_features": true, "downloads": 0,
+        "features": [], "id": 1976038, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 322398
+      },
+      {
+        "crate_id": "glob", "default_features": true, "downloads": 0,
+        "features": [], "id": 1976044, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 322398
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1976045, "kind": "dev", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 322398
+      },
+      {
+        "crate_id": "termcolor", "default_features": true, "downloads": 0,
+        "features": [], "id": 1976039, "kind": "normal", "optional": false,
+        "req": "^1.1", "target": null, "version_id": 322398
+      },
+      {
+        "crate_id": "tracing", "default_features": true, "downloads": 0,
+        "features": [], "id": 1976040, "kind": "normal", "optional": false,
+        "req": "^0.1", "target": null, "version_id": 322398
+      },
+      {
+        "crate_id": "tracing-subscriber", "default_features": false,
+        "downloads": 0, "features": ["registry", "fmt"], "id": 1976042,
+        "kind": "normal", "optional": false, "req": "^0.2", "target": null,
+        "version_id": 322398
+      },
+      {
+        "crate_id": "tracing-log", "default_features": true, "downloads": 0,
+        "features": [], "id": 1976041, "kind": "normal", "optional": true,
+        "req": "^0.1", "target": null, "version_id": 322398
+      }
+    ],
+    "dl_path": "/api/v1/crates/tracing-tree/0.1.7/download",
+    "downloads": 2, "features": {"default": ["tracing-log"]},
+    "id": 322398, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/tracing-tree/0.1.7/authors",
+      "dependencies": "/api/v1/crates/tracing-tree/0.1.7/dependencies",
+      "version_downloads": "/api/v1/crates/tracing-tree/0.1.7/downloads"
+    },
+    "num": "0.1.7",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/2067774?v=4",
+      "id": 5671, "login": "davidbarsky", "name": "David Barsky",
+      "url": "https://github.com/davidbarsky"
+    },
+    "readme_path": "/api/v1/crates/tracing-tree/0.1.7/readme",
+    "updated_at": "2021-01-04T16:59:16.933466+00:00", "yanked": false
   }
 ]
