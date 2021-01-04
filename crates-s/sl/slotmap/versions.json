@@ -9,7 +9,7 @@
     "created_at": "2018-07-02T16:03:35.775764+00:00",
     "dependencies": [],
     "dl_path": "/api/v1/crates/slotmap/0.1.0/download",
-    "downloads": 218, "features": {}, "id": 98547, "license": "Zlib",
+    "downloads": 221, "features": {}, "id": 98547, "license": "Zlib",
     "links": {
       "authors": "/api/v1/crates/slotmap/0.1.0/authors",
       "dependencies": "/api/v1/crates/slotmap/0.1.0/dependencies",
@@ -57,7 +57,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/slotmap/0.1.1/download",
-    "downloads": 220, "features": {}, "id": 99345, "license": "Zlib",
+    "downloads": 223, "features": {}, "id": 99345, "license": "Zlib",
     "links": {
       "authors": "/api/v1/crates/slotmap/0.1.1/authors",
       "dependencies": "/api/v1/crates/slotmap/0.1.1/dependencies",
@@ -105,7 +105,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/slotmap/0.2.0/download",
-    "downloads": 339, "features": {}, "id": 100123, "license": "Zlib",
+    "downloads": 342, "features": {}, "id": 100123, "license": "Zlib",
     "links": {
       "authors": "/api/v1/crates/slotmap/0.2.0/authors",
       "dependencies": "/api/v1/crates/slotmap/0.2.0/dependencies",
@@ -153,7 +153,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/slotmap/0.2.1/download",
-    "downloads": 10465, "features": {"unstable": []}, "id": 108400,
+    "downloads": 10497, "features": {"unstable": []}, "id": 108400,
     "license": "Zlib",
     "links": {
       "authors": "/api/v1/crates/slotmap/0.2.1/authors",
@@ -202,7 +202,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/slotmap/0.3.0/download",
-    "downloads": 40073, "features": {"unstable": []}, "id": 114819,
+    "downloads": 42021, "features": {"unstable": []}, "id": 114819,
     "license": "Zlib",
     "links": {
       "authors": "/api/v1/crates/slotmap/0.3.0/authors",
@@ -256,7 +256,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/slotmap/0.4.0/download",
-    "downloads": 57627, "features": {"unstable": []}, "id": 171687,
+    "downloads": 82374, "features": {"unstable": []}, "id": 171687,
     "license": "Zlib",
     "links": {
       "authors": "/api/v1/crates/slotmap/0.4.0/authors",
@@ -271,5 +271,79 @@
     },
     "readme_path": "/api/v1/crates/slotmap/0.4.0/readme",
     "updated_at": "2019-08-25T04:10:08.722829+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2021-01-04T00:02:14.670996+00:00",
+        "user": {
+          "avatar": "https://avatars2.githubusercontent.com/u/202547?v=4",
+          "id": 24326, "login": "orlp", "name": "Orson Peters",
+          "url": "https://github.com/orlp"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Orson Peters <orsonpeters@gmail.com>"]},
+      "users": []
+    },
+    "crate": "slotmap", "crate_size": 55383,
+    "created_at": "2021-01-04T00:02:14.670996+00:00",
+    "dependencies": [
+      {
+        "crate_id": "fxhash", "default_features": true, "downloads": 0,
+        "features": [], "id": 1972807, "kind": "dev", "optional": false,
+        "req": "^0.2.1", "target": null, "version_id": 322024
+      },
+      {
+        "crate_id": "quickcheck", "default_features": true, "downloads": 0,
+        "features": [], "id": 1972808, "kind": "dev", "optional": false,
+        "req": "^0.9", "target": null, "version_id": 322024
+      },
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 1972809, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 322024
+      },
+      {
+        "crate_id": "serde_derive", "default_features": true,
+        "downloads": 0, "features": [], "id": 1972810, "kind": "dev",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 322024
+      },
+      {
+        "crate_id": "serde_json", "default_features": true, "downloads": 0,
+        "features": [], "id": 1972811, "kind": "dev", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 322024
+      },
+      {
+        "crate_id": "version_check", "default_features": true,
+        "downloads": 0, "features": [], "id": 1972812, "kind": "build",
+        "optional": false, "req": "^0.9", "target": null,
+        "version_id": 322024
+      },
+      {
+        "crate_id": "serde", "default_features": false, "downloads": 0,
+        "features": ["derive", "alloc"], "id": 1972806, "kind": "normal",
+        "optional": true, "req": "^1.0", "target": null,
+        "version_id": 322024
+      }
+    ],
+    "dl_path": "/api/v1/crates/slotmap/1.0.0/download", "downloads": 7,
+    "features": {"default": ["std"], "std": [], "unstable": []},
+    "id": 322024, "license": "Zlib",
+    "links": {
+      "authors": "/api/v1/crates/slotmap/1.0.0/authors",
+      "dependencies": "/api/v1/crates/slotmap/1.0.0/dependencies",
+      "version_downloads": "/api/v1/crates/slotmap/1.0.0/downloads"
+    },
+    "num": "1.0.0",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/202547?v=4",
+      "id": 24326, "login": "orlp", "name": "Orson Peters",
+      "url": "https://github.com/orlp"
+    },
+    "readme_path": "/api/v1/crates/slotmap/1.0.0/readme",
+    "updated_at": "2021-01-04T00:02:14.670996+00:00", "yanked": false
   }
 ]
