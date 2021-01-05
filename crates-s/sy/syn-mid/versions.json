@@ -23,7 +23,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/syn-mid/0.1.0/download",
-    "downloads": 179,
+    "downloads": 180,
     "features": {
       "clone-impls": ["syn/clone-impls"],
       "default": ["derive", "clone-impls"], "derive": ["syn/derive"],
@@ -63,7 +63,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/syn-mid/0.2.0/download",
-    "downloads": 196,
+    "downloads": 198,
     "features": {
       "clone-impls": ["syn/clone-impls"], "default": ["clone-impls"],
       "extra-traits": ["syn/extra-traits"]
@@ -102,7 +102,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/syn-mid/0.3.0/download",
-    "downloads": 279,
+    "downloads": 281,
     "features": {"clone-impls": ["syn/clone-impls"], "default": []},
     "id": 134373, "license": "Apache-2.0/MIT",
     "links": {
@@ -138,7 +138,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/syn-mid/0.4.0/download",
-    "downloads": 200853,
+    "downloads": 201184,
     "features": {"clone-impls": ["syn/clone-impls"]}, "id": 169745,
     "license": "Apache-2.0/MIT",
     "links": {
@@ -188,7 +188,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/syn-mid/0.5.0/download",
-    "downloads": 2443398,
+    "downloads": 2455155,
     "features": {"clone-impls": ["syn/clone-impls"]}, "id": 195225,
     "license": "Apache-2.0 OR MIT",
     "links": {
@@ -239,7 +239,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/syn-mid/0.5.1/download",
-    "downloads": 14099,
+    "downloads": 14214,
     "features": {"clone-impls": ["syn/clone-impls"]}, "id": 293567,
     "license": "Apache-2.0 OR MIT",
     "links": {
@@ -289,9 +289,9 @@
         "target": null, "version_id": 320032
       }
     ],
-    "dl_path": "/api/v1/crates/syn-mid/0.5.2/download", "downloads": 4,
-    "features": {"clone-impls": ["syn/clone-impls"]}, "id": 320032,
-    "license": "Apache-2.0 OR MIT",
+    "dl_path": "/api/v1/crates/syn-mid/0.5.2/download",
+    "downloads": 1228, "features": {"clone-impls": ["syn/clone-impls"]},
+    "id": 320032, "license": "Apache-2.0 OR MIT",
     "links": {
       "authors": "/api/v1/crates/syn-mid/0.5.2/authors",
       "dependencies": "/api/v1/crates/syn-mid/0.5.2/dependencies",
@@ -305,5 +305,55 @@
     },
     "readme_path": "/api/v1/crates/syn-mid/0.5.2/readme",
     "updated_at": "2020-12-29T16:13:25.683547+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2021-01-05T15:18:24.654297+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/43724913?v=4",
+          "id": 33035, "login": "taiki-e", "name": "Taiki Endo",
+          "url": "https://github.com/taiki-e"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["Taiki Endo <te316e89@gmail.com>"]}, "users": []},
+    "crate": "syn-mid", "crate_size": 12758,
+    "created_at": "2021-01-05T15:18:24.654297+00:00",
+    "dependencies": [
+      {
+        "crate_id": "proc-macro2", "default_features": false,
+        "downloads": 0, "features": [], "id": 1979398, "kind": "normal",
+        "optional": false, "req": "^1", "target": null,
+        "version_id": 322782
+      },
+      {
+        "crate_id": "quote", "default_features": false, "downloads": 0,
+        "features": [], "id": 1979399, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 322782
+      },
+      {
+        "crate_id": "syn", "default_features": false, "downloads": 0,
+        "features": ["parsing", "printing", "derive"], "id": 1979400,
+        "kind": "normal", "optional": false, "req": "^1.0.44",
+        "target": null, "version_id": 322782
+      }
+    ],
+    "dl_path": "/api/v1/crates/syn-mid/0.5.3/download", "downloads": 12,
+    "features": {"clone-impls": ["syn/clone-impls"]}, "id": 322782,
+    "license": "Apache-2.0 OR MIT",
+    "links": {
+      "authors": "/api/v1/crates/syn-mid/0.5.3/authors",
+      "dependencies": "/api/v1/crates/syn-mid/0.5.3/dependencies",
+      "version_downloads": "/api/v1/crates/syn-mid/0.5.3/downloads"
+    },
+    "num": "0.5.3",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/43724913?v=4",
+      "id": 33035, "login": "taiki-e", "name": "Taiki Endo",
+      "url": "https://github.com/taiki-e"
+    },
+    "readme_path": "/api/v1/crates/syn-mid/0.5.3/readme",
+    "updated_at": "2021-01-05T15:18:24.654297+00:00", "yanked": false
   }
 ]
