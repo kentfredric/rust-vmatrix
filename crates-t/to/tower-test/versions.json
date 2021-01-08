@@ -6,7 +6,7 @@
     "created_at": "2018-02-19T17:52:25.863158+00:00",
     "dependencies": [],
     "dl_path": "/api/v1/crates/tower-test/0.0.0/download",
-    "downloads": 282, "features": {}, "id": 81732, "license": "MIT",
+    "downloads": 289, "features": {}, "id": 81732, "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/tower-test/0.0.0/authors",
       "dependencies": "/api/v1/crates/tower-test/0.0.0/dependencies",
@@ -48,7 +48,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tower-test/0.1.0/download",
-    "downloads": 95925, "features": {}, "id": 147054, "license": "MIT",
+    "downloads": 96125, "features": {}, "id": 147054, "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/tower-test/0.1.0/authors",
       "dependencies": "/api/v1/crates/tower-test/0.1.0/dependencies",
@@ -107,7 +107,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tower-test/0.3.0-alpha.1/download",
-    "downloads": 135, "features": {}, "id": 175732, "license": "MIT",
+    "downloads": 142, "features": {}, "id": 175732, "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/tower-test/0.3.0-alpha.1/authors",
       "dependencies": "/api/v1/crates/tower-test/0.3.0-alpha.1/dependencies",
@@ -166,7 +166,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tower-test/0.3.0-alpha.2/download",
-    "downloads": 3994, "features": {}, "id": 179602, "license": "MIT",
+    "downloads": 4002, "features": {}, "id": 179602, "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/tower-test/0.3.0-alpha.2/authors",
       "dependencies": "/api/v1/crates/tower-test/0.3.0-alpha.2/dependencies",
@@ -240,7 +240,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tower-test/0.3.0/download",
-    "downloads": 110081, "features": {}, "id": 197570, "license": "MIT",
+    "downloads": 137062, "features": {}, "id": 197570, "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/tower-test/0.3.0/authors",
       "dependencies": "/api/v1/crates/tower-test/0.3.0/dependencies",
@@ -254,5 +254,79 @@
     },
     "readme_path": "/api/v1/crates/tower-test/0.3.0/readme",
     "updated_at": "2019-12-19T19:21:27.249329+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2021-01-07T22:34:30.928830+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/2796466?v=4",
+          "id": 1249, "login": "hawkw", "name": "Eliza Weisman",
+          "url": "https://github.com/hawkw"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Tower Maintainers <team@tower-rs.com>"]},
+      "users": []
+    },
+    "crate": "tower-test", "crate_size": 6058,
+    "created_at": "2021-01-07T22:34:30.928830+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures-util", "default_features": false,
+        "downloads": 0, "features": [], "id": 1991908, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 324299
+      },
+      {
+        "crate_id": "pin-project", "default_features": true, "downloads": 0,
+        "features": [], "id": 1991909, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 324299
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["sync"], "id": 1991910, "kind": "normal",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 324299
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["macros"], "id": 1991914, "kind": "dev",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 324299
+      },
+      {
+        "crate_id": "tokio-test", "default_features": true, "downloads": 0,
+        "features": [], "id": 1991911, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 324299
+      },
+      {
+        "crate_id": "tower-layer", "default_features": true, "downloads": 0,
+        "features": [], "id": 1991912, "kind": "normal", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 324299
+      },
+      {
+        "crate_id": "tower-service", "default_features": true,
+        "downloads": 0, "features": [], "id": 1991913, "kind": "normal",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 324299
+      }
+    ],
+    "dl_path": "/api/v1/crates/tower-test/0.4.0/download",
+    "downloads": 3, "features": {}, "id": 324299, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tower-test/0.4.0/authors",
+      "dependencies": "/api/v1/crates/tower-test/0.4.0/dependencies",
+      "version_downloads": "/api/v1/crates/tower-test/0.4.0/downloads"
+    },
+    "num": "0.4.0",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/2796466?v=4",
+      "id": 1249, "login": "hawkw", "name": "Eliza Weisman",
+      "url": "https://github.com/hawkw"
+    },
+    "readme_path": "/api/v1/crates/tower-test/0.4.0/readme",
+    "updated_at": "2021-01-07T22:34:30.928830+00:00", "yanked": false
   }
 ]
