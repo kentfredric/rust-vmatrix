@@ -5,7 +5,7 @@
     "crate": "wasi", "crate_size": 858,
     "created_at": "2019-03-27T16:47:22.126268+00:00",
     "dependencies": [], "dl_path": "/api/v1/crates/wasi/0.0.0/download",
-    "downloads": 178, "features": {}, "id": 141756, "license": "MIT",
+    "downloads": 187, "features": {}, "id": 141756, "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/wasi/0.0.0/authors",
       "dependencies": "/api/v1/crates/wasi/0.0.0/dependencies",
@@ -14,7 +14,7 @@
     "num": "0.0.0",
     "published_by": {
       "avatar": "https://avatars1.githubusercontent.com/u/294042?v=4",
-      "id": 13388, "login": "richardanaya", "name": "Richard Anaya",
+      "id": 13388, "login": "richardanaya", "name": "RICHÎRD ÎNÎYÎ",
       "url": "https://github.com/richardanaya"
     },
     "readme_path": "/api/v1/crates/wasi/0.0.0/readme",
@@ -29,7 +29,7 @@
     "crate": "wasi", "crate_size": 14189,
     "created_at": "2019-07-22T14:00:42.466303+00:00",
     "dependencies": [], "dl_path": "/api/v1/crates/wasi/0.3.0/download",
-    "downloads": 144, "features": {}, "id": 164474,
+    "downloads": 154, "features": {}, "id": 164474,
     "license": "Apache-2.0 WITH LLVM-exception",
     "links": {
       "authors": "/api/v1/crates/wasi/0.3.0/authors",
@@ -54,7 +54,7 @@
     "crate": "wasi", "crate_size": 26158,
     "created_at": "2019-07-22T18:58:23.299530+00:00",
     "dependencies": [], "dl_path": "/api/v1/crates/wasi/0.4.0/download",
-    "downloads": 148, "features": {}, "id": 164510,
+    "downloads": 158, "features": {}, "id": 164510,
     "license": "Apache-2.0 WITH LLVM-exception",
     "links": {
       "authors": "/api/v1/crates/wasi/0.4.0/authors",
@@ -79,7 +79,7 @@
     "crate": "wasi", "crate_size": 31104,
     "created_at": "2019-07-23T20:00:17.937100+00:00",
     "dependencies": [], "dl_path": "/api/v1/crates/wasi/0.5.0/download",
-    "downloads": 180678, "features": {}, "id": 164754,
+    "downloads": 185556, "features": {}, "id": 164754,
     "license": "Apache-2.0 WITH LLVM-exception",
     "links": {
       "authors": "/api/v1/crates/wasi/0.5.0/authors",
@@ -117,7 +117,7 @@
         "version_id": 172645
       }
     ],
-    "dl_path": "/api/v1/crates/wasi/0.6.0/download", "downloads": 136,
+    "dl_path": "/api/v1/crates/wasi/0.6.0/download", "downloads": 146,
     "features": {"rustc-dep-of-std": ["compiler_builtins", "core"]},
     "id": 172645,
     "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
@@ -164,7 +164,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/wasi/0.7.0/download",
-    "downloads": 1030310,
+    "downloads": 1055650,
     "features": {
       "alloc": [], "default": ["alloc"],
       "rustc-dep-of-std": ["compiler_builtins", "core", "rustc-std-workspace-alloc"]
@@ -214,7 +214,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/wasi/0.9.0+wasi-snapshot-preview1/download",
-    "downloads": 2994462,
+    "downloads": 3826559,
     "features": {
       "default": ["std"],
       "rustc-dep-of-std": ["compiler_builtins", "core", "rustc-std-workspace-alloc"],
@@ -274,7 +274,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/wasi/0.10.0+wasi-snapshot-preview1/download",
-    "downloads": 396496,
+    "downloads": 939027,
     "features": {
       "default": ["std"],
       "rustc-dep-of-std": ["compiler_builtins", "core", "rustc-std-workspace-alloc"],
@@ -295,5 +295,65 @@
     },
     "readme_path": "/api/v1/crates/wasi/0.10.0+wasi-snapshot-preview1/readme",
     "updated_at": "2020-06-03T18:34:32.452551+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2021-01-08T15:33:21.495608+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+          "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+          "url": "https://github.com/alexcrichton"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["The Cranelift Project Developers"]},
+      "users": []
+    },
+    "crate": "wasi", "crate_size": 26898,
+    "created_at": "2021-01-08T15:33:21.495608+00:00",
+    "dependencies": [
+      {
+        "crate_id": "compiler_builtins", "default_features": true,
+        "downloads": 0, "features": [], "id": 1994139, "kind": "normal",
+        "optional": true, "req": "^0.1", "target": null,
+        "version_id": 324622
+      },
+      {
+        "crate_id": "rustc-std-workspace-alloc", "default_features": true,
+        "downloads": 0, "features": [], "id": 1994141, "kind": "normal",
+        "optional": true, "req": "^1.0", "target": null,
+        "version_id": 324622
+      },
+      {
+        "crate_id": "rustc-std-workspace-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 1994140, "kind": "normal",
+        "optional": true, "req": "^1.0", "target": null,
+        "version_id": 324622
+      }
+    ],
+    "dl_path": "/api/v1/crates/wasi/0.10.1+wasi-snapshot-preview1/download",
+    "downloads": 190,
+    "features": {
+      "default": ["std"],
+      "rustc-dep-of-std": ["compiler_builtins", "core", "rustc-std-workspace-alloc"],
+      "std": []
+    },
+    "id": 324622,
+    "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+    "links": {
+      "authors": "/api/v1/crates/wasi/0.10.1+wasi-snapshot-preview1/authors",
+      "dependencies": "/api/v1/crates/wasi/0.10.1+wasi-snapshot-preview1/dependencies",
+      "version_downloads": "/api/v1/crates/wasi/0.10.1+wasi-snapshot-preview1/downloads"
+    },
+    "num": "0.10.1+wasi-snapshot-preview1",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/64996?v=4",
+      "id": 1, "login": "alexcrichton", "name": "Alex Crichton",
+      "url": "https://github.com/alexcrichton"
+    },
+    "readme_path": "/api/v1/crates/wasi/0.10.1+wasi-snapshot-preview1/readme",
+    "updated_at": "2021-01-08T15:33:21.495608+00:00", "yanked": false
   }
 ]
