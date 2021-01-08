@@ -38,7 +38,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-util/0.2.0-alpha/download",
-    "downloads": 1083,
+    "downloads": 1108,
     "features": {
       "default": ["std", "futures-core/either"],
       "std": [
@@ -95,7 +95,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-util/0.2.0-beta/download",
-    "downloads": 2205,
+    "downloads": 2215,
     "features": {
       "default": ["std", "futures-core/either"],
       "std": [
@@ -152,7 +152,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-util/0.2.0/download",
-    "downloads": 1898,
+    "downloads": 1924,
     "features": {
       "bench": [], "default": ["std", "futures-core/either"],
       "std": [
@@ -209,7 +209,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-util/0.2.1/download",
-    "downloads": 15278,
+    "downloads": 15593,
     "features": {
       "bench": [],
       "default": ["std", "futures-core/either", "futures-sink/either"],
@@ -312,7 +312,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-util/0.3.0/download",
-    "downloads": 4928,
+    "downloads": 5530,
     "features": {
       "alloc": ["futures-core/alloc", "futures-task/alloc"],
       "async-await": [],
@@ -434,7 +434,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-util/0.3.1/download",
-    "downloads": 812400,
+    "downloads": 826287,
     "features": {
       "alloc": ["futures-core/alloc", "futures-task/alloc"],
       "async-await": [],
@@ -565,7 +565,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-util/0.3.2/download",
-    "downloads": 29036,
+    "downloads": 30848,
     "features": {
       "alloc": ["futures-core/alloc", "futures-task/alloc"],
       "async-await": [],
@@ -696,7 +696,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-util/0.3.3/download",
-    "downloads": 35286,
+    "downloads": 36279,
     "features": {
       "alloc": ["futures-core/alloc", "futures-task/alloc"],
       "async-await": [],
@@ -827,7 +827,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-util/0.3.4/download",
-    "downloads": 1753518,
+    "downloads": 1796403,
     "features": {
       "alloc": ["futures-core/alloc", "futures-task/alloc"],
       "async-await": [],
@@ -963,7 +963,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-util/0.3.5/download",
-    "downloads": 3333652,
+    "downloads": 3582785,
     "features": {
       "alloc": ["futures-core/alloc", "futures-task/alloc"],
       "async-await": [],
@@ -1100,7 +1100,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-util/0.3.6/download",
-    "downloads": 384767,
+    "downloads": 471132,
     "features": {
       "alloc": ["futures-core/alloc", "futures-task/alloc"],
       "async-await": [],
@@ -1237,7 +1237,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-util/0.3.7/download",
-    "downloads": 293982,
+    "downloads": 496604,
     "features": {
       "alloc": ["futures-core/alloc", "futures-task/alloc"],
       "async-await": [],
@@ -1374,7 +1374,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-util/0.3.8/download",
-    "downloads": 1905,
+    "downloads": 1164967,
     "features": {
       "alloc": ["futures-core/alloc", "futures-task/alloc"],
       "async-await": [],
@@ -1412,5 +1412,148 @@
     },
     "readme_path": "/api/v1/crates/futures-util/0.3.8/readme",
     "updated_at": "2020-11-09T18:17:24.446928+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2021-01-08T04:34:25.236094+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/43724913?v=4",
+          "id": 33035, "login": "taiki-e", "name": "Taiki Endo",
+          "url": "https://github.com/taiki-e"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "futures-util", "crate_size": 137264,
+    "created_at": "2021-01-08T04:34:25.236094+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 1993142, "kind": "normal",
+        "optional": false, "req": "^0.3.9", "target": null,
+        "version_id": 324478
+      },
+      {
+        "crate_id": "futures-task", "default_features": false,
+        "downloads": 0, "features": [], "id": 1993146, "kind": "normal",
+        "optional": false, "req": "^0.3.9", "target": null,
+        "version_id": 324478
+      },
+      {
+        "crate_id": "pin-project-lite", "default_features": true,
+        "downloads": 0, "features": [], "id": 1993149, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 324478
+      },
+      {
+        "crate_id": "pin-utils", "default_features": true, "downloads": 0,
+        "features": [], "id": 1993150, "kind": "normal", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 324478
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 1993155, "kind": "dev", "optional": false,
+        "req": "^0.1.11", "target": null, "version_id": 324478
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 1993147, "kind": "normal", "optional": true,
+        "req": "^0.1.25", "target": null, "version_id": 324478
+      },
+      {
+        "crate_id": "futures-channel", "default_features": false,
+        "downloads": 0, "features": ["std"], "id": 1993141,
+        "kind": "normal", "optional": true, "req": "^0.3.9", "target": null,
+        "version_id": 324478
+      },
+      {
+        "crate_id": "futures-io", "default_features": false, "downloads": 0,
+        "features": ["std"], "id": 1993143, "kind": "normal",
+        "optional": true, "req": "^0.3.9", "target": null,
+        "version_id": 324478
+      },
+      {
+        "crate_id": "futures-macro", "default_features": false,
+        "downloads": 0, "features": [], "id": 1993144, "kind": "normal",
+        "optional": true, "req": "=0.3.9", "target": null,
+        "version_id": 324478
+      },
+      {
+        "crate_id": "futures-sink", "default_features": false,
+        "downloads": 0, "features": [], "id": 1993145, "kind": "normal",
+        "optional": true, "req": "^0.3.9", "target": null,
+        "version_id": 324478
+      },
+      {
+        "crate_id": "memchr", "default_features": true, "downloads": 0,
+        "features": [], "id": 1993148, "kind": "normal", "optional": true,
+        "req": "^2.2", "target": null, "version_id": 324478
+      },
+      {
+        "crate_id": "proc-macro-hack", "default_features": true,
+        "downloads": 0, "features": [], "id": 1993151, "kind": "normal",
+        "optional": true, "req": "^0.5.19", "target": null,
+        "version_id": 324478
+      },
+      {
+        "crate_id": "proc-macro-nested", "default_features": true,
+        "downloads": 0, "features": [], "id": 1993152, "kind": "normal",
+        "optional": true, "req": "^0.1.2", "target": null,
+        "version_id": 324478
+      },
+      {
+        "crate_id": "slab", "default_features": true, "downloads": 0,
+        "features": [], "id": 1993153, "kind": "normal", "optional": true,
+        "req": "^0.4.2", "target": null, "version_id": 324478
+      },
+      {
+        "crate_id": "tokio-io", "default_features": true, "downloads": 0,
+        "features": [], "id": 1993154, "kind": "normal", "optional": true,
+        "req": "^0.1.9", "target": null, "version_id": 324478
+      }
+    ],
+    "dl_path": "/api/v1/crates/futures-util/0.3.9/download",
+    "downloads": 0,
+    "features": {
+      "alloc": ["futures-core/alloc", "futures-task/alloc"],
+      "async-await": [],
+      "async-await-macro": [
+        "async-await", "futures-macro", "proc-macro-hack",
+        "proc-macro-nested"
+      ],
+      "bilock": [],
+      "cfg-target-has-atomic": [
+        "futures-core/cfg-target-has-atomic",
+        "futures-task/cfg-target-has-atomic"
+      ],
+      "channel": ["std", "futures-channel"],
+      "compat": ["std", "futures_01"],
+      "default": ["std", "async-await", "async-await-macro"],
+      "io": ["std", "futures-io", "memchr"],
+      "io-compat": ["io", "compat", "tokio-io"],
+      "read-initializer": ["io", "futures-io/read-initializer", "futures-io/unstable"],
+      "sink": ["futures-sink"],
+      "std": ["alloc", "futures-core/std", "futures-task/std", "slab"],
+      "unstable": ["futures-core/unstable", "futures-task/unstable"],
+      "write-all-vectored": ["io"]
+    },
+    "id": 324478, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/futures-util/0.3.9/authors",
+      "dependencies": "/api/v1/crates/futures-util/0.3.9/dependencies",
+      "version_downloads": "/api/v1/crates/futures-util/0.3.9/downloads"
+    },
+    "num": "0.3.9",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/43724913?v=4",
+      "id": 33035, "login": "taiki-e", "name": "Taiki Endo",
+      "url": "https://github.com/taiki-e"
+    },
+    "readme_path": "/api/v1/crates/futures-util/0.3.9/readme",
+    "updated_at": "2021-01-08T04:34:25.236094+00:00", "yanked": false
   }
 ]

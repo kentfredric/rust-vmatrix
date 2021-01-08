@@ -16,7 +16,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-channel/0.2.0-alpha/download",
-    "downloads": 1131,
+    "downloads": 1159,
     "features": {"default": ["std"], "std": ["futures-core/std"]},
     "id": 83455, "license": "MIT/Apache-2.0",
     "links": {
@@ -45,7 +45,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-channel/0.2.0-beta/download",
-    "downloads": 2210,
+    "downloads": 2223,
     "features": {"default": ["std"], "std": ["futures-core/std"]},
     "id": 85678, "license": "MIT/Apache-2.0",
     "links": {
@@ -74,7 +74,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-channel/0.2.0/download",
-    "downloads": 1943,
+    "downloads": 1972,
     "features": {"default": ["std"], "std": ["futures-core/std"]},
     "id": 87868, "license": "MIT/Apache-2.0",
     "links": {
@@ -103,7 +103,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-channel/0.2.1/download",
-    "downloads": 15950,
+    "downloads": 16280,
     "features": {"default": ["std"], "std": ["futures-core/std"]},
     "id": 89597, "license": "MIT/Apache-2.0",
     "links": {
@@ -138,7 +138,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-channel/0.3.0/download",
-    "downloads": 4506,
+    "downloads": 4595,
     "features": {
       "alloc": ["futures-core/alloc"],
       "cfg-target-has-atomic": ["futures-core/cfg-target-has-atomic"],
@@ -184,7 +184,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-channel/0.3.1/download",
-    "downloads": 796046,
+    "downloads": 809927,
     "features": {
       "alloc": ["futures-core/alloc"],
       "cfg-target-has-atomic": ["futures-core/cfg-target-has-atomic"],
@@ -239,7 +239,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-channel/0.3.2/download",
-    "downloads": 26492,
+    "downloads": 27503,
     "features": {
       "alloc": ["futures-core/alloc"],
       "cfg-target-has-atomic": ["futures-core/cfg-target-has-atomic"],
@@ -294,7 +294,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-channel/0.3.3/download",
-    "downloads": 34520,
+    "downloads": 35488,
     "features": {
       "alloc": ["futures-core/alloc"],
       "cfg-target-has-atomic": ["futures-core/cfg-target-has-atomic"],
@@ -349,7 +349,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-channel/0.3.4/download",
-    "downloads": 1712876,
+    "downloads": 1754219,
     "features": {
       "alloc": ["futures-core/alloc"],
       "cfg-target-has-atomic": ["futures-core/cfg-target-has-atomic"],
@@ -404,7 +404,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-channel/0.3.5/download",
-    "downloads": 3292735,
+    "downloads": 3542671,
     "features": {
       "alloc": ["futures-core/alloc"],
       "cfg-target-has-atomic": ["futures-core/cfg-target-has-atomic"],
@@ -459,7 +459,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-channel/0.3.6/download",
-    "downloads": 383875,
+    "downloads": 472091,
     "features": {
       "alloc": ["futures-core/alloc"],
       "cfg-target-has-atomic": ["futures-core/cfg-target-has-atomic"],
@@ -514,7 +514,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-channel/0.3.7/download",
-    "downloads": 288712,
+    "downloads": 485512,
     "features": {
       "alloc": ["futures-core/alloc"],
       "cfg-target-has-atomic": ["futures-core/cfg-target-has-atomic"],
@@ -569,7 +569,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-channel/0.3.8/download",
-    "downloads": 1903,
+    "downloads": 1152391,
     "features": {
       "alloc": ["futures-core/alloc"],
       "cfg-target-has-atomic": ["futures-core/cfg-target-has-atomic"],
@@ -591,5 +591,60 @@
     },
     "readme_path": "/api/v1/crates/futures-channel/0.3.8/readme",
     "updated_at": "2020-11-09T18:15:56.184274+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2021-01-08T04:32:51.196168+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/43724913?v=4",
+          "id": 33035, "login": "taiki-e", "name": "Taiki Endo",
+          "url": "https://github.com/taiki-e"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "futures-channel", "crate_size": 29521,
+    "created_at": "2021-01-08T04:32:51.196168+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 1993135, "kind": "normal",
+        "optional": false, "req": "^0.3.9", "target": null,
+        "version_id": 324476
+      },
+      {
+        "crate_id": "futures-sink", "default_features": false,
+        "downloads": 0, "features": [], "id": 1993136, "kind": "normal",
+        "optional": true, "req": "^0.3.9", "target": null,
+        "version_id": 324476
+      }
+    ],
+    "dl_path": "/api/v1/crates/futures-channel/0.3.9/download",
+    "downloads": 0,
+    "features": {
+      "alloc": ["futures-core/alloc"],
+      "cfg-target-has-atomic": ["futures-core/cfg-target-has-atomic"],
+      "default": ["std"], "sink": ["futures-sink"],
+      "std": ["alloc", "futures-core/std"],
+      "unstable": ["futures-core/unstable"]
+    },
+    "id": 324476, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/futures-channel/0.3.9/authors",
+      "dependencies": "/api/v1/crates/futures-channel/0.3.9/dependencies",
+      "version_downloads": "/api/v1/crates/futures-channel/0.3.9/downloads"
+    },
+    "num": "0.3.9",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/43724913?v=4",
+      "id": 33035, "login": "taiki-e", "name": "Taiki Endo",
+      "url": "https://github.com/taiki-e"
+    },
+    "readme_path": "/api/v1/crates/futures-channel/0.3.9/readme",
+    "updated_at": "2021-01-08T04:32:51.196168+00:00", "yanked": false
   }
 ]

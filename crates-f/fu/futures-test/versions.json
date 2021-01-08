@@ -6,7 +6,7 @@
     "created_at": "2017-10-25T21:59:17.625381+00:00",
     "dependencies": [],
     "dl_path": "/api/v1/crates/futures-test/0.0.0/download",
-    "downloads": 334, "features": {}, "id": 69355, "license": "MIT",
+    "downloads": 339, "features": {}, "id": 69355, "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/futures-test/0.0.0/authors",
       "dependencies": "/api/v1/crates/futures-test/0.0.0/dependencies",
@@ -58,7 +58,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-test/0.3.0/download",
-    "downloads": 647,
+    "downloads": 654,
     "features": {
       "default": ["std"],
       "std": [
@@ -123,7 +123,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-test/0.3.1/download",
-    "downloads": 26319,
+    "downloads": 26355,
     "features": {
       "default": ["std"],
       "std": [
@@ -197,7 +197,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-test/0.3.2/download",
-    "downloads": 376,
+    "downloads": 381,
     "features": {
       "default": ["std"],
       "std": [
@@ -271,7 +271,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-test/0.3.3/download",
-    "downloads": 346,
+    "downloads": 351,
     "features": {
       "default": ["std"],
       "std": [
@@ -345,7 +345,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-test/0.3.4/download",
-    "downloads": 9585,
+    "downloads": 9624,
     "features": {
       "default": ["std"],
       "std": [
@@ -425,7 +425,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-test/0.3.5/download",
-    "downloads": 44243,
+    "downloads": 45184,
     "features": {
       "default": ["std"],
       "std": [
@@ -517,7 +517,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-test/0.3.6/download",
-    "downloads": 5881,
+    "downloads": 8673,
     "features": {
       "default": ["std"],
       "std": [
@@ -615,7 +615,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-test/0.3.7/download",
-    "downloads": 4302,
+    "downloads": 4704,
     "features": {
       "default": ["std"],
       "std": [
@@ -713,7 +713,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-test/0.3.8/download",
-    "downloads": 36,
+    "downloads": 17750,
     "features": {
       "default": ["std"],
       "std": [
@@ -736,5 +736,97 @@
     },
     "readme_path": "/api/v1/crates/futures-test/0.3.8/readme",
     "updated_at": "2020-11-09T18:20:04.495322+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2021-01-08T04:36:43.687746+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/43724913?v=4",
+          "id": 33035, "login": "taiki-e", "name": "Taiki Endo",
+          "url": "https://github.com/taiki-e"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["Wim Looman <wim@nemo157.com>"]}, "users": []},
+    "crate": "futures-test", "crate_size": 15538,
+    "created_at": "2021-01-08T04:36:43.687746+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 1993171, "kind": "normal",
+        "optional": false, "req": "^0.3.9", "target": null,
+        "version_id": 324481
+      },
+      {
+        "crate_id": "futures-executor", "default_features": false,
+        "downloads": 0, "features": [], "id": 1993172, "kind": "normal",
+        "optional": false, "req": "^0.3.9", "target": null,
+        "version_id": 324481
+      },
+      {
+        "crate_id": "futures-io", "default_features": false, "downloads": 0,
+        "features": [], "id": 1993173, "kind": "normal", "optional": false,
+        "req": "^0.3.9", "target": null, "version_id": 324481
+      },
+      {
+        "crate_id": "futures-sink", "default_features": false,
+        "downloads": 0, "features": [], "id": 1993174, "kind": "normal",
+        "optional": false, "req": "^0.3.9", "target": null,
+        "version_id": 324481
+      },
+      {
+        "crate_id": "futures-task", "default_features": false,
+        "downloads": 0, "features": [], "id": 1993175, "kind": "normal",
+        "optional": false, "req": "^0.3.9", "target": null,
+        "version_id": 324481
+      },
+      {
+        "crate_id": "futures-util", "default_features": false,
+        "downloads": 0, "features": [], "id": 1993176, "kind": "normal",
+        "optional": false, "req": "^0.3.9", "target": null,
+        "version_id": 324481
+      },
+      {
+        "crate_id": "pin-project", "default_features": true, "downloads": 0,
+        "features": [], "id": 1993178, "kind": "normal", "optional": false,
+        "req": "^1.0.1", "target": null, "version_id": 324481
+      },
+      {
+        "crate_id": "pin-utils", "default_features": false, "downloads": 0,
+        "features": [], "id": 1993179, "kind": "normal", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 324481
+      },
+      {
+        "crate_id": "once_cell", "default_features": false, "downloads": 0,
+        "features": ["std"], "id": 1993177, "kind": "normal",
+        "optional": true, "req": "^1.3.1", "target": null,
+        "version_id": 324481
+      }
+    ],
+    "dl_path": "/api/v1/crates/futures-test/0.3.9/download",
+    "downloads": 0,
+    "features": {
+      "default": ["std"],
+      "std": [
+        "futures-core/std", "futures-task/std", "futures-io/std",
+        "futures-util/std", "futures-util/io", "futures-executor/std",
+        "once_cell"
+      ]
+    },
+    "id": 324481, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/futures-test/0.3.9/authors",
+      "dependencies": "/api/v1/crates/futures-test/0.3.9/dependencies",
+      "version_downloads": "/api/v1/crates/futures-test/0.3.9/downloads"
+    },
+    "num": "0.3.9",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/43724913?v=4",
+      "id": 33035, "login": "taiki-e", "name": "Taiki Endo",
+      "url": "https://github.com/taiki-e"
+    },
+    "readme_path": "/api/v1/crates/futures-test/0.3.9/readme",
+    "updated_at": "2021-01-08T04:36:43.687746+00:00", "yanked": false
   }
 ]
