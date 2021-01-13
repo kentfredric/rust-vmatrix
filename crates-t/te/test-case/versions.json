@@ -41,7 +41,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/test-case/0.3.0/download",
-    "downloads": 117, "features": {}, "id": 178966, "license": "MIT",
+    "downloads": 118, "features": {}, "id": 178966, "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/test-case/0.3.0/authors",
       "dependencies": "/api/v1/crates/test-case/0.3.0/dependencies",
@@ -104,7 +104,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/test-case/0.3.1/download",
-    "downloads": 698, "features": {}, "id": 179046, "license": "MIT",
+    "downloads": 700, "features": {}, "id": 179046, "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/test-case/0.3.1/authors",
       "dependencies": "/api/v1/crates/test-case/0.3.1/dependencies",
@@ -167,7 +167,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/test-case/0.3.2/download",
-    "downloads": 116, "features": {}, "id": 179688, "license": "MIT",
+    "downloads": 117, "features": {}, "id": 179688, "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/test-case/0.3.2/authors",
       "dependencies": "/api/v1/crates/test-case/0.3.2/dependencies",
@@ -230,7 +230,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/test-case/0.3.3-alpha1/download",
-    "downloads": 115, "features": {}, "id": 179690, "license": "MIT",
+    "downloads": 116, "features": {}, "id": 179690, "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/test-case/0.3.3-alpha1/authors",
       "dependencies": "/api/v1/crates/test-case/0.3.3-alpha1/dependencies",
@@ -293,7 +293,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/test-case/0.3.3/download",
-    "downloads": 116454, "features": {}, "id": 179797, "license": "MIT",
+    "downloads": 116773, "features": {}, "id": 179797, "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/test-case/0.3.3/authors",
       "dependencies": "/api/v1/crates/test-case/0.3.3/dependencies",
@@ -356,7 +356,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/test-case/1.0.0-alpha-1/download",
-    "downloads": 490, "features": {}, "id": 187384, "license": "MIT",
+    "downloads": 492, "features": {}, "id": 187384, "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/test-case/1.0.0-alpha-1/authors",
       "dependencies": "/api/v1/crates/test-case/1.0.0-alpha-1/dependencies",
@@ -428,7 +428,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/test-case/1.0.0/download",
-    "downloads": 160311, "features": {}, "id": 207561, "license": "MIT",
+    "downloads": 161671, "features": {}, "id": 207561, "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/test-case/1.0.0/authors",
       "dependencies": "/api/v1/crates/test-case/1.0.0/dependencies",
@@ -442,6 +442,78 @@
     },
     "readme_path": "/api/v1/crates/test-case/1.0.0/readme",
     "updated_at": "2020-01-28T15:07:04.109390+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2021-01-12T11:02:11.682258+00:00",
+        "user": {
+          "avatar": "https://avatars2.githubusercontent.com/u/15006215?v=4",
+          "id": 61992, "login": "luke-biel", "name": "luke.biel",
+          "url": "https://github.com/luke-biel"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {
+        "names": [
+          "Marcin Sas-Szymanski <marcin.sas-szymanski@anixe.pl>",
+          "Wojciech Polak <frondeus@gmail.com>"
+        ]
+      },
+      "users": []
+    },
+    "crate": "test-case", "crate_size": 11094,
+    "created_at": "2021-01-12T11:02:11.682258+00:00",
+    "dependencies": [
+      {
+        "crate_id": "insta", "default_features": true, "downloads": 0,
+        "features": [], "id": 2008331, "kind": "dev", "optional": false,
+        "req": "^0.12.0", "target": null, "version_id": 326380
+      },
+      {
+        "crate_id": "lazy_static", "default_features": true, "downloads": 0,
+        "features": [], "id": 2008332, "kind": "dev", "optional": false,
+        "req": "^1.4.0", "target": null, "version_id": 326380
+      },
+      {
+        "crate_id": "proc-macro2", "default_features": true, "downloads": 0,
+        "features": [], "id": 2008328, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 326380
+      },
+      {
+        "crate_id": "quote", "default_features": true, "downloads": 0,
+        "features": [], "id": 2008329, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 326380
+      },
+      {
+        "crate_id": "syn", "default_features": true, "downloads": 0,
+        "features": ["full", "extra-traits"], "id": 2008330,
+        "kind": "normal", "optional": false, "req": "^1.0", "target": null,
+        "version_id": 326380
+      },
+      {
+        "crate_id": "version_check", "default_features": true,
+        "downloads": 0, "features": [], "id": 2008333, "kind": "build",
+        "optional": false, "req": "^0.9.1", "target": null,
+        "version_id": 326380
+      }
+    ],
+    "dl_path": "/api/v1/crates/test-case/1.0.1/download",
+    "downloads": 1, "features": {}, "id": 326380, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/test-case/1.0.1/authors",
+      "dependencies": "/api/v1/crates/test-case/1.0.1/dependencies",
+      "version_downloads": "/api/v1/crates/test-case/1.0.1/downloads"
+    },
+    "num": "1.0.1",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/15006215?v=4",
+      "id": 61992, "login": "luke-biel", "name": "luke.biel",
+      "url": "https://github.com/luke-biel"
+    },
+    "readme_path": "/api/v1/crates/test-case/1.0.1/readme",
+    "updated_at": "2021-01-12T11:02:11.682258+00:00", "yanked": false
   },
   {
     "audit_actions": [
@@ -510,7 +582,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/test-case/1.1.0/download",
-    "downloads": 2,
+    "downloads": 663,
     "features": {"default": [], "hamcrest_assertions": []},
     "id": 325342, "license": "MIT",
     "links": {

@@ -6,7 +6,7 @@
     "created_at": "2018-02-01T03:25:03.010037+00:00",
     "dependencies": [],
     "dl_path": "/api/v1/crates/tokio-util/0.0.0/download",
-    "downloads": 379, "features": {}, "id": 79415, "license": "MIT",
+    "downloads": 383, "features": {}, "id": 79415, "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/tokio-util/0.0.0/authors",
       "dependencies": "/api/v1/crates/tokio-util/0.0.0/dependencies",
@@ -76,7 +76,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tokio-util/0.2.0/download",
-    "downloads": 2118211,
+    "downloads": 2157716,
     "features": {
       "codec": [], "default": [], "full": ["codec", "udp"],
       "udp": ["tokio/udp"]
@@ -170,7 +170,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tokio-util/0.3.0/download",
-    "downloads": 65844,
+    "downloads": 65950,
     "features": {
       "codec": ["tokio/stream"], "compat": ["futures-io"], "default": [],
       "full": ["codec", "udp", "compat"], "udp": ["tokio/udp"]
@@ -264,7 +264,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tokio-util/0.3.1/download",
-    "downloads": 4523825,
+    "downloads": 4861462,
     "features": {
       "codec": ["tokio/stream"], "compat": ["futures-io"], "default": [],
       "full": ["codec", "udp", "compat"], "udp": ["tokio/udp"]
@@ -369,7 +369,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tokio-util/0.4.0/download",
-    "downloads": 46446,
+    "downloads": 60842,
     "features": {
       "codec": ["tokio/stream"], "compat": ["futures-io"], "default": [],
       "full": ["codec", "compat", "io", "time"], "io": [],
@@ -475,7 +475,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tokio-util/0.5.0/download",
-    "downloads": 19571,
+    "downloads": 20426,
     "features": {
       "codec": ["tokio/stream"], "compat": ["futures-io"], "default": [],
       "full": ["codec", "compat", "io", "time"], "io": [],
@@ -581,7 +581,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tokio-util/0.5.1/download",
-    "downloads": 10893,
+    "downloads": 16828,
     "features": {
       "codec": ["tokio/stream"], "compat": ["futures-io"], "default": [],
       "full": ["codec", "compat", "io", "time", "net", "rt"], "io": [],
@@ -706,7 +706,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tokio-util/0.6.0/download",
-    "downloads": 0,
+    "downloads": 43152,
     "features": {
       "__docs_rs": ["futures-util"], "codec": [],
       "compat": ["futures-io"], "default": [],
@@ -728,5 +728,131 @@
     },
     "readme_path": "/api/v1/crates/tokio-util/0.6.0/readme",
     "updated_at": "2020-12-23T17:30:56.039162+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2021-01-12T11:47:43.995804+00:00",
+        "user": {
+          "avatar": "https://avatars2.githubusercontent.com/u/928074?v=4",
+          "id": 6741, "login": "Darksonn", "name": "Alice Ryhl",
+          "url": "https://github.com/Darksonn"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Tokio Contributors <team@tokio.rs>"]},
+      "users": []
+    },
+    "crate": "tokio-util", "crate_size": 62812,
+    "created_at": "2021-01-12T11:47:43.995804+00:00",
+    "dependencies": [
+      {
+        "crate_id": "async-stream", "default_features": true,
+        "downloads": 0, "features": [], "id": 2008438, "kind": "dev",
+        "optional": false, "req": "^0.3.0", "target": null,
+        "version_id": 326391
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 2008428, "kind": "normal", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 326391
+      },
+      {
+        "crate_id": "futures", "default_features": true, "downloads": 0,
+        "features": [], "id": 2008439, "kind": "dev", "optional": false,
+        "req": "^0.3.0", "target": null, "version_id": 326391
+      },
+      {
+        "crate_id": "futures-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 2008429, "kind": "normal",
+        "optional": false, "req": "^0.3.0", "target": null,
+        "version_id": 326391
+      },
+      {
+        "crate_id": "futures-sink", "default_features": true,
+        "downloads": 0, "features": [], "id": 2008431, "kind": "normal",
+        "optional": false, "req": "^0.3.0", "target": null,
+        "version_id": 326391
+      },
+      {
+        "crate_id": "futures-test", "default_features": true,
+        "downloads": 0, "features": [], "id": 2008440, "kind": "dev",
+        "optional": false, "req": "^0.3.5", "target": null,
+        "version_id": 326391
+      },
+      {
+        "crate_id": "log", "default_features": true, "downloads": 0,
+        "features": [], "id": 2008433, "kind": "normal", "optional": false,
+        "req": "^0.4", "target": null, "version_id": 326391
+      },
+      {
+        "crate_id": "pin-project-lite", "default_features": true,
+        "downloads": 0, "features": [], "id": 2008434, "kind": "normal",
+        "optional": false, "req": "^0.2.0", "target": null,
+        "version_id": 326391
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": [], "id": 2008436, "kind": "normal", "optional": false,
+        "req": "^1.0.0", "target": null, "version_id": 326391
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["full"], "id": 2008441, "kind": "dev",
+        "optional": false, "req": "^1.0.0", "target": null,
+        "version_id": 326391
+      },
+      {
+        "crate_id": "tokio-stream", "default_features": true,
+        "downloads": 0, "features": [], "id": 2008437, "kind": "normal",
+        "optional": false, "req": "^0.1", "target": null,
+        "version_id": 326391
+      },
+      {
+        "crate_id": "tokio-test", "default_features": true, "downloads": 0,
+        "features": [], "id": 2008442, "kind": "dev", "optional": false,
+        "req": "^0.4.0", "target": null, "version_id": 326391
+      },
+      {
+        "crate_id": "futures-io", "default_features": true, "downloads": 0,
+        "features": [], "id": 2008430, "kind": "normal", "optional": true,
+        "req": "^0.3.0", "target": null, "version_id": 326391
+      },
+      {
+        "crate_id": "futures-util", "default_features": true,
+        "downloads": 0, "features": [], "id": 2008432, "kind": "normal",
+        "optional": true, "req": "^0.3.0", "target": null,
+        "version_id": 326391
+      },
+      {
+        "crate_id": "slab", "default_features": true, "downloads": 0,
+        "features": [], "id": 2008435, "kind": "normal", "optional": true,
+        "req": "^0.4.1", "target": null, "version_id": 326391
+      }
+    ],
+    "dl_path": "/api/v1/crates/tokio-util/0.6.1/download",
+    "downloads": 0,
+    "features": {
+      "__docs_rs": ["futures-util"], "codec": [],
+      "compat": ["futures-io"], "default": [],
+      "full": ["codec", "compat", "io", "time", "net", "rt"], "io": [],
+      "net": ["tokio/net"], "rt": ["tokio/rt"],
+      "time": ["tokio/time", "slab"]
+    },
+    "id": 326391, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tokio-util/0.6.1/authors",
+      "dependencies": "/api/v1/crates/tokio-util/0.6.1/dependencies",
+      "version_downloads": "/api/v1/crates/tokio-util/0.6.1/downloads"
+    },
+    "num": "0.6.1",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/928074?v=4",
+      "id": 6741, "login": "Darksonn", "name": "Alice Ryhl",
+      "url": "https://github.com/Darksonn"
+    },
+    "readme_path": "/api/v1/crates/tokio-util/0.6.1/readme",
+    "updated_at": "2021-01-12T11:47:43.995804+00:00", "yanked": false
   }
 ]

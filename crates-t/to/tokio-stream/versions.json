@@ -15,7 +15,7 @@
     "created_at": "2020-12-03T23:05:27.160680+00:00",
     "dependencies": [],
     "dl_path": "/api/v1/crates/tokio-stream/0.0.0/download",
-    "downloads": 30, "features": {}, "id": 311849, "license": "MIT",
+    "downloads": 33, "features": {}, "id": 311849, "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/tokio-stream/0.0.0/authors",
       "dependencies": "/api/v1/crates/tokio-stream/0.0.0/dependencies",
@@ -90,7 +90,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tokio-stream/0.1.0/download",
-    "downloads": 16405,
+    "downloads": 19300,
     "features": {"default": ["time"], "time": ["tokio/time"]},
     "id": 318257, "license": "MIT",
     "links": {
@@ -167,7 +167,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/tokio-stream/0.1.1/download",
-    "downloads": 325,
+    "downloads": 36687,
     "features": {
       "default": ["time"], "fs": ["tokio/fs"],
       "io-util": ["tokio/io-util"], "net": ["tokio/net"],
@@ -187,5 +187,86 @@
     },
     "readme_path": "/api/v1/crates/tokio-stream/0.1.1/readme",
     "updated_at": "2021-01-04T20:56:57.546867+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2021-01-12T20:39:41.035751+00:00",
+        "user": {
+          "avatar": "https://avatars2.githubusercontent.com/u/928074?v=4",
+          "id": 6741, "login": "Darksonn", "name": "Alice Ryhl",
+          "url": "https://github.com/Darksonn"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Tokio Contributors <team@tokio.rs>"]},
+      "users": []
+    },
+    "crate": "tokio-stream", "crate_size": 27744,
+    "created_at": "2021-01-12T20:39:41.035751+00:00",
+    "dependencies": [
+      {
+        "crate_id": "async-stream", "default_features": true,
+        "downloads": 0, "features": [], "id": 2010611, "kind": "dev",
+        "optional": false, "req": "^0.3", "target": null,
+        "version_id": 326611
+      },
+      {
+        "crate_id": "futures", "default_features": false, "downloads": 0,
+        "features": [], "id": 2010612, "kind": "dev", "optional": false,
+        "req": "^0.3", "target": null, "version_id": 326611
+      },
+      {
+        "crate_id": "futures-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 2010608, "kind": "normal",
+        "optional": false, "req": "^0.3.0", "target": null,
+        "version_id": 326611
+      },
+      {
+        "crate_id": "pin-project-lite", "default_features": true,
+        "downloads": 0, "features": [], "id": 2010609, "kind": "normal",
+        "optional": false, "req": "^0.2.0", "target": null,
+        "version_id": 326611
+      },
+      {
+        "crate_id": "proptest", "default_features": true, "downloads": 0,
+        "features": [], "id": 2010613, "kind": "dev", "optional": false,
+        "req": "^0.10.0", "target": null, "version_id": 326611
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["full", "test-util"], "id": 2010614, "kind": "dev",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 326611
+      },
+      {
+        "crate_id": "tokio", "default_features": true, "downloads": 0,
+        "features": ["sync"], "id": 2010610, "kind": "normal",
+        "optional": false, "req": "^1.0", "target": null,
+        "version_id": 326611
+      }
+    ],
+    "dl_path": "/api/v1/crates/tokio-stream/0.1.2/download",
+    "downloads": 0,
+    "features": {
+      "default": ["time"], "fs": ["tokio/fs"],
+      "io-util": ["tokio/io-util"], "net": ["tokio/net"],
+      "time": ["tokio/time"]
+    },
+    "id": 326611, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/tokio-stream/0.1.2/authors",
+      "dependencies": "/api/v1/crates/tokio-stream/0.1.2/dependencies",
+      "version_downloads": "/api/v1/crates/tokio-stream/0.1.2/downloads"
+    },
+    "num": "0.1.2",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/928074?v=4",
+      "id": 6741, "login": "Darksonn", "name": "Alice Ryhl",
+      "url": "https://github.com/Darksonn"
+    },
+    "readme_path": "/api/v1/crates/tokio-stream/0.1.2/readme",
+    "updated_at": "2021-01-12T20:39:41.035751+00:00", "yanked": false
   }
 ]
