@@ -6,7 +6,7 @@
     "created_at": "2019-07-29T02:21:47.224744+00:00",
     "dependencies": [],
     "dl_path": "/api/v1/crates/futures-task/0.0.0/download",
-    "downloads": 180, "features": {}, "id": 165934,
+    "downloads": 182, "features": {}, "id": 165934,
     "license": "Apache-2.0/MIT",
     "links": {
       "authors": "/api/v1/crates/futures-task/0.0.0/authors",
@@ -32,7 +32,7 @@
     "created_at": "2019-11-06T18:20:20.102203+00:00",
     "dependencies": [],
     "dl_path": "/api/v1/crates/futures-task/0.3.0/download",
-    "downloads": 5529,
+    "downloads": 5626,
     "features": {
       "alloc": [], "cfg-target-has-atomic": [], "default": ["std"],
       "std": ["alloc"], "unstable": []
@@ -62,7 +62,7 @@
     "created_at": "2019-11-07T18:27:29.983140+00:00",
     "dependencies": [],
     "dl_path": "/api/v1/crates/futures-task/0.3.1/download",
-    "downloads": 823891,
+    "downloads": 825048,
     "features": {
       "alloc": [], "cfg-target-has-atomic": [], "default": ["std"],
       "std": ["alloc"], "unstable": []
@@ -101,7 +101,7 @@
     "created_at": "2020-02-04T00:18:21.424649+00:00",
     "dependencies": [],
     "dl_path": "/api/v1/crates/futures-task/0.3.2/download",
-    "downloads": 30295,
+    "downloads": 30380,
     "features": {
       "alloc": [], "cfg-target-has-atomic": [], "default": ["std"],
       "std": ["alloc"], "unstable": []
@@ -140,7 +140,7 @@
     "created_at": "2020-02-05T00:56:39.775701+00:00",
     "dependencies": [],
     "dl_path": "/api/v1/crates/futures-task/0.3.3/download",
-    "downloads": 36232,
+    "downloads": 36338,
     "features": {
       "alloc": [], "cfg-target-has-atomic": [], "default": ["std"],
       "std": ["alloc"], "unstable": []
@@ -179,7 +179,7 @@
     "created_at": "2020-02-07T02:01:41.008580+00:00",
     "dependencies": [],
     "dl_path": "/api/v1/crates/futures-task/0.3.4/download",
-    "downloads": 1790360,
+    "downloads": 1795382,
     "features": {
       "alloc": [], "cfg-target-has-atomic": [], "default": ["std"],
       "std": ["alloc"], "unstable": []
@@ -225,7 +225,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-task/0.3.5/download",
-    "downloads": 3584847,
+    "downloads": 3601946,
     "features": {
       "alloc": [], "cfg-target-has-atomic": [], "default": ["std"],
       "std": ["alloc", "once_cell"], "unstable": []
@@ -271,7 +271,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-task/0.3.6/download",
-    "downloads": 471762,
+    "downloads": 476637,
     "features": {
       "alloc": [], "cfg-target-has-atomic": [], "default": ["std"],
       "std": ["alloc", "once_cell"], "unstable": []
@@ -317,7 +317,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-task/0.3.7/download",
-    "downloads": 494886,
+    "downloads": 505735,
     "features": {
       "alloc": [], "cfg-target-has-atomic": [], "default": ["std"],
       "std": ["alloc", "once_cell"], "unstable": []
@@ -363,7 +363,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-task/0.3.8/download",
-    "downloads": 1167923,
+    "downloads": 1227624,
     "features": {
       "alloc": [], "cfg-target-has-atomic": [], "default": ["std"],
       "std": ["alloc", "once_cell"], "unstable": []
@@ -409,7 +409,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-task/0.3.9/download",
-    "downloads": 0,
+    "downloads": 98823,
     "features": {
       "alloc": [], "cfg-target-has-atomic": [], "default": ["std"],
       "std": ["alloc", "once_cell"], "unstable": []
@@ -428,5 +428,51 @@
     },
     "readme_path": "/api/v1/crates/futures-task/0.3.9/readme",
     "updated_at": "2021-01-08T04:32:15.822002+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2021-01-13T11:36:47.041491+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/43724913?v=4",
+          "id": 33035, "login": "taiki-e", "name": "Taiki Endo",
+          "url": "https://github.com/taiki-e"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Alex Crichton <alex@alexcrichton.com>"]},
+      "users": []
+    },
+    "crate": "futures-task", "crate_size": 11065,
+    "created_at": "2021-01-13T11:36:47.041491+00:00",
+    "dependencies": [
+      {
+        "crate_id": "once_cell", "default_features": false, "downloads": 0,
+        "features": ["std"], "id": 2012617, "kind": "normal",
+        "optional": true, "req": "^1.3.1", "target": null,
+        "version_id": 326852
+      }
+    ],
+    "dl_path": "/api/v1/crates/futures-task/0.3.10/download",
+    "downloads": 1615,
+    "features": {
+      "alloc": [], "cfg-target-has-atomic": [], "default": ["std"],
+      "std": ["alloc", "once_cell"], "unstable": []
+    },
+    "id": 326852, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/futures-task/0.3.10/authors",
+      "dependencies": "/api/v1/crates/futures-task/0.3.10/dependencies",
+      "version_downloads": "/api/v1/crates/futures-task/0.3.10/downloads"
+    },
+    "num": "0.3.10",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/43724913?v=4",
+      "id": 33035, "login": "taiki-e", "name": "Taiki Endo",
+      "url": "https://github.com/taiki-e"
+    },
+    "readme_path": "/api/v1/crates/futures-task/0.3.10/readme",
+    "updated_at": "2021-01-13T11:36:47.041491+00:00", "yanked": false
   }
 ]
