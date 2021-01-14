@@ -9,7 +9,7 @@
     "created_at": "2016-08-09T22:30:40.796094+00:00",
     "dependencies": [],
     "dl_path": "/api/v1/crates/headers/0.1.0/download",
-    "downloads": 10570, "features": {}, "id": 31533, "license": "MIT",
+    "downloads": 10835, "features": {}, "id": 31533, "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/headers/0.1.0/authors",
       "dependencies": "/api/v1/crates/headers/0.1.0/dependencies",
@@ -77,7 +77,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/headers/0.2.0/download",
-    "downloads": 845, "features": {"nightly": []}, "id": 130079,
+    "downloads": 855, "features": {"nightly": []}, "id": 130079,
     "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/headers/0.2.0/authors",
@@ -146,7 +146,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/headers/0.2.1/download",
-    "downloads": 84867, "features": {"nightly": []}, "id": 131336,
+    "downloads": 85878, "features": {"nightly": []}, "id": 131336,
     "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/headers/0.2.1/authors",
@@ -215,7 +215,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/headers/0.2.2/download",
-    "downloads": 126, "features": {"nightly": []}, "id": 175214,
+    "downloads": 135, "features": {"nightly": []}, "id": 175214,
     "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/headers/0.2.2/authors",
@@ -283,7 +283,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/headers/0.2.3/download",
-    "downloads": 254385, "features": {"nightly": []}, "id": 175215,
+    "downloads": 272428, "features": {"nightly": []}, "id": 175215,
     "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/headers/0.2.3/authors",
@@ -360,7 +360,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/headers/0.3.0/download",
-    "downloads": 24344, "features": {"nightly": []}, "id": 195988,
+    "downloads": 24951, "features": {"nightly": []}, "id": 195988,
     "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/headers/0.3.0/authors",
@@ -437,7 +437,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/headers/0.3.1/download",
-    "downloads": 89003, "features": {"nightly": []}, "id": 206348,
+    "downloads": 90297, "features": {"nightly": []}, "id": 206348,
     "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/headers/0.3.1/authors",
@@ -514,7 +514,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/headers/0.3.2/download",
-    "downloads": 635923, "features": {"nightly": []}, "id": 219515,
+    "downloads": 917637, "features": {"nightly": []}, "id": 219515,
     "license": "MIT",
     "links": {
       "authors": "/api/v1/crates/headers/0.3.2/authors",
@@ -529,5 +529,81 @@
     },
     "readme_path": "/api/v1/crates/headers/0.3.2/readme",
     "updated_at": "2020-03-09T18:50:13.192112+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2021-01-13T21:36:52.458047+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/51479?v=4",
+          "id": 359, "login": "seanmonstar", "name": "Sean McArthur",
+          "url": "https://github.com/seanmonstar"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Sean McArthur <sean@seanmonstar.com>"]},
+      "users": []
+    },
+    "crate": "headers", "crate_size": 67209,
+    "created_at": "2021-01-13T21:36:52.458047+00:00",
+    "dependencies": [
+      {
+        "crate_id": "base64", "default_features": true, "downloads": 0,
+        "features": [], "id": 2014425, "kind": "normal", "optional": false,
+        "req": "^0.13", "target": null, "version_id": 327083
+      },
+      {
+        "crate_id": "bitflags", "default_features": true, "downloads": 0,
+        "features": [], "id": 2014426, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 327083
+      },
+      {
+        "crate_id": "bytes", "default_features": true, "downloads": 0,
+        "features": [], "id": 2014427, "kind": "normal", "optional": false,
+        "req": "^1", "target": null, "version_id": 327083
+      },
+      {
+        "crate_id": "headers-core", "default_features": true,
+        "downloads": 0, "features": [], "id": 2014428, "kind": "normal",
+        "optional": false, "req": "^0.2", "target": null,
+        "version_id": 327083
+      },
+      {
+        "crate_id": "http", "default_features": true, "downloads": 0,
+        "features": [], "id": 2014429, "kind": "normal", "optional": false,
+        "req": "^0.2.0", "target": null, "version_id": 327083
+      },
+      {
+        "crate_id": "mime", "default_features": true, "downloads": 0,
+        "features": [], "id": 2014430, "kind": "normal", "optional": false,
+        "req": "^0.3.14", "target": null, "version_id": 327083
+      },
+      {
+        "crate_id": "sha-1", "default_features": true, "downloads": 0,
+        "features": [], "id": 2014431, "kind": "normal", "optional": false,
+        "req": "^0.8", "target": null, "version_id": 327083
+      },
+      {
+        "crate_id": "time", "default_features": true, "downloads": 0,
+        "features": [], "id": 2014432, "kind": "normal", "optional": false,
+        "req": "^0.1.34", "target": null, "version_id": 327083
+      }
+    ],
+    "dl_path": "/api/v1/crates/headers/0.3.3/download", "downloads": 30,
+    "features": {"nightly": []}, "id": 327083, "license": "MIT",
+    "links": {
+      "authors": "/api/v1/crates/headers/0.3.3/authors",
+      "dependencies": "/api/v1/crates/headers/0.3.3/dependencies",
+      "version_downloads": "/api/v1/crates/headers/0.3.3/downloads"
+    },
+    "num": "0.3.3",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/51479?v=4",
+      "id": 359, "login": "seanmonstar", "name": "Sean McArthur",
+      "url": "https://github.com/seanmonstar"
+    },
+    "readme_path": "/api/v1/crates/headers/0.3.3/readme",
+    "updated_at": "2021-01-13T21:36:52.458047+00:00", "yanked": false
   }
 ]
