@@ -123,7 +123,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-test/0.3.1/download",
-    "downloads": 26361,
+    "downloads": 26362,
     "features": {
       "default": ["std"],
       "std": [
@@ -345,7 +345,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-test/0.3.4/download",
-    "downloads": 9630,
+    "downloads": 9631,
     "features": {
       "default": ["std"],
       "std": [
@@ -425,7 +425,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-test/0.3.5/download",
-    "downloads": 45226,
+    "downloads": 45231,
     "features": {
       "default": ["std"],
       "std": [
@@ -517,7 +517,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-test/0.3.6/download",
-    "downloads": 9249,
+    "downloads": 9387,
     "features": {
       "default": ["std"],
       "std": [
@@ -713,7 +713,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-test/0.3.8/download",
-    "downloads": 18515,
+    "downloads": 18546,
     "features": {
       "default": ["std"],
       "std": [
@@ -805,7 +805,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-test/0.3.9/download",
-    "downloads": 1754,
+    "downloads": 1796,
     "features": {
       "default": ["std"],
       "std": [
@@ -897,7 +897,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-test/0.3.10/download",
-    "downloads": 626,
+    "downloads": 637,
     "features": {
       "default": ["std"],
       "std": [
@@ -989,7 +989,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/futures-test/0.3.11/download",
-    "downloads": 4,
+    "downloads": 295,
     "features": {
       "default": ["std"],
       "std": [
@@ -1012,5 +1012,97 @@
     },
     "readme_path": "/api/v1/crates/futures-test/0.3.11/readme",
     "updated_at": "2021-01-14T18:40:32.713705+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2021-01-15T12:03:55.243099+00:00",
+        "user": {
+          "avatar": "https://avatars1.githubusercontent.com/u/43724913?v=4",
+          "id": 33035, "login": "taiki-e", "name": "Taiki Endo",
+          "url": "https://github.com/taiki-e"
+        }
+      }
+    ],
+    "authors": {"meta": {"names": ["Wim Looman <wim@nemo157.com>"]}, "users": []},
+    "crate": "futures-test", "crate_size": 15542,
+    "created_at": "2021-01-15T12:03:55.243099+00:00",
+    "dependencies": [
+      {
+        "crate_id": "futures-core", "default_features": false,
+        "downloads": 0, "features": [], "id": 2021309, "kind": "normal",
+        "optional": false, "req": "^0.3.12", "target": null,
+        "version_id": 327822
+      },
+      {
+        "crate_id": "futures-executor", "default_features": false,
+        "downloads": 0, "features": [], "id": 2021310, "kind": "normal",
+        "optional": false, "req": "^0.3.12", "target": null,
+        "version_id": 327822
+      },
+      {
+        "crate_id": "futures-io", "default_features": false, "downloads": 0,
+        "features": [], "id": 2021311, "kind": "normal", "optional": false,
+        "req": "^0.3.12", "target": null, "version_id": 327822
+      },
+      {
+        "crate_id": "futures-sink", "default_features": false,
+        "downloads": 0, "features": [], "id": 2021312, "kind": "normal",
+        "optional": false, "req": "^0.3.12", "target": null,
+        "version_id": 327822
+      },
+      {
+        "crate_id": "futures-task", "default_features": false,
+        "downloads": 0, "features": [], "id": 2021313, "kind": "normal",
+        "optional": false, "req": "^0.3.12", "target": null,
+        "version_id": 327822
+      },
+      {
+        "crate_id": "futures-util", "default_features": false,
+        "downloads": 0, "features": [], "id": 2021314, "kind": "normal",
+        "optional": false, "req": "^0.3.12", "target": null,
+        "version_id": 327822
+      },
+      {
+        "crate_id": "pin-project", "default_features": true, "downloads": 0,
+        "features": [], "id": 2021316, "kind": "normal", "optional": false,
+        "req": "^1.0.1", "target": null, "version_id": 327822
+      },
+      {
+        "crate_id": "pin-utils", "default_features": false, "downloads": 0,
+        "features": [], "id": 2021317, "kind": "normal", "optional": false,
+        "req": "^0.1.0", "target": null, "version_id": 327822
+      },
+      {
+        "crate_id": "once_cell", "default_features": false, "downloads": 0,
+        "features": ["std"], "id": 2021315, "kind": "normal",
+        "optional": true, "req": "^1.3.1", "target": null,
+        "version_id": 327822
+      }
+    ],
+    "dl_path": "/api/v1/crates/futures-test/0.3.12/download",
+    "downloads": 12,
+    "features": {
+      "default": ["std"],
+      "std": [
+        "futures-core/std", "futures-task/std", "futures-io/std",
+        "futures-util/std", "futures-util/io", "futures-executor/std",
+        "once_cell"
+      ]
+    },
+    "id": 327822, "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/futures-test/0.3.12/authors",
+      "dependencies": "/api/v1/crates/futures-test/0.3.12/dependencies",
+      "version_downloads": "/api/v1/crates/futures-test/0.3.12/downloads"
+    },
+    "num": "0.3.12",
+    "published_by": {
+      "avatar": "https://avatars1.githubusercontent.com/u/43724913?v=4",
+      "id": 33035, "login": "taiki-e", "name": "Taiki Endo",
+      "url": "https://github.com/taiki-e"
+    },
+    "readme_path": "/api/v1/crates/futures-test/0.3.12/readme",
+    "updated_at": "2021-01-15T12:03:55.243099+00:00", "yanked": false
   }
 ]
