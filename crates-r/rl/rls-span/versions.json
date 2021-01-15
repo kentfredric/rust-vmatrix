@@ -27,7 +27,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/rls-span/0.1.0/download",
-    "downloads": 36600,
+    "downloads": 36604,
     "features": {
       "default": [], "serialize-rustc": ["rustc-serialize"],
       "serialize-serde": ["serde", "serde_derive"]
@@ -70,7 +70,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/rls-span/0.2.0/download",
-    "downloads": 360,
+    "downloads": 363,
     "features": {
       "default": [], "serialize-rustc": ["rustc-serialize"],
       "serialize-serde": ["serde", "serde_derive"]
@@ -113,7 +113,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/rls-span/0.3.0/download",
-    "downloads": 319,
+    "downloads": 322,
     "features": {
       "default": [], "serialize-rustc": ["rustc-serialize"],
       "serialize-serde": ["serde", "serde_derive"]
@@ -156,7 +156,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/rls-span/0.4.0/download",
-    "downloads": 544575,
+    "downloads": 544768,
     "features": {
       "default": [], "serialize-rustc": ["rustc-serialize"],
       "serialize-serde": ["serde", "serde_derive"]
@@ -199,7 +199,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/rls-span/0.4.1/download",
-    "downloads": 72532,
+    "downloads": 73238,
     "features": {
       "default": [], "serialize-rustc": ["rustc-serialize"],
       "serialize-serde": ["serde", "serde_derive"]
@@ -236,7 +236,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/rls-span/0.5.0/download",
-    "downloads": 339,
+    "downloads": 342,
     "features": {"default": [], "derive": ["serde_derive"]},
     "id": 145919, "license": "Apache-2.0/MIT",
     "links": {
@@ -281,7 +281,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/rls-span/0.5.1/download",
-    "downloads": 363449,
+    "downloads": 363821,
     "features": {
       "default": [], "derive": ["serde_derive"],
       "serialize-rustc": ["rustc-serialize"]
@@ -329,7 +329,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/rls-span/0.5.2/download",
-    "downloads": 224524,
+    "downloads": 296244,
     "features": {
       "default": [], "derive": ["serde_derive"], "nightly": [],
       "serialize-rustc": ["rustc-serialize"]
@@ -348,5 +348,56 @@
     },
     "readme_path": "/api/v1/crates/rls-span/0.5.2/readme",
     "updated_at": "2019-08-01T13:23:50.637501+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2021-01-15T00:09:52.951687+00:00",
+        "user": {
+          "avatar": "https://avatars2.githubusercontent.com/u/3093213?v=4",
+          "id": 7027, "login": "Xanewok", "name": "Igor Matuszewski",
+          "url": "https://github.com/Xanewok"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Nick Cameron <ncameron@mozilla.com>"]},
+      "users": []
+    },
+    "crate": "rls-span", "crate_size": 3590,
+    "created_at": "2021-01-15T00:09:52.951687+00:00",
+    "dependencies": [
+      {
+        "crate_id": "serde", "default_features": true, "downloads": 0,
+        "features": [], "id": 2019841, "kind": "normal", "optional": false,
+        "req": "^1.0", "target": null, "version_id": 327641
+      },
+      {
+        "crate_id": "rustc-serialize", "default_features": true,
+        "downloads": 0, "features": [], "id": 2019840, "kind": "normal",
+        "optional": true, "req": "^0.3.24", "target": null,
+        "version_id": 327641
+      }
+    ],
+    "dl_path": "/api/v1/crates/rls-span/0.5.3/download",
+    "downloads": 92,
+    "features": {
+      "default": [], "derive": ["serde/derive"], "nightly": [],
+      "serialize-rustc": ["rustc-serialize"]
+    },
+    "id": 327641, "license": "Apache-2.0/MIT",
+    "links": {
+      "authors": "/api/v1/crates/rls-span/0.5.3/authors",
+      "dependencies": "/api/v1/crates/rls-span/0.5.3/dependencies",
+      "version_downloads": "/api/v1/crates/rls-span/0.5.3/downloads"
+    },
+    "num": "0.5.3",
+    "published_by": {
+      "avatar": "https://avatars2.githubusercontent.com/u/3093213?v=4",
+      "id": 7027, "login": "Xanewok", "name": "Igor Matuszewski",
+      "url": "https://github.com/Xanewok"
+    },
+    "readme_path": "/api/v1/crates/rls-span/0.5.3/readme",
+    "updated_at": "2021-01-15T00:09:52.951687+00:00", "yanked": false
   }
 ]
