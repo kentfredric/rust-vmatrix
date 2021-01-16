@@ -193,7 +193,7 @@
         "req": "^0.1.5", "target": null, "version_id": 125598
       }
     ],
-    "dl_path": "/api/v1/crates/rowan/0.1.4/download", "downloads": 1348,
+    "dl_path": "/api/v1/crates/rowan/0.1.4/download", "downloads": 1349,
     "features": {}, "id": 125598, "license": "MIT OR Apache-2.0",
     "links": {
       "authors": "/api/v1/crates/rowan/0.1.4/authors",
@@ -1006,7 +1006,7 @@
         "req": "^1.0.89", "target": null, "version_id": 166564
       }
     ],
-    "dl_path": "/api/v1/crates/rowan/0.6.2/download", "downloads": 8064,
+    "dl_path": "/api/v1/crates/rowan/0.6.2/download", "downloads": 8065,
     "features": {"serde1": ["serde", "text_unit/serde"]}, "id": 166564,
     "license": "MIT OR Apache-2.0",
     "links": {
@@ -1059,7 +1059,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/rowan/0.6.3/download",
-    "downloads": 13493,
+    "downloads": 13536,
     "features": {"serde1": ["serde", "text_unit/serde"]}, "id": 190320,
     "license": "MIT OR Apache-2.0",
     "links": {
@@ -1481,7 +1481,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/rowan/0.9.1/download",
-    "downloads": 12517,
+    "downloads": 12524,
     "features": {"serde1": ["serde", "text_unit/serde"]}, "id": 215501,
     "license": "MIT OR Apache-2.0",
     "links": {
@@ -1548,7 +1548,7 @@
       }
     ],
     "dl_path": "/api/v1/crates/rowan/0.10.0/download",
-    "downloads": 111262,
+    "downloads": 111636,
     "features": {"serde1": ["serde", "text-size/serde"]}, "id": 234622,
     "license": "MIT OR Apache-2.0",
     "links": {
@@ -1614,7 +1614,7 @@
         "req": "^1.0.89", "target": null, "version_id": 327928
       }
     ],
-    "dl_path": "/api/v1/crates/rowan/0.10.1/download", "downloads": 0,
+    "dl_path": "/api/v1/crates/rowan/0.10.1/download", "downloads": 299,
     "features": {"serde1": ["serde", "text-size/serde"]}, "id": 327928,
     "license": "MIT OR Apache-2.0",
     "links": {
@@ -1630,5 +1630,137 @@
     },
     "readme_path": "/api/v1/crates/rowan/0.10.1/readme",
     "updated_at": "2021-01-15T17:39:59.273234+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2021-01-16T18:08:59.928484+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/1711539?v=4",
+          "id": 2699, "login": "matklad", "name": "Aleksey Kladov",
+          "url": "https://github.com/matklad"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Aleksey Kladov <aleksey.kladov@gmail.com>"]},
+      "users": []
+    },
+    "crate": "rowan", "crate_size": 25109,
+    "created_at": "2021-01-16T18:08:59.928484+00:00",
+    "dependencies": [
+      {
+        "crate_id": "m_lexer", "default_features": true, "downloads": 0,
+        "features": [], "id": 2025523, "kind": "dev", "optional": false,
+        "req": "^0.0.4", "target": null, "version_id": 328296
+      },
+      {
+        "crate_id": "rustc-hash", "default_features": true, "downloads": 0,
+        "features": [], "id": 2025518, "kind": "normal", "optional": false,
+        "req": "^1.0.1", "target": null, "version_id": 328296
+      },
+      {
+        "crate_id": "smol_str", "default_features": true, "downloads": 0,
+        "features": [], "id": 2025520, "kind": "normal", "optional": false,
+        "req": "^0.1.10", "target": null, "version_id": 328296
+      },
+      {
+        "crate_id": "text-size", "default_features": true, "downloads": 0,
+        "features": [], "id": 2025521, "kind": "normal", "optional": false,
+        "req": "^1.1.0", "target": null, "version_id": 328296
+      },
+      {
+        "crate_id": "triomphe", "default_features": true, "downloads": 0,
+        "features": [], "id": 2025522, "kind": "normal", "optional": false,
+        "req": "^0.1.1", "target": null, "version_id": 328296
+      },
+      {
+        "crate_id": "serde", "default_features": false, "downloads": 0,
+        "features": [], "id": 2025519, "kind": "normal", "optional": true,
+        "req": "^1.0.89", "target": null, "version_id": 328296
+      }
+    ],
+    "dl_path": "/api/v1/crates/rowan/0.10.2/download", "downloads": 52,
+    "features": {"serde1": ["serde", "text-size/serde"]}, "id": 328296,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/rowan/0.10.2/authors",
+      "dependencies": "/api/v1/crates/rowan/0.10.2/dependencies",
+      "version_downloads": "/api/v1/crates/rowan/0.10.2/downloads"
+    },
+    "num": "0.10.2",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/1711539?v=4",
+      "id": 2699, "login": "matklad", "name": "Aleksey Kladov",
+      "url": "https://github.com/matklad"
+    },
+    "readme_path": "/api/v1/crates/rowan/0.10.2/readme",
+    "updated_at": "2021-01-16T18:08:59.928484+00:00", "yanked": false
+  },
+  {
+    "audit_actions": [
+      {
+        "action": "publish", "time": "2021-01-16T20:05:17.504049+00:00",
+        "user": {
+          "avatar": "https://avatars3.githubusercontent.com/u/1711539?v=4",
+          "id": 2699, "login": "matklad", "name": "Aleksey Kladov",
+          "url": "https://github.com/matklad"
+        }
+      }
+    ],
+    "authors": {
+      "meta": {"names": ["Aleksey Kladov <aleksey.kladov@gmail.com>"]},
+      "users": []
+    },
+    "crate": "rowan", "crate_size": 25398,
+    "created_at": "2021-01-16T20:05:17.504049+00:00",
+    "dependencies": [
+      {
+        "crate_id": "m_lexer", "default_features": true, "downloads": 0,
+        "features": [], "id": 2025887, "kind": "dev", "optional": false,
+        "req": "^0.0.4", "target": null, "version_id": 328346
+      },
+      {
+        "crate_id": "rustc-hash", "default_features": true, "downloads": 0,
+        "features": [], "id": 2025882, "kind": "normal", "optional": false,
+        "req": "^1.0.1", "target": null, "version_id": 328346
+      },
+      {
+        "crate_id": "smol_str", "default_features": true, "downloads": 0,
+        "features": [], "id": 2025884, "kind": "normal", "optional": false,
+        "req": "^0.1.10", "target": null, "version_id": 328346
+      },
+      {
+        "crate_id": "text-size", "default_features": true, "downloads": 0,
+        "features": [], "id": 2025885, "kind": "normal", "optional": false,
+        "req": "^1.1.0", "target": null, "version_id": 328346
+      },
+      {
+        "crate_id": "triomphe", "default_features": true, "downloads": 0,
+        "features": [], "id": 2025886, "kind": "normal", "optional": false,
+        "req": "^0.1.1", "target": null, "version_id": 328346
+      },
+      {
+        "crate_id": "serde", "default_features": false, "downloads": 0,
+        "features": [], "id": 2025883, "kind": "normal", "optional": true,
+        "req": "^1.0.89", "target": null, "version_id": 328346
+      }
+    ],
+    "dl_path": "/api/v1/crates/rowan/0.10.3/download", "downloads": 20,
+    "features": {"serde1": ["serde", "text-size/serde"]}, "id": 328346,
+    "license": "MIT OR Apache-2.0",
+    "links": {
+      "authors": "/api/v1/crates/rowan/0.10.3/authors",
+      "dependencies": "/api/v1/crates/rowan/0.10.3/dependencies",
+      "version_downloads": "/api/v1/crates/rowan/0.10.3/downloads"
+    },
+    "num": "0.10.3",
+    "published_by": {
+      "avatar": "https://avatars3.githubusercontent.com/u/1711539?v=4",
+      "id": 2699, "login": "matklad", "name": "Aleksey Kladov",
+      "url": "https://github.com/matklad"
+    },
+    "readme_path": "/api/v1/crates/rowan/0.10.3/readme",
+    "updated_at": "2021-01-16T20:05:17.504049+00:00", "yanked": false
   }
 ]
